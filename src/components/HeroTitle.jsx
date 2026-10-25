@@ -30,12 +30,12 @@ export function HeroTitle({ mode }) {
 
         <h1
           style={{
-            fontFamily: "'Knewave', 'Shrikhand', 'Gochi Hand', cursive",
-            fontSize: 'clamp(52px, 5.5vw, 76px)',
-            lineHeight: '0.92',
+            fontFamily: "'Press Start 2P', monospace",
+            fontSize: 'clamp(30px, 3.8vw, 46px)',
+            lineHeight: '1.2',
             color: '#2A6B52',
-            textShadow: '3px 3px 0px #A9C4B8',
-            letterSpacing: '0.02em',
+            textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
+            letterSpacing: '0.04em',
             margin: 0,
             textTransform: 'uppercase',
           }}
@@ -52,48 +52,48 @@ export function HeroTitle({ mode }) {
     return (
       <div style={{ position: 'relative', display: 'inline-block', userSelect: 'none' }}>
         {/* Tick marks above LEARN */}
-        <div style={{ position: 'absolute', top: '-18px', left: '20px' }}>
+        <div style={{ position: 'absolute', top: '-18px', left: '16px' }}>
           <TickMarks count={3} color="#E8A857" size={20} />
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
           <div style={{ position: 'relative', display: 'inline-block' }}>
             <h1
               style={{
-                fontFamily: "'Knewave', 'Shrikhand', 'Gochi Hand', cursive",
-                fontSize: 'clamp(54px, 5.8vw, 80px)',
-                lineHeight: '0.92',
+                fontFamily: "'Press Start 2P', monospace",
+                fontSize: 'clamp(32px, 4.2vw, 50px)',
+                lineHeight: '1.15',
                 color: '#2A6B52',
-                textShadow: '3px 3px 0px #A9C4B8',
-                letterSpacing: '0.03em',
+                textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
+                letterSpacing: '0.04em',
                 margin: 0,
                 textTransform: 'uppercase',
               }}
             >
               LEARN
             </h1>
-            <div style={{ position: 'absolute', bottom: '-4px', left: '4px', width: '90%' }}>
+            <div style={{ position: 'absolute', bottom: '-8px', left: '2px', width: '92%' }}>
               <HandUnderline width={180} height={10} color="#E8A857" />
             </div>
           </div>
 
-          <div style={{ position: 'relative', display: 'inline-block', marginTop: '10px' }}>
+          <div style={{ position: 'relative', display: 'inline-block', marginTop: '12px' }}>
             <h1
               style={{
-                fontFamily: "'Knewave', 'Shrikhand', 'Gochi Hand', cursive",
-                fontSize: 'clamp(54px, 5.8vw, 80px)',
-                lineHeight: '0.92',
+                fontFamily: "'Press Start 2P', monospace",
+                fontSize: 'clamp(32px, 4.2vw, 50px)',
+                lineHeight: '1.15',
                 color: '#2A6B52',
-                textShadow: '3px 3px 0px #A9C4B8',
-                letterSpacing: '0.03em',
+                textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
+                letterSpacing: '0.04em',
                 margin: 0,
                 textTransform: 'uppercase',
               }}
             >
               VOCAB
             </h1>
-            <div style={{ position: 'absolute', bottom: '-4px', left: '4px', width: '90%' }}>
-              <HandUnderline width={190} height={10} color="#E8A857" />
+            <div style={{ position: 'absolute', bottom: '-8px', left: '2px', width: '92%' }}>
+              <HandUnderline width={180} height={10} color="#E8A857" />
             </div>
           </div>
         </div>
@@ -117,12 +117,12 @@ export function HeroTitle({ mode }) {
 
         <h1
           style={{
-            fontFamily: "'Knewave', 'Shrikhand', 'Gochi Hand', cursive",
-            fontSize: 'clamp(52px, 5.5vw, 76px)',
-            lineHeight: '0.94',
+            fontFamily: "'Press Start 2P', monospace",
+            fontSize: 'clamp(28px, 3.6vw, 44px)',
+            lineHeight: '1.25',
             color: '#2A6B52',
-            textShadow: '3px 3px 0px #A9C4B8',
-            letterSpacing: '0.03em',
+            textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
+            letterSpacing: '0.04em',
             margin: 0,
             textTransform: 'uppercase',
           }}
@@ -156,30 +156,30 @@ export function HeroTitle({ mode }) {
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <h1
           style={{
-            fontFamily: "'Knewave', 'Shrikhand', 'Gochi Hand', cursive",
-            fontSize: 'clamp(58px, 6vw, 84px)',
-            lineHeight: '0.88',
+            fontFamily: "'Press Start 2P', monospace",
+            fontSize: 'clamp(36px, 4.6vw, 54px)',
+            lineHeight: '1.15',
             color: '#2A6B52',
-            textShadow: '3px 3px 0px #A9C4B8',
-            letterSpacing: '0.02em',
+            textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
+            letterSpacing: '0.03em',
             margin: 0,
           }}
         >
           Speech
         </h1>
 
-        {/* Orange wavy squiggle running between the two words */}
-        <div style={{ margin: '-4px 0 2px 2px' }}>
-          <WavySquiggle width={170} height={18} color="#E8A857" />
+        {/* Orange pixel wave running between the two words */}
+        <div style={{ margin: '4px 0 6px 2px' }}>
+          <WavySquiggle width={170} height={16} color="#E8A857" />
         </div>
 
         <h1
           style={{
-            fontFamily: "'Knewave', 'Shrikhand', 'Gochi Hand', cursive",
-            fontSize: 'clamp(58px, 6vw, 84px)',
-            lineHeight: '0.88',
+            fontFamily: "'Press Start 2P', monospace",
+            fontSize: 'clamp(36px, 4.6vw, 54px)',
+            lineHeight: '1.15',
             color: '#2A6B52',
-            textShadow: '3px 3px 0px #A9C4B8',
+            textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
             letterSpacing: '0.04em',
             margin: 0,
           }}

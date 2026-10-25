@@ -91,36 +91,37 @@ export function Lever({ onPull, isSpinning, showAnnotation = true }) {
           }}
         >
           <motion.div
-            whileHover={!isSpinning ? { scale: 1.08, filter: 'brightness(1.05)' } : {}}
+            whileHover={!isSpinning ? { scale: 1.08 } : {}}
             whileTap={!isSpinning ? { scale: 0.94 } : {}}
             style={{
               width: '32px',
               height: '32px',
-              borderRadius: '50%',
+              borderRadius: '0px',
               backgroundColor: '#B79AE6',
               border: '2px solid #1E4D3B',
-              boxShadow: '0 3px 8px rgba(30, 77, 59, 0.18), inset 0 2px 4px rgba(255, 255, 255, 0.45)',
+              boxShadow: '3px 3px 0px #1E4D3B, inset 2px 2px 0px rgba(255, 255, 255, 0.5)',
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
               justifyContent: 'center',
-              gap: '2.5px',
+              gap: '3px',
               cursor: isSpinning ? 'not-allowed' : 'grab',
               zIndex: 3,
             }}
           >
-            <div style={{ width: '12px', height: '2px', backgroundColor: '#8E6EC4', borderRadius: '1px' }} />
-            <div style={{ width: '14px', height: '2px', backgroundColor: '#8E6EC4', borderRadius: '1px' }} />
-            <div style={{ width: '12px', height: '2px', backgroundColor: '#8E6EC4', borderRadius: '1px' }} />
+            <div style={{ width: '14px', height: '2px', backgroundColor: '#8E6EC4' }} />
+            <div style={{ width: '16px', height: '2px', backgroundColor: '#8E6EC4' }} />
+            <div style={{ width: '14px', height: '2px', backgroundColor: '#8E6EC4' }} />
           </motion.div>
 
           <div
             style={{
-              width: '6px',
+              width: '8px',
               flex: 1,
               backgroundColor: '#1E4D3B',
-              borderRadius: '3px',
-              boxShadow: 'inset 1px 0 2px rgba(255, 255, 255, 0.25)',
+              borderRadius: '0px',
+              border: '1px solid #0E3B33',
+              boxShadow: 'inset 2px 0 0 rgba(255, 255, 255, 0.25)',
               margin: '-2px 0',
             }}
           />
@@ -128,11 +129,12 @@ export function Lever({ onPull, isSpinning, showAnnotation = true }) {
 
         <div
           style={{
-            width: '18px',
-            height: '18px',
-            borderRadius: '50%',
+            width: '20px',
+            height: '16px',
+            borderRadius: '0px',
             backgroundColor: '#1E4D3B',
-            boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
+            border: '2px solid #0E3B33',
+            boxShadow: '2px 2px 0px #0E3B33',
             zIndex: 4,
           }}
         />
@@ -141,10 +143,11 @@ export function Lever({ onPull, isSpinning, showAnnotation = true }) {
           style={{
             position: 'absolute',
             bottom: '2px',
-            width: '26px',
-            height: '5px',
+            width: '28px',
+            height: '6px',
             backgroundColor: '#D9D5C7',
-            borderRadius: '3px',
+            border: '1px solid #1E4D3B',
+            borderRadius: '0px',
             zIndex: 1,
           }}
         />

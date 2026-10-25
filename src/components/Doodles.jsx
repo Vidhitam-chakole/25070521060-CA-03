@@ -1,191 +1,220 @@
-// src/components/Doodles.jsx
+// src/components/Doodles.jsx - Pixel Art Edition
 import React from 'react';
 
-/** Orange wavy squiggle between title words */
+/** Orange pixel stepped wave between title words */
 export function WavySquiggle({ width = 160, height = 18, color = '#E8A857', className = '' }) {
   return (
     <svg
       width={width}
       height={height}
-      viewBox="0 0 160 18"
+      viewBox="0 0 160 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
-      style={{ display: 'inline-block' }}
+      style={{ display: 'inline-block', shapeRendering: 'crispEdges' }}
     >
-      <path
-        d="M3 10 C 15 2, 25 16, 38 9 C 50 2, 62 16, 75 9 C 88 2, 100 16, 112 9 C 125 2, 137 16, 157 9"
-        stroke={color}
-        strokeWidth="3.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      {/* 8-bit Stepped Pixel Wave */}
+      <rect x="0" y="8" width="10" height="4" fill={color} />
+      <rect x="10" y="4" width="10" height="4" fill={color} />
+      <rect x="20" y="0" width="12" height="4" fill={color} />
+      <rect x="32" y="4" width="10" height="4" fill={color} />
+      <rect x="42" y="8" width="10" height="4" fill={color} />
+      <rect x="52" y="12" width="12" height="4" fill={color} />
+      <rect x="64" y="8" width="10" height="4" fill={color} />
+      <rect x="74" y="4" width="10" height="4" fill={color} />
+      <rect x="84" y="0" width="12" height="4" fill={color} />
+      <rect x="96" y="4" width="10" height="4" fill={color} />
+      <rect x="106" y="8" width="10" height="4" fill={color} />
+      <rect x="116" y="12" width="12" height="4" fill={color} />
+      <rect x="128" y="8" width="10" height="4" fill={color} />
+      <rect x="138" y="4" width="10" height="4" fill={color} />
+      <rect x="148" y="0" width="12" height="4" fill={color} />
     </svg>
   );
 }
 
-/** Small orange arc strokes (sparkles around titles) */
+/** 8-bit pixel sparkles around titles */
 export function SparkleArcs({ color = '#E8A857', size = 26, className = '' }) {
   return (
     <svg
       width={size}
       height={size}
-      viewBox="0 0 28 28"
+      viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      style={{ shapeRendering: 'crispEdges' }}
     >
-      <path
-        d="M5 8 C 8 5, 12 5, 15 7"
-        stroke={color}
-        strokeWidth="2.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M3 15 C 6 12, 10 12, 13 14"
-        stroke={color}
-        strokeWidth="2.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M7 21 C 10 19, 14 19, 17 21"
-        stroke={color}
-        strokeWidth="2.5"
-        strokeLinecap="round"
-      />
+      {/* Pixel Sparkle 1 */}
+      <rect x="6" y="2" width="2" height="6" fill={color} />
+      <rect x="4" y="4" width="6" height="2" fill={color} />
+
+      {/* Pixel Sparkle 2 */}
+      <rect x="16" y="10" width="3" height="9" fill={color} />
+      <rect x="13" y="13" width="9" height="3" fill={color} />
+      <rect x="15" y="12" width="5" height="5" fill={color} />
+
+      {/* Pixel Sparkle 3 */}
+      <rect x="4" y="16" width="2" height="5" fill={color} />
+      <rect x="2" y="18" width="6" height="2" fill={color} />
     </svg>
   );
 }
 
-/** 4-point star doodle */
+/** 8-bit pixel star doodle */
 export function StarDoodle({ size = 22, color = '#E8A857', className = '' }) {
   return (
     <svg
       width={size}
       height={size}
-      viewBox="0 0 24 24"
-      fill={color}
+      viewBox="0 0 16 16"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      style={{ shapeRendering: 'crispEdges' }}
     >
-      <path d="M12 2 C12 7, 7 12, 2 12 C7 12, 12 17, 12 22 C12 17, 17 12, 22 12 C17 12, 12 7, 12 2 Z" />
+      <rect x="7" y="0" width="2" height="16" fill={color} />
+      <rect x="0" y="7" width="16" height="2" fill={color} />
+      <rect x="5" y="2" width="6" height="12" fill={color} />
+      <rect x="2" y="5" width="12" height="6" fill={color} />
+      <rect x="4" y="4" width="8" height="8" fill={color} />
+      <rect x="6" y="6" width="4" height="4" fill={color} />
     </svg>
   );
 }
 
-/** Flower doodle for Interview Prep */
+/** 8-bit pixel flower */
 export function FlowerDoodle({ size = 24, color = '#E8A857', className = '' }) {
   return (
     <svg
       width={size}
       height={size}
-      viewBox="0 0 24 24"
+      viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      style={{ shapeRendering: 'crispEdges' }}
     >
-      <circle cx="12" cy="12" r="3" fill={color} />
-      <circle cx="12" cy="6" r="2.5" fill={color} opacity="0.9" />
-      <circle cx="18" cy="12" r="2.5" fill={color} opacity="0.9" />
-      <circle cx="12" cy="18" r="2.5" fill={color} opacity="0.9" />
-      <circle cx="6" cy="12" r="2.5" fill={color} opacity="0.9" />
+      {/* Center pixel box */}
+      <rect x="6" y="6" width="4" height="4" fill={color} />
+      {/* Top petal */}
+      <rect x="5" y="1" width="6" height="4" fill={color} opacity="0.9" />
+      {/* Bottom petal */}
+      <rect x="5" y="11" width="6" height="4" fill={color} opacity="0.9" />
+      {/* Left petal */}
+      <rect x="1" y="5" width="4" height="6" fill={color} opacity="0.9" />
+      {/* Right petal */}
+      <rect x="11" y="5" width="4" height="6" fill={color} opacity="0.9" />
     </svg>
   );
 }
 
-/** Hand-drawn underline (smooth wobble) */
+/** 8-bit stepped pixel underline */
 export function HandUnderline({ width = 100, height = 12, color = '#E8A857', className = '' }) {
   return (
     <svg
       width={width}
       height={height}
-      viewBox="0 0 100 12"
+      viewBox="0 0 100 8"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       preserveAspectRatio="none"
-      style={{ display: 'block' }}
+      style={{ display: 'block', shapeRendering: 'crispEdges' }}
     >
-      <path
-        d="M2 7 C 25 3, 55 10, 98 4"
-        stroke={color}
-        strokeWidth="3"
-        strokeLinecap="round"
-      />
+      <rect x="0" y="4" width="25" height="3" fill={color} />
+      <rect x="25" y="2" width="25" height="3" fill={color} />
+      <rect x="50" y="4" width="25" height="3" fill={color} />
+      <rect x="75" y="2" width="25" height="3" fill={color} />
     </svg>
   );
 }
 
-/** Dotted hand-drawn underline */
+/** Square pixel dotted underline */
 export function DottedUnderline({ width = 110, height = 10, color = '#E8A857', className = '' }) {
   return (
     <svg
       width={width}
       height={height}
-      viewBox="0 0 110 10"
+      viewBox="0 0 110 6"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       preserveAspectRatio="none"
+      style={{ shapeRendering: 'crispEdges' }}
     >
-      <line
-        x1="2"
-        y1="5"
-        x2="108"
-        y2="5"
-        stroke={color}
-        strokeWidth="3"
-        strokeLinecap="round"
-        strokeDasharray="1 7"
-      />
+      {[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100].map((x) => (
+        <rect key={x} x={x} y="1" width="4" height="4" fill={color} />
+      ))}
     </svg>
   );
 }
 
-/** Tiny orange tick marks above words */
+/** 8-bit pixel diagonal ticks */
 export function TickMarks({ count = 3, color = '#E8A857', size = 18, className = '' }) {
   return (
     <svg
       width={size * count * 0.7}
       height={size * 0.6}
-      viewBox="0 0 40 16"
+      viewBox="0 0 36 14"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      style={{ shapeRendering: 'crispEdges' }}
     >
-      <line x1="8" y1="12" x2="14" y2="4" stroke={color} strokeWidth="2.5" strokeLinecap="round" />
-      <line x1="19" y1="14" x2="23" y2="3" stroke={color} strokeWidth="2.5" strokeLinecap="round" />
-      <line x1="30" y1="13" x2="33" y2="4" stroke={color} strokeWidth="2.5" strokeLinecap="round" />
+      {/* Tick 1 */}
+      <rect x="4" y="8" width="3" height="3" fill={color} />
+      <rect x="6" y="5" width="3" height="3" fill={color} />
+      <rect x="8" y="2" width="3" height="3" fill={color} />
+
+      {/* Tick 2 */}
+      <rect x="15" y="8" width="3" height="3" fill={color} />
+      <rect x="17" y="5" width="3" height="3" fill={color} />
+      <rect x="19" y="2" width="3" height="3" fill={color} />
+
+      {/* Tick 3 */}
+      <rect x="26" y="8" width="3" height="3" fill={color} />
+      <rect x="28" y="5" width="3" height="3" fill={color} />
+      <rect x="30" y="2" width="3" height="3" fill={color} />
     </svg>
   );
 }
 
-/** Hand-drawn Smiley Face */
+/** 8-bit retro pixel smiley face */
 export function SmileyFace({ size = 20, color = '#E8A857', className = '' }) {
   return (
     <svg
       width={size}
       height={size}
-      viewBox="0 0 24 24"
+      viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
-      style={{ display: 'inline-block', verticalAlign: 'middle' }}
+      style={{ display: 'inline-block', verticalAlign: 'middle', shapeRendering: 'crispEdges' }}
     >
-      <circle cx="12" cy="12" r="9" stroke={color} strokeWidth="2.2" />
-      <circle cx="9" cy="10" r="1.3" fill={color} />
-      <circle cx="15" cy="10" r="1.3" fill={color} />
-      <path
-        d="M8.5 14.5 C 10 17, 14 17, 15.5 14.5"
-        stroke={color}
-        strokeWidth="2.2"
-        strokeLinecap="round"
-      />
+      {/* Border circle in pixels */}
+      <rect x="4" y="1" width="8" height="2" fill={color} />
+      <rect x="4" y="13" width="8" height="2" fill={color} />
+      <rect x="1" y="4" width="2" height="8" fill={color} />
+      <rect x="13" y="4" width="2" height="8" fill={color} />
+      <rect x="2" y="2" width="3" height="3" fill={color} />
+      <rect x="11" y="2" width="3" height="3" fill={color} />
+      <rect x="2" y="11" width="3" height="3" fill={color} />
+      <rect x="11" y="11" width="3" height="3" fill={color} />
+
+      {/* Pixel eyes */}
+      <rect x="4" y="5" width="2" height="3" fill={color} />
+      <rect x="10" y="5" width="2" height="3" fill={color} />
+
+      {/* Pixel smile */}
+      <rect x="4" y="9" width="2" height="2" fill={color} />
+      <rect x="10" y="9" width="2" height="2" fill={color} />
+      <rect x="6" y="10" width="4" height="2" fill={color} />
     </svg>
   );
 }
 
-/** Curved arrow with "pull lever ↓" annotation */
+/** Pixel arrow with retro font "pull lever ↓" */
 export function PullLeverAnnotation({ className = '' }) {
   return (
     <div
@@ -194,38 +223,33 @@ export function PullLeverAnnotation({ className = '' }) {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        fontFamily: "'Caveat Brush', 'Patrick Hand', cursive",
+        fontFamily: "'Press Start 2P', monospace",
         color: '#4C7362',
-        fontSize: '17px',
-        lineHeight: '1.1',
+        fontSize: '9px',
+        lineHeight: '1.2',
         pointerEvents: 'none',
         userSelect: 'none',
+        letterSpacing: '0.04em',
       }}
     >
-      <span style={{ whiteSpace: 'nowrap', letterSpacing: '0.02em' }}>pull lever</span>
+      <span style={{ whiteSpace: 'nowrap' }}>PULL LEVER</span>
       <svg
-        width="26"
-        height="26"
-        viewBox="0 0 28 28"
+        width="16"
+        height="18"
+        viewBox="0 0 16 18"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        style={{ marginTop: '2px' }}
+        style={{ marginTop: '4px', shapeRendering: 'crispEdges' }}
       >
-        <path
-          d="M8 4 C 18 8, 16 16, 14 22"
-          stroke="#4C7362"
-          strokeWidth="2"
-          strokeLinecap="round"
-          fill="none"
-        />
-        <path
-          d="M10 18 L14 23 L18 17"
-          stroke="#4C7362"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+        {/* Pixel down arrow */}
+        <rect x="7" y="0" width="2" height="10" fill="#4C7362" />
+        <rect x="5" y="8" width="6" height="2" fill="#4C7362" />
+        <rect x="4" y="10" width="8" height="2" fill="#4C7362" />
+        <rect x="3" y="12" width="10" height="2" fill="#4C7362" />
+        <rect x="5" y="14" width="6" height="2" fill="#4C7362" />
+        <rect x="7" y="16" width="2" height="2" fill="#4C7362" />
       </svg>
     </div>
   );
 }
+

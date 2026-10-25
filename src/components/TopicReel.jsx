@@ -20,23 +20,27 @@ export function TopicReel({
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        padding: '12px 16px',
+        padding: '14px 18px',
         overflow: 'hidden',
         userSelect: 'none',
+        backgroundColor: '#FCFBF7',
+        border: '2px solid #1E4D3B',
+        borderRadius: '0px',
+        boxShadow: '4px 4px 0px #1E4D3B',
       }}
     >
       {/* Top faded row */}
       <div
         style={{
-          minHeight: '44px',
+          minHeight: '40px',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
           textAlign: 'center',
           opacity: isSpinning ? 0.35 : 0.45,
-          transform: isSpinning ? 'translateY(-12px) scale(0.95)' : 'none',
-          transition: 'all 0.25s ease',
+          transform: isSpinning ? 'translateY(-10px) scale(0.96)' : 'none',
+          transition: 'all 0.15s steps(3, end)',
           pointerEvents: 'none',
         }}
       >
@@ -51,13 +55,13 @@ export function TopicReel({
         )}
       </div>
 
-      {/* Top divider line */}
+      {/* Top pixel divider line */}
       <div
         style={{
           width: '100%',
-          height: '1px',
-          backgroundColor: '#D9D5C7',
-          margin: '10px 0',
+          height: '0px',
+          borderTop: '2px dashed #D9D5C7',
+          margin: '8px 0',
           position: 'relative',
         }}
       />
@@ -65,7 +69,7 @@ export function TopicReel({
       {/* CENTER ROW (active topic) */}
       <div
         style={{
-          minHeight: mode === 'learn-vocab' ? '90px' : '96px',
+          minHeight: mode === 'learn-vocab' ? '92px' : '96px',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
@@ -78,12 +82,12 @@ export function TopicReel({
         <AnimatePresence mode="wait">
           <motion.div
             key={currentTopic?.id || 'empty'}
-            initial={{ opacity: 0, y: isSpinning ? 24 : 10, filter: isSpinning ? 'blur(4px)' : 'blur(0px)' }}
+            initial={{ opacity: 0, y: isSpinning ? 18 : 8, filter: isSpinning ? 'blur(2px)' : 'blur(0px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-            exit={{ opacity: 0, y: -20, filter: 'blur(2px)' }}
+            exit={{ opacity: 0, y: -16, filter: 'blur(1px)' }}
             transition={{
-              duration: isSpinning ? 0.15 : 0.4,
-              ease: [0.16, 1, 0.3, 1],
+              duration: isSpinning ? 0.1 : 0.25,
+              ease: 'easeOut',
             }}
             style={{
               width: '100%',
@@ -98,20 +102,20 @@ export function TopicReel({
                 mode={mode}
                 isCenter={true}
                 opacity={1}
-                fontSize={mode === 'learn-vocab' ? '34px' : '20.5px'}
+                fontSize={mode === 'learn-vocab' ? '20px' : '20px'}
               />
             )}
           </motion.div>
         </AnimatePresence>
       </div>
 
-      {/* Bottom divider line */}
+      {/* Bottom pixel divider line */}
       <div
         style={{
           width: '100%',
-          height: '1px',
-          backgroundColor: '#D9D5C7',
-          margin: '10px 0',
+          height: '0px',
+          borderTop: '2px dashed #D9D5C7',
+          margin: '8px 0',
           position: 'relative',
         }}
       />
@@ -119,15 +123,15 @@ export function TopicReel({
       {/* Bottom faded row */}
       <div
         style={{
-          minHeight: '44px',
+          minHeight: '40px',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
           textAlign: 'center',
           opacity: isSpinning ? 0.35 : 0.45,
-          transform: isSpinning ? 'translateY(12px) scale(0.95)' : 'none',
-          transition: 'all 0.25s ease',
+          transform: isSpinning ? 'translateY(10px) scale(0.96)' : 'none',
+          transition: 'all 0.15s steps(3, end)',
           pointerEvents: 'none',
         }}
       >
@@ -153,12 +157,13 @@ function RowItem({ item, mode, isCenter, fontSize }) {
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <span
           style={{
-            fontFamily: "'DM Serif Display', Georgia, serif",
-            fontSize,
+            fontFamily: isCenter ? "'Press Start 2P', monospace" : "'Pixelify Sans', monospace",
+            fontSize: isCenter ? '18px' : '15px',
             color: isCenter ? '#1E4D3B' : '#73877E',
-            fontWeight: isCenter ? 600 : 400,
-            lineHeight: 1.1,
-            letterSpacing: '0.01em',
+            fontWeight: isCenter ? 700 : 500,
+            lineHeight: 1.25,
+            letterSpacing: '0.04em',
+            textTransform: 'uppercase',
           }}
         >
           {item.word}
@@ -170,22 +175,25 @@ function RowItem({ item, mode, isCenter, fontSize }) {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              marginTop: '6px',
-              gap: '2px',
+              marginTop: '8px',
+              gap: '4px',
             }}
           >
             <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-              <span style={{ fontSize: '12px', color: '#557667', fontStyle: 'italic' }}>
-                {item.phonetic}
+              <span style={{ fontSize: '13px', color: '#557667', fontFamily: "'Pixelify Sans', monospace" }}>
+                [{item.phonetic}]
               </span>
               <span
                 style={{
                   fontSize: '11px',
                   backgroundColor: '#ECE7DA',
-                  padding: '1px 6px',
-                  borderRadius: '999px',
+                  padding: '2px 7px',
+                  borderRadius: '0px',
+                  border: '1px solid #1E4D3B',
                   color: '#345547',
+                  fontFamily: "'Pixelify Sans', monospace",
                   fontWeight: 600,
+                  textTransform: 'uppercase',
                 }}
               >
                 {item.partOfSpeech}
@@ -193,12 +201,13 @@ function RowItem({ item, mode, isCenter, fontSize }) {
             </div>
             <span
               style={{
-                fontSize: '12.5px',
+                fontSize: '15px',
                 color: '#4A685B',
-                maxWidth: '420px',
+                maxWidth: '440px',
                 lineHeight: 1.35,
                 marginTop: '4px',
-                fontFamily: "'Plus Jakarta Sans', sans-serif",
+                fontFamily: "'Pixelify Sans', monospace",
+                fontWeight: 500,
               }}
             >
               {item.definition}
@@ -211,26 +220,26 @@ function RowItem({ item, mode, isCenter, fontSize }) {
 
   if (mode === 'deep-research') {
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px' }}>
         <span
           style={{
-            fontSize: isCenter ? '11px' : '9.5px',
+            fontSize: isCenter ? '9px' : '8px',
             color: '#7D958A',
             letterSpacing: '0.06em',
             textTransform: 'uppercase',
             fontWeight: 700,
-            fontFamily: "'Plus Jakarta Sans', sans-serif",
+            fontFamily: "'Press Start 2P', monospace",
           }}
         >
           {item.categoryLabel}
         </span>
         <span
           style={{
-            fontFamily: "'DM Serif Display', Georgia, serif",
-            fontSize,
+            fontFamily: "'Pixelify Sans', monospace",
+            fontSize: isCenter ? '20px' : '14px',
             color: isCenter ? '#1E4D3B' : '#73877E',
             fontWeight: isCenter ? 600 : 400,
-            lineHeight: '1.3',
+            lineHeight: '1.35',
             maxWidth: '460px',
             display: '-webkit-box',
             WebkitLineClamp: isCenter ? 3 : 1,
@@ -247,11 +256,11 @@ function RowItem({ item, mode, isCenter, fontSize }) {
   return (
     <div
       style={{
-        fontFamily: "'DM Serif Display', Georgia, serif",
-        fontSize,
+        fontFamily: "'Pixelify Sans', monospace",
+        fontSize: isCenter ? '20.5px' : '14px',
         color: isCenter ? '#1E4D3B' : '#73877E',
         fontWeight: isCenter ? 600 : 400,
-        lineHeight: '1.35',
+        lineHeight: '1.38',
         maxWidth: '460px',
         display: '-webkit-box',
         WebkitLineClamp: isCenter ? 3 : 1,

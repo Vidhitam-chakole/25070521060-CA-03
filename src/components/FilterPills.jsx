@@ -37,16 +37,17 @@ function PillButton({ children, onClick, isOpen, minWidth = 'auto' }) {
         alignItems: 'center',
         gap: '6px',
         backgroundColor: '#FCFBF7',
-        border: `1px solid ${isOpen ? '#1E4D3B' : '#D9D5C7'}`,
-        borderRadius: '999px',
-        padding: '5px 13px',
-        fontSize: '12.5px',
-        fontFamily: "'Plus Jakarta Sans', sans-serif",
+        border: `2px solid ${isOpen ? '#1E4D3B' : '#1E4D3B'}`,
+        borderRadius: '0px',
+        padding: '5px 12px',
+        fontSize: '13px',
+        fontFamily: "'Pixelify Sans', monospace",
         fontWeight: 600,
         color: '#1E4D3B',
         cursor: 'pointer',
-        boxShadow: '0 1px 3px rgba(30, 77, 59, 0.05)',
-        transition: 'all 0.2s ease',
+        boxShadow: isOpen ? '1px 1px 0px #1E4D3B' : '2px 2px 0px #1E4D3B',
+        transform: isOpen ? 'translate(1px, 1px)' : 'none',
+        transition: 'background-color 0.1s ease',
         minWidth,
         justifyContent: 'center',
         whiteSpace: 'nowrap',
@@ -64,7 +65,7 @@ function PillButton({ children, onClick, isOpen, minWidth = 'auto' }) {
         color="#5E7C6E"
         style={{
           transform: isOpen ? 'rotate(180deg)' : 'none',
-          transition: 'transform 0.2s ease',
+          transition: 'transform 0.15s ease',
         }}
       />
     </button>
@@ -87,20 +88,20 @@ function DropdownMenu({ items, selectedId, onSelect, onClose }) {
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 6, scale: 0.96 }}
+      initial={{ opacity: 0, y: 4, scale: 0.98 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, y: 4, scale: 0.96 }}
-      transition={{ duration: 0.18, ease: 'easeOut' }}
+      exit={{ opacity: 0, y: 2, scale: 0.98 }}
+      transition={{ duration: 0.12 }}
       style={{
         position: 'absolute',
-        top: 'calc(100% + 6px)',
+        top: 'calc(100% + 5px)',
         left: 0,
         zIndex: 50,
         backgroundColor: '#FFFFFF',
-        border: '1px solid #E4E0D5',
-        borderRadius: '10px',
-        boxShadow: '0 8px 24px rgba(30, 77, 59, 0.12), 0 2px 6px rgba(0,0,0,0.04)',
-        padding: '6px',
+        border: '2px solid #1E4D3B',
+        borderRadius: '0px',
+        boxShadow: '4px 4px 0px #1E4D3B',
+        padding: '4px',
         minWidth: '190px',
         maxHeight: '260px',
         overflowY: 'auto',
@@ -120,16 +121,17 @@ function DropdownMenu({ items, selectedId, onSelect, onClose }) {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'space-between',
-              padding: '7px 10px',
-              borderRadius: '6px',
-              fontSize: '12.5px',
-              fontFamily: "'Plus Jakarta Sans', sans-serif",
-              fontWeight: isSelected ? 600 : 500,
+              padding: '6px 8px',
+              borderRadius: '0px',
+              fontSize: '13px',
+              fontFamily: "'Pixelify Sans', monospace",
+              fontWeight: isSelected ? 700 : 500,
               color: '#1E4D3B',
               backgroundColor: isSelected ? '#F3EFE3' : 'transparent',
+              border: isSelected ? '1px dashed #1E4D3B' : '1px solid transparent',
               cursor: 'pointer',
               textAlign: 'left',
-              transition: 'background-color 0.15s ease',
+              transition: 'background-color 0.1s ease',
             }}
             onMouseEnter={(e) => {
               if (!isSelected) e.currentTarget.style.backgroundColor = '#F5F4EE';
@@ -210,8 +212,8 @@ export function FilterPills({
           <PillButton onClick={() => toggle('lang')} isOpen={openDropdown === 'lang'}>
             <span
               style={{
-                fontFamily: "'Caveat Brush', 'Patrick Hand', cursive",
-                fontSize: '14px',
+                fontFamily: "'Press Start 2P', monospace",
+                fontSize: '9px',
                 color: '#2A6B52',
                 fontWeight: 700,
               }}
@@ -348,8 +350,8 @@ export function FilterPills({
           <PillButton onClick={() => toggle('lang')} isOpen={openDropdown === 'lang'}>
             <span
               style={{
-                fontFamily: "'Caveat Brush', 'Patrick Hand', cursive",
-                fontSize: '14px',
+                fontFamily: "'Press Start 2P', monospace",
+                fontSize: '9px',
                 color: '#2A6B52',
                 fontWeight: 700,
               }}

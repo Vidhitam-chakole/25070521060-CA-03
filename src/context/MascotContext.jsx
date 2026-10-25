@@ -9,7 +9,11 @@ export function MascotProvider({ children }) {
   });
   const [mood, setMood] = useState('idle'); // idle | happy | surprised | talking | sleepy | pointing
   const [bubble, setBubble] = useState(null); // { text, buttons, onNext, onSkip, progress, autoDismiss }
-  const [position, setPosition] = useState({ x: 120, y: 500 });
+  const [position, setPosition] = useState(() => {
+    const w = typeof window !== 'undefined' ? window.innerWidth : 1024;
+    const h = typeof window !== 'undefined' ? window.innerHeight : 768;
+    return { x: Math.round((w - 96) / 2), y: Math.round((h - 92) / 2) };
+  });
   const [facing, setFacing] = useState(1); // 1 = right, -1 = left
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [tourStep, setTourStep] = useState(null); // null or step index 0..4

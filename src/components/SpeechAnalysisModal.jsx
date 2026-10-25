@@ -52,9 +52,9 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
           onClick={(e) => e.stopPropagation()}
           style={{
             backgroundColor: '#FCFBF7',
-            border: '1.5px solid #D9D5C7',
-            borderRadius: '16px',
-            boxShadow: '0 20px 48px -8px rgba(30, 77, 59, 0.28)',
+            border: '3px solid #1E4D3B',
+            borderRadius: '0px',
+            boxShadow: '6px 6px 0px #1E4D3B',
             maxWidth: '680px',
             width: '100%',
             maxHeight: '90vh',
@@ -73,15 +73,15 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
               right: '18px',
               width: '32px',
               height: '32px',
-              borderRadius: '50%',
+              borderRadius: '0px',
               backgroundColor: '#EDE9DC',
-              border: 'none',
+              border: '2px solid #1E4D3B',
+              boxShadow: '2px 2px 0px #1E4D3B',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               cursor: 'pointer',
               color: '#345747',
-              transition: 'background-color 0.15s ease',
             }}
             onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#DFD9C9')}
             onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#EDE9DC')}
@@ -90,14 +90,16 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
           </button>
 
           {/* Header */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '10px' }}>
             <span
               style={{
                 backgroundColor: '#B79AE6',
                 color: '#FFFFFF',
-                width: '30px',
-                height: '30px',
-                borderRadius: '8px',
+                width: '32px',
+                height: '32px',
+                borderRadius: '0px',
+                border: '2px solid #1E4D3B',
+                boxShadow: '2px 2px 0px #1E4D3B',
                 display: 'inline-flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -107,22 +109,23 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
             </span>
             <h2
               style={{
-                fontFamily: "'DM Serif Display', Georgia, serif",
-                fontSize: '26px',
+                fontFamily: "'Press Start 2P', monospace",
+                fontSize: '15px',
                 color: '#1E4D3B',
+                lineHeight: '1.4',
                 margin: 0,
               }}
             >
-              Speech Analysis Report
+              SPEECH ANALYSIS REPORT
             </h2>
           </div>
 
           <div
             style={{
-              fontSize: '12px',
+              fontSize: '13px',
               color: '#658274',
               marginBottom: '20px',
-              fontFamily: "'Plus Jakarta Sans', sans-serif",
+              fontFamily: "'Pixelify Sans', monospace",
             }}
           >
             Topic:{' '}
@@ -143,27 +146,30 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
             <div
               style={{
                 backgroundColor: '#F3EFE3',
-                border: '1px solid #DFD9C8',
-                borderRadius: '10px',
+                border: '2px solid #1E4D3B',
+                boxShadow: '3px 3px 0px #1E4D3B',
+                borderRadius: '0px',
                 padding: '12px',
                 textAlign: 'center',
               }}
             >
-              <div style={{ fontSize: '11px', color: '#688274', fontWeight: 600, textTransform: 'uppercase' }}>
-                Clarity Score
+              <div style={{ fontSize: '9px', color: '#688274', fontWeight: 400, fontFamily: "'Press Start 2P', monospace", textTransform: 'uppercase' }}>
+                CLARITY
               </div>
               <div
                 style={{
-                  fontFamily: "'DM Serif Display', Georgia, serif",
-                  fontSize: '32px',
+                  fontFamily: "'Press Start 2P', monospace",
+                  fontSize: '22px',
                   color: '#1E4D3B',
-                  lineHeight: '1.2',
+                  lineHeight: '1.3',
+                  marginTop: '8px',
+                  marginBottom: '6px',
                 }}
               >
                 {clarityScore}
-                <span style={{ fontSize: '16px', color: '#88A396' }}>/100</span>
+                <span style={{ fontSize: '11px', color: '#88A396' }}>/100</span>
               </div>
-              <div style={{ fontSize: '11px', color: '#2E7D32', fontWeight: 600 }}>
+              <div style={{ fontSize: '12px', color: '#2E7D32', fontWeight: 600, fontFamily: "'Pixelify Sans', monospace" }}>
                 ★ High Articulation
               </div>
             </div>
@@ -171,26 +177,29 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
             <div
               style={{
                 backgroundColor: '#F3EFE3',
-                border: '1px solid #DFD9C8',
-                borderRadius: '10px',
+                border: '2px solid #1E4D3B',
+                boxShadow: '3px 3px 0px #1E4D3B',
+                borderRadius: '0px',
                 padding: '12px',
                 textAlign: 'center',
               }}
             >
-              <div style={{ fontSize: '11px', color: '#688274', fontWeight: 600, textTransform: 'uppercase' }}>
-                Pace (WPM)
+              <div style={{ fontSize: '9px', color: '#688274', fontWeight: 400, fontFamily: "'Press Start 2P', monospace", textTransform: 'uppercase' }}>
+                PACE (WPM)
               </div>
               <div
                 style={{
-                  fontFamily: "'DM Serif Display', Georgia, serif",
-                  fontSize: '32px',
+                  fontFamily: "'Press Start 2P', monospace",
+                  fontSize: '22px',
                   color: '#1E4D3B',
-                  lineHeight: '1.2',
+                  lineHeight: '1.3',
+                  marginTop: '8px',
+                  marginBottom: '6px',
                 }}
               >
                 {wpm}
               </div>
-              <div style={{ fontSize: '11px', color: '#1E4D3B', fontWeight: 600 }}>
+              <div style={{ fontSize: '12px', color: '#1E4D3B', fontWeight: 600, fontFamily: "'Pixelify Sans', monospace" }}>
                 Ideal conversational rate
               </div>
             </div>
@@ -198,26 +207,29 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
             <div
               style={{
                 backgroundColor: '#F3EFE3',
-                border: '1px solid #DFD9C8',
-                borderRadius: '10px',
+                border: '2px solid #1E4D3B',
+                boxShadow: '3px 3px 0px #1E4D3B',
+                borderRadius: '0px',
                 padding: '12px',
                 textAlign: 'center',
               }}
             >
-              <div style={{ fontSize: '11px', color: '#688274', fontWeight: 600, textTransform: 'uppercase' }}>
-                Filler Words
+              <div style={{ fontSize: '9px', color: '#688274', fontWeight: 400, fontFamily: "'Press Start 2P', monospace", textTransform: 'uppercase' }}>
+                FILLERS
               </div>
               <div
                 style={{
-                  fontFamily: "'DM Serif Display', Georgia, serif",
-                  fontSize: '32px',
+                  fontFamily: "'Press Start 2P', monospace",
+                  fontSize: '22px',
                   color: '#E8A857',
-                  lineHeight: '1.2',
+                  lineHeight: '1.3',
+                  marginTop: '8px',
+                  marginBottom: '6px',
                 }}
               >
                 {fillerCount}
               </div>
-              <div style={{ fontSize: '11px', color: '#4E6C5E', fontWeight: 600 }}>
+              <div style={{ fontSize: '12px', color: '#4E6C5E', fontWeight: 600, fontFamily: "'Pixelify Sans', monospace" }}>
                 2% of total speech
               </div>
             </div>
@@ -225,27 +237,30 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
             <div
               style={{
                 backgroundColor: '#F3EFE3',
-                border: '1px solid #DFD9C8',
-                borderRadius: '10px',
+                border: '2px solid #1E4D3B',
+                boxShadow: '3px 3px 0px #1E4D3B',
+                borderRadius: '0px',
                 padding: '12px',
                 textAlign: 'center',
               }}
             >
-              <div style={{ fontSize: '11px', color: '#688274', fontWeight: 600, textTransform: 'uppercase' }}>
-                Intentional Pauses
+              <div style={{ fontSize: '9px', color: '#688274', fontWeight: 400, fontFamily: "'Press Start 2P', monospace", textTransform: 'uppercase' }}>
+                PAUSES
               </div>
               <div
                 style={{
-                  fontFamily: "'DM Serif Display', Georgia, serif",
-                  fontSize: '32px',
+                  fontFamily: "'Press Start 2P', monospace",
+                  fontSize: '22px',
                   color: '#B79AE6',
-                  lineHeight: '1.2',
+                  lineHeight: '1.3',
+                  marginTop: '8px',
+                  marginBottom: '6px',
                 }}
               >
                 {pauseCount}
               </div>
-              <div style={{ fontSize: '11px', color: '#4E6C5E', fontWeight: 600 }}>
-                Natural rhetorical pacing
+              <div style={{ fontSize: '12px', color: '#4E6C5E', fontWeight: 600, fontFamily: "'Pixelify Sans', monospace" }}>
+                Natural pacing
               </div>
             </div>
           </div>
@@ -254,25 +269,27 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
           <div
             style={{
               backgroundColor: '#FFFFFF',
-              border: '1px solid #E5E0D2',
-              borderRadius: '10px',
+              border: '2px solid #1E4D3B',
+              boxShadow: '3px 3px 0px #1E4D3B',
+              borderRadius: '0px',
               padding: '14px',
               marginBottom: '20px',
             }}
           >
             <div
               style={{
-                fontSize: '12.5px',
-                fontWeight: 700,
+                fontSize: '10.5px',
+                fontWeight: 400,
                 color: '#1E4D3B',
-                marginBottom: '8px',
+                marginBottom: '10px',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '6px',
+                gap: '8px',
+                fontFamily: "'Press Start 2P', monospace",
               }}
             >
               <Activity size={15} color="#E8A857" />
-              <span>Filler Word Frequency</span>
+              <span>FILLER WORD FREQUENCY</span>
             </div>
             <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
               {[
@@ -287,14 +304,15 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
                   style={{
                     backgroundColor: f.count > 0 ? '#FEF3C7' : '#F4F3ED',
                     color: f.count > 0 ? '#92400E' : '#71877C',
-                    border: `1px solid ${f.count > 0 ? '#FDE68A' : '#E5E2D6'}`,
-                    padding: '3px 10px',
-                    borderRadius: '999px',
-                    fontSize: '12px',
+                    border: `1.5px solid ${f.count > 0 ? '#1E4D3B' : '#E5E2D6'}`,
+                    padding: '4px 10px',
+                    borderRadius: '0px',
+                    fontSize: '13px',
                     fontWeight: 600,
+                    fontFamily: "'Pixelify Sans', monospace",
                     display: 'inline-flex',
-                    alignItems: 'gap',
-                    gap: '4px',
+                    alignItems: 'center',
+                    gap: '6px',
                   }}
                 >
                   <span>"{f.word}"</span>
@@ -308,36 +326,39 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
           <div
             style={{
               backgroundColor: '#FFFFFF',
-              border: '1px solid #E5E0D2',
-              borderRadius: '10px',
-              padding: '14px',
+              border: '2px solid #1E4D3B',
+              boxShadow: '3px 3px 0px #1E4D3B',
+              borderRadius: '0px',
+              padding: '16px',
               marginBottom: '22px',
             }}
           >
             <div
               style={{
-                fontSize: '12.5px',
-                fontWeight: 700,
+                fontSize: '10.5px',
+                fontWeight: 400,
                 color: '#1E4D3B',
-                marginBottom: '8px',
+                marginBottom: '12px',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '6px',
+                gap: '8px',
+                fontFamily: "'Press Start 2P', monospace",
               }}
             >
               <CheckCircle2 size={15} color="#22C55E" />
-              <span>Coaching Insights & Key Highlights</span>
+              <span>COACHING INSIGHTS</span>
             </div>
             <ul
               style={{
                 margin: 0,
                 paddingLeft: '18px',
-                fontSize: '12.5px',
+                fontSize: '14px',
+                fontFamily: "'Pixelify Sans', monospace",
                 color: '#345244',
-                lineHeight: '1.5',
+                lineHeight: '1.45',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '6px',
+                gap: '8px',
               }}
             >
               <li>
@@ -370,9 +391,9 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'flex-end',
-              gap: '10px',
-              paddingTop: '8px',
-              borderTop: '1px solid #E8E3D5',
+              gap: '12px',
+              paddingTop: '12px',
+              borderTop: '2px dashed #E8E3D5',
             }}
           >
             <button
@@ -380,14 +401,17 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
               style={{
                 backgroundColor: 'transparent',
                 color: '#496B5B',
-                padding: '9px 18px',
-                borderRadius: '999px',
-                fontSize: '13px',
-                fontWeight: 600,
+                padding: '9px 16px',
+                borderRadius: '0px',
+                border: '2px solid #1E4D3B',
+                boxShadow: '2px 2px 0px #1E4D3B',
+                fontSize: '10px',
+                fontFamily: "'Press Start 2P', monospace",
+                fontWeight: 400,
                 cursor: 'pointer',
               }}
             >
-              Close
+              CLOSE
             </button>
 
             <button
@@ -399,15 +423,17 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
               style={{
                 backgroundColor: '#1E4D3B',
                 color: '#FFFFFF',
-                padding: '9px 22px',
-                borderRadius: '999px',
-                fontSize: '13px',
-                fontWeight: 700,
+                padding: '10px 18px',
+                borderRadius: '0px',
+                border: '2px solid #0E3B33',
+                boxShadow: '3px 3px 0px #0E3B33',
+                fontSize: '10px',
+                fontFamily: "'Press Start 2P', monospace",
+                fontWeight: 400,
                 cursor: 'pointer',
-                boxShadow: '0 3px 8px rgba(30, 77, 59, 0.2)',
               }}
             >
-              Practice Another Topic →
+              TRY ANOTHER ▶
             </button>
           </div>
         </motion.div>

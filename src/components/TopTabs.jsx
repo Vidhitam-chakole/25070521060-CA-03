@@ -6,7 +6,7 @@ export const TABS = [
   { id: 'random-topics', label: 'Random Topics' },
   { id: 'interview-prep', label: 'Interview Prep' },
   { id: 'learn-vocab', label: 'Learn Vocab' },
-  { id: 'deep-research', label: 'Deep Research', isNew: true },
+  { id: 'deep-research', label: 'Deep Research' },
 ];
 
 export function TopTabs({ activeTab, onChangeTab }) {
@@ -26,13 +26,13 @@ export function TopTabs({ activeTab, onChangeTab }) {
           display: 'flex',
           alignItems: 'center',
           backgroundColor: '#EDE8DB',
-          border: '1px solid #D9D5C7',
-          borderRadius: '999px',
+          border: '2px solid #1E4D3B',
+          borderRadius: '0px',
           padding: '3px',
-          height: '38px',
+          height: '40px',
           position: 'relative',
           maxWidth: '92vw',
-          boxShadow: '0 1px 3px rgba(30, 77, 59, 0.05)',
+          boxShadow: '3px 3px 0px #1E4D3B',
         }}
       >
         {TABS.map((tab) => {
@@ -46,31 +46,32 @@ export function TopTabs({ activeTab, onChangeTab }) {
                 display: 'inline-flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                padding: '0 14px',
+                padding: '0 12px',
                 height: '32px',
-                borderRadius: '999px',
-                fontSize: '13px',
-                fontFamily: "'Plus Jakarta Sans', sans-serif",
-                fontWeight: isActive ? 700 : 500,
+                borderRadius: '0px',
+                fontSize: '11px',
+                fontFamily: "'Press Start 2P', monospace",
+                fontWeight: isActive ? 700 : 400,
                 color: isActive ? '#1E4D3B' : '#4E6A5E',
                 cursor: 'pointer',
                 border: 'none',
                 background: 'transparent',
                 zIndex: 1,
-                transition: 'color 0.2s ease',
+                transition: 'color 0.1s ease',
                 whiteSpace: 'nowrap',
               }}
             >
               {isActive && (
                 <motion.div
                   layoutId="activeTabPill"
-                  transition={{ type: 'spring', stiffness: 450, damping: 35 }}
+                  transition={{ type: 'spring', stiffness: 500, damping: 35 }}
                   style={{
                     position: 'absolute',
                     inset: 0,
                     backgroundColor: '#FFFFFF',
-                    borderRadius: '999px',
-                    boxShadow: '0 2px 6px rgba(30, 77, 59, 0.1), 0 1px 2px rgba(0,0,0,0.04)',
+                    border: '1.5px solid #1E4D3B',
+                    borderRadius: '0px',
+                    boxShadow: '2px 2px 0px #1E4D3B',
                     zIndex: -1,
                   }}
                 />
@@ -80,23 +81,22 @@ export function TopTabs({ activeTab, onChangeTab }) {
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
-                  gap: '5px',
-                  transform: tab.id === 'deep-research' ? 'rotate(-1.5deg)' : 'none',
+                  gap: '6px',
                 }}
               >
                 {tab.label}
                 {tab.isNew && (
                   <span
                     style={{
-                      fontSize: '9px',
-                      fontWeight: 800,
+                      fontSize: '8px',
+                      fontWeight: 700,
                       backgroundColor: '#1E4D3B',
                       color: '#F9F6EC',
-                      padding: '1px 5px',
-                      borderRadius: '4px',
+                      padding: '2px 4px',
+                      borderRadius: '0px',
+                      border: '1px solid #1E4D3B',
                       letterSpacing: '0.04em',
                       textTransform: 'uppercase',
-                      transform: 'rotate(4deg)',
                       display: 'inline-block',
                     }}
                   >

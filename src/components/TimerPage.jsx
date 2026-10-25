@@ -223,27 +223,27 @@ export function TimerPage({
           style={{
             display: 'inline-flex',
             alignItems: 'center',
-            gap: '6px',
-            color: '#4C6E5E',
-            fontSize: '14.5px',
-            fontFamily: "'Plus Jakarta Sans', sans-serif",
-            fontWeight: 600,
+            gap: '8px',
+            color: '#1E4D3B',
+            fontSize: '10px',
+            fontFamily: "'Press Start 2P', monospace",
+            fontWeight: 400,
             cursor: 'pointer',
-            padding: '6px 12px',
-            borderRadius: '999px',
-            backgroundColor: 'transparent',
-            transition: 'all 0.2s ease',
+            padding: '8px 14px',
+            borderRadius: '0px',
+            border: '2px solid #1E4D3B',
+            backgroundColor: '#FCFBF7',
+            boxShadow: '2px 2px 0px #1E4D3B',
+            transition: 'transform 0.1s ease',
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.color = '#1E4D3B';
             e.currentTarget.style.backgroundColor = '#ECE8DC';
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.color = '#4C6E5E';
-            e.currentTarget.style.backgroundColor = 'transparent';
+            e.currentTarget.style.backgroundColor = '#FCFBF7';
           }}
         >
-          ← Back
+          ◀ BACK
         </button>
 
         <BrandLogo onClick={onBack} size="small" />
@@ -262,27 +262,37 @@ export function TimerPage({
           textAlign: 'center',
         }}
       >
-        <div style={{ marginBottom: '28px', maxWidth: '640px' }}>
+        <div
+          style={{
+            marginBottom: '28px',
+            maxWidth: '680px',
+            backgroundColor: '#FCFBF7',
+            border: '2px solid #1E4D3B',
+            boxShadow: '4px 4px 0px #1E4D3B',
+            borderRadius: '0px',
+            padding: '16px 20px',
+          }}
+        >
           <div
             style={{
-              fontSize: '11.5px',
-              fontWeight: 800,
-              letterSpacing: '0.12em',
+              fontSize: '10px',
+              fontWeight: 400,
+              letterSpacing: '0.08em',
               color: '#849C90',
               textTransform: 'uppercase',
               marginBottom: '8px',
-              fontFamily: "'Plus Jakarta Sans', sans-serif",
+              fontFamily: "'Press Start 2P', monospace",
             }}
           >
-            TOPIC:
+            CURRENT TOPIC:
           </div>
           <h2
             style={{
-              fontFamily: "'DM Serif Display', Georgia, serif",
+              fontFamily: "'Pixelify Sans', monospace",
               fontSize: 'clamp(20px, 2.5vw, 25px)',
-              fontWeight: 500,
+              fontWeight: 600,
               color: '#1E4D3B',
-              lineHeight: '1.35',
+              lineHeight: '1.4',
               margin: 0,
             }}
           >
@@ -292,7 +302,7 @@ export function TimerPage({
 
         <div
           style={{
-            height: '24px',
+            height: '28px',
             marginBottom: '14px',
             display: 'flex',
             alignItems: 'center',
@@ -308,26 +318,27 @@ export function TimerPage({
                 alignItems: 'center',
                 gap: '8px',
                 backgroundColor: '#FBE9E7',
-                padding: '3px 12px',
-                borderRadius: '999px',
-                border: '1px solid #FFCCBC',
+                padding: '4px 12px',
+                borderRadius: '0px',
+                border: '1.5px solid #FFCCBC',
+                boxShadow: '2px 2px 0px #C62828',
               }}
             >
               <span
                 style={{
                   width: '8px',
                   height: '8px',
-                  borderRadius: '50%',
+                  borderRadius: '0px',
                   backgroundColor: '#D32F2F',
                   display: 'inline-block',
                 }}
               />
               <span
                 style={{
-                  fontSize: '11px',
-                  fontWeight: 700,
+                  fontSize: '9px',
+                  fontWeight: 400,
                   color: '#C62828',
-                  fontFamily: "'Plus Jakarta Sans', sans-serif",
+                  fontFamily: "'Press Start 2P', monospace",
                   letterSpacing: '0.04em',
                 }}
               >
@@ -336,9 +347,10 @@ export function TimerPage({
               <div
                 style={{
                   width: '32px',
-                  height: '6px',
+                  height: '8px',
                   backgroundColor: '#FFCDD2',
-                  borderRadius: '3px',
+                  borderRadius: '0px',
+                  border: '1px solid #D32F2F',
                   overflow: 'hidden',
                 }}
               >
@@ -364,15 +376,17 @@ export function TimerPage({
                 gap: '6px',
                 backgroundColor: '#E8F5E9',
                 color: '#2E7D32',
-                padding: '3px 14px',
-                borderRadius: '999px',
+                padding: '4px 14px',
+                borderRadius: '0px',
+                border: '1.5px solid #2E7D32',
+                boxShadow: '2px 2px 0px #2E7D32',
                 fontWeight: 700,
-                fontSize: '12px',
-                fontFamily: "'Plus Jakarta Sans', sans-serif",
+                fontSize: '13px',
+                fontFamily: "'Pixelify Sans', monospace",
               }}
             >
               <Sparkles size={14} color="#2E7D32" />
-              <span>Time’s up! Fantastic effort!</span>
+              <span>TIME’S UP! GREAT EFFORT!</span>
             </motion.div>
           )}
         </div>
@@ -411,12 +425,12 @@ export function TimerPage({
               r={radius}
               stroke="#B79AE6"
               strokeWidth={strokeWidth}
-              strokeLinecap="round"
+              strokeLinecap="square"
               fill="transparent"
               strokeDasharray={circumference}
               strokeDashoffset={strokeDashoffset}
               style={{
-                transition: isRunning ? 'stroke-dashoffset 1s linear' : 'stroke-dashoffset 0.3s ease',
+                transition: isRunning ? 'stroke-dashoffset 1s steps(10, end)' : 'stroke-dashoffset 0.3s ease',
               }}
             />
           </svg>
@@ -432,12 +446,13 @@ export function TimerPage({
           >
             <div
               style={{
-                fontFamily: "'DM Serif Display', Georgia, serif",
-                fontSize: '72px',
+                fontFamily: "'Press Start 2P', monospace",
+                fontSize: '44px',
                 color: timeLeft === 0 ? '#E8A857' : '#1E4D3B',
-                lineHeight: '1',
-                fontWeight: 500,
-                letterSpacing: '-0.02em',
+                lineHeight: '1.2',
+                fontWeight: 400,
+                letterSpacing: '0.04em',
+                textShadow: '3px 3px 0px #A9C4B8',
                 transition: 'color 0.3s ease',
               }}
             >
@@ -448,23 +463,24 @@ export function TimerPage({
               style={{
                 display: 'flex',
                 gap: '8px',
-                marginTop: '12px',
+                marginTop: '16px',
               }}
             >
               <button
                 onClick={() => adjustTime(-30)}
                 disabled={isRunning || totalSeconds <= 30}
                 style={{
-                  fontFamily: "'Plus Jakarta Sans', sans-serif",
-                  fontSize: '12px',
-                  fontWeight: 600,
+                  fontFamily: "'Press Start 2P', monospace",
+                  fontSize: '9px',
+                  fontWeight: 400,
                   color: totalSeconds <= 30 || isRunning ? '#A9BDB4' : '#1E4D3B',
-                  backgroundColor: 'transparent',
-                  border: `1.2px solid ${totalSeconds <= 30 || isRunning ? '#D2DDD7' : '#1E4D3B'}`,
-                  borderRadius: '999px',
-                  padding: '3px 11px',
+                  backgroundColor: '#FCFBF7',
+                  border: `2px solid ${totalSeconds <= 30 || isRunning ? '#D2DDD7' : '#1E4D3B'}`,
+                  boxShadow: `2px 2px 0px ${totalSeconds <= 30 || isRunning ? '#D2DDD7' : '#1E4D3B'}`,
+                  borderRadius: '0px',
+                  padding: '5px 10px',
                   cursor: totalSeconds <= 30 || isRunning ? 'not-allowed' : 'pointer',
-                  transition: 'all 0.15s ease',
+                  transition: 'all 0.1s ease',
                 }}
               >
                 −0:30
@@ -474,16 +490,17 @@ export function TimerPage({
                 onClick={() => adjustTime(30)}
                 disabled={isRunning}
                 style={{
-                  fontFamily: "'Plus Jakarta Sans', sans-serif",
-                  fontSize: '12px',
-                  fontWeight: 600,
+                  fontFamily: "'Press Start 2P', monospace",
+                  fontSize: '9px',
+                  fontWeight: 400,
                   color: isRunning ? '#A9BDB4' : '#1E4D3B',
-                  backgroundColor: 'transparent',
-                  border: `1.2px solid ${isRunning ? '#D2DDD7' : '#1E4D3B'}`,
-                  borderRadius: '999px',
-                  padding: '3px 11px',
+                  backgroundColor: '#FCFBF7',
+                  border: `2px solid ${isRunning ? '#D2DDD7' : '#1E4D3B'}`,
+                  boxShadow: `2px 2px 0px ${isRunning ? '#D2DDD7' : '#1E4D3B'}`,
+                  borderRadius: '0px',
+                  padding: '5px 10px',
                   cursor: isRunning ? 'not-allowed' : 'pointer',
-                  transition: 'all 0.15s ease',
+                  transition: 'all 0.1s ease',
                 }}
               >
                 +0:30
@@ -502,45 +519,44 @@ export function TimerPage({
           }}
         >
           <motion.button
-            whileHover={{ scale: 1.08, borderColor: '#1E4D3B' }}
-            whileTap={{ scale: 0.94 }}
+            whileHover={{ y: -2, boxShadow: '4px 4px 0px #1E4D3B' }}
+            whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #1E4D3B' }}
             onClick={resetTimer}
             title="Reset Timer"
             style={{
-              width: '44px',
-              height: '44px',
-              borderRadius: '50%',
-              backgroundColor: 'transparent',
-              border: '1.5px solid #8FA69B',
+              width: '46px',
+              height: '46px',
+              borderRadius: '0px',
+              backgroundColor: '#FCFBF7',
+              border: '2px solid #1E4D3B',
+              boxShadow: '3px 3px 0px #1E4D3B',
               color: '#1E4D3B',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               cursor: 'pointer',
-              transition: 'all 0.2s ease',
             }}
           >
             <RotateCcw size={18} color="#1E4D3B" />
           </motion.button>
 
           <motion.button
-            whileHover={{ scale: 1.08, boxShadow: '0 6px 20px rgba(183, 154, 230, 0.55)' }}
-            whileTap={{ scale: 0.94 }}
+            whileHover={{ y: -2, boxShadow: '5px 5px 0px #1E4D3B' }}
+            whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #1E4D3B' }}
             onClick={toggleTimer}
             title={isRunning ? 'Pause' : 'Start'}
             style={{
-              width: '58px',
-              height: '58px',
-              borderRadius: '50%',
+              width: '60px',
+              height: '60px',
+              borderRadius: '0px',
               backgroundColor: '#B79AE6',
-              border: 'none',
-              boxShadow: '0 4px 16px rgba(183, 154, 230, 0.45), inset 0 1px 2px rgba(255, 255, 255, 0.5)',
+              border: '2px solid #1E4D3B',
+              boxShadow: '4px 4px 0px #1E4D3B',
               color: '#FFFFFF',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               cursor: 'pointer',
-              transition: 'all 0.2s ease',
             }}
           >
             {isRunning ? (
@@ -560,7 +576,7 @@ export function TimerPage({
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              gap: '12px',
+              gap: '14px',
             }}
           >
             {audioUrl && (
@@ -570,13 +586,14 @@ export function TimerPage({
                   alignItems: 'center',
                   gap: '10px',
                   backgroundColor: '#FCFBF7',
-                  border: '1px solid #D9D5C7',
-                  borderRadius: '999px',
-                  padding: '6px 16px',
+                  border: '2px solid #1E4D3B',
+                  borderRadius: '0px',
+                  boxShadow: '3px 3px 0px #1E4D3B',
+                  padding: '8px 16px',
                 }}
               >
                 <Volume2 size={16} color="#1E4D3B" />
-                <span style={{ fontSize: '12px', fontWeight: 600, color: '#315444' }}>
+                <span style={{ fontSize: '12px', fontWeight: 600, color: '#315444', fontFamily: "'Pixelify Sans', monospace" }}>
                   Listen back:
                 </span>
                 <audio src={audioUrl} controls style={{ height: '28px', maxWidth: '240px' }} />
@@ -589,15 +606,16 @@ export function TimerPage({
                 backgroundColor: '#1E4D3B',
                 backgroundImage: 'linear-gradient(180deg, #245743 0%, #1A4434 100%)',
                 color: '#FFFFFF',
-                fontFamily: "'Plus Jakarta Sans', sans-serif",
-                fontWeight: 700,
-                fontSize: '13.5px',
-                letterSpacing: '0.06em',
+                fontFamily: "'Press Start 2P', monospace",
+                fontWeight: 400,
+                fontSize: '10.5px',
+                lineHeight: '1.4',
+                letterSpacing: '0.04em',
                 textTransform: 'uppercase',
-                padding: '11px 26px',
-                borderRadius: '5px',
-                border: '1px solid rgba(255, 255, 255, 0.1)',
-                boxShadow: '0 4px 14px rgba(30, 77, 59, 0.24)',
+                padding: '13px 26px',
+                borderRadius: '0px',
+                border: '2px solid #0E3B33',
+                boxShadow: '4px 4px 0px #0E3B33',
                 cursor: 'pointer',
                 display: 'inline-flex',
                 alignItems: 'center',

@@ -1,6 +1,5 @@
 // src/App.jsx
 import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
-import { Volume2, VolumeX, Film } from 'lucide-react';
 
 import { MascotProvider, useMascot } from './context/MascotContext';
 import { Mascot } from './components/Mascot/Mascot';
@@ -246,6 +245,9 @@ function AppContent() {
       style={{
         minHeight: '100vh',
         backgroundColor: '#F9F6EC',
+        backgroundImage:
+          'linear-gradient(rgba(30, 77, 59, 0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(30, 77, 59, 0.035) 1px, transparent 1px)',
+        backgroundSize: '8px 8px',
         display: 'flex',
         flexDirection: 'column',
         position: 'relative',
@@ -264,62 +266,7 @@ function AppContent() {
         onStartTimer={handleStartTimer}
       />
 
-      {/* Top Corner Controls: Sound & Intro Replay */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '20px',
-          right: '24px',
-          zIndex: 20,
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px',
-        }}
-      >
-        <button
-          onClick={() => setShowVideoIntro(true)}
-          title="Play Intro Video"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '36px',
-            height: '36px',
-            borderRadius: '50%',
-            backgroundColor: '#EDE8DB',
-            border: '1px solid #D9D5C7',
-            color: '#1E4D3B',
-            cursor: 'pointer',
-            transition: 'all 0.2s ease',
-          }}
-          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#E0DACB')}
-          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#EDE8DB')}
-        >
-          <Film size={17} />
-        </button>
 
-        <button
-          onClick={handleToggleMute}
-          title={isMuted ? 'Unmute sounds' : 'Mute sounds'}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '36px',
-            height: '36px',
-            borderRadius: '50%',
-            backgroundColor: '#EDE8DB',
-            border: '1px solid #D9D5C7',
-            color: '#1E4D3B',
-            cursor: 'pointer',
-            transition: 'all 0.2s ease',
-          }}
-          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#E0DACB')}
-          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#EDE8DB')}
-        >
-          {isMuted ? <VolumeX size={17} /> : <Volume2 size={17} />}
-        </button>
-      </div>
 
       {/* Top Floating Pill Tabs */}
       <header ref={(el) => registerTarget('tabs', el)}>

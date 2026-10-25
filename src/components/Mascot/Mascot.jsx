@@ -108,9 +108,9 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
             left: highlightRect.left - 6,
             width: highlightRect.width + 12,
             height: highlightRect.height + 12,
-            borderRadius: '16px',
-            border: '2.5px solid #E3A857',
-            boxShadow: '0 0 0 4px rgba(227, 168, 87, 0.25), 0 0 16px rgba(227, 168, 87, 0.4)',
+            borderRadius: '0px',
+            border: '3px dashed #E3A857',
+            boxShadow: '3px 3px 0px #1E4D3B',
             pointerEvents: 'none',
             zIndex: 998,
             animation: 'pulse 1.4s infinite ease-in-out',
@@ -156,16 +156,16 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
           touchAction: 'none',
         }}
       >
-        {/* Ground Shadow */}
+        {/* Ground Shadow in 8-bit Pixel */}
         <div
           style={{
             position: 'absolute',
-            bottom: '-8px',
-            left: '12px',
-            width: '74px',
-            height: '14px',
+            bottom: '-6px',
+            left: '16px',
+            width: '64px',
+            height: '8px',
             backgroundColor: '#B9C9BF',
-            borderRadius: '50%',
+            borderRadius: '0px',
             opacity: 0.6,
             transform: 'scale(1)',
             zIndex: -1,
@@ -210,7 +210,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
             viewBox="0 0 96 92"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            style={{ overflow: 'visible' }}
+            style={{ overflow: 'visible', imageRendering: 'pixelated', shapeRendering: 'crispEdges' }}
           >
             {/* SPROUT: Thin dark stem with 2 leaves */}
             <g style={{ transformOrigin: '48px 18px' }} className="mascot-sprout">
@@ -423,6 +423,38 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
             )}
           </svg>
         </motion.div>
+
+        {/* Name label below legs (never mirrored when mascot turns) */}
+        <div
+          style={{
+            position: 'absolute',
+            bottom: '-18px',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            pointerEvents: 'none',
+            userSelect: 'none',
+            whiteSpace: 'nowrap',
+            textAlign: 'center',
+            backgroundColor: '#FCFBF7',
+            border: '1.5px solid #1E4D3B',
+            borderRadius: '0px',
+            padding: '2px 6px',
+            boxShadow: '2px 2px 0px #1E4D3B',
+            lineHeight: '1.2',
+          }}
+        >
+          <span
+            style={{
+              fontFamily: "'Press Start 2P', monospace",
+              fontSize: '8px',
+              color: '#1E4D3B',
+              fontWeight: 400,
+              letterSpacing: '0.04em',
+            }}
+          >
+            VIDHITAM
+          </span>
+        </div>
 
         {/* Speech Bubble */}
         <AnimatePresence>

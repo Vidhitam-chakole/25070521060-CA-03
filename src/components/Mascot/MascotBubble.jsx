@@ -62,12 +62,12 @@ export function MascotBubble({ bubble, facing, onClose }) {
         maxWidth: '280px',
         backgroundColor: '#F9F6EC',
         border: '2px solid #1E4D3B',
-        borderRadius: '16px',
+        borderRadius: '0px',
         padding: '12px 16px',
-        boxShadow: '0 8px 24px rgba(30, 77, 59, 0.16)',
+        boxShadow: '4px 4px 0px #1E4D3B',
         color: '#1E4D3B',
-        fontFamily: "'Plus Jakarta Sans', sans-serif",
-        fontSize: '13.5px',
+        fontFamily: "'Pixelify Sans', monospace",
+        fontSize: '14px',
         lineHeight: '1.4',
         pointerEvents: 'auto',
         zIndex: 1010,
@@ -106,19 +106,19 @@ export function MascotBubble({ bubble, facing, onClose }) {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          marginBottom: '6px',
+          marginBottom: '8px',
         }}
       >
         <span
           style={{
-            fontSize: '11px',
-            fontFamily: "'Caveat Brush', cursive",
+            fontSize: '9px',
+            fontFamily: "'Press Start 2P', monospace",
             color: '#2A6B52',
-            fontWeight: 700,
+            fontWeight: 400,
             letterSpacing: '0.04em',
           }}
         >
-          Vidhitam
+          BUDDY
         </span>
         <button
           onClick={onClose}
@@ -136,9 +136,9 @@ export function MascotBubble({ bubble, facing, onClose }) {
       </div>
 
       {/* Message Text with Typewriter */}
-      <p style={{ margin: 0, minHeight: '38px', color: '#1E4D3B', fontWeight: 500 }}>
+      <p style={{ margin: 0, minHeight: '38px', color: '#1E4D3B', fontWeight: 500, fontSize: '13.5px' }}>
         {displayedText}
-        {isTyping && <span style={{ opacity: 0.6 }}>|</span>}
+        {isTyping && <span style={{ opacity: 0.7 }}>█</span>}
       </p>
 
       {/* Buttons (Next, Skip) if provided */}
@@ -156,16 +156,16 @@ export function MascotBubble({ bubble, facing, onClose }) {
             <button
               onClick={bubble.onSkip}
               style={{
-                fontSize: '11.5px',
+                fontSize: '8px',
+                fontFamily: "'Press Start 2P', monospace",
                 color: '#688678',
                 background: 'none',
                 border: 'none',
                 cursor: 'pointer',
-                fontWeight: 600,
                 padding: '4px 8px',
               }}
             >
-              Skip tour
+              SKIP
             </button>
           )}
 
@@ -173,18 +173,18 @@ export function MascotBubble({ bubble, facing, onClose }) {
             <button
               onClick={bubble.onNext}
               style={{
-                fontSize: '11.5px',
+                fontSize: '8px',
+                fontFamily: "'Press Start 2P', monospace",
                 color: '#FFFFFF',
                 backgroundColor: '#1E4D3B',
-                borderRadius: '999px',
-                border: 'none',
+                borderRadius: '0px',
+                border: '1.5px solid #0E3B33',
                 cursor: 'pointer',
-                fontWeight: 700,
-                padding: '4px 14px',
-                boxShadow: '0 2px 6px rgba(30, 77, 59, 0.2)',
+                padding: '5px 12px',
+                boxShadow: '2px 2px 0px #0E3B33',
               }}
             >
-              {bubble.buttons[0] || 'Next'}
+              {bubble.buttons[0] || 'NEXT'}
             </button>
           )}
         </div>
@@ -197,8 +197,8 @@ export function MascotBubble({ bubble, facing, onClose }) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            gap: '5px',
-            marginTop: '8px',
+            gap: '6px',
+            marginTop: '10px',
           }}
         >
           {Array.from({ length: bubble.progress.total }).map((_, idx) => (
@@ -207,9 +207,10 @@ export function MascotBubble({ bubble, facing, onClose }) {
               style={{
                 width: '6px',
                 height: '6px',
-                borderRadius: '50%',
+                borderRadius: '0px',
+                border: '1px solid #1E4D3B',
                 backgroundColor: idx + 1 === bubble.progress.current ? '#E3A857' : '#D9D5C7',
-                transition: 'background-color 0.2s ease',
+                transition: 'background-color 0.1s ease',
               }}
             />
           ))}

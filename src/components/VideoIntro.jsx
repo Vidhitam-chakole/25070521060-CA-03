@@ -1,27 +1,54 @@
 // src/components/VideoIntro.jsx
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, FastForward, Sparkles } from 'lucide-react';
+import { FastForward } from 'lucide-react';
 
 export function VideoIntro({ onComplete }) {
-  const [hasStarted, setHasStarted] = useState(false);
   const [isZoomingOut, setIsZoomingOut] = useState(false);
   const videoRef = useRef(null);
 
-  const startPlayback = () => {
-    setHasStarted(true);
-    if (videoRef.current) {
-      videoRef.current.play().catch(() => {
-        // Fallback if browser blocks unmuted audio
+  // Attempt immediate playback on mount
+  useEffect(() => {
+    const playVideo = async () => {
+      if (!videoRef.current) return;
+      try {
+        await videoRef.current.play();
+      } catch {
+        // If unmuted autoplay blocked by browser policy, try muted autoplay
+        // and unmute on first user click anywhere
         if (videoRef.current) {
           videoRef.current.muted = true;
           videoRef.current.play().catch(() => {});
         }
-      });
-    }
-  };
+      }
+    };
+    playVideo();
+
+    // Any click anywhere on the page starts/resumes audio & playback directly
+    const handleGlobalClick = () => {
+      if (videoRef.current) {
+        if (videoRef.current.muted) {
+          videoRef.current.muted = false;
+        }
+        if (videoRef.current.paused) {
+          videoRef.current.play().catch(() => {});
+        }
+      }
+    };
+
+    window.addEventListener('click', handleGlobalClick, { once: false });
+    window.addEventListener('keydown', handleGlobalClick, { once: false });
+    window.addEventListener('touchstart', handleGlobalClick, { once: false });
+
+    return () => {
+      window.removeEventListener('click', handleGlobalClick);
+      window.removeEventListener('keydown', handleGlobalClick);
+      window.removeEventListener('touchstart', handleGlobalClick);
+    };
+  }, []);
 
   const handleFinish = () => {
+    if (isZoomingOut) return;
     setIsZoomingOut(true);
     setTimeout(() => {
       onComplete();
@@ -31,213 +58,74 @@ export function VideoIntro({ onComplete }) {
   return (
     <AnimatePresence>
       <motion.div
-        initial={{ opacity: 1 }}
+        initial={{ opacity: 1, scale: 1 }}
         animate={{
           opacity: isZoomingOut ? 0 : 1,
-          scale: isZoomingOut ? 2.4 : 1,
+          scale: isZoomingOut ? 2.8 : 1,
         }}
-        exit={{ opacity: 0, scale: 2.4 }}
-        transition={{ duration: 0.72, ease: [0.16, 1, 0.3, 1] }}
+        exit={{ opacity: 0, scale: 2.8 }}
+        transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1] }}
         style={{
           position: 'fixed',
           inset: 0,
-          backgroundColor: '#F9F6EC',
+          backgroundColor: '#000000',
           zIndex: 9999,
           display: 'flex',
-          flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
           overflow: 'hidden',
-          cursor: hasStarted ? 'default' : 'pointer',
+          cursor: 'pointer',
         }}
-        onClick={!hasStarted ? startPlayback : undefined}
+        onClick={handleFinish}
+        title="Click to skip into website"
       >
-        {/* Subtle dot grid background */}
-        <div
+        {/* Fullscreen Video directly playing with no play button UI */}
+        <video
+          ref={videoRef}
+          src="/got_free_time_intro.mp4"
+          playsInline
+          autoPlay
+          onEnded={handleFinish}
           style={{
-            position: 'absolute',
-            inset: 0,
-            backgroundImage: 'radial-gradient(#D9D5C7 1.2px, transparent 1.2px)',
-            backgroundSize: '24px 24px',
-            opacity: 0.6,
-            pointerEvents: 'none',
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            backgroundColor: '#000000',
           }}
         />
 
-        {/* Floating pastel squares */}
-        <div
+        {/* Skip Intro Button */}
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            handleFinish();
+          }}
           style={{
             position: 'absolute',
-            top: '12%',
-            left: '10%',
-            width: '32px',
-            height: '32px',
-            backgroundColor: '#B9C9BF',
-            opacity: 0.5,
-            borderRadius: '6px',
-            transform: 'rotate(18deg)',
-            pointerEvents: 'none',
+            top: '24px',
+            right: '28px',
+            backgroundColor: '#F9F6EC',
+            color: '#1E4D3B',
+            border: '2px solid #1E4D3B',
+            borderRadius: '0px',
+            padding: '8px 14px',
+            fontSize: '9.5px',
+            fontFamily: "'Press Start 2P', monospace",
+            fontWeight: 400,
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            cursor: 'pointer',
+            boxShadow: '3px 3px 0px #1E4D3B',
+            zIndex: 10,
+            transition: 'transform 0.1s ease',
           }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            top: '25%',
-            right: '14%',
-            width: '28px',
-            height: '28px',
-            backgroundColor: '#E3A857',
-            opacity: 0.45,
-            borderRadius: '6px',
-            transform: 'rotate(-12deg)',
-            pointerEvents: 'none',
-          }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            bottom: '18%',
-            left: '16%',
-            width: '36px',
-            height: '36px',
-            backgroundColor: '#B79AE6',
-            opacity: 0.4,
-            borderRadius: '8px',
-            transform: 'rotate(24deg)',
-            pointerEvents: 'none',
-          }}
-        />
-
-        {/* BEFORE PLAYING: Click to Enter prompt */}
-        {!hasStarted ? (
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              textAlign: 'center',
-              zIndex: 2,
-              padding: '24px',
-            }}
-          >
-            <motion.div
-              animate={{ y: [0, -8, 0] }}
-              transition={{ repeat: Infinity, duration: 2.2, ease: 'easeInOut' }}
-              style={{
-                width: '74px',
-                height: '74px',
-                borderRadius: '50%',
-                backgroundColor: '#1E4D3B',
-                color: '#FFFFFF',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                boxShadow: '0 8px 24px rgba(30, 77, 59, 0.28)',
-                marginBottom: '24px',
-              }}
-            >
-              <Play size={32} fill="#FFFFFF" style={{ marginLeft: '4px' }} />
-            </motion.div>
-
-            <h1
-              style={{
-                fontFamily: "'Knewave', 'Shrikhand', cursive",
-                fontSize: 'clamp(36px, 5vw, 64px)',
-                color: '#2A6B52',
-                letterSpacing: '0.02em',
-                textShadow: '2px 2px 0px #A9C4B8',
-                margin: '0 0 12px 0',
-              }}
-            >
-              SpeechPact
-            </h1>
-
-            <p
-              style={{
-                fontFamily: "'Caveat Brush', cursive",
-                fontSize: '24px',
-                color: '#1E4D3B',
-                margin: '0 0 24px 0',
-              }}
-            >
-              Got Free Time? Click anywhere to start! 🚀
-            </p>
-
-            <span
-              style={{
-                fontFamily: "'Plus Jakarta Sans', sans-serif",
-                fontSize: '12px',
-                fontWeight: 700,
-                color: '#557667',
-                letterSpacing: '0.08em',
-                textTransform: 'uppercase',
-                backgroundColor: '#EDE8DB',
-                border: '1px solid #D9D5C7',
-                padding: '6px 18px',
-                borderRadius: '999px',
-              }}
-            >
-              Click to Open
-            </span>
-          </div>
-        ) : (
-          /* VIDEO PLAYING STATE */
-          <div
-            style={{
-              position: 'relative',
-              width: '100%',
-              height: '100%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              backgroundColor: '#000000',
-              zIndex: 5,
-            }}
-          >
-            <video
-              ref={videoRef}
-              src="/got_free_time_intro.mp4"
-              playsInline
-              onEnded={handleFinish}
-              style={{
-                width: '100%',
-                height: '100%',
-                objectFit: 'contain',
-              }}
-            />
-
-            {/* Skip Button */}
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                handleFinish();
-              }}
-              style={{
-                position: 'absolute',
-                top: '24px',
-                right: '28px',
-                backgroundColor: 'rgba(249, 246, 236, 0.9)',
-                color: '#1E4D3B',
-                border: '1.5px solid #1E4D3B',
-                borderRadius: '999px',
-                padding: '8px 18px',
-                fontSize: '13px',
-                fontFamily: "'Plus Jakarta Sans', sans-serif",
-                fontWeight: 700,
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px',
-                cursor: 'pointer',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
-                zIndex: 10,
-                backdropFilter: 'blur(4px)',
-              }}
-            >
-              <span>Skip Intro</span>
-              <FastForward size={15} />
-            </button>
-          </div>
-        )}
+          onMouseEnter={(e) => (e.currentTarget.style.transform = 'translate(-1px, -1px)')}
+          onMouseLeave={(e) => (e.currentTarget.style.transform = 'none')}
+        >
+          <span>SKIP INTRO</span>
+          <FastForward size={13} />
+        </button>
       </motion.div>
     </AnimatePresence>
   );

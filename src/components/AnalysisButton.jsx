@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 export function AnalysisButton({ onClick }) {
   return (
     <motion.button
-      whileHover={{ y: -2, boxShadow: '0 6px 18px rgba(30, 77, 59, 0.28)' }}
-      whileTap={{ y: 0, scale: 0.98 }}
+      whileHover={{ y: -2, boxShadow: '5px 5px 0px #0E3B33' }}
+      whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #0E3B33' }}
       onClick={onClick}
       style={{
         display: 'inline-flex',
@@ -15,17 +15,17 @@ export function AnalysisButton({ onClick }) {
         backgroundColor: '#1E4D3B',
         backgroundImage: 'linear-gradient(180deg, #245743 0%, #1A4434 100%)',
         color: '#FFFFFF',
-        fontFamily: "'Plus Jakarta Sans', sans-serif",
-        fontWeight: 700,
-        fontSize: '13.5px',
-        letterSpacing: '0.06em',
+        fontFamily: "'Press Start 2P', monospace",
+        fontWeight: 400,
+        fontSize: '10.5px',
+        lineHeight: '1.4',
+        letterSpacing: '0.04em',
         textTransform: 'uppercase',
-        padding: '11px 22px',
-        borderRadius: '5px',
-        border: '1px solid rgba(255, 255, 255, 0.1)',
-        boxShadow: '0 4px 12px rgba(30, 77, 59, 0.22)',
+        padding: '13px 22px',
+        borderRadius: '0px',
+        border: '2px solid #0E3B33',
+        boxShadow: '4px 4px 0px #0E3B33',
         cursor: 'pointer',
-        transition: 'background-color 0.2s ease',
         userSelect: 'none',
       }}
     >

@@ -44,11 +44,13 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
     setTourStep(0);
     setMood('surprised');
 
-    // Drop in near center-top
-    setPosition({ x: window.innerWidth / 2 - 50, y: 140 });
+    // Drop in at center of screen
+    const centerX = typeof window !== 'undefined' ? Math.round((window.innerWidth - 96) / 2) : 450;
+    const centerY = typeof window !== 'undefined' ? Math.round((window.innerHeight - 92) / 2) : 280;
+    setPosition({ x: centerX, y: centerY });
     setFacing(1);
 
-    say("Hi! I'm Vidhitam, your speech guide. Pick a mode up here!", {
+    say("Hi! I'm Buddy, your speech guide. Pick a mode up here!", {
       buttons: ['Next', 'Skip tour'],
       progress: { current: 1, total: 5 },
       onNext: () => nextTourStep(1),

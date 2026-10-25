@@ -9,61 +9,63 @@ export function ActionButtons({ onSpin, onStartTimer, isSpinning }) {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        gap: '12px',
-        marginTop: '20px',
+        gap: '16px',
+        marginTop: '22px',
         userSelect: 'none',
       }}
     >
       <motion.button
-        whileHover={!isSpinning ? { y: -2, boxShadow: '0 5px 15px rgba(30, 77, 59, 0.25)' } : {}}
-        whileTap={!isSpinning ? { scale: 0.96 } : {}}
+        whileHover={!isSpinning ? { y: -2, x: -1, boxShadow: '5px 5px 0px #0E3B33' } : {}}
+        whileTap={!isSpinning ? { y: 2, x: 2, boxShadow: '1px 1px 0px #0E3B33' } : {}}
         onClick={onSpin}
         disabled={isSpinning}
         style={{
           backgroundColor: isSpinning ? '#859F94' : '#1E4D3B',
           color: '#FFFFFF',
-          fontFamily: "'Plus Jakarta Sans', sans-serif",
-          fontWeight: 700,
-          fontSize: '14px',
-          padding: '10px 28px',
-          borderRadius: '999px',
-          border: 'none',
-          boxShadow: '0 3px 8px rgba(30, 77, 59, 0.15)',
+          fontFamily: "'Press Start 2P', monospace",
+          fontWeight: 400,
+          fontSize: '11px',
+          letterSpacing: '0.04em',
+          padding: '12px 26px',
+          borderRadius: '0px',
+          border: '2px solid #0E3B33',
+          boxShadow: '4px 4px 0px #0E3B33',
           cursor: isSpinning ? 'not-allowed' : 'pointer',
-          transition: 'background-color 0.2s ease, transform 0.15s ease',
-          minWidth: '100px',
+          minWidth: '110px',
         }}
       >
-        {isSpinning ? 'Spinning...' : 'Spin!'}
+        {isSpinning ? 'SPINNING...' : 'SPIN!'}
       </motion.button>
 
       <motion.button
         whileHover={{
           y: -2,
+          x: -1,
           backgroundColor: '#1E4D3B',
           color: '#FFFFFF',
-          boxShadow: '0 5px 15px rgba(30, 77, 59, 0.18)',
+          boxShadow: '4px 4px 0px #1E4D3B',
         }}
-        whileTap={{ scale: 0.96 }}
+        whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #1E4D3B' }}
         onClick={onStartTimer}
         style={{
           backgroundColor: 'transparent',
           color: '#1E4D3B',
-          fontFamily: "'Plus Jakarta Sans', sans-serif",
-          fontWeight: 600,
-          fontSize: '14px',
-          padding: '9px 24px',
-          borderRadius: '999px',
-          border: '1.5px solid #1E4D3B',
+          fontFamily: "'Press Start 2P', monospace",
+          fontWeight: 400,
+          fontSize: '10px',
+          letterSpacing: '0.02em',
+          padding: '11px 22px',
+          borderRadius: '0px',
+          border: '2px solid #1E4D3B',
+          boxShadow: '3px 3px 0px #1E4D3B',
           cursor: 'pointer',
-          transition: 'all 0.2s ease',
           display: 'inline-flex',
           alignItems: 'center',
-          gap: '6px',
+          gap: '8px',
         }}
       >
-        <span>Start Timer</span>
-        <span>→</span>
+        <span>START TIMER</span>
+        <span>▶</span>
       </motion.button>
     </div>
   );

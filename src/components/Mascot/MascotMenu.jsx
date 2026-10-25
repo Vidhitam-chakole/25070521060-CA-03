@@ -55,12 +55,12 @@ export function MascotMenu({ onClose, onTriggerSpin, onNavigateTab, onStartTimer
         left: '-110px',
         width: '310px',
         backgroundColor: '#FCFBF7',
-        border: '1.5px solid #1E4D3B',
-        borderRadius: '16px',
-        boxShadow: '0 12px 36px rgba(30, 77, 59, 0.22)',
+        border: '2px solid #1E4D3B',
+        borderRadius: '0px',
+        boxShadow: '4px 4px 0px #1E4D3B',
         padding: '16px',
         color: '#1E4D3B',
-        fontFamily: "'Plus Jakarta Sans', sans-serif",
+        fontFamily: "'Pixelify Sans', monospace",
         zIndex: 1020,
         pointerEvents: 'auto',
       }}
@@ -74,17 +74,17 @@ export function MascotMenu({ onClose, onTriggerSpin, onNavigateTab, onStartTimer
           marginBottom: '12px',
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <span style={{ fontSize: '18px' }}>🌱</span>
           <span
             style={{
-              fontFamily: "'Caveat Brush', cursive",
-              fontSize: '18px',
+              fontFamily: "'Press Start 2P', monospace",
+              fontSize: '11px',
               color: '#1E4D3B',
-              fontWeight: 700,
+              fontWeight: 400,
             }}
           >
-            Vidhitam Guide
+            BUDDY
           </span>
         </div>
         <button
@@ -109,9 +109,9 @@ export function MascotMenu({ onClose, onTriggerSpin, onNavigateTab, onStartTimer
             alignItems: 'center',
             gap: '6px',
             backgroundColor: '#F3EFE3',
-            border: '1px solid #D9D5C7',
-            borderRadius: '999px',
-            padding: '6px 12px',
+            border: '2px solid #1E4D3B',
+            borderRadius: '0px',
+            padding: '6px 10px',
           }}
         >
           <Search size={14} color="#5C7A6D" />
@@ -125,9 +125,9 @@ export function MascotMenu({ onClose, onTriggerSpin, onNavigateTab, onStartTimer
               background: 'transparent',
               outline: 'none',
               width: '100%',
-              fontSize: '12.5px',
+              fontSize: '13px',
               color: '#1E4D3B',
-              fontFamily: 'inherit',
+              fontFamily: "'Pixelify Sans', monospace",
             }}
           />
         </div>
@@ -179,7 +179,7 @@ export function MascotMenu({ onClose, onTriggerSpin, onNavigateTab, onStartTimer
           <span>Deep Research (10m Prep)</span>
         </button>
 
-        <div style={{ height: '1px', backgroundColor: '#E4DFD2', margin: '4px 0' }} />
+        <div style={{ height: '0px', borderTop: '2px dashed #E4DFD2', margin: '4px 0' }} />
 
         <button
           onClick={() => {
@@ -235,14 +235,14 @@ const menuBtnStyle = {
   gap: '8px',
   width: '100%',
   padding: '6px 10px',
-  borderRadius: '8px',
+  borderRadius: '0px',
   backgroundColor: 'transparent',
-  border: 'none',
-  fontSize: '12.5px',
-  fontFamily: "'Plus Jakarta Sans', sans-serif",
+  border: '1px solid transparent',
+  fontSize: '13px',
+  fontFamily: "'Pixelify Sans', monospace",
   fontWeight: 600,
   color: '#1E4D3B',
   cursor: 'pointer',
   textAlign: 'left',
-  transition: 'background-color 0.15s ease',
+  transition: 'background-color 0.1s ease',
 };

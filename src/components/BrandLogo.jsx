@@ -20,30 +20,30 @@ export function BrandLogo({ onClick, size = 'default' }) {
         style={{
           display: 'flex',
           flexDirection: 'column',
-          lineHeight: '0.88',
+          lineHeight: '1.2',
         }}
       >
         <span
           style={{
-            fontFamily: "'Knewave', 'Shrikhand', 'Gochi Hand', cursive",
-            fontSize: isSmall ? '18px' : '24px',
+            fontFamily: "'Press Start 2P', monospace",
+            fontSize: isSmall ? '13px' : '17px',
             color: '#2A6B52',
-            letterSpacing: '0.02em',
-            textShadow: '1.5px 1.5px 0px #A9C4B8',
+            letterSpacing: '0.04em',
+            textShadow: '2px 2px 0px #A9C4B8',
           }}
         >
-          Speech
+          SPEECH
         </span>
         <span
           style={{
-            fontFamily: "'Knewave', 'Shrikhand', 'Gochi Hand', cursive",
-            fontSize: isSmall ? '18px' : '24px',
+            fontFamily: "'Press Start 2P', monospace",
+            fontSize: isSmall ? '13px' : '17px',
             color: '#2A6B52',
             letterSpacing: '0.04em',
-            textShadow: '1.5px 1.5px 0px #A9C4B8',
+            textShadow: '2px 2px 0px #A9C4B8',
           }}
         >
-          Pact
+          PACT
         </span>
       </div>
     </div>
