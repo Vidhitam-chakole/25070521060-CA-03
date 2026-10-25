@@ -9,9 +9,11 @@ export function ActionButtons({ onSpin, onStartTimer, isSpinning }) {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        gap: '16px',
-        marginTop: '22px',
+        gap: 'clamp(8px, 2.5vw, 16px)',
+        flexWrap: 'wrap',
+        marginTop: '20px',
         userSelect: 'none',
+        width: '100%',
       }}
     >
       <motion.button
@@ -24,14 +26,14 @@ export function ActionButtons({ onSpin, onStartTimer, isSpinning }) {
           color: '#FFFFFF',
           fontFamily: "'Press Start 2P', monospace",
           fontWeight: 400,
-          fontSize: '11px',
+          fontSize: 'clamp(9.5px, 2.4vw, 11px)',
           letterSpacing: '0.04em',
-          padding: '12px 26px',
+          padding: 'clamp(10px, 2.5vw, 12px) clamp(16px, 4vw, 26px)',
           borderRadius: '0px',
           border: '2px solid #0E3B33',
           boxShadow: '4px 4px 0px #0E3B33',
           cursor: isSpinning ? 'not-allowed' : 'pointer',
-          minWidth: '110px',
+          minWidth: '100px',
         }}
       >
         {isSpinning ? 'SPINNING...' : 'SPIN!'}
@@ -52,16 +54,16 @@ export function ActionButtons({ onSpin, onStartTimer, isSpinning }) {
           color: '#1E4D3B',
           fontFamily: "'Press Start 2P', monospace",
           fontWeight: 400,
-          fontSize: '10px',
+          fontSize: 'clamp(9px, 2.2vw, 10px)',
           letterSpacing: '0.02em',
-          padding: '11px 22px',
+          padding: 'clamp(9px, 2.4vw, 11px) clamp(14px, 3.5vw, 22px)',
           borderRadius: '0px',
           border: '2px solid #1E4D3B',
           boxShadow: '3px 3px 0px #1E4D3B',
           cursor: 'pointer',
           display: 'inline-flex',
           alignItems: 'center',
-          gap: '8px',
+          gap: '7px',
         }}
       >
         <span>START TIMER</span>

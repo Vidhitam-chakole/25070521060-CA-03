@@ -184,3 +184,106 @@ a {
 .animate-reel-blur {
   animation: reelBlur 1.8s steps(12, end);
 }
+
+/* Bamboo Copter Rotor 3D Propeller Spin Animation */
+@keyframes bambooPropellerSpin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.bamboo-propeller {
+  transform-origin: 48px 3px;
+  transform-style: preserve-3d;
+  animation: bambooPropellerSpin 0.12s linear infinite;
+}
+
+/* Autonomous Mascot Gentle Bobbing */
+@keyframes mascotGentleBob {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-5px) rotate(1.5deg);
+  }
+  50% {
+    transform: translateY(-1px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(-1.5deg);
+  }
+}
+
+.mascot-flight-bob {
+  animation: mascotGentleBob 2.4s ease-in-out infinite;
+}
+
+/* Mobile & Desktop Responsive Layouts */
+.app-main-grid {
+  width: 100%;
+  max-width: 1180px;
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: clamp(24px, 4vw, 64px);
+  align-items: center;
+}
+
+.app-left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 0 12px clamp(12px, 3vw, 48px);
+  position: relative;
+  width: 100%;
+}
+
+.app-right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.reel-lever-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  gap: 14px;
+}
+
+@media (max-width: 860px) {
+  .app-main-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .app-left-col {
+    padding: 8px 12px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .reel-lever-wrapper {
+    gap: 8px;
+    padding: 0 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-left-col {
+    padding: 4px 6px;
+  }
+  
+  .reel-lever-wrapper {
+    gap: 6px;
+  }
+}

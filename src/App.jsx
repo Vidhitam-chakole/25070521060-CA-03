@@ -269,7 +269,7 @@ function AppContent() {
 
 
       {/* Top Floating Pill Tabs */}
-      <header ref={(el) => registerTarget('tabs', el)}>
+      <header>
         <TopTabs activeTab={activeTab} onChangeTab={handleTabChange} />
       </header>
 
@@ -289,35 +289,18 @@ function AppContent() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            padding: '24px 20px 48px 20px',
+            padding: 'clamp(12px, 3vw, 24px) clamp(10px, 3vw, 20px) 48px clamp(10px, 3vw, 20px)',
             width: '100%',
           }}
         >
-          <div
-            style={{
-              width: '100%',
-              maxWidth: '1180px',
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-              gap: 'clamp(28px, 5vw, 72px)',
-              alignItems: 'center',
-            }}
-          >
+          <div className="app-main-grid">
             {/* LEFT COLUMN: Hero Title Art, Steps / Accordion, Green CTA */}
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'flex-start',
-                padding: '12px 0 12px clamp(12px, 3vw, 48px)',
-                position: 'relative',
-              }}
-            >
+            <div className="app-left-col">
               <HeroTitle mode={activeTab} />
               <StepsList mode={activeTab} />
 
               {activeTab === 'interview-prep' ? (
-                <div style={{ marginTop: '24px', width: '100%' }}>
+                <div style={{ marginTop: '20px', width: '100%' }}>
                   <div ref={(el) => registerTarget('speechAnalysisBtn', el)}>
                     <AnalysisButton onClick={() => handleOpenAnalysis()} />
                   </div>
@@ -333,16 +316,7 @@ function AppContent() {
             </div>
 
             {/* RIGHT COLUMN: Filter Pills, Topic Reel, Lever, Buttons */}
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-                position: 'relative',
-                padding: '12px 0',
-              }}
-            >
+            <div className="app-right-col">
               <div ref={(el) => registerTarget('filterPills', el)}>
                 <FilterPills
                   mode={activeTab}
@@ -352,16 +326,10 @@ function AppContent() {
               </div>
 
               <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  position: 'relative',
-                  width: '100%',
-                  maxWidth: '620px',
-                }}
+                id="topic-reel-container"
+                className="reel-lever-wrapper"
               >
-                <div style={{ flex: 1 }}>
+                <div style={{ flex: 1, minWidth: 0 }}>
                   <TopicReel
                     mode={activeTab}
                     currentTopic={currentTopic}
@@ -374,9 +342,9 @@ function AppContent() {
                 <div
                   ref={(el) => registerTarget('lever', el)}
                   style={{
-                    marginLeft: '4px',
                     display: 'flex',
                     alignItems: 'center',
+                    flexShrink: 0,
                   }}
                 >
                   <Lever

@@ -31,7 +31,7 @@ export function HeroTitle({ mode }) {
         <h1
           style={{
             fontFamily: "'Press Start 2P', monospace",
-            fontSize: 'clamp(30px, 3.8vw, 46px)',
+            fontSize: 'clamp(20px, 5.5vw, 44px)',
             lineHeight: '1.2',
             color: '#2A6B52',
             textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
@@ -61,7 +61,7 @@ export function HeroTitle({ mode }) {
             <h1
               style={{
                 fontFamily: "'Press Start 2P', monospace",
-                fontSize: 'clamp(32px, 4.2vw, 50px)',
+                fontSize: 'clamp(22px, 5.5vw, 48px)',
                 lineHeight: '1.15',
                 color: '#2A6B52',
                 textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
@@ -81,7 +81,7 @@ export function HeroTitle({ mode }) {
             <h1
               style={{
                 fontFamily: "'Press Start 2P', monospace",
-                fontSize: 'clamp(32px, 4.2vw, 50px)',
+                fontSize: 'clamp(22px, 5.5vw, 48px)',
                 lineHeight: '1.15',
                 color: '#2A6B52',
                 textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
@@ -118,7 +118,7 @@ export function HeroTitle({ mode }) {
         <h1
           style={{
             fontFamily: "'Press Start 2P', monospace",
-            fontSize: 'clamp(28px, 3.6vw, 44px)',
+            fontSize: 'clamp(19px, 5vw, 42px)',
             lineHeight: '1.25',
             color: '#2A6B52',
             textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
@@ -157,7 +157,7 @@ export function HeroTitle({ mode }) {
         <h1
           style={{
             fontFamily: "'Press Start 2P', monospace",
-            fontSize: 'clamp(36px, 4.6vw, 54px)',
+            fontSize: 'clamp(24px, 6vw, 52px)',
             lineHeight: '1.15',
             color: '#2A6B52',
             textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
@@ -176,7 +176,7 @@ export function HeroTitle({ mode }) {
         <h1
           style={{
             fontFamily: "'Press Start 2P', monospace",
-            fontSize: 'clamp(36px, 4.6vw, 54px)',
+            fontSize: 'clamp(24px, 6vw, 52px)',
             lineHeight: '1.15',
             color: '#2A6B52',
             textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',

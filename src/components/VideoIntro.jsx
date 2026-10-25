@@ -52,19 +52,20 @@ export function VideoIntro({ onComplete }) {
     setIsZoomingOut(true);
     setTimeout(() => {
       onComplete();
-    }, 700);
+    }, 850);
   };
 
   return (
     <AnimatePresence>
       <motion.div
-        initial={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
         animate={{
           opacity: isZoomingOut ? 0 : 1,
-          scale: isZoomingOut ? 2.8 : 1,
+          scale: isZoomingOut ? 1.03 : 1,
+          filter: isZoomingOut ? 'blur(6px)' : 'blur(0px)',
         }}
-        exit={{ opacity: 0, scale: 2.8 }}
-        transition={{ duration: 0.75, ease: [0.16, 1, 0.3, 1] }}
+        exit={{ opacity: 0, scale: 1.03, filter: 'blur(6px)' }}
+        transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
         style={{
           position: 'fixed',
           inset: 0,

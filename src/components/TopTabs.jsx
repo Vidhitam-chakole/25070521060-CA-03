@@ -25,58 +25,44 @@ export function TopTabs({ activeTab, onChangeTab }) {
         style={{
           display: 'flex',
           alignItems: 'center',
-          backgroundColor: '#EDE8DB',
-          border: '2px solid #1E4D3B',
-          borderRadius: '0px',
-          padding: '3px',
-          height: '40px',
-          position: 'relative',
-          maxWidth: '92vw',
-          boxShadow: '3px 3px 0px #1E4D3B',
+          justifyContent: 'center',
+          gap: '10px',
+          flexWrap: 'wrap',
+          maxWidth: '96vw',
+          border: 'none',
+          backgroundColor: 'transparent',
+          boxShadow: 'none',
+          padding: '0 8px',
         }}
       >
         {TABS.map((tab) => {
           const isActive = activeTab === tab.id;
           return (
-            <button
+            <motion.button
               key={tab.id}
+              whileHover={{ y: -2, x: -1, boxShadow: '4px 4px 0px #1E4D3B' }}
+              whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #1E4D3B' }}
               onClick={() => onChangeTab(tab.id)}
               style={{
                 position: 'relative',
                 display: 'inline-flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                padding: '0 12px',
-                height: '32px',
+                padding: '9px 14px',
                 borderRadius: '0px',
-                fontSize: '11px',
+                fontSize: 'clamp(9px, 2vw, 11px)',
                 fontFamily: "'Press Start 2P', monospace",
                 fontWeight: isActive ? 700 : 400,
                 color: isActive ? '#1E4D3B' : '#4E6A5E',
+                backgroundColor: isActive ? '#FFFFFF' : '#EDE8DB',
+                border: '2px solid #1E4D3B',
+                boxShadow: isActive ? '3px 3px 0px #1E4D3B' : '2px 2px 0px #1E4D3B',
                 cursor: 'pointer',
-                border: 'none',
-                background: 'transparent',
-                zIndex: 1,
-                transition: 'color 0.1s ease',
+                transition: 'background-color 0.15s ease, color 0.15s ease',
                 whiteSpace: 'nowrap',
+                letterSpacing: '0.02em',
               }}
             >
-              {isActive && (
-                <motion.div
-                  layoutId="activeTabPill"
-                  transition={{ type: 'spring', stiffness: 500, damping: 35 }}
-                  style={{
-                    position: 'absolute',
-                    inset: 0,
-                    backgroundColor: '#FFFFFF',
-                    border: '1.5px solid #1E4D3B',
-                    borderRadius: '0px',
-                    boxShadow: '2px 2px 0px #1E4D3B',
-                    zIndex: -1,
-                  }}
-                />
-              )}
-
               <span
                 style={{
                   display: 'inline-flex',
@@ -104,7 +90,7 @@ export function TopTabs({ activeTab, onChangeTab }) {
                   </span>
                 )}
               </span>
-            </button>
+            </motion.button>
           );
         })}
       </nav>

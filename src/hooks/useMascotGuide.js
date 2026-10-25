@@ -37,151 +37,24 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
     setPosition({ x: targetX, y: targetY });
   }, [getTargetRect, setFacing, setPosition, setCurrentTargetKey]);
 
-  // ONBOARDING TOUR
+  // Tour can still be triggered on manual help request from mascot menu
   const startTour = useCallback(() => {
-    localStorage.removeItem('speechpact_tour_completed');
     isTourActiveRef.current = true;
     setTourStep(0);
-    setMood('surprised');
-
-    // Drop in at center of screen
-    const centerX = typeof window !== 'undefined' ? Math.round((window.innerWidth - 96) / 2) : 450;
-    const centerY = typeof window !== 'undefined' ? Math.round((window.innerHeight - 92) / 2) : 280;
-    setPosition({ x: centerX, y: centerY });
-    setFacing(1);
-
-    say("Hi! I'm Buddy, your speech guide. Pick a mode up here!", {
-      buttons: ['Next', 'Skip tour'],
-      progress: { current: 1, total: 5 },
-      onNext: () => nextTourStep(1),
-      onSkip: () => endTour(),
+    setMood('happy');
+    say("Hi! I'm Vidhitam, your speech guide. Pull the lever to practice speaking!", {
+      autoDismiss: 4000,
     });
-    setCurrentTargetKey('tabs');
-  }, [say, setMood, setPosition, setFacing, setTourStep, setCurrentTargetKey]);
-
-  const nextTourStep = useCallback((step) => {
-    setTourStep(step);
-
-    if (step === 1) {
-      setMood('pointing');
-      hopToTarget('filterPills', { x: 340, y: -20 }, -1);
-      say('Choose your preferred language and topic category.', {
-        buttons: ['Next', 'Skip tour'],
-        progress: { current: 2, total: 5 },
-        onNext: () => nextTourStep(2),
-        onSkip: () => endTour(),
-      });
-    } else if (step === 2) {
-      setMood('surprised');
-      hopToTarget('lever', { x: 70, y: 20 }, -1);
-      say('Pull this lever to spin the reel for a random topic!', {
-        buttons: ['Next', 'Skip tour'],
-        progress: { current: 3, total: 5 },
-        onNext: () => nextTourStep(3),
-        onSkip: () => endTour(),
-      });
-    } else if (step === 3) {
-      setMood('pointing');
-      hopToTarget('startTimerBtn', { x: -90, y: -10 }, 1);
-      say("Hit 'Start Timer' when you're ready to speak and record.", {
-        buttons: ['Next', 'Skip tour'],
-        progress: { current: 4, total: 5 },
-        onNext: () => nextTourStep(4),
-        onSkip: () => endTour(),
-      });
-    } else if (step === 4) {
-      setMood('happy');
-      hopToTarget('speechAnalysisBtn', { x: -90, y: -20 }, 1);
-      say('After speaking, click here to get instant feedback on pace, clarity, and filler words!', {
-        buttons: ['Finish Tour'],
-        progress: { current: 5, total: 5 },
-        onNext: () => endTour(),
-        onSkip: () => endTour(),
-      });
-    } else {
-      endTour();
-    }
-  }, [hopToTarget, say, setMood, setTourStep]);
+  }, [say, setMood, setTourStep]);
 
   const endTour = useCallback(() => {
     isTourActiveRef.current = false;
     setTourStep(null);
     setCurrentTargetKey(null);
-    localStorage.setItem('speechpact_tour_completed', 'true');
     setMood('happy');
-    say("You're all set! Click me anytime if you need help.", { autoDismiss: 4000 });
-    // Move to comfortable bottom-right safe corner
-    setTimeout(() => {
-      setPosition({ x: window.innerWidth - 130, y: window.innerHeight - 150 });
-      setMood('idle');
-    }, 2000);
-  }, [say, setCurrentTargetKey, setMood, setPosition, setTourStep]);
+  }, [setCurrentTargetKey, setMood, setTourStep]);
 
-  // First visit check
-  useEffect(() => {
-    const tourDone = localStorage.getItem('speechpact_tour_completed');
-    if (!tourDone && isVisible) {
-      const timer = setTimeout(() => {
-        startTour();
-      }, 1200);
-      return () => clearTimeout(timer);
-    }
-  }, [isVisible, startTour]);
-
-  // Activity tracking for idle roaming and sleep
-  useEffect(() => {
-    const handleActivity = () => {
-      const wasSleeping = mood === 'sleepy';
-      lastActivityRef.current = Date.now();
-
-      if (wasSleeping) {
-        setMood('surprised');
-        say('I am awake! Ready to practice?', { autoDismiss: 3000 });
-        setTimeout(() => setMood('idle'), 2000);
-      }
-    };
-
-    window.addEventListener('mousemove', handleActivity);
-    window.addEventListener('keydown', handleActivity);
-    window.addEventListener('click', handleActivity);
-
-    // Roaming / Sleep loop
-    const interval = setInterval(() => {
-      if (isTourActiveRef.current || !isVisible) return;
-
-      const idleDuration = Date.now() - lastActivityRef.current;
-
-      // 60s idle -> sleep
-      if (idleDuration > 60000 && mood !== 'sleepy') {
-        setMood('sleepy');
-        say('Zzz...', { autoDismiss: 4000 });
-        return;
-      }
-
-      // 5s to 12s idle -> subtle roaming in safe zones (bottom 25% or side margins)
-      if (idleDuration > 5000 && idleDuration < 58000 && mood === 'idle') {
-        // Safe spots: bottom quarter of screen
-        const safeMargin = 40;
-        const screenW = window.innerWidth;
-        const screenH = window.innerHeight;
-
-        const randomX = safeMargin + Math.random() * (screenW - safeMargin * 2 - 100);
-        const randomY = screenH - 160 + (Math.random() * 50 - 25);
-
-        setPosition((prev) => {
-          setFacing(randomX > prev.x ? 1 : -1);
-          return { x: randomX, y: Math.max(screenH - 180, Math.min(screenH - 110, randomY)) };
-        });
-      }
-    }, 7000);
-
-    return () => {
-      window.removeEventListener('mousemove', handleActivity);
-      window.removeEventListener('keydown', handleActivity);
-      window.removeEventListener('click', handleActivity);
-      clearInterval(interval);
-    };
-  }, [isVisible, mood, say, setFacing, setMood, setPosition]);
+  // Contextual hints when user is on a tab
 
   // Contextual hints when user is on a tab
   useEffect(() => {

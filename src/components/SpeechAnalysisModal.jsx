@@ -59,7 +59,7 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
             width: '100%',
             maxHeight: '90vh',
             overflowY: 'auto',
-            padding: '28px',
+            padding: 'clamp(16px, 4vw, 28px)',
             color: '#1E4D3B',
             position: 'relative',
           }}

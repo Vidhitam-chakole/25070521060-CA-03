@@ -1,5 +1,5 @@
 // src/components/Mascot/Mascot.jsx
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, useAnimation, AnimatePresence } from 'framer-motion';
 import { useMascot } from '../../context/MascotContext';
 import { MascotBubble } from './MascotBubble';
@@ -11,6 +11,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
     mood,
     setMood,
     bubble,
+    say,
     dismissBubble,
     position,
     setPosition,
@@ -18,7 +19,6 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
     setFacing,
     isMenuOpen,
     setIsMenuOpen,
-    highlightRect,
   } = useMascot();
 
   const [pupilOffset, setPupilOffset] = useState({ x: 0, y: 0 });
@@ -27,6 +27,78 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
   const [clickSparkles, setClickSparkles] = useState([]);
   const mascotRef = useRef(null);
   const controls = useAnimation();
+  const isPausedRef = useRef(false);
+  const waypointIdxRef = useRef(0);
+
+  // Compute docked position right on the left rim of Topic Reel (as shown in user's screenshot 1)
+  const getDockPosition = useCallback(() => {
+    const el = document.getElementById('topic-reel-container') || document.querySelector('.reel-lever-wrapper');
+    if (el) {
+      const rect = el.getBoundingClientRect();
+      const x = Math.max(12, Math.round(rect.left - 48));
+      const y = Math.max(60, Math.round(rect.top + 46));
+      return { x, y };
+    }
+    const w = typeof window !== 'undefined' ? window.innerWidth : 1024;
+    return {
+      x: w > 860 ? Math.round(w * 0.44) : 20,
+      y: 260,
+    };
+  }, []);
+
+  // Position mascot initially beside the Topic Reel card
+  useEffect(() => {
+    const timer1 = setTimeout(() => {
+      const dock = getDockPosition();
+      setPosition(dock);
+      setFacing(1);
+    }, 40);
+
+    const timer2 = setTimeout(() => {
+      const dock = getDockPosition();
+      setPosition(dock);
+    }, 250);
+
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+    };
+  }, [getDockPosition, setFacing, setPosition]);
+
+  // Autonomous constant flying with Bamboo Copter without user interference
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (isDragging || isPausedRef.current) return;
+
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      const dock = getDockPosition();
+
+      // Autonomous flight waypoints across the screen
+      const waypoints = [
+        dock, // 1. Initial dock beside Topic Reel
+        { x: Math.max(24, Math.round(w * 0.1)), y: 155 }, // 2. Above Hero Title
+        { x: Math.max(30, Math.round(w * 0.28)), y: 68 },  // 3. Floating near top navigation
+        { x: Math.min(w - 110, Math.round(w * 0.85)), y: 240 }, // 4. Hovering near the Lever
+        { x: Math.max(40, Math.round(w * 0.52)), y: Math.min(h - 130, 460) }, // 5. Dipping near Action Buttons
+        { x: Math.round(w * 0.42), y: 120 }, // 6. Cruising across upper middle
+      ];
+
+      waypointIdxRef.current = (waypointIdxRef.current + 1) % waypoints.length;
+      const nextPoint = waypoints[waypointIdxRef.current];
+
+      setPosition((current) => {
+        if (nextPoint.x > current.x + 12) {
+          setFacing(1);
+        } else if (nextPoint.x < current.x - 12) {
+          setFacing(-1);
+        }
+        return nextPoint;
+      });
+    }, 4800);
+
+    return () => clearInterval(interval);
+  }, [getDockPosition, isDragging, setFacing, setPosition]);
 
   // Eye tracking cursor
   useEffect(() => {
@@ -65,20 +137,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
     return () => clearInterval(blinkInterval);
   }, [mood]);
 
-  // Hop animation on position change
-  useEffect(() => {
-    controls.start({
-      y: [0, -18, 0],
-      scaleX: [1, 0.94, 1.1, 1],
-      scaleY: [0.88, 1.12, 0.9, 1],
-      transition: {
-        duration: 0.44,
-        ease: 'easeInOut',
-      },
-    });
-  }, [position, controls]);
-
-  // Mascot Click reaction
+  // Mascot Click reaction: mid-air backflip & sparkles
   const handleMascotClick = (e) => {
     e.stopPropagation();
     if (isDragging) return;
@@ -90,35 +149,28 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
       setClickSparkles((prev) => prev.filter((s) => s.id !== newSparkle.id));
     }, 1200);
 
+    // Mid-air flip animation
+    controls.start({
+      rotate: [0, -18, 360],
+      scale: [1, 1.15, 1],
+      transition: { duration: 0.65, ease: 'easeInOut' },
+    });
+
+    const flightPhrases = [
+      'Wheee! 🚁 Flying high!',
+      'Ready to practice speaking?',
+      'Pull the lever for a fresh prompt!',
+      'You sound great today!',
+    ];
+    const phrase = flightPhrases[Math.floor(Math.random() * flightPhrases.length)];
     setMood('happy');
-    setIsMenuOpen((prev) => !prev);
-    dismissBubble();
+    say(phrase, { autoDismiss: 3200 });
   };
 
   if (!isVisible) return null;
 
   return (
     <>
-      {/* Target Pulsing Orange Ring during guide/tour */}
-      {highlightRect && (
-        <div
-          style={{
-            position: 'fixed',
-            top: highlightRect.top - 6,
-            left: highlightRect.left - 6,
-            width: highlightRect.width + 12,
-            height: highlightRect.height + 12,
-            borderRadius: '0px',
-            border: '3px dashed #E3A857',
-            boxShadow: '3px 3px 0px #1E4D3B',
-            pointerEvents: 'none',
-            zIndex: 998,
-            animation: 'pulse 1.4s infinite ease-in-out',
-            transition: 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)',
-          }}
-        />
-      )}
-
       {/* Mascot Container */}
       <motion.div
         ref={mascotRef}
@@ -126,10 +178,14 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
         dragMomentum={true}
         onDragStart={() => {
           setIsDragging(true);
+          isPausedRef.current = true;
           dismissBubble();
         }}
         onDragEnd={(e, info) => {
-          setTimeout(() => setIsDragging(false), 80);
+          setTimeout(() => {
+            setIsDragging(false);
+            isPausedRef.current = false;
+          }, 2500);
           setPosition((prev) => ({
             x: Math.max(20, Math.min(window.innerWidth - 120, prev.x + info.offset.x)),
             y: Math.max(40, Math.min(window.innerHeight - 130, prev.y + info.offset.y)),
@@ -141,8 +197,9 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
         }}
         transition={{
           type: 'spring',
-          stiffness: 280,
-          damping: 24,
+          stiffness: 42,
+          damping: 14,
+          mass: 1.1,
         }}
         style={{
           position: 'fixed',
@@ -156,23 +213,6 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
           touchAction: 'none',
         }}
       >
-        {/* Ground Shadow in 8-bit Pixel */}
-        <div
-          style={{
-            position: 'absolute',
-            bottom: '-6px',
-            left: '16px',
-            width: '64px',
-            height: '8px',
-            backgroundColor: '#B9C9BF',
-            borderRadius: '0px',
-            opacity: 0.6,
-            transform: 'scale(1)',
-            zIndex: -1,
-            transition: 'transform 0.2s ease',
-          }}
-        />
-
         {/* Floating Sparkles & Hearts on Click */}
         {clickSparkles.map((sp) => (
           <motion.div
@@ -193,9 +233,10 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
           </motion.div>
         ))}
 
-        {/* Animated Mascot Body */}
+        {/* Animated Mascot Body with continuous hover bobbing */}
         <motion.div
           animate={controls}
+          className="mascot-flight-bob"
           onClick={handleMascotClick}
           style={{
             width: '100%',
@@ -212,29 +253,21 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
             xmlns="http://www.w3.org/2000/svg"
             style={{ overflow: 'visible', imageRendering: 'pixelated', shapeRendering: 'crispEdges' }}
           >
-            {/* SPROUT: Thin dark stem with 2 leaves */}
-            <g style={{ transformOrigin: '48px 18px' }} className="mascot-sprout">
-              {/* Stem */}
-              <path
-                d="M48 18 C 48 12, 47 8, 48 4"
-                stroke="#0E3B33"
-                strokeWidth="3"
-                strokeLinecap="round"
-              />
-              {/* Left Leaf (Mustard #E3A857) */}
-              <path
-                d="M48 9 C 42 6, 38 7, 36 10 C 37 13, 42 14, 48 11 Z"
-                fill="#E3A857"
-                stroke="#0E3B33"
-                strokeWidth="2"
-              />
-              {/* Right Leaf (Teal #3F7A6E) */}
-              <path
-                d="M48 7 C 54 4, 58 5, 60 8 C 59 11, 54 12, 48 9 Z"
-                fill="#3F7A6E"
-                stroke="#0E3B33"
-                strokeWidth="2"
-              />
+            {/* BAMBOO COPTER (竹コプター): Head mount, shaft, center hub & rapid spinning 2-blade rotor */}
+            <g id="bamboo-copter-assembly">
+              {/* Head Base Suction Mount */}
+              <ellipse cx="48" cy="16" rx="6" ry="2.5" fill="#C68A3B" stroke="#0E3B33" strokeWidth="1.5" />
+              {/* Wooden Bamboo Shaft */}
+              <rect x="46.5" y="3" width="3" height="13" fill="#E8A857" stroke="#0E3B33" strokeWidth="1.2" />
+              {/* Rapid Spinning Propeller Blades */}
+              <g className="bamboo-propeller" style={{ transformOrigin: '48px 3px' }}>
+                {/* Left Propeller Blade */}
+                <rect x="23" y="1" width="24" height="4" rx="2" fill="#E8A857" stroke="#0E3B33" strokeWidth="1.2" />
+                {/* Right Propeller Blade */}
+                <rect x="49" y="1" width="24" height="4" rx="2" fill="#E8A857" stroke="#0E3B33" strokeWidth="1.2" />
+                {/* Center Rotor Cap */}
+                <circle cx="48" cy="3" r="2.8" fill="#11524A" stroke="#0E3B33" strokeWidth="1.2" />
+              </g>
             </g>
 
             {/* FEET: Two small dark nubs */}
