@@ -1,6 +1,11 @@
 // src/App.jsx
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import { Volume2, VolumeX } from 'lucide-react';
+import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
+import { Volume2, VolumeX, Film } from 'lucide-react';
+
+import { MascotProvider, useMascot } from './context/MascotContext';
+import { Mascot } from './components/Mascot/Mascot';
+import { useMascotGuide } from './hooks/useMascotGuide';
+import { VideoIntro } from './components/VideoIntro';
 
 import { TopTabs } from './components/TopTabs';
 import { HeroTitle } from './components/HeroTitle';
@@ -20,13 +25,25 @@ import { VOCAB_WORDS } from './data/vocab';
 import { DEEP_RESEARCH_TOPICS } from './data/deepResearch';
 import { sound } from './utils/audio';
 
-export default function App() {
+function AppContent() {
+  const { registerTarget } = useMascot();
+
+  // Video intro state: show on first load or on manual replay
+  const [showVideoIntro, setShowVideoIntro] = useState(() => {
+    return !sessionStorage.getItem('speechpact_intro_played');
+  });
+
+  // Navigation / Page State: 'main' | 'timer'
   const [currentPage, setCurrentPage] = useState('main');
   const [timerTopic, setTimerTopic] = useState('');
   const [timerInitialSeconds, setTimerInitialSeconds] = useState(60);
+  const [timerTimeLeft, setTimerTimeLeft] = useState(60);
+  const [isTimerRunning, setIsTimerRunning] = useState(false);
 
+  // Active Tab: 'random-topics' | 'interview-prep' | 'learn-vocab' | 'deep-research'
   const [activeTab, setActiveTab] = useState('random-topics');
 
+  // Filter States
   const [filters, setFilters] = useState({
     lang: 'en-us',
     category: 'random',
@@ -37,13 +54,13 @@ export default function App() {
   });
 
   const [isMuted, setIsMuted] = useState(false);
-
   const [isAnalysisOpen, setIsAnalysisOpen] = useState(false);
   const [analysisTarget, setAnalysisTarget] = useState(null);
 
   const [isSpinning, setIsSpinning] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(1);
 
+  // Read URL query params on initial mount
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const topicParam = params.get('topic');
@@ -76,6 +93,7 @@ export default function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
+  // Filter items based on activeTab and filters
   const currentList = useMemo(() => {
     if (activeTab === 'random-topics') {
       let list = [...RANDOM_TOPICS];
@@ -131,6 +149,7 @@ export default function App() {
     setFilters((prev) => ({ ...prev, [key]: value }));
   };
 
+  // Spin Logic with mechanical sound
   const handleSpin = useCallback(() => {
     if (isSpinning || len === 0) return;
 
@@ -170,6 +189,7 @@ export default function App() {
 
     setTimerTopic(topicText);
     setTimerInitialSeconds(defaultSecs);
+    setTimerTimeLeft(defaultSecs);
     setCurrentPage('timer');
 
     const url = new URL(window.location);
@@ -180,6 +200,7 @@ export default function App() {
 
   const handleBackToMain = () => {
     setCurrentPage('main');
+    setIsTimerRunning(false);
     const url = new URL(window.location);
     url.searchParams.delete('page');
     url.searchParams.delete('topic');
@@ -203,17 +224,22 @@ export default function App() {
     setIsMuted(muted);
   };
 
-  if (currentPage === 'timer') {
-    return (
-      <TimerPage
-        topic={timerTopic}
-        mode={activeTab}
-        initialSeconds={timerInitialSeconds}
-        onBack={handleBackToMain}
-        onOpenAnalysis={handleOpenAnalysis}
-      />
-    );
-  }
+  const handleVideoIntroComplete = () => {
+    setShowVideoIntro(false);
+    sessionStorage.setItem('speechpact_intro_played', 'true');
+  };
+
+  // Connect Mascot Guide Hook
+  useMascotGuide({
+    activeTab,
+    currentPage,
+    timeLeft: timerTimeLeft,
+    isTimerRunning,
+    onTriggerSpin: handleSpin,
+    onNavigateTab: handleTabChange,
+    onStartTimer: handleStartTimer,
+    onOpenAnalysis: handleOpenAnalysis,
+  });
 
   return (
     <div
@@ -226,15 +252,52 @@ export default function App() {
         overflowX: 'hidden',
       }}
     >
-      {/* Sound Mute Button */}
+      {/* Video Intro Overlay on click */}
+      {showVideoIntro && (
+        <VideoIntro onComplete={handleVideoIntroComplete} />
+      )}
+
+      {/* Persistent Mascot "Vidhitam" mounted once at app root */}
+      <Mascot
+        onTriggerSpin={handleSpin}
+        onNavigateTab={handleTabChange}
+        onStartTimer={handleStartTimer}
+      />
+
+      {/* Top Corner Controls: Sound & Intro Replay */}
       <div
         style={{
           position: 'absolute',
           top: '20px',
           right: '24px',
           zIndex: 20,
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px',
         }}
       >
+        <button
+          onClick={() => setShowVideoIntro(true)}
+          title="Play Intro Video"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            width: '36px',
+            height: '36px',
+            borderRadius: '50%',
+            backgroundColor: '#EDE8DB',
+            border: '1px solid #D9D5C7',
+            color: '#1E4D3B',
+            cursor: 'pointer',
+            transition: 'all 0.2s ease',
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#E0DACB')}
+          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#EDE8DB')}
+        >
+          <Film size={17} />
+        </button>
+
         <button
           onClick={handleToggleMute}
           title={isMuted ? 'Unmute sounds' : 'Mute sounds'}
@@ -259,117 +322,137 @@ export default function App() {
       </div>
 
       {/* Top Floating Pill Tabs */}
-      <header>
+      <header ref={(el) => registerTarget('tabs', el)}>
         <TopTabs activeTab={activeTab} onChangeTab={handleTabChange} />
       </header>
 
-      {/* Main Two-Column Layout */}
-      <main
-        style={{
-          flex: 1,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: '24px 20px 48px 20px',
-          width: '100%',
-        }}
-      >
-        <div
+      {/* RENDER TIMER PAGE OR MAIN DASHBOARD */}
+      {currentPage === 'timer' ? (
+        <TimerPage
+          topic={timerTopic}
+          mode={activeTab}
+          initialSeconds={timerInitialSeconds}
+          onBack={handleBackToMain}
+          onOpenAnalysis={handleOpenAnalysis}
+        />
+      ) : (
+        <main
           style={{
-            width: '100%',
-            maxWidth: '1180px',
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-            gap: 'clamp(28px, 5vw, 72px)',
+            flex: 1,
+            display: 'flex',
             alignItems: 'center',
+            justifyContent: 'center',
+            padding: '24px 20px 48px 20px',
+            width: '100%',
           }}
         >
-          {/* LEFT COLUMN */}
           <div
             style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flex-start',
-              padding: '12px 0 12px clamp(12px, 3vw, 48px)',
-              position: 'relative',
-            }}
-          >
-            <HeroTitle mode={activeTab} />
-            <StepsList mode={activeTab} />
-
-            {activeTab === 'interview-prep' ? (
-              <div style={{ marginTop: '24px', width: '100%' }}>
-                <AnalysisButton onClick={() => handleOpenAnalysis()} />
-                <FrameworkAccordion />
-              </div>
-            ) : (
-              <div style={{ marginTop: '4px' }}>
-                <AnalysisButton onClick={() => handleOpenAnalysis()} />
-              </div>
-            )}
-          </div>
-
-          {/* RIGHT COLUMN */}
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
+              width: '100%',
+              maxWidth: '1180px',
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+              gap: 'clamp(28px, 5vw, 72px)',
               alignItems: 'center',
-              justifyContent: 'center',
-              position: 'relative',
-              padding: '12px 0',
             }}
           >
-            <FilterPills
-              mode={activeTab}
-              filters={filters}
-              onChangeFilter={handleFilterChange}
-            />
-
+            {/* LEFT COLUMN: Hero Title Art, Steps / Accordion, Green CTA */}
             <div
               style={{
                 display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'flex-start',
+                padding: '12px 0 12px clamp(12px, 3vw, 48px)',
+                position: 'relative',
+              }}
+            >
+              <HeroTitle mode={activeTab} />
+              <StepsList mode={activeTab} />
+
+              {activeTab === 'interview-prep' ? (
+                <div style={{ marginTop: '24px', width: '100%' }}>
+                  <div ref={(el) => registerTarget('speechAnalysisBtn', el)}>
+                    <AnalysisButton onClick={() => handleOpenAnalysis()} />
+                  </div>
+                  <div ref={(el) => registerTarget('frameworksAccordion', el)}>
+                    <FrameworkAccordion />
+                  </div>
+                </div>
+              ) : (
+                <div style={{ marginTop: '4px' }} ref={(el) => registerTarget('speechAnalysisBtn', el)}>
+                  <AnalysisButton onClick={() => handleOpenAnalysis()} />
+                </div>
+              )}
+            </div>
+
+            {/* RIGHT COLUMN: Filter Pills, Topic Reel, Lever, Buttons */}
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
                 position: 'relative',
-                width: '100%',
-                maxWidth: '620px',
+                padding: '12px 0',
               }}
             >
-              <div style={{ flex: 1 }}>
-                <TopicReel
+              <div ref={(el) => registerTarget('filterPills', el)}>
+                <FilterPills
                   mode={activeTab}
-                  currentTopic={currentTopic}
-                  prevTopic={prevTopic}
-                  nextTopic={nextTopic}
-                  isSpinning={isSpinning}
+                  filters={filters}
+                  onChangeFilter={handleFilterChange}
                 />
               </div>
 
               <div
                 style={{
-                  marginLeft: '4px',
                   display: 'flex',
                   alignItems: 'center',
+                  justifyContent: 'center',
+                  position: 'relative',
+                  width: '100%',
+                  maxWidth: '620px',
                 }}
               >
-                <Lever
-                  onPull={handleSpin}
+                <div style={{ flex: 1 }}>
+                  <TopicReel
+                    mode={activeTab}
+                    currentTopic={currentTopic}
+                    prevTopic={prevTopic}
+                    nextTopic={nextTopic}
+                    isSpinning={isSpinning}
+                  />
+                </div>
+
+                <div
+                  ref={(el) => registerTarget('lever', el)}
+                  style={{
+                    marginLeft: '4px',
+                    display: 'flex',
+                    alignItems: 'center',
+                  }}
+                >
+                  <Lever
+                    onPull={handleSpin}
+                    isSpinning={isSpinning}
+                    showAnnotation={true}
+                  />
+                </div>
+              </div>
+
+              <div ref={(el) => registerTarget('startTimerBtn', el)}>
+                <ActionButtons
+                  onSpin={handleSpin}
+                  onStartTimer={handleStartTimer}
                   isSpinning={isSpinning}
-                  showAnnotation={true}
                 />
               </div>
             </div>
-
-            <ActionButtons
-              onSpin={handleSpin}
-              onStartTimer={handleStartTimer}
-              isSpinning={isSpinning}
-            />
           </div>
-        </div>
-      </main>
+        </main>
+      )}
 
+      {/* Speech Analysis Modal */}
       <SpeechAnalysisModal
         isOpen={isAnalysisOpen}
         onClose={() => setIsAnalysisOpen(false)}
@@ -377,5 +460,13 @@ export default function App() {
         onTryAgain={handleSpin}
       />
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <MascotProvider>
+      <AppContent />
+    </MascotProvider>
   );
 }
