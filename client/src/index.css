@@ -1,0 +1,253 @@
+/* ===================================================================
+   INTERSTELLAR MISSION COMMAND & GARGANTUA DEEP SPACE DESIGN SYSTEM
+   =================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+:root {
+    --bg-deep-space: #020206;
+    --bg-card: rgba(8, 12, 24, 0.75);
+    --bg-card-hover: rgba(14, 22, 44, 0.85);
+    --border-hud: rgba(255, 255, 255, 0.12);
+    --border-amber: rgba(245, 158, 11, 0.35);
+    --border-cyan: rgba(56, 189, 248, 0.35);
+
+    --gargantua-gold: #f59e0b;
+    --gargantua-amber: #d97706;
+    --gargantua-glow: rgba(245, 158, 11, 0.25);
+
+    --miller-cyan: #38bdf8;
+    --miller-blue: #0284c7;
+
+    --font-display: 'Orbitron', 'Cinzel', sans-serif;
+    --font-hud: 'Rajdhani', sans-serif;
+    --font-body: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: var(--bg-deep-space);
+    color: #f1f5f9;
+    font-family: var(--font-body);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020206;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(245, 158, 11, 0.3);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(245, 158, 11, 0.6);
+}
+
+/* Typography Utility Classes */
+.font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.12em;
+}
+
+.font-cinzel {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.15em;
+}
+
+.font-hud {
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 0.08em;
+}
+
+/* Glassmorphism Sci-Fi Panels */
+.hud-panel {
+    background: var(--bg-card);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-hud);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.hud-panel-amber {
+    background: rgba(18, 12, 6, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-amber);
+    box-shadow: 0 0 25px rgba(245, 158, 11, 0.12);
+}
+
+.hud-panel-cyan {
+    background: rgba(6, 16, 26, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-cyan);
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.12);
+}
+
+/* Futuristic Corner Cut Reticles */
+.hud-corners {
+    position: relative;
+}
+
+.hud-corners::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid var(--gargantua-gold);
+    border-left: 2px solid var(--gargantua-gold);
+    pointer-events: none;
+}
+
+.hud-corners::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid var(--gargantua-gold);
+    border-right: 2px solid var(--gargantua-gold);
+    pointer-events: none;
+}
+
+/* Glowing Neon Elements */
+.glow-text-amber {
+    text-shadow: 0 0 12px rgba(245, 158, 11, 0.6), 0 0 24px rgba(245, 158, 11, 0.3);
+}
+
+.glow-text-cyan {
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.6), 0 0 24px rgba(56, 189, 248, 0.3);
+}
+
+.glow-border-amber {
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.35);
+}
+
+.glow-border-cyan {
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.35);
+}
+
+/* Scanline Effect Overlay */
+.scanline-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0) 50%,
+            rgba(0, 0, 0, 0.25) 50%,
+            rgba(0, 0, 0, 0.25));
+    background-size: 100% 4px;
+    pointer-events: none;
+    opacity: 0.45;
+    z-index: 10;
+}
+
+/* Grid Background */
+.space-grid-bg {
+    background-image:
+        linear-gradient(rgba(245, 158, 11, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(245, 158, 11, 0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+/* Animations */
+@keyframes spinSlow {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulseGlow {
+
+    0%,
+    100% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+}
+
+@keyframes starTwinkle {
+
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: scale(0.8);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes warpSpeed {
+    0% {
+        transform: scale(1) translateZ(0);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(15) translateZ(500px);
+        opacity: 0;
+    }
+}
+
+.animate-spin-slow {
+    animation: spinSlow 30s linear infinite;
+}
+
+.animate-pulse-glow {
+    animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* Ticking time animation for Miller's planet */
+@keyframes timePulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 0.85;
+        filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.7));
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.time-pulse {
+    animation: timePulse 1.25s infinite ease-in-out;
+}

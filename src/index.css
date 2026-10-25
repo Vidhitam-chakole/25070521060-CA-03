@@ -1,0 +1,118 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Serif+Display:ital@0;1&family=Gochi+Hand&family=Knewave&family=Patrick+Hand&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Shrikhand&display=swap');
+
+:root {
+  --bg-cream: #F9F6EC;
+  --primary-dark-green: #1E4D3B;
+  --title-green: #2A6B52;
+  --title-shadow: #A9C4B8;
+  --accent-orange: #E8A857;
+  --lavender: #B79AE6;
+  --pill-bg: #FCFBF7;
+  --pill-border: #D9D5C7;
+  --pill-hover: #F0ECE0;
+  --divider-color: #D9D5C7;
+  --text-muted: #7A8B83;
+  --text-faded: #A2B2A9;
+  
+  --font-display: 'Knewave', 'Shrikhand', 'Gochi Hand', cursive, system-ui;
+  --font-steps: 'Caveat Brush', 'Patrick Hand', cursive;
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: var(--bg-cream);
+  color: var(--primary-dark-green);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--pill-border);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Common Hand-drawn Typography */
+.font-steps {
+  font-family: var(--font-steps);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Soft shadows */
+.shadow-soft {
+  box-shadow: 0 4px 20px -2px rgba(30, 77, 59, 0.08);
+}
+
+.shadow-pill {
+  box-shadow: 0 2px 8px rgba(30, 77, 59, 0.06);
+}
+
+.shadow-cta {
+  box-shadow: 0 4px 14px rgba(30, 77, 59, 0.22);
+}
+
+/* Spin animation utility */
+@keyframes reelBlur {
+  0% {
+    filter: blur(0px);
+  }
+  30% {
+    filter: blur(3px);
+  }
+  80% {
+    filter: blur(1.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+.animate-reel-blur {
+  animation: reelBlur 1.8s cubic-bezier(0.12, 0.8, 0.32, 1);
+}
