@@ -22,55 +22,17 @@ const SERVER_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 const API_BASE = `${SERVER_BASE}/api/discussions`;
 const DIRECT_API_BASE = 'http://localhost:5000/api/discussions';
 
-// Static fallback loaders
-let cachedStaticTopics = null;
-let cachedStaticStats = null;
-
-const loadStaticTopics = async () => {
-  if (cachedStaticTopics) return cachedStaticTopics;
-  const res = await fetch('/data/debate_topics.json');
-  if (!res.ok) throw new Error('Could not load static debate topics catalog');
-  cachedStaticTopics = await res.json();
-  return cachedStaticTopics;
-};
-
-const loadStaticStats = async () => {
-  if (cachedStaticStats) return cachedStaticStats;
-  try {
-    const res = await fetch('/data/debate_stats.json');
-    if (res.ok) {
-      cachedStaticStats = await res.json();
-      return cachedStaticStats;
-    }
-  } catch {
-    // ignore
-  }
-  return null;
-};
-
 // Resilient fetch helper for debate topics
 const debateFetch = async (endpoint = '', options = {}) => {
   try {
     const res = await fetch(`${API_BASE}${endpoint}`, options);
-    const contentType = res.headers.get('content-type') || '';
-    if (contentType.includes('text/html')) {
-      throw new Error('API returned HTML instead of JSON (Vercel SPA rewrite)');
-    }
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
   } catch (primaryErr) {
-    const isLocalhost =
-      typeof window !== 'undefined' &&
-      (window.location.hostname === 'localhost' ||
-        window.location.hostname === '127.0.0.1');
-
-    if (isLocalhost && API_BASE !== DIRECT_API_BASE) {
+    if (API_BASE !== DIRECT_API_BASE) {
       try {
         const directRes = await fetch(`${DIRECT_API_BASE}${endpoint}`, options);
-        const directType = directRes.headers.get('content-type') || '';
-        if (!directRes.ok || directType.includes('text/html')) {
-          throw new Error(`Direct HTTP ${directRes.status}`);
-        }
+        if (!directRes.ok) throw new Error(`HTTP ${directRes.status}`);
         return await directRes.json();
       } catch {
         throw primaryErr;
@@ -115,7 +77,6 @@ export function DebateHub({ onSelectTopicForPractice }) {
   const [stats, setStats] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [dataSource, setDataSource] = useState('cloud_archive'); // 'mongodb' | 'cloud_archive'
 
   // Transcript Modal State
   const [activeTranscriptTopic, setActiveTranscriptTopic] = useState(null);
@@ -137,21 +98,16 @@ export function DebateHub({ onSelectTopicForPractice }) {
   useEffect(() => {
     debateFetch('/stats')
       .then((data) => {
-        if (data && data.success && data.stats) {
+        if (data.success) {
           setStats(data.stats);
-        } else {
-          throw new Error('Stats API not ready');
         }
       })
-      .catch(async () => {
-        const staticStats = await loadStaticStats();
-        if (staticStats) {
-          setStats(staticStats);
-        }
+      .catch((err) => {
+        console.warn('Could not load stats:', err.message);
       });
   }, []);
 
-  // Fetch Topics with resilient fallback to cloud dataset
+  // Fetch Topics from MongoDB
   const fetchTopics = useCallback(async () => {
     setIsLoading(true);
     setError(null);
@@ -169,86 +125,25 @@ export function DebateHub({ onSelectTopicForPractice }) {
         params.append('category', selectedCategory);
       }
 
-      let data = null;
-      try {
-        data = await debateFetch(`?${params.toString()}`);
-        if (data && data.success && Array.isArray(data.topics)) {
-          setDataSource('mongodb');
-        } else {
-          data = null;
-        }
-      } catch {
-        // Fallback to static cloud dataset
-        data = null;
+      const data = await debateFetch(`?${params.toString()}`);
+      if (data.success) {
+        setTopics(data.topics || []);
+        setPagination(
+          data.pagination || {
+            total: 0,
+            page: 1,
+            limit: 6,
+            totalPages: 1,
+            hasNext: false,
+            hasPrev: false,
+          }
+        );
+      } else {
+        throw new Error(data.message || 'Failed to fetch discussions');
       }
-
-      if (!data || !data.success) {
-        setDataSource('cloud_archive');
-        const allStatic = await loadStaticTopics();
-
-        let filtered = [...allStatic];
-
-        // Category filter
-        if (selectedCategory !== 'All') {
-          filtered = filtered.filter((t) => t.category === selectedCategory);
-        }
-
-        // Query search
-        if (debouncedQuery.trim()) {
-          const q = debouncedQuery.trim().toLowerCase();
-          filtered = filtered.filter((t) => {
-            const inTopic = (t.topic || '').toLowerCase().includes(q);
-            const inCategory = (t.category || '').toLowerCase().includes(q);
-            const inTags = Array.isArray(t.tags) && t.tags.some((tag) => tag.toLowerCase().includes(q));
-            const inExcerpts = Array.isArray(t.sampleExcerpts) && t.sampleExcerpts.some((ex) => ex.toLowerCase().includes(q));
-            const inOpinions = Array.isArray(t.initialOpinions) && t.initialOpinions.some((op) => (op.text || '').toLowerCase().includes(q));
-            return inTopic || inCategory || inTags || inExcerpts || inOpinions;
-          });
-        }
-
-        // Sort
-        if (selectedSort === 'turns' || selectedSort === 'popular') {
-          filtered.sort((a, b) => (b.totalTurns || 0) - (a.totalTurns || 0));
-        } else if (selectedSort === 'alpha') {
-          filtered.sort((a, b) => (a.topic || '').localeCompare(b.topic || ''));
-        } else if (selectedSort === 'newest') {
-          filtered.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
-        }
-
-        // Pagination
-        const total = filtered.length;
-        const totalPages = Math.ceil(total / limit) || 1;
-        const startIdx = (page - 1) * limit;
-        const pagedTopics = filtered.slice(startIdx, startIdx + limit);
-
-        data = {
-          success: true,
-          topics: pagedTopics,
-          pagination: {
-            total,
-            page,
-            limit,
-            totalPages,
-            hasNext: page < totalPages,
-            hasPrev: page > 1,
-          },
-        };
-      }
-
-      setTopics(data.topics || []);
-      setPagination(
-        data.pagination || {
-          total: 0,
-          page: 1,
-          limit: 6,
-          totalPages: 1,
-          hasNext: false,
-          hasPrev: false,
-        }
-      );
     } catch (err) {
       console.error('Error fetching debate topics:', err);
-      setError('Unable to load discussion topics. Please refresh the page.');
+      setError('Could not connect to MongoDB database (learnwithfun).');
     } finally {
       setIsLoading(false);
     }
@@ -258,7 +153,7 @@ export function DebateHub({ onSelectTopicForPractice }) {
     fetchTopics();
   }, [fetchTopics]);
 
-  // Fetch full transcript when modal opens with static fallback
+  // Fetch full transcript when modal opens
   const handleOpenTranscript = async (topic) => {
     try {
       if (sound.playAnalysisOpen) sound.playAnalysisOpen();
@@ -272,22 +167,7 @@ export function DebateHub({ onSelectTopicForPractice }) {
     setIsTranscriptLoading(true);
     try {
       const topicIdParam = topic.topicId || topic._id;
-      let data = null;
-      try {
-        data = await debateFetch(`/${encodeURIComponent(topicIdParam)}`);
-      } catch {
-        // Fallback to static transcript file in /data/debates/[topicId].json
-        try {
-          const res = await fetch(`/data/debates/${encodeURIComponent(topicIdParam)}.json`);
-          if (res.ok) {
-            const doc = await res.json();
-            data = { success: true, topic: doc };
-          }
-        } catch {
-          // ignore
-        }
-      }
-
+      const data = await debateFetch(`/${encodeURIComponent(topicIdParam)}`);
       if (data && data.success && data.topic) {
         setTranscriptData(data.topic);
       } else {
@@ -321,21 +201,9 @@ export function DebateHub({ onSelectTopicForPractice }) {
       // safe audio
     }
     try {
-      let chosenTopic = null;
-      try {
-        const data = await debateFetch('/random');
-        if (data.success && data.topic) {
-          chosenTopic = data.topic;
-        }
-      } catch {
-        const allStatic = await loadStaticTopics();
-        if (allStatic && allStatic.length > 0) {
-          const randIdx = Math.floor(Math.random() * allStatic.length);
-          chosenTopic = allStatic[randIdx];
-        }
-      }
-      if (chosenTopic && onSelectTopicForPractice) {
-        onSelectTopicForPractice(chosenTopic.topic, 'random');
+      const data = await debateFetch('/random');
+      if (data.success && data.topic && onSelectTopicForPractice) {
+        onSelectTopicForPractice(data.topic.topic, 'random');
       }
     } catch (err) {
       console.error('Error picking random topic:', err);
@@ -402,45 +270,6 @@ export function DebateHub({ onSelectTopicForPractice }) {
         </div>
 
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-          {dataSource === 'mongodb' ? (
-            <span
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '5px',
-                backgroundColor: '#E8F5E9',
-                border: '1px solid #2E7D32',
-                padding: '5px 9px',
-                fontFamily: "'Pixelify Sans', sans-serif",
-                fontSize: '11px',
-                fontWeight: 700,
-                color: '#1E4D3B',
-              }}
-              title="Connected to live MongoDB database"
-            >
-              <span style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#2E7D32' }} />
-              MongoDB Live
-            </span>
-          ) : (
-            <span
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '5px',
-                backgroundColor: '#EDE8DB',
-                border: '1px solid #1E4D3B',
-                padding: '5px 9px',
-                fontFamily: "'Pixelify Sans', sans-serif",
-                fontSize: '11px',
-                fontWeight: 700,
-                color: '#1E4D3B',
-              }}
-              title="107 Real Debate Topics Available"
-            >
-              <Sparkles size={11} color="#E8A857" />
-              107 Topics Available
-            </span>
-          )}
           <button
             onClick={handleRandomPractice}
             style={{

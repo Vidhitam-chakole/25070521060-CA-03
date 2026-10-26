@@ -40,10 +40,10 @@ router.post('/register', async (req, res) => {
       });
     }
 
-    if (password.length < 7) {
+    if (password.length < 4) {
       return res.status(400).json({
         success: false,
-        message: 'Password must be at least 7 characters long',
+        message: 'Password must be at least 4 characters long',
       });
     }
 

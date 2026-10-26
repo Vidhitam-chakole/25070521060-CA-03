@@ -3,14 +3,15 @@ import React from 'react';
 import { useAuth } from '../context/AuthContext';
 import { sound } from '../utils/audio';
 
-export function PlayerHud() {
+export function PlayerHud({ onReplayIntro }) {
   const { currentUser, isGuest, logout, openProfile, historyList } = useAuth();
-  const [isMuted, setIsMuted] = React.useState(() => sound.isMuted?.() || false);
 
   if (!currentUser) return null;
 
   const displayName = currentUser.nickname || currentUser.username || (isGuest ? 'Guest' : 'User');
   const initial = displayName.trim().charAt(0).toUpperCase() || 'U';
+
+  const [isMuted, setIsMuted] = React.useState(() => sound.isMuted?.() || false);
 
   const handleOpenProfile = () => {
     sound.playPillClick();
@@ -90,7 +91,22 @@ export function PlayerHud() {
 
       {/* Top Right Controls: Watch Intro, Sign Out & Profile Initial Icon */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-
+        {currentUser?.isDemoMode && (
+          <span
+            title="Running in Live Vercel Demo Mode"
+            style={{
+              padding: '3px 7px',
+              backgroundColor: '#FEF3C7',
+              border: '1px solid #D97706',
+              color: '#92400E',
+              fontFamily: "'Pixelify Sans', monospace",
+              fontSize: '11px',
+              fontWeight: 600,
+            }}
+          >
+            Live Demo Mode
+          </span>
+        )}
         <button
           type="button"
           onClick={handleToggleSound}
@@ -113,7 +129,29 @@ export function PlayerHud() {
         >
           <span>{isMuted ? '🔇 Muted' : '🔊 Sound'}</span>
         </button>
-
+        {onReplayIntro && (
+          <button
+            type="button"
+            onClick={onReplayIntro}
+            style={{
+              padding: '6px 12px',
+              backgroundColor: '#FAF8F0',
+              color: '#1E4D3B',
+              border: '1.5px solid #1E4D3B',
+              fontFamily: "'Pixelify Sans', monospace",
+              fontSize: '13px',
+              cursor: 'pointer',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              transition: 'background-color 0.15s',
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#EFE9DA')}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#FAF8F0')}
+          >
+            <span>Watch Intro</span>
+          </button>
+        )}
 
         <button
           type="button"

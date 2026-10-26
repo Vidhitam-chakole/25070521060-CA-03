@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"node --watch server/server.js\" \"vite\"",
-    "dev:all": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"node --watch server/server.js\" \"vite\"",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"node server/server.js\" \"vite\"",
+    "dev:all": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"node server/server.js\" \"vite\"",
     "dev:client": "vite",
-    "dev:server": "node --watch server/server.js",
+    "dev:server": "node server/server.js",
     "server": "node server/server.js",
     "start": "node server/server.js",
-    "build": "node scripts/buildDebateStaticData.js && vite build",
+    "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },

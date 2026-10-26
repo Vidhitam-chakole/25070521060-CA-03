@@ -326,7 +326,7 @@ function AppContent() {
 
           {/* Top Player HUD with Nickname & Mongo Status */}
           <header style={{ paddingTop: '12px' }}>
-            <PlayerHud />
+            <PlayerHud onReplayIntro={() => setShowVideoIntro(true)} />
             <TopTabs activeTab={activeTab} onChangeTab={handleTabChange} />
           </header>
 

@@ -10,25 +10,15 @@ const STORAGE_KEY_TOKEN = 'learnwithfun_auth_token';
 // API base paths - uses VITE_API_URL if configured, else Vite dev proxy with localhost:5000 fallback
 const SERVER_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 const API_BASE = `${SERVER_BASE}/api/auth`;
-const DIRECT_API_BASE = 'http://127.0.0.1:5000/api/auth';
+const DIRECT_API_BASE = 'http://localhost:5000/api/auth';
 const HISTORY_API_BASE = `${SERVER_BASE}/api/history`;
-const DIRECT_HISTORY_API_BASE = 'http://127.0.0.1:5000/api/history';
+const DIRECT_HISTORY_API_BASE = 'http://localhost:5000/api/history';
 
 export function AuthProvider({ children }) {
   const [currentUser, setCurrentUser] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY_USER) || localStorage.getItem('speechpact_auth_user');
-      if (!saved) return null;
-      const parsed = JSON.parse(saved);
-      if (parsed?.isDemoMode) {
-        localStorage.removeItem(STORAGE_KEY_USER);
-        localStorage.removeItem('speechpact_auth_user');
-        localStorage.removeItem(STORAGE_KEY_TOKEN);
-        localStorage.removeItem('speechpact_auth_token');
-        localStorage.removeItem('learnwithfun_demo_accounts');
-        return null;
-      }
-      return parsed;
+      return saved ? JSON.parse(saved) : null;
     } catch {
       return null;
     }
@@ -63,12 +53,9 @@ export function AuthProvider({ children }) {
 
   // Helper fetch with fallback
   const apiFetch = useCallback(async (endpoint, options = {}) => {
-    let res;
-    let proxyFailed = false;
-
     try {
       // First attempt relative proxy URL
-      res = await fetch(`${API_BASE}${endpoint}`, {
+      const res = await fetch(`${API_BASE}${endpoint}`, {
         ...options,
         headers: {
           'Content-Type': 'application/json',
@@ -76,17 +63,11 @@ export function AuthProvider({ children }) {
           ...options.headers,
         },
       });
-      if (!res || res.status === 502 || res.status === 504) {
-        proxyFailed = true;
-      }
+      return await res.json();
     } catch {
-      proxyFailed = true;
-    }
-
-    // If relative fails (e.g. proxy mismatch), attempt direct backend on 127.0.0.1:5000
-    if (proxyFailed || !res) {
+      // If relative fails (e.g. proxy mismatch), attempt direct backend
       try {
-        res = await fetch(`${DIRECT_API_BASE}${endpoint}`, {
+        const directRes = await fetch(`${DIRECT_API_BASE}${endpoint}`, {
           ...options,
           headers: {
             'Content-Type': 'application/json',
@@ -94,23 +75,11 @@ export function AuthProvider({ children }) {
             ...options.headers,
           },
         });
+        return await directRes.json();
       } catch {
         throw new Error('Unable to communicate with Node.js / MongoDB backend. Is the server running?');
       }
     }
-
-    let data;
-    try {
-      data = await res.json();
-    } catch {
-      throw new Error(`Server returned unexpected response (${res?.status || 500})`);
-    }
-
-    if (!res.ok && data?.message) {
-      throw new Error(data.message);
-    }
-
-    return data;
   }, [token]);
 
   // Check DB health on mount
@@ -163,17 +132,9 @@ export function AuthProvider({ children }) {
     setIsLoading(true);
     setAuthError('');
     try {
-      const cleanEmail = (email || '').trim().toLowerCase();
-      if (!cleanEmail) {
-        throw new Error('Please enter a valid email address.');
-      }
-      if (!password || password.length < 7) {
-        throw new Error('Password must be at least 7 characters long.');
-      }
-
       const data = await apiFetch('/register', {
         method: 'POST',
-        body: JSON.stringify({ email: cleanEmail, password, nickname }),
+        body: JSON.stringify({ email, password, nickname }),
       });
 
       if (!data.success) {
@@ -194,7 +155,51 @@ export function AuthProvider({ children }) {
 
       return { success: true, user };
     } catch (err) {
-      setAuthError(err.message || 'Registration failed');
+      // If backend is unreachable (e.g. running on Vercel without cloud server),
+      // seamlessly fall back to local demo account so users are never blocked
+      const isServerDown = err.message && (
+        err.message.includes('Unable to communicate with Node.js') ||
+        err.message.includes('Failed to fetch') ||
+        err.message.includes('NetworkError')
+      );
+
+      if (isServerDown) {
+        console.warn('Backend unavailable; activating live demo mode:', err.message);
+        const cleanEmail = email.trim().toLowerCase();
+        const defaultName = cleanEmail.split('@')[0];
+        const assignedNickname = (nickname && nickname.trim()) ? nickname.trim() : defaultName;
+        const demoUser = {
+          _id: 'demo_' + Date.now(),
+          email: cleanEmail,
+          nickname: assignedNickname,
+          avatar: 'parrot',
+          loginCount: 1,
+          isDemoMode: true,
+          createdAt: new Date().toISOString(),
+        };
+        const demoToken = 'demo_token_' + Date.now();
+
+        try {
+          const rawAccounts = localStorage.getItem('learnwithfun_demo_accounts');
+          const accounts = rawAccounts ? JSON.parse(rawAccounts) : {};
+          accounts[cleanEmail] = { user: demoUser, password };
+          localStorage.setItem('learnwithfun_demo_accounts', JSON.stringify(accounts));
+        } catch {
+          // ignore storage error
+        }
+
+        setToken(demoToken);
+        setCurrentUser(demoUser);
+        sound.playSuccessCelebration();
+
+        if (!assignedNickname) {
+          setIsAskingNickname(true);
+        }
+
+        return { success: true, user: demoUser, isDemoMode: true };
+      }
+
+      setAuthError(err.message);
       sound.playTimerEndBuzz();
       return { success: false, error: err.message };
     } finally {
@@ -207,14 +212,9 @@ export function AuthProvider({ children }) {
     setIsLoading(true);
     setAuthError('');
     try {
-      const cleanEmail = (email || '').trim().toLowerCase();
-      if (!cleanEmail || !password) {
-        throw new Error('Please enter both email and password.');
-      }
-
       const data = await apiFetch('/login', {
         method: 'POST',
-        body: JSON.stringify({ email: cleanEmail, password }),
+        body: JSON.stringify({ email, password }),
       });
 
       if (!data.success) {
@@ -234,7 +234,43 @@ export function AuthProvider({ children }) {
 
       return { success: true, user };
     } catch (err) {
-      setAuthError(err.message || 'Login failed');
+      const isServerDown = err.message && (
+        err.message.includes('Unable to communicate with Node.js') ||
+        err.message.includes('Failed to fetch') ||
+        err.message.includes('NetworkError')
+      );
+
+      if (isServerDown) {
+        console.warn('Backend unavailable; activating live demo mode:', err.message);
+        const cleanEmail = email.trim().toLowerCase();
+        let existingUser = null;
+        try {
+          const rawAccounts = localStorage.getItem('learnwithfun_demo_accounts');
+          const accounts = rawAccounts ? JSON.parse(rawAccounts) : {};
+          if (accounts[cleanEmail]) {
+            existingUser = accounts[cleanEmail].user;
+          }
+        } catch {
+          // ignore
+        }
+
+        const defaultName = cleanEmail.split('@')[0];
+        const demoUser = existingUser || {
+          _id: 'demo_' + Date.now(),
+          email: cleanEmail,
+          nickname: defaultName,
+          avatar: 'parrot',
+          loginCount: 1,
+          isDemoMode: true,
+        };
+        const demoToken = 'demo_token_' + Date.now();
+        setToken(demoToken);
+        setCurrentUser(demoUser);
+        sound.playSnapChime();
+        return { success: true, user: demoUser, isDemoMode: true };
+      }
+
+      setAuthError(err.message);
       sound.playTimerEndBuzz();
       return { success: false, error: err.message };
     } finally {
@@ -332,6 +368,37 @@ export function AuthProvider({ children }) {
       return { success: true, history: [], stats: { totalSessions: 0, avgRating: 0, manualCount: 0, randomCount: 0 } };
     }
 
+    if (currentUser?.isDemoMode) {
+      try {
+        const stored = localStorage.getItem('learnwithfun_demo_history_' + (currentUser.email || 'guest'));
+        const list = stored ? JSON.parse(stored) : [];
+        let filtered = [...list];
+        if (filters.source && filters.source !== 'all') {
+          filtered = filtered.filter((i) => i.source === filters.source);
+        }
+        if (filters.q && filters.q.trim()) {
+          const q = filters.q.trim().toLowerCase();
+          filtered = filtered.filter((i) => (i.topic || '').toLowerCase().includes(q) || (i.feedback || '').toLowerCase().includes(q));
+        }
+        if (filters.minRating) {
+          filtered = filtered.filter((i) => (i.rating || 0) >= Number(filters.minRating));
+        }
+        const total = filtered.length;
+        const avg = total > 0 ? (filtered.reduce((acc, c) => acc + (c.rating || 0), 0) / total).toFixed(1) : 0;
+        const stats = {
+          totalSessions: total,
+          avgRating: Number(avg),
+          manualCount: filtered.filter((i) => i.source === 'manual').length,
+          randomCount: filtered.filter((i) => i.source === 'random').length,
+        };
+        setHistoryList(filtered);
+        setHistoryStats(stats);
+        return { success: true, history: filtered, stats };
+      } catch {
+        return { success: true, history: [], stats: { totalSessions: 0, avgRating: 0, manualCount: 0, randomCount: 0 } };
+      }
+    }
+
     setIsHistoryLoading(true);
     try {
       const params = new URLSearchParams();
@@ -371,7 +438,7 @@ export function AuthProvider({ children }) {
 
   // Save new research session with satisfaction rating (1-5 stars) and feedback
   const addHistoryEntry = async (sessionData) => {
-    if (!token || currentUser?.isGuest) {
+    if (!token || currentUser?.isGuest || currentUser?.isDemoMode) {
       const localEntry = {
         _id: 'hist_' + Date.now(),
         topic: sessionData.topic,
@@ -383,7 +450,17 @@ export function AuthProvider({ children }) {
         durationSeconds: sessionData.durationSeconds || 0,
         completedAt: new Date().toISOString(),
       };
-      setHistoryList((prev) => [localEntry, ...prev]);
+      setHistoryList((prev) => {
+        const updated = [localEntry, ...prev];
+        if (currentUser?.isDemoMode) {
+          try {
+            localStorage.setItem('learnwithfun_demo_history_' + (currentUser.email || 'guest'), JSON.stringify(updated));
+          } catch {
+            // ignore
+          }
+        }
+        return updated;
+      });
       setHistoryStats((prev) => ({
         ...prev,
         totalSessions: prev.totalSessions + 1,
@@ -432,6 +509,20 @@ export function AuthProvider({ children }) {
 
   // Update rating or feedback for existing entry
   const updateHistoryEntry = async (id, { rating, feedback }) => {
+    if (currentUser?.isDemoMode) {
+      setHistoryList((prev) => {
+        const updated = prev.map((item) => (item._id === id ? { ...item, rating, feedback } : item));
+        try {
+          localStorage.setItem('learnwithfun_demo_history_' + (currentUser.email || 'guest'), JSON.stringify(updated));
+        } catch {
+          // ignore
+        }
+        return updated;
+      });
+      sound.playSnapChime();
+      return { success: true };
+    }
+
     try {
       const data = await historyFetch(`/${id}`, {
         method: 'PATCH',
@@ -458,6 +549,20 @@ export function AuthProvider({ children }) {
 
   // Delete research history entry
   const deleteHistoryEntry = async (id) => {
+    if (currentUser?.isDemoMode) {
+      setHistoryList((prev) => {
+        const updated = prev.filter((item) => item._id !== id);
+        try {
+          localStorage.setItem('learnwithfun_demo_history_' + (currentUser.email || 'guest'), JSON.stringify(updated));
+        } catch {
+          // ignore
+        }
+        return updated;
+      });
+      sound.playPillClick();
+      return { success: true };
+    }
+
     try {
       const data = await historyFetch(`/${id}`, {
         method: 'DELETE',

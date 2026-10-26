@@ -43,8 +43,8 @@ export function PixelAuthCard({ onGuestAccess }) {
       setAuthError('Email and password are required.');
       return;
     }
-    if (regPassword.length < 7) {
-      setAuthError('Password must be at least 7 characters long.');
+    if (regPassword.length < 4) {
+      setAuthError('Password must be at least 4 characters long.');
       return;
     }
     await register(regEmail, regPassword, regNickname);
@@ -117,6 +117,24 @@ export function PixelAuthCard({ onGuestAccess }) {
           </div>
         </div>
 
+        {/* Live Vercel / Remote Hosted Notice */}
+        {typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1' && (
+          <div
+            style={{
+              backgroundColor: '#FEF3C7',
+              borderBottom: '2px solid #D97706',
+              padding: '9px 16px',
+              fontFamily: "'Pixelify Sans', monospace",
+              fontSize: '12px',
+              color: '#92400E',
+              lineHeight: 1.45,
+            }}
+          >
+            <strong>🌐 Live Vercel Preview:</strong> Connects to local <strong>MongoDB Compass</strong> when run locally at{' '}
+            <code style={{ backgroundColor: '#FDE68A', padding: '1px 5px', fontWeight: 'bold' }}>http://localhost:5173</code>.
+            On this live deployment, instant Demo registration and Guest Access are active!
+          </div>
+        )}
 
         {/* Tab Selector */}
         <div
@@ -332,8 +350,7 @@ export function PixelAuthCard({ onGuestAccess }) {
                   type="password"
                   value={regPassword}
                   onChange={(e) => setRegPassword(e.target.value)}
-                  placeholder="At least 7 characters"
-                  minLength={7}
+                  placeholder="At least 4 characters"
                   required
                   style={{
                     width: '100%',
