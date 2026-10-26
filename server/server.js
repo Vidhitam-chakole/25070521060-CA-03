@@ -2,10 +2,15 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import authRoutes from './routes/auth.js';
 import discussionRoutes from './routes/discussions.js';
 import historyRoutes from './routes/history.js';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+dotenv.config({ path: path.join(__dirname, '.env') });
 dotenv.config();
 
 const app = express();
@@ -72,15 +77,29 @@ async function startServer() {
     console.log('✅ Connected successfully to MongoDB (database: learnwithfun)!');
     console.log('📊 Storing and verifying credentials in MongoDB Compass.');
 
-    app.listen(PORT, () => {
+    const server = app.listen(PORT, () => {
       console.log(`🚀 LearnWithFun Node.js server running on http://localhost:${PORT}`);
+    });
+    server.on('error', (err) => {
+      if (err.code === 'EADDRINUSE') {
+        console.warn(`⚠️ Port ${PORT} is already in use (server is likely already running).`);
+      } else {
+        console.error('Server error:', err);
+      }
     });
   } catch (err) {
     console.error('❌ MongoDB Connection Error:', err.message);
     console.error('⚠️ Make sure your local MongoDB server / MongoDB Compass service is running.');
     
-    app.listen(PORT, () => {
+    const server = app.listen(PORT, () => {
       console.log(`⚠️ Server running with degraded database state on http://localhost:${PORT}`);
+    });
+    server.on('error', (err) => {
+      if (err.code === 'EADDRINUSE') {
+        console.warn(`⚠️ Port ${PORT} is already in use.`);
+      } else {
+        console.error('Server error:', err);
+      }
     });
   }
 }
