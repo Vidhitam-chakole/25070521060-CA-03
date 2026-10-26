@@ -66,7 +66,7 @@ export function NicknamePromptModal() {
               lineHeight: '1.4',
             }}
           >
-            What nickname would you like us to use on your dashboard and feedback?
+            What nickname would you like us to use on LearnWithFun?
           </p>
 
           <form onSubmit={handleConfirm}>

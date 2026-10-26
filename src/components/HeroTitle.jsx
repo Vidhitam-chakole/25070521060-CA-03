@@ -135,20 +135,20 @@ export function HeroTitle({ mode }) {
     );
   }
 
-  // Default: Random Topics ("Speech" over "Pact")
+  // Default: Random Topics ("Learn" over "With Fun")
   return (
     <div style={{ position: 'relative', display: 'inline-block', userSelect: 'none' }}>
-      {/* Arc sparkle top-left of Speech */}
+      {/* Arc sparkle top-left of Learn */}
       <div style={{ position: 'absolute', top: '-14px', left: '-22px' }}>
         <SparkleArcs color="#E8A857" size={26} />
       </div>
 
-      {/* Arc sparkle bottom-left of Pact */}
+      {/* Arc sparkle bottom-left of With Fun */}
       <div style={{ position: 'absolute', bottom: '-4px', left: '-26px' }}>
         <SparkleArcs color="#E8A857" size={24} />
       </div>
 
-      {/* Arc sparkle bottom-right of Pact */}
+      {/* Arc sparkle bottom-right of With Fun */}
       <div style={{ position: 'absolute', bottom: '6px', right: '-24px' }}>
         <SparkleArcs color="#E8A857" size={24} />
       </div>
@@ -165,7 +165,7 @@ export function HeroTitle({ mode }) {
             margin: 0,
           }}
         >
-          Speech
+          Learn
         </h1>
 
         {/* Orange pixel wave running between the two words */}
@@ -176,15 +176,15 @@ export function HeroTitle({ mode }) {
         <h1
           style={{
             fontFamily: "'Press Start 2P', monospace",
-            fontSize: 'clamp(24px, 6vw, 52px)',
+            fontSize: 'clamp(20px, 5vw, 44px)',
             lineHeight: '1.15',
             color: '#2A6B52',
             textShadow: '3px 3px 0px #A9C4B8, 6px 6px 0px rgba(169, 196, 184, 0.5)',
-            letterSpacing: '0.04em',
+            letterSpacing: '0.03em',
             margin: 0,
           }}
         >
-          Pact
+          With Fun
         </h1>
       </div>
     </div>

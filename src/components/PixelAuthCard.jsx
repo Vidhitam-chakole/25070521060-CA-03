@@ -104,7 +104,7 @@ export function PixelAuthCard({ onGuestAccess }) {
               marginBottom: '6px',
             }}
           >
-            SpeechPact
+            LearnWithFun
           </div>
           <div
             style={{
@@ -113,7 +113,7 @@ export function PixelAuthCard({ onGuestAccess }) {
               color: '#E8A857',
             }}
           >
-            Sign in to start your speech practice
+            Sign in to LearnWithFun
           </div>
         </div>
 

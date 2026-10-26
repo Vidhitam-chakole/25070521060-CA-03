@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/speechpact';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/learnwithfun';
 
 // Middleware
 app.use(
@@ -31,7 +31,7 @@ app.use('/api/auth', authRoutes);
 // Root route
 app.get('/', (req, res) => {
   res.json({
-    name: 'SpeechPact API Server',
+    name: 'LearnWithFun API Server',
     status: 'online',
     database: 'MongoDB Compass',
     connected: mongoose.connection.readyState === 1,
@@ -45,17 +45,16 @@ async function startServer() {
     await mongoose.connect(MONGO_URI, {
       serverSelectionTimeoutMS: 5000,
     });
-    console.log('✅ Connected successfully to MongoDB (database: speechpact)!');
+    console.log('✅ Connected successfully to MongoDB (database: learnwithfun)!');
     console.log('📊 Storing and verifying credentials in MongoDB Compass.');
 
     app.listen(PORT, () => {
-      console.log(`🚀 SpeechPact Node.js server running on http://localhost:${PORT}`);
+      console.log(`🚀 LearnWithFun Node.js server running on http://localhost:${PORT}`);
     });
   } catch (err) {
     console.error('❌ MongoDB Connection Error:', err.message);
     console.error('⚠️ Make sure your local MongoDB server / MongoDB Compass service is running.');
     
-    // Still listen so health check and informative error can be served
     app.listen(PORT, () => {
       console.log(`⚠️ Server running with degraded database state on http://localhost:${PORT}`);
     });

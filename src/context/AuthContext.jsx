@@ -4,8 +4,8 @@ import { sound } from '../utils/audio';
 
 const AuthContext = createContext(null);
 
-const STORAGE_KEY_USER = 'speechpact_auth_user';
-const STORAGE_KEY_TOKEN = 'speechpact_auth_token';
+const STORAGE_KEY_USER = 'learnwithfun_auth_user';
+const STORAGE_KEY_TOKEN = 'learnwithfun_auth_token';
 
 // API base path - uses Vite dev server proxy or direct localhost:5000
 const API_BASE = '/api/auth';
@@ -14,7 +14,7 @@ const DIRECT_API_BASE = 'http://localhost:5000/api/auth';
 export function AuthProvider({ children }) {
   const [currentUser, setCurrentUser] = useState(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY_USER);
+      const saved = localStorage.getItem(STORAGE_KEY_USER) || localStorage.getItem('speechpact_auth_user');
       return saved ? JSON.parse(saved) : null;
     } catch {
       return null;
@@ -22,13 +22,13 @@ export function AuthProvider({ children }) {
   });
 
   const [token, setToken] = useState(() => {
-    return localStorage.getItem(STORAGE_KEY_TOKEN) || null;
+    return localStorage.getItem(STORAGE_KEY_TOKEN) || localStorage.getItem('speechpact_auth_token') || null;
   });
 
   const [dbStatus, setDbStatus] = useState({
     checked: false,
     connected: false,
-    database: 'speechpact',
+    database: 'learnwithfun',
     host: '127.0.0.1:27017',
   });
 
@@ -74,7 +74,7 @@ export function AuthProvider({ children }) {
       setDbStatus({
         checked: true,
         connected: Boolean(data?.mongoConnected),
-        database: data?.database || 'speechpact',
+        database: data?.database || 'learnwithfun',
         host: `${data?.host || '127.0.0.1'}:${data?.port || 27017}`,
       });
       return data;
@@ -82,7 +82,7 @@ export function AuthProvider({ children }) {
       setDbStatus({
         checked: true,
         connected: false,
-        database: 'speechpact',
+        database: 'learnwithfun',
         host: '127.0.0.1:27017',
       });
       return null;

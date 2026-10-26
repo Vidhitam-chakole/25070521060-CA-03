@@ -26,24 +26,24 @@ export function BrandLogo({ onClick, size = 'default' }) {
         <span
           style={{
             fontFamily: "'Press Start 2P', monospace",
-            fontSize: isSmall ? '13px' : '17px',
+            fontSize: isSmall ? '12px' : '16px',
             color: '#2A6B52',
             letterSpacing: '0.04em',
             textShadow: '2px 2px 0px #A9C4B8',
           }}
         >
-          SPEECH
+          LEARN
         </span>
         <span
           style={{
             fontFamily: "'Press Start 2P', monospace",
-            fontSize: isSmall ? '13px' : '17px',
-            color: '#2A6B52',
+            fontSize: isSmall ? '10px' : '13px',
+            color: '#E8A857',
             letterSpacing: '0.04em',
-            textShadow: '2px 2px 0px #A9C4B8',
+            textShadow: '2px 2px 0px rgba(30, 77, 59, 0.2)',
           }}
         >
-          PACT
+          WITH FUN
         </span>
       </div>
     </div>

@@ -13,7 +13,7 @@ router.get('/health', (req, res) => {
   res.json({
     status: 'ok',
     mongoConnected: isMongoReady,
-    database: 'speechpact',
+    database: 'learnwithfun',
     host: mongoose.connection.host || '127.0.0.1',
     port: mongoose.connection.port || 27017,
   });
