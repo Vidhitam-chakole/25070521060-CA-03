@@ -8,6 +8,7 @@ export const TABS = [
   { id: 'interview-prep', label: 'Interview Prep' },
   { id: 'learn-vocab', label: 'Learn Vocab' },
   { id: 'deep-research', label: 'Deep Research' },
+  { id: 'debate-hub', label: 'Debate Archive', isNew: true },
 ];
 
 export function TopTabs({ activeTab, onChangeTab }) {

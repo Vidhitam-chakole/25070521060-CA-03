@@ -7,9 +7,12 @@ const AuthContext = createContext(null);
 const STORAGE_KEY_USER = 'learnwithfun_auth_user';
 const STORAGE_KEY_TOKEN = 'learnwithfun_auth_token';
 
-// API base path - uses Vite dev server proxy or direct localhost:5000
-const API_BASE = '/api/auth';
+// API base paths - uses VITE_API_URL if configured, else Vite dev proxy with localhost:5000 fallback
+const SERVER_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const API_BASE = `${SERVER_BASE}/api/auth`;
 const DIRECT_API_BASE = 'http://localhost:5000/api/auth';
+const HISTORY_API_BASE = `${SERVER_BASE}/api/history`;
+const DIRECT_HISTORY_API_BASE = 'http://localhost:5000/api/history';
 
 export function AuthProvider({ children }) {
   const [currentUser, setCurrentUser] = useState(() => {
@@ -35,6 +38,18 @@ export function AuthProvider({ children }) {
   const [isAskingNickname, setIsAskingNickname] = useState(false);
   const [authError, setAuthError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+
+  // History & Profile State
+  const [historyList, setHistoryList] = useState([]);
+  const [historyStats, setHistoryStats] = useState({
+    totalSessions: 0,
+    avgRating: 0,
+    manualCount: 0,
+    randomCount: 0,
+  });
+  const [isHistoryLoading, setIsHistoryLoading] = useState(false);
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
+  const [profileInitialTab, setProfileInitialTab] = useState('history');
 
   // Helper fetch with fallback
   const apiFetch = useCallback(async (endpoint, options = {}) => {
@@ -239,12 +254,192 @@ export function AuthProvider({ children }) {
     }
   };
 
+  // History Fetch with Fallback
+  const historyFetch = useCallback(async (endpoint, options = {}) => {
+    const headers = {
+      'Content-Type': 'application/json',
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+      ...options.headers,
+    };
+
+    try {
+      const res = await fetch(`${HISTORY_API_BASE}${endpoint}`, {
+        ...options,
+        headers,
+      });
+      return await res.json();
+    } catch {
+      try {
+        const directRes = await fetch(`${DIRECT_HISTORY_API_BASE}${endpoint}`, {
+          ...options,
+          headers,
+        });
+        return await directRes.json();
+      } catch {
+        throw new Error('Unable to connect to MongoDB research history service.');
+      }
+    }
+  }, [token]);
+
+  // Fetch History for Authenticated User
+  const fetchHistory = useCallback(async (filters = {}) => {
+    if (!token || currentUser?.isGuest) {
+      setHistoryList([]);
+      return { success: true, history: [], stats: { totalSessions: 0, avgRating: 0, manualCount: 0, randomCount: 0 } };
+    }
+
+    setIsHistoryLoading(true);
+    try {
+      const params = new URLSearchParams();
+      if (filters.source && filters.source !== 'all') params.append('source', filters.source);
+      if (filters.q && filters.q.trim()) params.append('q', filters.q.trim());
+      if (filters.minRating) params.append('minRating', filters.minRating);
+
+      const qs = params.toString() ? `?${params.toString()}` : '';
+      const data = await historyFetch(qs, { method: 'GET' });
+
+      if (data.success) {
+        setHistoryList(data.history || []);
+        if (data.stats) {
+          setHistoryStats(data.stats);
+        }
+        return data;
+      } else {
+        throw new Error(data.message || 'Failed to load research history');
+      }
+    } catch (err) {
+      console.warn('Error fetching research history from MongoDB:', err.message);
+      return { success: false, error: err.message, history: [] };
+    } finally {
+      setIsHistoryLoading(false);
+    }
+  }, [token, currentUser, historyFetch]);
+
+  // Automatically fetch research history when authenticated user signs in
+  useEffect(() => {
+    if (currentUser && !currentUser.isGuest && token) {
+      fetchHistory();
+    } else {
+      setHistoryList([]);
+      setHistoryStats({ totalSessions: 0, avgRating: 0, manualCount: 0, randomCount: 0 });
+    }
+  }, [currentUser, token, fetchHistory]);
+
+  // Save new research session with satisfaction rating (1-5 stars) and feedback
+  const addHistoryEntry = async (sessionData) => {
+    if (!token || currentUser?.isGuest) {
+      // For guests, we can still show a temporary local feedback
+      const localEntry = {
+        _id: 'guest_hist_' + Date.now(),
+        topic: sessionData.topic,
+        source: sessionData.source || 'manual',
+        topicType: sessionData.topicType || 'manual-search',
+        category: sessionData.category || 'General',
+        rating: sessionData.rating || 5,
+        feedback: sessionData.feedback || '',
+        durationSeconds: sessionData.durationSeconds || 0,
+        completedAt: new Date().toISOString(),
+      };
+      setHistoryList((prev) => [localEntry, ...prev]);
+      setHistoryStats((prev) => ({
+        ...prev,
+        totalSessions: prev.totalSessions + 1,
+        manualCount: prev.manualCount + (localEntry.source === 'manual' ? 1 : 0),
+        randomCount: prev.randomCount + (localEntry.source === 'random' ? 1 : 0),
+      }));
+      sound.playSuccessCelebration();
+      return { success: true, entry: localEntry, isGuest: true };
+    }
+
+    try {
+      const data = await historyFetch('', {
+        method: 'POST',
+        body: JSON.stringify(sessionData),
+      });
+
+      if (!data.success) {
+        throw new Error(data.message || 'Failed to save research session');
+      }
+
+      const savedEntry = data.entry;
+      setHistoryList((prev) => [savedEntry, ...prev]);
+
+      // Re-fetch stats or update locally
+      fetchHistory();
+      sound.playSuccessCelebration();
+      return { success: true, entry: savedEntry };
+    } catch (err) {
+      console.error('Error adding history entry to MongoDB:', err);
+      return { success: false, error: err.message };
+    }
+  };
+
+  // Update rating or feedback for existing entry
+  const updateHistoryEntry = async (id, { rating, feedback }) => {
+    try {
+      const data = await historyFetch(`/${id}`, {
+        method: 'PATCH',
+        body: JSON.stringify({ rating, feedback }),
+      });
+
+      if (data.success && data.entry) {
+        setHistoryList((prev) =>
+          prev.map((item) => (item._id === id ? { ...item, ...data.entry } : item))
+        );
+        fetchHistory();
+        sound.playSnapChime();
+        return { success: true, entry: data.entry };
+      }
+      throw new Error(data.message || 'Failed to update entry');
+    } catch (err) {
+      console.error('Error updating history entry:', err);
+      return { success: false, error: err.message };
+    }
+  };
+
+  // Delete research history entry
+  const deleteHistoryEntry = async (id) => {
+    try {
+      const data = await historyFetch(`/${id}`, {
+        method: 'DELETE',
+      });
+
+      if (data.success) {
+        setHistoryList((prev) => prev.filter((item) => item._id !== id));
+        fetchHistory();
+        sound.playPillClick();
+        return { success: true };
+      }
+      throw new Error(data.message || 'Failed to delete entry');
+    } catch (err) {
+      console.error('Error deleting history entry:', err);
+      return { success: false, error: err.message };
+    }
+  };
+
+  // Profile Modal Controls
+  const openProfile = (initialTab = 'history') => {
+    setProfileInitialTab(initialTab);
+    setIsProfileOpen(true);
+    sound.playTabSwitch();
+    // Refresh history
+    fetchHistory();
+  };
+
+  const closeProfile = () => {
+    setIsProfileOpen(false);
+    sound.playModalClose();
+  };
+
   // Logout
   const logout = () => {
     setCurrentUser(null);
     setToken(null);
     setAuthError('');
     setIsAskingNickname(false);
+    setIsProfileOpen(false);
+    setHistoryList([]);
+    setHistoryStats({ totalSessions: 0, avgRating: 0, manualCount: 0, randomCount: 0 });
     localStorage.removeItem(STORAGE_KEY_USER);
     localStorage.removeItem(STORAGE_KEY_TOKEN);
     sound.playButtonClick();
@@ -267,6 +462,19 @@ export function AuthProvider({ children }) {
     loginAsGuest,
     saveNickname,
     logout,
+    // History & Profile
+    historyList,
+    historyStats,
+    isHistoryLoading,
+    fetchHistory,
+    addHistoryEntry,
+    updateHistoryEntry,
+    deleteHistoryEntry,
+    isProfileOpen,
+    setIsProfileOpen,
+    profileInitialTab,
+    openProfile,
+    closeProfile,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

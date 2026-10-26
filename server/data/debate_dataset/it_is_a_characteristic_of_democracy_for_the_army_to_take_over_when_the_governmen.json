@@ -1,0 +1,5733 @@
+{
+  "topicId": "it_is_a_characteristic_of_democracy_for_the_army_to_take_over_when_the_governmen",
+  "topic": "It is a characteristic of democracy for the army to take over when the government is incompetent",
+  "category": "Society & Politics",
+  "topicType": "breadth",
+  "conversationCount": 3,
+  "totalTurns": 626,
+  "initialOpinions": [
+    {
+      "workerId": "633b8NN0T9",
+      "text": "It depends what the army deems incompetent. It depends on their intentions.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "646a7NN0T9",
+      "text": "I do not agree with the statement. It is not a characteristic of the government to take over.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "5fb34NN0T9",
+      "text": "I dont agree. To me, the core characteristic of democracy is the will of the people. In a situation where the government is incompetent, it is the responsibility of the constituents being governed to take action, not the army.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "66807NN0T9",
+      "text": "It is not a characteristic of democracy for the army to take over when the government is incompetent.  Replacing the government should be handled by the people, in",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "673a4N189R",
+      "text": "I disagree with the statement. It is the opposite of democracy. People can vote to remove incompetent leaders",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "6510eN189R",
+      "text": "I don't think it's a characteristic. On occasions it has happened. I see it more of a characteristic of an oppressive government, or a dictatorship.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "66ee4N189R",
+      "text": "I disagree, using military force to run a country is a step in the wrong direction of democracy. In a truly democratic nation an incompetent government should get replaced by competent politicians through voting.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "5cbcfN189R",
+      "text": "A move like that would surely create a banana republic with a wanna-be dictator at the helm. That's the kind of government that we DON'T need!",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    }
+  ],
+  "conversations": [
+    {
+      "sessionId": "01K3EY0JJYNY1S8ZAPB09NN0T9",
+      "fileName": "20250824_212318_It_is_a_characteristic_of_democracy_for_the_army_to_take_over_when_the_government_is_incompetent_01K3EY0JJYNY1S8ZAPB09NN0T9.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66807NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "No, it is not a characteristic of democracy for a military coup to take over.  That defeats democracy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "633b8NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "It depends on what the army deems incompetent, and what their intentions are. If their intentions are truly matching the values of democracy and their actions match their intentions, then perhaps it is a characteristic of democracy for the army to take over when the government ..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "646a7NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "The army isn't intended to take over if a government is incompetent. The statement is a bit confusing though, are we talking about an army taking over it's own government? That is definitely not the intended use of military. Is it taking over another country, then possibly.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5fb34NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "I don't agree with the statement I was provided. I believe that it is the responsibility of the people to act when the government is incompetent. I think that a core tenet of democracy is that the will of the people is what drives decision-making. With that core tene",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "I think people do have a responsibility to make sure things are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "646a7NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Great, we agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66807NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Great, we agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "I think people do have a responsibility to make sure things are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Agreed I dont think its the armys responsibility to act though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Agreed I dont think its the armys responsibility to act though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66807NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "I agree.  If the government is incompetent, the action to replace it should be initiated by the citizens, not the military, .",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "I agree.  If the government is incompetent, the action to replace it should be initiated by the citizens, not the military, .",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "Nah. The government pays and controls the army, as far as i'm aware",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "Nah. The government pays and controls the army, as far as i'm aware",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "646a7NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Yes and the President should not be able to manipulate the army to do his own biding",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66807NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Yes and the President should not be able to manipulate the army to do his own biding",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "I mean sure Why do you say nah",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "I mean sure Why do you say nah",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "I'm agreeing with the notion that the I don't think it's the army's responsibility to act either",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "I'm agreeing with the notion that the I don't think it's the army's responsibility to act either",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Ah yeah To me that feels like interference",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Ah yeah To me that feels like interference",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "They should be striving for the same goals",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "They should be striving for the same goals",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "The army and the government? Or the army and the people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "The army and the government? Or the army and the people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66807NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "In the United States the President is commander in chief of the military, and it obeys his lawful orders.  But there are protections and safeguards in place.  The president should always follow the constitution.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "In the United States the President is commander in chief of the military, and it obeys his lawful orders.  But there are protections and safeguards in place.  The president should always follow the constitution.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "Army and government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "Army and government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "633b8NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "It depends on what the army deems incompetent, and what the army's intentions are. If their intentions and actions match the definition of democracy, then perhaps it is a characteristic of democracy for the army to take over when the government is incompetent actually...",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66807NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "In my last chat, we agreed that the military should not take over the government, but when needed that should be left to the people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "646a7NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "This statement is false and it is not what  the army was intended for, in the US. Military is for protection and not to be used to manipulate our own country and states.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5fb34NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "I don't agree with the topic statement. To me, the core tenet of democracy is that the will of the people is what drives decision making. If that's the case, then army interference in government affairs of any kind does not align with that, making it not characteristic of democra",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "I agree with your statement too. We should focus on protection",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "I agree with your statement too. We should focus on protection",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "646a7NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Take over and do what?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Take over and do what?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "I agree with you The army shouldnt interfere in government affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66807NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "I agree with you The army shouldnt interfere in government affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "If the government was being super oppressive and horrible to its citizens and the army had better intentions then it's cool",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "If the government was being super oppressive and horrible to its citizens and the army had better intentions then it's cool",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66807NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "If the government in not doing its job the people should lead the replacement.  It should be don in an orderly manner perserving the rights of the people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "If the government in not doing its job the people should lead the replacement.  It should be don in an orderly manner perserving the rights of the people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Yeah that makes sense to me Using the levers of the established democracy to make appropriate changes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66807NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Yeah that makes sense to me Using the levers of the established democracy to make appropriate changes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "646a7NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Who gets to decide if the intentions are better?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Who gets to decide if the intentions are better?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "Common sense, really. Their actions matching their intentions is of the utmost importance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "Common sense, really. Their actions matching their intentions is of the utmost importance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "646a7NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "But the president is who ultimately gets to decide, what if their intentions are not for the better good of the country?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "But the president is who ultimately gets to decide, what if their intentions are not for the better good of the country?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66807NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "The military should support the people in such a case, but there would need to be lawful means used to remove the president.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "The military should support the people in such a case, but there would need to be lawful means used to remove the president.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "then it wouldn't be a characteristic of democracy, hence the Depends",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "then it wouldn't be a characteristic of democracy, hence the Depends",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Im not sure about that I think that the army and the people often have different motivations",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66807NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Im not sure about that I think that the army and the people often have different motivations",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66807NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "The President is commander in chief of the military, and it is obliged to obey the president's law",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "The President is commander in chief of the military, and it is obliged to obey the president's law",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66807NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "Hello.  So far everyone has agreed that the military should not take over the government in a democracy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "646a7NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "False, the army isn't meant to be used against it's own citizens.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "633b8NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "It depends on the actions and intentions of the army when they go about this. If their intentions and actions pan out to be better than the government's and matches the definition of democracy, then it is characteristic for the army takeover upon government incompetence.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5fb34NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "As ive said before, I dont think this is the case. I think that democracy is about the people and their will. An army takeover of the government is in no way characteristic of democracy to me.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "You disagree?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "You disagree?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "646a7NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "Glad we agree, that isn't a democracy when the army is used against it's own people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "Glad we agree, that isn't a democracy when the army is used against it's own people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66807NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "In the case where the government is inept, the people should lead the take over not the military. Military coups have almost universally lead to the a military dictatorship and the rights of the people being ignored.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "In the case where the government is inept, the people should lead the take over not the military. Military coups have almost universally lead to the a military dictatorship and the rights of the people being ignored.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "Yeah it feels obvious to me A coup isnt democratic at all",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "Yeah it feels obvious to me A coup isnt democratic at all",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "I wholeheartedly agree with this observation People tend to look out for people more than people with power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66807NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "I wholeheartedly agree with this observation People tend to look out for people more than people with power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "646a7NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "me too, but some people think a president can utilize the army however they choose.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5fb34NN0T9",
+          "recipient": "5fb34NN0T9",
+          "text": "me too, but some people think a president can utilize the army however they choose.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5fb34NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "Yeah I think as the commander in chief they are the head of the army but to think they can do that i dont agree with either",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "646a7NN0T9",
+          "recipient": "646a7NN0T9",
+          "text": "Yeah I think as the commander in chief they are the head of the army but to think they can do that i dont agree with either",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66807NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "The removal process needs to be done in an orderly and lawful manner, respecting the rights and concerns of the people of the country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "The removal process needs to be done in an orderly and lawful manner, respecting the rights and concerns of the people of the country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "633b8NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Absolutely. It needs to be fair and just. It needs to address people's needs and the pressing issues of the time",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66807NN0T9",
+          "recipient": "66807NN0T9",
+          "text": "Absolutely. It needs to be fair and just. It needs to address people's needs and the pressing issues of the time",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66807NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "I hope it never needs to happen in my co",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "633b8NN0T9",
+          "recipient": "633b8NN0T9",
+          "text": "I hope it never needs to happen in my co",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "I dont agree. A coup isnt democratic at all",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "Militaries tend to be too oppressive when running a country. So I would say no.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "My opinions have not changed, it is not ok and not what the army is intended for.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "No.  In the case where the government is incompetent, the military should not take over.  This should be up to the people.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "['hispanic', 'white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "58",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "mormon",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "51",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "['hispanic', 'white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "633b8NN0T9",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fb34NN0T9",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "58",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66807NN0T9",
+          "recipient": "",
+          "text": "mormon",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "51",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "646a7NN0T9",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K3FBB9YJMG2SBCYMWT3N189R",
+      "fileName": "20250825_011856_It_is_a_characteristic_of_democracy_for_the_army_to_take_over_when_the_government_is_incompetent_01K3FBB9YJMG2SBCYMWT3N189R.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "673a4N189R",
+          "recipient": "5cbcfN189R",
+          "text": "I disagree. In fact, it is the opposite of democracy. People can vote to remove bad leaders.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66ee4N189R",
+          "recipient": "6510eN189R",
+          "text": "This is not true at all. Who would be in charge of the army now running the \"democracy?\" It sounds more like a dictatorship if the military is taking over. Instead, a democracy would replace incompetent politicians through elections.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6510eN189R",
+          "recipient": "66ee4N189R",
+          "text": "Hello, I don't really see the army taking over in a democracy. My history is not very good, but I can't think of recent times where a democratic government has gotten so bad that the army had to take over. I see this more with bad 3rd world governments.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5cbcfN189R",
+          "recipient": "673a4N189R",
+          "text": "Anytime this happens (think South America/ Congo) people get rounded u, taken as political prisoners and usually executed by firing squad. This type of government never works in favcor of the people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6510eN189R",
+          "recipient": "66ee4N189R",
+          "text": "That's what I'm thinking. Once the government is shown to be incompetent, the voters will act accordingly.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "That's what I'm thinking. Once the government is shown to be incompetent, the voters will act accordingly.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "6510eN189R",
+          "text": "I don't think it takes a historian to realize letting the army take over is anti-democratic. Let the people decide. Isn't there a name for a government run by the military? They don't call them democracies",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6510eN189R",
+          "recipient": "6510eN189R",
+          "text": "I don't think it takes a historian to realize letting the army take over is anti-democratic. Let the people decide. Isn't there a name for a government run by the military? They don't call them democracies",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "5cbcfN189R",
+          "text": "I agree with you. The whole reason we have 3 sections of the government is to keep everything balanced. It would not work if the military seized control.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5cbcfN189R",
+          "recipient": "5cbcfN189R",
+          "text": "I agree with you. The whole reason we have 3 sections of the government is to keep everything balanced. It would not work if the military seized control.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6510eN189R",
+          "recipient": "66ee4N189R",
+          "text": "I imagine the statement about the army taking over is far fetched. Maybe if Trump gets so bad, they will step in. I guess we're technically still a democracy, but a coup would take place.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "I imagine the statement about the army taking over is far fetched. Maybe if Trump gets so bad, they will step in. I guess we're technically still a democracy, but a coup would take place.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5cbcfN189R",
+          "recipient": "673a4N189R",
+          "text": "It also creates an incentive for the C.I.A. to do all sorts of nasty things when no one's looking. And then there are death squads going around killing people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "It also creates an incentive for the C.I.A. to do all sorts of nasty things when no one's looking. And then there are death squads going around killing people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "6510eN189R",
+          "text": "I did see the national guard was deployed in several US states, maybe it's closer than we think",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6510eN189R",
+          "recipient": "6510eN189R",
+          "text": "I did see the national guard was deployed in several US states, maybe it's closer than we think",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6510eN189R",
+          "recipient": "5cbcfN189R",
+          "text": "I think the statement is false. In a democracy, the people will get a handle on things before the army would have to step in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66ee4N189R",
+          "recipient": "673a4N189R",
+          "text": "This statement is false. A democracy is run by the people, not the army. If an army took control of the country it would mean the voice of the people have been silenced.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "673a4N189R",
+          "recipient": "66ee4N189R",
+          "text": "Historically, military cous have been the cause of the collapse of democracy. It's a terrible idea and works against the people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5cbcfN189R",
+          "recipient": "6510eN189R",
+          "text": "It is not characteristic of democratically elected governments to do this with military with the exception of South American banana republics.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "673a4N189R",
+          "text": "Totally agree, a government run by the military is the opposite of a democracy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "Totally agree, a government run by the military is the opposite of a democracy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "66ee4N189R",
+          "text": "Their authority would be derived from force and not elections.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "Their authority would be derived from force and not elections.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6510eN189R",
+          "recipient": "5cbcfN189R",
+          "text": "The only thing I can think of if it gets so bad with Trump, the army will have to step in to kick him out. In a couple years it might be too late to change course with voting.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5cbcfN189R",
+          "recipient": "5cbcfN189R",
+          "text": "The only thing I can think of if it gets so bad with Trump, the army will have to step in to kick him out. In a couple years it might be too late to change course with voting.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "673a4N189R",
+          "text": "Yup, it would be a dictatorship",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "Yup, it would be a dictatorship",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "66ee4N189R",
+          "text": "I believe in history it has caused people to become repressed and abused.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "I believe in history it has caused people to become repressed and abused.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "673a4N189R",
+          "text": "I can't imagine the people of any country thriving under military rule",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "I can't imagine the people of any country thriving under military rule",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5cbcfN189R",
+          "recipient": "6510eN189R",
+          "text": "Why is everybody afraid of Trump? All he's done so far is sit on his fat ass.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6510eN189R",
+          "recipient": "6510eN189R",
+          "text": "Why is everybody afraid of Trump? All he's done so far is sit on his fat ass.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6510eN189R",
+          "recipient": "5cbcfN189R",
+          "text": "I just hope the economy can improve over the next couple years, otherwise democrats will take over.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5cbcfN189R",
+          "recipient": "5cbcfN189R",
+          "text": "I just hope the economy can improve over the next couple years, otherwise democrats will take over.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "66ee4N189R",
+          "text": "Im not sure what else they want us to say lol. Who would think this is a good idea?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "Im not sure what else they want us to say lol. Who would think this is a good idea?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "673a4N189R",
+          "text": "Haha, me either. And I don't know, if there's someone out there they havent matched me with them yet.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "Haha, me either. And I don't know, if there's someone out there they havent matched me with them yet.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5cbcfN189R",
+          "recipient": "6510eN189R",
+          "text": "Nah, they're intentionally trying to crash the economy. You can see it if you look close enough, and even if they do fix the economy, A.I. will inevitably steal all the jobs.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6510eN189R",
+          "recipient": "6510eN189R",
+          "text": "Nah, they're intentionally trying to crash the economy. You can see it if you look close enough, and even if they do fix the economy, A.I. will inevitably steal all the jobs.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "66ee4N189R",
+          "text": "Youre my second person. So far we all agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "Youre my second person. So far we all agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5cbcfN189R",
+          "recipient": "66ee4N189R",
+          "text": "This only happens in banana republics.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "673a4N189R",
+          "recipient": "6510eN189R",
+          "text": "Military takeover threatens democratic principles and ideas. It's a terrible idea.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66ee4N189R",
+          "recipient": "5cbcfN189R",
+          "text": "This is not at all characteristic of a democracy. This would be a military dictatorship. If a democratic nation wants to get rid of incompetent leaders they would do so through elections.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6510eN189R",
+          "recipient": "673a4N189R",
+          "text": "I don't think it's a characteristic of democracy to have the army take over. This is more common in a dictatorship or a government in a 3rd world country. The voters would sway the government before it gets too bad in a democracy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6510eN189R",
+          "recipient": "673a4N189R",
+          "text": "I agree, unless it gets so bad with Trump, then who knows?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "I agree, unless it gets so bad with Trump, then who knows?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "6510eN189R",
+          "text": "Agreed, it would lead to instability and make things worse. lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6510eN189R",
+          "recipient": "6510eN189R",
+          "text": "Agreed, it would lead to instability and make things worse. lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "5cbcfN189R",
+          "text": "Agree, I don't know how much else I have to say on this topic but this is not something you see happen in democratic countries.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5cbcfN189R",
+          "recipient": "5cbcfN189R",
+          "text": "Agree, I don't know how much else I have to say on this topic but this is not something you see happen in democratic countries.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5cbcfN189R",
+          "recipient": "66ee4N189R",
+          "text": "So far, everyone has agreed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "So far, everyone has agreed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6510eN189R",
+          "recipient": "673a4N189R",
+          "text": "I would hate to see the democrats take over in a couple years, so hopefully the economy gets better.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "I would hate to see the democrats take over in a couple years, so hopefully the economy gets better.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "5cbcfN189R",
+          "text": "Whoever supports this take has not studied their political science Likewise, I havent heard anyone supporting this idea yet",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5cbcfN189R",
+          "recipient": "5cbcfN189R",
+          "text": "Whoever supports this take has not studied their political science Likewise, I havent heard anyone supporting this idea yet",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5cbcfN189R",
+          "recipient": "66ee4N189R",
+          "text": "There are a lot of cucks and simpletons in our society, unfortunately.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "There are a lot of cucks and simpletons in our society, unfortunately.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "6510eN189R",
+          "text": "Well I am right in the middle so not a fan of ether party to be honest. But we agree this is a military takeover is a bad idea",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6510eN189R",
+          "recipient": "6510eN189R",
+          "text": "Well I am right in the middle so not a fan of ether party to be honest. But we agree this is a military takeover is a bad idea",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6510eN189R",
+          "recipient": "673a4N189R",
+          "text": "It's certainly not a characteristic of any good, democratic government.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "It's certainly not a characteristic of any good, democratic government.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "5cbcfN189R",
+          "text": "Hahaha, not sure what that has to do with military takeovers or democracy but sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5cbcfN189R",
+          "recipient": "5cbcfN189R",
+          "text": "Hahaha, not sure what that has to do with military takeovers or democracy but sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "6510eN189R",
+          "text": "Plus, isnt that why we have three branches of government so that no one group, military included, has total power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6510eN189R",
+          "recipient": "6510eN189R",
+          "text": "Plus, isnt that why we have three branches of government so that no one group, military included, has total power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6510eN189R",
+          "recipient": "673a4N189R",
+          "text": "Yes, and elections every couple years.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "673a4N189R",
+          "recipient": "673a4N189R",
+          "text": "Yes, and elections every couple years.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5cbcfN189R",
+          "recipient": "66ee4N189R",
+          "text": "Cause some folks still think that communism is the wave of the future. Lot of boot lickers out there.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66ee4N189R",
+          "recipient": "66ee4N189R",
+          "text": "Cause some folks still think that communism is the wave of the future. Lot of boot lickers out there.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "673a4N189R",
+          "recipient": "6510eN189R",
+          "text": "Agreed. not sure what else we should say. Who would be for that? lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6510eN189R",
+          "recipient": "6510eN189R",
+          "text": "Agreed. not sure what else we should say. Who would be for that? lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66ee4N189R",
+          "recipient": "5cbcfN189R",
+          "text": "Sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5cbcfN189R",
+          "recipient": "5cbcfN189R",
+          "text": "Sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "It is not at all characteristic of a democracy for the army to take over. Instead, incompetent politicians should be voted out.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "I disagree because it goes against democracy which is out core value",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "It's not a characteristic of a democracy. The army takes over the government in a dictatorship or a 3rd world country.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "Myself and those I spoke with agreed on everything.  Only a banana republic does things like this.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "['public', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "42",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "['asian', 'white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "44",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "['public', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ee4N189R",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "42",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "['asian', 'white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6510eN189R",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "673a4N189R",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "44",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbcfN189R",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K3FBH5AKHG4NFRDGNY7QDJFA",
+      "fileName": "20250825_011910_It_is_a_characteristic_of_democracy_for_the_army_to_take_over_when_the_government_is_incompetent_01K3FBH5AKHG4NFRDGNY7QDJFA.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66298QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "I disagree.  I think there are a lot of coup d'etats that happen because someone thinks the government is incompetent, but they really aren't.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "61524QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "it depends on the nation, the nation's founding principals, and has nothing to do with democracy or form of government. like nearly all \"social media\" even the topic is retarded.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6508aQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "They picked the wrong person for this topic! It is my belief though that the army stepping in to take over governmental responsibilities is not a characteristic of democracy no matter how incompetent the government is.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66ecdQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "I think this is something that could happen. The army would be who I would expect to step up in a scenario like this. I sure hope this never happens.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61524QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "could be what are some examples",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66298QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "could be what are some examples",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66298QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "What should nations do when the government has proven to be incompetent. Also, using the \"r\" word is very hurtful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61524QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "What should nations do when the government has proven to be incompetent. Also, using the \"r\" word is very hurtful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6508aQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I agree that it could happen but I do not feel like it characteristacally would. Like you, I hope it does not ever have to. I hear you though, that if anyone would, the army might be a solid option.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I agree that it could happen but I do not feel like it characteristacally would. Like you, I hope it does not ever have to. I hear you though, that if anyone would, the army might be a solid option.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61524QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "ouch sorry you're hurt",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66298QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "ouch sorry you're hurt",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66298QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "I refuse to engage with you any longer.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61524QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "I refuse to engage with you any longer.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66ecdQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "I can see your side of this too. Glad we're somewhat on the same page.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6508aQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "I can see your side of this too. Glad we're somewhat on the same page.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61524QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "Super. It'll time out eventually",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66298QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "Super. It'll time out eventually",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6508aQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I think we are solidly on the same page. I can't really think of a good example when I would expect it to actually occur though. Can you?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I think we are solidly on the same page. I can't really think of a good example when I would expect it to actually occur though. Can you?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66298QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "I disagree.  I think that when the government is incompetent, others within the government will find a way to remove the incompetence without involving the military.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6508aQDJFA",
+          "recipient": "66298QDJFA",
+          "text": "I just had this little discussion with another participant. The army taking over when the government is incompetent does not fee like a characteristic of a democracy to me, no matter how incompetent the government.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "61524QDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "The question is poorly worded probably like most everything on \"social media\". The topic has nothing to do with democracy or form of government rather than the individual nation's founding & principals.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66ecdQDJFA",
+          "recipient": "61524QDJFA",
+          "text": "I would trust the army. Someone would have to step up and I see them doing it first. Although I don't see this happening.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66298QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "Totally.  That seems more like an autocracy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6508aQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "Totally.  That seems more like an autocracy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66ecdQDJFA",
+          "recipient": "61524QDJFA",
+          "text": "I think I agree with you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61524QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "I think I agree with you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6508aQDJFA",
+          "recipient": "66298QDJFA",
+          "text": "I agree with you. And I apologize for my fee/feel typo. I think we have a government led my so many politicians, albeit some much less competent than others, that the politicians will do what needs to be done and let the military handle their own responsibilities.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66298QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "I agree with you. And I apologize for my fee/feel typo. I think we have a government led my so many politicians, albeit some much less competent than others, that the politicians will do what needs to be done and let the military handle their own responsibilities.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66298QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "No worries about typos.  I understood what you meant. Also, I don't think you could get enough of the army to go against the government at once.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6508aQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "No worries about typos.  I understood what you meant. Also, I don't think you could get enough of the army to go against the government at once.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6508aQDJFA",
+          "recipient": "66298QDJFA",
+          "text": "Thanks for being kind, even if you are a cat and I'm a dog!",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66298QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "Thanks for being kind, even if you are a cat and I'm a dog!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61524QDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I think I agree with you too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I think I agree with you too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66298QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "No, I think I'm a dog, too. Like a corgi or something.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6508aQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "No, I think I'm a dog, too. Like a corgi or something.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66298QDJFA",
+          "text": "The army would be who I would expect to step up first in this scenario. Although I don't see this scenario happening.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66298QDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I think an army taking over is the antithesis of democracy.  Democracy is supposed to be the people voting for who will lead them.  Allowing the military to come in, no matter how incompetent the government is, is not something most people would allow.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6508aQDJFA",
+          "recipient": "61524QDJFA",
+          "text": "You are the third I must discuss this with. My view is that no matter how incompetent the government is, it is not characteristic in a democracy for the army to take over.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "61524QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "It sounds like it has little to do with the type of government, democracy or otherwise, and actually based on the principals and founding of the individual nation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61524QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "third here too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6508aQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "third here too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6508aQDJFA",
+          "recipient": "61524QDJFA",
+          "text": "Heard but do you feel like it is characteristic?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61524QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "Heard but do you feel like it is characteristic?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66298QDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I would think that the leaders of the parties would get together and try to figure out a way without involving the military.  Like invoking Article 25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I would think that the leaders of the parties would get together and try to figure out a way without involving the military.  Like invoking Article 25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66298QDJFA",
+          "text": "I understand your point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66298QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "I understand your point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61524QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "could be characteristic of some democracies but not all. maybe there's a militant democracy founded by armies, no idea. maybe there's peace loving never went to war democracies too.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6508aQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "could be characteristic of some democracies but not all. maybe there's a militant democracy founded by armies, no idea. maybe there's peace loving never went to war democracies too.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6508aQDJFA",
+          "recipient": "61524QDJFA",
+          "text": "I feel like the army is (and needs to be) more focused on its own purpose.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61524QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "I feel like the army is (and needs to be) more focused on its own purpose.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66298QDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I would hope that it wouldn't get so bad that the military would need to get involved.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "I would hope that it wouldn't get so bad that the military would need to get involved.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61524QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "yeah defending bankers lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6508aQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "yeah defending bankers lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66298QDJFA",
+          "text": "That is exactly how I feel, but think that in a scenario like this it would get bad quickly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66298QDJFA",
+          "recipient": "66298QDJFA",
+          "text": "That is exactly how I feel, but think that in a scenario like this it would get bad quickly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6508aQDJFA",
+          "recipient": "61524QDJFA",
+          "text": "Lol! I think there are enough politicians that would step in to push for the right thing before an army would consider involving itself.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61524QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "Lol! I think there are enough politicians that would step in to push for the right thing before an army would consider involving itself.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61524QDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "Hopefully",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6508aQDJFA",
+          "recipient": "6508aQDJFA",
+          "text": "Hopefully",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66298QDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "Yes.  Also, I'm not sure how you'd go back to being a true democracy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66ecdQDJFA",
+          "recipient": "66ecdQDJFA",
+          "text": "Yes.  Also, I'm not sure how you'd go back to being a true democracy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6508aQDJFA",
+          "recipient": "61524QDJFA",
+          "text": "We do have some pretty incompetent ones though but I won't go naming names",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61524QDJFA",
+          "recipient": "61524QDJFA",
+          "text": "We do have some pretty incompetent ones though but I won't go naming names",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "I do not think the army taking over is a characteristic of democracy.  It seems like a slippery slope and we wouldn't get back to democracy if that happened.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "That is honestly how I feel about it. I think it would be what happens and the best option.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "My opinion has not deviated from my original one. I do not believe it is characteristic for the army to sway from its core purpose to take over a government, incompetent or not.",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "still has nothing to do with democracy or form of government. would be with some wouldn't be with others.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "50",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "65",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "50",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66298QDJFA",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66ecdQDJFA",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61524QDJFA",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "65",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6508aQDJFA",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ],
+  "sampleExcerpts": [
+    "No, it is not a characteristic of democracy for a military coup to take over.  That defeats democracy",
+    "It depends on what the army deems incompetent, and what their intentions are. If their intentions are truly matching the values of democracy and their actions match their intentions, then perhaps it is a characteristic of democracy for the army to take over when the government ..",
+    "The army isn't intended to take over if a government is incompetent. The statement is a bit confusing though, are we talking about an army taking over it's own government? That is definitely not the intended use of military. Is it taking over another country, then possibly.",
+    "I disagree. In fact, it is the opposite of democracy. People can vote to remove bad leaders.",
+    "This is not true at all. Who would be in charge of the army now running the \"democracy?\" It sounds more like a dictatorship if the military is taking over. Instead, a democracy would replace incompetent politicians through elections.",
+    "Hello, I don't really see the army taking over in a democracy. My history is not very good, but I can't think of recent times where a democratic government has gotten so bad that the army had to take over. I see this more with bad 3rd world governments."
+  ],
+  "tags": [
+    "society & politics",
+    "characteristic",
+    "democracy",
+    "army",
+    "take",
+    "over",
+    "when",
+    "government",
+    "incompetent"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)"
+}

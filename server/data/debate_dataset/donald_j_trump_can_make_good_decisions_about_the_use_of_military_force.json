@@ -1,0 +1,1861 @@
+{
+  "topicId": "donald_j_trump_can_make_good_decisions_about_the_use_of_military_force",
+  "topic": "Donald J Trump can make good decisions about the use of military force",
+  "category": "General Discussions",
+  "topicType": "breadth",
+  "conversationCount": 1,
+  "totalTurns": 200,
+  "initialOpinions": [
+    {
+      "workerId": "67ed1FMXJT",
+      "text": "Yes I think he is a good leader.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "5ef24FMXJT",
+      "text": "I believe Trump can make good decisions about the use of military force. He was already President before and nothing in this domain has went wrong. I believe he is equipped with relevant knowledge and sound decision making in order to make smart decisions in this case.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "63df0FMXJT",
+      "text": "Trump cannot make good decisions about the use of military force because he has bad judgment and also doesn't listen to experienced advisors on the matter. I do not have faith in his decision-making and judgment.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "67688FMXJT",
+      "text": "Trump definitely would make good decisions about the military because he is a good man and has good plans for the country",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    }
+  ],
+  "conversations": [
+    {
+      "sessionId": "01JTGZ11Z30NTTCQWE89TFMXJT",
+      "fileName": "20250505_200401_Donald_J_Trump_can_make_good_decisions_about_the_use_of_military_force_01JTGZ11Z30NTTCQWE89TFMXJT.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5ef24FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "I believe the statement is true simply because he has been President before and has not been known to mess anything up in this area.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "63df0FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "I do not believe Trump can make good decision at all, much less about the use of the military. He should consult on such usage thoroughly with his expert advisors. Only the people he enlisted to help him also don't make good decisions and are not experienced on the topic.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67ed1FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "Donald J. Trump has shown he can make strong decisions about military force—he prioritized U.S. interests, avoided dragging us into new wars, and wasn't afraid to act decisively when needed. His America First approach put national security and strength first.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67688FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Trump has a lot of experience in dealing with the military. And his familiarities would make it easier to make good decsio",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "What experience does he have in dealing with the military?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67688FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "What experience does he have in dealing with the military?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ef24FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "I agree with what you have said. You have sound points to support your overall view. I just don't think he is someone who has shown to be unqualified in this domain.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "I agree with what you have said. You have sound points to support your overall view. I just don't think he is someone who has shown to be unqualified in this domain.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67688FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "he has been president before and knows his way around making them work in the best interest of the country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "he has been president before and knows his way around making them work in the best interest of the country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ed1FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "Yes and I believe Donald J. Trump can make good decisions about military force because he’s been Commander-in-Chief before and didn’t lead us into any major conflicts. His track record shows he can handle tough calls without creating chaos",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ef24FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "Yes and I believe Donald J. Trump can make good decisions about military force because he’s been Commander-in-Chief before and didn’t lead us into any major conflicts. His track record shows he can handle tough calls without creating chaos",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "In particular, I don't think trump is good with foreign affairs and that sometimes utilizes the military.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67688FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "In particular, I don't think trump is good with foreign affairs and that sometimes utilizes the military.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ef24FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "Very good point. The country has not been in hot water when it comes to using military force. He seems to be in a position of power for a reason.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "Very good point. The country has not been in hot water when it comes to using military force. He seems to be in a position of power for a reason.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67688FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "and is utilizing the military a bad thing?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "and is utilizing the military a bad thing?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "No.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67688FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "No.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67688FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "so what is the issue",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "so what is the issue",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "63df0FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "Trump does not make good decisions in general so why would I expect he can make good decisions about the military usage?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67688FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "yes, he can make good decisions about the military. he is the best man for the job and his past experience also gives him an upper hand",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5ef24FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Donald J. Trump can make good decisions about the use of military force because he is in a position of power to do so for a very good reason. He has all of the necessary experience and qualifications for his role and has proven to be able to make the right decisions and calls.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "I believe the statement is true—Donald J. Trump can make good decisions about military force. During his presidency, he avoided starting new wars and wasn’t afraid to act when necessary. His record shows a balance between strength and restraint that worked for the U.S.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "What’s your take on the idea that Donald J. Trump can make good decisions about the use of military force? Personally, I think his time as president showed he could handle it—he avoided new wars and made strong calls when needed. Curious what you think!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67688FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "What’s your take on the idea that Donald J. Trump can make good decisions about the use of military force? Personally, I think his time as president showed he could handle it—he avoided new wars and made strong calls when needed. Curious what you think!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ef24FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "I believe that statement is mostly hearsay. He has been an excellent leader, making the proper calls including ones having to do with the use of military force in my opinion.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "I believe that statement is mostly hearsay. He has been an excellent leader, making the proper calls including ones having to do with the use of military force in my opinion.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "He is in a position of power which he apparently likes a lot but that does not mean he utilizes that power well or  makes good decisions. Define excellent leader.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ef24FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "He is in a position of power which he apparently likes a lot but that does not mean he utilizes that power well or  makes good decisions. Define excellent leader.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67688FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "that's my person. you have the same views...he is genuinely the man for this whole presidency thing in this generation and making good decisions about the military is an easy one. I mean why wouldn't he?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "that's my person. you have the same views...he is genuinely the man for this whole presidency thing in this generation and making good decisions about the military is an easy one. I mean why wouldn't he?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ef24FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Can you give examples in regard to the use of military force?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Can you give examples in regard to the use of military force?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "I'm actually wondering why he has so many military at the southern border. That's not really the job of what is it Hegseth calls them...warfighters or something.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ef24FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "I'm actually wondering why he has so many military at the southern border. That's not really the job of what is it Hegseth calls them...warfighters or something.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ef24FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Not sure what you're talking about. Anyway, he has people at the border in order to stop illegals from coming in. As far as military force goes, the country isn't in a war right now for a reason..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Not sure what you're talking about. Anyway, he has people at the border in order to stop illegals from coming in. As far as military force goes, the country isn't in a war right now for a reason..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "Absolutely—he’s shown he can lead with a firm hand and keep America’s interests front and center. In a time when strong, clear leadership matters, Trump’s approach to military decisions and foreign policy really stood out. He’s definitely built for this era.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67688FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "Absolutely—he’s shown he can lead with a firm hand and keep America’s interests front and center. In a time when strong, clear leadership matters, Trump’s approach to military decisions and foreign policy really stood out. He’s definitely built for this era.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "Is that the job of the military? Border patrol.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ef24FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "Is that the job of the military? Border patrol.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ef24FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Never said military. You did.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Never said military. You did.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67ed1FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "I believe the statement is true—Donald J. Trump can make good decisions about military force. He kept us out of new wars, focused on peace through strength, and made bold choices when needed. His past leadership shows he can handle tough military decisions well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "63df0FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "I have not seen Trump make good decisions about anything yet in either term. Putting Hegseth in charge doesn't seem a good decision.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67688FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "He is the man for the job. no one can do it better. He has proved he can make good decisions for the country and the military is no exception",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5ef24FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "I believe Donald J. Trump can make good decisions about the use of military force. He has done so plenty of times before. He is in the position he is in now because of his success. The country is not at war right now because he is able to effectively call the shots.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ef24FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "I agree with your statement. He has been successful in his role thus far so there is no reason to say otherwise.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67688FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "I agree with your statement. He has been successful in his role thus far so there is no reason to say otherwise.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "I was actually worried first term he was going to get us in a war with Iran. Thankfully that didn't happen.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "I was actually worried first term he was going to get us in a war with Iran. Thankfully that didn't happen.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ed1FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Great! Here's a way you could continue the conversation on the topic:\n\nI think Trump’s military decisions were often driven by a desire to avoid long-term entanglements, like pulling troops out of Syria or Afghanistan. Some say that showed strength, others say it created instability. What do you think—was that kind of approach effective?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "Great! Here's a way you could continue the conversation on the topic:\n\nI think Trump’s military decisions were often driven by a desire to avoid long-term entanglements, like pulling troops out of Syria or Afghanistan. Some say that showed strength, others say it created instability. What do you think—was that kind of approach effective?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67688FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "you get it. we are winning as a country and one can deny that yes tough decisions has to made and i believe he will continue to make it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ef24FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "you get it. we are winning as a country and one can deny that yes tough decisions has to made and i believe he will continue to make it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "Yea he did a great job with Afganistan for  the Taliban.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "Yea he did a great job with Afganistan for  the Taliban.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ef24FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "I agree. None of us can complain about fearing terror attacks or random bombings and that is because we were blessed with an effective leader. I believe what you said is correct. I agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67688FMXJT",
+          "recipient": "67688FMXJT",
+          "text": "I agree. None of us can complain about fearing terror attacks or random bombings and that is because we were blessed with an effective leader. I believe what you said is correct. I agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ed1FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "True so true. I think God is with him . He is a great leader dont you think so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63df0FMXJT",
+          "recipient": "63df0FMXJT",
+          "text": "True so true. I think God is with him . He is a great leader dont you think so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67688FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "Great talking with people with the same views",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ef24FMXJT",
+          "recipient": "5ef24FMXJT",
+          "text": "Great talking with people with the same views",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63df0FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "I think he is unstable and inexperienced and very self involved and motivated by greed and power.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed1FMXJT",
+          "recipient": "67ed1FMXJT",
+          "text": "I think he is unstable and inexperienced and very self involved and motivated by greed and power.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "Yes he can make good decisions.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "yes he can and will make good decisions about the military",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "Trump makes bad decisions and uses bad judgment, for example putting Hegseth in charge of military.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "Yes, Donald J. Trump can make good decisions about the use of military force. He is in a position of power for a reason. He has been elected twice and has relevant experience in his role. The country is in a good place and is not in war because of his effective leadership in this domain thus far.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "58",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "58",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63df0FMXJT",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef24FMXJT",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67688FMXJT",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed1FMXJT",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ],
+  "sampleExcerpts": [
+    "I believe the statement is true simply because he has been President before and has not been known to mess anything up in this area.",
+    "I do not believe Trump can make good decision at all, much less about the use of the military. He should consult on such usage thoroughly with his expert advisors. Only the people he enlisted to help him also don't make good decisions and are not experienced on the topic.",
+    "Donald J. Trump has shown he can make strong decisions about military force—he prioritized U.S. interests, avoided dragging us into new wars, and wasn't afraid to act decisively when needed. His America First approach put national security and strength first."
+  ],
+  "tags": [
+    "general discussions",
+    "donald",
+    "trump",
+    "make",
+    "good",
+    "decisions",
+    "about",
+    "use",
+    "military",
+    "force"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)"
+}

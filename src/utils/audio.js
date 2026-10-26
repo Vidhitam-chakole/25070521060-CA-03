@@ -104,6 +104,35 @@ class SoundController {
     }
   }
 
+  // --- STAR RATING SOUND ---
+  playStarSelect(stars = 1) {
+    if (this.muted) return;
+    try {
+      this.init();
+      if (!this.ctx) return;
+      const now = this.ctx.currentTime;
+      // Rising pentatonic frequency scale based on star count (1 to 5)
+      const freqs = [523.25, 587.33, 659.25, 783.99, 1046.50]; // C5, D5, E5, G5, C6
+      const freq = freqs[Math.min(4, Math.max(0, stars - 1))];
+
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(freq, now);
+      osc.frequency.exponentialRampToValueAtTime(freq * 1.05, now + 0.08);
+
+      gain.gain.setValueAtTime(0.12, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.12);
+
+      osc.connect(gain);
+      gain.connect(this.ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.13);
+    } catch {
+      // ignore
+    }
+  }
+
   // --- BUTTON SOUNDS ---
   playButtonClick() {
     if (this.muted) return;

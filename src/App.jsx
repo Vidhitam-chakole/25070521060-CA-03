@@ -8,6 +8,7 @@ import { useMascotGuide } from './hooks/useMascotGuide';
 import { VideoIntro } from './components/VideoIntro';
 import { PixelAuthCard } from './components/PixelAuthCard';
 import { NicknamePromptModal } from './components/NicknamePromptModal';
+import { UserProfileModal } from './components/UserProfileModal';
 import { PlayerHud } from './components/PlayerHud';
 
 import { TopTabs } from './components/TopTabs';
@@ -21,6 +22,7 @@ import { Lever } from './components/Lever';
 import { ActionButtons } from './components/ActionButtons';
 import { TimerPage } from './components/TimerPage';
 import { SpeechAnalysisModal } from './components/SpeechAnalysisModal';
+import { DebateHub } from './components/DebateHub';
 
 import { RANDOM_TOPICS } from './data/randomTopics';
 import { BEHAVIORAL_QUESTIONS, CONSULTING_QUESTIONS } from './data/interviewPrep';
@@ -39,6 +41,7 @@ function AppContent() {
   // Navigation / Page State: 'main' | 'timer'
   const [currentPage, setCurrentPage] = useState('main');
   const [timerTopic, setTimerTopic] = useState('');
+  const [timerSource, setTimerSource] = useState('random');
   const [timerInitialSeconds, setTimerInitialSeconds] = useState(60);
   const [timerTimeLeft, setTimerTimeLeft] = useState(60);
   const [isTimerRunning, setIsTimerRunning] = useState(false);
@@ -70,7 +73,7 @@ function AppContent() {
     const tabParam = params.get('tab');
     const pageParam = params.get('page') || (window.location.pathname.includes('timer') ? 'timer' : null);
 
-    if (tabParam && ['random-topics', 'interview-prep', 'learn-vocab', 'deep-research'].includes(tabParam)) {
+    if (tabParam && ['random-topics', 'interview-prep', 'learn-vocab', 'deep-research', 'debate-hub'].includes(tabParam)) {
       setActiveTab(tabParam);
     }
 
@@ -180,7 +183,7 @@ function AppContent() {
     setTimeout(tick, delay);
   }, [isSpinning, len]);
 
-  const handleStartTimer = () => {
+  const handleStartTimer = (customSource = null) => {
     const topicText =
       activeTab === 'learn-vocab'
         ? `Use "${currentTopic?.word}" in speech: ${currentTopic?.definition}`
@@ -191,8 +194,22 @@ function AppContent() {
     if (activeTab === 'deep-research') defaultSecs = 600;
 
     setTimerTopic(topicText);
+    setTimerSource(customSource || (activeTab === 'random-topics' ? 'random' : 'manual'));
     setTimerInitialSeconds(defaultSecs);
     setTimerTimeLeft(defaultSecs);
+    setCurrentPage('timer');
+
+    const url = new URL(window.location);
+    url.searchParams.set('page', 'timer');
+    url.searchParams.set('topic', encodeURIComponent(topicText));
+    window.history.pushState({}, '', url);
+  };
+
+  const handlePracticeDebateTopic = (topicText, source = 'manual') => {
+    setTimerTopic(topicText);
+    setTimerSource(source || 'manual');
+    setTimerInitialSeconds(120);
+    setTimerTimeLeft(120);
     setCurrentPage('timer');
 
     const url = new URL(window.location);
@@ -272,6 +289,13 @@ function AppContent() {
           {/* Modal to customize nickname if needed */}
           <NicknamePromptModal />
 
+          {/* User Profile & Private Research History Modal */}
+          <UserProfileModal
+            onPracticeTopic={(topicText) => {
+              handlePracticeDebateTopic(topicText, 'manual');
+            }}
+          />
+
           {/* Persistent Mascot "Vidhitam" mounted once at app root */}
           <Mascot
             onTriggerSpin={handleSpin}
@@ -291,10 +315,24 @@ function AppContent() {
             <TimerPage
               topic={timerTopic}
               mode={activeTab}
+              source={timerSource}
               initialSeconds={timerInitialSeconds}
               onBack={handleBackToMain}
               onOpenAnalysis={handleOpenAnalysis}
             />
+          ) : activeTab === 'debate-hub' ? (
+            <main
+              style={{
+                flex: 1,
+                display: 'flex',
+                alignItems: 'flex-start',
+                justifyContent: 'center',
+                padding: 'clamp(8px, 2vw, 16px)',
+                width: '100%',
+              }}
+            >
+              <DebateHub onSelectTopicForPractice={handlePracticeDebateTopic} />
+            </main>
           ) : (
             <main
               style={{

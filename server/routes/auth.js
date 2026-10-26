@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import User from '../models/User.js';
 
 const router = express.Router();
-const JWT_SECRET = process.env.JWT_SECRET || 'speechpact_pixel_secret_key_2026';
+const JWT_SECRET = process.env.JWT_SECRET || 'learnwithfun_pixel_secret_key_2026';
 
 // Health check endpoint - reports MongoDB connection status
 router.get('/health', (req, res) => {

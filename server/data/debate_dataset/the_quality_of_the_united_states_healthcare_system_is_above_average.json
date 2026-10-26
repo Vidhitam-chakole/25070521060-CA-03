@@ -1,0 +1,1985 @@
+{
+  "topicId": "the_quality_of_the_united_states_healthcare_system_is_above_average",
+  "topic": "The quality of the United States' healthcare system is above average",
+  "category": "Health & Wellness",
+  "topicType": "breadth",
+  "conversationCount": 1,
+  "totalTurns": 214,
+  "initialOpinions": [
+    {
+      "workerId": "610223SYRD",
+      "text": "I disagree with this statement. While there is certainly great innovation and oppurtunity and amazing doctors in the US, patient's ability to access this care is grosslyh subpar and the cost barrier is immense.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "5865b3SYRD",
+      "text": "I guess... I would say it's way WAY too expensive. The rest of the world has much more affordable healthcare compared to us.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "65c3b3SYRD",
+      "text": "Disagree. In my area, you have to travel at least a hundred miles to see a specialist.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "5e42f3SYRD",
+      "text": "i dont think its that great when we pay so much more than other countrys",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    }
+  ],
+  "conversations": [
+    {
+      "sessionId": "01K3FE26PQ5X8FN6PJAF13SYRD",
+      "fileName": "20250825_020724_The_quality_of_the_United_States'_healthcare_system_is_above_average_01K3FE26PQ5X8FN6PJAF13SYRD.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "610223SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I disagree with this statement. The US healthcare system is grossly broken. While we have expectional clinical trials, medical care, and doctors, the patient experiece is profoundly negative due to the wait times, cost barrier, and access barriers in this country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5865b3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "I think that US healthcare may... MAY be a tad above average, but the biggest issue is that healthcare in the US is super super expensive compared to nearly every other country in the world. We are where all the healthcare manufacturers and big pharma make most of their cash.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I dont think its that great. we pay tons more than other countrys. We are getting ripped off. We dont even get the best care unless we have tons of money. I think we can improve but we go",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "65c3b3SYRD",
+          "recipient": "610223SYRD",
+          "text": "In my area, we have to travel over a hundred miles, sometimes further, just to see a specialist. And even then, the quality of care you receive isn't up to par. We lack good healthcare providers these days. Less and less doctors, especially specialists, are causing some people to",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5865b3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "Yeah I agree with you on that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "Yeah I agree with you on that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "610223SYRD",
+          "text": "wait months for care.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "wait months for care.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "610223SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "It is terrible that you have to travel so far and recieve care that is up to standard. I live close to multiple healthcare centers and even then there are still barriers to care, such as insurance and cost. The system needs reform.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "It is terrible that you have to travel so far and recieve care that is up to standard. I live close to multiple healthcare centers and even then there are still barriers to care, such as insurance and cost. The system needs reform.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "610223SYRD",
+          "text": "sorry, it cut me off. lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "sorry, it cut me off. lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I was gonna say we got to be carful Canada has free healthcare for all I think and they have to wait so long to be seen they die waITING i THINK THEY NEED TO REDUCE THE COST THEN MORE PEOPLE CAN HAVE REASONABLE COVERAGE oops caps",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5865b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I was gonna say we got to be carful Canada has free healthcare for all I think and they have to wait so long to be seen they die waITING i THINK THEY NEED TO REDUCE THE COST THEN MORE PEOPLE CAN HAVE REASONABLE COVERAGE oops caps",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "610223SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "no you're good lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "no you're good lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "610223SYRD",
+          "text": "I agree, the statement the our healthcare system in above average is just ridiculous.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "I agree, the statement the our healthcare system in above average is just ridiculous.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "610223SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I agree while we have some amazing medicines and access to clinical trials and exceptional doctors, the access is just too inconsistent, most americans cant access the best of care we  have to offer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I agree while we have some amazing medicines and access to clinical trials and exceptional doctors, the access is just too inconsistent, most americans cant access the best of care we  have to offer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5865b3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "Yeah there's definitely a balance that would have to be struck. But something has to be done. Part of it is that Americans are more unhealthy... we are fatter (I am overweight). So that plays into it. Being healthier would mean we would depend less on the healthcare system, but in the meantime. I don't know what can be done to force congress to do something.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "Yeah there's definitely a balance that would have to be struck. But something has to be done. Part of it is that Americans are more unhealthy... we are fatter (I am overweight). So that plays into it. Being healthier would mean we would depend less on the healthcare system, but in the meantime. I don't know what can be done to force congress to do something.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "610223SYRD",
+          "text": "We had a large local hospital close right at the beginning of covid. The same company bought the only other hospital we have and conglomerated all of our healthcare under one blanket. and they suck..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "We had a large local hospital close right at the beginning of covid. The same company bought the only other hospital we have and conglomerated all of our healthcare under one blanket. and they suck..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "610223SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I think that the US helathcare system is grossly broken because there is a severe lack of equity and equality in regards to access to healthcare.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5865b3SYRD",
+          "recipient": "610223SYRD",
+          "text": "I don't agree that it's above average... maybe around average. The biggest issue is the super high cost in the US. This is where all the healthcare companies and big pharma come to make all their money... while the rest of the world gets more affordable treatment.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5e42f3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I hope they do something about the food quality so so many people wouldnt get sick in the first place that would cut down on health care costs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "This statement is patently false. the healthcare system in the United states is at the worst it has been in a century. we have no specialists in the area anymore. they have closed critical facilities due to corporate takeover of our healthcare system.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "Yeah, too many people eating fast food doesn't help",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "Yeah, too many people eating fast food doesn't help",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5e42f3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I agree it is false they keep us sick and costs high its BS",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I agree it is false they keep us sick and costs high its BS",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "610223SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I agree that cost is a big issue here. I think it prevents a lot of people form seeking the care that they need. The highest quality of care is also conglomerated into higher income and more desirable areas. Some of the best hospitals in the country are located in bug expensive cities such as New York, Boston, Houston",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5865b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I agree that cost is a big issue here. I think it prevents a lot of people form seeking the care that they need. The highest quality of care is also conglomerated into higher income and more desirable areas. Some of the best hospitals in the country are located in bug expensive cities such as New York, Boston, Houston",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "I do believe it is a conspiracy to keep america sick. And when they pretend to care they do things that make no difference.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "I do believe it is a conspiracy to keep america sick. And when they pretend to care they do things that make no difference.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5e42f3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I dont want the CVanadian system people over there die waiting people think our healthcare is the best it is not we get so ripped off",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I dont want the CVanadian system people over there die waiting people think our healthcare is the best it is not we get so ripped off",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5865b3SYRD",
+          "recipient": "610223SYRD",
+          "text": "I can't agree with you totally on that. If you're injured, all hospitals will take you in through the ER. Now... after that admission, you will have issues more than likely, but emergent care is still provided. It is a rich man's world in the US for healthcare. but that will never change. The rich will always get better care.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "I can't agree with you totally on that. If you're injured, all hospitals will take you in through the ER. Now... after that admission, you will have issues more than likely, but emergent care is still provided. It is a rich man's world in the US for healthcare. but that will never change. The rich will always get better care.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "We have a fat governeor that tells people to quit drinking soda, while he dines on big macs. Canada might be worse. But we do have to wait for specialist here, and travel a hundred or more miles",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "We have a fat governeor that tells people to quit drinking soda, while he dines on big macs. Canada might be worse. But we do have to wait for specialist here, and travel a hundred or more miles",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "610223SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "Yes you can get access to the ER of course. But if you need a high quality specialist, a lot og hospitals do not have those. Patients have to travel to different hospitals or even different cities for some forms of care.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5865b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "Yes you can get access to the ER of course. But if you need a high quality specialist, a lot og hospitals do not have those. Patients have to travel to different hospitals or even different cities for some forms of care.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5865b3SYRD",
+          "recipient": "610223SYRD",
+          "text": "That I can agree with you on. But the caveat is that with socialized medicine, there are still the rich",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "That I can agree with you on. But the caveat is that with socialized medicine, there are still the rich",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5e42f3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "typical fat cats what do they care they got some kind of gold insurance I hear they want us to ware health monitors soon give me a break",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "typical fat cats what do they care they got some kind of gold insurance I hear they want us to ware health monitors soon give me a break",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5e42f3SYRD",
+          "recipient": "610223SYRD",
+          "text": "I dont believe our healthcare is above average its a mess if you ask me",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "610223SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "The US healthcare system is grossly broken. Cost and access are huge barriers to care access for most Americans. While there are amazing medical oppurtunities and doctors in this country, most Americans cannot access them either due to cost or location.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "No it is not. you don't have to dig too deep to learn that this is false. Our healthcare system is one of the worst in the world. We lack specialists and long term care facilities are either absent or old and decrepit and infested with mold. Not to mention the costs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5865b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "The costs for healthcare in the US are ridiculous. This makes treatment nearly impossible for most americans. People have to start gofundme donor drives to get major surgeries paid for. So there is room for major improvement in the US healthcare world.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "610223SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "The system is definitely a mess it is complicated and difficult to navigate and people are treated unfailry",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "The system is definitely a mess it is complicated and difficult to navigate and people are treated unfailry",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I agree, the government taxes us for everything and they line their pockets while the rest of us die.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5865b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I agree, the government taxes us for everything and they line their pockets while the rest of us die.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5865b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I can't agree that it's one of the worst systems... We aren't even in the bottom 50%... BUT it is ridiculously expensive. And that good care is only afforded to those who can pay for it in our system currently.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I can't agree that it's one of the worst systems... We aren't even in the bottom 50%... BUT it is ridiculously expensive. And that good care is only afforded to those who can pay for it in our system currently.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "Well, we might be better thanCanada and rawanda",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5865b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "Well, we might be better thanCanada and rawanda",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5865b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "WE have the technology and the capabilities to do very well for people in health care, but much of that is paywalled and only accessible by very wealthy people or people who have a great insurance plan. If you get elected to congress and you're poor... you'll get great health care LOL",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "WE have the technology and the capabilities to do very well for people in health care, but much of that is paywalled and only accessible by very wealthy people or people who have a great insurance plan. If you get elected to congress and you're poor... you'll get great health care LOL",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5e42f3SYRD",
+          "recipient": "610223SYRD",
+          "text": "they also dont train the drs to do anything but sell pharmaceuticals its litterally drug dealers working for the drug companies keeping us sick and charging us more than any other country pays its robbery",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "they also dont train the drs to do anything but sell pharmaceuticals its litterally drug dealers working for the drug companies keeping us sick and charging us more than any other country pays its robbery",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "This is true, and one would be surprised how many politicians have investments in insurance companies.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5865b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "This is true, and one would be surprised how many politicians have investments in insurance companies.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "610223SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "i agree with you that the cost patients are charged is outrageous but I do think that our healthcare workers are doing their best in a broken system and most of them truly care about patients",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "i agree with you that the cost patients are charged is outrageous but I do think that our healthcare workers are doing their best in a broken system and most of them truly care about patients",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5865b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "Boy that's a can of worms right there. On that note... term limits... for Senate and House.... 2 term limit... and kick them out.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "Boy that's a can of worms right there. On that note... term limits... for Senate and House.... 2 term limit... and kick them out.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5e42f3SYRD",
+          "recipient": "610223SYRD",
+          "text": "We need a major overhaul  and a huge reduction in drug prices",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "We need a major overhaul  and a huge reduction in drug prices",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "We can't call ourselves the greatest country in the worl until we fix our healthcare system.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5865b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "We can't call ourselves the greatest country in the worl until we fix our healthcare system.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "610223SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "Exactly! It costs 10 dolalrs to make a vial of insuling and patients are charged hundreds for it for no reason other than greed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5e42f3SYRD",
+          "recipient": "5e42f3SYRD",
+          "text": "Exactly! It costs 10 dolalrs to make a vial of insuling and patients are charged hundreds for it for no reason other than greed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5865b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I agree with that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c3b3SYRD",
+          "recipient": "65c3b3SYRD",
+          "text": "I agree with that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c3b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I agree, some of our leaders have no idea where they are right now because they are so sold.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5865b3SYRD",
+          "recipient": "5865b3SYRD",
+          "text": "I agree, some of our leaders have no idea where they are right now because they are so sold.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5e42f3SYRD",
+          "recipient": "610223SYRD",
+          "text": "They do care but its all about selling those expensive drugs we pay mopre that other country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "610223SYRD",
+          "recipient": "610223SYRD",
+          "text": "They do care but its all about selling those expensive drugs we pay mopre that other country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "The US healthcare system is broken and takes advantage of patients and the access to care is unfair and wrong",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "It isn't. It just isn't.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "Yeah I'd say it's even a little below average just because how much of a paywall is between those who aren't wealthy or able to afford a great insurance plan to access the better treatment modalities.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "It stinks prices are high and the whole system is inefficient also they keep people sick with poison foods and toxic meds that cost the highest prices in the world",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "muslim",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "['white', 'native-american']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "58",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "muslim",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "610223SYRD",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5865b3SYRD",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "['white', 'native-american']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3b3SYRD",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "58",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e42f3SYRD",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ],
+  "sampleExcerpts": [
+    "I disagree with this statement. The US healthcare system is grossly broken. While we have expectional clinical trials, medical care, and doctors, the patient experiece is profoundly negative due to the wait times, cost barrier, and access barriers in this country.",
+    "I think that US healthcare may... MAY be a tad above average, but the biggest issue is that healthcare in the US is super super expensive compared to nearly every other country in the world. We are where all the healthcare manufacturers and big pharma make most of their cash.",
+    "I dont think its that great. we pay tons more than other countrys. We are getting ripped off. We dont even get the best care unless we have tons of money. I think we can improve but we go"
+  ],
+  "tags": [
+    "health & wellness",
+    "quality",
+    "united",
+    "states",
+    "healthcare",
+    "system",
+    "above",
+    "average"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)"
+}

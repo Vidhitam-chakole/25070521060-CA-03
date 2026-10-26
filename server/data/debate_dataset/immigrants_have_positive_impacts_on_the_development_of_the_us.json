@@ -1,0 +1,3753 @@
+{
+  "topicId": "immigrants_have_positive_impacts_on_the_development_of_the_us",
+  "topic": "Immigrants have positive impacts on the development of the US",
+  "category": "Society & Politics",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 407,
+  "initialOpinions": [
+    {
+      "workerId": "661416ZAV5",
+      "text": "I agree, Immigrants do have a positive impacts on the development of the U.S.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "651b26ZAV5",
+      "text": "I somewhat agree with this statement assuming that the immigrants are educated and hard-working.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6765e6ZAV5",
+      "text": "Immigrants help improve labor shortages and boost the economy. They also contribute to cultural diversity which is what makes America great.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6810e6ZAV5",
+      "text": "Agree. At the most basic level, socio-economic and cultural diversity is good for growth and opportunity.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "5dd38X3SWX",
+      "text": "yes they have a big positive impact",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66426X3SWX",
+      "text": "they bring workers and I believe everybody is equal. we should think a person is illegal.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "5ea34X3SWX",
+      "text": "I think they bring different cultures and experiences to the U.S, and I think that's valuable. It promotes empathy.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "5ef51X3SWX",
+      "text": "I think the country was built on immigrant labor. They do the jobs that native born citizens do not wish to do, and therefore are the backbone of our country. Whether it's municipal, janitorial, or agricultural, the immigrants of the U.S. tend to work hard for low wages.",
+      "sliderValue": 5,
+      "stance": "Support"
+    }
+  ],
+  "conversations": [
+    {
+      "sessionId": "01JT27XDNX7YCQAPY88NN6ZAV5",
+      "fileName": "20250430_025251_Immigrants_have_positive_impacts_on_the_development_of_the_US_01JT27XDNX7YCQAPY88NN6ZAV5.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "661416ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "I do agree with this topics",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6810e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Immigrants create socio-economic diversity, bring cultural elements that drive commerce to areas, and enable diverse work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "651b26ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "If the immigrants are educated and hard-working, they will most likely benefit the U.S. society. However, if they are just coming to the U.S. for getting benefits like free cash or housing without actual contribution, they are",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6765e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I think immigrants greatly contribute to the development of the United States. They fill labor shortages and often do jobs many others would not. They contribute to the economy, to",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6765e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I think immigrants greatly contribute to the development of the United States. They fill labor shortages and often do jobs many others would not. They contribute to the economy, too.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "Why do you agree?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "661416ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "Why do you agree?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6810e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Where are immigrants receiving free cash exactly?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "651b26ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Where are immigrants receiving free cash exactly?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "From the U.S. government like free hotel or vouchers to get food.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "From the U.S. government like free hotel or vouchers to get food.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "661416ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "I agree, they do help with the development of infrastructure such as buildings and also recruit intelligent people from other countries that help develop advanced technology such as AI and robots.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "I agree, they do help with the development of infrastructure such as buildings and also recruit intelligent people from other countries that help develop advanced technology such as AI and robots.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I agree. I also appreciate the cultural diversity they bring.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "661416ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I agree. I also appreciate the cultural diversity they bring.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6810e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Illegal immigrants are not eligible for SNAP programs or welfare. They are also ineligible for medicaid and medicare",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "651b26ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Illegal immigrants are not eligible for SNAP programs or welfare. They are also ineligible for medicaid and medicare",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "661416ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "We always need a fresh pair of eyes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "We always need a fresh pair of eyes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "Definitely",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "661416ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "Definitely",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "661416ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "Yes, also they can build their homes and families and add to the population",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "Yes, also they can build their homes and families and add to the population",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "immigrants seeking asylum might be able to. I mean to get free hotel or food.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "immigrants seeking asylum might be able to. I mean to get free hotel or food.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I agree. And since they pay taxes they also boost tax revenue.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "661416ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I agree. And since they pay taxes they also boost tax revenue.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "661416ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I agree that immigrants have positive impacts on the development of the U.S. with labor and infrastructure, also recruiting intelligent people to advance modern medicine and smart technology such as AI and robots.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6810e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "Immigrants contribute positive socio-economic and cultural contributions as well as work at jobs that many citizens are not willing to hold.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "651b26ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "Educated and hard-working mmigrants might bring positive impacts on the development of the US due to cultural diversity. However, if the immigrants can't actually contribute to the US like actually going to work, I do not agree they will have",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6765e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Immigrants have positive impacts on the development of the United States for many reasons. First, they bring cultural diversity that enriches our country. Second, they fill labor needs in critical areas like construction, healthcare, and agriculture. Third, they boost the economy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "661416ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I agree, we always need a fresh pair of eyes to see things differently from outside",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I agree, we always need a fresh pair of eyes to see things differently from outside",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Immigrants work and pay taxes like the rest of us.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "651b26ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Immigrants work and pay taxes like the rest of us.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "I agree with you provided the immigrants have good intentions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "I agree with you provided the immigrants have good intentions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "That goes for all of us, right?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "651b26ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "That goes for all of us, right?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "But I intend to disagree for immigrants seking asylum.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "But I intend to disagree for immigrants seking asylum.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6810e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "They also drive new commerce opportunities and create economic benefits in their communities in new small businesses.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "661416ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "They also drive new commerce opportunities and create economic benefits in their communities in new small businesses.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "661416ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "They also pay taxes and can boost the economy with their paychecks",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "They also pay taxes and can boost the economy with their paychecks",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "You say they should be educated. What if they are coming here to get an education and better their lives?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "651b26ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "You say they should be educated. What if they are coming here to get an education and better their lives?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "They just rob from our tax money.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "They just rob from our tax money.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "How do they rob if they are paying taxes?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "651b26ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "How do they rob if they are paying taxes?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "That will be good if they bring in money to get an education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "That will be good if they bring in money to get an education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6810e6ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "People forget that many immigrants are not eligible for social services and pay in more than they get out.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "661416ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "People forget that many immigrants are not eligible for social services and pay in more than they get out.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Shouldn't they be offered the same opportunities as the rest of us?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "651b26ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "Shouldn't they be offered the same opportunities as the rest of us?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "I mean the people seeking asylum mostly try to rob our tax money.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "I mean the people seeking asylum mostly try to rob our tax money.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "661416ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "I agree with immigrants have positive impacts on the development of the U.S. through infrastructure build tall building and also technology",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "Immigrants create socio-economic and cultural opportunities that help to drive the economy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "Immigrants have positive impacts on the development of the US including filling labor shortages in healthcare and construction, paying taxes, and bringing cultural diversity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "651b26ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "Immigrants with good intention will have positive impacts on the development of the US as their diversified culture and skills can enhance the US economy. They help fill in job openings that need more workers.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I agree!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I agree!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I agree with you that immigrants tend to take up construction work in the US. If they work hard and pay taxes, it will definitely benefit the US economy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "661416ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I agree with you that immigrants tend to take up construction work in the US. If they work hard and pay taxes, it will definitely benefit the US economy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "Immigrants also pay into the system in taxes and purchasing goods where as they are often limited in the social services that are available to them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "Immigrants also pay into the system in taxes and purchasing goods where as they are often limited in the social services that are available to them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I agree. I am always surprised when people assume immigrants do not pay taxes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I agree. I am always surprised when people assume immigrants do not pay taxes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "661416ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "They can als pay taxes and mulitply the poulation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "651b26ZAV5",
+          "recipient": "651b26ZAV5",
+          "text": "They can als pay taxes and mulitply the poulation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "651b26ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I agree. but what do you think about immigrants with bad intentions like committing crime in the US?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "661416ZAV5",
+          "recipient": "661416ZAV5",
+          "text": "I agree. but what do you think about immigrants with bad intentions like committing crime in the US?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "Agree. They also generally set up thriving communities that scale and also contribute to the community and bring economic benefits",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6765e6ZAV5",
+          "text": "Agree. They also generally set up thriving communities that scale and also contribute to the community and bring economic benefits",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6765e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I think it is interesting that immigrants are more likely than native-born citizens to start their own businesses as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6810e6ZAV5",
+          "recipient": "6810e6ZAV5",
+          "text": "I think it is interesting that immigrants are more likely than native-born citizens to start their own businesses as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "Immigrants pay taxes, contribute to improving labor shortages, bring cultural diversity, and open their own businesses.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "Immigrants are more likely to start businesses and pay into our system through income and sales taxes.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "I completely agree that immigrants do help build and develop the U.S.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "Educated and hard-working immigrants have positive impacts on the develoment of the US. However, immigrants with bad intentions like committing crimes in the US have bad impacts on it.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "46",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "muslim",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "50",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "China",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "57",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "46",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661416ZAV5",
+          "recipient": "",
+          "text": "muslim",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6765e6ZAV5",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "50",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6810e6ZAV5",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "China",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "57",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "651b26ZAV5",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K3YKQT9YMRVW6S7V2B9X3SWX",
+      "fileName": "20250830_233129_Immigrants_have_positive_impacts_on_the_development_of_the_US_01K3YKQT9YMRVW6S7V2B9X3SWX.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5dd38X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I do think that immigration has a big positive impact in the U.S., especially in the economical scheme of things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I think that immigrants definitely have a positive impact. They do all of the hard labor jobs that non-immigrants don't want to do. They are happy to sweat themselves off in a field picking tomatoes for a small amount of money so it's hard for me to view them in a negative light.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "I do believe the immigrants have a positive impact on the development of the U.S. because they bring different parts of the world with them and can us view the world with more empathy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66426X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "I think all people are equal. to classify people into a legal or illegal state blows my mind. they are human just like the rest of the world. there shouldnt even be a discussion about what people are. I think this is true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "Hello! Looks like we both are on the agree side of things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "Hello! Looks like we both are on the agree side of things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "Phew! Well that's good.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "Phew! Well that's good.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5dd38X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I agree everybody deserves to live their life and the way they want to.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66426X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I agree everybody deserves to live their life and the way they want to.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "Yes, totally. I think immigrants made this country what it is today",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "Yes, totally. I think immigrants made this country what it is today",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "I definitely agree. I think they are an asset",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "I definitely agree. I think they are an asset",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66426X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "so very true. they are just trying to survive like the next person is. we should be able to go anywhere in the world without issues.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "so very true. they are just trying to survive like the next person is. we should be able to go anywhere in the world without issues.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "A lot of people like to throw a blanket statement over the whole of immigrants, when there is both illegal and legal, so they should not be grouped together, because some do get here legitimately If the groups advocating to paint immigrants in a negative light were to at least say they're only targeting illegal immigrants, that would have maybe some validity, but I'm certain that's only partly the case Unfortunately they like to lump in legal migrants for whatever reasons",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "A lot of people like to throw a blanket statement over the whole of immigrants, when there is both illegal and legal, so they should not be grouped together, because some do get here legitimately If the groups advocating to paint immigrants in a negative light were to at least say they're only targeting illegal immigrants, that would have maybe some validity, but I'm certain that's only partly the case Unfortunately they like to lump in legal migrants for whatever reasons",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I do believe that immigrants have a positive impact in the development of the U.S., especially in the building of our infrastructure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66426X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "all people are equal, there should be no topic about people being legal or illegal. its just bazzre to me. everybody should be able to go anywhere in the world without any issues.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5ef51X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I think immigrants are the backbone of the society in the united states. Our country was built on the backs of immigrants and slave labor, and we need to acknowledge that. We have to acknowledge that legal immigrants come here to work for low wages and they'll do the jobs we wont",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "I believe that immigrants have a positive impact on the U.S.. They contribute to the economy, and they also allow us to interact with different cultures and broaden our view of the world. The can make us more empathetic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I agree with that statement also, we shouldn't need passports and all that, no one can be illegal on stolen land",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66426X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I agree with that statement also, we shouldn't need passports and all that, no one can be illegal on stolen land",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "I'm glad we seem to agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "I'm glad we seem to agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66426X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "yes that's very trye they will do a lot of jobs that others wont right!! stolen land!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "yes that's very trye they will do a lot of jobs that others wont right!! stolen land!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "Yes, and getting rid of legal migrants, or illegal, it hurts the agricultural economy because no one will pick the fruits and stuff \"no one wants to work\" The guys we just kicked out did!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66426X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "Yes, and getting rid of legal migrants, or illegal, it hurts the agricultural economy because no one will pick the fruits and stuff \"no one wants to work\" The guys we just kicked out did!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I agree with that having immigrants in our country is great for our culture and being part of the global community",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I agree with that having immigrants in our country is great for our culture and being part of the global community",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "I definitely agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "I definitely agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66426X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "yeah, I've seen videos on them working in the fields its very crazy how much they do",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "yeah, I've seen videos on them working in the fields its very crazy how much they do",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I wouldn't want to do that for seven bucks an hour, probably less maybe. It is crazy. I am grateful for the people that do it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66426X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I wouldn't want to do that for seven bucks an hour, probably less maybe. It is crazy. I am grateful for the people that do it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66426X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "I am as well! yes they have a positive impact here. we need to leave them alone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "I am as well! yes they have a positive impact here. we need to leave them alone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "I think that immigrants are very important for the united states. they provide us with labor for jobs that non immigrants do not wish to do. they work hard so they can bring what is considered a small amount of money back to their families in their home countries.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "I do believe that immigrants have a huge positive impact on the development of the U.S., especially with the economic impact they bring",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66426X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I don't think it is ok to call any human legal or illegal. we all are equal and should be able to go anywhere in the world we want. they are doing the field work that others wouldn't be doing. like our fruits, we need them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5ea34X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I believe that immigrants do have a positive impact on the U.S., including contributing to the economy. They also bring different cultures with them, which allow us to experience the world in a unique way.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "Yes, I think the agricultural areas of the US still need immigrant labor I think the prices of produce could go up without immigrant workers to harvest them, because workers who are native born will ask for more money",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "Yes, I think the agricultural areas of the US still need immigrant labor I think the prices of produce could go up without immigrant workers to harvest them, because workers who are native born will ask for more money",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ea34X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "It looks like we agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66426X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "It looks like we agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66426X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I agree its interesting to see the different cultures for sure we all are just here trying to survive just like the next person",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I agree its interesting to see the different cultures for sure we all are just here trying to survive just like the next person",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "its a good thing to have immigration into the U.S. as we are a large part of the global community",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "its a good thing to have immigration into the U.S. as we are a large part of the global community",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ea34X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66426X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "I agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "Yes, I agree. They are helpful for our economy, because unfortunately they are exploited. It's funny how they are exploited and still people view them negatively, like hey guy they are working in a hot field so you can get a banana for only 30 cents You would think they would have more gratitude for doing all of the dirty jobs and stuff, they're just trying to live like everyone else",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "Yes, I agree. They are helpful for our economy, because unfortunately they are exploited. It's funny how they are exploited and still people view them negatively, like hey guy they are working in a hot field so you can get a banana for only 30 cents You would think they would have more gratitude for doing all of the dirty jobs and stuff, they're just trying to live like everyone else",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66426X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I love me some strawberries, I need them to stay in them fields lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ea34X3SWX",
+          "recipient": "5ea34X3SWX",
+          "text": "I love me some strawberries, I need them to stay in them fields lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ea34X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "lol definitely, we can use all the help we can get",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66426X3SWX",
+          "recipient": "66426X3SWX",
+          "text": "lol definitely, we can use all the help we can get",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "also immigrants brin g a lot more to the culture of the us than just being agricultural workers",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5ef51X3SWX",
+          "text": "also immigrants brin g a lot more to the culture of the us than just being agricultural workers",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ef51X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "yes exactly, they enrich the US in more than one ways",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5dd38X3SWX",
+          "recipient": "5dd38X3SWX",
+          "text": "yes exactly, they enrich the US in more than one ways",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "my opinions about this topic has not changed because of the conversation",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "After my conversations I strongly believe that immigrants have a positive impact on US. Whether it is culture or labor, they help our economy and to strengthen the bonds of our societies.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "I do agree completely. they are needed for our fields. nobody else is gonna do that kind of hard work all day.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "I agree with the statement because immigrants contribute to the economy and they bring different cultures and ideas with them.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "55",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "41",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ef51X3SWX",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "55",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dd38X3SWX",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea34X3SWX",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "41",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66426X3SWX",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ],
+  "sampleExcerpts": [
+    "Immigrants create socio-economic diversity, bring cultural elements that drive commerce to areas, and enable diverse work",
+    "If the immigrants are educated and hard-working, they will most likely benefit the U.S. society. However, if they are just coming to the U.S. for getting benefits like free cash or housing without actual contribution, they are",
+    "I think immigrants greatly contribute to the development of the United States. They fill labor shortages and often do jobs many others would not. They contribute to the economy, to",
+    "I do think that immigration has a big positive impact in the U.S., especially in the economical scheme of things",
+    "I think that immigrants definitely have a positive impact. They do all of the hard labor jobs that non-immigrants don't want to do. They are happy to sweat themselves off in a field picking tomatoes for a small amount of money so it's hard for me to view them in a negative light.",
+    "I do believe the immigrants have a positive impact on the development of the U.S. because they bring different parts of the world with them and can us view the world with more empathy."
+  ],
+  "tags": [
+    "society & politics",
+    "immigrants",
+    "have",
+    "positive",
+    "impacts",
+    "development"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)"
+}

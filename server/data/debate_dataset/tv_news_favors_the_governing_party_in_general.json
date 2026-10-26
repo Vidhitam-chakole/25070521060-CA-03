@@ -1,0 +1,5676 @@
+{
+  "topicId": "tv_news_favors_the_governing_party_in_general",
+  "topic": "TV news favors the governing party in general",
+  "category": "General Discussions",
+  "topicType": "breadth",
+  "conversationCount": 3,
+  "totalTurns": 620,
+  "initialOpinions": [
+    {
+      "workerId": "64091WRSDT",
+      "text": "I disagree. The news is supposed to be an unbiased provider of relevant and factual happenings in the world and to say that they favor whatever political party is in power is completely false.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "676f6WRSDT",
+      "text": "TV news favors whoever the billionaires that own the media outlet want. The large media outlets are owned by like six people.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "67f17WRSDT",
+      "text": "They do favour at some point because they would need some recognition.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67e4fWRSDT",
+      "text": "in fear of power i support this",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "67f10AQ429",
+      "text": "yrs i agree with it",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66157AQ429",
+      "text": "I don't think this is necessarily the case",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "67d06AQ429",
+      "text": "TV news favors the governing party since it access all the information and avoid information that is against the governing party",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66571AQ429",
+      "text": "I don't think all TV news favors the governing party.  I think some TV news outlets favor the governing party and other outlets oppose it.  Most TV news outlets are biased in my opinion.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    }
+  ],
+  "conversations": [
+    {
+      "sessionId": "01JSWS1T0J2XY8H5JTVMNWRSDT",
+      "fileName": "20250428_000301_TV_news_favors_the_governing_party_in_general_01JSWS1T0J2XY8H5JTVMNWRSDT.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "64091WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "This is false! The media is supposed to be an unbiased source of relevant and factual happenings. To say that a favor whatever governing party is in Power is an outright lie.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e4fWRSDT",
+          "recipient": "64091WRSDT",
+          "text": "many tv outlets especially state funded pr closely regulated ones tend to favour the rulling party to maintain access and funding and sometime to avoid political backclash",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f17WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "Yes it is true since many tv news gain recognition through governing parties",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "676f6WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "The media favors whomever the owners of the media want to favor. There are like six owners to a majority of the media outlets. Sinclair Broadcasting Group is one of the largest that covers the majority of the US",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e4fWRSDT",
+          "recipient": "64091WRSDT",
+          "text": "depending on who is the financier, the views might vary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "depending on who is the financier, the views might vary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "I can see how you can say that, but do you have any evidence that proves to be true? I can think of only one source so I can say definitely lanes more Republican that’ll be Fox News but they’ve always been pro Republican and even if Republican was not in office, they still leaned that way.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "I can see how you can say that, but do you have any evidence that proves to be true? I can think of only one source so I can say definitely lanes more Republican that’ll be Fox News but they’ve always been pro Republican and even if Republican was not in office, they still leaned that way.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "Do you think it is the government being favored or the owners of the stations that make the money off viewership?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f17WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "Do you think it is the government being favored or the owners of the stations that make the money off viewership?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f17WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "It is the owners of the stations that get favoured What if the owners of the stations have something in major with the government?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "676f6WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "It is the owners of the stations that get favoured What if the owners of the stations have something in major with the government?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e4fWRSDT",
+          "recipient": "64091WRSDT",
+          "text": "just view any government sponsoured tv station",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "just view any government sponsoured tv station",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "Can you give me an example? Because when you say local program and I kind of think like me being here in DC like local channel 5 news. I can’t even really think of anything that would be federally funded as far as news goes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "Can you give me an example? Because when you say local program and I kind of think like me being here in DC like local channel 5 news. I can’t even really think of anything that would be federally funded as far as news goes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e4fWRSDT",
+          "recipient": "64091WRSDT",
+          "text": "but for balanced news to the public, they should all be neutral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "but for balanced news to the public, they should all be neutral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "I would think that most news except for you know, commentators, etc. etc. someone small would have their own private backing to avoid having to exercise a political bias Yeah, I absolutely agree. New should be neutral unless you live in a communist state",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "I would think that most news except for you know, commentators, etc. etc. someone small would have their own private backing to avoid having to exercise a political bias Yeah, I absolutely agree. New should be neutral unless you live in a communist state",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "I would say that is pretty obvious when you see that the rich want what is best for them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f17WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "I would say that is pretty obvious when you see that the rich want what is best for them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "tv often cater for audience preferences",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "676f6WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "The TV media favors the rich and whatever they want to show for coverage. If the government gives favors to the few that own the media, then the media favors them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "64091WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "Hey there! So the last person I talked to said that they believed local news to be federally funded so they would thus be biased because the person paying their bills could cut funding at any time if the news put something out they did not like. I think that is crazy and false",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f17WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "I believe that tv news favors the governing party in general since they would like to recieve some recognition from them and some favors at their end too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "That is pretty crazy to believe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "That is pretty crazy to believe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "OK, I can see how the news media may favor the rich, especially if it was a small local newspaper or independent reporter and their bias can be brought and paid",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676f6WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "OK, I can see how the news media may favor the rich, especially if it was a small local newspaper or independent reporter and their bias can be brought and paid",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "The only news that is funded by the government is PBS and that is by far the most neutral programming I have seen",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "The only news that is funded by the government is PBS and that is by far the most neutral programming I have seen",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "though they do so but, it is not for the benefit of the consumer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f17WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "though they do so but, it is not for the benefit of the consumer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "But overall, I think like national syndicate don’t have a bias and won’t feed into having to please one political party over the other, especially having to please the current political group in power I love PBS and I miss the reading rainbow lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676f6WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "But overall, I think like national syndicate don’t have a bias and won’t feed into having to please one political party over the other, especially having to please the current political group in power I love PBS and I miss the reading rainbow lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "Pretty much all other outlets are owned by a handful of billionaires PBS is getting defunded :( There is a lot of learning that happens through that station",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "Pretty much all other outlets are owned by a handful of billionaires PBS is getting defunded :( There is a lot of learning that happens through that station",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f17WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "But not all of them do that. What if they would favor them for their own personal wants? Remember, the audience does have much to say, but the owners would be at a loss if they don't.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "But not all of them do that. What if they would favor them for their own personal wants? Remember, the audience does have much to say, but the owners would be at a loss if they don't.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "this might be association with the owner in politics  maybe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f17WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "this might be association with the owner in politics  maybe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "But are you sure PBS isn’t publicly funded because I remember seeing these things saying that they need a donations for keeping their programming up and I always say thank you for our donations from viewers like you or something like that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676f6WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "But are you sure PBS isn’t publicly funded because I remember seeing these things saying that they need a donations for keeping their programming up and I always say thank you for our donations from viewers like you or something like that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f17WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "what do you mean",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "what do you mean",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "There are personal donations and some government funds",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "There are personal donations and some government funds",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "OK now I see why I see that message on there. I had no idea they’re being defunded",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676f6WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "OK now I see why I see that message on there. I had no idea they’re being defunded",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "with some directly targeting to downplay opposition",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f17WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "with some directly targeting to downplay opposition",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f17WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "You do have a point on that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "Like 10-15% funded by gov't",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "Like 10-15% funded by gov't",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "You do have a point on that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "But to stay on top of do you think that like national syndicates lean left or right? You can totally exclude Fox News because I know that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676f6WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "But to stay on top of do you think that like national syndicates lean left or right? You can totally exclude Fox News because I know that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "Lean right because of Sinclair Broadcastin Group",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "Lean right because of Sinclair Broadcastin Group",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "64091WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "I think that some independent reporters may have bias because they’re financial backers may lean more left or right, but even then it may not align with the current political power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "676f6WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "The TV news favors whomever the rich billionaires that own it want to favor. The rich will air whatever news benefits them most for money and viewership.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f17WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "I believe that they do favor the governing party if the governing party is funding their channel.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e4fWRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "weather news favour the governing party  depends on the media landscape of the country because some nation have independent journalism",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "weather news? oh whether news, sorry There are only a few independent news programs out there. PBS, BBC, Reuters, AP News. The rest are owned by a few billionaires",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "weather news? oh whether news, sorry There are only a few independent news programs out there. PBS, BBC, Reuters, AP News. The rest are owned by a few billionaires",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "That makes sense and that does track but I think like larger national Sunday because they have like donors, etc. don’t really have to line their news or output with either with either political party",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f17WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "That makes sense and that does track but I think like larger national Sunday because they have like donors, etc. don’t really have to line their news or output with either with either political party",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f17WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "What if the tv news owners have some connections with some political powers?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "What if the tv news owners have some connections with some political powers?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "I think some independent reporters like people you find on Twitter, etc., who take financial backing from whoever do exercise and bias on what they put out OK, I like your thinking. I’m sure there are some people who are republican who do make donations to nationally syndicated news broadcasters but ultimately, I think it falls on the editors and the team of people who actually put the news out to determine what they wanna put out.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f17WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "I think some independent reporters like people you find on Twitter, etc., who take financial backing from whoever do exercise and bias on what they put out OK, I like your thinking. I’m sure there are some people who are republican who do make donations to nationally syndicated news broadcasters but ultimately, I think it falls on the editors and the team of people who actually put the news out to determine what they wanna put out.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f17WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "Exactly But mostly it aligns with the owners",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "Exactly But mostly it aligns with the owners",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e4fWRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "the power actually belongs the billionaires, so they might control the tv station as they wish as employees have little to say if the boss gives directions",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676f6WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "the power actually belongs the billionaires, so they might control the tv station as they wish as employees have little to say if the boss gives directions",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "Have you heard of the Sinclair Broadcasting Group?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "64091WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "But I will say this one thing like Fox News. I’m not a hater, but they definitely lean more right because most of our donors are right winged and they will lose a lot of funding if they put out something that did not put a smile on our donors faces",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f17WRSDT",
+          "recipient": "67f17WRSDT",
+          "text": "But I will say this one thing like Fox News. I’m not a hater, but they definitely lean more right because most of our donors are right winged and they will lose a lot of funding if they put out something that did not put a smile on our donors faces",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "Have you heard of the Sinclair Broadcasting Group?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e4fWRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "even the independent ones are not that sure to maintain the loyalty if approached by the big bosses",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676f6WRSDT",
+          "recipient": "676f6WRSDT",
+          "text": "even the independent ones are not that sure to maintain the loyalty if approached by the big bosses",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676f6WRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "It's insane how they push the same message out to local stations across the US",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e4fWRSDT",
+          "recipient": "67e4fWRSDT",
+          "text": "It's insane how they push the same message out to local stations across the US",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f17WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "The editors can't put up something without the owners consent you know.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64091WRSDT",
+          "recipient": "64091WRSDT",
+          "text": "The editors can't put up something without the owners consent you know.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "OK, I’ll change my position a little bit. I think the majority of New and the kids do not care which political group is in power their aim is to educate the people. But there are a few select news media that have financial backing that would cause them severe damage if they put something out at their owners or their financial backers did not like.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "The news favors whoever the billionaire owners want to favor. They choose who benefits for coverage by choosing which segments get air time.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "the tv news can be biased favoring the governing party for some independent reasons associated with the owners",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "Most of them do since they would like recognition and backups even though it doesn't align with their beliefs or their audience beliefs as long as they are at an advantage.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "media",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "37",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "['private', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676f6WRSDT",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64091WRSDT",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "media",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e4fWRSDT",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "37",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "['private', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f17WRSDT",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K3EKZP55R038PYDA63DAQ429",
+      "fileName": "20250824_182804_TV_news_favors_the_governing_party_in_general_01K3EKZP55R038PYDA63DAQ429.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66157AQ429",
+          "recipient": "67d06AQ429",
+          "text": "TV news doesn't necessarily favor the governing party...it depends on who they are",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66571AQ429",
+          "recipient": "67f10AQ429",
+          "text": "This statement is too general so I disagree with it.  Some TV news outlets favor the governing party and some oppose it.  It really just depends on which TV news outlet you are watching.  They are all biased one way or the other.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f10AQ429",
+          "recipient": "66571AQ429",
+          "text": "I believe this statement holds some truth. TV news often reflects the political leanings or pressures of the governing party, whether through editorial choices, framing, or access. Governments may have a subtle (or not-so-subtle) influence on the media landscape, especially in st",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67d06AQ429",
+          "recipient": "66157AQ429",
+          "text": "TV news mostly favor governing party in that for the public to gain much trust from it. And avoids any negative information",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f10AQ429",
+          "recipient": "66571AQ429",
+          "text": "I believe this statement holds some truth. TV news often reflects the political leanings or pressures of the governing party, whether through editorial choices, framing,so-success. Governments may have a subtle (or not-so-subtle) influence on the media landscape, especially in state-owned outlets.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66571AQ429",
+          "recipient": "66571AQ429",
+          "text": "I believe this statement holds some truth. TV news often reflects the political leanings or pressures of the governing party, whether through editorial choices, framing,so-success. Governments may have a subtle (or not-so-subtle) influence on the media landscape, especially in state-owned outlets.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I don't feel like that's true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I don't feel like that's true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67d06AQ429",
+          "recipient": "66157AQ429",
+          "text": "Most of TVs are sponsored by the government and they have to support it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66157AQ429",
+          "recipient": "66157AQ429",
+          "text": "Most of TVs are sponsored by the government and they have to support it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "67d06AQ429",
+          "text": "h, hm",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "h, hm",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67d06AQ429",
+          "recipient": "66157AQ429",
+          "text": "why?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66157AQ429",
+          "recipient": "66157AQ429",
+          "text": "why?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66571AQ429",
+          "recipient": "67f10AQ429",
+          "text": "I respectfully disagree.  I really think it just depends on which TV news station you're watching.   Those that oppose the governing party make that clear.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f10AQ429",
+          "recipient": "67f10AQ429",
+          "text": "I respectfully disagree.  I really think it just depends on which TV news station you're watching.   Those that oppose the governing party make that clear.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f10AQ429",
+          "recipient": "66571AQ429",
+          "text": "I get why people think this. TV news, especially in places with close ties between media and government, can lean toward favorieporting, sng party. Whether it's through biased reporting, selective coverage, or even the tone of stories, it often feels like they’re trying to keep the government’s image intact.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66571AQ429",
+          "recipient": "66571AQ429",
+          "text": "I get why people think this. TV news, especially in places with close ties between media and government, can lean toward favorieporting, sng party. Whether it's through biased reporting, selective coverage, or even the tone of stories, it often feels like they’re trying to keep the government’s image intact.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "67d06AQ429",
+          "text": "Are they mostly sponsored by the government though?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "Are they mostly sponsored by the government though?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67d06AQ429",
+          "recipient": "66157AQ429",
+          "text": "I think few TV that are not sponsored by the government are the one that speaks negatively about the government. The resources and employment of more reporters.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66157AQ429",
+          "recipient": "66157AQ429",
+          "text": "I think few TV that are not sponsored by the government are the one that speaks negatively about the government. The resources and employment of more reporters.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66571AQ429",
+          "recipient": "67f10AQ429",
+          "text": "I don't generally find that to be the case.  TV news tends to be very biased in my experience which is why I don't find it to be very reliable these days.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f10AQ429",
+          "recipient": "67f10AQ429",
+          "text": "I don't generally find that to be the case.  TV news tends to be very biased in my experience which is why I don't find it to be very reliable these days.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "67d06AQ429",
+          "text": "oh",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "oh",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67d06AQ429",
+          "recipient": "66157AQ429",
+          "text": "Yes that is my view",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66157AQ429",
+          "recipient": "66157AQ429",
+          "text": "Yes that is my view",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "67d06AQ429",
+          "text": "ok",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "ok",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66157AQ429",
+          "recipient": "67f10AQ429",
+          "text": "don't think this is true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66571AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I don't believe TV news favors the governing party.  Some news outlets favor the governing party and others oppose it.  I find TV news to be very biased one way or the other.  I don't find it to be a reliable source of information any longer.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67d06AQ429",
+          "recipient": "66571AQ429",
+          "text": "Most of public announcement are from the governing party and the reporters have to report positively for people to gain trust in the governing party.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f10AQ429",
+          "recipient": "66157AQ429",
+          "text": "I think there's some truth to that. TV news outlets, especially in countries with strong government influence, tend to favor the ruling party—either through biased reporting, more positive coverage, or even avoiding criticism. It doesn’t mean all outlets, but it’s definitely comm",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "67f10AQ429",
+          "text": "maybe so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f10AQ429",
+          "recipient": "67f10AQ429",
+          "text": "maybe so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66571AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I don't think that's true.  If you watch different news outlets, you've find some report very negative about the governing party.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I don't think that's true.  If you watch different news outlets, you've find some report very negative about the governing party.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67d06AQ429",
+          "recipient": "66571AQ429",
+          "text": "It is rare I think to find the TV news that are against the governing party",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66571AQ429",
+          "recipient": "66571AQ429",
+          "text": "It is rare I think to find the TV news that are against the governing party",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66571AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I have found many TV news outlets that go against the governing party. I have also found others that favor the governing party.  There are many sources of TV news these days",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I have found many TV news outlets that go against the governing party. I have also found others that favor the governing party.  There are many sources of TV news these days",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f10AQ429",
+          "recipient": "66157AQ429",
+          "text": "I think there's some truth to that. TV news outlets, especially in countries with strong government influence, tend to favor the ruling party—either through biased reporting, more positive coverage, or even avoiding criticism. It doesn’t mean all outlets, but it’s definitely common in certain places.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66157AQ429",
+          "recipient": "66157AQ429",
+          "text": "I think there's some truth to that. TV news outlets, especially in countries with strong government influence, tend to favor the ruling party—either through biased reporting, more positive coverage, or even avoiding criticism. It doesn’t mean all outlets, but it’s definitely common in certain places.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "67f10AQ429",
+          "text": "yeah",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f10AQ429",
+          "recipient": "67f10AQ429",
+          "text": "yeah",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67d06AQ429",
+          "recipient": "66571AQ429",
+          "text": "My view is that most tv that spread negative information about are gorvening party are privately owned",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66571AQ429",
+          "recipient": "66571AQ429",
+          "text": "My view is that most tv that spread negative information about are gorvening party are privately owned",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66571AQ429",
+          "recipient": "67d06AQ429",
+          "text": "Almost all TV news sources are privately owned.  The publicly owned ones are critical of the governing party, in my opinion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "Almost all TV news sources are privately owned.  The publicly owned ones are critical of the governing party, in my opinion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66157AQ429",
+          "recipient": "66571AQ429",
+          "text": "maybe. not",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f10AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I’d say that’s often the case. In many places, media outlets, especially those with ties to the government or corporate interests, can lean towards supporting the ruling party. It's not always explicit, but the way t that bias.\named or what gets covered can reflect that bias.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67d06AQ429",
+          "recipient": "67f10AQ429",
+          "text": "Reporters cover government speeches positively to avoid the public to loose trust.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66571AQ429",
+          "recipient": "66157AQ429",
+          "text": "I don't believe ALL TV news favors the governing party.  Some TV news favors it and some does not.  It really just depends on which source you are relying on.  We've gotten away from independent, unbiased reporting and everything is biased these days.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "66571AQ429",
+          "text": "yes almost everything is biased",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66571AQ429",
+          "recipient": "66571AQ429",
+          "text": "yes almost everything is biased",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f10AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I’d say that’s often the case. In many places, media outlets, especially those with ties to the government o therporate interests, can lean towards supporting the ruling party. It's not always explicit, but the way stories are framed or what gets covered can reflect that bias.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67d06AQ429",
+          "recipient": "67d06AQ429",
+          "text": "I’d say that’s often the case. In many places, media outlets, especially those with ties to the government o therporate interests, can lean towards supporting the ruling party. It's not always explicit, but the way stories are framed or what gets covered can reflect that bias.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66571AQ429",
+          "recipient": "66157AQ429",
+          "text": "I guess we are in agreement on this topic.  Do you wish to elaborate? Well, I'll expand some more.  We have some TV news outlets that will be critical of the governing party and selectively show negative news stories about the governing party and others that will only show the governing party in a positive light",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66157AQ429",
+          "recipient": "66157AQ429",
+          "text": "I guess we are in agreement on this topic.  Do you wish to elaborate? Well, I'll expand some more.  We have some TV news outlets that will be critical of the governing party and selectively show negative news stories about the governing party and others that will only show the governing party in a positive light",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67d06AQ429",
+          "recipient": "67f10AQ429",
+          "text": "Most TV channels give the ruling party more visibility  to be heard Sure  no matter how the governing party is ruling there is always biasness not to give negative information about it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f10AQ429",
+          "recipient": "67f10AQ429",
+          "text": "Most TV channels give the ruling party more visibility  to be heard Sure  no matter how the governing party is ruling there is always biasness not to give negative information about it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66157AQ429",
+          "recipient": "66571AQ429",
+          "text": "yes I wonder if anyone is unbiased",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66571AQ429",
+          "recipient": "66571AQ429",
+          "text": "yes I wonder if anyone is unbiased",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66571AQ429",
+          "recipient": "66157AQ429",
+          "text": "Not that I have found Some do a better job than others and I find those to be more trustworthy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66157AQ429",
+          "recipient": "66157AQ429",
+          "text": "Not that I have found Some do a better job than others and I find those to be more trustworthy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": 5,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "not necessarily",
+          "sliderValue": 3,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "TV news favors the governing party positively to develop trust to the public.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "My opinion did not change.  I didn't get any good arguments to the contrary which would lead me to change my opinion.  Not all TV news favors the governing party.  Some do and some don't.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "42",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "personal-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "42",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66157AQ429",
+          "recipient": "",
+          "text": "personal-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66571AQ429",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d06AQ429",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f10AQ429",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K3EKY968Y9FVZ6ARTKYY23TZ",
+      "fileName": "20250824_182932_TV_news_favors_the_governing_party_in_general_01K3EKY968Y9FVZ6ARTKYY23TZ.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66775Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "No big surprise that TV favors the ruling party, it's just what's going to be reported more often and it helps keep the ruling party in check as they get live time feedback to any major issues or mess-ups that they get down with...",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "61705Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "I can see this happening. I think it will depend on what news program or where one would get their news from. I think being cordial can come across as favoring but favoring is kind of clear cut when you hear it. Sometimes you know the station is in clear favor of the governing pa",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "I think that Tv news favors the governing party in general because i feel they are afraid of the governing party. The governing party can harm them by passing motions that scare them away or reduce their seriousness in news",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e97Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "i believe there is true to the idea that TV news often favours the governing party. Whether through direct influence",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "Oh I so agree with you there",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "Oh I so agree with you there",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e97Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "i am surprised that you too agree that TV favours the government. would yopu share more",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66775Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "i am surprised that you too agree that TV favours the government. would yopu share more",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "I feel that most of the Tv news favors governing party because the need favors from them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61705Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "I feel that most of the Tv news favors governing party because the need favors from them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66775Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "It's just as it is, I was a bit confused on why this was our topic because I was expecting something a bit more divisive A live feed of how the ruling party acts is important to  the everyday citizen keeps things in line and understood",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e97Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "It's just as it is, I was a bit confused on why this was our topic because I was expecting something a bit more divisive A live feed of how the ruling party acts is important to  the everyday citizen keeps things in line and understood",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "For a governing party that ran and spoke loudly about free speech they aren't living by that. In my opinion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "For a governing party that ran and spoke loudly about free speech they aren't living by that. In my opinion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "They want their news to be watched by many people and avoid getting into trouble with the ruling party The governing party may provide more favors to the Tv news",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61705Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "They want their news to be watched by many people and avoid getting into trouble with the ruling party The governing party may provide more favors to the Tv news",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e97Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "I like the topic because most of the coverage is usually state-controlled",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66775Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "I like the topic because most of the coverage is usually state-controlled",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "Yes I think they would Well I think the news at least thinks like that. I agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "Yes I think they would Well I think the news at least thinks like that. I agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66775Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "Which there sometimes a problem is laid, an absence of non-partisan coverage is needed a lot of the time",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e97Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "Which there sometimes a problem is laid, an absence of non-partisan coverage is needed a lot of the time",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e97Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "coverage mostly lies to those in power.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66775Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "The ruling party being the focus of most newscastings is important for keeping the public up to date on current events as well as allowing for the said party to get feedback live to their decisions and choices, the good ones and the bad ones",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "61705Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "I think it is possibly true. The news wants to make sure they don't ruffle to many feathers especially because of funding and things of that nature. It also depends on what news station you watch or where one gets their news from.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "The Tv news favors the governing party but not in general it depends on which TV news. Some do favors the governing party while others do not.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "News can be sketchy to watch sometimes.  It changes from station to station is kind of sad in away",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e97Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "News can be sketchy to watch sometimes.  It changes from station to station is kind of sad in away",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e97Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "i agree with you ,this happens even in states where there is press protection.This happen because mostly the media is state-controlled",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61705Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "i agree with you ,this happens even in states where there is press protection.This happen because mostly the media is state-controlled",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "Some TV news favors the governing party but not all of them some do not favor the governing party which is quit recommedable",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66775Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "Some TV news favors the governing party but not all of them some do not favor the governing party which is quit recommedable",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66775Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "I agree as well with that. The real trouble lays with what news events are being discussed and their lack of (or abundance) of partiscan-ship partisan*-ship",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "I agree as well with that. The real trouble lays with what news events are being discussed and their lack of (or abundance) of partiscan-ship partisan*-ship",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "I wish they just focus on the news and not be so biased.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e97Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "I wish they just focus on the news and not be so biased.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e97Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "I know especially in numbers they have different numbers. I agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61705Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "I know especially in numbers they have different numbers. I agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "I some TV news do favor this governing party to get favors and  for their personal benefit",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66775Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "I some TV news do favor this governing party to get favors and  for their personal benefit",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "For both sides if the news didn't lean one way or another they might help the world be a little better",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e97Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "For both sides if the news didn't lean one way or another they might help the world be a little better",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66775Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "That's true, there is certain value to it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "That's true, there is certain value to it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e97Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "Sure.Transparency is vital.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61705Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "Sure.Transparency is vital.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "Most of the TV news are so careful in criticizing the governin",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66775Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "Most of the TV news are so careful in criticizing the governin",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e97Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "Media is mostly state controlled hence news are always biased\n.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "61705Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "I think they do in a way. They don't want to make to much trouble. I mean it depends on what you watch. They can be so biased. It's kind of sad in a way.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66775Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "The news favoring and reporting primarily about the ruling party isn't much of a problem at all as long as we're able to also have a degree of non partisanship in some reporting and focus on objective conversations about the ruling party",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "Some of the TV news do favor the governing party which. Those who favor the governing party need some favors from them. Therefore they need to support them and give good news about the governing party",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "Absolutely! I agree so much with you there",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66775Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "Absolutely! I agree so much with you there",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66775Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "Same here, I just hope that we we're able to make our own opinions and viewpoints in the end of it all*",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61705Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "Same here, I just hope that we we're able to make our own opinions and viewpoints in the end of it all*",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "Most of the TV news i think they do favor the governing party in order to get favors from the party",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e97Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "Most of the TV news i think they do favor the governing party in order to get favors from the party",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e97Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "I agree with you.Tv news favours the ruling government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "I agree with you.Tv news favours the ruling government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "A few of the TV news do not favor the governing party if they are not gaining anything from them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e97Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "A few of the TV news do not favor the governing party if they are not gaining anything from them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "Very true. We just have to remember where it's coming from and who make a conscious decision on our own whom*",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66775Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "Very true. We just have to remember where it's coming from and who make a conscious decision on our own whom*",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66775Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "So many times we often find people mindlessly regurgitating some rhetoric from the local news with no amount of nuisance or value as if the word of reporters is law above all else It's a complicated world, in my eyes, let's not have simple answers to everything",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61705Y23TZ",
+          "recipient": "61705Y23TZ",
+          "text": "So many times we often find people mindlessly regurgitating some rhetoric from the local news with no amount of nuisance or value as if the word of reporters is law above all else It's a complicated world, in my eyes, let's not have simple answers to everything",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e97Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "Sure, this is so bad that there is no transparency.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "60fa2Y23TZ",
+          "text": "Sure, this is so bad that there is no transparency.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61705Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "So true!!! :)",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66775Y23TZ",
+          "recipient": "66775Y23TZ",
+          "text": "So true!!! :)",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "Also it depends on the leader of the governing party. If the governing party is friends with the TV news founders definitly they will be favored",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e97Y23TZ",
+          "recipient": "67e97Y23TZ",
+          "text": "Also it depends on the leader of the governing party. If the governing party is friends with the TV news founders definitly they will be favored",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "I agree. All tv news have different news to give in one event.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "I think they do unfortunately. I think it all depends on what news station you listen to or watch. They can for sure.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "As stated before, the issue to me isn't the fact that the ruling party receives the most attention, but instead we need to focus on what's being said and reported from all sources, be they non partisan, independant, askewed in some way, or whatever else have you.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "I think some not all the TV news do favor the governing party. Those who favor the governing party they might need a favor in return. A few that do not support the governing party they do not expect anything in return.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "50",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66775Y23TZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "50",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61705Y23TZ",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fa2Y23TZ",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e97Y23TZ",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ],
+  "sampleExcerpts": [
+    "This is false! The media is supposed to be an unbiased source of relevant and factual happenings. To say that a favor whatever governing party is in Power is an outright lie.",
+    "many tv outlets especially state funded pr closely regulated ones tend to favour the rulling party to maintain access and funding and sometime to avoid political backclash",
+    "Yes it is true since many tv news gain recognition through governing parties",
+    "TV news doesn't necessarily favor the governing party...it depends on who they are",
+    "This statement is too general so I disagree with it.  Some TV news outlets favor the governing party and some oppose it.  It really just depends on which TV news outlet you are watching.  They are all biased one way or the other.",
+    "I believe this statement holds some truth. TV news often reflects the political leanings or pressures of the governing party, whether through editorial choices, framing, or access. Governments may have a subtle (or not-so-subtle) influence on the media landscape, especially in st"
+  ],
+  "tags": [
+    "general discussions",
+    "news",
+    "favors",
+    "governing",
+    "party",
+    "general"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)"
+}

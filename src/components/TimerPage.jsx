@@ -4,11 +4,13 @@ import { motion } from 'framer-motion';
 import { RotateCcw, Play, Pause, Volume2, Sparkles, Award } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { BrandLogo } from './BrandLogo';
+import { SessionRatingSection } from './SessionRatingSection';
 import { sound } from '../utils/audio';
 
 export function TimerPage({
   topic = 'Defend that cursive handwriting should be the only form of writing.',
   mode = 'random-topics',
+  source = 'random',
   initialSeconds = 60,
   onBack,
   onOpenAnalysis,
@@ -17,6 +19,7 @@ export function TimerPage({
   const [timeLeft, setTimeLeft] = useState(initialSeconds);
   const [isRunning, setIsRunning] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
+  const [hasCompletedSession, setHasCompletedSession] = useState(false);
 
   // Audio recording state
   const [isRecording, setIsRecording] = useState(false);
@@ -35,8 +38,17 @@ export function TimerPage({
     setTimeLeft(initialSeconds);
     setIsRunning(false);
     setIsFinished(false);
+    setHasCompletedSession(false);
     setAudioUrl(null);
   }, [initialSeconds]);
+
+  const handleFinishEarly = () => {
+    sound.playTimerEndBuzz();
+    setIsRunning(false);
+    stopRecording();
+    setHasCompletedSession(true);
+    setIsFinished(true);
+  };
 
   const startRecording = async () => {
     try {
@@ -177,6 +189,7 @@ export function TimerPage({
     sound.playTimerReset();
     setIsRunning(false);
     setIsFinished(false);
+    setHasCompletedSession(false);
     setTimeLeft(totalSeconds);
     stopRecording();
     setAudioUrl(null);
@@ -525,8 +538,9 @@ export function TimerPage({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            gap: '24px',
+            gap: '18px',
             marginTop: '32px',
+            flexWrap: 'wrap',
           }}
         >
           <motion.button
@@ -576,9 +590,36 @@ export function TimerPage({
               <Play size={24} fill="#FFFFFF" color="#FFFFFF" style={{ marginLeft: '3px' }} />
             )}
           </motion.button>
+
+          {(isRunning || (timeLeft < totalSeconds && !isFinished)) && (
+            <motion.button
+              whileHover={{ y: -2, boxShadow: '4px 4px 0px #1E4D3B' }}
+              whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #1E4D3B' }}
+              onClick={handleFinishEarly}
+              title="Finish Session and Rate"
+              style={{
+                height: '46px',
+                padding: '0 16px',
+                borderRadius: '0px',
+                backgroundColor: '#DCFCE7',
+                border: '2px solid #166534',
+                boxShadow: '3px 3px 0px #166534',
+                color: '#166534',
+                fontFamily: "'Press Start 2P', monospace",
+                fontSize: '9.5px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '6px',
+                cursor: 'pointer',
+              }}
+            >
+              <span>★ FINISH & RATE</span>
+            </motion.button>
+          )}
         </div>
 
-        {(isFinished || audioUrl) && (
+        {(isFinished || hasCompletedSession || audioUrl) && (
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
@@ -588,6 +629,7 @@ export function TimerPage({
               flexDirection: 'column',
               alignItems: 'center',
               gap: '14px',
+              width: '100%',
             }}
           >
             {audioUrl && (
@@ -639,6 +681,15 @@ export function TimerPage({
               <Award size={16} />
               <span>GET SPEECH ANALYSIS</span>
             </button>
+
+            {/* Complete & Rate Research Session Section */}
+            <SessionRatingSection
+              topic={topic}
+              source={source || (mode === 'random-topics' ? 'random' : 'manual')}
+              topicType={mode}
+              category={mode === 'deep-research' ? 'Deep Research' : 'General'}
+              durationSeconds={totalSeconds - timeLeft || totalSeconds}
+            />
           </motion.div>
         )}
       </main>
