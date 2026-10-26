@@ -11,6 +11,8 @@ export function PlayerHud({ onReplayIntro }) {
   const displayName = currentUser.nickname || currentUser.username || (isGuest ? 'Guest' : 'User');
   const initial = displayName.trim().charAt(0).toUpperCase() || 'U';
 
+  const [isMuted, setIsMuted] = React.useState(() => sound.isMuted?.() || false);
+
   const handleOpenProfile = () => {
     sound.playPillClick();
     openProfile('history');
@@ -19,6 +21,14 @@ export function PlayerHud({ onReplayIntro }) {
   const handleLogout = () => {
     sound.playButtonClick();
     logout();
+  };
+
+  const handleToggleSound = () => {
+    const nextMuted = sound.toggleMute();
+    setIsMuted(nextMuted);
+    if (!nextMuted) {
+      sound.playButtonClick();
+    }
   };
 
   return (
@@ -81,6 +91,44 @@ export function PlayerHud({ onReplayIntro }) {
 
       {/* Top Right Controls: Watch Intro, Sign Out & Profile Initial Icon */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+        {currentUser?.isDemoMode && (
+          <span
+            title="Running in Live Vercel Demo Mode"
+            style={{
+              padding: '3px 7px',
+              backgroundColor: '#FEF3C7',
+              border: '1px solid #D97706',
+              color: '#92400E',
+              fontFamily: "'Pixelify Sans', monospace",
+              fontSize: '11px',
+              fontWeight: 600,
+            }}
+          >
+            Live Demo Mode
+          </span>
+        )}
+        <button
+          type="button"
+          onClick={handleToggleSound}
+          title={isMuted ? 'Sound is Muted (Click to Unmute)' : 'Sound is Active & Loud (Click to Mute)'}
+          style={{
+            padding: '6px 12px',
+            backgroundColor: isMuted ? '#FEE2E2' : '#F0FDF4',
+            color: isMuted ? '#991B1B' : '#166534',
+            border: `1.5px solid ${isMuted ? '#FCA5A5' : '#86EFAC'}`,
+            fontFamily: "'Pixelify Sans', monospace",
+            fontSize: '13px',
+            cursor: 'pointer',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            transition: 'background-color 0.15s, border-color 0.15s',
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = isMuted ? '#FECACA' : '#DCFCE7')}
+          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = isMuted ? '#FEE2E2' : '#F0FDF4')}
+        >
+          <span>{isMuted ? '🔇 Muted' : '🔊 Sound'}</span>
+        </button>
         {onReplayIntro && (
           <button
             type="button"

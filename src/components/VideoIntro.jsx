@@ -11,11 +11,13 @@ export function VideoIntro({ onComplete }) {
     const playVideo = async () => {
       if (!videoRef.current) return;
       try {
+        videoRef.current.volume = 1.0;
         await videoRef.current.play();
       } catch {
         // If unmuted autoplay blocked by browser policy, try muted autoplay
         if (videoRef.current) {
           videoRef.current.muted = true;
+          videoRef.current.volume = 1.0;
           videoRef.current.play().catch(() => {});
         }
       }
@@ -25,6 +27,7 @@ export function VideoIntro({ onComplete }) {
     // User interaction unmutes if muted and resumes playback
     const handleGlobalInteraction = () => {
       if (videoRef.current) {
+        videoRef.current.volume = 1.0;
         if (videoRef.current.muted) {
           videoRef.current.muted = false;
         }

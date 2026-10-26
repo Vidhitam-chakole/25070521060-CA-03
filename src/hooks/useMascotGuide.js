@@ -107,8 +107,8 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
 
     if (timeLeft === 0) {
       setMood('happy');
-      say(`Time's up, ${nickname}! Great job! Click 'GET SPEECH ANALYSIS' to review your performance.`, {
-        autoDismiss: 6000,
+      say(`Time's up, ${nickname}! Great job on your speech!`, {
+        autoDismiss: 5000,
       });
       try {
         confetti({

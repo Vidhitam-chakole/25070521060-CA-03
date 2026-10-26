@@ -370,18 +370,11 @@ function AppContent() {
                   <HeroTitle mode={activeTab} />
                   <StepsList mode={activeTab} />
 
-                  {activeTab === 'interview-prep' ? (
+                  {activeTab === 'interview-prep' && (
                     <div style={{ marginTop: '20px', width: '100%' }}>
-                      <div ref={(el) => registerTarget('speechAnalysisBtn', el)}>
-                        <AnalysisButton onClick={() => handleOpenAnalysis()} />
-                      </div>
                       <div ref={(el) => registerTarget('frameworksAccordion', el)}>
                         <FrameworkAccordion />
                       </div>
-                    </div>
-                  ) : (
-                    <div style={{ marginTop: '4px' }} ref={(el) => registerTarget('speechAnalysisBtn', el)}>
-                      <AnalysisButton onClick={() => handleOpenAnalysis()} />
                     </div>
                   )}
                 </div>

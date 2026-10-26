@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import { useMascot } from '../../context/MascotContext';
 
-export function MascotBubble({ bubble, facing, onClose }) {
+export function MascotBubble({ bubble, facing, positionX, onClose }) {
   const { setMood } = useMascot();
   const [displayedText, setDisplayedText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
@@ -47,6 +47,23 @@ export function MascotBubble({ bubble, facing, onClose }) {
   // Bubble position: above mascot, flipped depending on facing direction
   const isFacingRight = facing === 1;
 
+  let bubbleLeft = isFacingRight ? 10 : -165;
+  let tailLeft = isFacingRight ? '24px' : 'calc(100% - 38px)';
+
+  if (typeof window !== 'undefined' && typeof positionX === 'number') {
+    const bubbleWidth = 260;
+    const screenLeft = positionX + bubbleLeft;
+    if (screenLeft < 14) {
+      const shift = 14 - screenLeft;
+      bubbleLeft += shift;
+      tailLeft = `${Math.max(16, 24 - shift)}px`;
+    } else if (screenLeft + bubbleWidth > window.innerWidth - 14) {
+      const overflow = screenLeft + bubbleWidth - (window.innerWidth - 14);
+      bubbleLeft -= overflow;
+      tailLeft = `calc(100% - ${Math.max(16, 38 - overflow)}px)`;
+    }
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.85, y: 10 }}
@@ -57,7 +74,7 @@ export function MascotBubble({ bubble, facing, onClose }) {
       style={{
         position: 'absolute',
         bottom: '102px',
-        left: isFacingRight ? '10px' : '-160px',
+        left: `${bubbleLeft}px`,
         minWidth: '220px',
         maxWidth: '280px',
         backgroundColor: '#F9F6EC',
@@ -79,7 +96,7 @@ export function MascotBubble({ bubble, facing, onClose }) {
         style={{
           position: 'absolute',
           bottom: '-10px',
-          left: isFacingRight ? '24px' : 'calc(100% - 38px)',
+          left: tailLeft,
           width: 0,
           height: 0,
           borderLeft: '9px solid transparent',
@@ -91,7 +108,7 @@ export function MascotBubble({ bubble, facing, onClose }) {
         style={{
           position: 'absolute',
           bottom: '-7.5px',
-          left: isFacingRight ? '25px' : 'calc(100% - 37px)',
+          left: tailLeft,
           width: 0,
           height: 0,
           borderLeft: '8px solid transparent',

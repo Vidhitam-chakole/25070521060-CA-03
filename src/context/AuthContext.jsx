@@ -155,6 +155,50 @@ export function AuthProvider({ children }) {
 
       return { success: true, user };
     } catch (err) {
+      // If backend is unreachable (e.g. running on Vercel without cloud server),
+      // seamlessly fall back to local demo account so users are never blocked
+      const isServerDown = err.message && (
+        err.message.includes('Unable to communicate with Node.js') ||
+        err.message.includes('Failed to fetch') ||
+        err.message.includes('NetworkError')
+      );
+
+      if (isServerDown) {
+        console.warn('Backend unavailable; activating live demo mode:', err.message);
+        const cleanEmail = email.trim().toLowerCase();
+        const defaultName = cleanEmail.split('@')[0];
+        const assignedNickname = (nickname && nickname.trim()) ? nickname.trim() : defaultName;
+        const demoUser = {
+          _id: 'demo_' + Date.now(),
+          email: cleanEmail,
+          nickname: assignedNickname,
+          avatar: 'parrot',
+          loginCount: 1,
+          isDemoMode: true,
+          createdAt: new Date().toISOString(),
+        };
+        const demoToken = 'demo_token_' + Date.now();
+
+        try {
+          const rawAccounts = localStorage.getItem('learnwithfun_demo_accounts');
+          const accounts = rawAccounts ? JSON.parse(rawAccounts) : {};
+          accounts[cleanEmail] = { user: demoUser, password };
+          localStorage.setItem('learnwithfun_demo_accounts', JSON.stringify(accounts));
+        } catch {
+          // ignore storage error
+        }
+
+        setToken(demoToken);
+        setCurrentUser(demoUser);
+        sound.playSuccessCelebration();
+
+        if (!assignedNickname) {
+          setIsAskingNickname(true);
+        }
+
+        return { success: true, user: demoUser, isDemoMode: true };
+      }
+
       setAuthError(err.message);
       sound.playTimerEndBuzz();
       return { success: false, error: err.message };
@@ -190,6 +234,42 @@ export function AuthProvider({ children }) {
 
       return { success: true, user };
     } catch (err) {
+      const isServerDown = err.message && (
+        err.message.includes('Unable to communicate with Node.js') ||
+        err.message.includes('Failed to fetch') ||
+        err.message.includes('NetworkError')
+      );
+
+      if (isServerDown) {
+        console.warn('Backend unavailable; activating live demo mode:', err.message);
+        const cleanEmail = email.trim().toLowerCase();
+        let existingUser = null;
+        try {
+          const rawAccounts = localStorage.getItem('learnwithfun_demo_accounts');
+          const accounts = rawAccounts ? JSON.parse(rawAccounts) : {};
+          if (accounts[cleanEmail]) {
+            existingUser = accounts[cleanEmail].user;
+          }
+        } catch {
+          // ignore
+        }
+
+        const defaultName = cleanEmail.split('@')[0];
+        const demoUser = existingUser || {
+          _id: 'demo_' + Date.now(),
+          email: cleanEmail,
+          nickname: defaultName,
+          avatar: 'parrot',
+          loginCount: 1,
+          isDemoMode: true,
+        };
+        const demoToken = 'demo_token_' + Date.now();
+        setToken(demoToken);
+        setCurrentUser(demoUser);
+        sound.playSnapChime();
+        return { success: true, user: demoUser, isDemoMode: true };
+      }
+
       setAuthError(err.message);
       sound.playTimerEndBuzz();
       return { success: false, error: err.message };
@@ -288,6 +368,37 @@ export function AuthProvider({ children }) {
       return { success: true, history: [], stats: { totalSessions: 0, avgRating: 0, manualCount: 0, randomCount: 0 } };
     }
 
+    if (currentUser?.isDemoMode) {
+      try {
+        const stored = localStorage.getItem('learnwithfun_demo_history_' + (currentUser.email || 'guest'));
+        const list = stored ? JSON.parse(stored) : [];
+        let filtered = [...list];
+        if (filters.source && filters.source !== 'all') {
+          filtered = filtered.filter((i) => i.source === filters.source);
+        }
+        if (filters.q && filters.q.trim()) {
+          const q = filters.q.trim().toLowerCase();
+          filtered = filtered.filter((i) => (i.topic || '').toLowerCase().includes(q) || (i.feedback || '').toLowerCase().includes(q));
+        }
+        if (filters.minRating) {
+          filtered = filtered.filter((i) => (i.rating || 0) >= Number(filters.minRating));
+        }
+        const total = filtered.length;
+        const avg = total > 0 ? (filtered.reduce((acc, c) => acc + (c.rating || 0), 0) / total).toFixed(1) : 0;
+        const stats = {
+          totalSessions: total,
+          avgRating: Number(avg),
+          manualCount: filtered.filter((i) => i.source === 'manual').length,
+          randomCount: filtered.filter((i) => i.source === 'random').length,
+        };
+        setHistoryList(filtered);
+        setHistoryStats(stats);
+        return { success: true, history: filtered, stats };
+      } catch {
+        return { success: true, history: [], stats: { totalSessions: 0, avgRating: 0, manualCount: 0, randomCount: 0 } };
+      }
+    }
+
     setIsHistoryLoading(true);
     try {
       const params = new URLSearchParams();
@@ -327,10 +438,9 @@ export function AuthProvider({ children }) {
 
   // Save new research session with satisfaction rating (1-5 stars) and feedback
   const addHistoryEntry = async (sessionData) => {
-    if (!token || currentUser?.isGuest) {
-      // For guests, we can still show a temporary local feedback
+    if (!token || currentUser?.isGuest || currentUser?.isDemoMode) {
       const localEntry = {
-        _id: 'guest_hist_' + Date.now(),
+        _id: 'hist_' + Date.now(),
         topic: sessionData.topic,
         source: sessionData.source || 'manual',
         topicType: sessionData.topicType || 'manual-search',
@@ -340,7 +450,17 @@ export function AuthProvider({ children }) {
         durationSeconds: sessionData.durationSeconds || 0,
         completedAt: new Date().toISOString(),
       };
-      setHistoryList((prev) => [localEntry, ...prev]);
+      setHistoryList((prev) => {
+        const updated = [localEntry, ...prev];
+        if (currentUser?.isDemoMode) {
+          try {
+            localStorage.setItem('learnwithfun_demo_history_' + (currentUser.email || 'guest'), JSON.stringify(updated));
+          } catch {
+            // ignore
+          }
+        }
+        return updated;
+      });
       setHistoryStats((prev) => ({
         ...prev,
         totalSessions: prev.totalSessions + 1,
@@ -348,7 +468,7 @@ export function AuthProvider({ children }) {
         randomCount: prev.randomCount + (localEntry.source === 'random' ? 1 : 0),
       }));
       sound.playSuccessCelebration();
-      return { success: true, entry: localEntry, isGuest: true };
+      return { success: true, entry: localEntry, isGuest: Boolean(currentUser?.isGuest) };
     }
 
     try {
@@ -369,13 +489,40 @@ export function AuthProvider({ children }) {
       sound.playSuccessCelebration();
       return { success: true, entry: savedEntry };
     } catch (err) {
-      console.error('Error adding history entry to MongoDB:', err);
-      return { success: false, error: err.message };
+      console.warn('Backend history error, saving entry locally:', err.message);
+      const localEntry = {
+        _id: 'hist_' + Date.now(),
+        topic: sessionData.topic,
+        source: sessionData.source || 'manual',
+        topicType: sessionData.topicType || 'manual-search',
+        category: sessionData.category || 'General',
+        rating: sessionData.rating || 5,
+        feedback: sessionData.feedback || '',
+        durationSeconds: sessionData.durationSeconds || 0,
+        completedAt: new Date().toISOString(),
+      };
+      setHistoryList((prev) => [localEntry, ...prev]);
+      sound.playSuccessCelebration();
+      return { success: true, entry: localEntry };
     }
   };
 
   // Update rating or feedback for existing entry
   const updateHistoryEntry = async (id, { rating, feedback }) => {
+    if (currentUser?.isDemoMode) {
+      setHistoryList((prev) => {
+        const updated = prev.map((item) => (item._id === id ? { ...item, rating, feedback } : item));
+        try {
+          localStorage.setItem('learnwithfun_demo_history_' + (currentUser.email || 'guest'), JSON.stringify(updated));
+        } catch {
+          // ignore
+        }
+        return updated;
+      });
+      sound.playSnapChime();
+      return { success: true };
+    }
+
     try {
       const data = await historyFetch(`/${id}`, {
         method: 'PATCH',
@@ -392,13 +539,30 @@ export function AuthProvider({ children }) {
       }
       throw new Error(data.message || 'Failed to update entry');
     } catch (err) {
-      console.error('Error updating history entry:', err);
-      return { success: false, error: err.message };
+      console.warn('Fallback updating local history entry:', err.message);
+      setHistoryList((prev) =>
+        prev.map((item) => (item._id === id ? { ...item, rating, feedback } : item))
+      );
+      return { success: true };
     }
   };
 
   // Delete research history entry
   const deleteHistoryEntry = async (id) => {
+    if (currentUser?.isDemoMode) {
+      setHistoryList((prev) => {
+        const updated = prev.filter((item) => item._id !== id);
+        try {
+          localStorage.setItem('learnwithfun_demo_history_' + (currentUser.email || 'guest'), JSON.stringify(updated));
+        } catch {
+          // ignore
+        }
+        return updated;
+      });
+      sound.playPillClick();
+      return { success: true };
+    }
+
     try {
       const data = await historyFetch(`/${id}`, {
         method: 'DELETE',
@@ -412,8 +576,9 @@ export function AuthProvider({ children }) {
       }
       throw new Error(data.message || 'Failed to delete entry');
     } catch (err) {
-      console.error('Error deleting history entry:', err);
-      return { success: false, error: err.message };
+      console.warn('Fallback deleting local history entry:', err.message);
+      setHistoryList((prev) => prev.filter((item) => item._id !== id));
+      return { success: true };
     }
   };
 

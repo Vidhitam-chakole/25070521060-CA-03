@@ -33,8 +33,6 @@ export function UserProfileModal({ onPracticeTopic }) {
   } = useAuth();
 
   const [activeTab, setActiveTab] = useState(profileInitialTab || 'history');
-  const [searchQuery, setSearchQuery] = useState('');
-  const [sourceFilter, setSourceFilter] = useState('all'); // 'all' | 'manual' | 'random'
   const [ratingFilter, setRatingFilter] = useState('all'); // 'all' | '5' | '4' | '3' | '2' | '1'
 
   // Nickname editing state in profile
@@ -51,26 +49,11 @@ export function UserProfileModal({ onPracticeTopic }) {
   const userEmail = currentUser?.email || (isGuest ? 'Guest session (unregistered)' : 'scholar@learnwithfun.edu');
   const initial = displayName.charAt(0).toUpperCase();
 
-  // Filter history entries locally for instantaneous UI response
+  // Filter history entries locally by rating for instantaneous UI response
   const filteredHistory = historyList.filter((item) => {
-    // Source filter
-    if (sourceFilter === 'manual' && item.source !== 'manual') return false;
-    if (sourceFilter === 'random' && item.source !== 'random') return false;
-
-    // Rating filter
     if (ratingFilter !== 'all' && item.rating !== parseInt(ratingFilter, 10)) {
       return false;
     }
-
-    // Search query
-    if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase().trim();
-      const topicMatch = item.topic?.toLowerCase().includes(q);
-      const feedbackMatch = item.feedback?.toLowerCase().includes(q);
-      const catMatch = item.category?.toLowerCase().includes(q);
-      if (!topicMatch && !feedbackMatch && !catMatch) return false;
-    }
-
     return true;
   });
 
@@ -330,7 +313,7 @@ export function UserProfileModal({ onPracticeTopic }) {
                 <div
                   style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
                     gap: '12px',
                     marginBottom: '20px',
                   }}
@@ -421,235 +404,77 @@ export function UserProfileModal({ onPracticeTopic }) {
                       Out of 5 Stars
                     </div>
                   </div>
-
-                  <div
-                    style={{
-                      backgroundColor: '#FFFFFF',
-                      border: '2px solid #1E4D3B',
-                      boxShadow: '3px 3px 0px #1E4D3B',
-                      padding: '12px',
-                      textAlign: 'center',
-                    }}
-                  >
-                    <div
-                      style={{
-                        fontFamily: "'Press Start 2P', monospace",
-                        fontSize: '8px',
-                        color: '#658274',
-                        marginBottom: '6px',
-                        textTransform: 'uppercase',
-                      }}
-                    >
-                      MANUAL SEARCHES
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "'Press Start 2P', monospace",
-                        fontSize: '20px',
-                        color: '#92400E',
-                      }}
-                    >
-                      {historyStats.manualCount || historyList.filter((h) => h.source === 'manual').length}
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "'Pixelify Sans', monospace",
-                        fontSize: '12px',
-                        color: '#78350F',
-                        marginTop: '2px',
-                      }}
-                    >
-                      Keyword Searched
-                    </div>
-                  </div>
-
-                  <div
-                    style={{
-                      backgroundColor: '#FFFFFF',
-                      border: '2px solid #1E4D3B',
-                      boxShadow: '3px 3px 0px #1E4D3B',
-                      padding: '12px',
-                      textAlign: 'center',
-                    }}
-                  >
-                    <div
-                      style={{
-                        fontFamily: "'Press Start 2P', monospace",
-                        fontSize: '8px',
-                        color: '#658274',
-                        marginBottom: '6px',
-                        textTransform: 'uppercase',
-                      }}
-                    >
-                      RANDOM TOPICS
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "'Press Start 2P', monospace",
-                        fontSize: '20px',
-                        color: '#5B21B6',
-                      }}
-                    >
-                      {historyStats.randomCount || historyList.filter((h) => h.source === 'random').length}
-                    </div>
-                    <div
-                      style={{
-                        fontFamily: "'Pixelify Sans', monospace",
-                        fontSize: '12px',
-                        color: '#4C1D95',
-                        marginTop: '2px',
-                      }}
-                    >
-                      Reel & Generator
-                    </div>
-                  </div>
                 </div>
 
-                {/* 2. Search & Filters Bar */}
+                {/* 2. Rating Filter Bar */}
                 <div
                   style={{
                     backgroundColor: '#EDE8DB',
                     border: '2px solid #1E4D3B',
-                    padding: '12px 14px',
+                    padding: '10px 14px',
                     marginBottom: '18px',
                     display: 'flex',
-                    flexDirection: 'column',
-                    gap: '10px',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    flexWrap: 'wrap',
+                    gap: '8px',
                   }}
                 >
-                  {/* Keyword Search */}
-                  <div style={{ position: 'relative', width: '100%' }}>
-                    <Search
-                      size={16}
-                      color="#556B5D"
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+                    <span
                       style={{
-                        position: 'absolute',
-                        left: '12px',
-                        top: '50%',
-                        transform: 'translateY(-50%)',
+                        fontFamily: "'Press Start 2P', monospace",
+                        fontSize: '8px',
+                        color: '#556B5D',
                       }}
-                    />
-                    <input
-                      type="text"
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      placeholder="Search previous topics, categories, or reflection notes..."
-                      style={{
-                        width: '100%',
-                        padding: '8px 12px 8px 36px',
-                        fontFamily: "'Pixelify Sans', monospace",
-                        fontSize: '14px',
-                        color: '#1E4D3B',
-                        backgroundColor: '#FFFFFF',
-                        border: '2px solid #1E4D3B',
-                        outline: 'none',
-                        boxSizing: 'border-box',
-                      }}
-                    />
-                    {searchQuery && (
+                    >
+                      RATING:
+                    </span>
+                    {['all', '5', '4', '3', '2', '1'].map((r) => (
                       <button
+                        key={r}
                         type="button"
-                        onClick={() => setSearchQuery('')}
+                        onClick={() => {
+                          sound.playPillClick();
+                          setRatingFilter(r);
+                        }}
                         style={{
-                          position: 'absolute',
-                          right: '10px',
-                          top: '50%',
-                          transform: 'translateY(-50%)',
-                          background: 'none',
-                          border: 'none',
+                          padding: '4px 10px',
+                          fontFamily: "'Pixelify Sans', monospace",
+                          fontSize: '12px',
+                          fontWeight: 700,
+                          backgroundColor: ratingFilter === r ? '#E8A857' : '#FFFFFF',
+                          color: ratingFilter === r ? '#451A03' : '#1E4D3B',
+                          border: '1.5px solid #1E4D3B',
                           cursor: 'pointer',
-                          color: '#556B5D',
                         }}
                       >
-                        <X size={14} />
+                        {r === 'all' ? 'All' : `${r}★`}
                       </button>
-                    )}
+                    ))}
                   </div>
 
-                  {/* Filter Pills */}
-                  <div
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      flexWrap: 'wrap',
-                      gap: '8px',
-                    }}
-                  >
-                    {/* Source selector */}
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
-                      <span
-                        style={{
-                          fontFamily: "'Press Start 2P', monospace",
-                          fontSize: '8px',
-                          color: '#556B5D',
-                        }}
-                      >
-                        SOURCE:
-                      </span>
-                      {[
-                        { id: 'all', label: 'All' },
-                        { id: 'manual', label: 'Manual' },
-                        { id: 'random', label: 'Random' },
-                      ].map((s) => (
-                        <button
-                          key={s.id}
-                          type="button"
-                          onClick={() => {
-                            sound.playPillClick();
-                            setSourceFilter(s.id);
-                          }}
-                          style={{
-                            padding: '4px 8px',
-                            fontFamily: "'Pixelify Sans', monospace",
-                            fontSize: '12px',
-                            fontWeight: 700,
-                            backgroundColor: sourceFilter === s.id ? '#1E4D3B' : '#FFFFFF',
-                            color: sourceFilter === s.id ? '#F9F6EC' : '#1E4D3B',
-                            border: '1.5px solid #1E4D3B',
-                            cursor: 'pointer',
-                          }}
-                        >
-                          {s.label}
-                        </button>
-                      ))}
-                    </div>
-
-                    {/* Rating selector */}
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
-                      <span
-                        style={{
-                          fontFamily: "'Press Start 2P', monospace",
-                          fontSize: '8px',
-                          color: '#556B5D',
-                        }}
-                      >
-                        RATING:
-                      </span>
-                      {['all', '5', '4', '3', '2', '1'].map((r) => (
-                        <button
-                          key={r}
-                          type="button"
-                          onClick={() => {
-                            sound.playPillClick();
-                            setRatingFilter(r);
-                          }}
-                          style={{
-                            padding: '3px 7px',
-                            fontFamily: "'Pixelify Sans', monospace",
-                            fontSize: '12px',
-                            fontWeight: 700,
-                            backgroundColor: ratingFilter === r ? '#E8A857' : '#FFFFFF',
-                            color: ratingFilter === r ? '#451A03' : '#1E4D3B',
-                            border: '1.5px solid #1E4D3B',
-                            cursor: 'pointer',
-                          }}
-                        >
-                          {r === 'all' ? 'All' : `${r}★`}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
+                  {ratingFilter !== 'all' && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        sound.playPillClick();
+                        setRatingFilter('all');
+                      }}
+                      style={{
+                        background: 'none',
+                        border: 'none',
+                        color: '#C84B31',
+                        fontFamily: "'Pixelify Sans', monospace",
+                        fontSize: '11px',
+                        cursor: 'pointer',
+                        fontWeight: 700,
+                        textDecoration: 'underline',
+                      }}
+                    >
+                      Reset filter
+                    </button>
+                  )}
                 </div>
 
                 {/* 3. History Entries List */}
@@ -695,15 +520,14 @@ export function UserProfileModal({ onPracticeTopic }) {
                       }}
                     >
                       {historyList.length === 0
-                        ? 'Whenever you complete a research session, spin the topic reel, or search discussion topics, rate them 1-5 stars and they will be securely stored in your private MongoDB profile history!'
-                        : 'Try adjusting your search keyword or source filter above to see other entries.'}
+                        ? 'Whenever you complete a research session, spin the topic reel, or practice discussion topics, rate them 1-5 stars and they will be securely stored in your private MongoDB profile history!'
+                        : 'Try adjusting your rating filter above to see other entries.'}
                     </p>
                     {historyList.length > 0 && (
                       <button
                         type="button"
                         onClick={() => {
-                          setSearchQuery('');
-                          setSourceFilter('all');
+                          sound.playPillClick();
                           setRatingFilter('all');
                         }}
                         style={{
@@ -716,7 +540,7 @@ export function UserProfileModal({ onPracticeTopic }) {
                           cursor: 'pointer',
                         }}
                       >
-                        RESET FILTERS
+                        RESET RATING FILTER
                       </button>
                     )}
                   </div>

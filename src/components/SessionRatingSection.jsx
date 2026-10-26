@@ -20,6 +20,8 @@ export function SessionRatingSection({
   topicType = 'manual-search',
   category = 'General',
   durationSeconds = 60,
+  compact = false,
+  showTopicSnippet = true,
   onSaved,
   onViewHistory,
 }) {
@@ -111,14 +113,15 @@ export function SessionRatingSection({
       style={{
         backgroundColor: '#FFFFFF',
         border: '2px solid #1E4D3B',
-        boxShadow: '4px 4px 0px #1E4D3B',
+        boxShadow: compact ? '3px 3px 0px #1E4D3B' : '4px 4px 0px #1E4D3B',
         borderRadius: '0px',
-        padding: '20px 22px',
+        padding: compact ? '10px 14px' : '18px 20px',
         width: '100%',
-        maxWidth: '560px',
-        margin: '18px auto 0 auto',
+        maxWidth: compact ? '460px' : '560px',
+        margin: compact ? '0' : '16px auto 0 auto',
         textAlign: 'left',
         position: 'relative',
+        boxSizing: 'border-box',
       }}
     >
       <AnimatePresence mode="wait">
@@ -262,8 +265,8 @@ export function SessionRatingSection({
                 justifyContent: 'space-between',
                 flexWrap: 'wrap',
                 gap: '8px',
-                marginBottom: '10px',
-                paddingBottom: '10px',
+                marginBottom: compact ? '6px' : '10px',
+                paddingBottom: compact ? '6px' : '10px',
                 borderBottom: '1.5px dashed #DFDACB',
               }}
             >
@@ -272,7 +275,7 @@ export function SessionRatingSection({
                 <span
                   style={{
                     fontFamily: "'Press Start 2P', monospace",
-                    fontSize: '10px',
+                    fontSize: compact ? '9px' : '10px',
                     color: '#1E4D3B',
                     letterSpacing: '0.04em',
                   }}
@@ -285,9 +288,9 @@ export function SessionRatingSection({
               <span
                 style={{
                   fontFamily: "'Pixelify Sans', monospace",
-                  fontSize: '12px',
+                  fontSize: compact ? '11px' : '12px',
                   fontWeight: 700,
-                  padding: '2px 8px',
+                  padding: compact ? '1px 6px' : '2px 8px',
                   border: '1px solid #1E4D3B',
                   backgroundColor: source === 'random' ? '#EDE9FE' : '#FEF3C7',
                   color: source === 'random' ? '#5B21B6' : '#92400E',
@@ -299,28 +302,30 @@ export function SessionRatingSection({
             </div>
 
             {/* Topic preview snippet */}
-            <div
-              style={{
-                fontFamily: "'Pixelify Sans', monospace",
-                fontSize: '14.5px',
-                fontWeight: 600,
-                color: '#1E4D3B',
-                lineHeight: '1.35',
-                marginBottom: '14px',
-              }}
-            >
-              “{topic}”
-            </div>
+            {showTopicSnippet && topic && (
+              <div
+                style={{
+                  fontFamily: "'Pixelify Sans', monospace",
+                  fontSize: compact ? '13px' : '14.5px',
+                  fontWeight: 600,
+                  color: '#1E4D3B',
+                  lineHeight: '1.3',
+                  marginBottom: compact ? '6px' : '12px',
+                }}
+              >
+                “{topic}”
+              </div>
+            )}
 
             {/* Star Rating Selector */}
-            <div style={{ marginBottom: '16px' }}>
+            <div style={{ marginBottom: compact ? '6px' : '14px' }}>
               <label
                 style={{
                   display: 'block',
                   fontFamily: "'Press Start 2P', monospace",
-                  fontSize: '8.5px',
+                  fontSize: compact ? '7px' : '8.5px',
                   color: '#658274',
-                  marginBottom: '8px',
+                  marginBottom: compact ? '3px' : '6px',
                 }}
               >
                 SATISFACTION RATING (1-5 STARS):
@@ -330,7 +335,7 @@ export function SessionRatingSection({
                 style={{
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '8px',
+                  gap: compact ? '4px' : '8px',
                   flexWrap: 'wrap',
                 }}
                 onMouseLeave={() => setHoverRating(0)}
@@ -349,7 +354,7 @@ export function SessionRatingSection({
                         background: 'transparent',
                         border: 'none',
                         cursor: 'pointer',
-                        padding: '4px',
+                        padding: compact ? '2px' : '4px',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
@@ -357,7 +362,7 @@ export function SessionRatingSection({
                       title={`${starVal} star${starVal > 1 ? 's' : ''}`}
                     >
                       <Star
-                        size={28}
+                        size={compact ? 22 : 28}
                         fill={isFilled ? '#E8A857' : '#FFFFFF'}
                         color={isFilled ? '#B45309' : '#A4B5AC'}
                         strokeWidth={2}
@@ -374,7 +379,7 @@ export function SessionRatingSection({
                   style={{
                     marginLeft: '8px',
                     fontFamily: "'Pixelify Sans', monospace",
-                    fontSize: '14px',
+                    fontSize: compact ? '12.5px' : '14px',
                     fontWeight: 700,
                     color: currentDisplayRating >= 4 ? '#166534' : currentDisplayRating >= 3 ? '#92400E' : '#B91C1C',
                   }}
@@ -385,19 +390,19 @@ export function SessionRatingSection({
             </div>
 
             {/* Feedback / Notes input */}
-            <div style={{ marginBottom: '16px' }}>
+            <div style={{ marginBottom: compact ? '8px' : '14px' }}>
               <label
                 style={{
                   display: 'flex',
                   alignItems: 'center',
                   gap: '6px',
                   fontFamily: "'Press Start 2P', monospace",
-                  fontSize: '8.5px',
+                  fontSize: compact ? '7px' : '8.5px',
                   color: '#658274',
-                  marginBottom: '6px',
+                  marginBottom: compact ? '3px' : '6px',
                 }}
               >
-                <MessageSquare size={12} />
+                <MessageSquare size={compact ? 10 : 12} />
                 <span>FEEDBACK & REFLECTION NOTES (OPTIONAL):</span>
               </label>
 
@@ -405,13 +410,13 @@ export function SessionRatingSection({
                 value={feedback}
                 onChange={(e) => setFeedback(e.target.value)}
                 placeholder="What did you learn or articulate during this research session? Any insights or key points..."
-                rows={2}
+                rows={compact ? 2 : 2}
                 maxLength={400}
                 style={{
                   width: '100%',
-                  padding: '9px 12px',
+                  padding: compact ? '6px 10px' : '9px 12px',
                   fontFamily: "'Pixelify Sans', monospace",
-                  fontSize: '14px',
+                  fontSize: compact ? '13px' : '14px',
                   color: '#1E4D3B',
                   backgroundColor: '#FAF8F0',
                   border: '2px solid #1E4D3B',
@@ -431,7 +436,7 @@ export function SessionRatingSection({
                   backgroundColor: '#FEE2E2',
                   padding: '6px 10px',
                   border: '1px solid #F87171',
-                  marginBottom: '12px',
+                  marginBottom: '10px',
                 }}
               >
                 {errorMsg}
@@ -442,15 +447,15 @@ export function SessionRatingSection({
               <div
                 style={{
                   fontFamily: "'Pixelify Sans', monospace",
-                  fontSize: '12px',
+                  fontSize: compact ? '11px' : '12px',
                   color: '#854D0E',
                   backgroundColor: '#FEF9C3',
-                  padding: '6px 10px',
+                  padding: compact ? '4px 8px' : '6px 10px',
                   border: '1px solid #FDE047',
-                  marginBottom: '12px',
+                  marginBottom: '10px',
                 }}
               >
-                ℹ️ You are in Guest mode. Sign in to permanently save your research history to your MongoDB account across devices.
+                ℹ️ You are in Guest mode. Sign in to permanently save your research history to MongoDB.
               </div>
             )}
 
@@ -467,8 +472,8 @@ export function SessionRatingSection({
                   backgroundColor: '#1E4D3B',
                   color: '#F9F6EC',
                   fontFamily: "'Press Start 2P', monospace",
-                  fontSize: '10px',
-                  padding: '11px 16px',
+                  fontSize: compact ? '9px' : '10px',
+                  padding: compact ? '9px 14px' : '11px 16px',
                   border: '2px solid #0E3B33',
                   boxShadow: '3px 3px 0px #0E3B33',
                   cursor: isSubmitting ? 'wait' : 'pointer',

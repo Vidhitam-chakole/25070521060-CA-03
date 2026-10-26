@@ -24,6 +24,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
     setFacing,
     isMenuOpen,
     setIsMenuOpen,
+    currentTargetKey,
   } = useMascot();
 
   const [pupilOffset, setPupilOffset] = useState({ x: 0, y: 0 });
@@ -58,13 +59,15 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
         top: 105,
         bottom: Math.max(260, h - 170),
       });
-      setFacing(1); // Always face toward screen content
+      if (!currentTargetKey) {
+        setFacing(1); // Always face toward screen content when not locked to a specific target
+      }
     };
 
     handleResize();
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, [setFacing]);
+  }, [setFacing, currentTargetKey]);
 
   // Cursor Proximity & Eye Tracking
   // When cursor gets close (< 145px), mascot automatically slows down & stabilizes so it's easy to click
@@ -141,12 +144,18 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
 
   if (!isVisible) return null;
 
+  const hasCustomTarget = Boolean(currentTargetKey);
+  const activeX = hasCustomTarget ? position.x : leftX;
+  const activeY = hasCustomTarget
+    ? position.y
+    : (stabilizedY || position.y || verticalBounds.top + 70);
+
   // Determine if vertical motion should freeze/stabilize
   const isFrozen = isAsleep || stayPut || isStabilized || isMenuOpen;
 
   return (
     <>
-      {/* Mascot Container: Anchored on the leftmost side */}
+      {/* Mascot Container: Anchored on the leftmost side, or flies to target element */}
       <motion.div
         ref={mascotRef}
         drag
@@ -157,10 +166,17 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
         }}
         onDragEnd={(e, info) => {
           setIsDragging(false);
-          setPosition((prev) => ({
-            x: leftX,
-            y: Math.max(verticalBounds.top, Math.min(verticalBounds.bottom, prev.y + info.offset.y)),
-          }));
+          if (hasCustomTarget) {
+            setPosition((prev) => ({
+              x: Math.max(10, Math.min(window.innerWidth - 110, prev.x + info.offset.x)),
+              y: Math.max(50, Math.min(window.innerHeight - 110, prev.y + info.offset.y)),
+            }));
+          } else {
+            setPosition((prev) => ({
+              x: leftX,
+              y: Math.max(verticalBounds.top, Math.min(verticalBounds.bottom, prev.y + info.offset.y)),
+            }));
+          }
         }}
         onMouseEnter={() => {
           clearTimeout(proximityTimerRef.current);
@@ -182,8 +198,13 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
             ? undefined
             : isFrozen
             ? {
-                x: leftX,
-                y: stabilizedY || position.y || verticalBounds.top + 70,
+                x: activeX,
+                y: activeY,
+              }
+            : hasCustomTarget
+            ? {
+                x: activeX,
+                y: [activeY - 4, activeY + 4, activeY - 4],
               }
             : {
                 x: leftX,
@@ -191,7 +212,14 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
               }
         }
         transition={
-          isFrozen
+          hasCustomTarget
+            ? {
+                x: { type: 'spring', stiffness: 75, damping: 15 },
+                y: isFrozen
+                  ? { type: 'spring', stiffness: 75, damping: 15 }
+                  : { duration: 2.2, repeat: Infinity, ease: 'easeInOut' },
+              }
+            : isFrozen
             ? {
                 type: 'spring',
                 stiffness: 80,
@@ -317,7 +345,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
               fill="#E3A857"
               stroke="#0E3B33"
               strokeWidth="2.5"
-              transform={mood === 'pointing' ? 'rotate(-25 0 52)' : 'none'}
+              transform={mood === 'pointing' ? 'rotate(-25 0 52)' : undefined}
             />
             {/* Right Arm */}
             <ellipse
@@ -558,6 +586,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
             <MascotBubble
               bubble={bubble}
               facing={facing}
+              positionX={activeX}
               onClose={dismissBubble}
             />
           )}

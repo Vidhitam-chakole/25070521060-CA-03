@@ -7,11 +7,13 @@ import {
   ArrowRight,
   ChevronLeft,
   ChevronRight,
+  ChevronDown,
+  ChevronUp,
   X,
   RotateCcw,
-  Download,
   Sparkles,
   Star,
+  Filter,
 } from 'lucide-react';
 import { SessionRatingSection } from './SessionRatingSection';
 import { sound } from '../utils/audio';
@@ -58,6 +60,7 @@ export function DebateHub({ onSelectTopicForPractice }) {
   const [debouncedQuery, setDebouncedQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedSort, setSelectedSort] = useState('popular');
+  const [isFilterExpanded, setIsFilterExpanded] = useState(false);
   const [page, setPage] = useState(1);
   const limit = 6;
 
@@ -152,19 +155,26 @@ export function DebateHub({ onSelectTopicForPractice }) {
 
   // Fetch full transcript when modal opens
   const handleOpenTranscript = async (topic) => {
-    sound.playClick();
+    try {
+      if (sound.playAnalysisOpen) sound.playAnalysisOpen();
+      else if (sound.playButtonClick) sound.playButtonClick();
+    } catch {
+      // safe audio
+    }
     setActiveTranscriptTopic(topic);
     setSelectedSessionIndex(0);
     setShowModalRating(false);
     setIsTranscriptLoading(true);
     try {
-      const data = await debateFetch(`/${topic.topicId || topic._id}`);
-      if (data.success && data.topic) {
+      const topicIdParam = topic.topicId || topic._id;
+      const data = await debateFetch(`/${encodeURIComponent(topicIdParam)}`);
+      if (data && data.success && data.topic) {
         setTranscriptData(data.topic);
       } else {
         setTranscriptData(topic);
       }
-    } catch {
+    } catch (err) {
+      console.warn('Transcript fetch fallback to preview:', err);
       setTranscriptData(topic);
     } finally {
       setIsTranscriptLoading(false);
@@ -172,7 +182,12 @@ export function DebateHub({ onSelectTopicForPractice }) {
   };
 
   const handleCloseTranscript = () => {
-    sound.playClick();
+    try {
+      if (sound.playModalClose) sound.playModalClose();
+      else if (sound.playButtonClick) sound.playButtonClick();
+    } catch {
+      // safe audio
+    }
     setActiveTranscriptTopic(null);
     setTranscriptData(null);
     setShowModalRating(false);
@@ -180,7 +195,11 @@ export function DebateHub({ onSelectTopicForPractice }) {
 
   // Pick a random topic for practice
   const handleRandomPractice = async () => {
-    sound.playSnapChime();
+    try {
+      sound.playSnapChime?.();
+    } catch {
+      // safe audio
+    }
     try {
       const data = await debateFetch('/random');
       if (data.success && data.topic && onSelectTopicForPractice) {
@@ -189,33 +208,6 @@ export function DebateHub({ onSelectTopicForPractice }) {
     } catch (err) {
       console.error('Error picking random topic:', err);
     }
-  };
-
-  // Export current search results as downloadable JSON dataset
-  const handleDownloadDataset = () => {
-    sound.playSnapChime();
-    const exportPayload = {
-      dataset: 'debatellm/DEBATE',
-      database: 'learnwithfun',
-      collection: 'discussion_topics',
-      license: 'DEBATE Dataset Research-Only License (v1.0)',
-      exportedAt: new Date().toISOString(),
-      filter: { query: debouncedQuery, category: selectedCategory },
-      totalResults: pagination.total,
-      topics,
-    };
-
-    const blob = new Blob([JSON.stringify(exportPayload, null, 2)], {
-      type: 'application/json',
-    });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `debate_dataset_${selectedCategory.toLowerCase().replace(/[^a-z0-9]/g, '_')}.json`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
   };
 
   const handleResetFilters = () => {
@@ -299,41 +291,19 @@ export function DebateHub({ onSelectTopicForPractice }) {
             <Sparkles size={13} color="#E8A857" />
             Random Topic
           </button>
-
-          <button
-            onClick={handleDownloadDataset}
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '6px',
-              backgroundColor: '#FFFFFF',
-              border: '2px solid #1E4D3B',
-              padding: '7px 12px',
-              fontFamily: "'Pixelify Sans', sans-serif",
-              fontWeight: 700,
-              fontSize: '12px',
-              color: '#1E4D3B',
-              cursor: 'pointer',
-              boxShadow: '2px 2px 0px #1E4D3B',
-            }}
-            title="Download dataset as JSON"
-          >
-            <Download size={13} />
-            Export JSON
-          </button>
         </div>
       </div>
 
-      {/* 2. Clean, Single-Row Search & Category Filters */}
+      {/* 2. Search & Expandable Filters Section */}
       <div
         style={{
           display: 'flex',
           flexDirection: 'column',
-          gap: '10px',
-          marginBottom: '20px',
+          gap: '8px',
+          marginBottom: '18px',
         }}
       >
-        {/* Search Bar + Sort */}
+        {/* Search Bar + Sort + Filter Toggle Button + Reset */}
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
           <div
             style={{
@@ -369,6 +339,7 @@ export function DebateHub({ onSelectTopicForPractice }) {
             />
             {searchQuery && (
               <button
+                type="button"
                 onClick={() => setSearchQuery('')}
                 style={{
                   position: 'absolute',
@@ -378,6 +349,7 @@ export function DebateHub({ onSelectTopicForPractice }) {
                   cursor: 'pointer',
                   padding: '4px',
                 }}
+                title="Clear search"
               >
                 <X size={15} color="#1E4D3B" />
               </button>
@@ -401,6 +373,7 @@ export function DebateHub({ onSelectTopicForPractice }) {
               color: '#1E4D3B',
               outline: 'none',
               cursor: 'pointer',
+              boxShadow: '2px 2px 0px #1E4D3B',
             }}
           >
             <option value="popular">Most Turns</option>
@@ -408,23 +381,74 @@ export function DebateHub({ onSelectTopicForPractice }) {
             <option value="newest">Recent</option>
           </select>
 
+          {/* Expandable Filter Toggle Button */}
+          <button
+            type="button"
+            onClick={() => {
+              try {
+                if (sound.playAccordionToggle) sound.playAccordionToggle(!isFilterExpanded);
+                else sound.playButtonClick?.();
+              } catch {
+                // safe audio
+              }
+              setIsFilterExpanded((prev) => !prev);
+            }}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              backgroundColor: isFilterExpanded || selectedCategory !== 'All' ? '#1E4D3B' : '#FFFFFF',
+              color: isFilterExpanded || selectedCategory !== 'All' ? '#FFFFFF' : '#1E4D3B',
+              border: '2px solid #1E4D3B',
+              padding: '9px 14px',
+              fontFamily: "'Pixelify Sans', sans-serif",
+              fontWeight: 700,
+              fontSize: '13px',
+              cursor: 'pointer',
+              boxShadow: '2px 2px 0px #1E4D3B',
+              transition: 'all 0.15s ease',
+            }}
+            title={isFilterExpanded ? 'Collapse category filters' : 'Expand category filters'}
+          >
+            <Filter size={14} color={isFilterExpanded || selectedCategory !== 'All' ? '#FFFFFF' : '#1E4D3B'} />
+            <span>Filters</span>
+            {selectedCategory !== 'All' && (
+              <span
+                style={{
+                  backgroundColor: '#E8A857',
+                  color: '#1E4D3B',
+                  fontSize: '10px',
+                  fontWeight: 800,
+                  padding: '1px 5px',
+                  borderRadius: '2px',
+                }}
+              >
+                1
+              </span>
+            )}
+            {isFilterExpanded ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+          </button>
+
           {/* Clear Reset button if active */}
           {(searchQuery || selectedCategory !== 'All') && (
             <button
+              type="button"
               onClick={handleResetFilters}
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '4px',
                 backgroundColor: '#FFF0EE',
-                border: '1px solid #C84B31',
+                border: '2px solid #C84B31',
                 padding: '9px 12px',
                 fontFamily: "'Pixelify Sans', sans-serif",
                 fontWeight: 700,
                 fontSize: '12px',
                 color: '#C84B31',
                 cursor: 'pointer',
+                boxShadow: '2px 2px 0px #C84B31',
               }}
+              title="Reset search and filters"
             >
               <RotateCcw size={12} />
               Reset
@@ -432,46 +456,172 @@ export function DebateHub({ onSelectTopicForPractice }) {
           )}
         </div>
 
-        {/* Minimal Category Chips */}
-        <div
-          className="no-scrollbar"
-          style={{
-            display: 'flex',
-            gap: '6px',
-            overflowX: 'auto',
-            paddingBottom: '4px',
-            scrollbarWidth: 'none',
-          }}
-        >
-          {CATEGORIES.map((cat) => {
-            const isSelected = selectedCategory === cat;
-            return (
+        {/* Expandable Category Drawer */}
+        <AnimatePresence>
+          {isFilterExpanded && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: 'auto', opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              style={{
+                overflow: 'hidden',
+                backgroundColor: '#FFFFFF',
+                border: '2px solid #1E4D3B',
+                boxShadow: '3px 3px 0px #1E4D3B',
+                padding: '12px 14px',
+                marginTop: '4px',
+              }}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  marginBottom: '10px',
+                  paddingBottom: '8px',
+                  borderBottom: '1px dashed #E2DCCF',
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <Filter size={13} color="#1E4D3B" />
+                  <span
+                    style={{
+                      fontFamily: "'Pixelify Sans', sans-serif",
+                      fontWeight: 700,
+                      fontSize: '12px',
+                      color: '#1E4D3B',
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.5px',
+                    }}
+                  >
+                    Select Category
+                  </span>
+                </div>
+                {selectedCategory !== 'All' && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      sound.playPillClick?.();
+                      setSelectedCategory('All');
+                      setPage(1);
+                    }}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      color: '#C84B31',
+                      fontFamily: "'Pixelify Sans', sans-serif",
+                      fontSize: '11px',
+                      cursor: 'pointer',
+                      fontWeight: 700,
+                      textDecoration: 'underline',
+                      padding: 0,
+                    }}
+                  >
+                    Clear selection
+                  </button>
+                )}
+              </div>
+
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  gap: '8px',
+                }}
+              >
+                {CATEGORIES.map((cat) => {
+                  const isSelected = selectedCategory === cat;
+                  return (
+                    <button
+                      key={cat}
+                      type="button"
+                      onClick={() => {
+                        sound.playPillClick?.();
+                        setSelectedCategory(cat);
+                        setPage(1);
+                      }}
+                      style={{
+                        padding: '6px 14px',
+                        backgroundColor: isSelected ? '#1E4D3B' : '#FBF9F3',
+                        color: isSelected ? '#FFFFFF' : '#1E4D3B',
+                        border: isSelected ? '2px solid #1E4D3B' : '1px solid #C5BFB2',
+                        borderRadius: '0px',
+                        fontFamily: "'Pixelify Sans', sans-serif",
+                        fontWeight: isSelected ? 700 : 500,
+                        fontSize: '12px',
+                        cursor: 'pointer',
+                        boxShadow: isSelected ? '2px 2px 0px #0E3B33' : 'none',
+                        transition: 'all 0.1s ease',
+                      }}
+                    >
+                      {cat}
+                    </button>
+                  );
+                })}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Active Filter Indicator Tag when collapsed */}
+        {!isFilterExpanded && selectedCategory !== 'All' && (
+          <div
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              alignSelf: 'flex-start',
+              marginTop: '2px',
+            }}
+          >
+            <span
+              style={{
+                fontSize: '11px',
+                fontFamily: "'Pixelify Sans', sans-serif",
+                color: '#556B5D',
+              }}
+            >
+              Active filter:
+            </span>
+            <span
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '5px',
+                backgroundColor: '#EDE8DB',
+                border: '1px solid #1E4D3B',
+                padding: '2px 8px',
+                fontSize: '11px',
+                fontFamily: "'Pixelify Sans', sans-serif",
+                color: '#1E4D3B',
+                fontWeight: 700,
+              }}
+            >
+              {selectedCategory}
               <button
-                key={cat}
+                type="button"
                 onClick={() => {
-                  sound.playPillClick();
-                  setSelectedCategory(cat);
+                  sound.playPillClick?.();
+                  setSelectedCategory('All');
                   setPage(1);
                 }}
                 style={{
-                  padding: '5px 12px',
-                  backgroundColor: isSelected ? '#1E4D3B' : '#FFFFFF',
-                  color: isSelected ? '#FFFFFF' : '#1E4D3B',
-                  border: isSelected ? '2px solid #1E4D3B' : '1px solid #C5BFB2',
-                  borderRadius: '0px',
-                  fontFamily: "'Pixelify Sans', sans-serif",
-                  fontWeight: isSelected ? 700 : 500,
-                  fontSize: '12px',
+                  background: 'none',
+                  border: 'none',
+                  padding: 0,
+                  display: 'flex',
+                  alignItems: 'center',
                   cursor: 'pointer',
-                  whiteSpace: 'nowrap',
-                  transition: 'all 0.1s ease',
+                  color: '#1E4D3B',
                 }}
+                title="Remove filter"
               >
-                {cat}
+                <X size={12} />
               </button>
-            );
-          })}
-        </div>
+            </span>
+          </div>
+        )}
       </div>
 
       {/* 3. Status Bar */}
@@ -981,6 +1131,66 @@ export function DebateHub({ onSelectTopicForPractice }) {
                         const turns = currentSession?.turns || [];
 
                         if (turns.length === 0) {
+                          const hasOpinions = transcriptData?.initialOpinions && transcriptData.initialOpinions.length > 0;
+                          const hasExcerpts = transcriptData?.sampleExcerpts && transcriptData.sampleExcerpts.length > 0;
+
+                          if (hasOpinions || hasExcerpts) {
+                            return (
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                {hasOpinions && (
+                                  <div>
+                                    <div style={{ fontSize: '12px', fontWeight: 700, color: '#1E4D3B', marginBottom: '6px', fontFamily: "'Pixelify Sans', sans-serif" }}>
+                                      Debater Stances & Initial Opinions:
+                                    </div>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                                      {transcriptData.initialOpinions.map((op, oIdx) => (
+                                        <div
+                                          key={oIdx}
+                                          style={{
+                                            backgroundColor: '#FFFFFF',
+                                            border: '1px solid #1E4D3B',
+                                            padding: '8px 12px',
+                                            fontSize: '12px',
+                                            fontFamily: "'Pixelify Sans', sans-serif",
+                                          }}
+                                        >
+                                          <div style={{ fontWeight: 700, color: op.stance === 'Support' ? '#1E4D3B' : op.stance === 'Oppose' ? '#C84B31' : '#556B5D', marginBottom: '3px' }}>
+                                            Stance: {op.stance || 'Debater Opinion'} {op.sliderValue != null ? `(Score: ${op.sliderValue})` : ''}
+                                          </div>
+                                          <div>{op.text}</div>
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </div>
+                                )}
+                                {hasExcerpts && (
+                                  <div>
+                                    <div style={{ fontSize: '12px', fontWeight: 700, color: '#1E4D3B', marginBottom: '6px', fontFamily: "'Pixelify Sans', sans-serif" }}>
+                                      Sample Arguments & Excerpts:
+                                    </div>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                                      {transcriptData.sampleExcerpts.map((exc, eIdx) => (
+                                        <div
+                                          key={eIdx}
+                                          style={{
+                                            backgroundColor: '#F9F6EC',
+                                            borderLeft: '3px solid #E8A857',
+                                            padding: '8px 10px',
+                                            fontSize: '12px',
+                                            fontFamily: "'Pixelify Sans', sans-serif",
+                                            fontStyle: 'italic',
+                                          }}
+                                        >
+                                          "{exc}"
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          }
+
                           return (
                             <div style={{ padding: '12px', textAlign: 'center', color: '#556B5D', fontFamily: "'Pixelify Sans', sans-serif" }}>
                               No detailed dialogue found for this session.
