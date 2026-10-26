@@ -1,0 +1,1843 @@
+{
+  "_id": "china_has_done_a_good_job_in_dealing_with_the_coronavirus_outbreak",
+  "topicId": "china_has_done_a_good_job_in_dealing_with_the_coronavirus_outbreak",
+  "topic": "China has done a good job in dealing with the coronavirus outbreak",
+  "category": "Society & Politics",
+  "topicType": "breadth",
+  "conversationCount": 1,
+  "totalTurns": 198,
+  "initialOpinions": [
+    {
+      "workerId": "6643dQQ5NK",
+      "text": "I somewhat agree. Of course, I believe the Coronavirus could have been dealt better worldwide, but I'm glad that China did not hide the virus from the world.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "61033QQ5NK",
+      "text": "I have a hard time having a strong opinion on this topic. Obviously the COVID outbreak was horrendous, and it escalated into a global pandemic that potentially could have been curbed with a better response from the Chinese government. That being said, the ability that we have to travel via plane etc. would make it hard to curb a pandemic of this magnitude so I don't know that other countries would have had a very different initial response.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "68156QQ5NK",
+      "text": "Nobody seems to have clear information on what happened in the Wuhan Lab or how the outbreak in the public sector was dealt with.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "67350QQ5NK",
+      "text": "I beleive China did a really bad job getting vaccines ready for people, enforcing mask policies, and sharing information about the coronavirus outbreak to help other countries with the virus. They did a poor job sharing research with other scientists to improve the vaccines.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    }
+  ],
+  "sampleExcerpts": [
+    "I find it hard to have a strong opinion on this because I don't have the most specific knowledge on the subject and given the global connectivity of the world, it would be hard to curb a virus as strong as COVID, but that being said, it feels like there had to be some negligence",
+    "I disagree. I feel this way because I think they may have known more about the virus than they led on in the beginning and tried to cover up some of their knowledge about the coronavirus.",
+    "I think China did an okay job dealing with the covid outbreak. I think the world could have done better at handling covid but doing a swift response where the world worked together to share data and make policies. But I think it was good China did not attempt to hide the outbreak"
+  ],
+  "tags": [
+    "society & politics",
+    "china",
+    "done",
+    "good",
+    "job",
+    "dealing",
+    "coronavirus",
+    "outbreak"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.737Z",
+  "conversations": [
+    {
+      "sessionId": "01K3FBPMMWFW01FPHS0WTQQ5NK",
+      "fileName": "20250825_012212_China_has_done_a_good_job_in_dealing_with_the_coronavirus_outbreak_01K3FBPMMWFW01FPHS0WTQQ5NK.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "61033QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "I find it hard to have a strong opinion on this because I don't have the most specific knowledge on the subject and given the global connectivity of the world, it would be hard to curb a virus as strong as COVID, but that being said, it feels like there had to be some negligence",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67350QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "I disagree. I feel this way because I think they may have known more about the virus than they led on in the beginning and tried to cover up some of their knowledge about the coronavirus.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6643dQQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "I think China did an okay job dealing with the covid outbreak. I think the world could have done better at handling covid but doing a swift response where the world worked together to share data and make policies. But I think it was good China did not attempt to hide the outbreak",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "68156QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "There is not a lot of information abour what actually happened in the Wuhan Lab or how the virus was treated in the public. Having to relying on soacial media for information",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "It is hard to know what happened, so I think it is hard to definitely agree or disagree with the initial topic!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "68156QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "It is hard to know what happened, so I think it is hard to definitely agree or disagree with the initial topic!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6643dQQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "What evidence do you have to support that viewpoint? From the timeline we have, it seems they didn't really hide it but also we didn't know it would become a global pandemic at the beginning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67350QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "What evidence do you have to support that viewpoint? From the timeline we have, it seems they didn't really hide it but also we didn't know it would become a global pandemic at the beginning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "68156QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I agree with you. Plus this happened several years ago and we are still without information",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61033QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I agree with you. Plus this happened several years ago and we are still without information",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "That's true. It seems like something that in a lot of ways we will just go without information about, which is a shame because it so greatly impacted us all. That being said, at this point it doesn't totally matter because it is in the past for the most part",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "68156QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "That's true. It seems like something that in a lot of ways we will just go without information about, which is a shame because it so greatly impacted us all. That being said, at this point it doesn't totally matter because it is in the past for the most part",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67350QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "I guess I'm just a little unsure whether they shared all their information. I'm generally a bit untrusting of governments and corporations. Maybe they just didn't know what they were dealing with so they thought it was fairly unimportant. I guess you make quite a bit of sense.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6643dQQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "I guess I'm just a little unsure whether they shared all their information. I'm generally a bit untrusting of governments and corporations. Maybe they just didn't know what they were dealing with so they thought it was fairly unimportant. I guess you make quite a bit of sense.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "68156QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I think it matters learning the facts about the virus as we may face something similar in the future",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61033QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I think it matters learning the facts about the virus as we may face something similar in the future",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6643dQQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "I am also distrustful of governments and corporations, so I think the response once we knew it was going to become a global pandemic could have been much better. I think that's true for China, but I don't know much about what their policies were when it became a pandemic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67350QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "I am also distrustful of governments and corporations, so I think the response once we knew it was going to become a global pandemic could have been much better. I think that's true for China, but I don't know much about what their policies were when it became a pandemic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "That's a good point, I hope we learn them Nice chatting with you!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "68156QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "That's a good point, I hope we learn them Nice chatting with you!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "61033QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "Hi! I find this statement hard to have a strong opinion about because I do not have super specialized knowledge on the topic. That being said, there remains a lot of secrecy about what happened and that makes it feel like there could be some negligence involved.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6643dQQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I think China did an okay job dealing with the covid outbreak, especially at first. I was glad they didn't try to hide anything once they realized how severe covid was and what it was going to become. However, I'm unsure of how they handled the pandemic within their country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "68156QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "We don't know what actually happened in the Wuhan Lab or how the public outbreak was treated in China. It is difficult to know if their methods of treatment were good or not.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67350QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "I think China maybe did a bad job handling the coronavirus outbreak especially in the beginning. I believe they may have hid some of their information to prevent mass hysteria or panic. I'm a little unsure though.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "Honestly I don't have a super strong recollection of what all China did in those initial months! So I appreciate the perspective",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6643dQQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "Honestly I don't have a super strong recollection of what all China did in those initial months! So I appreciate the perspective",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "68156QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "I agree. It is difficult to form an opinion based on the information we were given.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67350QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "I agree. It is difficult to form an opinion based on the information we were given.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6643dQQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I can see your point of view. I also find it hard to know because I think in America we focused on us, not on others",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61033QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I can see your point of view. I also find it hard to know because I think in America we focused on us, not on others",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "Yeah I agree, I honestly don't know--as you mentioned--how exactly it was handled in China",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6643dQQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "Yeah I agree, I honestly don't know--as you mentioned--how exactly it was handled in China",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6643dQQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I think if you're not racist, this is a pretty hard question to answer because how am I, a regular person, to judge this",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61033QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I think if you're not racist, this is a pretty hard question to answer because how am I, a regular person, to judge this",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "Haha yeah that is true This feels like a question that is targeting prejudice but because I just really don't know how to answer the question I'm trying to pick a side",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6643dQQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "Haha yeah that is true This feels like a question that is targeting prejudice but because I just really don't know how to answer the question I'm trying to pick a side",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67350QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "I generally think a lot of governments were doing their best to cover up some of the information surrounding coronavirus but I guess they eventually started sharing more information as the situation worsened.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "68156QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "I generally think a lot of governments were doing their best to cover up some of the information surrounding coronavirus but I guess they eventually started sharing more information as the situation worsened.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "68156QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "It is curious to see this question posed now, given that we have basically moved on from this outbreak. Still without information, which is sad because another outbreak of a new virus is possible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67350QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "It is curious to see this question posed now, given that we have basically moved on from this outbreak. Still without information, which is sad because another outbreak of a new virus is possible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6643dQQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "same for me. I guess I support China's response but I'm vaguely comparing it to the response to the spanish flu from the early 1900s",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61033QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "same for me. I guess I support China's response but I'm vaguely comparing it to the response to the spanish flu from the early 1900s",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67350QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "I do think another virus will come up and possibly worse than coronavirus. Viruses can mutate and transform all the time.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "68156QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "I do think another virus will come up and possibly worse than coronavirus. Viruses can mutate and transform all the time.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "What was the response to the spanish flu",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6643dQQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "What was the response to the spanish flu",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6643dQQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "I don't know too much about what China did when it comes to the full swing of covid. However, I think they handled it pretty well by alerting the world once they knew that it was going to become a global problem, not just a problem for them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67350QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "China did a poor job handling coronavirus and I'd hate to see how another future virus could impact their country and possible spread around the world like coronavirus did.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "68156QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "Even though we have little information or perhaps because of the lack of information; it is hard to say that China has done a good job.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "61033QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "I'm finding this question hard to answer. It seemed like there was a lot of secrecy at the time that could point to negligence, but at the same time this whole issue has been politicized so I don't know if that's kind of the xenophobic narrative that was pushed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "Do you remember what specifically they did immediately following the outbreak? I don't have a strong recollection?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67350QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "Do you remember what specifically they did immediately following the outbreak? I don't have a strong recollection?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6643dQQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "what makes you say that?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "68156QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "what makes you say that?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "68156QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "I feel that we don't know what actually happened at the Wuhan Lab. It would be helpful to have accurate information, but I'm not sure who would be a credible source.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6643dQQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "I feel that we don't know what actually happened at the Wuhan Lab. It would be helpful to have accurate information, but I'm not sure who would be a credible source.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67350QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I don't either. I remember them mostly just reporting the numbers and telling people to stay home. And then a couple weeks later, it started popping up in pretty much every country on the planet and everything shut down after a while. It was weird",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61033QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I don't either. I remember them mostly just reporting the numbers and telling people to stay home. And then a couple weeks later, it started popping up in pretty much every country on the planet and everything shut down after a while. It was weird",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6643dQQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "That's interesting. I'm not sure it really matters at this point, or when we were dealing with the illness I think that implies it's biological warfare but why would China hurt their own population first?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "68156QQ5NK",
+          "recipient": "68156QQ5NK",
+          "text": "That's interesting. I'm not sure it really matters at this point, or when we were dealing with the illness I think that implies it's biological warfare but why would China hurt their own population first?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61033QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "I agree it was weird and it all had an air of mystery about it. Do you think that the poor response was China specific or do you think it was just a bit of an unprecedented issue for this generation with increased globalization? That is kind of how I feel",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67350QQ5NK",
+          "recipient": "67350QQ5NK",
+          "text": "I agree it was weird and it all had an air of mystery about it. Do you think that the poor response was China specific or do you think it was just a bit of an unprecedented issue for this generation with increased globalization? That is kind of how I feel",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "68156QQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "If it was a man made virus in a gain of function study it would be very different from a natural mutation. One we control and the other is out of our control.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6643dQQ5NK",
+          "recipient": "6643dQQ5NK",
+          "text": "If it was a man made virus in a gain of function study it would be very different from a natural mutation. One we control and the other is out of our control.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67350QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I think it was both probably. I think China and the world were unprepared f",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61033QQ5NK",
+          "recipient": "61033QQ5NK",
+          "text": "I think it was both probably. I think China and the world were unprepared f",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "I think China did an okay job, especially at the beginning when they realized it was going to become bigger.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "I still think China did a poor job handling the outbreak. They were unprepared and didn't share all of their vital information when they needed to.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "Still don't have information to make a good assessment, but lack of information makes me probably disagree.",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "I do feel that there was an air of secrecy abou the origins of COVID and I think there was potentially some attempt to cover up negligence regarding the spread, but at the same time I think a lot of the rhetoric about China has xenophobic roots so I am unsure if this is skewing my vision of what happened. I also think it was a hard thing to know how to handle given its unprecedented nature for this generation. Our increased globalization made it hard to crack down on anything before it was too late.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "64",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "['private', 'university', 'out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6643dQQ5NK",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61033QQ5NK",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67350QQ5NK",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "64",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "['private', 'university', 'out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68156QQ5NK",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

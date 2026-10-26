@@ -1,0 +1,3513 @@
+{
+  "_id": "economic_problem_is_the_most_important_problem_facing_the_us_today",
+  "topicId": "economic_problem_is_the_most_important_problem_facing_the_us_today",
+  "topic": "Economic problem is the most important problem facing the US today",
+  "category": "Economy & Finance",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 380,
+  "initialOpinions": [
+    {
+      "workerId": "5f545N6X3M",
+      "text": "I do think it is important but not most important",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "6838eN6X3M",
+      "text": "problems such as in",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67e41N6X3M",
+      "text": "I agree economic problem is the most important problem facing the US today  such as rising binflation, income inequality and sluggish i",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "682f6N6X3M",
+      "text": "I agree that the economic problem is the most important issue facing the U.S. today. Economic insecurity touches nearly every aspect of daily life from housing and healt",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "66db9ECMZ4",
+      "text": "I feel that economic issues are extremely important and something that needs everyones attention, im personally more focused on the social issues facing our country today.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "66246ECMZ4",
+      "text": "The most important problem is the erosion of the nation by third world gangs and the huge crime.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "67a90ECMZ4",
+      "text": "While economic issues like inflation and job security are significant, I believe other challenge pose equally serious threats to the U.S. today.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "664c4ECMZ4",
+      "text": "The most important problem we have in the US today is our spending problem, so yes economic problem is the most important. EVERY SINGLE ISSUE that plagues society can be rectified if we spend on the right things.",
+      "sliderValue": 6,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "I think it is extremely important but I think family values, rebuilding the families, marriage, and raising children is more imortant. I think if we fix that the economic problems will lesson. I think two parent families that have time for their kids will solve many problems. Jus",
+    "the US economy is facing challengenges such as inflation, debt and inequality impacting millions  daily",
+    "Economic problem is arguably most important issue to US today by rising inflation, increasing national debts, sluggish wage growth that affect financial wellbeing of citizens. inflation reduces purchasing power",
+    "I think economic issues are important, but they aren’t the only major challenges the U.S. faces today. Problems like climate change, political division, and public health crises are just as urgent, and focusing only on the economy risks ignoring them",
+    "I think that the crime epidemic is even more important the the high inflation.",
+    "Our spending problem is the root of all of ours issues. Every single issue that plagues us can be solved with well intentioned spending. Whatever you point to, education, inequality, corruption in government, all of it can be solved with well"
+  ],
+  "tags": [
+    "economy & finance",
+    "economic",
+    "problem",
+    "most",
+    "important",
+    "facing",
+    "today"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.816Z",
+  "conversations": [
+    {
+      "sessionId": "01JWP2YXY64P43FX2HRZRN6X3M",
+      "fileName": "20250601_162128_Economic_problem_is_the_most_important_problem_facing_the_US_today_01JWP2YXY64P43FX2HRZRN6X3M.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5f545N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "I think it is extremely important but I think family values, rebuilding the families, marriage, and raising children is more imortant. I think if we fix that the economic problems will lesson. I think two parent families that have time for their kids will solve many problems. Jus",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6838eN6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "the US economy is facing challengenges such as inflation, debt and inequality impacting millions  daily",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e41N6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "Economic problem is arguably most important issue to US today by rising inflation, increasing national debts, sluggish wage growth that affect financial wellbeing of citizens. inflation reduces purchasing power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "682f6N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "Honestly, yes  I believe the economic problem is the most important issue facing the U.S. right now. So many other problems  healthcare, housing, education, even political division  are made worse by financial stress. If people can't afford to live, nothing else works.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5f545N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "It is good we both agree that it is a problem.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "682f6N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "It is good we both agree that it is a problem.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "682f6N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "I hear that strong families do matter a lot. But it’s hard to build or sustain a family when everything is so expensive and unstable. Maybe it’s not either/or. Maybe healthy families need a healthy economy too. They go hand in hand, no?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5f545N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "I hear that strong families do matter a lot. But it’s hard to build or sustain a family when everything is so expensive and unstable. Maybe it’s not either/or. Maybe healthy families need a healthy economy too. They go hand in hand, no?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6838eN6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "The US economy is undeniably a major concern, influencing everything from job security to national debt",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e41N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "The US economy is undeniably a major concern, influencing everything from job security to national debt",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5f545N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "I afree that you need finances and it can cretae strees without and that is hard on the family.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "682f6N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "I afree that you need finances and it can cretae strees without and that is hard on the family.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e41N6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "hello, do you agree with the statement  economic problem is most important problem? Because addressing thus issue is essential  not only for immediate financial security but also long term social cohesion and national strength it affect especiallylow and middle earning income households",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6838eN6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "hello, do you agree with the statement  economic problem is most important problem? Because addressing thus issue is essential  not only for immediate financial security but also long term social cohesion and national strength it affect especiallylow and middle earning income households",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "682f6N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "Exactly the stress of just trying to survive financially can strain relationships and parenting. Stability gives families ro",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5f545N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "Exactly the stress of just trying to survive financially can strain relationships and parenting. Stability gives families ro",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e41N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "Economic instability affects global competitiveness and the ability of the US to respond to international crisis.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "682f6N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "I believe the economic problem is the most important issue in the U.S. right now. So many challenges housing, healthcare, mental health, even family stability, are made worse by financial stress. If people can’t meet basic needs, it’s hard to address anything else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6838eN6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "The US economy faces seroius challenges from rising inflation, debt and income inequality affect millions of people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5f545N6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "I think economic problems are important but it is not the most important. I think family values including marriage, kids, employment, time, and flourishing of family life is more imortant. EIf we can take care of these the economic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5f545N6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "I agree, they make hardships for everyone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6838eN6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "I agree, they make hardships for everyone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "682f6N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "Totally agree economic strength underpins national security too. If we’re unstable at home, it’s harder to lead abroad or respond to global crises effectively. Everything’s connected.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e41N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "Totally agree economic strength underpins national security too. If we’re unstable at home, it’s harder to lead abroad or respond to global crises effectively. Everything’s connected.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e41N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "Additionally, persistent income inequality and stagnant wage growth fuels social disconnect, erode trust in institutions and hinder upward mobility",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "682f6N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "Additionally, persistent income inequality and stagnant wage growth fuels social disconnect, erode trust in institutions and hinder upward mobility",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6838eN6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "thats an interesting perspective. Some would argue that a strong economy foundation helps families thrive, providing stability, opportunity and security.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5f545N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "thats an interesting perspective. Some would argue that a strong economy foundation helps families thrive, providing stability, opportunity and security.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "682f6N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "Exactly, income inequality deepens divides and makes it harder for people to believe in the system or see a path forward.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e41N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "Exactly, income inequality deepens divides and makes it harder for people to believe in the system or see a path forward.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5f545N6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "I agree without financial stablity the family is on tough grounds",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6838eN6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "I agree without financial stablity the family is on tough grounds",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e41N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "Financial stress is the major problem as citizen have limited needs such as basics and with that the economic growth is hindered in all ways",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "682f6N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "Financial stress is the major problem as citizen have limited needs such as basics and with that the economic growth is hindered in all ways",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "682f6N6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "I believe the economic problem is the most important issue facing the U.S. today. Economic challenges like inflation, wage stagnation, and job insecurity impact nearly every other issue, from healthcare to education to social stability. Without economic stability, progress feels",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e41N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "Adressing economic problem requires combination of policies aimed at stabilizing inflation, equal growth, managing debt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6838eN6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "sure  economy stability can be the backbone of a thriving family",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5f545N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "I think it is not most important but very important. Can we give families a higher rating? I think fix those and we fix the economy. Have one person staying home to support the children. Higher wages for the one working. This would cause less people to be on the road and less tra",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5f545N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "traffic We need lower taxes and more efficient spending an mangaement.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e41N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "traffic We need lower taxes and more efficient spending an mangaement.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "682f6N6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "Exactly, a stable economy helps families thrive, but strong communities also matter. Both support each other.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6838eN6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "Exactly, a stable economy helps families thrive, but strong communities also matter. Both support each other.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e41N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "I think many middle class working class find themselves working longer hours for stagnant wages limiting their upward mobility and access to opportunities. This inequality undermines social stability yeah lower taxes and correct management would help stabilize the problem Else there is risk of financial instability and social division",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5f545N6X3M",
+          "recipient": "5f545N6X3M",
+          "text": "I think many middle class working class find themselves working longer hours for stagnant wages limiting their upward mobility and access to opportunities. This inequality undermines social stability yeah lower taxes and correct management would help stabilize the problem Else there is risk of financial instability and social division",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6838eN6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "economic challenges- like inflation, unemployment and income inequality shape daily and national policy in the US.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "682f6N6X3M",
+          "recipient": "682f6N6X3M",
+          "text": "economic challenges- like inflation, unemployment and income inequality shape daily and national policy in the US.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5f545N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "People that are diligent should make more and thereby have a better standard of living.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e41N6X3M",
+          "recipient": "67e41N6X3M",
+          "text": "People that are diligent should make more and thereby have a better standard of living.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "682f6N6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "Economic challenges like inflation and inequality shape US polic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6838eN6X3M",
+          "recipient": "6838eN6X3M",
+          "text": "Economic challenges like inflation and inequality shape US polic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "I like families as the most important.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "the economic challenges facing US such as inflation, unemployment",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "I agree with the statement. Economic problems like inflation, job insecurity, and inequality deeply affect many other issues in the U.S., from healthcare to education. Without economic stability, it’s hard to make progress on anything else.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "I agree its the most important problem due to increasing debts, financial instabilities and inequality of the citizens of US.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "60",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "['public', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "['public', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "muslim",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "44",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "60",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "['public', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f545N6X3M",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "['public', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "muslim",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "682f6N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6838eN6X3M",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "44",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e41N6X3M",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K2ZV3G513EJH5GTCY39ECMZ4",
+      "fileName": "20250819_004347_Economic_problem_is_the_most_important_problem_facing_the_US_today_01K2ZV3G513EJH5GTCY39ECMZ4.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67a90ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "I think economic issues are important, but they aren’t the only major challenges the U.S. faces today. Problems like climate change, political division, and public health crises are just as urgent, and focusing only on the economy risks ignoring them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66246ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "I think that the crime epidemic is even more important the the high inflation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "664c4ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Our spending problem is the root of all of ours issues. Every single issue that plagues us can be solved with well intentioned spending. Whatever you point to, education, inequality, corruption in government, all of it can be solved with well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66db9ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "I do agree that Economic issues are abhuge issue in our country right now, and it most definite deserves our attention. However, Im so personally focused on the social issues that are dividing our country so deeply right now. Particularly racism, lgbtq rights, and womens rights.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67a90ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66db9ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "hi it looks as though we are on the same page with this subject",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67a90ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "hi it looks as though we are on the same page with this subject",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "664c4ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Well then we have to dig. Why is our crime rate so high?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66246ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Well then we have to dig. Why is our crime rate so high?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66246ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "Immigration and the defund the police movement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "664c4ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "Immigration and the defund the police movement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67a90ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Social issues are definitely urgent too. I think the economy and social challenges are connected, though, since economic stress can worsen inequalities and make it harder to address things like racism or gender rights.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Social issues are definitely urgent too. I think the economy and social challenges are connected, though, since economic stress can worsen inequalities and make it harder to address things like racism or gender rights.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "664c4ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Good point, Id say there are a few reasons but at the top of the list is education, inequality, and cultural dissonance. Illegal immigration? easily solved by spending money towards border and immigration reform. Defund the police is stupid. If we spend our tax dollars on americas issues, all problems will be solved.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66246ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Good point, Id say there are a few reasons but at the top of the list is education, inequality, and cultural dissonance. Illegal immigration? easily solved by spending money towards border and immigration reform. Defund the police is stupid. If we spend our tax dollars on americas issues, all problems will be solved.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66db9ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Thats an interesting point for sure. I suppose climate change can also tie into economic issues. It can be expensive to be green",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67a90ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Thats an interesting point for sure. I suppose climate change can also tie into economic issues. It can be expensive to be green",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67a90ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Economic problems can amplify social tensions, but solving one without addressing the other only gives a partial solution.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Economic problems can amplify social tensions, but solving one without addressing the other only gives a partial solution.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66db9ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "This country is an absolute mess right now, its hard to see a way through",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67a90ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "This country is an absolute mess right now, its hard to see a way through",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67a90ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "I think economic issues are important, but they aren’t the only major problems the U.S. faces today. Challenges like political division, climate change, and public health are equally urgent, and focusing solely on the economy risks overlooking these critical issues.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "664c4ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Economics is the driving force behind all corruption in our government.  Our sending problem is the root of all of our problems.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66db9ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "Econimis issues are for sure one of the most important issues facing our country today. It is also tied in with many other issues we also are facing such as climate change and social issues. Racism is another issue that tends to divide people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66246ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "The difference in wealth between the richest and the poorest is the real economic problem. Why are so many poor in the richest country the world has ever seen?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67a90ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Absolutely, income inequality is a huge concern. The gap between the richest and poorest affects access to healthcare, education, and opportunity, and it can make other social problems much harder to solve.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66246ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Absolutely, income inequality is a huge concern. The gap between the richest and poorest affects access to healthcare, education, and opportunity, and it can make other social problems much harder to solve.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "664c4ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "So which would you say is the most important issue?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "So which would you say is the most important issue?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66db9ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "There are so man y ways we can fix poverty, but out leadership keeps lining the pockets of their rich friends instead social issues, lgbtq rights and womens rights are big ones",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "664c4ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "There are so man y ways we can fix poverty, but out leadership keeps lining the pockets of their rich friends instead social issues, lgbtq rights and womens rights are big ones",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66246ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Political division is at an all time high and they like it that way. We should be united against the elites",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67a90ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Political division is at an all time high and they like it that way. We should be united against the elites",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "664c4ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Not just poverty, but economics as a whole. If we fix our spenind problwm and only spend on the things that fix problems in america, all will be solved.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Not just poverty, but economics as a whole. If we fix our spenind problwm and only spend on the things that fix problems in america, all will be solved.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67a90ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Yes, political division definitely worsens these issues. When people are divided, it’s easier for elites to maintain the status quo, and harder to push for policies that reduce inequality and improve the economy for everyone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66246ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Yes, political division definitely worsens these issues. When people are divided, it’s easier for elites to maintain the status quo, and harder to push for policies that reduce inequality and improve the economy for everyone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66db9ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "what are the things we spend the most on that can and should be eliminated or at least cut back on would you say?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "664c4ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "what are the things we spend the most on that can and should be eliminated or at least cut back on would you say?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66246ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Exactly, but what can ordinary people do about it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67a90ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Exactly, but what can ordinary people do about it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "664c4ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "anything that is not in the best interest of our issues.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "anything that is not in the best interest of our issues.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "664c4ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Economics is number one. iTS OUR SPENDING.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Our economic issues arent going to get better until we start making things a little more equal across the board. The rich keep getting richer while people cant afford food.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67a90ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "I think the economy is a big deal, but it’s not the only problem the U.S. is facing. Things like political division, climate change, and public health are just as serious, and if we focus only on money, we might miss the bigger picture.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66246ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "I think that the wealth gap and crime are our biggest problems. We should begin restoring national sovereinty while starting wealth redistribution efforts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "I completely agree. And crime is most definitely tiied into this, as poverty is primarily what leads to crime.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66246ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "I completely agree. And crime is most definitely tiied into this, as poverty is primarily what leads to crime.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67a90ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "True, government spending and economic policy are important, but they tie into other issues too. For example, how money is spent affects healthcare, education, and climate action, so solving economic problems alone won’t fix everything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "664c4ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "True, government spending and economic policy are important, but they tie into other issues too. For example, how money is spent affects healthcare, education, and climate action, so solving economic problems alone won’t fix everything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "664c4ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Political division is economic. climate change is economic, and public health is economic.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67a90ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "Political division is economic. climate change is economic, and public health is economic.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67a90ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "That’s a good point Political division can influence economic policy, climate change requires funding and investment, and public health depends on resources. In a way, the economy underpins everything else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "664c4ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "That’s a good point Political division can influence economic policy, climate change requires funding and investment, and public health depends on resources. In a way, the economy underpins everything else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66246ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "exactly, we need leaders who can be accountable for the decisions they make and a court system that will actually enforce laws that the people want",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "exactly, we need leaders who can be accountable for the decisions they make and a court system that will actually enforce laws that the people want",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "664c4ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "100 percent. not to mention with climate change, theres an economic incentive to stay on fossil fuels. with public health, theres an incebtive to keep people sick.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67a90ECMZ4",
+          "recipient": "67a90ECMZ4",
+          "text": "100 percent. not to mention with climate change, theres an economic incentive to stay on fossil fuels. with public health, theres an incebtive to keep people sick.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Yes, there is so much corruption its hard to see a way through it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66246ECMZ4",
+          "recipient": "66246ECMZ4",
+          "text": "Yes, there is so much corruption its hard to see a way through it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67a90ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "Exactly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "664c4ECMZ4",
+          "recipient": "664c4ECMZ4",
+          "text": "Exactly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66246ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Corruption will always exist like this, maybe AI will take over and make things right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66db9ECMZ4",
+          "recipient": "66db9ECMZ4",
+          "text": "Corruption will always exist like this, maybe AI will take over and make things right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "Many major issues like political division, climate change, and public health are closely tied to economic factors, so addressing the economy could help with these challenge",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "In a way it is. We have many top problems, and many can be traced back to the flow of money",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "my opinions have not changed. it is the root of all of our problems.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "Economic issues is definitely one of our top issues. Its tied into so many other issues facing our country today, like crime, and social issues. Many of the divides stem from the economic defferences.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "maintenance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66246ECMZ4",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66db9ECMZ4",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664c4ECMZ4",
+          "recipient": "",
+          "text": "maintenance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67a90ECMZ4",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

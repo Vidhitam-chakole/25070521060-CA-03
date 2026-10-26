@@ -1,0 +1,40 @@
+{
+  "totalTopics": 107,
+  "totalDepthTopics": 7,
+  "totalBreadthTopics": 100,
+  "totalConversations": 232,
+  "totalDebateTurns": 47713,
+  "categories": [
+    {
+      "name": "Ethics & Law",
+      "count": 11
+    },
+    {
+      "name": "Health & Wellness",
+      "count": 6
+    },
+    {
+      "name": "Philosophy & Beliefs",
+      "count": 1
+    },
+    {
+      "name": "Society & Politics",
+      "count": 28
+    },
+    {
+      "name": "Science & Technology",
+      "count": 15
+    },
+    {
+      "name": "General Discussions",
+      "count": 39
+    },
+    {
+      "name": "Economy & Finance",
+      "count": 7
+    }
+  ],
+  "source": "debatellm/DEBATE",
+  "datasetUrl": "https://huggingface.co/datasets/debatellm/DEBATE",
+  "license": "DEBATE Dataset Research-Only License (v1.0)"
+}

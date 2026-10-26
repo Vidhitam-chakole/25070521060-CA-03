@@ -1,0 +1,5831 @@
+{
+  "_id": "everything_that_happens_can_eventually_be_explained_by_science",
+  "topicId": "everything_that_happens_can_eventually_be_explained_by_science",
+  "topic": "Everything that happens can eventually be explained by science",
+  "category": "Science & Technology",
+  "topicType": "depth",
+  "conversationCount": 3,
+  "totalTurns": 637,
+  "initialOpinions": [
+    {
+      "workerId": "5ba8eHHG9D",
+      "text": "I think the universe is too complex to be fully explainable by science eventually. I think it's a bit presumptuous and arrogant to think our finite brains can really fully explain an infinite universe. We can't even fully explain the world around us, let alone other worlds, solar systems, galaxies, and so on.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "60712HHG9D",
+      "text": "I disagree. I think there is a lot of stuff out there we don't know about. The brain isn't powerful enough to figure it out.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "67bb6HHG9D",
+      "text": "I think I disagree with the believe that everything that happens can be explain by science because supernatural things happens that no one can explain.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "67aa9HHG9D",
+      "text": "Due to gradually evolving our daily de",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67d71QXESM",
+      "text": "AGREE",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67437QXESM",
+      "text": "I agree with this statement and the more we learn the more we understand",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "5c500QXESM",
+      "text": "Everything is either explained by science or not. If it cannot be explained by science then we do not understand it and can build a model to achieve that understanding.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66fc3QXESM",
+      "text": "I believe that science can probably explain everything, given enough time to study everything",
+      "sliderValue": 5,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "I really don't think everything can be explained by science just because we, as fallible and limited humans with limited brains cannot conceivably comprehend an infinite universe and all its complexities. Answered questions just lead to more questions. Not that we shouldn't try.",
+    "I don't think everything can be explained by science. I think there is a lot of stuff out there that we don't know or that the brain can't figure out. Stuff like how the world got created I don't think can ever be figured out. They can think it was by the big bang but what caused",
+    "I believe there are somethings that can never be explained by science and an example is the creation of human and how life enters into a foetus",
+    "I think it's true that science can explain everything. Science has a good track record of explaining questions from the past.",
+    "Everything can be categorized into two groups, understood by science and not understood by science. Things that are not understood by science can have a model and theories built surrounding them to explain why they are the way they are until we understand more.",
+    "There has been many aspects that are explained by science within reasoning such as gravity, law of attraction, quantum physics, ect, therefor my belief is that this statement is fundamentally correct."
+  ],
+  "tags": [
+    "science & technology",
+    "everything",
+    "happens",
+    "eventually",
+    "explained",
+    "science"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.832Z",
+  "conversations": [
+    {
+      "sessionId": "01JQPVV0DETS0HYT9DRFNHHG9D",
+      "fileName": "20250331_201426_Everything_that_happens_can_eventually_be_explained_by_science_01JQPVV0DETS0HYT9DRFNHHG9D.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "60712HHG9D",
+          "text": "I really don't think everything can be explained by science just because we, as fallible and limited humans with limited brains cannot conceivably comprehend an infinite universe and all its complexities. Answered questions just lead to more questions. Not that we shouldn't try.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "60712HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "I don't think everything can be explained by science. I think there is a lot of stuff out there that we don't know or that the brain can't figure out. Stuff like how the world got created I don't think can ever be figured out. They can think it was by the big bang but what caused",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "I believe there are somethings that can never be explained by science and an example is the creation of human and how life enters into a foetus",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67aa9HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "People are inventing many things in relation to science that reflects our day to day activities.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "hey",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "hey",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "60712HHG9D",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "I agreed with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "I agreed with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "60712HHG9D",
+          "text": "cool",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "cool",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "too much out there we dont know about",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "too much out there we dont know about",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "I believe supernatural things happen that can never be explained by science Science is something big I agree but it does not have answers to everything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67aa9HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "I believe supernatural things happen that can never be explained by science Science is something big I agree but it does not have answers to everything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "60712HHG9D",
+          "text": "yeah, and it seems like the more we figure out, the more questions we run into. Maybe if we had a million years, but we'll probably annihilate ourselves before then",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "yeah, and it seems like the more we figure out, the more questions we run into. Maybe if we had a million years, but we'll probably annihilate ourselves before then",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Yep, we would go nuts trying to figure everything out",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Yep, we would go nuts trying to figure everything out",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67aa9HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "I second you because supernatural things are beyond our limits.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "I second you because supernatural things are beyond our limits.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "60712HHG9D",
+          "text": "maybe it's enough to appreciate that, but I do think we should still try to know more about the universe. it's quite useful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "maybe it's enough to appreciate that, but I do think we should still try to know more about the universe. it's quite useful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "yep, agreed, we can see what else it out there, prolly more beneficial things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "yep, agreed, we can see what else it out there, prolly more beneficial things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "60712HHG9D",
+          "text": "yeah maybe we can train AI to eventually figure out the universe for us",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "yeah maybe we can train AI to eventually figure out the universe for us",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "yeah, AI looks like it will be powerful it is already super strong",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "yeah, AI looks like it will be powerful it is already super strong",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "60712HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "I don't think everything can be explaied by science. There is too much out there that people don't know or understand.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "Everything might be explainable, but I don't think it's all knowable or understandable by us tiny humans. The universe is infinite and is mind-bogglingly complex. Perhaps we could invent tools to bring us to greater understanding, but answering questions leads to more questions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67bb6HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "There are quit a number of things that can never be explained by science. examples are, How do bird migrate, how and why do we sleep. how does dreaming happen.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67aa9HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "I believe people activiest share common thing with science",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "hi I think science can explain some stuff but not everything",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67aa9HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "hi I think science can explain some stuff but not everything",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Hi I think we are on the same side here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Hi I think we are on the same side here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "yeah, that was what my last conversation was like too :)",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "yeah, that was what my last conversation was like too :)",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Many things science cannot explain.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Many things science cannot explain.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "yeah, I do think it's worthwhile to try to explain things, though since so many things we thought we couldn't explain before now we can",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "yeah, I do think it's worthwhile to try to explain things, though since so many things we thought we couldn't explain before now we can",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67aa9HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "yeah some are beyond our understanding",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "yeah some are beyond our understanding",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "yep, agreed too many theorys I think sometimes not enough tests too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67aa9HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "yep, agreed too many theorys I think sometimes not enough tests too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Yes, tbh science is a very big deal ngl",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Yes, tbh science is a very big deal ngl",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "yes, it's good though not to see it as the only way to understand anything",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "yes, it's good though not to see it as the only way to understand anything",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Yes there are just somethings that can never be explained.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "Yes there are just somethings that can never be explained.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "you just never know which is which",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "you just never know which is which",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67aa9HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "science deals with facts and proofs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "science deals with facts and proofs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "60712HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "I don't think everything can be explained by science, some stuff is beyond our mind and what we can think.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "Everything might be explainable, but I don't think it's all knowable or understandable by us tiny humans. The universe is infinite and mind-bogglingly complex. Perhaps we could invent tools to bring us to greater understanding, but answering questions leads to more questions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67aa9HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "science requires proofs which sometime are difficult to provide, so i don't think science can explain everything",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67bb6HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "Many things are beyond science. Lot of things cannot be explained by science and an example is , what makes us yarn?, how does birds migrate? How does life enters a foetus? what makes us human?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "hi I agree with you Many things are beyond science",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "I agree with you Many things are beyond science",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "Hello, I guess everyone is one the same side.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "Hello, I guess everyone is one the same side.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "lol yep seems like an easy topic though too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "lol yep seems like an easy topic though too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67aa9HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "nature and science have different perspectives according to me",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "nature and science have different perspectives according to me",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "how so?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67aa9HHG9D",
+          "recipient": "67aa9HHG9D",
+          "text": "how so?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "We really do not have anything to argue about.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "We really do not have anything to argue about.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "lol true we all agreed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "lol true we all agreed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "Yea a very easy topic.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "Yea a very easy topic.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "yep",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "yep",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67bb6HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "Do you like science?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60712HHG9D",
+          "recipient": "60712HHG9D",
+          "text": "Do you like science?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67aa9HHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "nature involves something that happens naturally while science has to be triggered by people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "5ba8eHHG9D",
+          "text": "nature involves something that happens naturally while science has to be triggered by people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60712HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "so/so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67bb6HHG9D",
+          "recipient": "67bb6HHG9D",
+          "text": "so/so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "I disagree. Some things are beyond the human mind to find out or understand.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "Science can teach us a lot and should be pursued, but there are some things that we will never understand because of how large and complex the universe is. It's hard to know what is and isn't unknowable, though. So, we have to keep trying, and science is our best method we've discovered so far.",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "There are many things that science cannot explain. Science is a very big deal yeah, but many things in the world cannot be explained. Supernatural things happen.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "science requires facts and proofs  thus making it difficult in explaining some  natural occurrence",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "['private', 'public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "51",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60712HHG9D",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ba8eHHG9D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "['private', 'public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67bb6HHG9D",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "51",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67aa9HHG9D",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JRHDHZBNTXRDJN7H5M3QXESM",
+      "fileName": "20250411_034947_Everything_that_happens_can_eventually_be_explained_by_science_01JRHDHZBNTXRDJN7H5M3QXESM.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66fc3QXESM",
+          "recipient": "67d71QXESM",
+          "text": "I think it's true that science can explain everything. Science has a good track record of explaining questions from the past.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5c500QXESM",
+          "recipient": "67437QXESM",
+          "text": "Everything can be categorized into two groups, understood by science and not understood by science. Things that are not understood by science can have a model and theories built surrounding them to explain why they are the way they are until we understand more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67437QXESM",
+          "recipient": "5c500QXESM",
+          "text": "There has been many aspects that are explained by science within reasoning such as gravity, law of attraction, quantum physics, ect, therefor my belief is that this statement is fundamentally correct.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67d71QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "I BELIEVE THE STATEMENT",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "HELLO whats your take on the statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "HELLO whats your take on the statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "67437QXESM",
+          "text": "Can you think of things that are not explained by science? Such as the origin of mankind, the soul, the afterlife? How do those things affect your position",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67437QXESM",
+          "recipient": "67437QXESM",
+          "text": "Can you think of things that are not explained by science? Such as the origin of mankind, the soul, the afterlife? How do those things affect your position",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66fc3QXESM",
+          "recipient": "67d71QXESM",
+          "text": "Hello. what makes you agree with the statement? I think science will always be able to explain things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "Hello. what makes you agree with the statement? I think science will always be able to explain things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67437QXESM",
+          "recipient": "5c500QXESM",
+          "text": "Yes, I can also agree with that and believe there are aspect out of our understanding that can impact our current knowledge",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "Yes, I can also agree with that and believe there are aspect out of our understanding that can impact our current knowledge",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "because many things can be explained by science yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "because many things can be explained by science yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "67437QXESM",
+          "text": "So would you say that there are things that can never be explained by science?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67437QXESM",
+          "recipient": "67437QXESM",
+          "text": "So would you say that there are things that can never be explained by science?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66fc3QXESM",
+          "recipient": "67d71QXESM",
+          "text": "Is there anything that science hasn't been able to explain? I can't think of anything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "Is there anything that science hasn't been able to explain? I can't think of anything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67437QXESM",
+          "recipient": "5c500QXESM",
+          "text": "What we observe can be studied and broken down and further explained, but we can never explain the UNexplainable, such as souls, afterlife, ghosts, ect",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "What we observe can be studied and broken down and further explained, but we can never explain the UNexplainable, such as souls, afterlife, ghosts, ect",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "so we both agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "67437QXESM",
+          "text": "the existence of the unexplainable suggests that the statement given to us is false: not everything that happens can eventually be explained by science",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "so we both agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67437QXESM",
+          "recipient": "67437QXESM",
+          "text": "the existence of the unexplainable suggests that the statement given to us is false: not everything that happens can eventually be explained by science",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66fc3QXESM",
+          "recipient": "67d71QXESM",
+          "text": "seems so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "seems so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67d71QXESM",
+          "recipient": "5c500QXESM",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5c500QXESM",
+          "recipient": "67d71QXESM",
+          "text": "Not everything that happens can be eventually explained by science such as the soul, the origin of mankind, and the afterlife.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66fc3QXESM",
+          "recipient": "67437QXESM",
+          "text": "I believe science can explain everything given enough time to study everything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67437QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "What we observe can be broken down and further examined for observation to be understood",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "67d71QXESM",
+          "text": "hello, what is your opinion on the statement? do you agree or disagree? I have said my take on the statement. I do not believe it is correct What is your take on the statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "hello, what is your opinion on the statement? do you agree or disagree?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66fc3QXESM",
+          "recipient": "67437QXESM",
+          "text": "I agree with your statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67437QXESM",
+          "recipient": "67437QXESM",
+          "text": "I agree with your statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67437QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "I believe that eventually everything could be understood better by science as it is also rapidly progressing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "I believe that eventually everything could be understood better by science as it is also rapidly progressing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "whats your take on the statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "I have said my take on the statement. I do not believe it is correct What is your take on the statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "5c500QXESM",
+          "text": "i believe it is correct",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "i believe it is correct",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66fc3QXESM",
+          "recipient": "67437QXESM",
+          "text": "We could explain more if we invested even more in STEM research",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67437QXESM",
+          "recipient": "67437QXESM",
+          "text": "We could explain more if we invested even more in STEM research",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "67d71QXESM",
+          "text": "How does science explain the soul?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "How does science explain the soul?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "5c500QXESM",
+          "text": "so we agree?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "so we agree?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67437QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "It took us decades to break down the scientifical logic of Schrodinger's cat theory, but within more study research we were able to find answers within it and i agree, stem stem would be beneficial to understand more about our bodys",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "It took us decades to break down the scientifical logic of Schrodinger's cat theory, but within more study research we were able to find answers within it and i agree, stem stem would be beneficial to understand more about our bodys",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "67d71QXESM",
+          "text": "no we do not agree. I do not believe the statement is correct",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "no we do not agree. I do not believe the statement is correct",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "5c500QXESM",
+          "text": "ok",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "ok",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "67d71QXESM",
+          "text": "you don't seem to be defending your position at all",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "you don't seem to be defending your position at all",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67d71QXESM",
+          "recipient": "67437QXESM",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67437QXESM",
+          "recipient": "67d71QXESM",
+          "text": "Yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5c500QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "I do not believe everything that happens can eventually be explained by science such as the soul, the origin of mankind, or the afterlife. They will never be explainable by science.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66fc3QXESM",
+          "recipient": "5c500QXESM",
+          "text": "I believe science can explain everything given enough time to study everything. Science has been able to explain all of our questions thus far.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "I do not believe science has been able to explain all of our questions thus far, such as the soul, the origin of mankind, or the afterlife",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "I do not believe science has been able to explain all of our questions thus far, such as the soul, the origin of mankind, or the afterlife",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "67437QXESM",
+          "text": "i believe the statement. do you?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67437QXESM",
+          "recipient": "67437QXESM",
+          "text": "i believe the statement. do you?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67437QXESM",
+          "recipient": "67d71QXESM",
+          "text": "I believe this statement to be correct as we have advance so much in science",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "I believe this statement to be correct as we have advance so much in science",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "67437QXESM",
+          "text": "sure. so we agree. why? science prooves many things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67437QXESM",
+          "recipient": "67437QXESM",
+          "text": "sure. so we agree. why? science prooves many things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66fc3QXESM",
+          "recipient": "5c500QXESM",
+          "text": "In can understand your perspective but we have no evidence that those things exist. Without evidence or a medium for study they cant be compared to everything else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "In can understand your perspective but we have no evidence that those things exist. Without evidence or a medium for study they cant be compared to everything else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "Okay, let's take the origin of mankind. Do you also believe that doesn't exist? to clarify, I mean the origin of existence, atoms, matter",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "Okay, let's take the origin of mankind. Do you also believe that doesn't exist? to clarify, I mean the origin of existence, atoms, matter",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66fc3QXESM",
+          "recipient": "5c500QXESM",
+          "text": "I believe in evolution",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "I believe in evolution",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "I believe in evolution but evolution does not explain the source of life where did everything originate from?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "I believe in evolution but evolution does not explain the source of life where did everything originate from?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66fc3QXESM",
+          "recipient": "5c500QXESM",
+          "text": "I belieeve given enouhg time we could explain the existence of life, yes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5c500QXESM",
+          "recipient": "5c500QXESM",
+          "text": "I belieeve given enouhg time we could explain the existence of life, yes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67437QXESM",
+          "recipient": "67d71QXESM",
+          "text": "For example. it ha taken us years to understand and break down many aspects of science such as Schrodinger's Cat theory that has more reasonable explanation than it did 50 years ago",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67d71QXESM",
+          "recipient": "67d71QXESM",
+          "text": "For example. it ha taken us years to understand and break down many aspects of science such as Schrodinger's Cat theory that has more reasonable explanation than it did 50 years ago",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5c500QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "where did the very first stars come from where did the first protons come from I do not believe that is knowable regardless of technological advancements there will be questions that are unanswerable",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66fc3QXESM",
+          "recipient": "66fc3QXESM",
+          "text": "where did the very first stars come from where did the first protons come from I do not believe that is knowable regardless of technological advancements there will be questions that are unanswerable",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67d71QXESM",
+          "recipient": "67437QXESM",
+          "text": "yes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67437QXESM",
+          "recipient": "67437QXESM",
+          "text": "yes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "Mostly agreed with me",
+          "sliderValue": 4,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "i agree",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "Not everything can be explained, such as the origin of existence, the first matter or protons in the universe",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "Yes I agree that eventually science can explain everything",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c500QXESM",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66fc3QXESM",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67d71QXESM",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67437QXESM",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JS51ZBW87VTBYWRTWGV6VTCV",
+      "fileName": "20250418_184403_Everything_that_happens_can_eventually_be_explained_by_science_01JS51ZBW87VTBYWRTWGV6VTCV.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "63d7d6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Everything from science is real life and it explains everything how its supposed to be. Science explains everything in reality and its the facts to everything",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5cbe06VTCV",
+          "recipient": "641356VTCV",
+          "text": "Everything that happens cannot be explained by science. I believe in God and when He does miracles, science cannot explain it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "641356VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "I think everything can be explained by science. I know there are somethings that we don't fully understand yet but I know that explanation is out there. Quantam physics is a field that delves into a portion of science that we can't fully explain but I know if we keep looking well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f1a6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "I agree in principle science strives to explain reality through evidence and its track record is astounding.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "641356VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Ok faith is fine, but there is no physical real evidence that god exists",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5cbe06VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Ok faith is fine, but there is no physical real evidence that god exists",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5cbe06VTCV",
+          "recipient": "641356VTCV",
+          "text": "I respect your view. To understand the existence of God, you need to have experienced him.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "641356VTCV",
+          "recipient": "641356VTCV",
+          "text": "I respect your view. To understand the existence of God, you need to have experienced him.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Science does explain in reality and it shows facts and how everything in life happens.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f1a6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Science does explain in reality and it shows facts and how everything in life happens.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "641356VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Sure. I am sure you have but for other people there is no evidence",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5cbe06VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Sure. I am sure you have but for other people there is no evidence",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f1a6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "science explains reality with facts but some mysteries remain beyond current understanding.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "science explains reality with facts but some mysteries remain beyond current understanding.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Yes that is true to but the science is always the facts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f1a6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Yes that is true to but the science is always the facts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5cbe06VTCV",
+          "recipient": "641356VTCV",
+          "text": "True, it's a matter of choosing to believe because many people do not understand scientific theories but they choose to believe science.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "641356VTCV",
+          "recipient": "641356VTCV",
+          "text": "True, it's a matter of choosing to believe because many people do not understand scientific theories but they choose to believe science.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "63d7d6VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Science is always the facts and it knows everything that is part of reality.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "641356VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "I think everything can be explained by science. All we know if this life and everything follows the rules of physics and science. Just because we haven't explained something yet does not mean the answer is not out there.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5cbe06VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "If science could explain everything, we would have no problems because science would have explained them by now.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f1a6VTCV",
+          "recipient": "641356VTCV",
+          "text": "sciences progresses but some mysteries may remain beyound human comprehension",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "641356VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Why do you say that? What proof do you have?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f1a6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Why do you say that? What proof do you have?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "I think that science already has explained everything by now because it already states all the obvious and facts.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5cbe06VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "I think that science already has explained everything by now because it already states all the obvious and facts.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5cbe06VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "I think science is able to explain reality but not the spiritual.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "I think science is able to explain reality but not the spiritual.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Science is real",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5cbe06VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Science is real",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f1a6VTCV",
+          "recipient": "641356VTCV",
+          "text": "some phenomena may transcend empirical measurement or scientific framework entirely",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "641356VTCV",
+          "recipient": "641356VTCV",
+          "text": "some phenomena may transcend empirical measurement or scientific framework entirely",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5cbe06VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "I do not disagree. But does it have all the answers? Nope.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "I do not disagree. But does it have all the answers? Nope.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "yes it does",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5cbe06VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "yes it does",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "641356VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Sure. I guess that is possible but everything points to that not being true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f1a6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "Sure. I guess that is possible but everything points to that not being true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5cbe06VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "If science has all the answers why can't we live in Mars? It should give us the ability to do. If science is powerful, why can't it conquer death?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "If science has all the answers why can't we live in Mars? It should give us the ability to do. If science is powerful, why can't it conquer death?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Science is still facts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5cbe06VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "Science is still facts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5cbe06VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Sure!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Sure!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "yes its sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5cbe06VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "yes its sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "63d7d6VTCV",
+          "recipient": "641356VTCV",
+          "text": "Science is all facts and its all part of reality.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "641356VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Everything is explainable. I know people what their to be this giant mystery that has them questioning their existence and what life means. But all we know is that we are on earth by change and everything can be explained by the scientific process",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5cbe06VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "I do not think science has the ability to explain everything that happens. If it did, we still would not have many unanswered questions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f1a6VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "science evolves but fundamental limits like consciousness hard problem suggest not all phenomena may ever submit to full explanation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "641356VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Sure I guess we are in agreement.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Sure I guess we are in agreement.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "641356VTCV",
+          "text": "Science has all the facts and real purposes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "641356VTCV",
+          "recipient": "641356VTCV",
+          "text": "Science has all the facts and real purposes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5cbe06VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "I agree with you. Science cannot explain the spiritual side of life. You there?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1a6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "I agree with you. Science cannot explain the spiritual side of life. You there?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "641356VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Even if we haven't figured it all out yet",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Even if we haven't figured it all out yet",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "641356VTCV",
+          "text": "I think science has everything figured out",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "641356VTCV",
+          "recipient": "641356VTCV",
+          "text": "I think science has everything figured out",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "641356VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Not everything but we are making progress",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "Not everything but we are making progress",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "641356VTCV",
+          "text": "I think that science has all the answers.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "641356VTCV",
+          "recipient": "641356VTCV",
+          "text": "I think that science has all the answers.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "641356VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "ok",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63d7d6VTCV",
+          "recipient": "63d7d6VTCV",
+          "text": "ok",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63d7d6VTCV",
+          "recipient": "641356VTCV",
+          "text": "yes its true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "641356VTCV",
+          "recipient": "641356VTCV",
+          "text": "yes its true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f1a6VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "true spiritually transcends empirical measurement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5cbe06VTCV",
+          "recipient": "5cbe06VTCV",
+          "text": "true spiritually transcends empirical measurement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5cbe06VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "I agree and have been priveledged to experience it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1a6VTCV",
+          "recipient": "67f1a6VTCV",
+          "text": "I agree and have been priveledged to experience it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "My opinion has not changed. I believe everything can be explained by science.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "I think that science does explain everything in detail and its always facts.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "Science cannot explain everything, such as the spiritual, the meaning of life, but it does a good job of helping us understand reality.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "Agree but cautiously science continuously expands leaving room for wonder",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "39",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "Zimbabwe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "37",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d7d6VTCV",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "39",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "Zimbabwe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5cbe06VTCV",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1a6VTCV",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "37",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "641356VTCV",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

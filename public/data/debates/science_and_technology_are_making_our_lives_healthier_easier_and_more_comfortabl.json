@@ -1,0 +1,4362 @@
+{
+  "_id": "science_and_technology_are_making_our_lives_healthier_easier_and_more_comfortabl",
+  "topicId": "science_and_technology_are_making_our_lives_healthier_easier_and_more_comfortabl",
+  "topic": "Science and technology are making our lives healthier, easier, and more comfortable",
+  "category": "Health & Wellness",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 474,
+  "initialOpinions": [
+    {
+      "workerId": "607129DWCC",
+      "text": "Science and technology are making thinks better and helping us find what hurts us and how to live a good and healthy life.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "678fa9DWCC",
+      "text": "I agreed, science and technology are making our lives healthier, easier, and more comfortable,",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67e2c9DWCC",
+      "text": "I believe science and tech makes life easier through solving problems that have bothered us for long. For instance, medical solutions, transportation, or even lifestyle solutions like furniture. I believe science is the solution we need for majority of our challenges.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6314b9DWCC",
+      "text": "I do agree that science and technology are making it easier.  Advances in these make lives easier and safer for everyone",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66f041NZFZ",
+      "text": "It helps us in many different ways.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "57bfc1NZFZ",
+      "text": "I completely agree that science and technology are making our lives better. Technology in the health industry has helped to extended lifespans and make us much healthier overall. Advancements such as air conditioning have also made our lives much more comfortable",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67f1b1NZFZ",
+      "text": "I agree with the statement because with technology we gain alot of information.We get health tips that make us live a healthy,comfortable life.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6168d1NZFZ",
+      "text": "Overall, I agree that science and technology are improving our lives- see how we deal with diseases and cancer now versus even 50-60 years ago, for instance. We are more interconnected than ever before thanks to the internet, and (so long as certain supposed children's safety acts don't succeed) we have ready access to the world's information. But also, too, this is like a double edged sword!!",
+      "sliderValue": 5,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "Science and technology help us see what's dangerous and keep us safe and healthy",
+    "In terms of medical, science as helped a lot, in terms of treatment, medication, surgery and living a healthy life",
+    "I believe it is true that science and technology are making our lives healthier, easier, and more comfortable.   Medical breakthroughs help cure diseases and extend life while technology such as smartphones and smart device simplify daily tasks.",
+    "I think that this is mostly true, we are healthier than we've ever been-- more people are surviving illnesses or disorders of the body than historically ever could. And we are interconnected with EVERYTHING, but that is also a problem wrt comfort. In that, we are TOO connected!",
+    "I believe this statement is completely true. Technology has especially helped in the healthcare industry which has led to longer lifespans. Other advancements such as air conditioning has led to being able to live a much more comfortable life",
+    "Hello. I think that  science and technology helps make our life easier for every one. We grown and learn every day. We need to evolve in our world, but for the best."
+  ],
+  "tags": [
+    "health & wellness",
+    "science",
+    "technology",
+    "making",
+    "our",
+    "lives",
+    "healthier",
+    "easier",
+    "more",
+    "comfortable"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.235Z",
+  "conversations": [
+    {
+      "sessionId": "01JX3ADGK211DS90858RT9DWCC",
+      "fileName": "20250606_194339_Science_and_technology_are_making_our_lives_healthier,_easier,_and_more_comfortable_01JX3ADGK211DS90858RT9DWCC.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "607129DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Science and technology help us see what's dangerous and keep us safe and healthy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "678fa9DWCC",
+          "recipient": "607129DWCC",
+          "text": "In terms of medical, science as helped a lot, in terms of treatment, medication, surgery and living a healthy life",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6314b9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "I believe it is true that science and technology are making our lives healthier, easier, and more comfortable.   Medical breakthroughs help cure diseases and extend life while technology such as smartphones and smart device simplify daily tasks.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e2c9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Hi, science and tech makes our lives healthier, easier, and more comfortable. Take the food industry as an example. Food industry provides food to the growing population. Previous methods could not deliver what we see today.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "I agree with you Science is helping medicine get better",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "I agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "hi Hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "hi Hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "607129DWCC",
+          "text": "Do you agree with me",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "Do you agree with me",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Science is helping medicine get better Helps surgery better too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Helps surgery better too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "607129DWCC",
+          "text": "Yes, discovering new treatment or medicine",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "Yes, discovering new treatment or medicine",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Yep, AI will help technology even more Especially in finding things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Yep, AI will help technology even more Especially in finding things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Important advancements, say in transport, allow us to dream and attempt going to Mars. Using tech, we even have mechanisms to solve carbon emissions. This has resorted to the development of new industries like EV and solar technologies.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Important advancements, say in transport, allow us to dream and attempt going to Mars. Using tech, we even have mechanisms to solve carbon emissions. This has resorted to the development of new industries like EV and solar technologies.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "607129DWCC",
+          "text": "Technology is also better, in terms of communication, transportation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "Technology is also better, in terms of communication, transportation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Yep, helps people communicate quicker",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Yep, helps people communicate quicker",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "I agree all those show that advancement has made lives easier and better for people overall",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "I agree all those show that advancement has made lives easier and better for people overall",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "607129DWCC",
+          "text": "Science detect electricity and Gas",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "Science detect electricity and Gas",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Sure, technologies will always improve for the sake of our comfort, safety, and wellbeing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Sure, technologies will always improve for the sake of our comfort, safety, and wellbeing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "yep, very true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "yep, very true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "607129DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Science and technology helps make new medicines and help people live healthier",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "678fa9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Science and technology are making our lives healthier, easier and more comfortable.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6314b9DWCC",
+          "recipient": "607129DWCC",
+          "text": "I agree with this statement.  I imagine if we don't simple things that take for granted like smartphones, how much more effort would we need to do to tasks that we consider mundane.  I think of researching for things such as a car or house would be more time intensive and wastefu",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e2c9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "The statement sounds true. Science and technology have proven beyond doubt that we can address major problems that we face as the human race. Take some industries like textiles, sports, and manufacturing. People ar",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "I agreed too Techbology makes things more convenient",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "I agreed too Techbology makes things more convenient",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yes, I agreed with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yes, I agreed with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "607129DWCC",
+          "text": "I know there are disadvantages also but overall it is a net positive",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "I know there are disadvantages also but overall it is a net positive",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Great, I tend to think about manufacturing processes and how they make life easier",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Great, I tend to think about manufacturing processes and how they make life easier",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Yep, it has its good and bad",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Yep, it has its good and bad",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Even transportation, weapon and gadgets Life is more easier now",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Even transportation, weapon and gadgets Life is more easier now",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "607129DWCC",
+          "text": "I am glad we have improvements in science.  Who knows how long I would live for if there were no improvements",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "I am glad we have improvements in science.  Who knows how long I would live for if there were no improvements",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "I think AI will help detect things help us live longer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "I think AI will help detect things help us live longer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Sure, weapons and the defense industry have proven to be revolutionary. For instance the drones in Ukraine war. Soldiers are able to avoid direct combat through the use of technology. As such, wars are no longer as fatal as they were during WWII",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Sure, weapons and the defense industry have proven to be revolutionary. For instance the drones in Ukraine war. Soldiers are able to avoid direct combat through the use of technology. As such, wars are no longer as fatal as they were during WWII",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "607129DWCC",
+          "text": "Honestly AI has helped me learn stuff that I didn't understand",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "Honestly AI has helped me learn stuff that I didn't understand",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Same with me Amazing advacnement in technology",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Same with me Amazing advacnement in technology",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Science has helped in medical, discovering new drug or medication All the electronics appliances we used also",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Science has helped in medical, discovering new drug or medication All the electronics appliances we used also",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "607129DWCC",
+          "text": "However, I mean there's the good but man there's so much disinformation too.  It also enables people's shitty actions too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "However, I mean there's the good but man there's so much disinformation too.  It also enables people's shitty actions too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Yep, will still always have to fact check",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Yep, will still always have to fact check",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "607129DWCC",
+          "text": "I love tech and science improvements but I have to smart in what I see.  You are correct fact checking is vital",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "I love tech and science improvements but I have to smart in what I see.  You are correct fact checking is vital",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Sure, the medical field has improved drastically. Consider the new drug Ozempic. It has allowed the medical fraternity to handle growing problems like obesity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Sure, the medical field has improved drastically. Consider the new drug Ozempic. It has allowed the medical fraternity to handle growing problems like obesity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "607129DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Science and technology is improving medicine and health and helping people live longer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "678fa9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Science and technology are making our lives healthier, easier, and more comfortable",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6314b9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "I do enjoy having advancement in both of these.  If I didn't have both of these, I could imagine how much harder life would be.  It is funny that what I did when I was younger would take only a few minutes to do instead of a few days/hours",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e2c9DWCC",
+          "recipient": "607129DWCC",
+          "text": "It is true. Science and tech, through the ingenuity they bring, provide solutions to the world. People will always discover new ways to address problems to make lives easier, healthier, and more comfortable.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Hi",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Hi",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Agreed, science and tech is bringing good solutions Helps us live healthier and longer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Hi",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Hi",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Agreed, science and tech is bringing good solutions Helps us live healthier and longer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "What's your take on this?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "What's your take on this?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "607129DWCC",
+          "text": "It is an interesting concept to see how people address their challenges",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "It is an interesting concept to see how people address their challenges",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "You are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "You are right Life is more easier now",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yep, it helps them suceed against them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yep, it helps them suceed against them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "607129DWCC",
+          "text": "People are now able to eat more healthier foods that are more abudant and accessible, thanks to technology",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "People are now able to eat more healthier foods that are more abudant and accessible, thanks to technology",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Sometimes I take the small things for granted and not reflect on the past",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Sometimes I take the small things for granted and not reflect on the past",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yep, natural food is good less chemicals",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yep, natural food is good less chemicals",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "The advance of technology as really been helpful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "The advance of technology as really been helpful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Agreed.  Because of that I work from home instead of the office lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Agreed.  Because of that I work from home instead of the office lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "607129DWCC",
+          "text": "It is now possible to produce more food for a growing population.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "It is now possible to produce more food for a growing population.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yep, can feed more people quicker",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yep, can feed more people quicker",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Can you imagine does who used the horse and swords to fight war",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Can you imagine does who used the horse and swords to fight war",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "607129DWCC",
+          "text": "The same happens in the medical field. Aspects like vaccines, and emerging threats can be addressed using technologies.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "The same happens in the medical field. Aspects like vaccines, and emerging threats can be addressed using technologies.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "I can't and thank god.  and a catapult",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "I can't and thank god.  and a catapult",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yep, vaccines is a big one Can be tested quicker",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "Yep, vaccines is a big one Can be tested quicker",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Yes, rather than rushing to work every morning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Yes, rather than rushing to work every morning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e2c9DWCC",
+          "recipient": "607129DWCC",
+          "text": "Mobility and defense are also other examples that make use of technology",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "607129DWCC",
+          "recipient": "607129DWCC",
+          "text": "Mobility and defense are also other examples that make use of technology",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "607129DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "yep, helps you defend against abd things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e2c9DWCC",
+          "recipient": "67e2c9DWCC",
+          "text": "yep, helps you defend against abd things",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6314b9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Yeah it is annoying having to rush to work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "678fa9DWCC",
+          "recipient": "678fa9DWCC",
+          "text": "Yeah it is annoying having to rush to work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "678fa9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Even communication, just imagine sending",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6314b9DWCC",
+          "recipient": "6314b9DWCC",
+          "text": "Even communication, just imagine sending",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "Science and technology help make medicine better and helps things like vaccines work more and make people more healthy",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "Science and technology are making our lives healthier, easier and more comfortable.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "I agree with this statement.  Advancement in both have streamlined life in a way that I have more time to do more important things like hanging out with my kids.  I don't want to waste time on the mundane.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "It allows us to handle important challenges. The proper way to handle emerging challenges, for instance in medicine, defense, or even the food industry are all fields that use science and technology.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "transportation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "607129DWCC",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6314b9DWCC",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678fa9DWCC",
+          "recipient": "",
+          "text": "transportation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e2c9DWCC",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K3EKY967QKNQBQ3PGD51NZFZ",
+      "fileName": "20250824_182829_Science_and_technology_are_making_our_lives_healthier,_easier,_and_more_comfortable_01K3EKY967QKNQBQ3PGD51NZFZ.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6168d1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I think that this is mostly true, we are healthier than we've ever been-- more people are surviving illnesses or disorders of the body than historically ever could. And we are interconnected with EVERYTHING, but that is also a problem wrt comfort. In that, we are TOO connected!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I believe this statement is completely true. Technology has especially helped in the healthcare industry which has led to longer lifespans. Other advancements such as air conditioning has led to being able to live a much more comfortable life",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66f041NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Hello. I think that  science and technology helps make our life easier for every one. We grown and learn every day. We need to evolve in our world, but for the best.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Science and technology has led to healthy living because research has been",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I agree completely. I feel like we live in the healthiest, easiest, and most comfortable time in history, Every day we have more and more advancements that make our life even easier",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I agree completely. I feel like we live in the healthiest, easiest, and most comfortable time in history, Every day we have more and more advancements that make our life even easier",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Yes I agree with you. Living with air conditioning also helps people with issues as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Yes I agree with you. Living with air conditioning also helps people with issues as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "It does. People that may not be able to survive in hotter weather can now live longer due to air conditioning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "It does. People that may not be able to survive in hotter weather can now live longer due to air conditioning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "done and  people are now informed of healthy eating and sanitation What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "done and  people are now informed of healthy eating and sanitation What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "One day in the  future hopefully we will have made more things that will help people in every da ylives. Yes I am one so gets very sick in the heat and can't breathe good.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "One day in the  future hopefully we will have made more things that will help people in every da ylives. Yes I am one so gets very sick in the heat and can't breathe good.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "Sanitation is absolutely a huge part of why we are more healthy- without clean water, and proper trash disposal we are doomed Like historically one of the big causes of death while being sick was from dehydration because the water people had access to only made them sicker",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "Sanitation is absolutely a huge part of why we are more healthy- without clean water, and proper trash disposal we are doomed Like historically one of the big causes of death while being sick was from dehydration because the water people had access to only made them sicker",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I am sure we will. Especially with the rise of AI over the coming years I am sure so much more of our lives will become automated which will make things even eaiser",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I am sure we will. Especially with the rise of AI over the coming years I am sure so much more of our lives will become automated which will make things even eaiser",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "We can only hope that the future will be easier and better for every one. More advanced the better.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "We can only hope that the future will be easier and better for every one. More advanced the better.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I think it will be. There is always the risk of reaching the point of diminishing returns",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I think it will be. There is always the risk of reaching the point of diminishing returns",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "I support the statement that science and technology are making our lives healthier,easier and more comfortable.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66f041NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "I believe that science and technology is good for the world and every one in it. It helps people in the world every day and one day we can hope that it will make the world a better place to live in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I do believe that our lives are much easier due to technology. I think that it has helped us to advance greatly as a species",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6168d1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Overall, science and technology HAVE made our lives better, it's just that the way we implement technology threatens our privacy. An easy life through smart devices that control your house- or privacy? Honestly, I prefer the privacy. People sell enough of my information as it is.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Hello.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Hello.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Howdy",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Howdy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "What reasons do you have for believing that our lives are easier?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "What reasons do you have for believing that our lives are easier?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "I agree with you. It has it's cons.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "I agree with you. It has it's cons.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Indeed! The internet is just full of too many eyes wanting to know everything that I do",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Indeed! The internet is just full of too many eyes wanting to know everything that I do",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "But I think no matter what we have, like phones and pcs or any other devices will always be selling our info.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "But I think no matter what we have, like phones and pcs or any other devices will always be selling our info.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Technology has brought so much convinience at home with appliances such as washing machines,microwaves and this lowers the strain",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Technology has brought so much convinience at home with appliances such as washing machines,microwaves and this lowers the strain",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Oh probably, but I can make them work for it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Oh probably, but I can make them work for it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I think it mainly has to do with healthcare in my opinion. Healthcare has advanced so much that lifespans have drastically increased. I think that due to living longer people are able to go at a slower pace and enjoy life more What do you think about healthcare?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I think it mainly has to do with healthcare in my opinion. Healthcare has advanced so much that lifespans have drastically increased. I think that due to living longer people are able to go at a slower pace and enjoy life more What do you think about healthcare?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "If only we could get the money for them selling our info, we would  be  rich lol.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "If only we could get the money for them selling our info, we would  be  rich lol.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Yeah, LOL!!! \nI don't have any smart devices in my household, and I've honestly been heavily weighing the pros and cons of switching to linux.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Yeah, LOL!!! \nI don't have any smart devices in my household, and I've honestly been heavily weighing the pros and cons of switching to linux.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Linux sucks, trust me. I tried it and it sucked.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Linux sucks, trust me. I tried it and it sucked.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "there's a lot of distros I've also been contemplating setting up a pi-hole to eat ads at the router",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "there's a lot of distros I've also been contemplating setting up a pi-hole to eat ads at the router",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "I have an Alexa and unless I mute her I am always worried about her and other  people listening in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "I have an Alexa and unless I mute her I am always worried about her and other  people listening in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I once won an alexa and immediately sold it on.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I once won an alexa and immediately sold it on.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Ofcourse it has greatly improved the healthcare because of improved diagnostic tools that detect diseases early and incre",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Ofcourse it has greatly improved the healthcare because of improved diagnostic tools that detect diseases early and incre",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66f041NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I believe that science and technology can be very helpful, but has it's cons. But we can  hope that  one days  that the world  can be  a lot better and  helpful for every one.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "I do believe that science and technology has made our lives significantly easier. For example, advances in healthcare have led to increased lifespans which has allowed humans to slow down and enjoy life more overall. Living longer into retirement is a luxury many others did not",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6168d1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "We have more connection to each other now than ever before. I have friends from all over the world and we can regularly communicate because of the internet. I can also look up and find so many things ON the 'net... so long as I remember to avoid the stupid AI sites.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "I agree with this statement because pit has resulted to improved healthy living,convinience of the everday living and also environmental health.Generally we are now able to solve problems,protect life.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "Hello.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "Hello.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "The longer lifespans on average IS nice. Ooh, long message I see",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "The longer lifespans on average IS nice. Ooh, long message I see",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I totally agree with you. It has helped in many different ways.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I totally agree with you. It has helped in many different ways.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "What do you think are some cons? The advantages are more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "What do you think are some cons? The advantages are more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I just talked to someone who said they had some privacy cons and I could understand that. Privacy is a big deal to many. I believe that there is many more pros than cons tho.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I just talked to someone who said they had some privacy cons and I could understand that. Privacy is a big deal to many. I believe that there is many more pros than cons tho.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "The internet is one of those advancements that has a good and bad side. It has allowed the spread of news much more quickly and allowing us to easily keep in touch with others around the globe. On the flip side it has allowed a lot of misinformation and scammers have become rampant as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "The internet is one of those advancements that has a good and bad side. It has allowed the spread of news much more quickly and allowing us to easily keep in touch with others around the globe. On the flip side it has allowed a lot of misinformation and scammers have become rampant as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Scammers have always been a thing, it's just that now scammers can use botnets",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Scammers have always been a thing, it's just that now scammers can use botnets",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Unless in technology but there is the whole aspect of authentication",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "Unless in technology but there is the whole aspect of authentication",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Exactly but with the rise of the internet they now have more access to vulnerable populations than ever before",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Exactly but with the rise of the internet they now have more access to vulnerable populations than ever before",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Which is why computer literacy is VERY important",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Which is why computer literacy is VERY important",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66f041NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I hope one day that with science and technology we can be much more advanced and helpful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "67f1b1NZFZ",
+          "text": "I hope one day that with science and technology we can be much more advanced and helpful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Hopefully computer literacy is something that catches up with the modern population. The aging health of many Americans leads to them on average not being very technically literate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6168d1NZFZ",
+          "recipient": "6168d1NZFZ",
+          "text": "Hopefully computer literacy is something that catches up with the modern population. The aging health of many Americans leads to them on average not being very technically literate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6168d1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Ehh We had a lot of it and then Tablet",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "57bfc1NZFZ",
+          "text": "Ehh We had a lot of it and then Tablet",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "sure.it will make life very easy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66f041NZFZ",
+          "recipient": "66f041NZFZ",
+          "text": "sure.it will make life very easy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "I completely agree that technology has made out lives better. There are certainly some downsides but for the most part it has made us healthier, smarter, and able to access information more quickly",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "As I stated in the conversations, our lives are undeniably IMPROVED because of science and technology, but there's a lot of factors inherent that threaten to make our lives WORSE (price gouging, anti-privacy laws, etc.)",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "Science and technology has it's pros and cons like every thing else does. But I believe that one day we will be advanced and have much  better lives. It can be very helpful in this world.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "I am very much in agreement because we are now able to solve problems,protect health and make life more comfortable and efficient.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "30",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "22",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "['native-american']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "30",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "57bfc1NZFZ",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "22",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6168d1NZFZ",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "['native-american']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f041NZFZ",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1b1NZFZ",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

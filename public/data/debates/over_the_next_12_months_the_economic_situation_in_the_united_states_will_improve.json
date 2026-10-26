@@ -1,0 +1,4003 @@
+{
+  "_id": "over_the_next_12_months_the_economic_situation_in_the_united_states_will_improve",
+  "topicId": "over_the_next_12_months_the_economic_situation_in_the_united_states_will_improve",
+  "topic": "Over the next 12 months, the economic situation in the United States will improve a lot",
+  "category": "Economy & Finance",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 434,
+  "initialOpinions": [
+    {
+      "workerId": "657b8QJ0RG",
+      "text": "I disagree that over the next 12 months the economic situation will improve alot in the United States. Inflation is terrible and people cant afford things with their income and cant afford rent.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "64226QJ0RG",
+      "text": "I think the US economy will improve  alot. I think inflation will go down and supply chain problems will come to and end. And I think the tarrif situation will help the US treasury, thus improving the economy.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "60a1dQJ0RG",
+      "text": "While some indicators look good, like inflation easing, I think there's too much uncertainty in policies to be too optimistic about the economy. Tariffs could potentially send things toward a recession if they go really wrong.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "65fcdQJ0RG",
+      "text": "I think that the economy will dip and that a market crash is coming. I am seeing people sell their homes to take advantage of the prices now before the economy gets worse. I believe with tariffs and increased costs of household goods people will cut back on spending, and there will be a lot of issues while companies and individuals try to get accustomed to peoples new spending habits.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "5edb23J4C4",
+      "text": "I lean toward disagree because I think it will either stay same or slightly worsen.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "674c63J4C4",
+      "text": "Inflation has been constant.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "676db3J4C4",
+      "text": "If the end of mankind does not jappen first, i doubt the economy will improve at all",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "6646c3J4C4",
+      "text": "I strongly disagree with this sentiment. The Trump administration is creating an unstable and turbulent state in our country that will undoubtedly bring about economic instability. His tariffs are straining our relationships with our trade partners and will sap Americans' financial reserves.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    }
+  ],
+  "sampleExcerpts": [
+    "I think tariffs and other policies lead to too much uncertainty to say for sure that the US economy is going to improve. There's just as good of a chance of a recession.",
+    "Inflation is easing, and I think the FED will be lowering interest rates soon which will stimulate the economy.",
+    "Hi I believe that the market is more likely to crash and that the economy will dip so I disagree with this statement. I think that businesses are failing and that individuals are already being affected. We have conflicts in political houses, rising tariffs, and inflation.",
+    "I think I lean toward disagree because we are more likely to have greater inflation, or stay the same",
+    "I see no indication of an improvement. Cost of living continues to rise.",
+    "oooof. Now way the Trump administration is going to improve our economic situation. His game playing with tariffs is going to tank our relationship with trade partners and increase the strain on American consumers. We need more stability and not more upheaval and in our country."
+  ],
+  "tags": [
+    "economy & finance",
+    "over",
+    "next",
+    "months",
+    "economic",
+    "situation",
+    "united",
+    "states",
+    "will",
+    "improve",
+    "lot"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.169Z",
+  "conversations": [
+    {
+      "sessionId": "01K3FBM392FH7JKAH7A8MQJ0RG",
+      "fileName": "20250825_012028_Over_the_next_12_months,_the_economic_situation_in_the_United_States_will_improve_a_lot_01K3FBM392FH7JKAH7A8MQJ0RG.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "I think tariffs and other policies lead to too much uncertainty to say for sure that the US economy is going to improve. There's just as good of a chance of a recession.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "657b8QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "i disagree because of inflation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "64226QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Inflation is easing, and I think the FED will be lowering interest rates soon which will stimulate the economy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "Hi I believe that the market is more likely to crash and that the economy will dip so I disagree with this statement. I think that businesses are failing and that individuals are already being affected. We have conflicts in political houses, rising tariffs, and inflation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "Yes I am with you on the tariffs and the likelihood of a recession",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "Yes I am with you on the tariffs and the likelihood of a recession",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "how ever there is people still having to catch up on previous bills because of inflation People cant even afford healthcare because of inflation they have to choose food or go to the doctor there is no way inflation can improve in a year considering we are close to a recession",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "how ever there is people still having to catch up on previous bills because of inflation People cant even afford healthcare because of inflation they have to choose food or go to the doctor there is no way inflation can improve in a year considering we are close to a recession",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "I agree. Even if inflation eases, unemployment is probably going to rise.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "I agree. Even if inflation eases, unemployment is probably going to rise.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "Yes, this is why I believe that there is a low chance of improvement, especially since the topic is regarding the next twelve months. If there was a longer period such as five years I would believe that the country would have the time to be able to boost but with twelve months in mind, I imagine we will only go down right now and I see the effects of the changes in the economy where people are struggling",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "Yes, this is why I believe that there is a low chance of improvement, especially since the topic is regarding the next twelve months. If there was a longer period such as five years I would believe that the country would have the time to be able to boost but with twelve months in mind, I imagine we will only go down right now and I see the effects of the changes in the economy where people are struggling",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "64226QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Things are on the up and up. Its pretty clear We also have the World Cup next Summer which will bring a lot of economic stimulus to the US",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Things are on the up and up. Its pretty clear We also have the World Cup next Summer which will bring a lot of economic stimulus to the US",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "people like myself in tx are struggling",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "people like myself in tx are struggling",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "64226QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Stock Market is at an All time High",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Stock Market is at an All time High",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "In five years, I think there should be a lot less volatility when it comes to policy. I can't see anyone being happy with the lack of stability. The housing market's already in a weird place, so dominoes are lining up to fall.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "In five years, I think there should be a lot less volatility when it comes to policy. I can't see anyone being happy with the lack of stability. The housing market's already in a weird place, so dominoes are lining up to fall.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "64226QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "The US economy will definitely improve. With the Fed going to lower rates and the Tariffs bringing in a lot of money, things are on the UP and UP.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "657b8QJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "I disagree with this statement as we are close to a recession and people have to decide to go to the doctor or pay for groceries.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "I think that over the next twelve months that the US will not improve and that is it more likely that we will head into a recession or a market crash because tariffs, inflation, unemployment, and spending habits are changing right now.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "I can't see things improving over the next 12 months. There's too much volatility when it comes to policy and no one knows where things are going to end up with things like unemployment or especially tariffs.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "goods from china have high tarriffs people cant afford rent and have to have dual incomes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "goods from china have high tarriffs people cant afford rent and have to have dual incomes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64226QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "Techstocks continue to rise, powering the AI economy for the USA",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "Techstocks continue to rise, powering the AI economy for the USA",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Wow, I actually was under the impression that tariffs would affect the economy negatively because people are cutting back on spending, and in the next twelve months I do not imagine that will be enough time for the US to resurface in all areas of trade and that we would need much longer to have a turn around.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Wow, I actually was under the impression that tariffs would affect the economy negatively because people are cutting back on spending, and in the next twelve months I do not imagine that will be enough time for the US to resurface in all areas of trade and that we would need much longer to have a turn around.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "I completely agree with you. Beyond day to day things, the housing market is strange too. We're more likely to go full into a recession.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "I completely agree with you. Beyond day to day things, the housing market is strange too. We're more likely to go full into a recession.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "I agree with you we are going to go into a recession Things are getting worse financially",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "I agree with you we are going to go into a recession Things are getting worse financially",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64226QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "The Tarriffs are good for the economy because they protect US industries, which leads to more investment in the USA",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "The Tarriffs are good for the economy because they protect US industries, which leads to more investment in the USA",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Yes there are places where the economy is thriving such as in technology but it is the consumers who will also have a major impact. People are not buying right now and are slowing down on spending habits. They are not eating out and businesses are being affected. The economy includes the US as a whole not just certain sectors Yes but what about the next twelve months? Do you think that the tariffs could boost the economy in the next year alone?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Yes there are places where the economy is thriving such as in technology but it is the consumers who will also have a major impact. People are not buying right now and are slowing down on spending habits. They are not eating out and businesses are being affected. The economy includes the US as a whole not just certain sectors Yes but what about the next twelve months? Do you think that the tariffs could boost the economy in the next year alone?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Unemployment is a big risk too. If more companies really start going into replacing people with AI, unemployment is going up.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Unemployment is a big risk too. If more companies really start going into replacing people with AI, unemployment is going up.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "AI is defintely taking over",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "AI is defintely taking over",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "No jobs, no money, high cost of living = recession.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "No jobs, no money, high cost of living = recession.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "agreed people cant afford healthcare due to inflation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "agreed people cant afford healthcare due to inflation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64226QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "People will always continue to spend on the essentials like food and health, I dont see people cutting back on that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "People will always continue to spend on the essentials like food and health, I dont see people cutting back on that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "I think that it will take time for there to be more US owned areas and that it will not be enough time for startups",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "I think that it will take time for there to be more US owned areas and that it will not be enough time for startups",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64226QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "I think the World Cup will be a bring tourism stimulus to the US economy as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "I think the World Cup will be a bring tourism stimulus to the US economy as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Yes I am seeing people however choose not to go to the hospital and we do not have free healthcare so that affects peoples decisions and then people a",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Yes I am seeing people however choose not to go to the hospital and we do not have free healthcare so that affects peoples decisions and then people a",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "657b8QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "I disagree because AI will take over jobs which will make unemployment worse",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "64226QJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "The US economy will improve a lot over the next year. Tarriffs that are serving to product the US economy will lead to more investment. The FED will be lowering interests rates soon which will also stimulate the economy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "I disagree. Due to factors like higher costs of living due to inflation, the risk of higher unemployment and uncertainty over tariffs and other policies, we're more likely to go into a recession than have the economy improve.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Hi there I do not think that the economy will rise and that instead it will plummet. I think that we are foreseeing a market crash and possible recession. The tariffs, cutting back on spending habits, inflation and unemployment are changing in our monetary climate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "I agree with you people cant even afford healthcare anymore",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "I agree with you people cant even afford healthcare anymore",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Yes I disagree as well. I think that although AI has its own impact on the economy and make a lot of money that way, it will affect all other areas, or at least most other areas. Because it will boost technological advancement and take away peoples jobs in other places.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Yes I disagree as well. I think that although AI has its own impact on the economy and make a lot of money that way, it will affect all other areas, or at least most other areas. Because it will boost technological advancement and take away peoples jobs in other places.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Anything tariffs might provide would be years in the future. Starting or restarting that level of manufacturing is not something that can happen in the next year.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Anything tariffs might provide would be years in the future. Starting or restarting that level of manufacturing is not something that can happen in the next year.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "64226QJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "That view overlooks the data. Inflation is going down and unemployment is at historic lows. Constantly predicting a recession despite evidence leads to unnecessary panic Plus we have the World Cup in 2026, which will bring a lot of economic stimulus to major cities across the nation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "That view overlooks the data. Inflation is going down and unemployment is at historic lows. Constantly predicting a recession despite evidence leads to unnecessary panic Plus we have the World Cup in 2026, which will bring a lot of economic stimulus to major cities across the nation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "people cant afford the necessities right now and have cut back on spending",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "people cant afford the necessities right now and have cut back on spending",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Yes I see the changes in peoples behaviors. They are not going to the hospital when needed, they are selling homes right now to get a higher price point for it because there is a high likelihood everything is going to dip into a recession",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Yes I see the changes in peoples behaviors. They are not going to the hospital when needed, they are selling homes right now to get a higher price point for it because there is a high likelihood everything is going to dip into a recession",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "people are trying to save money which is impossible",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "people are trying to save money which is impossible",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Yes, inflation is going down but it's not going negative. Things still cost money and wages haven't caught up.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "Yes, inflation is going down but it's not going negative. Things still cost money and wages haven't caught up.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "64226QJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "Since you agree that inflation is going down, I think you need to change your thoughts here.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "60a1dQJ0RG",
+          "text": "Since you agree that inflation is going down, I think you need to change your thoughts here.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "AI is coming in and the more companies replace humans with AI to cut costs, unemployment is going to rise. I stand by them. What we're seeing is the residual effects of previous levels of inflation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64226QJ0RG",
+          "recipient": "64226QJ0RG",
+          "text": "AI is coming in and the more companies replace humans with AI to cut costs, unemployment is going to rise. I stand by them. What we're seeing is the residual effects of previous levels of inflation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Yes I definitely agree with you. I think that if we are talking about the next twelve months I am not very hopeful for the economy because with the changes such as tariffs, it does not give enough time for US businesses to grow and take over what US citizens are buying. I think that improvement could be seen in the next decade or less, but the next year does have likely results",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Yes I definitely agree with you. I think that if we are talking about the next twelve months I am not very hopeful for the economy because with the changes such as tariffs, it does not give enough time for US businesses to grow and take over what US citizens are buying. I think that improvement could be seen in the next decade or less, but the next year does have likely results",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "657b8QJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "we are in a recession it seems",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "65fcdQJ0RG",
+          "text": "we are in a recession it seems",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Yes the gap between wages and prices is immense I ag",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "657b8QJ0RG",
+          "recipient": "657b8QJ0RG",
+          "text": "Yes the gap between wages and prices is immense I ag",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "The economy will remain strong, inflation will come down, and the World Cup in 2026 will help support the US economy next summer.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "I disagree because we are almost in a recession, AI will take over jobs and people are not getting raises",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "I think that the US will not be improving regards to the economy because we are seeing how unemployment, tariffs, spending habits and inflation are affecting US citizens. 12 months is not enough time for a comeback and I only see a decline from here for now.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "There is too much uncertainty when it comes to various policies, especially tariffs. The residual effects of high inflation have left people lesser able to afford things from groceries to housing. The risk of a recession is higher than people think.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "real-estate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "research",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "43",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65fcdQJ0RG",
+          "recipient": "",
+          "text": "real-estate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "research",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60a1dQJ0RG",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "657b8QJ0RG",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "43",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64226QJ0RG",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K3FMMJ32Y7V3ZXXFJDQ3J4C4",
+      "fileName": "20250825_040024_Over_the_next_12_months,_the_economic_situation_in_the_United_States_will_improve_a_lot_01K3FMMJ32Y7V3ZXXFJDQ3J4C4.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5edb23J4C4",
+          "recipient": "674c63J4C4",
+          "text": "I think I lean toward disagree because we are more likely to have greater inflation, or stay the same",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "674c63J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "I see no indication of an improvement. Cost of living continues to rise.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6646c3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "oooof. Now way the Trump administration is going to improve our economic situation. His game playing with tariffs is going to tank our relationship with trade partners and increase the strain on American consumers. We need more stability and not more upheaval and in our country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "676db3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "The world is greedy, people will do what they have to ib order to get what they want/need. Even if they have go , lie or steal even kill. Its just the way people are. Its horribleSo i doubt anything will improve i see kt getting alot worse to be honest",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "674c63J4C4",
+          "text": "It looks like we have similar opinions I agree that there is rising cost of living and potentially decline in quality of life, especially for those living on minimum wage",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "It looks like we have similar opinions I agree that there is rising cost of living and potentially decline in quality of life, especially for those living on minimum wage",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "We agree but definitely not the type of thing I want to be right about! I hope I'll be wrong",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "We agree but definitely not the type of thing I want to be right about! I hope I'll be wrong",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "676db3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "Your right, and with the possibilities of cutting ssi checks and foodstamps....i dont see any good coming",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6646c3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "Your right, and with the possibilities of cutting ssi checks and foodstamps....i dont see any good coming",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "674c63J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "This is my first time experiencing economic downturn. I cannot refer to other times in history. This is more of a  gut feeling than anything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "This is my first time experiencing economic downturn. I cannot refer to other times in history. This is more of a  gut feeling than anything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "Sigh. I unfortunately agree I wonder what will happen with the next round of tarrifs-- I'm not s hopefu;",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "Sigh. I unfortunately agree I wonder what will happen with the next round of tarrifs-- I'm not s hopefu;",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "674c63J4C4",
+          "text": "I am also pretty young so i haven't experienced any major recession where I was aware of the economy, so mine is based on the general observations like you and what I recall learning from History classes in school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "I am also pretty young so i haven't experienced any major recession where I was aware of the economy, so mine is based on the general observations like you and what I recall learning from History classes in school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "674c63J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Agreed. There's no real incentive for companies to lower prices either.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Agreed. There's no real incentive for companies to lower prices either.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "674c63J4C4",
+          "text": "Yeah, because all competitors are similarly priced so it only disadvantages them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "Yeah, because all competitors are similarly priced so it only disadvantages them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5edb23J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "I think that in the next year we will be financially worse off by some degree, because cost of living is rapidly rising while wages are not following in a similar trend. Also, the increased monopolies and competition make it so price hiking is expected and accepted.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6646c3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Hard disagree. They're playing games with tariffs and trade partners while cutting social safety net programs that ensure families get food. This will only end us in a worse state than we already are. I only hope they change their mind and pull us off this track before it's too l",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "674c63J4C4",
+          "recipient": "676db3J4C4",
+          "text": "The economy is unlikely to improve. This administration is only in their first year and have a lot more room to cause damage.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "676db3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "If the end of mankind dosent dont see any good coming the world is greedy people will do what they have to do in order to get what they want/need. Lie,steal even kill. Its already happening, its just gonna get a whole lot worse. So i dont see any improvement coming in the future",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Ooof. I agree. Don't even get me started on shrinkflation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Ooof. I agree. Don't even get me started on shrinkflation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676db3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "I agree and especially woth the possiblity of ssi and foodstamp cuts...",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "I agree and especially woth the possiblity of ssi and foodstamp cuts...",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "674c63J4C4",
+          "recipient": "676db3J4C4",
+          "text": "It's difficult right now. You have to come up with creative and legal alternatives to really get ahead",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "It's difficult right now. You have to come up with creative and legal alternatives to really get ahead",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "Right, it's insane how small everything has gotten. I now have to buy multiple of items to have the same amount",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6646c3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "Right, it's insane how small everything has gotten. I now have to buy multiple of items to have the same amount",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "And yet the prices go up!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "And yet the prices go up!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676db3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "And lets face it people ate lazy alot of them want things done the easy way.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "And lets face it people ate lazy alot of them want things done the easy way.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "right! and even the quality is far worse I've noticed. I agree with your other points as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6646c3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "right! and even the quality is far worse I've noticed. I agree with your other points as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "I agree with you too. It sounds like we're on the same page",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "I agree with you too. It sounds like we're on the same page",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "what do you htink is a fair minimum wage? in my state it's 7.25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6646c3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "what do you htink is a fair minimum wage? in my state it's 7.25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "oof. That's definitely not livable I think $15 is fair in most places",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "oof. That's definitely not livable I think $15 is fair in most places",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "674c63J4C4",
+          "recipient": "676db3J4C4",
+          "text": "I agree. People not wanting to do their part really bring down everyone else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "I agree. People not wanting to do their part really bring down everyone else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "even $15 honestly is way too low, especially for those with children/pets but 100X better than $7 lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6646c3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "even $15 honestly is way too low, especially for those with children/pets but 100X better than $7 lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676db3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "Agreed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "Agreed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5edb23J4C4",
+          "recipient": "676db3J4C4",
+          "text": "I think the situation will either stay relatively the same or decline. I do think we are at risk of inflation given the current rising prices. Also, cost of living is becoming unattainable considering the minimum wage of $~7 in many states.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "674c63J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "I don't see improvement in the future. I see further economic strain. All indicators point to more price increases.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "676db3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "I see no improvement in the future, people are greedy they will do what they jave to in order to get what they want/need. Lie steal even kill its already happening its going to get alot worse before the end of it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6646c3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "Hard disagree! I think things are on a bad track and will likely get worse before they get better. The tarrifs, cutting of social safety nets, and trade games are going to hurt American families. Not to mention shrinkflation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "Ooof. What a hard time we're living in that all three of the folks I've chatted with have been on the same page",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "Ooof. What a hard time we're living in that all three of the folks I've chatted with have been on the same page",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "674c63J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "Really bad times. It's funny how a recession has yet to become official.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6646c3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "Really bad times. It's funny how a recession has yet to become official.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "676db3J4C4",
+          "text": "It looks like we are both on the same side, though yours is a bit more extreme. I do see where you're coming from though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "It looks like we are both on the same side, though yours is a bit more extreme. I do see where you're coming from though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "It's here in all but name for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "It's here in all but name for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676db3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Right, people not doing their part is making it hard as well, people are lazy and want things done the easy way. They domt want to jave to work for anything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Right, people not doing their part is making it hard as well, people are lazy and want things done the easy way. They domt want to jave to work for anything.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "676db3J4C4",
+          "text": "I think we can attribute a lot of the immoral behavior to the fact that many don't have enough to fulfill their needs, so they resort to. alternative means",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "I think we can attribute a lot of the immoral behavior to the fact that many don't have enough to fulfill their needs, so they resort to. alternative means",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "674c63J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "Agreed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6646c3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "Agreed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "What do you think are the biggest factors impacting our downturn?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "What do you think are the biggest factors impacting our downturn?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676db3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Yes your right.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Yes your right.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "676db3J4C4",
+          "text": "Sometimes they may feel like it's their only choice. Not necessarily because they're lazy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "Sometimes they may feel like it's their only choice. Not necessarily because they're lazy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "674c63J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "I'm not sure. I guess the global supply chain. Tarriffs, Taxes...",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6646c3J4C4",
+          "recipient": "6646c3J4C4",
+          "text": "I'm not sure. I guess the global supply chain. Tarriffs, Taxes...",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676db3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Your right, I didnt mean everyone but alot",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "Your right, I didnt mean everyone but alot",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "676db3J4C4",
+          "text": "I don't know how families are expected to survive off of so little, and now there are efforts to cut safety net programs which will only make it worse no worries, I understood what you meant haha",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "I don't know how families are expected to survive off of so little, and now there are efforts to cut safety net programs which will only make it worse no worries, I understood what you meant haha",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676db3J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "I can understand i am one of those families",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5edb23J4C4",
+          "recipient": "5edb23J4C4",
+          "text": "I can understand i am one of those families",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6646c3J4C4",
+          "recipient": "674c63J4C4",
+          "text": "The long laundry list food stamps",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "674c63J4C4",
+          "recipient": "674c63J4C4",
+          "text": "The long laundry list food stamps",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5edb23J4C4",
+          "recipient": "676db3J4C4",
+          "text": "Same here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676db3J4C4",
+          "recipient": "676db3J4C4",
+          "text": "Same here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "Absolutely not.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "I disagree that we will improve a lot. Considering the skyrocketing cost of living and stagnant wages, it is increasingly harder for people to economically survive, let alone thrive.",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "It seems alot of people share the same opinions.",
+          "sliderValue": 5,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "Hard disagree. Our economic trajectory is going down. The tarrifs, trade war, and cutting of social services are going to ruin our trade relationships and be a strain to American consumers.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "['public', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "cleaning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "39",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6646c3J4C4",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5edb23J4C4",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "674c63J4C4",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "['public', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "cleaning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676db3J4C4",
+          "recipient": "",
+          "text": "39",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

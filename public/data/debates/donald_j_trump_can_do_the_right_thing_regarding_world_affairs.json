@@ -1,0 +1,3586 @@
+{
+  "_id": "donald_j_trump_can_do_the_right_thing_regarding_world_affairs",
+  "topicId": "donald_j_trump_can_do_the_right_thing_regarding_world_affairs",
+  "topic": "Donald J Trump can do the right thing regarding world affairs",
+  "category": "Science & Technology",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 388,
+  "initialOpinions": [
+    {
+      "workerId": "5e099H23KR",
+      "text": "Trump cannot do the right thing regarding world affairs. Look at what he had done to the reputation and lives of US citizens. If he treats a country like this, how could he do the right thing with the rest of the world?",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "668e8H23KR",
+      "text": "I believe yes, because he has done it before, so he can do it again, regardless of the world affairs",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67f00H23KR",
+      "text": "It is true that Donald trump can do the right thing regarding world affairs. I am in support of him because he can make right choices in international relations with countries like",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6657fH23KR",
+      "text": "I think that trump can do some things right regarding world affairs. but not all 0f it because he needs to think about things when d",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "666f8J7DWW",
+      "text": "He can do the right thing, he showed us that during the first term, but this one he is actively choosing not to.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66f0bJ7DWW",
+      "text": "I don't think Donald Trump has the temperament to handle world affairs. He lets ego and the desire to be heard overshadow decorum and he has a strong desire to be right rather than compromise or look at situations from different angles. I",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "5c78bJ7DWW",
+      "text": "I agree, because it accts according to a plan consistent withits",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "675a2J7DWW",
+      "text": "because trump's unpredicteable st",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    }
+  ],
+  "sampleExcerpts": [
+    "I think Donald Trump cannot make these choices by himself",
+    "I believe that he can do more regardless of world affairs. so i will say yes.",
+    "I think that Trump does not have the capacity to do the right thing regarding world affairs. Look at the amount of topics that had surged throughout his 100 days of his second presidency. Can we trust this guy to be proper with the rest of the world? Can we even trust anybody????",
+    "I agree, because it acts according to a plan that is consistent with its political and strategic objectives, so i think it has done well",
+    "I mean I feel like Donald Trump has shown he is able to do the correct thing regarding world affairs like he showed us during his first 4 years in office, but its like he has absolutely lost his mind and is honestly causing more  issues than he is fixing at this point.",
+    "Donald Trump lacks the ability to put aside his ego and opinions to cooperate on world affairs. He speaks with what appears to be little thought and rarely seems to listen, consider, or compromise views for the greater good. A good global leader pursues the best outcome for all."
+  ],
+  "tags": [
+    "science & technology",
+    "donald",
+    "trump",
+    "right",
+    "thing",
+    "regarding",
+    "world",
+    "affairs"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.798Z",
+  "conversations": [
+    {
+      "sessionId": "01JSWS2AAN264CZMX4YDFH23KR",
+      "fileName": "20250427_235422_Donald_J_Trump_can_do_the_right_thing_regarding_world_affairs_01JSWS2AAN264CZMX4YDFH23KR.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6657fH23KR",
+          "recipient": "5e099H23KR",
+          "text": "I think Donald Trump cannot make these choices by himself",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "668e8H23KR",
+          "recipient": "67f00H23KR",
+          "text": "I believe that he can do more regardless of world affairs. so i will say yes.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5e099H23KR",
+          "recipient": "6657fH23KR",
+          "text": "I think that Trump does not have the capacity to do the right thing regarding world affairs. Look at the amount of topics that had surged throughout his 100 days of his second presidency. Can we trust this guy to be proper with the rest of the world? Can we even trust anybody????",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f00H23KR",
+          "recipient": "668e8H23KR",
+          "text": "I strongly believe that President Donald J. Trump can do the right thing regarding world affairs because he makes wise informed decisions when it comes to international affairs. In his term as the current president, he makes informed decisions regarding the market and the",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "668e8H23KR",
+          "recipient": "67f00H23KR",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f00H23KR",
+          "recipient": "67f00H23KR",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "6657fH23KR",
+          "text": "You are right, Trump definitely cannot make these choices by himself.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "You are right, Trump definitely cannot make these choices by himself.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Donald J. Trump can do the right thing regarding world affairs.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "668e8H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Donald J. Trump can do the right thing regarding world affairs.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "668e8H23KR",
+          "recipient": "67f00H23KR",
+          "text": "I see will both agree on this topic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f00H23KR",
+          "recipient": "67f00H23KR",
+          "text": "I see will both agree on this topic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6657fH23KR",
+          "recipient": "5e099H23KR",
+          "text": "I agree the first few months he has caused nothing but chaos when these tariffs or immigration",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "I agree the first few months he has caused nothing but chaos when these tariffs or immigration",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "6657fH23KR",
+          "text": "Or anything else regarding US lives",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "Or anything else regarding US lives",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6657fH23KR",
+          "recipient": "5e099H23KR",
+          "text": "even deporting american citizens",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "even deporting american citizens",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "668e8H23KR",
+          "text": "President Donald Trump has shown this by engaging in multiple international affairs which are aimed at the well-being of our country and the world at large.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "668e8H23KR",
+          "recipient": "668e8H23KR",
+          "text": "President Donald Trump has shown this by engaging in multiple international affairs which are aimed at the well-being of our country and the world at large.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "6657fH23KR",
+          "text": "Very true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "Very true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6657fH23KR",
+          "recipient": "5e099H23KR",
+          "text": "Now we have three more years of him possibly more",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "Now we have three more years of him possibly more",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "668e8H23KR",
+          "recipient": "67f00H23KR",
+          "text": "yes, you are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f00H23KR",
+          "recipient": "67f00H23KR",
+          "text": "yes, you are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Thank you for supporting and being in agreement with me. Indeed Donald J. Tromp is capble and has all the power he need regarding world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "668e8H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Thank you for supporting and being in agreement with me. Indeed Donald J. Tromp is capble and has all the power he need regarding world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "6657fH23KR",
+          "text": "Yeah, it is an unfortunate circumstance. It's too bad our government also sucks",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "Yeah, it is an unfortunate circumstance. It's too bad our government also sucks",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6657fH23KR",
+          "recipient": "67f00H23KR",
+          "text": "He cannot do the right thing regarding world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "668e8H23KR",
+          "recipient": "5e099H23KR",
+          "text": "Donald Trump has proven that before and is still proving it. he can do it regarding world affairs.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f00H23KR",
+          "recipient": "6657fH23KR",
+          "text": "Through deads like managing to secure better trade deals between US and other international countries, Indeed president Donald J. Trump can do the right regarding world affairs. He does his best and performs exclusively.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5e099H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Trump definitely cannot do the right thing for world affairs. He can barely get America upfloat with all of his proposals that he got other people who should not be involved regarding citizen's lives and wellfare. The only thing he cares about is himself only.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Hello, how are you?",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "668e8H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Hello, how are you?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "6657fH23KR",
+          "text": "I strongly believe that president Donald Trump can do the right thing regarding world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "I strongly believe that president Donald Trump can do the right thing regarding world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "668e8H23KR",
+          "recipient": "5e099H23KR",
+          "text": "it seems we both did not agree to the statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "it seems we both did not agree to the statement",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "668e8H23KR",
+          "text": "No, we did not. I'm interested in why you think he can do it?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "668e8H23KR",
+          "recipient": "668e8H23KR",
+          "text": "No, we did not. I'm interested in why you think he can do it?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6657fH23KR",
+          "recipient": "67f00H23KR",
+          "text": "Yes there are some things can do himself biut regarding tariffs and immigration i thimk he has messed up a moderate amount",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f00H23KR",
+          "recipient": "67f00H23KR",
+          "text": "Yes there are some things can do himself biut regarding tariffs and immigration i thimk he has messed up a moderate amount",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "668e8H23KR",
+          "recipient": "5e099H23KR",
+          "text": "i believe his history in power says it all, I am also interested  in why you said he can not",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "i believe his history in power says it all, I am also interested  in why you said he can not",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "6657fH23KR",
+          "text": "Putting the issue on tarriffs aside, let us be positive, president Donald J. trump leads by embracing diplomacy rather than relying only on millitary power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "Putting the issue on tarriffs aside, let us be positive, president Donald J. trump leads by embracing diplomacy rather than relying only on millitary power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Ahh, that is interesting. For me, it is the way he wants to demolish the department of education and of course the tariffs. It really screws up the pricing of consumer goods nowadays",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "668e8H23KR",
+          "recipient": "668e8H23KR",
+          "text": "Ahh, that is interesting. For me, it is the way he wants to demolish the department of education and of course the tariffs. It really screws up the pricing of consumer goods nowadays",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6657fH23KR",
+          "recipient": "668e8H23KR",
+          "text": "Trump can do something right and do something wrong regarding world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5e099H23KR",
+          "recipient": "67f00H23KR",
+          "text": "Trump cannot do the right thing regarding world affairs. Look at what he had done to the Department of Education. Look at what he had done towards the reputation and lives of American citizens. If he treats American citizens like that, how could he with others around the world?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "668e8H23KR",
+          "recipient": "6657fH23KR",
+          "text": "He has his record of success, and he has started to prove it again.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f00H23KR",
+          "recipient": "5e099H23KR",
+          "text": "I strongly believe that Donald J. Trump can do the right thing regarding world affairs. For example president Donald J. Trump shows willingness to engage in diplomacy. He has an option of being millitary but he is a wise a",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "67f00H23KR",
+          "text": "I see that we don't agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f00H23KR",
+          "recipient": "67f00H23KR",
+          "text": "I see that we don't agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "5e099H23KR",
+          "text": "Donald J. Trump can do the right thing regarding world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "Donald J. Trump can do the right thing regarding world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6657fH23KR",
+          "recipient": "668e8H23KR",
+          "text": "I think he has made some wrong moves like immigration",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "668e8H23KR",
+          "recipient": "668e8H23KR",
+          "text": "I think he has made some wrong moves like immigration",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "67f00H23KR",
+          "text": "May I ask why you think so?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f00H23KR",
+          "recipient": "67f00H23KR",
+          "text": "May I ask why you think so?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "668e8H23KR",
+          "recipient": "6657fH23KR",
+          "text": "But that is not a wrong move if i may say",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "But that is not a wrong move if i may say",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "5e099H23KR",
+          "text": "He has a great experience interacting with world leaders and making wise international decisions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "He has a great experience interacting with world leaders and making wise international decisions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6657fH23KR",
+          "recipient": "668e8H23KR",
+          "text": "not a wrong move per say but i think the way he has handle it like now even deporting americans becuase of their beliefs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "668e8H23KR",
+          "recipient": "668e8H23KR",
+          "text": "not a wrong move per say but i think the way he has handle it like now even deporting americans becuase of their beliefs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "67f00H23KR",
+          "text": "Sure, he has experience. But how did that impact any international decisions?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f00H23KR",
+          "recipient": "67f00H23KR",
+          "text": "Sure, he has experience. But how did that impact any international decisions?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "5e099H23KR",
+          "text": "Additionally, President Donald J. Trump has pushed for better international trade deals",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "Additionally, President Donald J. Trump has pushed for better international trade deals",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "668e8H23KR",
+          "recipient": "6657fH23KR",
+          "text": "i will say he is too fast regarding those issues, but he makes some good point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6657fH23KR",
+          "recipient": "6657fH23KR",
+          "text": "i will say he is too fast regarding those issues, but he makes some good point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5e099H23KR",
+          "recipient": "67f00H23KR",
+          "text": "Better trade deals that increased the pricing of consumer goods?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f00H23KR",
+          "recipient": "67f00H23KR",
+          "text": "Better trade deals that increased the pricing of consumer goods?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f00H23KR",
+          "recipient": "5e099H23KR",
+          "text": "President Donald J. Trump has pushed international decisions",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5e099H23KR",
+          "recipient": "5e099H23KR",
+          "text": "President Donald J. Trump has pushed international decisions",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "Yes he can do the right thing regarding world affairs",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "I think he can do things correctly. but there are some things that he has messed up from",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "Trump definitely cannot do the right thing regarding world affairs. From the experience of tariffs, removal of the Department of Education, and others, he definitely cannot lead with good morals towards anybody.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "I probably agree with the fact that Donald J. Trump can do the right thing regarding world affairs. He has experience negotiating with international leaders and make wise decisions.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "53",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "['out-of-school', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5e099H23KR",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "53",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "['out-of-school', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6657fH23KR",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "668e8H23KR",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00H23KR",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K3YKTA98CJ16VH38HE0J7DWW",
+      "fileName": "20250830_233554_Donald_J_Trump_can_do_the_right_thing_regarding_world_affairs_01K3YKTA98CJ16VH38HE0J7DWW.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "I agree, because it acts according to a plan that is consistent with its political and strategic objectives, so i think it has done well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "666f8J7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "I mean I feel like Donald Trump has shown he is able to do the correct thing regarding world affairs like he showed us during his first 4 years in office, but its like he has absolutely lost his mind and is honestly causing more  issues than he is fixing at this point.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "Donald Trump lacks the ability to put aside his ego and opinions to cooperate on world affairs. He speaks with what appears to be little thought and rarely seems to listen, consider, or compromise views for the greater good. A good global leader pursues the best outcome for all.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "675a2J7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "I lean disagree that Donald J. Trump can consistenstently do the right thing regar",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "666f8J7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "Yeah exactly. I mean he had a few things going for him when he started but for me like with the Iran situation or standing behind israel and russia just seems like the wrong path for him to be taking.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "675a2J7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "Yeah exactly. I mean he had a few things going for him when he started but for me like with the Iran situation or standing behind israel and russia just seems like the wrong path for him to be taking.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "Do you think he has done well with world affairs or just the US? I think he seems unwilling to bend on world issues and more likely to pull out of any global groups that stay and make his position heard.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "Do you think he has done well with world affairs or just the US? I think he seems unwilling to bend on world issues and more likely to pull out of any global groups that stay and make his position heard.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "I believe that although his decisions have been controversial, he has made strong decisions that seek to maximize US interests according to his vision",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "I believe that although his decisions have been controversial, he has made strong decisions that seek to maximize US interests according to his vision",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "I don't think all of his decisions have been wrong, but I do think world affairs cannot all bend to his plan. He needs to be willing to hear others out and compromise. We are a nation that relies on other countries. We're not completely self-sufficient",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "I don't think all of his decisions have been wrong, but I do think world affairs cannot all bend to his plan. He needs to be willing to hear others out and compromise. We are a nation that relies on other countries. We're not completely self-sufficient",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "675a2J7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "I'm not sure Trump can handle world affairs reliably- his unpredictability seems riskly. Do you see his boldness as strength or as a problem?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "666f8J7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "I'm not sure Trump can handle world affairs reliably- his unpredictability seems riskly. Do you see his boldness as strength or as a problem?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "i think he is prioritizing the interest of the united states over multilateral agreeents with other nations",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "i think he is prioritizing the interest of the united states over multilateral agreeents with other nations",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "i think do it well, and it's good that he prioritizes the interests of our nation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "I don't think he has the right temperament or approach to world affairs. He seems to believe that the US deserves all the power and everyone should bend to our will. That is not being a good ally or cooperative nation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "675a2J7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "I lean disagree - trump unpredictability makes him hard to trust in world affairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "666f8J7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "While he may have done the correct things at the beginning he is an absolute nightmare night with world affairs with zero regard for doing things the correct way. For example him striking Iran was not his call to make, they are a sovereign nation that Israel has a problem with.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "I agree completely with your statement. World affairs are not the same as national ones. There needs to be more consideration, discussion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "675a2J7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "I agree completely with your statement. World affairs are not the same as national ones. There needs to be more consideration, discussion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "i believe that his trade policy could be good for our nation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "666f8J7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "i believe that his trade policy could be good for our nation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "666f8J7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "I think I can agree in the aspect of we need to all play by the same rules in trade he was onto something  but looking at his algorithm the man will just believe anything. The value of the dollar makes it to where its next to impossible for some of these nations to import things from us, while it is crucial for us to because of the costs to manufacture in house. We cant both be the global currency and want 3rd world countries to buy things from us.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "I think I can agree in the aspect of we need to all play by the same rules in trade he was onto something  but looking at his algorithm the man will just believe anything. The value of the dollar makes it to where its next to impossible for some of these nations to import things from us, while it is crucial for us to because of the costs to manufacture in house. We cant both be the global currency and want 3rd world countries to buy things from us.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "675a2J7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "I lean disagree. His unpredictability makes it hard to rely on him in world affairs. Do you think unpredictability can sometimes be an advantage on the global stage?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "I lean disagree. His unpredictability makes it hard to rely on him in world affairs. Do you think unpredictability can sometimes be an advantage on the global stage?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "i think the iran issues is very complex, but even so it turned out successfully in line with our interest",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "666f8J7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "i think the iran issues is very complex, but even so it turned out successfully in line with our interest",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "Maybe, but I think cooperation and transparency is more reliable. The US has power but we're not the only ones.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "675a2J7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "Maybe, but I think cooperation and transparency is more reliable. The US has power but we're not the only ones.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "I don't know that he can do the right thing when the right thing requires a compromise to his ideas and beliefs. He likes to put the US above all other nations and that's not a great look for world affairs.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "i think international politics is complex but i think trump has an objective and coherent vision of how improve our benefits and interests",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "666f8J7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "I think that he did ok during his first term but through policies regarding trade, and things like striking Iran inside of their nation he has shown a disregard for how this country runs and has taken it upon himself to fix the world when that was never the position he hinted at.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "675a2J7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "I lean disagree - Trump boldness can look strong but his unpredictability and self interest make him unreliable in world afffairs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "i believe he has put the united states in a stronger negotiating position than in the past, and that is not necessarily a bad thing i believe that in the long time, his policies will benefit us, since the interests of our nation are above all else",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "675a2J7DWW",
+          "recipient": "675a2J7DWW",
+          "text": "i believe he has put the united states in a stronger negotiating position than in the past, and that is not necessarily a bad thing i believe that in the long time, his policies will benefit us, since the interests of our nation are above all else",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "I agree that the first term wasn't as bad. There definitely seems to be more ego now. I don't like pulling out of global agreements rather than staying and negotiating. Seems dangerous to just walk away and think that we don't need to cooperate. Do you support him doing that?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "666f8J7DWW",
+          "recipient": "666f8J7DWW",
+          "text": "I agree that the first term wasn't as bad. There definitely seems to be more ego now. I don't like pulling out of global agreements rather than staying and negotiating. Seems dangerous to just walk away and think that we don't need to cooperate. Do you support him doing that?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "666f8J7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "Its fine if he has the intention of negotating and going back into them but that doesnt seem to  be the case. and i definetly agree his ego has ballooned. knowing this is his last term doesnt help.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "66f0bJ7DWW",
+          "text": "Its fine if he has the intention of negotating and going back into them but that doesnt seem to  be the case. and i definetly agree his ego has ballooned. knowing this is his last term doesnt help.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "675a2J7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "I don't think Trump can be trusted in the world affairs - too driven by self interest. Do you see his bold style as helpful or harmful globally",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "5c78bJ7DWW",
+          "text": "I don't think Trump can be trusted in the world affairs - too driven by self interest. Do you see his bold style as helpful or harmful globally",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "disagree",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "i remain firm in my agreement with Trump's policies",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "I believe that Donald Trump lets ego dictate his behavior to the detriment of global affairs. He is unwilling to cooperate or negotiate a compromise, choosing instead to loudly declare the US above and out of anything he does not explicitly agree with.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "Im sure he cant. I mean hes shown that over 6 years almost not. and he things",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "30",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "39",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "media",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "30",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666f8J7DWW",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "39",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66f0bJ7DWW",
+          "recipient": "",
+          "text": "media",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5c78bJ7DWW",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "675a2J7DWW",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

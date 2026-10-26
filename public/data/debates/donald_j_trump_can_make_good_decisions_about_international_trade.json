@@ -1,0 +1,1844 @@
+{
+  "_id": "donald_j_trump_can_make_good_decisions_about_international_trade",
+  "topicId": "donald_j_trump_can_make_good_decisions_about_international_trade",
+  "topic": "Donald J Trump can make good decisions about international trade",
+  "category": "Society & Politics",
+  "topicType": "breadth",
+  "conversationCount": 1,
+  "totalTurns": 198,
+  "initialOpinions": [
+    {
+      "workerId": "62f6eK6DSH",
+      "text": "Donald Trump is the most incompetent president we've ever had. America is facing even harder times than usual with the tariff mess he's caused. He cannot make rational decisions.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "6633aK6DSH",
+      "text": "Trump has never made a good decision in his life much less about international trade. He fails at every deal. He is not a leader, he is a scam artist.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "662bfK6DSH",
+      "text": "I guess the best outcome would be to bring jobs back to the US, but in the meantime it's hurting other countries and, more importantly, the people of this country. We will pay higher prices for goods, as well as taxes.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "66badK6DSH",
+      "text": "I agree with the statement. He's capable of managing business affairs as proven by his history. Despite failures or successes, he seems as capable as most businessmen and politicians.",
+      "sliderValue": 4,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "Donald Trump cannot make rational decisions about anything. That extends to good international trade decisions for America.",
+    "It seems Donald Trump is capable of making good decisions about international trade. Based on recent events, the moves he has made seem to be working.",
+    "Donald Trump isn't trying to make deals for the country, he is trying to make deals for himself. He has proven that he is not a good leader domestically or internationally. I have zero confidence that he can make any international trade deals, much less good ones."
+  ],
+  "tags": [
+    "society & politics",
+    "donald",
+    "trump",
+    "make",
+    "good",
+    "decisions",
+    "about",
+    "international",
+    "trade"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.803Z",
+  "conversations": [
+    {
+      "sessionId": "01K37KNC51RPHZ71FC08BK6DSH",
+      "fileName": "20250822_010958_Donald_J_Trump_can_make_good_decisions_about_international_trade_01K37KNC51RPHZ71FC08BK6DSH.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "62f6eK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Donald Trump cannot make rational decisions about anything. That extends to good international trade decisions for America.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66badK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "It seems Donald Trump is capable of making good decisions about international trade. Based on recent events, the moves he has made seem to be working.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6633aK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "Donald Trump isn't trying to make deals for the country, he is trying to make deals for himself. He has proven that he is not a good leader domestically or internationally. I have zero confidence that he can make any international trade deals, much less good ones.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "662bfK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "To force other countries to pay higher prices for materials and products in trade can hurt not only their economy, but it can also strain our relations with these countries. The citizens of those countries can't afford to pay higher prices like the people of the US. Maybe i",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6633aK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "What decisions or moves has he made that have worked?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66badK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "What decisions or moves has he made that have worked?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "62f6eK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "I totally agree. That is not the way trade works. Especially when we are trying to maintain good relations with everyone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "662bfK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "I totally agree. That is not the way trade works. Especially when we are trying to maintain good relations with everyone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "662bfK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "I have to agree with you, his businesses failed badly, so if he's applying the same reasoning to international trade, it won't have a good outcome.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "62f6eK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "I have to agree with you, his businesses failed badly, so if he's applying the same reasoning to international trade, it won't have a good outcome.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66badK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "But wouldn't it be great for the rest of us if he is successful? Since he's already been elected, I'm hopeful that he does succeed before this country falls apart.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6633aK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "But wouldn't it be great for the rest of us if he is successful? Since he's already been elected, I'm hopeful that he does succeed before this country falls apart.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "62f6eK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Yes. And it would be one thing if he used rational numbers, but changing up the tariffs to astronomical and comically ridiculous numbers is not how to deal with the situation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "662bfK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Yes. And it would be one thing if he used rational numbers, but changing up the tariffs to astronomical and comically ridiculous numbers is not how to deal with the situation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "662bfK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "For decades the US has worked to build strong trade relations with multiple countries, and now it's going to be thrown out? That's not fair to the other countries who have cooperated with us for years. I wonder if he ever took any financial/economics classes? Even if he did, he'd throw out the book and come up with his own half-baked plans.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "62f6eK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "For decades the US has worked to build strong trade relations with multiple countries, and now it's going to be thrown out? That's not fair to the other countries who have cooperated with us for years. I wonder if he ever took any financial/economics classes? Even if he did, he'd throw out the book and come up with his own half-baked plans.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6633aK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "It would be great, but unfortunately that hasn't been the case. He can't get a deal done. You don't root for someone that consistently beats you down.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66badK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "It would be great, but unfortunately that hasn't been the case. He can't get a deal done. You don't root for someone that consistently beats you down.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "62f6eK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "I agree. It's ruining all economies at once and proves he cannot make the right decisions even in matters pertaining to business.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "662bfK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "I agree. It's ruining all economies at once and proves he cannot make the right decisions even in matters pertaining to business.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "62f6eK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "Donald Trump cannot make good decisions pertaining to international trade.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66badK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Donald Trump can make good decisions about international trade.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6633aK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "Donald J. Trump has no clue what he is doing with international trade. He can't get a deal done to save his life. We see consistently higher prices based on tariffs with no end in sight. Why can't Trump do his job?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "662bfK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "Tariffs are known to be a bad idea, so if he tries to use them in a good way, it'll probably fail. He doesn't learn lessons from past history and only wants to do things his way. Whether or not he succeeds, history probably won't favor his actions too well. We need fair trade.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "62f6eK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "I completely agree. It's not only international trade decisions that he isn't good at. It's any decision at all. And it's funny since he owns multiple companies. It's clear he isn't the one running them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6633aK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "I completely agree. It's not only international trade decisions that he isn't good at. It's any decision at all. And it's funny since he owns multiple companies. It's clear he isn't the one running them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66badK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "You may be right. Hopefully, he will succeed and America will not suffer too much loss.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "662bfK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "You may be right. Hopefully, he will succeed and America will not suffer too much loss.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "662bfK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "From the little I know about tariffs, William McKinley tried to use tariffs and he was very unpopular.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66badK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "From the little I know about tariffs, William McKinley tried to use tariffs and he was very unpopular.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6633aK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "He has bankrupted many companies for sure.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "62f6eK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "He has bankrupted many companies for sure.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66badK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Heard the same. I hope it doesn't come to that though.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "662bfK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Heard the same. I hope it doesn't come to that though.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "62f6eK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "From what I heard, casinos included. How is that even possible unless extremely incompetent!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6633aK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "From what I heard, casinos included. How is that even possible unless extremely incompetent!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "662bfK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "When it comes to international trade, we need to respect other nations and use diplomacy. This is a true artform and can be applied to many situations.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66badK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "When it comes to international trade, we need to respect other nations and use diplomacy. This is a true artform and can be applied to many situations.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6633aK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "It's been the most frightening 8 months. The worst part is there were so many people who trusted in him. Shamefully the higher prices we are seeing is because he can't get an international trade deal done He is just making the other countries mad who continuously call his bluff.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "62f6eK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "It's been the most frightening 8 months. The worst part is there were so many people who trusted in him. Shamefully the higher prices we are seeing is because he can't get an international trade deal done He is just making the other countries mad who continuously call his bluff.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66badK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Definitely an artform. And I don't pretend to fully understand how it all works. The American experiment has lasted so long. I hope the last decade isn't the downfall of this country's longevity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "662bfK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Definitely an artform. And I don't pretend to fully understand how it all works. The American experiment has lasted so long. I hope the last decade isn't the downfall of this country's longevity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "62f6eK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "Totally. Along with the unnecessary \"pandemic\" price increases, now we have tariffs on that. It's crazy!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6633aK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "Totally. Along with the unnecessary \"pandemic\" price increases, now we have tariffs on that. It's crazy!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "62f6eK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "Donald Trump is incompetent when it comes to international trade decisions. He is embarrassing us all and other countries are starting to not take us seriously. Our standing in the world has dropped tremendously.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6633aK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "Donald Trump is incompetent. He has no business trying to negotiate with anyone much less world leaders. Counting the days until he is out of office.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66badK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "Donald Trump can make good decisions about international trade. The odds are not in his favor, but I think he may be able to accomplish a favorable outcome for America.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "662bfK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "Instead of acting like a bully toward other countries, the US needs to be respectful and diplomatic. Surely something can be worked out between our country and others. We can all benefit from science, industry, production and how to treat our environment.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "62f6eK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "I disagree with you. I wish that were true, but from what we've seen, he's playing with America and not helping us.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66badK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "I disagree with you. I wish that were true, but from what we've seen, he's playing with America and not helping us.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "662bfK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "I wish our country would have something like Britain has: if the population is dissatisfied with how the government is running, leaders can be booted out of office.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6633aK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "I wish our country would have something like Britain has: if the population is dissatisfied with how the government is running, leaders can be booted out of office.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6633aK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "I appreciate your prospective, and it is correct. However, it does not answer the prompt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "662bfK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "I appreciate your prospective, and it is correct. However, it does not answer the prompt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66badK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "I don't fully understand all the ins and outs of how tariffs work. I hope you're wrong.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "62f6eK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "I don't fully understand all the ins and outs of how tariffs work. I hope you're wrong.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "662bfK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "The world is watching and waiting for the outcome of the President's meetings with Putin about the war in Ukraine. Again, hope he doesn't act like a bully.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6633aK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "The world is watching and waiting for the outcome of the President's meetings with Putin about the war in Ukraine. Again, hope he doesn't act like a bully.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "62f6eK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "I wish I was wrong. His tariffs have halted supplies and goods for small businesses in America and has caused many of them to struggle",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66badK6DSH",
+          "recipient": "66badK6DSH",
+          "text": "I wish I was wrong. His tariffs have halted supplies and goods for small businesses in America and has caused many of them to struggle",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6633aK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "He folds to Putin every time. He will never get a trade deal done at this rate, much less end a war he was going to end on day 1.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "662bfK6DSH",
+          "recipient": "662bfK6DSH",
+          "text": "He folds to Putin every time. He will never get a trade deal done at this rate, much less end a war he was going to end on day 1.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "662bfK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "Economic sanctions against another country like Russia prolong the people's suffering, and to increase prices in international trade is a double blow.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6633aK6DSH",
+          "recipient": "6633aK6DSH",
+          "text": "Economic sanctions against another country like Russia prolong the people's suffering, and to increase prices in international trade is a double blow.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66badK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "So you think he's playing the game just hoping that other countries will cave, but sacrificing small business owners in the process?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "62f6eK6DSH",
+          "recipient": "62f6eK6DSH",
+          "text": "So you think he's playing the game just hoping that other countries will cave, but sacrificing small business owners in the process?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "Donald Trump is a horrible person. He can not make deals",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "He absolutely cannot make good international trade decisions and I'm glad almost everyone I interacted in this study could see the same. Americans are struggling even more because of the price hikes on most things.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "I agree that the President can't make good decisions about international trade. He doesn't have a good track record when it comes to businesses that thrive or fail.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "Donald Trump can make good decisions about internation trade. The question of whether trade wars with tariffs can prove successful is a different thing. History doesn't support it, but I hope he can pull it off.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "['native-american', 'white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "73",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "widowed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "non-profit",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "62f6eK6DSH",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66badK6DSH",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "['native-american', 'white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6633aK6DSH",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "73",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "widowed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "662bfK6DSH",
+          "recipient": "",
+          "text": "non-profit",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

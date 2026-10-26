@@ -1,0 +1,3912 @@
+{
+  "_id": "i_m_worried_about_not_being_able_to_give_children_a_good_education",
+  "topicId": "i_m_worried_about_not_being_able_to_give_children_a_good_education",
+  "topic": "I’m worried about not being able to give children a good education",
+  "category": "General Discussions",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 424,
+  "initialOpinions": [
+    {
+      "workerId": "582afTT3WF",
+      "text": "My children are grown, but my grandchildren are a concern.  So far they are doing well in pubic schools that their parents have researched.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "65c9cTT3WF",
+      "text": "I am far more worried about being able to stay housed and fed.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "676caTT3WF",
+      "text": "I am concerned about in school education, it's changed a lot over the years but I feel children could get a great education at some select schools, home schooled or tutored as well",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "66bcfTT3WF",
+      "text": "I am worried about giving children a good education.  I believe that teachers are overwhelmed with so many issues in the classroom that the children may be found lacking. I am also worried about the use of technology all around",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "61592DAXR1",
+      "text": "I always worried about giving my son the best education he needed when he was younger. (He is 18 now) I always wondered if the school was good enough for him. If he was understanding what the teachers were teaching him, if he needed a tutor. I always wanted to make sure I was in the front lines of his learning to make sure he had all of the tools needed.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67e03DAXR1",
+      "text": "With the attacks on the department of education, I am worried that children will be able to get a good education. Out children do not receive the best education as it is, we do not need to take more away from them.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6602fDAXR1",
+      "text": "Lots of academic classes are changing",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67f00DAXR1",
+      "text": "Simetimes , It is a sad reality that we cant predict what might happen in the future but with proper planning, I believe there is no worry about the quality of education in the future. So I Disagree. We have educatio policies.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    }
+  ],
+  "sampleExcerpts": [
+    "I am confused a little, I have not received a response.",
+    "I think that people are scared that they will not be able to make it till next week. This causes people not to really care about education in the future.",
+    "What is happening in the classrooms is horrifying.  The teachers must fight poor attention spans and the use of technology.  Also, the attitudes of parents and children towards teachers is causing a disruption n the quality of learning.  The teachers are overwhelmed by the amount",
+    "I think with the attacks on the department of education children will no longer receive a good education.",
+    "When my son was younger I always worried about his education. I feel like every parent does, and wants the best for their child. I always wondered if the school was the best, if his teachers were explaining things so he understood, and I was ready with a tutor when needed.",
+    "It is quite normal to worry. But quqlity education is not always  expensive. SO I disagree. I can be very heavy on my responsibilities of"
+  ],
+  "tags": [
+    "general discussions",
+    "worried",
+    "about",
+    "not",
+    "being",
+    "able",
+    "give",
+    "children",
+    "good",
+    "education"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.079Z",
+  "conversations": [
+    {
+      "sessionId": "01JSWS1XH55GJS4K9EFCMTT3WF",
+      "fileName": "20250427_235055_I’m_worried_about_not_being_able_to_give_children_a_good_education_01JSWS1XH55GJS4K9EFCMTT3WF.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "582afTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I am confused a little, I have not received a response.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "65c9cTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "I think that people are scared that they will not be able to make it till next week. This causes people not to really care about education in the future.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66bcfTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "What is happening in the classrooms is horrifying.  The teachers must fight poor attention spans and the use of technology.  Also, the attitudes of parents and children towards teachers is causing a disruption n the quality of learning.  The teachers are overwhelmed by the amount",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "676caTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "I think it's true and false. Depends on school district, state you are in etc. Also their is home schooling or private tutoring. In school learning has change a lot in the last 20 years. It's a different scene now. Parents need to definitely be cautious about kids education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "Caan you see my response now? Are you there?",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "582afTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "Caan you see my response now? Are you there?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "I hear ya on people just thinking its tough out there and living just week to week is a challenge for many Its a different world out there for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "I hear ya on people just thinking its tough out there and living just week to week is a challenge for many Its a different world out there for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "582afTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I think researching public schools helps a lot.   I wouldn't send my kids to a school with poor reviews even if i had to move.   now if trump gets his way the whole public school system might be done.  I am not looking forward to seeing that. yes i am here. i don't like what is going on with the trump administration but we go day by day and so far all my grandkids are doing well.   also they learn a lot though outside experiences.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I think researching public schools helps a lot.   I wouldn't send my kids to a school with poor reviews even if i had to move.   now if trump gets his way the whole public school system might be done.  I am not looking forward to seeing that. yes i am here. i don't like what is going on with the trump administration but we go day by day and so far all my grandkids are doing well.   also they learn a lot though outside experiences.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65c9cTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "That would be great, but parents can not afford food and housing, and are still expected to pay taxes. Even if they do not earn enough to rise above the poverty level.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "That would be great, but parents can not afford food and housing, and are still expected to pay taxes. Even if they do not earn enough to rise above the poverty level.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "You might be one of the lucky ones that can afford to move.  The rest of us must do our best where we are.  But traing the kids to be nice would be a good start",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "582afTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "You might be one of the lucky ones that can afford to move.  The rest of us must do our best where we are.  But traing the kids to be nice would be a good start",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "582afTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "i totally agree with that. and i think the schools should teach anger management and also finances. even in younger grades.  it can only help.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "i totally agree with that. and i think the schools should teach anger management and also finances. even in younger grades.  it can only help.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "Yes affordability is key and I think we as a country should ensure that less fortunate get an education as well and a good one at that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "Yes affordability is key and I think we as a country should ensure that less fortunate get an education as well and a good one at that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65c9cTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "Even the elderly are homeless now, and no one cares.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "Even the elderly are homeless now, and no one cares.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "Home schooling is a great option but think about all of education.  Everyone is lacking Teachers have to teach academics! Parents sh",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "582afTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "Home schooling is a great option but think about all of education.  Everyone is lacking Teachers have to teach academics! Parents sh",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "Its sad out there I hear ya, seems like the american dream is disappearing We need too take care of our own whether its the edlderly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "Its sad out there I hear ya, seems like the american dream is disappearing We need too take care of our own whether its the edlderly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "65c9cTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "I am worried about being homeless next week. Education is for the privileged few.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "676caTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I think its a true statement but there are options like home school and are some good schools out there, you just have to find them. Also affordability is key and less fortunate families need access to these avenues",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "582afTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "I was saying that if you can get kids into a good public school system that is everything.    also my kids started going to the library as soon as they could pick up a book.  the public library.  but i agree that temperment and social skills are so important.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66bcfTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "Oh man...I think kids are in trouble in the world of education.  The teachers are struggling and parents want them to take care of every day life things.  The teachers need to focus on academics for a while.  The kids are far behind.  I want the kids to love learning all day ever",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "Its a whole different ball game re education as it was 20 years ago Covid set the kids WAY back in education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "Its a whole different ball game re education as it was 20 years ago Covid set the kids WAY back in education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "582afTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "oh i am so sorry.   i hope that doesn't happen to you. education should be free for all..  it only helps the country.   it is soft power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "oh i am so sorry.   i hope that doesn't happen to you. education should be free for all..  it only helps the country.   it is soft power",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "I so agree that that all children need access to a great education.  Where I am vouchers were just approved which will only help those with money",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "I so agree that that all children need access to a great education.  Where I am vouchers were just approved which will only help those with money",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "Teacher 100% need to focus on teaching education and not social issues",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "Teacher 100% need to focus on teaching education and not social issues",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "Being alone, using only chrome books and no interaction with the teacher made children behind",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "teachers are tired and worn thin too, I respect and feel sorry for them but am thankful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "Being alone, using only chrome books and no interaction with the teacher made children behind",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "teachers are tired and worn thin too, I respect and feel sorry for them but am thankful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65c9cTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "Must be nice. I hope your children do well. You know that poor people want what is best for their children, too. The US says no, put them to work overnight in meat-packing plants. No, it is wealth.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "582afTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "Must be nice. I hope your children do well. You know that poor people want what is best for their children, too. The US says no, put them to work overnight in meat-packing plants. No, it is wealth.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "People always say that they are thankful, but I never see that in attitude or salary.  Teaching has made me cynical",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "People always say that they are thankful, but I never see that in attitude or salary.  Teaching has made me cynical",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I can understand, so you are a teacher?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I can understand, so you are a teacher?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "Parents and children are hard on teachers I just recently retired.. Everyday I say, I'm so glad that I don't teacher anymore",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "Parents and children are hard on teachers I just recently retired.. Everyday I say, I'm so glad that I don't teacher anymore",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "582afTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "right..i think that is coming especially since they are deporting a lot of the workers.  they will change the laws and let children work all hours.  it is really terrible yes there is a wealth gap that is unforgiveable",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "right..i think that is coming especially since they are deporting a lot of the workers.  they will change the laws and let children work all hours.  it is really terrible yes there is a wealth gap that is unforgiveable",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I am not so don't have \"real world\" experience but see hwat teachers go through whether its observing or hearing my education profe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I am not so don't have \"real world\" experience but see hwat teachers go through whether its observing or hearing my education profe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "676caTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "I am concerned as education has changed Soooooo much the last 20 years. We need to figure a way to take care of the teachers and teach education in classrooms and not the other stuff. Also all student need to have access to good, affordable education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "65c9cTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I think that most people in the US are so emporished that education has to come after food and shelter so education I do not think I care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66bcfTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "I  thankful that I am no longer a teacher. I worry about these kids.  There is no curiosity.  The is no desire to learn more.  Those silly cell phones hold all of their attention.  the we put them on chrome books.  We need these kids to get the basics and know things before we pu",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "582afTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "i agree there is so much wrong in this country at the moment.  the government should not be taking things away from the people.   they are concentrating on the wealthy and that is depressing.  i can't wait until the midterms.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "We need to take care of future generations and protect our children and provide a good education whether its a classroom or home school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "582afTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "We need to take care of future generations and protect our children and provide a good education whether its a classroom or home school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "Gosh I so do not agree with you.  I taught in poverty areas for years. Most parents want a good education for kids so their worlds can get better",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "Gosh I so do not agree with you.  I taught in poverty areas for years. Most parents want a good education for kids so their worlds can get better",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "582afTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "teachers in public schools should be paid more.   they shouldn't have to buy their own supplies.   we are failing our teachers and kids especially if they do not have support at home to fill in the gaps in formal education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "teachers in public schools should be paid more.   they shouldn't have to buy their own supplies.   we are failing our teachers and kids especially if they do not have support at home to fill in the gaps in formal education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c9cTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I still think that most people are preoccupied with staying afloat. The US is a failed country. Utterly failed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I still think that most people are preoccupied with staying afloat. The US is a failed country. Utterly failed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "I agree, teachers need to be highly paid especially middle school to highschool",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "582afTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "I agree, teachers need to be highly paid especially middle school to highschool",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "582afTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "we have to pay attention to everything going on at schools.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "we have to pay attention to everything going on at schools.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "No The US is a struggling country.  Education is important.  It will help in all areas",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "No The US is a struggling country.  Education is important.  It will help in all areas",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "they should be paid close to what a college professor is paid after all it is them that molds and shapes these children for college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "582afTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "they should be paid close to what a college professor is paid after all it is them that molds and shapes these children for college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c9cTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "You are silly.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "You are silly.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "wow is all I can say...where are you moving to",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "wow is all I can say...where are you moving to",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "582afTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "head start should not be eliminated.      in middle school and high school the teachers should also have to do more than academics.   imagine being a teacher in high school and having to keep the attention of teens that are only thinking about tik tok.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676caTT3WF",
+          "recipient": "676caTT3WF",
+          "text": "head start should not be eliminated.      in middle school and high school the teachers should also have to do more than academics.   imagine being a teacher in high school and having to keep the attention of teens that are only thinking about tik tok.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c9cTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I hope you have trouble some day.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66bcfTT3WF",
+          "recipient": "66bcfTT3WF",
+          "text": "I hope you have trouble some day.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "Schools have become dangerous and thats way different than when I was growing up. Back then school was a SAFE place I couldnt do it and thats why I have mad respect for education professiona",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "582afTT3WF",
+          "recipient": "582afTT3WF",
+          "text": "Schools have become dangerous and thats way different than when I was growing up. Back then school was a SAFE place I couldnt do it and thats why I have mad respect for education professiona",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66bcfTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "Oh man...this is why I dont use real twitter.  Intelligent conversation is important to me .  So not nice. Congratulations!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c9cTT3WF",
+          "recipient": "65c9cTT3WF",
+          "text": "Oh man...this is why I dont use real twitter.  Intelligent conversation is important to me .  So not nice. Congratulations!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "I think there is a lot we can improve on regarding children education",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "I learned that some people still have a massive case of false hope.",
+          "sliderValue": 1,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "no that i think about it.. i agree.   it is hard to keep the attention of kids in a new kind of world and once ai is fully here that is worrisome.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "Based on the conversations that I just had...yes I am super concerned about the learning that is going on. Tough people here. Education is important!",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "64",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "69",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "media",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "['white', 'asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "transportation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "64",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66bcfTT3WF",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caTT3WF",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "69",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "582afTT3WF",
+          "recipient": "",
+          "text": "media",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "['white', 'asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c9cTT3WF",
+          "recipient": "",
+          "text": "transportation",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JSWS1T0J2XY8H5JTW23DAXR1",
+      "fileName": "20250427_235848_I’m_worried_about_not_being_able_to_give_children_a_good_education_01JSWS1T0J2XY8H5JTW23DAXR1.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6602fDAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "Classes are changing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e03DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "I think with the attacks on the department of education children will no longer receive a good education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "61592DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "When my son was younger I always worried about his education. I feel like every parent does, and wants the best for their child. I always wondered if the school was the best, if his teachers were explaining things so he understood, and I was ready with a tutor when needed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f00DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "It is quite normal to worry. But quqlity education is not always  expensive. SO I disagree. I can be very heavy on my responsibilities of",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "I agree with you, I tried to add onto my statement but it was too long lol. I feel like childrens education is under attack",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e03DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "I agree with you, I tried to add onto my statement but it was too long lol. I feel like childrens education is under attack",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Homeschooling can also work if there is a worry.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Homeschooling can also work if there is a worry.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e03DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "It is under attack, and the children will pay for it with a lack of education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61592DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "It is under attack, and the children will pay for it with a lack of education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6602fDAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "History isn’t even being taught about",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f00DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "History isn’t even being taught about",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Do you doubt that you can fail to give them a good education?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Do you doubt that you can fail to give them a good education?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "100% there are going to be hundreds/thousands of children that dont get the education they need, on top of teenagers not able to go to college. This causes our workforce to be uneducated and many jobs may go unfilled.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e03DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "100% there are going to be hundreds/thousands of children that dont get the education they need, on top of teenagers not able to go to college. This causes our workforce to be uneducated and many jobs may go unfilled.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6602fDAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "A lot of schools are being forced to close",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f00DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "A lot of schools are being forced to close",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e03DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "I agree. It's sad to see that so many people support the dumbing down in this country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61592DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "I agree. It's sad to see that so many people support the dumbing down in this country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Vices in the society has led to that . Association with gangs and drugs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Vices in the society has led to that . Association with gangs and drugs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "I am so glad that we can agree on that. Its sad to see whats happening, and its just getting worse and worse. For our children we must do better.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e03DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "I am so glad that we can agree on that. Its sad to see whats happening, and its just getting worse and worse. For our children we must do better.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6602fDAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "Schools are being forced to close",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f00DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "Hello, Do you believe in homeschooling?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e03DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "It is sad to see so many people supporting the dumbing down of our country. Because of this, children will suffer from not being able to get a good education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "61592DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "I am very worried about our children getting the education they need/deserve. With trump getting rid of the department of education, so many children will deal with the consquences. This of course means less go to college, and less jobs will be filled.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "Yes, I was homeschooled as a child. My son is 19, so I do not worry about education for my child though.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f00DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "Yes, I was homeschooled as a child. My son is 19, so I do not worry about education for my child though.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e03DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "I agree. Schools will close due to the lack of funding for the schools, and the teachers will no longer have a job.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "I agree. Schools will close due to the lack of funding for the schools, and the teachers will no longer have a job.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "The withdrawal of funding education is a backward move. Since most household cant afford the education. This will be a big blow.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61592DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "The withdrawal of funding education is a backward move. Since most household cant afford the education. This will be a big blow.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "Yes, its so sad that children will have to deal with these choices",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f00DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "Yes, its so sad that children will have to deal with these choices",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "Im yet to have a family, So is kinda worrying. Never did homeschooling either.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61592DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "Im yet to have a family, So is kinda worrying. Never did homeschooling either.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6602fDAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "The government should find better solutions for maintaining a stable environment History is not being taught thesame",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e03DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "The government should find better solutions for maintaining a stable environment History is not being taught thesame",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "I was homeschooled after grade 3rd. My son was also homeschooled for a period of time. I plan on having another child, and truly im leaning on only homeschooling them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f00DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "I was homeschooled after grade 3rd. My son was also homeschooled for a period of time. I plan on having another child, and truly im leaning on only homeschooling them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e03DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Instead of denying an education, they should be making sure all children have the best learning experience. They are trying to remove important parts of out country's history.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Instead of denying an education, they should be making sure all children have the best learning experience. They are trying to remove important parts of out country's history.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "Hopefully something happens. The Elite are not pointing out the rght steps.. or rather are being igored. We cant be ignorant about education.. Thats like a Third world country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61592DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "Hopefully something happens. The Elite are not pointing out the rght steps.. or rather are being igored. We cant be ignorant about education.. Thats like a Third world country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "100% im so glad we can agree on this. I hope you have a great rest of your day!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f00DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "100% im so glad we can agree on this. I hope you have a great rest of your day!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6602fDAXR1",
+          "recipient": "61592DAXR1",
+          "text": "This educational system sucks",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f00DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "WIth education policy on funding being withdrawn, I am worried of the quality of Education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e03DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "Due to attack on the department of education, I fear that the children of this country will become uneducated.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "61592DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Im very worried about giving our children the education they need/deserve. With the removement of the department of education, the children will suffer. This causes teenagers to not go to college. Our workforce becomes uneducated and jobs go unfilled.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Removing the department of education was a terrible terrible idea.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Removing the department of education was a terrible terrible idea.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "This will highly impact out society Negatively",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e03DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "This will highly impact out society Negatively",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e03DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "I'm also worried about the job stability for teachers. They are trying to do away with certain parts of the country's history. To me, these things are important for children to learn.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f00DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "I'm also worried about the job stability for teachers. They are trying to do away with certain parts of the country's history. To me, these things are important for children to learn.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6602fDAXR1",
+          "recipient": "61592DAXR1",
+          "text": "The education system needs more focus",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61592DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "The education system needs more focus",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "We need the department back and to ADD to it, not take away and remove it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "We need the department back and to ADD to it, not take away and remove it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6602fDAXR1",
+          "recipient": "61592DAXR1",
+          "text": "The education system is failing History is not even being taught",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61592DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "The education system is failing History is not even being taught",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "THey will be affected too. Running on extra shifts to homeschooling , this will make public education a mess.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e03DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "THey will be affected too. Running on extra shifts to homeschooling , this will make public education a mess.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Its sad to think about how many children wont have access to good schooling. They are trying to get rid of tons of classes in college courses.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Its sad to think about how many children wont have access to good schooling. They are trying to get rid of tons of classes in college courses.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e03DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "Unfortunately, some people are actually in support of this.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f00DAXR1",
+          "recipient": "67f00DAXR1",
+          "text": "Unfortunately, some people are actually in support of this.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6602fDAXR1",
+          "recipient": "61592DAXR1",
+          "text": "Schools are being forced to close and open up as migrant shelters",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61592DAXR1",
+          "recipient": "61592DAXR1",
+          "text": "Schools are being forced to close and open up as migrant shelters",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f00DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "The Trump administration should focus on other important issues. Attacking Education is a blow.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e03DAXR1",
+          "recipient": "67e03DAXR1",
+          "text": "The Trump administration should focus on other important issues. Attacking Education is a blow.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61592DAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Its all disgusting to see and its like no one cares Alright we are about to disconnect, I hope you have a great rest of your day!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6602fDAXR1",
+          "recipient": "6602fDAXR1",
+          "text": "Its all disgusting to see and its like no one cares Alright we are about to disconnect, I hope you have a great rest of your day!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "Yes",
+          "sliderValue": 6,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "Yes because I feel the education system is failing",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "With the attack on the department of education, our children will not get the education that they deserve.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "Im very worried about children getting the education they deserve/need. With the department of education being shut down, many children will go without. Its sad to think how many teenagers wont go to college. How many people wont finish their degrees and how many jobs will go unfilled.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "48",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "['university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "other-non-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "48",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61592DAXR1",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "['university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "other-non-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e03DAXR1",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f00DAXR1",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6602fDAXR1",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

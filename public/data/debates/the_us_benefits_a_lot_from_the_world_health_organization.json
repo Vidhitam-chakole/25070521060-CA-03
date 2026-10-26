@@ -1,0 +1,3693 @@
+{
+  "_id": "the_us_benefits_a_lot_from_the_world_health_organization",
+  "topicId": "the_us_benefits_a_lot_from_the_world_health_organization",
+  "topic": "The US benefits a lot from the World Health Organization",
+  "category": "Health & Wellness",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 400,
+  "initialOpinions": [
+    {
+      "workerId": "676caDETKY",
+      "text": "I don't hear anything about the U.S. getting benefits from WHO but I hear about us helping other countries all the time",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "6781eDETKY",
+      "text": "The US Benefits a lot from the World Health Organization. It provides financial relief as well as beneficial information regarding health resources.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "660b4DETKY",
+      "text": "I think our benefits from WHO in the US are limited but sure they help. It's mainly for response actions against health emergencies and I think poorer nations benefit far more.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67df9DETKY",
+      "text": "The U.S benefits a lot from the World Health Organization since it has a great financial stability and always willing to help nee",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "5b523G5DEA",
+      "text": "The US of course benefits from the World Health organization. We need leading experts on medical topics to be able to have a platform to express new findings and research on health-related topics for the safety of the public.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66478G5DEA",
+      "text": "Yes the U.S benefit from the world health",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "6400eG5DEA",
+      "text": "I think the US does benefit from the WHO. They were vital during the Covid-19 pandemic in areas where the CDC failed or was lax",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "65c3aG5DEA",
+      "text": "I agree the USA benefits a lot with the World Health Organisation. Th",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    }
+  ],
+  "sampleExcerpts": [
+    "I don't know much about W.H.O. but I never hear of the US benefiting from their Aid; I do in turn hear a lot about the U.S. helping other foreign countries constantly",
+    "I think the benefits from WHO in the US are limited. I'm honestly not even sure how they helped in Coivd except for sharing information since we had our own response. I think poor nations benefit more than we do in this.",
+    "TheW.H.O depends on US to support country with disease outbreaks with no",
+    "The US, like every other country, benefits from the spreading of research and facts by leading experts in the medical field. A platform to facilitate this is essential to public welfare.",
+    "yes the U.S benefits from the world health\nThat provides with global health care data",
+    "I think the US absolutely benefits from the WHO, particularly during the Covid pandemic. Other diseases were also kept at bay preventing outbreaks on American soil, so while we may not have seen direct influence, sometimes what you don't see is just as important as what you do."
+  ],
+  "tags": [
+    "health & wellness",
+    "benefits",
+    "lot",
+    "from",
+    "world",
+    "health",
+    "organization"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.423Z",
+  "conversations": [
+    {
+      "sessionId": "01JTH524J8T8BFVKDWAX0DETKY",
+      "fileName": "20250505_214724_The_US_benefits_a_lot_from_the_World_Health_Organization_01JTH524J8T8BFVKDWAX0DETKY.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "676caDETKY",
+          "recipient": "67df9DETKY",
+          "text": "I don't know much about W.H.O. but I never hear of the US benefiting from their Aid; I do in turn hear a lot about the U.S. helping other foreign countries constantly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "660b4DETKY",
+          "recipient": "6781eDETKY",
+          "text": "I think the benefits from WHO in the US are limited. I'm honestly not even sure how they helped in Coivd except for sharing information since we had our own response. I think poor nations benefit more than we do in this.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67df9DETKY",
+          "recipient": "676caDETKY",
+          "text": "TheW.H.O depends on US to support country with disease outbreaks with no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6781eDETKY",
+          "recipient": "660b4DETKY",
+          "text": "The World Health Organization is like a guidance counselor to the world for Health. It has the CDC which is extremely important. It continues to produce vital information about health related issues. And it creates jobs as well as financial aid to good cua",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "660b4DETKY",
+          "text": "Your take is probably true, but honestly you get what you take from it. I am sure everyone values the specific information differently.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "Your take is probably true, but honestly you get what you take from it. I am sure everyone values the specific information differently.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "67df9DETKY",
+          "text": "I agree I think W.H.O. is about th US helping rather than the U.S. receiving help Seem slike a one way street",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67df9DETKY",
+          "recipient": "67df9DETKY",
+          "text": "I agree I think W.H.O. is about th US helping rather than the U.S. receiving help Seem slike a one way street",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "6781eDETKY",
+          "text": "I think the CDC is a US org not attached to WHO. WHO is a UN org though but I do agree with CDC helping",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "I think the CDC is a US org not attached to WHO. WHO is a UN org though but I do agree with CDC helping",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "660b4DETKY",
+          "text": "They even keep tabs on stuff like how bad smoking is globally. But for sure poorer countries benefit a lot. They do a lot of mental health care work too, which the United States needs to get a handle on. So at least that would be useful to us.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "They even keep tabs on stuff like how bad smoking is globally. But for sure poorer countries benefit a lot. They do a lot of mental health care work too, which the United States needs to get a handle on. So at least that would be useful to us.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67df9DETKY",
+          "recipient": "676caDETKY",
+          "text": "Helping other country who are need is a form of supporting the W.H.O, to reduces their burden.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "Helping other country who are need is a form of supporting the W.H.O, to reduces their burden.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "6781eDETKY",
+          "text": "They are also I think the ones along with red cross that are first on scenes to help with ebola outbreaks etc. We tend to have our own responses to everything buty no doubt they come and help where they can I just dont know how since we arent a developing nation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "They are also I think the ones along with red cross that are first on scenes to help with ebola outbreaks etc. We tend to have our own responses to everything buty no doubt they come and help where they can I just dont know how since we arent a developing nation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "67df9DETKY",
+          "text": "I understand that and agree but why can't we receive aid as well. Why do we have to take care of the world when many here are suffering?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67df9DETKY",
+          "recipient": "67df9DETKY",
+          "text": "I understand that and agree but why can't we receive aid as well. Why do we have to take care of the world when many here are suffering?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "660b4DETKY",
+          "text": "Yea, outbreaks get them working overdrive. They did help with COVID, but the internal companies definitely responded in kind.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "Yea, outbreaks get them working overdrive. They did help with COVID, but the internal companies definitely responded in kind.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "6781eDETKY",
+          "text": "WHo never got talked about really until covid and then for half country they became enemies. It was weird",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "WHo never got talked about really until covid and then for half country they became enemies. It was weird",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67df9DETKY",
+          "recipient": "676caDETKY",
+          "text": "We are not really suffering as compared to countries who are facing war and disease outbreak.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "We are not really suffering as compared to countries who are facing war and disease outbreak.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "660b4DETKY",
+          "text": "Yea they kinda became a target like Faucci",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "Yea they kinda became a target like Faucci",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "676caDETKY",
+          "recipient": "6781eDETKY",
+          "text": "I have never heard of the U.S. benefiting really from W.H.O. as far as aid is concerned although I do hear a lot about us helping other foreign nations.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "660b4DETKY",
+          "recipient": "67df9DETKY",
+          "text": "I would say limited but I honestly don't know how much on this one. I think they help but it \"feels\" pretty limited but I'm sure I'm wrong. I think poor nations get the most from WHO though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67df9DETKY",
+          "recipient": "660b4DETKY",
+          "text": "The U.S benefit the World Health Organization to support people facing critical health issue and can not be financial issues",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6781eDETKY",
+          "recipient": "676caDETKY",
+          "text": "I believe the World Health Organization is a beneficial service for the care of the world. I think it provides good information for many outbreaks and issues. They provide good information on health realated issues throughout the world including smoking and other common issues.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "6781eDETKY",
+          "text": "I see your point and agree we ALL need to take care of the world but WE also could use aid as well for our homeless community and veterans Seems like a one way street",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "I see your point and agree we ALL need to take care of the world but WE also could use aid as well for our homeless community and veterans Seems like a one way street",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "676caDETKY",
+          "text": "This is true. WHO does a good job of addressing Mental Health issues as well, so we should work on addressing that as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "This is true. WHO does a good job of addressing Mental Health issues as well, so we should work on addressing that as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "67df9DETKY",
+          "text": "It focuses more I think on developing nations with malaria outbreak and ebola etc. For us I think they help set health guidelines and stuff but Im not sure how much we benefit from the org itself with other stuff. Do we get money or other stuff from them?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67df9DETKY",
+          "recipient": "67df9DETKY",
+          "text": "It focuses more I think on developing nations with malaria outbreak and ebola etc. For us I think they help set health guidelines and stuff but Im not sure how much we benefit from the org itself with other stuff. Do we get money or other stuff from them?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "6781eDETKY",
+          "text": "Right I agree, we can always be a critic right?  lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "Right I agree, we can always be a critic right?  lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "676caDETKY",
+          "text": "That's for sure.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "That's for sure.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67df9DETKY",
+          "recipient": "660b4DETKY",
+          "text": "The U.S also take decision in helping others in the W.H.O not malaria and ebola are included.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "The U.S also take decision in helping others in the W.H.O not malaria and ebola are included.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "6781eDETKY",
+          "text": "But as long as WHO is for the greater good then Im all for it. I just honestly dont hear too much about it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "But as long as WHO is for the greater good then Im all for it. I just honestly dont hear too much about it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "676caDETKY",
+          "text": "WHO seems beneficial overall, but they seem to benefit the smaller countries more. They also have more medical and health issues. Especially outbreaks and the like.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "WHO seems beneficial overall, but they seem to benefit the smaller countries more. They also have more medical and health issues. Especially outbreaks and the like.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "6781eDETKY",
+          "text": "Yes I agree 100% even though America is pk as a whole, we still have issues that can benefit from WHO ok",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "Yes I agree 100% even though America is pk as a whole, we still have issues that can benefit from WHO ok",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "67df9DETKY",
+          "text": "Since it's a UN program I assumed those closer UN member states benefit more than we do across the pond. I really have no idea on this one though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67df9DETKY",
+          "recipient": "67df9DETKY",
+          "text": "Since it's a UN program I assumed those closer UN member states benefit more than we do across the pond. I really have no idea on this one though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "676caDETKY",
+          "text": "Yea, I agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "Yea, I agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "676caDETKY",
+          "recipient": "660b4DETKY",
+          "text": "I honestly don't hear about the US benefiting from WHO but I hear about the US benefiting other foreign nations quite often. I'm not a WHO expert but that's just my personal experience.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6781eDETKY",
+          "recipient": "67df9DETKY",
+          "text": "The U.S. does not benefit that much from the World Health Organization as their focus seems to be on other parts of the world with more issues. Those smaller countries with more issues are more of a concern. They help with outbreaks of diseases and other health concerns.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67df9DETKY",
+          "recipient": "6781eDETKY",
+          "text": "The W.H.O takes a prior benefits from U.S to helping people in other countries with disease outbreak, including COVID 19, Malaria, Flu",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "660b4DETKY",
+          "recipient": "676caDETKY",
+          "text": "I lean agree but also lean disagree. It says \"a lot\" in the statement now that I think about it and I still think we have our own responses to stuff here in the states so I feel their focus is not on one of the richest nations in the world, so not a lot but limited.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "660b4DETKY",
+          "text": "If though we are a rich nation we still have homeless and veterans that could use the help Seems like its a one way street,  Aid going out and not coming in",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "If though we are a rich nation we still have homeless and veterans that could use the help Seems like its a one way street,  Aid going out and not coming in",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "67df9DETKY",
+          "text": "We agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67df9DETKY",
+          "recipient": "67df9DETKY",
+          "text": "We agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67df9DETKY",
+          "recipient": "6781eDETKY",
+          "text": "No, I do not agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "No, I do not agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "676caDETKY",
+          "text": "I think they help poor nations far more than they ever help us. It's us that tends to be the big donators to that kind of stuff. Also, having homeless veterans doesn't make us a poor nation by UN standards",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "I think they help poor nations far more than they ever help us. It's us that tends to be the big donators to that kind of stuff. Also, having homeless veterans doesn't make us a poor nation by UN standards",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6781eDETKY",
+          "recipient": "67df9DETKY",
+          "text": "The US could take some adviCe from them on mental health Probably tobacco and nicotine issues as well as alcoholism",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67df9DETKY",
+          "recipient": "67df9DETKY",
+          "text": "The US could take some adviCe from them on mental health Probably tobacco and nicotine issues as well as alcoholism",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "660b4DETKY",
+          "text": "I agree but WE should take care of our own especially those that served for our freedoms, that's all",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "I agree but WE should take care of our own especially those that served for our freedoms, that's all",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "676caDETKY",
+          "text": "we should yes but this is about the WHO organization from the UN lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "we should yes but this is about the WHO organization from the UN lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "660b4DETKY",
+          "text": "I don't think the US benefits much at all from Who Lets get out of WHO then  LOLLLL",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "I don't think the US benefits much at all from Who Lets get out of WHO then  LOLLLL",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "676caDETKY",
+          "text": "whats funny is none of us in all my chats here could come up with how they help us lol Im not saying they dont, I jsut dont know how",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "whats funny is none of us in all my chats here could come up with how they help us lol Im not saying they dont, I jsut dont know how",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67df9DETKY",
+          "recipient": "6781eDETKY",
+          "text": "When there is no out break U.S  do other things to support people, But they are the immediate people that take the lead to help people through the W.H.O",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6781eDETKY",
+          "recipient": "6781eDETKY",
+          "text": "When there is no out break U.S  do other things to support people, But they are the immediate people that take the lead to help people through the W.H.O",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "660b4DETKY",
+          "text": "I have no clue either",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "I have no clue either",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "660b4DETKY",
+          "recipient": "676caDETKY",
+          "text": "I honestly think its the ebola outbreaks and malaria places that benfit the most from it. I think for us its more of information sharing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "676caDETKY",
+          "recipient": "676caDETKY",
+          "text": "I honestly think its the ebola outbreaks and malaria places that benfit the most from it. I think for us its more of information sharing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "676caDETKY",
+          "recipient": "660b4DETKY",
+          "text": "have a good one",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "660b4DETKY",
+          "recipient": "660b4DETKY",
+          "text": "have a good one",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "I have leaned that the US does not benefit nearly as much as I once anticipated.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "No one I chatted with could really explain how the US benefits, they spoke of other nations benefiting instead",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "The U.S help finance the World Health Organization",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "I'm still both lean agree and disagree but since I have to choose, your statement says \"a lot\" and I don't think it's a lot. I feel really ignorant saying this though lol because I'm very aware it could be in some way but I can't think of a lot besides the sharing of information like the science etc.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "transportation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6781eDETKY",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "676caDETKY",
+          "recipient": "",
+          "text": "transportation",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "660b4DETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df9DETKY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JTH66FGWGWK0HA2R8EAG5DEA",
+      "fileName": "20250505_220424_The_US_benefits_a_lot_from_the_World_Health_Organization_01JTH66FGWGWK0HA2R8EAG5DEA.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5b523G5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "The US, like every other country, benefits from the spreading of research and facts by leading experts in the medical field. A platform to facilitate this is essential to public welfare.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66478G5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "yes the U.S benefits from the world health\nThat provides with global health care data",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6400eG5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "I think the US absolutely benefits from the WHO, particularly during the Covid pandemic. Other diseases were also kept at bay preventing outbreaks on American soil, so while we may not have seen direct influence, sometimes what you don't see is just as important as what you do.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "65c3aG5DEA",
+          "recipient": "66478G5DEA",
+          "text": "I agree the US benefits a lot from the World Health Organisation. The WHO helps detect and respond to global health threats early, which protects Americans from diseases and could spread interna",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6400eG5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "I agree with you on this, it takes a collaborative effort for us to keep future pandemics from happening, which makes me question why the US seemingly wants out",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5b523G5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "I agree with you on this, it takes a collaborative effort for us to keep future pandemics from happening, which makes me question why the US seemingly wants out",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66478G5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "Exactly more over they also benefits with  emergency response coordination.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65c3aG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "Exactly more over they also benefits with  emergency response coordination.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5b523G5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "Agreed, and I find it odd it would even be questioned if the US specifically would benefit or not from the WHO, as if the US would somehow be excluded from medical safety. Considering its poor response to COVID, the WHO's benefit is likely underrepresented in public belief.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6400eG5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "Agreed, and I find it odd it would even be questioned if the US specifically would benefit or not from the WHO, as if the US would somehow be excluded from medical safety. Considering its poor response to COVID, the WHO's benefit is likely underrepresented in public belief.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6400eG5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "Especially since the CDC was a little wishy-washy on where they stood on the matter",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5b523G5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "Especially since the CDC was a little wishy-washy on where they stood on the matter",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65c3aG5DEA",
+          "recipient": "66478G5DEA",
+          "text": "Absolutely the US definitely gains from its environmenyts from the world health organisation, especially through access to global data and coordinated responses to pandemics like COVID-19 Whate your take on how global partnership inflence health security withinUS",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66478G5DEA",
+          "recipient": "66478G5DEA",
+          "text": "Absolutely the US definitely gains from its environmenyts from the world health organisation, especially through access to global data and coordinated responses to pandemics like COVID-19 Whate your take on how global partnership inflence health security withinUS",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5b523G5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "True, an argument could be made that having a group of experts not on the US payroll would be MORE beneficial rather than less, since the CDC's inadequate later responses were likely pressured by political factors.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6400eG5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "True, an argument could be made that having a group of experts not on the US payroll would be MORE beneficial rather than less, since the CDC's inadequate later responses were likely pressured by political factors.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66478G5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "Wow that true and help them manage public health threat more effectively.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65c3aG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "Wow that true and help them manage public health threat more effectively.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6400eG5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "Absolutely, the pandemic began during Trump's first term and we didn't really respond until 2021",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5b523G5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "Absolutely, the pandemic began during Trump's first term and we didn't really respond until 2021",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5b523G5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "The US of course does benefit from the WHO just as every other country does. Scientific research and facts being publicly available and having a platform for maximum reach is essential for public safety, especially during times of medical crisis as we have seen recently.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66478G5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "Well Istrongly believe that U.S benefits alot  from the global world health.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6400eG5DEA",
+          "recipient": "66478G5DEA",
+          "text": "I agree that the US indeed benefits from involvement from the WHO. This is especially true during Covid when in the beginning the CDC seemed wishy-washy on the issue on account of political matters. What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "65c3aG5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "I believe the US does benefit significantly from the WHO. The key role of WHO is that it tracks global disease outbreak, providing health research and guidance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6400eG5DEA",
+          "recipient": "66478G5DEA",
+          "text": "Could you expand on why you believe the US benefits?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66478G5DEA",
+          "recipient": "66478G5DEA",
+          "text": "Could you expand on why you believe the US benefits?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65c3aG5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "One major benefit for the US is how WHO shares early warning about global disease outbreak",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5b523G5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "One major benefit for the US is how WHO shares early warning about global disease outbreak",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66478G5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "Well I truelly agree with you because they were able to manage public health threate and more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6400eG5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "Well I truelly agree with you because they were able to manage public health threate and more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5b523G5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "Absolutely, and while I find it absurd that anyone would think the WHO is not valuable, I find it even more puzzling that someone might think the US specifically would not benefit from it. There is nothing about the US that would exclude it from the benefits of medical knowledge. Given its poor response to COVID, it really could stand to benefit more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65c3aG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "Absolutely, and while I find it absurd that anyone would think the WHO is not valuable, I find it even more puzzling that someone might think the US specifically would not benefit from it. There is nothing about the US that would exclude it from the benefits of medical knowledge. Given its poor response to COVID, it really could stand to benefit more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6400eG5DEA",
+          "recipient": "66478G5DEA",
+          "text": "That's true, many issues were kept at bay because of insight from the WHO, plus membership wasn't all that expensive For issues impacting the globe like Covid, membership is essential IMHO",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66478G5DEA",
+          "recipient": "66478G5DEA",
+          "text": "That's true, many issues were kept at bay because of insight from the WHO, plus membership wasn't all that expensive For issues impacting the globe like Covid, membership is essential IMHO",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65c3aG5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "Do you think US should rely more or less on WHO guidance?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5b523G5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "Do you think US should rely more or less on WHO guidance?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66478G5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "Effectively and also facilitate international collaboration,which is essential in preventing the spread of diseases across borders.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6400eG5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "Effectively and also facilitate international collaboration,which is essential in preventing the spread of diseases across borders.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5b523G5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "Definitely more. The CDC showed us that having a health organization that isn't able to be pressured by the US government as easily is incredibly important.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65c3aG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "Definitely more. The CDC showed us that having a health organization that isn't able to be pressured by the US government as easily is incredibly important.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5b523G5DEA",
+          "recipient": "66478G5DEA",
+          "text": "The US of course does benefit greatly from the WHO, just as every other country does. The research and facts discovered by leading medical experts must be given a platform to be made publicly available for public safety.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6400eG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "I believe the US does in fact benefit from involvement from the WHO. It takes a collaboration of researchers and doctors across the globe to stop preventable diseases in their tracks and I feel our involvement was partly instrumental during Covid. What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "65c3aG5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "The WHO helps track global health trends, coordinate responses to disease outbreak and support scientific research",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66478G5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "The U.S benefits alot from the world health and able to create a safe place",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5b523G5DEA",
+          "recipient": "66478G5DEA",
+          "text": "Definitely agree. The US is not somehow exempt from the benefits of medical knowledge. If anything, US medical practices, especially regarding COVID for example could stand heed the advice of experts more than previously.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66478G5DEA",
+          "recipient": "66478G5DEA",
+          "text": "Definitely agree. The US is not somehow exempt from the benefits of medical knowledge. If anything, US medical practices, especially regarding COVID for example could stand heed the advice of experts more than previously.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6400eG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "I have to agree with supporting research especially, every scientist involved has another piece of the puzzle to effectively tackle a disease that can affect the population on a global scale You can't just rely on one institution since they might not have all the facts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c3aG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "I have to agree with supporting research especially, every scientist involved has another piece of the puzzle to effectively tackle a disease that can affect the population on a global scale You can't just rely on one institution since they might not have all the facts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65c3aG5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "one aspect that stands out to me is how the WHO sets international helath standards like vaccine protocol and emergency guidelines thst the US  often follows to. These sgared standaers make global coopertaion smoother. What role do you think should playe in shaping US health policy?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6400eG5DEA",
+          "recipient": "6400eG5DEA",
+          "text": "one aspect that stands out to me is how the WHO sets international helath standards like vaccine protocol and emergency guidelines thst the US  often follows to. These sgared standaers make global coopertaion smoother. What role do you think should playe in shaping US health policy?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66478G5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "The U.S provides guidelines and techical support that help the public health agencies.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5b523G5DEA",
+          "recipient": "5b523G5DEA",
+          "text": "The U.S provides guidelines and techical support that help the public health agencies.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6400eG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "I see it like if you go to the doctor and want a second opinion from another doctor. The variety of opinions matter",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65c3aG5DEA",
+          "recipient": "65c3aG5DEA",
+          "text": "I see it like if you go to the doctor and want a second opinion from another doctor. The variety of opinions matter",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "The US of course does benefit from the spread of medical knowledge from experts, as every other country does. It is absolutely necessary for public safety that medical experts have a platform to spread research and facts.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "I agree that U.S benefits from the world health organization",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "I still believe the US involvement in the WHO is vital not just for America but the world as a whole. The collaboration between scientists and doctors on their research is vital as everyone has a different piece of the puzzle and it helps paint a bigger picture on how to tackle global diseases . Covid stands as a shining example of this.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "It was good and resourceful and i agree",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "42",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "Kenya",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400eG5DEA",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5b523G5DEA",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "35",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66478G5DEA",
+          "recipient": "",
+          "text": "government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "42",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "Kenya",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65c3aG5DEA",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

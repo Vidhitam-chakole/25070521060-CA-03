@@ -1,0 +1,3654 @@
+{
+  "_id": "death_penalty_can_be_justified",
+  "topicId": "death_penalty_can_be_justified",
+  "topic": "Death penalty can be justified",
+  "category": "Ethics & Law",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 396,
+  "initialOpinions": [
+    {
+      "workerId": "67f03B77TS",
+      "text": "I certainly believe death penalty cannot be justified.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "67818B77TS",
+      "text": "The death penalty can be justified because there are simply some crimes that are so atrociously awful that the person is so mentally ill that there isn't a point in them living anymore. Instead of wasting money in keeping them in prison for life it is better to execute the death penalty.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6642aB77TS",
+      "text": "I personally don't believe the death penalty is justified, but the reasons would stem from deeper problems with the punitive nature of how the US handles its prison system. I believe more problems need to be solved and that the logical conclusion after those problems are solved is that the death penalty simply wouldn't be necessary.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "655f8B77TS",
+      "text": "The death penalty can be justified  as a form of ultimate justice for heinous crimes, providing a sense of closure for the victims  families. it serves as a deterrent.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "669c16C8GQ",
+      "text": "I believe the punishment should be proportionate to the severity of the crime.  So it depends on the circumstances.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6400e6C8GQ",
+      "text": "If a person murders another person without a good reason, they have taken their lives. Therefore this person doesn't deserve life.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "663e56C8GQ",
+      "text": "The death penalty can be justified dependent on the crime. Those which are incredibly violent and the perpetrator isn't able to be rehabilitated",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6632b6C8GQ",
+      "text": "I feel neutral about the death penalty but leaning towards agree. I feel like there are some crimes people have committed where this form of punishment is deserved. There have been occasions of people being wrongfully accused and the death penalty was there crime..",
+      "sliderValue": 4,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "The death penalty is justified because why would you let someone live who has committed a crime has horrible as the murdering or rap of innocent people, for example? They deserve not to live themselves for taking others' lives. No need to keep them alive in prison forever.",
+    "I honestly think there is no better reason to justify people being killed for their crime",
+    "I believe the US's form of justice is focused vastly more on punishment, rather than rehabilitation or restoration. I also believe that if even a single innocent person is put to death, the entire idea of a death penalty is a failure.",
+    "If someone commits premeditated murder, they have deliberately taken another person's life.  They should then forfeit their life.  If there are extenuating circumstances, then that is another matter.",
+    "I think it can be justified in based on how violent the crime was committed. There have been times people have been wrongly accused and the death sentence was their punishment which I think is wrong.",
+    "The death penalty can be justified dependent on the nature of the crime and how violent and thought out it was. I think some perpetrators cannot be rehabilitated and are likely to commit again if released."
+  ],
+  "tags": [
+    "ethics & law",
+    "death",
+    "penalty",
+    "justified"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.763Z",
+  "conversations": [
+    {
+      "sessionId": "01JSWBSCQ4JS508K74FKQB77TS",
+      "fileName": "20250427_202558_Death_penalty_can_be_justified_01JSWBSCQ4JS508K74FKQB77TS.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67818B77TS",
+          "recipient": "67f03B77TS",
+          "text": "The death penalty is justified because why would you let someone live who has committed a crime has horrible as the murdering or rap of innocent people, for example? They deserve not to live themselves for taking others' lives. No need to keep them alive in prison forever.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f03B77TS",
+          "recipient": "67818B77TS",
+          "text": "I honestly think there is no better reason to justify people being killed for their crime",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6642aB77TS",
+          "recipient": "655f8B77TS",
+          "text": "I believe the US's form of justice is focused vastly more on punishment, rather than rehabilitation or restoration. I also believe that if even a single innocent person is put to death, the entire idea of a death penalty is a failure.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "655f8B77TS",
+          "recipient": "6642aB77TS",
+          "text": "The death penalty can be justified  as a rm of justice for serious crimes, it may also deter by signaling that severe actions have serious consequences.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67818B77TS",
+          "recipient": "67f03B77TS",
+          "text": "Yes I agree with you this is correct",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f03B77TS",
+          "recipient": "67f03B77TS",
+          "text": "Yes I agree with you this is correct",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f03B77TS",
+          "recipient": "67818B77TS",
+          "text": "Awesome. I wonder why some agree to this heinous act obviously its not the best and will never be justified",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67818B77TS",
+          "recipient": "67818B77TS",
+          "text": "Awesome. I wonder why some agree to this heinous act obviously its not the best and will never be justified",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6642aB77TS",
+          "recipient": "655f8B77TS",
+          "text": "I think there can still be consequences beyond death. I may be naive, but I definitely know the types of monsters people can be. Even then, I don't think it's worth risking an innocent being put to death.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "655f8B77TS",
+          "recipient": "655f8B77TS",
+          "text": "I think there can still be consequences beyond death. I may be naive, but I definitely know the types of monsters people can be. Even then, I don't think it's worth risking an innocent being put to death.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67818B77TS",
+          "recipient": "67f03B77TS",
+          "text": "Correct. I think we should find also ways to make it more accessible to be honest,",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f03B77TS",
+          "recipient": "67f03B77TS",
+          "text": "Correct. I think we should find also ways to make it more accessible to be honest,",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "655f8B77TS",
+          "recipient": "6642aB77TS",
+          "text": "I totally agree with you there, but i mean, the people who are actually out in the world harming others intentionally.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6642aB77TS",
+          "recipient": "6642aB77TS",
+          "text": "I totally agree with you there, but i mean, the people who are actually out in the world harming others intentionally.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f03B77TS",
+          "recipient": "67818B77TS",
+          "text": "Well, what are some of the ways you would suggest",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67818B77TS",
+          "recipient": "67818B77TS",
+          "text": "Well, what are some of the ways you would suggest",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67818B77TS",
+          "recipient": "67f03B77TS",
+          "text": "I think that one of the ways is that governors need to allow it and we need to also maybe clearly have ideas where certain crimes deserve it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f03B77TS",
+          "recipient": "67f03B77TS",
+          "text": "I think that one of the ways is that governors need to allow it and we need to also maybe clearly have ideas where certain crimes deserve it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6642aB77TS",
+          "recipient": "655f8B77TS",
+          "text": "I would look at the reasons why they're doing that first; I think about how much we've learned as a society about things like psychopathy and sociopathy, multiple personality disorder, etc., from people that have done monstrous things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "655f8B77TS",
+          "recipient": "655f8B77TS",
+          "text": "I would look at the reasons why they're doing that first; I think about how much we've learned as a society about things like psychopathy and sociopathy, multiple personality disorder, etc., from people that have done monstrous things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6642aB77TS",
+          "recipient": "67f03B77TS",
+          "text": "I don't believe it can be justified. There's too much risk of putting innocent people to death. I think an unfortunate truth is that we still have a lot to learn about the monstrous things that people do, and killing people that we can learn from prevents solving deeper issues.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67818B77TS",
+          "recipient": "655f8B77TS",
+          "text": "Justice must stay firm for the death penalty. it is necessary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "655f8B77TS",
+          "recipient": "67818B77TS",
+          "text": "I think that it can be for people who are intentionally harming other but then again i think that other people are at risk for wrongful executions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f03B77TS",
+          "recipient": "6642aB77TS",
+          "text": "I think",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67818B77TS",
+          "recipient": "655f8B77TS",
+          "text": "people are not at risk for wrongful executions as much as they were before though. the justice system should be trusted only when there's concrete prooof that's what I believe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "655f8B77TS",
+          "recipient": "655f8B77TS",
+          "text": "people are not at risk for wrongful executions as much as they were before though. the justice system should be trusted only when there's concrete prooof that's what I believe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f03B77TS",
+          "recipient": "6642aB77TS",
+          "text": "that is rather sad, looking at the immense number of people who buy into this atrocious idea",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6642aB77TS",
+          "recipient": "6642aB77TS",
+          "text": "that is rather sad, looking at the immense number of people who buy into this atrocious idea",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6642aB77TS",
+          "recipient": "67f03B77TS",
+          "text": "Hello, as stated, I think we've learned a lot about things like mental disorders (sociopaths, psychopaths, schizophrenia, etc.) from the types of monstrous people that might be up for consideration of the death penalty, and because of that I don't think it's wise to do so.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f03B77TS",
+          "recipient": "67f03B77TS",
+          "text": "Hello, as stated, I think we've learned a lot about things like mental disorders (sociopaths, psychopaths, schizophrenia, etc.) from the types of monstrous people that might be up for consideration of the death penalty, and because of that I don't think it's wise to do so.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f03B77TS",
+          "recipient": "6642aB77TS",
+          "text": "it is wise to justify death penalty?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6642aB77TS",
+          "recipient": "6642aB77TS",
+          "text": "it is wise to justify death penalty?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6642aB77TS",
+          "recipient": "67f03B77TS",
+          "text": "I don't think it's wise to try and justify it, no. I believe the death penalty should be avoided",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f03B77TS",
+          "recipient": "67f03B77TS",
+          "text": "I don't think it's wise to try and justify it, no. I believe the death penalty should be avoided",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "655f8B77TS",
+          "recipient": "67818B77TS",
+          "text": "Trust in the system is crucial, but mistakes can happen. No system is infallible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67818B77TS",
+          "recipient": "67818B77TS",
+          "text": "Trust in the system is crucial, but mistakes can happen. No system is infallible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67818B77TS",
+          "recipient": "655f8B77TS",
+          "text": "Of course. but they are rare. in most cases the people that get sentenced the death penalty have done awful awful things, like kill innocent people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "655f8B77TS",
+          "recipient": "655f8B77TS",
+          "text": "Of course. but they are rare. in most cases the people that get sentenced the death penalty have done awful awful things, like kill innocent people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f03B77TS",
+          "recipient": "6642aB77TS",
+          "text": "Awesome. well how do you think it can be solved?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6642aB77TS",
+          "recipient": "6642aB77TS",
+          "text": "Awesome. well how do you think it can be solved?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f03B77TS",
+          "recipient": "655f8B77TS",
+          "text": "Death penalties are atrocious and should not be justified",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67818B77TS",
+          "recipient": "6642aB77TS",
+          "text": "The death penalty must not be abolished because it is a means of making those who have committed the most heinous crimes pay for their actions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6642aB77TS",
+          "recipient": "67818B77TS",
+          "text": "I don't believe it can be justified, because there has already been far too many cases of shoddy cases still ending in a guilty verdict and death sentences. I believe if even a single innocent person is put to death, it's an unjistifiable failure of our justice system.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "655f8B77TS",
+          "recipient": "67f03B77TS",
+          "text": "The death penalty can be justified for heinous crimes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6642aB77TS",
+          "recipient": "67818B77TS",
+          "text": "Unjustifiable*, woops I disagree with our justice systems punitive justice ideal in the first place. Restorative justice systems actually take steps to try to right wrongs, as opposed to simply punishing after the fact.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67818B77TS",
+          "recipient": "67818B77TS",
+          "text": "Unjustifiable*, woops I disagree with our justice systems punitive justice ideal in the first place. Restorative justice systems actually take steps to try to right wrongs, as opposed to simply punishing after the fact.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f03B77TS",
+          "recipient": "655f8B77TS",
+          "text": "why do you say so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "655f8B77TS",
+          "recipient": "655f8B77TS",
+          "text": "why do you say so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "655f8B77TS",
+          "recipient": "67f03B77TS",
+          "text": "What about the people in the world who are intentionally hurting others? Like rapist and serial killers people who sex traffic?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f03B77TS",
+          "recipient": "67f03B77TS",
+          "text": "What about the people in the world who are intentionally hurting others? Like rapist and serial killers people who sex traffic?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67818B77TS",
+          "recipient": "6642aB77TS",
+          "text": "yes but then what would you say towards those who literally have murdered and raped others? WHat should their punishment be? restorative system yes, but not for those who have committed such sinful acts.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6642aB77TS",
+          "recipient": "6642aB77TS",
+          "text": "yes but then what would you say towards those who literally have murdered and raped others? WHat should their punishment be? restorative system yes, but not for those who have committed such sinful acts.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f03B77TS",
+          "recipient": "655f8B77TS",
+          "text": "Are we not more evil than them? just because they have been convicted does not mean their lives should be taken",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "655f8B77TS",
+          "recipient": "655f8B77TS",
+          "text": "Are we not more evil than them? just because they have been convicted does not mean their lives should be taken",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6642aB77TS",
+          "recipient": "67818B77TS",
+          "text": "I think there's still plenty of avenues for rehabilitation, counselling, therapy, programs to actually get people that have committed monstrous things to actually give back and try to right some of the wrongs they've committed. Japan, for instance, actually does this with people that commit what we'd call manslaughter",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67818B77TS",
+          "recipient": "67818B77TS",
+          "text": "I think there's still plenty of avenues for rehabilitation, counselling, therapy, programs to actually get people that have committed monstrous things to actually give back and try to right some of the wrongs they've committed. Japan, for instance, actually does this with people that commit what we'd call manslaughter",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67818B77TS",
+          "recipient": "6642aB77TS",
+          "text": "sure but only to a certain extent. A lot of this has to deal with mental illness as well that sometimes cannot be cuted cured* yes but manslaughter isn't the same sometimes as even worse acts of crime",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6642aB77TS",
+          "recipient": "6642aB77TS",
+          "text": "sure but only to a certain extent. A lot of this has to deal with mental illness as well that sometimes cannot be cuted cured* yes but manslaughter isn't the same sometimes as even worse acts of crime",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6642aB77TS",
+          "recipient": "67818B77TS",
+          "text": "sure, incurable but most definitely treatable.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67818B77TS",
+          "recipient": "67818B77TS",
+          "text": "sure, incurable but most definitely treatable.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67818B77TS",
+          "recipient": "6642aB77TS",
+          "text": "but think about financially",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6642aB77TS",
+          "recipient": "6642aB77TS",
+          "text": "but think about financially",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "it should be for severe crimes",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "I still believe that the death penalty is justified because we simply cannot have people in our society living who actively have committed heinous crime acts such as murdering and raping others, and keeping them in prison and devoting our time and resources to them for the rest of their life is simply not financially plausible.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "Death penalty cannot be justified",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "Even moreso after seeing how people simply want to punish, I disagree with it being justifiable; rather than restore through \"justice\". People focus on essentially causing more pain and seeking revenge for things that happen, rather than writing wrongs or trying to solve deeper issues.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "19",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "['public', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "19",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67818B77TS",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655f8B77TS",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6642aB77TS",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "['public', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03B77TS",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K37EG12853NDE8W5D7M6C8GQ",
+      "fileName": "20250821_233721_Death_penalty_can_be_justified_01K37EG12853NDE8W5D7M6C8GQ.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "669c16C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "If someone commits premeditated murder, they have deliberately taken another person's life.  They should then forfeit their life.  If there are extenuating circumstances, then that is another matter.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6632b6C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "I think it can be justified in based on how violent the crime was committed. There have been times people have been wrongly accused and the death sentence was their punishment which I think is wrong.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "663e56C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "The death penalty can be justified dependent on the nature of the crime and how violent and thought out it was. I think some perpetrators cannot be rehabilitated and are likely to commit again if released.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6400e6C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "If someone ends someone else's life without any justified reason, then they don't deserve to live another day. It is unfair that a person's life is ended sudd",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "So we are agreed to leaning towards the death penalty being able to be justified.  I agree it should be very carefully proven beyond a reasonable doubt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "So we are agreed to leaning towards the death penalty being able to be justified.  I agree it should be very carefully proven beyond a reasonable doubt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "663e56C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I agree with you. I think having people serving time is a waste of resources as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I agree with you. I think having people serving time is a waste of resources as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6632b6C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "I agree, if the crime was planned out then expect severe consequences to happen.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "669c16C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "I agree, if the crime was planned out then expect severe consequences to happen.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6400e6C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "I think the first and most obvious option of keeping them in prison is even unfair, because they still live.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "663e56C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "I think the first and most obvious option of keeping them in prison is even unfair, because they still live.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "663e56C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "right, and think, for example like Charles Manson, it gives them the opportunity to have followers and become a matryr",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "right, and think, for example like Charles Manson, it gives them the opportunity to have followers and become a matryr",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6400e6C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "I totally agree, why would hardworking citizens should take care of an undeserved life Total waste of resources, and air And they still have rights as a prisoner, which they don't deserve",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "663e56C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "I totally agree, why would hardworking citizens should take care of an undeserved life Total waste of resources, and air And they still have rights as a prisoner, which they don't deserve",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "I also think they shouldn't drag it out to take 10 years to execute someone in this case, although that does give the person a lot of time to think about their crime and suffer on death row; they did remove the other person or person's ability to live beyond when they killed them. I hate the idea of taking someone else's life for any reason, but why should be take care of a willful murderer for the rest of his life?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "I also think they shouldn't drag it out to take 10 years to execute someone in this case, although that does give the person a lot of time to think about their crime and suffer on death row; they did remove the other person or person's ability to live beyond when they killed them. I hate the idea of taking someone else's life for any reason, but why should be take care of a willful murderer for the rest of his life?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6632b6C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "The justice system isn't perfect which is why I mentioned some people getting severe punishment for things they might have not done. With enough evidence, the penalty can be justified.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "669c16C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "The justice system isn't perfect which is why I mentioned some people getting severe punishment for things they might have not done. With enough evidence, the penalty can be justified.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "Yes, evidence is the most important criteria.  It seems like most crimes should be able to be proven these days with so many cameras, videocams, phones, etc. to capture it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "Yes, evidence is the most important criteria.  It seems like most crimes should be able to be proven these days with so many cameras, videocams, phones, etc. to capture it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "663e56C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "I think the death penalty can be justified dependent on the severity of the crime.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "669c16C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "In the right circumstances the death penalty can be justified in my opinion.  When someone purposefully takes another life without certain provocations, we shouldn't have to take care of the murderer for the rest of their lives.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6632b6C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "I think the death penalty can be justified in certain instances. It depends on how horrible the crime committed was, the punishment should be equal to that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6400e6C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "If they took a life without unjustified, then they don't deserve a day of life to live. Even if they are incarcerated , they still live, and it's not fair.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "663e56C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "I agree with you. Some crimes are just too horrible",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "I agree with you. Some crimes are just too horrible",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6632b6C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "We both agree that it depends on how violent the crime was! I do feel like the justice system isn't perfect in any way and needs some work. Some people commit petty crimes and get the death penalty which isn't right at all.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "663e56C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "We both agree that it depends on how violent the crime was! I do feel like the justice system isn't perfect in any way and needs some work. Some people commit petty crimes and get the death penalty which isn't right at all.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "Sounds like we are on the same wavelength!  If someone commits first degree murder, and it is proven beyond a reasonable doubt, they should not be allowed to sit in prison when they've taken away another person's life.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "Sounds like we are on the same wavelength!  If someone commits first degree murder, and it is proven beyond a reasonable doubt, they should not be allowed to sit in prison when they've taken away another person's life.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6400e6C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "I totally agree, why would law abiding citizens have to work and pay for a life undeserved?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "669c16C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "I totally agree, why would law abiding citizens have to work and pay for a life undeserved?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "Now if there were mitigating circumstances, like someone had been severely abused or tortured, etc. then that would be mitigating and a lesser sentence would be deserved.  The punishment should fit the crime.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "Now if there were mitigating circumstances, like someone had been severely abused or tortured, etc. then that would be mitigating and a lesser sentence would be deserved.  The punishment should fit the crime.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6400e6C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "Human rights is for people who are willing to act like humans I think, and for ones who respect other's human rights",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "669c16C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "Human rights is for people who are willing to act like humans I think, and for ones who respect other's human rights",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "If they committed the death in a heinous way, and it is proven, they should forfeit all of their rights to appeal, etc.  They shouldn't be allowed to sit in prison for years appealing and appealing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "If they committed the death in a heinous way, and it is proven, they should forfeit all of their rights to appeal, etc.  They shouldn't be allowed to sit in prison for years appealing and appealing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6400e6C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "Exactly; punishment should fit the crime. If you end a life, you don't deserve it either.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "669c16C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "Exactly; punishment should fit the crime. If you end a life, you don't deserve it either.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "663e56C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "I agree, some crimes should be excluded from the death penalty. It's hard because I also know that there is always a chance that someone was wrongly convicted. But I think for the death penalty it should be for someone that it was them without reasonable doubt",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "I agree, some crimes should be excluded from the death penalty. It's hard because I also know that there is always a chance that someone was wrongly convicted. But I think for the death penalty it should be for someone that it was them without reasonable doubt",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6632b6C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "Or others get wrongfully accused and receive severe punishment as well. I am neutral, kind of leaning towards it can be justified but definitely needs more work in the system.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "663e56C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "Or others get wrongfully accused and receive severe punishment as well. I am neutral, kind of leaning towards it can be justified but definitely needs more work in the system.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I chose lean towards death penalty as my choice",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I chose lean towards death penalty as my choice",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6400e6C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "Me too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "669c16C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "Me too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "663e56C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "I think the death penalty can be justified dependent on the crime committed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "669c16C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "The foundation of justice should be that punishment should be proportionate to the severity of the crime.  Thus, I lean towards capital punishment for premeditated murder.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I think the death penalty can be justified depending on the severity of the crime.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "Punishment should fit the crime, and if someone ends a life unjustified, then they don't deserve a day of life, once it is 100 % proven without a doubt. It's also unfair that taxpayers have to work to take care of someone who doesn't deserve a life",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "Yes, if someone purposefully takes another life, it is only fair that their life be forfeited. It has to be proven beyond doubt, though.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "663e56C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "Yes, if someone purposefully takes another life, it is only fair that their life be forfeited. It has to be proven beyond doubt, though.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "663e56C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "I agree with you, dependent on the severity of the crime yeah, I know it's hard because someone would have to be proven without reasonable doubt for it to have been them there's always a chance that they are innocent in that case, but the chances are slim",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "669c16C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "I agree with you, dependent on the severity of the crime yeah, I know it's hard because someone would have to be proven without reasonable doubt for it to have been them there's always a chance that they are innocent in that case, but the chances are slim",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I agree! I feel like it depends on how violent the crime is, the punishment should match that. I do not like the idea that our tax dollars our funding criminals that are locked up for life.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I agree! I feel like it depends on how violent the crime is, the punishment should match that. I do not like the idea that our tax dollars our funding criminals that are locked up for life.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "Yes, I agree. If they have taken a life for no good reason, only then death penalty should happen. Yes, what a waste of resources. It makes it even more unfair that they don't deserve to live, and that undeserved life is paid for by working citizens.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6632b6C8GQ",
+          "text": "Yes, I agree. If they have taken a life for no good reason, only then death penalty should happen. Yes, what a waste of resources. It makes it even more unfair that they don't deserve to live, and that undeserved life is paid for by working citizens.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "Yes.  That should be easier in modern times with so many video cams in public places and smart phones, etc. to get the proof I don't like the idea of taking a life for a life, but how else should someone be punished who has done this? Lose their freedom?  That's not enough.  They still get to eat, sleep, breathe..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "663e56C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "Yes.  That should be easier in modern times with so many video cams in public places and smart phones, etc. to get the proof I don't like the idea of taking a life for a life, but how else should someone be punished who has done this? Lose their freedom?  That's not enough.  They still get to eat, sleep, breathe..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "663e56C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "i agree, life in prison isn't enough. and it gives them the chance to gain followers",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "669c16C8GQ",
+          "recipient": "669c16C8GQ",
+          "text": "i agree, life in prison isn't enough. and it gives them the chance to gain followers",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "669c16C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "Yes, it's ridiculous how some of the worse killers get groupies Gag That should not be allowed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "663e56C8GQ",
+          "recipient": "663e56C8GQ",
+          "text": "Yes, it's ridiculous how some of the worse killers get groupies Gag That should not be allowed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6632b6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I feel neutral on the stance but leaning more towards justified since people can be wrongfully convicted or people who commit petty crimes receive unjust punishment as well. The justice system isn't perfect and definitely needs some rework done.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6400e6C8GQ",
+          "recipient": "6400e6C8GQ",
+          "text": "I feel neutral on the stance but leaning more towards justified since people can be wrongfully convicted or people who commit petty crimes receive unjust punishment as well. The justice system isn't perfect and definitely needs some rework done.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "Seems me and my counterparts all agree that depending upon it being a premeditated murder proven beyond a reasonable doubt, the only fair thing is an eye for an eye.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "it can be justified dependent on the severity of the crime",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "Punishment must match the crime. If a life is taken unjustified, they the punishment should be taking the life of the murderer.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "I agree in certain instances that the death penalty should be justified. It definitely depends on the severity of the crime, the punishment should match that. The justice system is broken as well and we shouldn't have to fund wrongful convictions, that's not working class citizens fault.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "real-estate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "71",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "widowed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "other-non-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "real-estate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663e56C8GQ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6632b6C8GQ",
+          "recipient": "",
+          "text": "government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "71",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "widowed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "other-non-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669c16C8GQ",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6400e6C8GQ",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

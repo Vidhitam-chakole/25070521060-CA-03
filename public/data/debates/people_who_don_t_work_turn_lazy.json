@@ -1,0 +1,3693 @@
+{
+  "_id": "people_who_don_t_work_turn_lazy",
+  "topicId": "people_who_don_t_work_turn_lazy",
+  "topic": "People who don’t work turn lazy",
+  "category": "General Discussions",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 400,
+  "initialOpinions": [
+    {
+      "workerId": "67356MFSZG",
+      "text": "This statement is too broad - there are a variety of reasons someone might not work. Moms often stay home to run the household and raise children, I would not qualify or classify them as lazy.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "67b9dMFSZG",
+      "text": "I agree because the devil makes work for idle hands...and people. Everyone should do some time of work if they are able, even if it is just voluntary.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66cdcMFSZG",
+      "text": "People who don't work turn lazy because lose track of the responsibilities, and stress that comes with work. They forget what it means to have a constant routine, and have to do tasks everyday. These people lose motivation, and begin to not do anything.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67ddcMFSZG",
+      "text": "I lean against people who don't work turn lazy because laziness is about motivation not just em",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "603e2S5TNV",
+      "text": "I think people need structure it may not be work but they need a purpose or they willl be lazy",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "67f03S5TNV",
+      "text": "People who don't work actually turn lazy",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "67eeeS5TNV",
+      "text": "Many unemployed people actively seek work and face systematic barriers not laziness.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "6599fS5TNV",
+      "text": "Some people who don't work might turn lazy but this is certainly not the case for all people. For example, somebody who decided to be a stay at home parent instead of working and sending their child to daycare. That stay at home parent is busy",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    }
+  ],
+  "sampleExcerpts": [
+    "Anyone who is physically able should do some sort of work, even if it just voluntary. Idle body, idle mind.",
+    "I believe that people who don't work turn lazy because they lose track of what it means to truly work. They forget the responsibilities, and stress that come with it. They often lose motivation, and forget that people must work in order to get money, and be successful. These peop",
+    "The idea/statement that people who don't work turn lazy entirely too broad. There are numerous reasons someone might not work and often those don't equate to laziness. Moms often stay home due to child care costs or to run a home/raise children, I would not qualify them as lazy.",
+    "I firmly believe that people who don't work turn lazy",
+    "I think people need a purpose in life They cannot drift without a purpose. So it isnt work but not having something does make people lazy",
+    "I believe that people who don't work don't always turn out lazy. For example, somebody going from working to stay at home and raise a family. Raising a family takes a lot of energy and time. Someone who is successfully raising children and a family are most likely super busy."
+  ],
+  "tags": [
+    "general discussions",
+    "people",
+    "who",
+    "don",
+    "work",
+    "turn",
+    "lazy"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.184Z",
+  "conversations": [
+    {
+      "sessionId": "01JT3KEHHCVQFXJ8PXM1PMFSZG",
+      "fileName": "20250430_152855_People_who_don’t_work_turn_lazy_01JT3KEHHCVQFXJ8PXM1PMFSZG.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67b9dMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "Anyone who is physically able should do some sort of work, even if it just voluntary. Idle body, idle mind.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I believe that people who don't work turn lazy because they lose track of what it means to truly work. They forget the responsibilities, and stress that come with it. They often lose motivation, and forget that people must work in order to get money, and be successful. These peop",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67356MFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "The idea/statement that people who don't work turn lazy entirely too broad. There are numerous reasons someone might not work and often those don't equate to laziness. Moms often stay home due to child care costs or to run a home/raise children, I would not qualify them as lazy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "Laziness stems from lack of motivation, not just employment status. Many individuals who are not working still find ways to be active, engaged and productive",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I agree. People need to use their tools and work towards something. They must have some sort of goal in mind, whether that be money or simply connection.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I agree. People need to use their tools and work towards something. They must have some sort of goal in mind, whether that be money or simply connection.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "That is really a good point about stay at home parents. It definitely shows how work is not just about having a paid job.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67356MFSZG",
+          "recipient": "67356MFSZG",
+          "text": "That is really a good point about stay at home parents. It definitely shows how work is not just about having a paid job.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67b9dMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "Too many people become use to sucking on the governments teets for their entire lives and they become lazy and institutionilized.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66cdcMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "Too many people become use to sucking on the governments teets for their entire lives and they become lazy and institutionilized.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67356MFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "I agree with you - I think the statement could be true in certain scenarios but equating employment to laziness is in itself a lazy argument. I think this is a concept we have been conditioned to believe, its a really capitalist concept.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "I agree with you - I think the statement could be true in certain scenarios but equating employment to laziness is in itself a lazy argument. I think this is a concept we have been conditioned to believe, its a really capitalist concept.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "Work symbolizes that a person wants to be more in life. It shows that people want to get together, and be greater. When people stop working, they forget what this means.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "Work symbolizes that a person wants to be more in life. It shows that people want to get together, and be greater. When people stop working, they forget what this means.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67b9dMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "Connection is very important, we are for the most part, socail beings. social*",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66cdcMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "Connection is very important, we are for the most part, socail beings. social*",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I agree. Those who leech off government forever begin to feel that life is easy, and don't make any efforts to make their life become better. They get into the mindset that \"things are good right now\". One can always go above and behind in life",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I agree. Those who leech off government forever begin to feel that life is easy, and don't make any efforts to make their life become better. They get into the mindset that \"things are good right now\". One can always go above and behind in life",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "It feels like we were taught to link worth to paid, but there is so much value in unpaid contribution and just being engaged in life.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67356MFSZG",
+          "recipient": "67356MFSZG",
+          "text": "It feels like we were taught to link worth to paid, but there is so much value in unpaid contribution and just being engaged in life.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "I believe it is true. People who don't work lose motivation, and lose track of themselves. They fall into negative mindsets, and become hopeless. Work is important because it gives people a purpose in life. Those who don't work lose track of us, and fall into negative patterns.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67ddcMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "It is too simplistic to say people who don't work are lazy. Many non working individuals are active and contribute in valuable ways.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "People need to work for self esteem, social connection, income, peace of mind, all of those things. If one is able bodied and or mind, one should work, even on a voluntary basis. Otherwise body and mind will atrophy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67356MFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "There are various reasons someone may or may not work. Linking employment status to laziness is a lazy argument and a generalization that doesn't properly represent individual scenarios, experiences, needs and lifestyle choices. I do not agree with this statement at all.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "While you may be right, the post says that they turn lazy, not that they are lazy. This implies that after a time period, they lose their motivation, and become lazy. They may be hard-working in the beginning, but eventually they lose track of this.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "While you may be right, the post says that they turn lazy, not that they are lazy. This implies that after a time period, they lose their motivation, and become lazy. They may be hard-working in the beginning, but eventually they lose track of this.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "Yes it is a sweeping statement, but anyone who is able bodied should work for the reasons I've already outlined",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67356MFSZG",
+          "recipient": "67356MFSZG",
+          "text": "Yes it is a sweeping statement, but anyone who is able bodied should work for the reasons I've already outlined",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67356MFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I agree that work can be beneficial - but I think there are many examples of when it doesn't make sense. Many women stay home now to raise children because the cost of childcare exceeds their potential income. Those women are able bodied, not working, but certainly wouldn't be classified as lazy right?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I agree that work can be beneficial - but I think there are many examples of when it doesn't make sense. Many women stay home now to raise children because the cost of childcare exceeds their potential income. Those women are able bodied, not working, but certainly wouldn't be classified as lazy right?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ddcMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "Agreed! judging someone's characters based solely on their employment status misses the bigger picture of their life and contributions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66cdcMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "Agreed! judging someone's characters based solely on their employment status misses the bigger picture of their life and contributions.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "Woman at home IS WORK, I make no distinction between that and other forms of work.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67356MFSZG",
+          "recipient": "67356MFSZG",
+          "text": "Woman at home IS WORK, I make no distinction between that and other forms of work.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "You're right. It is important to have an open perspective on people, and think about what they have to deal with in life. Some people are dealt worse hands than others, and have to do more. When people don't work, they are doing nothing to address issues, and are simply ignoring what has happened. Working keeps me sane at times. I would be so bored, and without a purpose if I didn't work at all.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "You're right. It is important to have an open perspective on people, and think about what they have to deal with in life. Some people are dealt worse hands than others, and have to do more. When people don't work, they are doing nothing to address issues, and are simply ignoring what has happened. Working keeps me sane at times. I would be so bored, and without a purpose if I didn't work at all.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ddcMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "That is an interesting point about becoming lazy overtime. I can see how lack of a structure of external demands might affect some people's motivation eventually.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66cdcMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "That is an interesting point about becoming lazy overtime. I can see how lack of a structure of external demands might affect some people's motivation eventually.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "If you have the physical and mental capacity to work, you should be working.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "If you have the physical and mental capacity to work, you should be working.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67356MFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "Thats a respectable take - and I agree. I still don't necessarily agree that employment status does or doesn't equate to laziness. I feel like it's an unfair assessment of someone's character.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "Thats a respectable take - and I agree. I still don't necessarily agree that employment status does or doesn't equate to laziness. I feel like it's an unfair assessment of someone's character.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "This is true. People who don't work lose motivation, and often lose themselves in the process. If one is capable physically and mentally, they should be working. I know that if I stopped working, I would be distraught. In life, people want to get ahead. Work allows for that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67356MFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "I do not think employment status determines whether or not a person is or will be lazy. There are many reasons why someone, even able bodied, may choose or not need to work. There are still many ways to \"work\" in life that don't equate to actual work. This is a generalization.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "If one of able mind and body, they should work just ward off isolation, boredom, loneliness, not to mention the benefits of having one's own money and not having to suckle on the government's teets for one's whole life.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "My current view is that it is oversimplification to say people who don't work are lazy. While lack of work might impact some, motivation and engagement are not exclusive to employment. many individuals lead a porposeful lives.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "It's a sweeping statement for sure but position is if one can work and find some joy in working then one should. Period. Full stop.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "It's a sweeping statement for sure but position is if one can work and find some joy in working then one should. Period. Full stop.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "I understand what you're saying, but i would like to add that work gives people a motivation in life. It allows people to do something, and contribute to society. While people can contribute in other ways, work is often the best way to contribute.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67356MFSZG",
+          "recipient": "67356MFSZG",
+          "text": "I understand what you're saying, but i would like to add that work gives people a motivation in life. It allows people to do something, and contribute to society. While people can contribute in other ways, work is often the best way to contribute.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67356MFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "I actually could not disagree more, though I respect the fact that everyone may have a different take, and I guess it depends on how you define \"work\". I work because I have to, but my work does not motivate me, and if I did not have needs/bills/responsibilities I would not work at all. I think my drive for life would be improved by having more time to focus on my passions vs work. I (and many others) actively volunteer in our communities - I don't consider that work. And I would argue that that time volunteering is better for me mentally and more motivating/encouraging than my job. I would also argue that it is a more meaningful contribution to society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66cdcMFSZG",
+          "recipient": "66cdcMFSZG",
+          "text": "I actually could not disagree more, though I respect the fact that everyone may have a different take, and I guess it depends on how you define \"work\". I work because I have to, but my work does not motivate me, and if I did not have needs/bills/responsibilities I would not work at all. I think my drive for life would be improved by having more time to focus on my passions vs work. I (and many others) actively volunteer in our communities - I don't consider that work. And I would argue that that time volunteering is better for me mentally and more motivating/encouraging than my job. I would also argue that it is a more meaningful contribution to society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I agree that working can provide structure and social connection, which are definitely important. However, suckling on the government teets feels harsh to describe people in different circumstances,",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "I agree that working can provide structure and social connection, which are definitely important. However, suckling on the government teets feels harsh to describe people in different circumstances,",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "Not harsh, factual. the governments teets are there for people who actually NEED to suckle. Not for able bodied people, able minded people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67ddcMFSZG",
+          "text": "Not harsh, factual. the governments teets are there for people who actually NEED to suckle. Not for able bodied people, able minded people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ddcMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "But what about those who cannot find work or find fulfilment somewhere else?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67b9dMFSZG",
+          "recipient": "67b9dMFSZG",
+          "text": "But what about those who cannot find work or find fulfilment somewhere else?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66cdcMFSZG",
+          "recipient": "67356MFSZG",
+          "text": "While this may be easy to say, people often don't realize the reality of this. When people don't feel the need to work, they often get very bored. While it may seem ideal for some time, they eventually get very bored and depressed. Human beings are engaged to always be trying to do more, and be greater. People will be trying to go above their peers. They see work as something which allows them to be greater, and achieve more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67356MFSZG",
+          "recipient": "67356MFSZG",
+          "text": "While this may be easy to say, people often don't realize the reality of this. When people don't feel the need to work, they often get very bored. While it may seem ideal for some time, they eventually get very bored and depressed. Human beings are engaged to always be trying to do more, and be greater. People will be trying to go above their peers. They see work as something which allows them to be greater, and achieve more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "People should work for myriad reasons, social, financial, self esteem.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "I still disagree with this statement entirely. While there are certainly people this statement may apply to - in general I think its a silly take.",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "I still agree with the statement. People need to work to feel connected to society, and to feel that their life has value. Those who don't work turn lazy because they feel that they aren't contributing anything, and become depressed.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "While lack of work can potentially impact motivation for some, it's not universal outcome, and lazy  is a simplistic label.7",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "55",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "separated",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "29",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66cdcMFSZG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67356MFSZG",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "55",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "separated",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67b9dMFSZG",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "29",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddcMFSZG",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JT3KDK89PRPF384MA42S5TNV",
+      "fileName": "20250430_153829_People_who_don’t_work_turn_lazy_01JT3KDK89PRPF384MA42S5TNV.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f03S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "I firmly believe that people who don't work turn lazy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "603e2S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "I think people need a purpose in life They cannot drift without a purpose. So it isnt work but not having something does make people lazy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6599fS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "I believe that people who don't work don't always turn out lazy. For example, somebody going from working to stay at home and raise a family. Raising a family takes a lot of energy and time. Someone who is successfully raising children and a family are most likely super busy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67eeeS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "Unemployment often result from job scarcity or systematic issues, not a sudden onset of laziness. Many activerly seek work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "I odnt think it is necessarily work but people can do things like volunteer idle hands are the devils playgorund",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "I odnt think it is necessarily work but people can do things like volunteer idle hands are the devils playgorund",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "Exactly, as the old saying goes, the devil finds work for idle hands",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "603e2S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "Exactly, as the old saying goes, the devil finds work for idle hands",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "i also think people need to do something nothing should be given to people who cant help society if someone chooses not to work and can find a way to self sustain them so be it dont get my tax dollars",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "i also think people need to do something nothing should be given to people who cant help society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67eeeS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "That is a great point about stay at home parents. Their work is often unpaid but incredibly demanding and far from lazy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6599fS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "That is a great point about stay at home parents. Their work is often unpaid but incredibly demanding and far from lazy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "Do you believe there are some people who cannot help society?\\",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "603e2S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "Do you believe there are some people who cannot help society?\\",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "I can somewhat agree with your point on why unemployment can result but that does not specifically address why the statement \"people who don't work turn lazy\" is true or false I feel like some people mentally cant handle being in a so called normal job or work environment",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "if someone chooses not to work and can find a way to self sustain them so be it dont get my tax dollars yes some people are generally worthless while i tihnk everyone has a purpose free will allows those people to avoid the purpose I also think there are people who have created a culute of laziness",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "I can somewhat agree with your point on why unemployment can result but that does not specifically address why the statement \"people who don't work turn lazy\" is true or false I feel like some people mentally cant handle being in a so called normal job or work environment",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "yes some people are generally worthless while i tihnk everyone has a purpose free will allows those people to avoid the purpose I also think there are people who have created a culute of laziness",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "I am really learning a lot mate, Really enjoying this convo",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "603e2S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "I am really learning a lot mate, Really enjoying this convo",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67eeeS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "Mental health can impact work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6599fS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "Mental health can impact work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "but they might thrive doing what they can to live a productive life for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "but they might thrive doing what they can to live a productive life for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "thanks same here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "thanks same here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "And they definitely should not enjoy free stuff?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "603e2S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "And they definitely should not enjoy free stuff?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f03S5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "People who actually dont like working eventually turn lazy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6599fS5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "I do not believe this statement that people who don't work turn lazy. People might be very busy raising a family or taking care of animals, plants, elderly etc",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "603e2S5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "I tihnk people who do not have ap urpsoe are lazy those people who do not ocntribute i tihnk they need ot dso something",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67eeeS5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "Many people who are not in traditional jobs are still very active with family. It is not lack of effort or laziness",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "I dont care if they work but they need to produce something for society just sitting around doesnt help idel hands are devils playground I think unemployed welfare recipeints should have ot clean parks and do things to get benefits That is the backbone of society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "I dont care if they work but they need to produce something for society just sitting around doesnt help idel hands are devils playground I think unemployed welfare recipeints should have ot clean parks and do things to get benefits That is the backbone of society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "someone taking care of a family also has a huge mental load which is work in itsekf",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "someone taking care of a family also has a huge mental load",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "What is your definition of work?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6599fS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "What is your definition of work?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "which is work in itsekf work doesn't necessarily mean a paid job you could be a care taker of somebody and be constantly busy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "work doesn't necessarily mean a paid job you could be a care taker of somebody and be constantly busy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "Yes so implying that they taking care of their families is actually work in itself",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6599fS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "Yes so implying that they taking care of their families is actually work in itself",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "something that keeps you going and keeps you busy yes I am implying that it is very hard work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "something that keeps you going and keeps you busy yes I am implying that it is very hard work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67eeeS5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "Not necessarily. Raising children, volunteering, creative pursuits, or caring for family memebers can also provide a strong sense of purpose and contribution even witout employment.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "603e2S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "Not necessarily. Raising children, volunteering, creative pursuits, or caring for family memebers can also provide a strong sense of purpose and contribution even witout employment.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "Alright so people who actually live outside this definition eventually become lazy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6599fS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "Alright so people who actually live outside this definition eventually become lazy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "no time to turn lazy when you have constant demands to tend to someone or somthing ok I can agree with that to a point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "no time to turn lazy when you have constant demands to tend to someone or somthing ok I can agree with that to a point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "As I said it isnt employment but they need to do something you want to raise children you better have someone to pay ther bills if it is one parent so be it but you dont get to stay home to raise kids that is not a career unless you are married and spouse works",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "As I said it isnt employment but they need to do something you want to raise children you better have someone to pay ther bills if it is one parent so be it but you dont get to stay home to raise kids that is not a career unless you are married and spouse works",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f03S5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "People become lazy because they dont work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "603e2S5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "people need ot have a sense of purpsoe it can be through many diffrent avenues but it cant be just sitting around or you will be lazy. you have to contribute to society somehow",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6599fS5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "I do not believe that people who don't work turn lazy because people who choose to stay home and raise families or are care taking care very busy and don't have time to be lazy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "I still disagree with that statement. Many people not in paid work are activeky engaged and not simply lazy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "why do you disagree ?\\",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "why do you disagree ?\\",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "I agree with everything you said 100%",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "603e2S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "I agree with everything you said 100%",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "raisng a family if your spouse works is ok but single parent is not you have to contributew to society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6599fS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "raisng a family if your spouse works is ok but single parent is not you have to contributew to society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "you could still be a single parent if you have some source of income to keep you afloat being a stay at home parent which is unlikely I suppose but possible",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "603e2S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "you could still be a single parent if you have some source of income to keep you afloat being a stay at home parent which is unlikely I suppose but possible",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "I disagree because work is not solely paid employment. Many contribute through unpaid care, volunteering, or creative pursuits, requiring significant effort, not laziness",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "I disagree because work is not solely paid employment. Many contribute through unpaid care, volunteering, or creative pursuits, requiring significant effort, not laziness",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f03S5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "Well it depends on your definition of work too. What is your definition of work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67eeeS5TNV",
+          "text": "Well it depends on your definition of work too. What is your definition of work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "you have to work or do something to provide I am not paying to raise somoenes kids i have 2 of my own and both of us work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6599fS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "you have to work or do something to provide I am not paying to raise somoenes kids i have 2 of my own and both of us work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6599fS5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "what other kids are you paying for? some people have money not talking about from the government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "603e2S5TNV",
+          "recipient": "603e2S5TNV",
+          "text": "what other kids are you paying for? some people have money not talking about from the government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67eeeS5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "It encompasse any activity requiring effort and contributing value paid or unpaid",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f03S5TNV",
+          "recipient": "67f03S5TNV",
+          "text": "It encompasse any activity requiring effort and contributing value paid or unpaid",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "603e2S5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "I would be paying for the single mom if she isnt working with my tax dollars very frew if any",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6599fS5TNV",
+          "recipient": "6599fS5TNV",
+          "text": "I would be paying for the single mom if she isnt working with my tax dollars very frew if any",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "I agree but people can do other things the thing isnt work but having a purpose",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "I think people who don't work become lazy",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "I still disagree work is broader than paid jobs. Many unemployed people are very active and contribute meaningfully in other ways.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "As long as you are doing something productive whether it is physical or mental, you will not turn lazy if you are not working a paying job.",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "59",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "['university', 'home', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "['public', 'out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "41",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "cleaning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "59",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "['university', 'home', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eeeS5TNV",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f03S5TNV",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "47",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "['public', 'out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "603e2S5TNV",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "41",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "cleaning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6599fS5TNV",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

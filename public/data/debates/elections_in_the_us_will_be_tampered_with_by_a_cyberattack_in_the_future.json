@@ -1,0 +1,4052 @@
+{
+  "_id": "elections_in_the_us_will_be_tampered_with_by_a_cyberattack_in_the_future",
+  "topicId": "elections_in_the_us_will_be_tampered_with_by_a_cyberattack_in_the_future",
+  "topic": "Elections in the US will be tampered with by a cyberattack in the future",
+  "category": "Science & Technology",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 440,
+  "initialOpinions": [
+    {
+      "workerId": "60fd60VRSJ",
+      "text": "I do not think so. I think the USA's cyber defense is too great to allow this to impact an election.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "667640VRSJ",
+      "text": "Elections in the U.S. will be tampered with a cyber attack in the future because more countries are investing in this type of espionage.  Unless, we put a focus on cyber defense, this will happen.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6266b0VRSJ",
+      "text": "Look at who we have in office, they will do anything to maintain the power. I think that people were brought in by the new president to get information on the people that could hurt us",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "683460VRSJ",
+      "text": "I probably agree that elections in the US will be tampered with a cyberattack in the future due to increasing cyber security challenges with the help of artificial a",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "655d431G0H",
+      "text": "I don't think it will be.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "65d5231G0H",
+      "text": "I believe that future elections have the potential to be tampered with a cyberattack in the future due to how much technology has been improving and elevating within the past couple of years, though I really have never thought about this topic before.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6770431G0H",
+      "text": "I agree with the fact that elections will at some point be tampered with by a cyberattack.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6103031G0H",
+      "text": "I think it is not outside of the realm of possibility. There are already concerns about it being tampered with. With advancements in technology, I think it is a viable threat.",
+      "sliderValue": 4,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "Elections will be tampered with in the future as more countries are involving themselves with this type of espionage.  I believe this has already happened with Russia.",
+    "I believe with the help of artificial intelligence the elections in US will be tampered with cyber attack in the future. What do you think about the same?",
+    "This will not happen. The USA cyber defense is too great",
+    "I believe that this topic is a possibility due to the increase in technological advancements within the past decade alone. I have never thought about this topic in such great lengths, but I would not doubt its potential to occur.",
+    "I don't think it will necessarily be tampered because doing so does not change much inside the US anyway, I feel like the leader we follow does not make too much of a difference to me, not gonna lie.",
+    "I think elections in the US will be tampered with by a cyberattack in the future. It is not outside the realm of possibilities. We are already dealing with a lot of technological advancements and uncertainties when it comes to our digital world."
+  ],
+  "tags": [
+    "science & technology",
+    "elections",
+    "will",
+    "tampered",
+    "cyberattack",
+    "future"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.826Z",
+  "conversations": [
+    {
+      "sessionId": "01JWP2NZT9SF4FJ5GX9N20VRSJ",
+      "fileName": "20250601_161134_Elections_in_the_US_will_be_tampered_with_by_a_cyberattack_in_the_future_01JWP2NZT9SF4FJ5GX9N20VRSJ.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "667640VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Elections will be tampered with in the future as more countries are involving themselves with this type of espionage.  I believe this has already happened with Russia.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "683460VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "I believe with the help of artificial intelligence the elections in US will be tampered with cyber attack in the future. What do you think about the same?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "60fd60VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "This will not happen. The USA cyber defense is too great",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6266b0VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "I just think that the whole cabinet we have now is corrupt. The president has left us vulnerable to anyone that can hurt our country. I do n",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "We are too open now and joke",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "We are too open now and joke",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I think they are corrupt but not enough to tamper a national election via a cyber attack",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I think they are corrupt but not enough to tamper a national election via a cyber attack",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "I think AI helps other countries put this issue to the forefront to say the least.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "I think AI helps other countries put this issue to the forefront to say the least.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "There has been rising issues of hacking of databases and this makes me believe cyber attack is possible",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "There has been rising issues of hacking of databases and this makes me believe cyber attack is possible",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Other countries see us as an open target They tampered with the last one Look at our country now,in an uproar",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Other countries see us as an open target They tampered with the last one Look at our country now,in an uproar",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "The new battlefield in the future will include online attacks and platforms.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "The new battlefield in the future will include online attacks and platforms.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Do you think there is any way that this can be avoided?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Do you think there is any way that this can be avoided?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "This is how countries and organizations recruit like mindsets We need to allocate extensive funds and education to combat cyberattacks.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "This is how countries and organizations recruit like mindsets We need to allocate extensive funds and education to combat cyberattacks.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "I agree with you. It is good we allocate resources to avoid such risks in the future.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "I agree with you. It is good we allocate resources to avoid such risks in the future.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "Agreed. But not to the point of treason via cyberattacking an election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "Agreed. But not to the point of treason via cyberattacking an election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Proper infrastructure is the key",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Proper infrastructure is the key",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "True. The government should focus on that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "True. The government should focus on that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Terrorism has been ahead of us on this front with how they recruit so why wouldn't Russia use it?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Terrorism has been ahead of us on this front with how they recruit so why wouldn't Russia use it?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "667640VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I believe a cyberattack will happen because this is the next battleground for fighting in the future especially with AI exploding around the world.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "60fd60VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "I do not believe this will happen. There are too many systems in place for this to effect an outcome of an election.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6266b0VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "I do believe they will be cyberattacked to prevent an unworthy opponent from entering the race. I think the country is tired of corruption and want a change to happen if its is threatened with a horrible person to enter into the office. We are an open target now for corruption",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "683460VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "It is possible that our future is at risk with the cyberattacks, and this can affect elections in US. We need to be careful, and invest more resources to prevent this. Improved infrastructure will help to avoid these cases in future.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Most definitely. Many tend to disagree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Most definitely. Many tend to disagree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Do you think that our future is secure with the increasing development of artificial intelligence?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Do you think that our future is secure with the increasing development of artificial intelligence?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "These attacks will try to undermine our ideology in America.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "These attacks will try to undermine our ideology in America.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "i do",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "i do",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "You are so right. We are so corrupted now it can not even be hidden Elections will never be the same",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "You are so right. We are so corrupted now it can not even be hidden Elections will never be the same",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Why do you think this way? Are our systems safe? I don't think so.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Why do you think this way? Are our systems safe? I don't think so.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I will say we are at a pivotal time in our history......have a felon pardoning felons. And cozying up to Russia.........I never thought I'd see us become an ally with Russia again after the Cold War.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I will say we are at a pivotal time in our history......have a felon pardoning felons. And cozying up to Russia.........I never thought I'd see us become an ally with Russia again after the Cold War.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "because our cyber security also gets better over time",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "because our cyber security also gets better over time",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "exacty Russia is our enemy for sure Elon Musk is the  one to be watched",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "exacty Russia is our enemy for sure Elon Musk is the  one to be watched",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "I agree with you, but I tend to believe with corruption our information can leak to wrong individuals",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "I agree with you, but I tend to believe with corruption our information can leak to wrong individuals",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Its certainly possible, yes. But not to the point of it actually affecting the outcome of an election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Its certainly possible, yes. But not to the point of it actually affecting the outcome of an election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I'd say they are the free Western civilizations enemy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I'd say they are the free Western civilizations enemy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Some politicians can do anything to win an election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Some politicians can do anything to win an election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Enemies in plain sight",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Enemies in plain sight",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "you mean the new Himmler?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "you mean the new Himmler?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "with no remorse",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "with no remorse",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "60fd60VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "I highly doubt it will affect the outcome of an election if it did happen",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "667640VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "I think elections will be tampered with in the future especially with the use of AI exploding around the globe.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "683460VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "Cyberattacks have been so high, and I believe in the future our elections will be tampered with. There  has been increasing development in the artificial intelligence, and this means it's possible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6266b0VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "The United States is definitely at risk more so than ever. We are looked upon as weak with the leader that we have/ We are constantly being attacked with major institutions like banks with attacks. This is just a test run for the elections that take place . Pure chaos will happen",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "I doubt it will happen. But even if it did, I dont think it would impact the results of an election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "I doubt it will happen. But even if it did, I dont think it would impact the results of an election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "AI will definitely be our downfall with the elections. I do love AI but for the right reasons. Our country needs to be protected from these attacks",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "AI will definitely be our downfall with the elections. I do love AI but for the right reasons. Our country needs to be protected from these attacks",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I agree with you on this. Do you think there is any way we can prevent this from happening?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I agree with you on this. Do you think there is any way we can prevent this from happening?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Cyber attacks are the new battlefield of the future.  Terrorism already uses the online forums to gain new members.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Cyber attacks are the new battlefield of the future.  Terrorism already uses the online forums to gain new members.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Remove what we have as our leader I think he is the main reason this will happen. Retaliation for his antics",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Remove what we have as our leader I think he is the main reason this will happen. Retaliation for his antics",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Agreed, but not enough to impact the final results of an election in US",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Agreed, but not enough to impact the final results of an election in US",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Our elections are easily influenced by online postings, videos, misinformation and soon  a cyberattack will, too. I mean, we already have a felon pardoning felons.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "Our elections are easily influenced by online postings, videos, misinformation and soon  a cyberattack will, too. I mean, we already have a felon pardoning felons.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I think good allocation of funds to improve our infrastructure can help",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "I think good allocation of funds to improve our infrastructure can help",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Not in my opinion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Not in my opinion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "This is true, that would help so much and ensure that we are safe Where could they take the money from without hurting the american people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "This is true, that would help so much and ensure that we are safe Where could they take the money from without hurting the american people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "But also some of politicians are so corrupt and can do anything to win election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "But also some of politicians are so corrupt and can do anything to win election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "667640VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "If we don't allocate funding and educational resources to cyberattack defense, it may happen...........but we are trying to dismantle the dept. of education so there goes that. maybe we can put a tariff on these countries to not  have these attacks....smh",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "60fd60VRSJ",
+          "recipient": "60fd60VRSJ",
+          "text": "If we don't allocate funding and educational resources to cyberattack defense, it may happen...........but we are trying to dismantle the dept. of education so there goes that. maybe we can put a tariff on these countries to not  have these attacks....smh",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Exactly, including the one we have now that does not want to step down",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Exactly, including the one we have now that does not want to step down",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "Which means even hacking our systems",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "Which means even hacking our systems",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6266b0VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Ha .. like the last election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "683460VRSJ",
+          "recipient": "683460VRSJ",
+          "text": "Ha .. like the last election",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "60fd60VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Im certain that the DOE doesnt allocate fund to cyber security",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "667640VRSJ",
+          "recipient": "667640VRSJ",
+          "text": "Im certain that the DOE doesnt allocate fund to cyber security",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "683460VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "Sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6266b0VRSJ",
+          "recipient": "6266b0VRSJ",
+          "text": "Sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "I dont think it will be enough to impact the results of an election",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "I think this is the new battleground.  AI is exploding around the globe so there is more research and attention being gained.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "Cyberattacks will tamper with our elections because of increasing artificial intelligence use and misuse.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "I definitely think it will be attacked in the future. By the time the new elections come along AI will be so far advanced as well as other technologies in place it will be a most definite. I think there is too much corruption now for it not too happen, even by the ones that we should trust.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "52",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "['private', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "46",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "wholesale",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "non-profit",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "60fd60VRSJ",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "52",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "['private', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6266b0VRSJ",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "46",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "667640VRSJ",
+          "recipient": "",
+          "text": "wholesale",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "38",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "683460VRSJ",
+          "recipient": "",
+          "text": "non-profit",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01K37KDAF9VWY5PB90P0331G0H",
+      "fileName": "20250822_010028_Elections_in_the_US_will_be_tampered_with_by_a_cyberattack_in_the_future_01K37KDAF9VWY5PB90P0331G0H.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "65d5231G0H",
+          "recipient": "6770431G0H",
+          "text": "I believe that this topic is a possibility due to the increase in technological advancements within the past decade alone. I have never thought about this topic in such great lengths, but I would not doubt its potential to occur.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "655d431G0H",
+          "recipient": "6103031G0H",
+          "text": "I don't think it will necessarily be tampered because doing so does not change much inside the US anyway, I feel like the leader we follow does not make too much of a difference to me, not gonna lie.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6103031G0H",
+          "recipient": "655d431G0H",
+          "text": "I think elections in the US will be tampered with by a cyberattack in the future. It is not outside the realm of possibilities. We are already dealing with a lot of technological advancements and uncertainties when it comes to our digital world.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6770431G0H",
+          "recipient": "65d5231G0H",
+          "text": "I think in the future, elections will be tampered with by cyberattack. I think technology is getting too volatile and it will happen eventually.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "655d431G0H",
+          "recipient": "6103031G0H",
+          "text": "You have a fair point.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "You have a fair point.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "655d431G0H",
+          "text": "I find your belief on our leader not mattering interesting to me",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "655d431G0H",
+          "recipient": "655d431G0H",
+          "text": "I find your belief on our leader not mattering interesting to me",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "655d431G0H",
+          "recipient": "6103031G0H",
+          "text": "I think it is quite dangerous and could very well be tampered with since the US already suffers some of these things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "I think it is quite dangerous and could very well be tampered with since the US already suffers some of these things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "655d431G0H",
+          "text": "I agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "655d431G0H",
+          "recipient": "655d431G0H",
+          "text": "I agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65d5231G0H",
+          "recipient": "6770431G0H",
+          "text": "I honestly see where you're coming from. Technology is definitely at a place where it feels like anything can happen, no matter how positive or negative.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "I honestly see where you're coming from. Technology is definitely at a place where it feels like anything can happen, no matter how positive or negative.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "655d431G0H",
+          "recipient": "6103031G0H",
+          "text": "I just feel like I have not really felt a difference when we switched leaders",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "I just feel like I have not really felt a difference when we switched leaders",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6770431G0H",
+          "recipient": "65d5231G0H",
+          "text": "The increase of AI is causing more problems by the day. AI is useful in some regards but I think it is becoming more damaging to humanity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65d5231G0H",
+          "recipient": "65d5231G0H",
+          "text": "The increase of AI is causing more problems by the day. AI is useful in some regards but I think it is becoming more damaging to humanity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "655d431G0H",
+          "text": "I see. I can see that. I guess in the grand scheme of things election cyberattacks are too much of a hassle for hacker groups to even bother. and I don't necessarily think foreign agencies would risk toying with our elections",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "655d431G0H",
+          "recipient": "655d431G0H",
+          "text": "I see. I can see that. I guess in the grand scheme of things election cyberattacks are too much of a hassle for hacker groups to even bother. and I don't necessarily think foreign agencies would risk toying with our elections",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65d5231G0H",
+          "recipient": "6770431G0H",
+          "text": "Agreed! I believe that AI is a powerful tool that is useful, but it is hard for us to benefit right now as technology is advancing much faster than humans are able to adjust. AI is definitely harming the environment and we need to ensure that humans are only reliant on AI as a tool rather than a \"do-all-er\"",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "Agreed! I believe that AI is a powerful tool that is useful, but it is hard for us to benefit right now as technology is advancing much faster than humans are able to adjust. AI is definitely harming the environment and we need to ensure that humans are only reliant on AI as a tool rather than a \"do-all-er\"",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6770431G0H",
+          "recipient": "65d5231G0H",
+          "text": "Yes, I think it is advancing a lot quicker than humans are willing to admit and are able to keep up with.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65d5231G0H",
+          "recipient": "65d5231G0H",
+          "text": "Yes, I think it is advancing a lot quicker than humans are willing to admit and are able to keep up with.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "655d431G0H",
+          "recipient": "6103031G0H",
+          "text": "i also agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "i also agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65d5231G0H",
+          "recipient": "6770431G0H",
+          "text": "Exactly! If there is a cyberattack in the future, I'm sure AI will surely play some part in it as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "Exactly! If there is a cyberattack in the future, I'm sure AI will surely play some part in it as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "65d5231G0H",
+          "recipient": "655d431G0H",
+          "text": "With the rate at which technology is advancing, and the advancements bringing great positives and negatives to humans and society, I would not doubt a potential cyberattack messing with future U.S. elections.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "655d431G0H",
+          "recipient": "65d5231G0H",
+          "text": "I think it can be true that the US elections will be tampered with because hackers have the ability to do that, but it would be too much of a hassle for them, but I think they may not even want to tamper with it because there is no point and too much of a hassle.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6770431G0H",
+          "recipient": "6103031G0H",
+          "text": "I think elections at some point in the future will be tampered with by a cyberattack because we are beginning to rely on AI too heavily in our day today lives and it will end up being volatile.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6103031G0H",
+          "recipient": "6770431G0H",
+          "text": "I think they definitely can be. We should focus on having safeguards put in place so that this doesn't occur. I would imagine it would cause a lot of civil unrest over the true results of an election.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "6770431G0H",
+          "text": "I agree. Technology is becoming increasingly powerful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "I agree. Technology is becoming increasingly powerful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6770431G0H",
+          "recipient": "6103031G0H",
+          "text": "Yes, I think we should have clear safeguards because it can be very dangerous.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "Yes, I think we should have clear safeguards because it can be very dangerous.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "6770431G0H",
+          "text": "how do you think the American public would react?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "how do you think the American public would react?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65d5231G0H",
+          "recipient": "655d431G0H",
+          "text": "I agree with you, I believe that such a big cyberattack such as that can be a big hassle, but I feel like with the rate at which technology is advancing, it could be a possibility.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "655d431G0H",
+          "recipient": "655d431G0H",
+          "text": "I agree with you, I believe that such a big cyberattack such as that can be a big hassle, but I feel like with the rate at which technology is advancing, it could be a possibility.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "655d431G0H",
+          "recipient": "65d5231G0H",
+          "text": "Yeah, I do find it to be a possiblility, definitely",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65d5231G0H",
+          "recipient": "65d5231G0H",
+          "text": "Yeah, I do find it to be a possiblility, definitely",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6770431G0H",
+          "recipient": "6103031G0H",
+          "text": "I think it would destroy the relevance of AI and technological advancements",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "I think it would destroy the relevance of AI and technological advancements",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "6770431G0H",
+          "text": "ah i see AI is very uncertain and somewhat unsettling to me But I do think it has some good use",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "ah i see I agree AI is very uncertain and somewhat unsettling to me But I do think it has some good use",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6770431G0H",
+          "recipient": "6103031G0H",
+          "text": "yeah unsettling is a very good word for it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "yeah unsettling is a very good word for it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "65d5231G0H",
+          "recipient": "6103031G0H",
+          "text": "I certainly think that with the rate at which technology has been advancing within the past decade that a cyberattack in the future could certainly be a possibility.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "655d431G0H",
+          "recipient": "6770431G0H",
+          "text": "I think there is definitely a capability for hackers in other countries or even within our own country to be able to tamper with the US elections but I also think it is an unecessary hassle and they might not even bother with doing so because it sometimes does not change too much",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6770431G0H",
+          "recipient": "655d431G0H",
+          "text": "I think the advancement of AI and technology is scary in our world and could potentially be dangerous and I could see elections being tampered with by a cyberattack in the near future if everything keeps at the pace that it is currently.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6103031G0H",
+          "recipient": "65d5231G0H",
+          "text": "I think this is very much possible in our current technological age. I don't think we'd necessarily be aware of it though. If we do become aware of it, the civil unrest would be wild.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "65d5231G0H",
+          "text": "I agree 100% I think it is almost guaranteed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65d5231G0H",
+          "recipient": "65d5231G0H",
+          "text": "I agree 100% I think it is almost guaranteed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "655d431G0H",
+          "recipient": "6770431G0H",
+          "text": "I agree with you, it is definitely scary and can be very dangerous, I do think it is possible to have an attack",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "I agree with you, it is definitely scary and can be very dangerous, I do think it is possible to have an attack",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6770431G0H",
+          "recipient": "655d431G0H",
+          "text": "Yeah, that's a great point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "655d431G0H",
+          "recipient": "655d431G0H",
+          "text": "Yeah, that's a great point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "655d431G0H",
+          "recipient": "6770431G0H",
+          "text": "The advancements are way too fast and it can be a very easy job. But again, I don't really think it is necessary because the presidents don't make too much of a difference, not gonna lie.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "The advancements are way too fast and it can be a very easy job. But again, I don't really think it is necessary because the presidents don't make too much of a difference, not gonna lie.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65d5231G0H",
+          "recipient": "6103031G0H",
+          "text": "I agree with you too! Even though a cyberattack on the U.S. elections would be such a wide-scale thing, it's definitely possible. It isn't something I have ever considered before, but now that I think about it, for sure it's possible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "I agree with you too! Even though a cyberattack on the U.S. elections would be such a wide-scale thing, it's definitely possible. It isn't something I have ever considered before, but now that I think about it, for sure it's possible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6770431G0H",
+          "recipient": "655d431G0H",
+          "text": "That's a fair point also Yeah, I think cyberattacks will continue to be a problem no matter what situation it is.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "655d431G0H",
+          "recipient": "655d431G0H",
+          "text": "That's a fair point also Yeah, I think cyberattacks will continue to be a problem no matter what situation it is.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "65d5231G0H",
+          "text": "For now we can just focus on putting safeguards in place to prevent it from getting out of hand. But I don't think much can be done to 100% prevent it altogether.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65d5231G0H",
+          "recipient": "65d5231G0H",
+          "text": "For now we can just focus on putting safeguards in place to prevent it from getting out of hand. But I don't think much can be done to 100% prevent it altogether.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65d5231G0H",
+          "recipient": "6103031G0H",
+          "text": "I agree! I think there are definitely ways to prevent this from happening, but we have to be ready for any potential instances such as these.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6103031G0H",
+          "recipient": "6103031G0H",
+          "text": "I agree! I think there are definitely ways to prevent this from happening, but we have to be ready for any potential instances such as these.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "655d431G0H",
+          "recipient": "6770431G0H",
+          "text": "I also think so I just feel like as citizens, we don't really feel it, but as authorities, they can definitely see it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6770431G0H",
+          "recipient": "6770431G0H",
+          "text": "I also think so I just feel like as citizens, we don't really feel it, but as authorities, they can definitely see it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6103031G0H",
+          "recipient": "65d5231G0H",
+          "text": "100%",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65d5231G0H",
+          "recipient": "65d5231G0H",
+          "text": "100%",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "I agree. We are undergoing many technological advancements. It will become too hard to prevent over time.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "I feel as if this is certainly a possibility with the rate at which technology has been advancing. Humans need to evolve to adapt to the severe technological advances that have occurred within the past decade.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "I think we all kind of agreed that AI and technology are being more dangerous and will therefore cause more cyberattacks.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "I think it is definitely possible, but it may not actually happen since people may not want to bother with doing it. But I can see it happening and it could definitely be a threat.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "43",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "China",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "other-non-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "20",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "Philippines",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "22",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "personal-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "43",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "China",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "other-non-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "655d431G0H",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "20",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "Philippines",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "['asian']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65d5231G0H",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "26",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6770431G0H",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "22",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6103031G0H",
+          "recipient": "",
+          "text": "personal-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

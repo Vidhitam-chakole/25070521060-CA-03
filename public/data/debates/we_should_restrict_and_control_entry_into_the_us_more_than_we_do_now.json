@@ -1,0 +1,3893 @@
+{
+  "_id": "we_should_restrict_and_control_entry_into_the_us_more_than_we_do_now",
+  "topicId": "we_should_restrict_and_control_entry_into_the_us_more_than_we_do_now",
+  "topic": "We should restrict and control entry into the US more than we do now",
+  "category": "General Discussions",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 422,
+  "initialOpinions": [
+    {
+      "workerId": "5fd0dA1SZ3",
+      "text": "The United States has always been a melting pot of citizens. Entry should be strict, but fair.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "67016A1SZ3",
+      "text": "i disagree. We should give entry to non-violent migrants who want to come here to make a better life for them and their family.",
+      "sliderValue": 1,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "677edA1SZ3",
+      "text": "There are unfortunately many people with malicious intent who have capitalized on our lax borders. In order to protect society, we need more stringent borders.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "63be7A1SZ3",
+      "text": "I agree. This is because when we allow just anyone into the country it might bring bigger implications on us later in the future. There are terrorists, murderers  on the run so we should be careful.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "68422DY57D",
+      "text": "for our safety this is important, we should get to control who enters or leaves our country",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67912DY57D",
+      "text": "I feel the policies in place now are enough. There are more important things our government should be worried about to help the American people.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "67df4DY57D",
+      "text": "In my opinion, national security is relevant, but greater restraint on entering the U",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "684a1DY57D",
+      "text": "We should not restrict it as immigr",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    }
+  ],
+  "sampleExcerpts": [
+    "The United States has always been a melting pot of citizens. Entry should be strict, but fair.",
+    "I feel that we need to let non-violent migrants into the country. They add value to our work force, and America always thrives through diversity.",
+    "I believe that there are a lot of bad people out there. We are not perfect as a country that is the more reason why we should restrict entry into the country to avoid having bad people who will tarnish the image of the country.",
+    "We should not as Immigrants come to seek greener pastures and also help in filling wide gaps in some jobs, including hard labour",
+    "I feel that the current policies that are in place are enough. There are more important things the government should focus on to help the American people.",
+    "hey, i think it is important to control who enters our country and why. There exists a large number of people with bad will,you get to understand this when you let your guard down and things fall apart. So i honestly think it best to be careful and do things in a careful way"
+  ],
+  "tags": [
+    "general discussions",
+    "should",
+    "restrict",
+    "control",
+    "entry",
+    "into",
+    "more",
+    "than",
+    "now"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.469Z",
+  "conversations": [
+    {
+      "sessionId": "01JT3KF3XG2JHPJP6CK66A1SZ3",
+      "fileName": "20250430_153146_We_should_restrict_and_control_entry_into_the_US_more_than_we_do_now_01JT3KF3XG2JHPJP6CK66A1SZ3.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "The United States has always been a melting pot of citizens. Entry should be strict, but fair.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67016A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "I feel that we need to let non-violent migrants into the country. They add value to our work force, and America always thrives through diversity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "63be7A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I believe that there are a lot of bad people out there. We are not perfect as a country that is the more reason why we should restrict entry into the country to avoid having bad people who will tarnish the image of the country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "677edA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "We need more strict border regulations in order to ensure societies safety and to be able to offer assistance to those in the future who do truly need our help (refugees, etc.). Unfortunately many with bad intent have capitalized on our lax border policies  in the recent years.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Fair points. But we also need to remain true to the essence of the United States.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Fair points. But we also need to remain true to the essence of the United States.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I agree with you Immigrants with no criminal records can be allowed into the country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I agree with you Immigrants with no criminal records can be allowed into the country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "Agreed. Diversity is important and in order to maintain it, we need to regulate who we let in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "Agreed. Diversity is important and in order to maintain it, we need to regulate who we let in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "There are a lot of bad Americans. Does that mean we should deport them? We are a diverse country, and we cannot stay diverse without immigration. Immigrants contribute to the GDP here.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "There are a lot of bad Americans. Does that mean we should deport them? We are a diverse country, and we cannot stay diverse without immigration. Immigrants contribute to the GDP here.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Absolutely. Stringent background checks are a must.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Absolutely. Stringent background checks are a must.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I completely agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I completely agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "But there should be proper scrutiny.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "But there should be proper scrutiny.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "But we also need to be cognizant of asylum seekers. That is essential to keeping America as a leader in the world.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "But we also need to be cognizant of asylum seekers. That is essential to keeping America as a leader in the world.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Tarnish the image of our country. What image? Our president is a rapsit and a 34 time convicted felon.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Tarnish the image of our country. What image? Our president is a rapsit and a 34 time convicted felon.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "But you make a great point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "But you make a great point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "It's crazy how our president says he doesn't want \"criminals\" crossing the border when he is a literal criminal himself",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "It's crazy how our president says he doesn't want \"criminals\" crossing the border when he is a literal criminal himself",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "Absolutely. I think it only hurts them and others who need similar assistance when there are not resources to help them because we have been too open in who we accept.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "Absolutely. I think it only hurts them and others who need similar assistance when there are not resources to help them because we have been too open in who we accept.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Unfortunately that program tends to get abused, so I do believe tit should be more strict. True.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Unfortunately that program tends to get abused, so I do believe tit should be more strict. True.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "It is also crazy how they are deporting all those that bring value to the county",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "It is also crazy how they are deporting all those that bring value to the county",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "As with anything, there are predators in the immigration system entering illegally and people who truly need help fall through the cracks.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "As with anything, there are predators in the immigration system entering illegally and people who truly need help fall through the cracks.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Yes it's so unfair.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Yes it's so unfair.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I believe staying true to the essence of the United States is crucial to maintaining out position of global leader. This means allowing entry to any and all that qualify.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67016A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "We need to let more migrants in our country. They contribute to our GDP and to our labor force.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "677edA1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "I believe that we need stricter immigration policies so that we can safeguard our citizens and have the resources to truly help those who need protection (refugees, etc.).",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "63be7A1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Immigrants with no criminal records help the country thrive and I believe they should be allowed into the country. Also I think there should be proper scrutiny of the people that come into the country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I agree to your point. As long as all applicants for entry are approved and pass all checks.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I agree to your point. As long as all applicants for entry are approved and pass all checks.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I agree. Most people don't realize that migrants add so much to the US economy. They foster economic growth and productivity. Not to mention the contribute tax revenue",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I agree. Most people don't realize that migrants add so much to the US economy. They foster economic growth and productivity. Not to mention the contribute tax revenue",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "That's a good point you made there",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "That's a good point you made there",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "100%. Plus they contribute to tax income, just like everyone else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "100%. Plus they contribute to tax income, just like everyone else.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Agreed. Sadly, there are some who have criminal records from their countries, but they pay the right people off. I think we also need to hold other countries with high immigration rates to the U.S. accountable in this regard.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Agreed. Sadly, there are some who have criminal records from their countries, but they pay the right people off. I think we also need to hold other countries with high immigration rates to the U.S. accountable in this regard.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I agree. Plus, migrants do a lot of jobs that Americans just won't do, or don't want to do, for a lot less pay.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I agree. Plus, migrants do a lot of jobs that Americans just won't do, or don't want to do, for a lot less pay.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "right, very sad We should check our people too and take out the bad seeds",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "right, very sad We should check our people too and take out the bad seeds",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "Absolutely. A lot of people don't realize that, or refuse to believe it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "Absolutely. A lot of people don't realize that, or refuse to believe it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "Yes, I agree that we do need to screen them before entry. But if they pass the background check, then we should let them in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "Yes, I agree that we do need to screen them before entry. But if they pass the background check, then we should let them in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Indeed. In the end, it only hurts those who really need help by tying up resources.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Indeed. In the end, it only hurts those who really need help by tying up resources.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "that way we know a good job is being done",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "that way we know a good job is being done",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "You're so right. So many people believe what they are told or see on certaion news chsnnels and don't even do their research",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "You're so right. So many people believe what they are told or see on certaion news chsnnels and don't even do their research",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "I completely agree with you. There needs to be stricter laws on the books and less tolerance for those who harm society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "I completely agree with you. There needs to be stricter laws on the books and less tolerance for those who harm society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "Yes it is frustrating that people believe what they are told in their \"echo chambers\".",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "Yes it is frustrating that people believe what they are told in their \"echo chambers\".",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "exactly , they should be punished and used as scapgoats",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "exactly , they should be punished and used as scapgoats",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I wish more people would do their own research!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I wish more people would do their own research!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67016A1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "We need to let in more migrants, as long as they pass a background check and aren't violent criminals.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "677edA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I believe we should have stricter immigration policies so as to safeguard society and be able to offer help to those really in need (refugees, etc.)",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "It is essential for the United States to remain true to their history with immigration if the country wants to remain a leader in the world and global economy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "63be7A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "There should be stricter policies when it comes to immigration and those that work at the boarder. When you are found to not have done a good job, you should be punished.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "What do you mean \"not have done a good job\"? Do you mean Immigration Agents? Or people seeking entry?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "What do you mean \"not have done a good job\"? Do you mean Immigration Agents? Or people seeking entry?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Safeguard society how? How is letting in non violent immigrants safeguarding society?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "Safeguard society how? How is letting in non violent immigrants safeguarding society?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I don't think they hold that title anymore yes immigration agents some take bribes so blinded by the love for money they just anyone into the country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "I don't think they hold that title anymore yes immigration agents some take bribes so blinded by the love for money they just anyone into the country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I was speaking of overarching regulation to ensure that those with a criminal background are not allowed in. That is one way to safeguard society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "I was speaking of overarching regulation to ensure that those with a criminal background are not allowed in. That is one way to safeguard society",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "They work under very strict rules and monitoring, and are held to already high standards. Those opinions are based on falsehoods.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "They work under very strict rules and monitoring, and are held to already high standards. Those opinions are based on falsehoods.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67016A1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "I agree. If we let migrants in, they do need to hsave a background check ran. We agree on that. I think that we need to make the immigration process fasxter. It takes 4+ yesars to approve. That is just way too long",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "677edA1SZ3",
+          "recipient": "677edA1SZ3",
+          "text": "I agree. If we let migrants in, they do need to hsave a background check ran. We agree on that. I think that we need to make the immigration process fasxter. It takes 4+ yesars to approve. That is just way too long",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "But also I think people with no criminal records should be allowed into the country really I had no idea",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "But also I think people with no criminal records should be allowed into the country really I had no idea",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "677edA1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "Absolutely. There are currently a lot of resources funneled to removing those with criminal backgrounds. Freeing up these resources in the future will allow us to better serve those who need our protection. That's a good point. I wonder if we have stricter polices from the start if that will help streamline things down the road",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67016A1SZ3",
+          "recipient": "67016A1SZ3",
+          "text": "Absolutely. There are currently a lot of resources funneled to removing those with criminal backgrounds. Freeing up these resources in the future will allow us to better serve those who need our protection. That's a good point. I wonder if we have stricter polices from the start if that will help streamline things down the road",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Yes, criminal records should disqualify immediately.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63be7A1SZ3",
+          "recipient": "63be7A1SZ3",
+          "text": "Yes, criminal records should disqualify immediately.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63be7A1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "exactly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "5fd0dA1SZ3",
+          "text": "exactly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "I maintain my stance. The border should be strict, but still allow entry and stay true to the United State's long-standing history with immigration.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "We should not restrict entry more because we need migrants here to contributer to the GSP and for jobs.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "I absolutely agree. By tightening things up on the front end, that frees up resources later down the line to help those truly in need.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "more stricter policies with help with the way immigrants come into the country",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "43",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "['home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "48",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "43",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5fd0dA1SZ3",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "['home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67016A1SZ3",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63be7A1SZ3",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "48",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "677edA1SZ3",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JYF4XV9DZFT91XMJ69GDY57D",
+      "fileName": "20250623_202710_We_should_restrict_and_control_entry_into_the_US_more_than_we_do_now_01JYF4XV9DZFT91XMJ69GDY57D.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "684a1DY57D",
+          "recipient": "68422DY57D",
+          "text": "We should not as Immigrants come to seek greener pastures and also help in filling wide gaps in some jobs, including hard labour",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67912DY57D",
+          "recipient": "67df4DY57D",
+          "text": "I feel that the current policies that are in place are enough. There are more important things the government should focus on to help the American people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "68422DY57D",
+          "recipient": "684a1DY57D",
+          "text": "hey, i think it is important to control who enters our country and why. There exists a large number of people with bad will,you get to understand this when you let your guard down and things fall apart. So i honestly think it best to be careful and do things in a careful way",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67df4DY57D",
+          "recipient": "67912DY57D",
+          "text": "I do not believe that we have to have tougher entry restrictions into U.S. A lot of individuals also arrive as refugees, in search of some chance or to see the family. We need to enhance the existing system and make it more efficient and humane rather than imposing more restrict",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "684a1DY57D",
+          "recipient": "68422DY57D",
+          "text": "It is best to be careful but some immigrants have no issue, some are highly educated and only come to the Us for grenner pastures nothing more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "68422DY57D",
+          "recipient": "68422DY57D",
+          "text": "It is best to be careful but some immigrants have no issue, some are highly educated and only come to the Us for grenner pastures nothing more.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67912DY57D",
+          "recipient": "67df4DY57D",
+          "text": "I agree with the statements you made. There is definitely a need to enhance to the current system but more restrictions aren't necessary.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67df4DY57D",
+          "recipient": "67df4DY57D",
+          "text": "I agree with the statements you made. There is definitely a need to enhance to the current system but more restrictions aren't necessary.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "68422DY57D",
+          "recipient": "684a1DY57D",
+          "text": "i understand but considering being careful on who enters or leaves i think its best to be careful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "684a1DY57D",
+          "recipient": "684a1DY57D",
+          "text": "i understand but considering being careful on who enters or leaves i think its best to be careful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "684a1DY57D",
+          "recipient": "68422DY57D",
+          "text": "Too much regulation may kill innovation and limits freedom, I see no need to restrict entry into the us more than we do now.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "68422DY57D",
+          "recipient": "68422DY57D",
+          "text": "Too much regulation may kill innovation and limits freedom, I see no need to restrict entry into the us more than we do now.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "68422DY57D",
+          "recipient": "684a1DY57D",
+          "text": "true which is great for everyone as we all get to benefit",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "684a1DY57D",
+          "recipient": "684a1DY57D",
+          "text": "true which is great for everyone as we all get to benefit",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67df4DY57D",
+          "recipient": "67912DY57D",
+          "text": "I appreciate the issue of national security and economic effects but I believe that the majority of the immigrants are a positive addition to society. What, do you think, is the most explaining reason why people can support stricter entry control",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67912DY57D",
+          "recipient": "67912DY57D",
+          "text": "I appreciate the issue of national security and economic effects but I believe that the majority of the immigrants are a positive addition to society. What, do you think, is the most explaining reason why people can support stricter entry control",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "684a1DY57D",
+          "recipient": "68422DY57D",
+          "text": "Moderate restriction is what's best not too much, not too little",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "68422DY57D",
+          "recipient": "68422DY57D",
+          "text": "Moderate restriction is what's best not too much, not too little",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67912DY57D",
+          "recipient": "67df4DY57D",
+          "text": "I also feel that the process of immigration should quicker. There are people who come to our country and try to gain citizenship the legal way and the process can sometimes take 5 plus years.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67df4DY57D",
+          "recipient": "67df4DY57D",
+          "text": "I also feel that the process of immigration should quicker. There are people who come to our country and try to gain citizenship the legal way and the process can sometimes take 5 plus years.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "68422DY57D",
+          "recipient": "684a1DY57D",
+          "text": "we do need to change a few things, at least move and change as technology does the same",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "684a1DY57D",
+          "recipient": "684a1DY57D",
+          "text": "we do need to change a few things, at least move and change as technology does the same",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "68422DY57D",
+          "recipient": "67df4DY57D",
+          "text": "it is important to improve on security of our country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67912DY57D",
+          "recipient": "684a1DY57D",
+          "text": "I do not feel as though there is a need to restrict access more that we already do. However, I do feel as thought the process of entry control could be enhanced to allow people into our country. Immigrants as a whole are not the problem.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67df4DY57D",
+          "recipient": "68422DY57D",
+          "text": "I do not think that we need some tightening, but certainly, we should have a more efficient and equal system of immigration. What do you think of balance between security and compassion regarding immigration p",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "684a1DY57D",
+          "recipient": "67912DY57D",
+          "text": "We should moderately restrict entry into the U.S. The restrictions that are there now seem to be enough. Increasing them will reduce innovation and kill opportunitiwe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67df4DY57D",
+          "recipient": "68422DY57D",
+          "text": "I do not think that we need some tightening, but certainly, we should have a more efficient and equal system of immigration. What do you think of balance between security and compassion regarding immigration policy?  The increase in the emphasis on reform would aid in the droppi",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67912DY57D",
+          "recipient": "684a1DY57D",
+          "text": "In what ways do you feel we should moderately restrict entry that would be beneficial to our country?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "684a1DY57D",
+          "recipient": "684a1DY57D",
+          "text": "In what ways do you feel we should moderately restrict entry that would be beneficial to our country?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "68422DY57D",
+          "recipient": "67df4DY57D",
+          "text": "i agree compassion is important but this comes second after making sure the person has the right agenda it is okay to be careful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67df4DY57D",
+          "recipient": "67df4DY57D",
+          "text": "i agree compassion is important but this comes second after making sure the person has the right agenda it is okay to be careful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "684a1DY57D",
+          "recipient": "67912DY57D",
+          "text": "I agree with whatever you are saying. Controlling entry into the U.S will not automatically reduce the problems that we are facing. Immigration might just be a non issue First, Before anyone is allowed into our country a background check should be done to show that the person is in no way a fraud and also prioritising immigrants with devvelopmental skills that will help the country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67912DY57D",
+          "recipient": "67912DY57D",
+          "text": "I agree with whatever you are saying. Controlling entry into the U.S will not automatically reduce the problems that we are facing. Immigration might just be a non issue First, Before anyone is allowed into our country a background check should be done to show that the person is in no way a fraud and also prioritising immigrants with devvelopmental skills that will help the country",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67df4DY57D",
+          "recipient": "68422DY57D",
+          "text": "Concentrating on security makes sense, but I believe that compassion should also have a significant role to play particularly on families",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "68422DY57D",
+          "recipient": "68422DY57D",
+          "text": "Concentrating on security makes sense, but I believe that compassion should also have a significant role to play particularly on families",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "68422DY57D",
+          "recipient": "67df4DY57D",
+          "text": "i agree,everyone has a stoe sorry meant story",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67df4DY57D",
+          "recipient": "67df4DY57D",
+          "text": "i agree,everyone has a stoe sorry meant story",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67912DY57D",
+          "recipient": "684a1DY57D",
+          "text": "I feel as though if the process to become an american citizen were so strenuous people would come into our country the legal way knowing that they would haven't to",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "684a1DY57D",
+          "recipient": "684a1DY57D",
+          "text": "I feel as though if the process to become an american citizen were so strenuous people would come into our country the legal way knowing that they would haven't to",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "68422DY57D",
+          "recipient": "67912DY57D",
+          "text": "it is important to be careful when it comes to security of our nation but it is important to remain human and show love and respect as we do all this",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67912DY57D",
+          "recipient": "68422DY57D",
+          "text": "I do not feel as though the we should restrict access into our country more than we do now. However, I do feel that there could",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67df4DY57D",
+          "recipient": "684a1DY57D",
+          "text": "Most of the time, I think that what we should do is work on making our present system of immigration more efficien",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "684a1DY57D",
+          "recipient": "67df4DY57D",
+          "text": "We should only moderate the entry of people into our country as increasing restrictions might close doors to people that actually",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67912DY57D",
+          "recipient": "68422DY57D",
+          "text": "I do not feel as though the we should restrict access into our country more than we do now. However, I do feel that there could be positive enhancements made  to the entry process.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "68422DY57D",
+          "recipient": "67912DY57D",
+          "text": "i agree with you on that offering others an opportunityis a win win",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67912DY57D",
+          "recipient": "67912DY57D",
+          "text": "i agree with you on that offering others an opportunityis a win win",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "684a1DY57D",
+          "recipient": "67df4DY57D",
+          "text": "I think immigration increases innnovation therefore closing doors for innocent people who are looking for a brighter future is just cruel and unnecessary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67df4DY57D",
+          "recipient": "67df4DY57D",
+          "text": "I think immigration increases innnovation therefore closing doors for innocent people who are looking for a brighter future is just cruel and unnecessary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67df4DY57D",
+          "recipient": "684a1DY57D",
+          "text": "I concur- the important thing is to be moderate since too extreme policies can damage people who are in legit need of security and prosperity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "684a1DY57D",
+          "recipient": "684a1DY57D",
+          "text": "I concur- the important thing is to be moderate since too extreme policies can damage people who are in legit need of security and prosperity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "684a1DY57D",
+          "recipient": "67df4DY57D",
+          "text": "We can make our present system more efficienty through things like making sure background checks are done on the people coming in and out of our country. yes, the only way is moderation , not too much, not too little also to avoid things getting out of hand. skill based immigration is also great",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67df4DY57D",
+          "recipient": "67df4DY57D",
+          "text": "We can make our present system more efficienty through things like making sure background checks are done on the people coming in and out of our country. yes, the only way is moderation , not too much, not too little also to avoid things getting out of hand. skill based immigration is also great",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67912DY57D",
+          "recipient": "68422DY57D",
+          "text": "I also feel as though if the process of gaining citizenship was quicker then more people would try to enter the county legally. Being that the process of gaining American citizenship can some times take 5 -10 plus years",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "68422DY57D",
+          "recipient": "68422DY57D",
+          "text": "I also feel as though if the process of gaining citizenship was quicker then more people would try to enter the county legally. Being that the process of gaining American citizenship can some times take 5 -10 plus years",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "68422DY57D",
+          "recipient": "67912DY57D",
+          "text": "it helps avoid overdoing it though as people might out do the opportunities",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67912DY57D",
+          "recipient": "67912DY57D",
+          "text": "it helps avoid overdoing it though as people might out do the opportunities",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67df4DY57D",
+          "recipient": "684a1DY57D",
+          "text": "It is a solid argument it is true that immigration has always served as a catalyst of innovations and growth, and a less hostile system will help everyone in the long term.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "684a1DY57D",
+          "recipient": "684a1DY57D",
+          "text": "It is a solid argument it is true that immigration has always served as a catalyst of innovations and growth, and a less hostile system will help everyone in the long term.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "it is okay to be cautious and with new technology there is a lot that we could improve",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "My stance reamined the same. I do not feel as though we should restrict and control more than we currenlty do.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "I still tend to being opposed on the point of view th",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "We should only moderate and make the system that is already there efficient. Not",
+          "sliderValue": 1,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "My stance reamined the same. I do not feel as though we should restrict and control more than we currently do. However, I do feel that enhances can be made to policies that are currently in place.",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "I still tend to being opposed on the point of view that we should go further to limit entry into the U.S. Although I understand that some level of security is necessary, I think that a better approach to solve the problem would be to enhance the effectiveness and equableness of the existing system instead of stricter measures.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "widowed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "law",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "['home', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67912DY57D",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "widowed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "684a1DY57D",
+          "recipient": "",
+          "text": "law",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68422DY57D",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "['home', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67df4DY57D",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

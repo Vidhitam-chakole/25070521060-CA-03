@@ -1,0 +1,1756 @@
+{
+  "_id": "civil_rights_protecting_people_s_liberty_from_state_oppression_is_a_characterist",
+  "topicId": "civil_rights_protecting_people_s_liberty_from_state_oppression_is_a_characterist",
+  "topic": "Civil rights protecting people’s liberty from state oppression is a characteristic of democracy",
+  "category": "Ethics & Law",
+  "topicType": "breadth",
+  "conversationCount": 1,
+  "totalTurns": 188,
+  "initialOpinions": [
+    {
+      "workerId": "6835dRSG2Z",
+      "text": "it is true",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67643RSG2Z",
+      "text": "Protecting people's liberty from oppression is a key characteristic of democracy. Once you start having state sponsored fascism the people aren't free ot do what they want.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "678c3RSG2Z",
+      "text": "Protecting other people's right is not only a moral thing to do, but also a characteristic of democracy. The art of being able to protect one's ppeople",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67ddfRSG2Z",
+      "text": "The rights of the people should be protected at all costs. It doesn't matter if the oppressor is the state; the rights of the people must be upheld. That is why democracy is important and should be protected.",
+      "sliderValue": 6,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "I agree, it is an important characteristic. People's liberties are important in a democratic society.",
+    "There are certain rights that are exclusive only to citizens of a state.  Citizens should be able to make informed decisions on their own, and not impose on them.",
+    "Civil rights that protect individuals from state oppression are essential to democracy. Without them, majority rule can become tyranny. Democracy isn't just vot"
+  ],
+  "tags": [
+    "ethics & law",
+    "civil",
+    "rights",
+    "protecting",
+    "people",
+    "liberty",
+    "from",
+    "state",
+    "oppression",
+    "characteristic",
+    "democracy"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.750Z",
+  "conversations": [
+    {
+      "sessionId": "01JX0G4Z7ERQGWNTWZJ71RSG2Z",
+      "fileName": "20250605_172223_Civil_rights_protecting_people’s_liberty_from_state_oppression_is_a_characteristic_of_democracy_01JX0G4Z7ERQGWNTWZJ71RSG2Z.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67643RSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "I agree, it is an important characteristic. People's liberties are important in a democratic society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "678c3RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "There are certain rights that are exclusive only to citizens of a state.  Citizens should be able to make informed decisions on their own, and not impose on them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6835dRSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Civil rights that protect individuals from state oppression are essential to democracy. Without them, majority rule can become tyranny. Democracy isn't just vot",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "I believe that the rights of the people matter a lot. The constitution is obligated in protecting the rights and freedom of the people at all costs. If the Government is oppressive, it should be held accountable. I believe that is what democracy is all about. The",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67643RSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "What do you mean by certain rights?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "678c3RSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "What do you mean by certain rights?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "Voting is a way of exercising democracy but people's right should be protected. when the government that you voted for is not protecting people's rights, we all should call it out.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6835dRSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "Voting is a way of exercising democracy but people's right should be protected. when the government that you voted for is not protecting people's rights, we all should call it out.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6835dRSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Absolutely agree — accountability is key. Do you think a democracy can still be called a democracy if it starts restricting civil rights, like freedom of speech or protest, in the name of security or stability? That’s a tough balance. I wonder if some rights should be non-negotiable in any democracy, no matter the circumstances. What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Absolutely agree — accountability is key. Do you think a democracy can still be called a democracy if it starts restricting civil rights, like freedom of speech or protest, in the name of security or stability? That’s a tough balance. I wonder if some rights should be non-negotiable in any democracy, no matter the circumstances. What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "678c3RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "There are some rights I believe,  which need proper guidance to be made",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67643RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "There are some rights I believe,  which need proper guidance to be made",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67643RSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "I think the people should be free to make those decisions without governmental interference",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "678c3RSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "I think the people should be free to make those decisions without governmental interference",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "I don't think that is democracy. We clearly need to have people air their opinions without the fear of being abducted or called out by the ruling government.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6835dRSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "I don't think that is democracy. We clearly need to have people air their opinions without the fear of being abducted or called out by the ruling government.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "678c3RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "When people are given full rights over everything they wish or want to do, imagine the world we will be living",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67643RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "When people are given full rights over everything they wish or want to do, imagine the world we will be living",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67643RSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Yes, in a civilized democracy people have Civil rights and are free to live as they please (within reason)",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "678c3RSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "Yes, states should not oppress people's civil rights  Democracy gives us that right, at least.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "There is no justification in oppressing the people who voted for the same ruling Government. I think democracy still applies even when the ruling government is oppressing the people. It should be called out. What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6835dRSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "I believe the statement is true. Civil rights that protect people from state oppression are not just features of democracy—they’re foundational to it. Without them, democratic systems can easily slide into authoritarianism, even with elections in place. #Democracy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67643RSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Oppressing anyone not harming another is wrong for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Oppressing anyone not harming another is wrong for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "People are entitled to live the way they please as long as they are following the rules of the country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67643RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "People are entitled to live the way they please as long as they are following the rules of the country.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6835dRSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "Totally agree. But I’m curious—do you think democracy guarantees protection from oppression, or does it just make it more likely? What happens when elected leaders start acting in oppressive ways?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "678c3RSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "Totally agree. But I’m curious—do you think democracy guarantees protection from oppression, or does it just make it more likely? What happens when elected leaders start acting in oppressive ways?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67643RSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "As long as the rules are just I agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "As long as the rules are just I agree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "No state or government that is supposed to oppress it people. The people are there to hold them accountable and ensure that the government is held accountable. Even if the people are talking badly about the state, I think the state should take legal action and not oppress them, right?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67643RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "No state or government that is supposed to oppress it people. The people are there to hold them accountable and ensure that the government is held accountable. Even if the people are talking badly about the state, I think the state should take legal action and not oppress them, right?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "678c3RSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "In this era where people know their rights, I do not think anyone would sit down for an authority to impose restrictions on them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6835dRSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "In this era where people know their rights, I do not think anyone would sit down for an authority to impose restrictions on them.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67643RSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Yes I think you are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Yes I think you are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "Civil rights were meant to protect the people from the oppressors such as the state. Rights are important and should be adhered to.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67643RSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "The state exists to serve and protect its people, civil rights existing to ensure that nobody is given less opportunity for reasons outside of their control are important to democratic society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "678c3RSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "Civil rights must be protected at all costs.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6835dRSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "I believe the statement is true. Civil rights are core to democracy—they protect individuals from state abuse and ensure that freedom isn’t just theoretical. Without those protections, democracy becomes hollow, even if elections still exist. #CivicFreedom #Democracy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67643RSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "You make a very good point, freedom is a key part of democracy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6835dRSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "You make a very good point, freedom is a key part of democracy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "678c3RSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "What's your take on it?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "What's your take on it?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "I agree, the rights and freedom are meant to protect the people. The constitution should be followed by any party. People's right and freedom matter.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "678c3RSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "I agree, the rights and freedom are meant to protect the people. The constitution should be followed by any party. People's right and freedom matter.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6835dRSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "Well said — I like how you linked civil rights to equal opportunity. Do you think democracies are doing enough to protect those rights in practice, or do you see gaps between the ideal and the reality?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67643RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "Well said — I like how you linked civil rights to equal opportunity. Do you think democracies are doing enough to protect those rights in practice, or do you see gaps between the ideal and the reality?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "678c3RSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "You are absolutely right, what is democracy if the civil rights of people cannot be protected",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "67ddfRSG2Z",
+          "text": "You are absolutely right, what is democracy if the civil rights of people cannot be protected",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "I believe in the protection of civil rights by law against oppressive state actions. If the rights of the people are not protected, then the state doesn't practice democracy. And that means the constitution is not respected.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "678c3RSG2Z",
+          "recipient": "678c3RSG2Z",
+          "text": "I believe in the protection of civil rights by law against oppressive state actions. If the rights of the people are not protected, then the state doesn't practice democracy. And that means the constitution is not respected.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67643RSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "I don't think democracies are doing enough, I think we are seeing a shift in many democracies towards the opposite in fact. What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6835dRSG2Z",
+          "recipient": "6835dRSG2Z",
+          "text": "I don't think democracies are doing enough, I think we are seeing a shift in many democracies towards the opposite in fact. What do you think?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6835dRSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "Yeah, I agree—there’s often a big difference between democratic values and how things actually work. I wonder, what do you think makes the biggest difference: strong laws, public awareness, or something else?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67643RSG2Z",
+          "recipient": "67643RSG2Z",
+          "text": "Yeah, I agree—there’s often a big difference between democratic values and how things actually work. I wonder, what do you think makes the biggest difference: strong laws, public awareness, or something else?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "People need to be given equal chance at life regardless of race, sex, religion, or anything else. Civil rights protecting any of these are important in a fair and equal democratic society.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "If the civil rights of people cannot be protected, then democracy is of no essence.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "ChatGPT said:I agree with the statement. Civil rights that protect individuals from state oppression are fundamental to democracy because they ensure that freedom and equality are upheld beyond just the act of voting. Without these protections, a government can become authoritarian even if elections are held.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "Civil rights must be protected at all costs. Democracy protects the freedom of the people, and this should be respected by any ruling party.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "29",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "wholesale",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "['private', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "['private', 'home', 'no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "27",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "29",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67643RSG2Z",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "678c3RSG2Z",
+          "recipient": "",
+          "text": "wholesale",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "['private', 'home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6835dRSG2Z",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "['private', 'home', 'no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "27",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ddfRSG2Z",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

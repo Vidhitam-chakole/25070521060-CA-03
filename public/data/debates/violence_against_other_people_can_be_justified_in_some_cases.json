@@ -1,0 +1,3838 @@
+{
+  "_id": "violence_against_other_people_can_be_justified_in_some_cases",
+  "topicId": "violence_against_other_people_can_be_justified_in_some_cases",
+  "topic": "Violence against other people can be justified in some cases",
+  "category": "Science & Technology",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 416,
+  "initialOpinions": [
+    {
+      "workerId": "63d15HDVG7",
+      "text": "I don't believe violence against another person can ever be justified or acceptable. Sometimes violence can be a necessary response in self defense.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "644a7HDVG7",
+      "text": "I think that in a few very rare cases violence against another person is justified. For example, if someone was trying to grab your baby, shoving them really hard or even biting them to get them to release the baby could be justified. I do think in most cases it isn't though.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67203HDVG7",
+      "text": "Violence against other people can be justified in some cases. If someone is going to inflict violence upon you, you are allowed to defend yourself. If someone is trying to harm someone close to you like a family member, it is your right to put a stop to it even if violence is necessary. Someone breaking into your house, robbing you, carjacking..etc. Violence to stop violence is okay.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67eaeHDVG7",
+      "text": "I agree that violence can be justified in some cases, such as self defense or protecting others from harm. In those situations, using may be the only way to prevent f",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "67edfE2H5H",
+      "text": "I believe in certain circumstances maybe violence against other could be justified, but it has to be something pretty bad",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67e54E2H5H",
+      "text": "If the people violence is going to be used against are in imminent threat of killing or severely harming other people it can be justified. If a person for example is going to start a mass shooting, then violence can be justified against that person so lives can be saved.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67ed8E2H5H",
+      "text": "Violence against other people can be justified through self protection. If someone atta",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "5dce2E2H5H",
+      "text": "I beleive in some cases violence against someone can be justified. For example if your being attacked by someone with a knife or gun. If I see someone being attacked I would protect them by any means neccesary.",
+      "sliderValue": 6,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "Simply yes. If someone is trying to break into my home, attack me, rob me or hurt me or a loved one in any way, I have the right to defend myself. If violence is necessary to do that, I am doing it.",
+    "I think that violence against a human can only be justified in a few rare cases. Like if someone is directly harming a loved one and needs to be stopped. Or if someone is trying to kill you, you could shove them or bite them. But in most cases, no one should use violence.",
+    "I believe violence can sometimes be justified, especially in cases of self defense or preventing immediate harm. Although violence is sometimes unnecessary.",
+    "If someone is about to hurt or kill other people, violence is justified to stop that person and thereby save lives of others. Like in school shootings and so forth. But I feel that there should be immediate threat to justify the violence. Otherwise lesser measures suffice.",
+    "Violence against other people can only be justifiable when it's about self protection from harm inflicted by the other party.",
+    "In some cases, I can see violence against other could be justified.  I think it would be in very rare case, but I definitely can see this as something I would agree with.  Some very terrible crimes against humanity could make me feel this way where I"
+  ],
+  "tags": [
+    "science & technology",
+    "violence",
+    "against",
+    "other",
+    "people",
+    "justified",
+    "some",
+    "cases"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.449Z",
+  "conversations": [
+    {
+      "sessionId": "01JSWS2688C3T6RAR26KGHDVG7",
+      "fileName": "20250427_235931_Violence_against_other_people_can_be_justified_in_some_cases_01JSWS2688C3T6RAR26KGHDVG7.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67203HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "Simply yes. If someone is trying to break into my home, attack me, rob me or hurt me or a loved one in any way, I have the right to defend myself. If violence is necessary to do that, I am doing it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "644a7HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "I think that violence against a human can only be justified in a few rare cases. Like if someone is directly harming a loved one and needs to be stopped. Or if someone is trying to kill you, you could shove them or bite them. But in most cases, no one should use violence.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67203HDVG7",
+          "text": "I believe violence can sometimes be justified, especially in cases of self defense or preventing immediate harm. Although violence is sometimes unnecessary.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "63d15HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Violence against other people cannot be justified in my opinion. Mankind has moved on from the age of animalistic harm to one another as a means of problem solving. We live in the modern era of intellectual enlightenment where we solve problems through reasoning and c",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67203HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "You basically said the same thing is me so it seems we are in agreement.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "You basically said the same thing is me so it seems we are in agreement.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "644a7HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "I am so much almost in agreement with you, but what if someone was strangling you. Or what if you had a baby in a stoller and someone was in the act of grabbing them. Wouldn't it be OK to shove them hard to get them away?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63d15HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "I am so much almost in agreement with you, but what if someone was strangling you. Or what if you had a baby in a stoller and someone was in the act of grabbing them. Wouldn't it be OK to shove them hard to get them away?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67203HDVG7",
+          "text": "Yeah, we are on the same page, do you think there is a clear line between justified violence and when it crosses into being excessive?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67203HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "Yeah, we are on the same page, do you think there is a clear line between justified violence and when it crosses into being excessive?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "63d15HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Maybe after all other means (like fleeing) have been exhausted, then perhaps it can be called justified.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "644a7HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Maybe after all other means (like fleeing) have been exhausted, then perhaps it can be called justified.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67203HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "It all depends on a case to case basis. I follow the news constantly and there are most often than nought, people using violence when it is unnecessary Fights breaking out over different religious beliefs or political beliefs. That is just dumb but it is happening everywhere",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "It all depends on a case to case basis. I follow the news constantly and there are most often than nought, people using violence when it is unnecessary Fights breaking out over different religious beliefs or political beliefs. That is just dumb but it is happening everywhere",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "644a7HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "Yes, that is what I think. I would always try to run away first. I would lie down and cover my face. But if someone was literally trying to strangle me and I thought I could stop them with violence, I would.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "63d15HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "Yes, that is what I think. I would always try to run away first. I would lie down and cover my face. But if someone was literally trying to strangle me and I thought I could stop them with violence, I would.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "644a7HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "I most cases I think violence should be avoided, but in a few rare cases, like if you are being actively strangled, I think violence is OK. For example, to shove someone hard who is grabbing your child, or to bite someone who is strangling you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67203HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "Yes is the simple answer. If someone is breaking into my home for God knows what reason, trying to rob or harm me, trying to hurt someone I love or care about, then I have the right to defend myself and them. If it takes using violence to stop this person, I will absolutely do it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67eaeHDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Violence can be justified in cases of self defense.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "63d15HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "Violence against other people can be justified in some cases, as long as those cases involve self defense. Additionally, this would mean after all other options like fleeing, using non-lethal defenses like pepper spray or tasers, have been exhausted.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67203HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "Seems we somewhat agree though if someone is breaking into my home, I am not pepper spraying them or using a taser. I am going to take that threat out quickly and efficiently by using other means.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63d15HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "Seems we somewhat agree though if someone is breaking into my home, I am not pepper spraying them or using a taser. I am going to take that threat out quickly and efficiently by using other means.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "644a7HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "Yes, I think I am in agreement with you. I do think people should use the least amount of violence necessary, but in the moment, that can be hard to know. I would always err on the side of trying to save myself or another person who I feel responsible for.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "Yes, I think I am in agreement with you. I do think people should use the least amount of violence necessary, but in the moment, that can be hard to know. I would always err on the side of trying to save myself or another person who I feel responsible for.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67eaeHDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Totally agree, I would also shove someone who tries to take my child",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "644a7HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Totally agree, I would also shove someone who tries to take my child",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63d15HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "I think it goes without saying that violence can be justified in self defense. A statement like \"Violence against other people can be justified in some cases\" isn't very clear about what those \"cases\" may be.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67203HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "I think it goes without saying that violence can be justified in self defense. A statement like \"Violence against other people can be justified in some cases\" isn't very clear about what those \"cases\" may be.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "644a7HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "I use to be a total 100% pacifist, but now I am more realistic about the fact that self preservation is definitely a thing!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "I use to be a total 100% pacifist, but now I am more realistic about the fact that self preservation is definitely a thing!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67203HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "It is certainly a case by case basis. I read a lot of news and I would certainly say that most of the violence being committed is unnecessary and could have been prevented.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67eaeHDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Exactly, in those high stress moments, its hard to think perfectly clearly, your instincts is just to protect.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63d15HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "It is certainly a case by case basis. I read a lot of news and I would certainly say that most of the violence being committed is unnecessary and could have been prevented.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "644a7HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Exactly, in those high stress moments, its hard to think perfectly clearly, your instincts is just to protect.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "644a7HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "Yes, instinct is exactly the word I would use.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "Yes, instinct is exactly the word I would use.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "63d15HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "Using violence in self defense, you'd best be ready for more violence in return.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67203HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "Using violence in self defense, you'd best be ready for more violence in return.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67203HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "I think this is in relation to all the religious and political violence that is going on which I to not agree with",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "63d15HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "I think this is in relation to all the religious and political violence that is going on which I to not agree with",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67eaeHDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "Do you know cases where violence can be justified? Self defense? Maybe?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67203HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Yes it can. It is all on a case by case basis but I can tell you that if someone is breaking into my home, attacking or robbing a loved one or a close friend...etc. I will use violence to neutralize the threat.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "644a7HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "Although I am mostly against violence, I do believe that violence is justified if your life is being directly threatened or if someone you feel responsible for is being threatened. For example, biting someone who is actively attempting to strangle you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "63d15HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "Reading the words \"Violence against other people can be justified in some cases\" leaves the notion of what those \"cases\" might be. For me it would be in the case of self defense, but for others it could have a more nefarious meaning. Mankind has \"justified\" violence forever.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67203HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Agreed. I would bite and always shoot for the eyes. Try to gouge them out if possible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "644a7HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Agreed. I would bite and always shoot for the eyes. Try to gouge them out if possible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63d15HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "I hope it means in self defense and not for other reasons Mankind has a history of \"justified\" violence, such as the crusades",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "I hope it means in self defense and not for other reasons Mankind has a history of \"justified\" violence, such as the crusades",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "644a7HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "I would never use violence if someone was breaking into my home if I could just run away. It seems unnecessary and I could get hurt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67203HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "I would never use violence if someone was breaking into my home if I could just run away. It seems unnecessary and I could get hurt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67eaeHDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "That is the point, what one person sees as justified, another might see as abuse of power. History is full of examples where \"justification\" was just a cover for control of cruelty.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63d15HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "That is the point, what one person sees as justified, another might see as abuse of power. History is full of examples where \"justification\" was just a cover for control of cruelty.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67203HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "That I cannot agree with. How do you know they are not faster than you or you may not be able to get away? What then? Try and talk with them as they kill you or worse?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "644a7HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "That I cannot agree with. How do you know they are not faster than you or you may not be able to get away? What then? Try and talk with them as they kill you or worse?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63d15HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "People also find ways to \"justify\" violence against others with whom they disagree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "People also find ways to \"justify\" violence against others with whom they disagree",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67eaeHDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "The line gets really blurry outside of immediate self-defence",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "63d15HDVG7",
+          "recipient": "63d15HDVG7",
+          "text": "The line gets really blurry outside of immediate self-defence",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "63d15HDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "I agree. I hope I never find my self in that situation again I have lived in some very bad areas, had a home invasion occur...I feel self defense was",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67eaeHDVG7",
+          "recipient": "67eaeHDVG7",
+          "text": "I agree. I hope I never find my self in that situation again I have lived in some very bad areas, had a home invasion occur...I feel self defense was",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "644a7HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "I still would not initiate the violence. If I had any hope of just exiting the situation, that would be my first action. To get out of there. To hide.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67203HDVG7",
+          "recipient": "67203HDVG7",
+          "text": "I still would not initiate the violence. If I had any hope of just exiting the situation, that would be my first action. To get out of there. To hide.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67203HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Too risky in my opinion. I have home defense for a reason. There is never a person breaking into another persons home who is doing nothing other than something nefarious. Rape, Murder, God knows what.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "644a7HDVG7",
+          "recipient": "644a7HDVG7",
+          "text": "Too risky in my opinion. I have home defense for a reason. There is never a person breaking into another persons home who is doing nothing other than something nefarious. Rape, Murder, God knows what.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "In case of self defense, one could potentially say that violence can be justified. In most other cases it cannot be justified.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "All depends on a case by case basis. Simply, if anyone is threatening myself or a loved one in a manner where I need to defend myself or them, I will use violence. Breaking into my house, robbing me, attacking me...etc. I will make sure they are never able to do this to anyone ever again.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "Yes, it can be justified only in a few rare occasion. For example, when directly defending your life while being violently attacked or while defending a person who you feel responsible for, like your child.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "I agree that violence can be justified in some cases, such as self defense or protecting others from harm. In those situations, using may be the only way to prevent f",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "44",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "non-binary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "55",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "['hispanic', 'white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "['university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "57",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "non-binary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "['other']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "['university', 'out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "other-non-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "44",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "non-binary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "['public', 'university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67203HDVG7",
+          "recipient": "",
+          "text": "education",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "55",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "['hispanic', 'white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "['university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "63d15HDVG7",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "57",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "non-binary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "['other']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "['university', 'out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "other-non-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "644a7HDVG7",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67eaeHDVG7",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JSWWPZ38QHH81N2N9ACE2H5H",
+      "fileName": "20250428_011118_Violence_against_other_people_can_be_justified_in_some_cases_01JSWWPZ38QHH81N2N9ACE2H5H.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e54E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "If someone is about to hurt or kill other people, violence is justified to stop that person and thereby save lives of others. Like in school shootings and so forth. But I feel that there should be immediate threat to justify the violence. Otherwise lesser measures suffice.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Violence against other people can only be justifiable when it's about self protection from harm inflicted by the other party.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67edfE2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "In some cases, I can see violence against other could be justified.  I think it would be in very rare case, but I definitely can see this as something I would agree with.  Some very terrible crimes against humanity could make me feel this way where I",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "I think people have the right to defend their self and others if they are in danger. I also think people could use violence against someone as a last resort. I would hate to see someone get hurt and I would feel worse if I didn't do any",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "I agree. And you don't want to hurt people who weren't posing an actual danger",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "I agree. And you don't want to hurt people who weren't posing an actual danger",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "I think when something is so bad that a person has committed, I could see violence as something that woud and could be done Think about the anger you would have if someone hurt a loved one",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "I think when something is so bad that a person has committed, I could see violence as something that woud and could be done Think about the anger you would have if someone hurt a loved one",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "I agree with your post as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "I agree with your post as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Im not sure what else to say",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Im not sure what else to say",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "I Hate war and it is the worst used violence today. I don't think a lot of governments care about humanity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "I Hate war and it is the worst used violence today. I don't think a lot of governments care about humanity.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Yeah, sure but all in all, violence can be avoided. For the better.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Yeah, sure but all in all, violence can be avoided. For the better.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "I think definitely in self defense also Violence should be the last resort, but I would go to the ends of the earth to protect my loved ones",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "I think definitely in self defense also Violence should be the last resort, but I would go to the ends of the earth to protect my loved ones",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Yes. I agree. I also think that a lot of war is due to people who are mentally disturbed and want to start it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Yes. I agree. I also think that a lot of war is due to people who are mentally disturbed and want to start it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "We have alot of violence here in the USA and the last couple of years seem to have gotten worse.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "We have alot of violence here in the USA and the last couple of years seem to have gotten worse.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Some government people are ok, some aren't that is for sure yes. It has. Im in San Antonio TX and we always have violence every day shootings every day",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Some government people are ok, some aren't that is for sure yes. It has. Im in San Antonio TX and we always have violence every day shootings every day",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Yeah, self defense is a major justification for all that. True, loved ones can make peolpe do things they later",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Yeah, self defense is a major justification for all that. True, loved ones can make peolpe do things they later",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "I am in Ky and the violence in the cities are terrible. Every night",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "I am in Ky and the violence in the cities are terrible. Every night",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67ed8E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Self defense can be a good justification for violence against other people",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "I think violence is ok if you are in immediate danger or are protecting someone else. People are so afraid to help people of violence anymore and all they want to do is record it on their phones. I don't know what happened to society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e54E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "If someone is about to commit a serious injury or death type crime against others, violence is ok to stop it. To save lives. Like in a school shooting situation. But not just for frivolous reasons.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67edfE2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "While I do not condone violence, I do think if self defense is the only option then we would have to use it.  Also, I think if protecting my loved ones, I would go to the ends of the earth to protect them no matter what.  I know I've also felt like violence should be used wen I h",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "We have seen so much violence in schools and shooting is terrible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "We have seen so much violence in schools and shooting is terrible.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Good point about loved ones. Im isolated and don't have any, but if I did I would be that way too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Good point about loved ones. Im isolated and don't have any, but if I did I would be that way too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Have you had a family member that has been a victim of a bad crime?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Have you had a family member that has been a victim of a bad crime?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ed8E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Sure , people use their phones a lot, instead of helping",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "There has to be a way to stop the violence, I think alot has to do with no accountability. I think people who do that should be jailed for up to a year for not helping a victim. We have got to curb this violence and the only way to teach people how to care for others.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Sure , people use their phones a lot, instead of helping",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "There has to be a way to stop the violence, I think alot has to do with no accountability. I think people who do that should be jailed for up to a year for not helping a victim. We have got to curb this violence and the only way to teach people how to care for others.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "No Im estranged from my family I have been a crime victim myself though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "No Im estranged from my family I have been a crime victim myself though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "How did that make you feel to be the victim?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "How did that make you feel to be the victim?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Oh it was a vicious assault by a stranger. Not involving my family",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Oh it was a vicious assault by a stranger. Not involving my family",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Did you feel the urge to want revenge with violence?  or think the person deserved something awful to happen to them?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Did you feel the urge to want revenge with violence?  or think the person deserved something awful to happen to them?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ed8E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Especially when guns are involved, violence should never happen cause it could lead easily to unnecessary deaths",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Especially when guns are involved, violence should never happen cause it could lead easily to unnecessary deaths",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "I think we should give due punishment to offenders. They got off so easy while others ha",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "I think we should give due punishment to offenders. They got off so easy while others ha",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "No I was in like a state of shock and I shut down",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "No I was in like a state of shock and I shut down",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e54E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "I feel that if a person is about to kill or seriously harm others violence can be justified to stop it. But it has to be a real threat. I personally am not violent but if I had to save people like in a school shooting type thing I would try",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67edfE2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Violence against others in my opinion can feel justified in rare case.  When sick people do really wrong thing to people, the feel of violence can be overwhelming.  I know I will want to protect my loved ones and would go to the ends of the earth to do so.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Violence can be justified when protecting someone or themself. People have the right to defend themself. I think people that do violent things to other people should get harsh penalties so that they won't want to hurt somene again. The things we have done in the past haven't work",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Self defense can be one of the justifications for violence against other people especially when it's about protecting yourself or loved ones.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "yes I agree. Personally I would use the minimum violence to keep everybody safe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "yes I agree. Personally I would use the minimum violence to keep everybody safe",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "We need to do more to violent offenders to protect society. There have been more violent attacks than ever.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "We need to do more to violent offenders to protect society. There have been more violent attacks than ever.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "I would have to say I agree with you I've had family members be assaulted, murdered by a husband",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "I would have to say I agree with you I've had family members be assaulted, murdered by a husband",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Daniel Penny was protecting people in the subway but news agencies was saying is was a racist.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "Daniel Penny was protecting people in the subway but news agencies was saying is was a racist.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "I have felt like violence to these people would be something necessary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "I have felt like violence to these people would be something necessary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Yeah, sure sometime you have to dive in head first to help someone from getting killed or serious harm, that justifies the use of violence.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Yeah, sure sometime you have to dive in head first to help someone from getting killed or serious harm, that justifies the use of violence.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "I had a drunk step dad that just wanted ot beat on my mom all the time. There has to be something that can be done.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "I had a drunk step dad that just wanted ot beat on my mom all the time. There has to be something that can be done.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "Have you ever had to defend? I have only had to defend myself, not others",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "Have you ever had to defend? I have only had to defend myself, not others",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Violent crimes get little sentences.  A drug dealer gets more time than a rapist or murderer Our current way isn't working.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Violent crimes get little sentences.  A drug dealer gets more time than a rapist or murderer Our current way isn't working.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "What about a friend or a loved one?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "What about a friend or a loved one?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5dce2E2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "There is a drug dealer in Michagan in jail for twnty years for selling weed but now it is legal.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67edfE2H5H",
+          "recipient": "67edfE2H5H",
+          "text": "There is a drug dealer in Michagan in jail for twnty years for selling weed but now it is legal.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e54E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "No my friends and loved ones stay out of trouble",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67ed8E2H5H",
+          "text": "No my friends and loved ones stay out of trouble",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67edfE2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Perfect example.  An eye for an eye",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5dce2E2H5H",
+          "recipient": "5dce2E2H5H",
+          "text": "Perfect example.  An eye for an eye",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ed8E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Yeah, they need protection",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e54E2H5H",
+          "recipient": "67e54E2H5H",
+          "text": "Yeah, they need protection",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "Yes, in order to defend people who need it, it can be justified",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "Unfortunately, our system is broken and crime is at an all time high.  Violence against other may be justified in some circumstances.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "Can be justified if it's about self defense and also when protecting loved ones. However, there's need to curb violence. Let's not take videos at the expense of others suffering from violence.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "I think violence can be justified in certain cases. I think violent offenders should get more punishment until they learn their lesson and rehabbed. I think if someone is in danger or sees someone in danger then violence is ok to protect themselves or someone.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "53",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "41",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "['home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "separated",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "53",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "divorced",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e54E2H5H",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "41",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5dce2E2H5H",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "54",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "['home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67edfE2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "separated",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "['private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed8E2H5H",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

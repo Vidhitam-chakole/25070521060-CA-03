@@ -1,0 +1,4138 @@
+{
+  "_id": "the_government_should_take_more_responsibility_to_ensure_that_everyone_is_provid",
+  "topicId": "the_government_should_take_more_responsibility_to_ensure_that_everyone_is_provid",
+  "topic": "The government should take more responsibility to ensure that everyone is provided for, rather than leaving it to individuals",
+  "category": "Society & Politics",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 449,
+  "initialOpinions": [
+    {
+      "workerId": "6769eEBZ7W",
+      "text": "i  believe that government should make provision for everyone",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66eddEBZ7W",
+      "text": "Absolutely yes, the government should take more responsibility to ensure that everyone is provided for, rather than leaving it to the individuals. However, it should be done on behalf of the people by the people -- with the people reallocating everything where it's actually needed. Meet the people where they're at and help them figure out the help they need. Universal Basic Income would be a great start.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67e1eEBZ7W",
+      "text": "The government should be able to take care of its citizen, buy creating more opportunities for people to have a better life.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "5d612EBZ7W",
+      "text": "That is the one thing  our government must do  for everyone especially those are in dire need of help. It should be first priority",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6712aFT30Q",
+      "text": "The more the gov't does for people the less responsible they are for themselves and become totally dependent on others.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "5d740FT30Q",
+      "text": "I don't like the phrasing of \"providing for\" everyone, but I agree with the general principle that the government should do more to make people's lives better. Education, healthcare, food stamps, etc. should all be improved. It is better for everyone to have a healthier, happier, smarter society.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67ed4FT30Q",
+      "text": "I agree with the statement. Not everyone has equal access to resources or opportunities, so it's important for the government to step in and create systems that provide basis needs and support for everyone.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "5ea19FT30Q",
+      "text": "I believe the government should not allow food scarcity, homelessness or unachievable financial stability for working class people. There should be a bare bones standard of living that everyone should be able to achieve.",
+      "sliderValue": 4,
+      "stance": "Support"
+    }
+  ],
+  "sampleExcerpts": [
+    "This should be the top priority of our government to provide for those in need. This will ensure equality in our society.",
+    "Hello :) I firmly believe the government should ensure that everyone's provided for instead of leaving it up to the individual to take care of themselves. People need community and if our government insists on keeping us isolated, they ain't gonna have many people left.",
+    "I believe the government should play a key role to ensure that its citizen are well",
+    "I don't like the phrasing \"everyone is provided for\" but in general I agree that the government should be doing more to help people. Education, healthcare, food stamps, etc. should all be improved. It's better for all of us to have a healthier, happier, smarter society.",
+    "I don't think that government programs should enable bad actors... but bare bones survival should be a thing. No food scarcity or insecurity and a place to live at bare minimum. If we can fund wars, we can fund a basic standard of living.",
+    "Having others work to pay for those that want the gov't to subsidize their behavior only encourages negative behavior.  Then those that are collecting benefits many times do not want to better themselves.  It is supposed to be a hand up not a hand out.  But nowadays it seems to h"
+  ],
+  "tags": [
+    "society & politics",
+    "government",
+    "should",
+    "take",
+    "more",
+    "responsibility",
+    "ensure",
+    "everyone",
+    "provided",
+    "rather",
+    "than"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.317Z",
+  "conversations": [
+    {
+      "sessionId": "01JSWS7VFDPG72MXQFFTFEBZ7W",
+      "fileName": "20250427_235633_The_government_should_take_more_responsibility_to_ensure_that_everyone_is_provided_for,_rather_than_leaving_it_to_individuals_01JSWS7VFDPG72MXQFFTFEBZ7W.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5d612EBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "This should be the top priority of our government to provide for those in need. This will ensure equality in our society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66eddEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "Hello :) I firmly believe the government should ensure that everyone's provided for instead of leaving it up to the individual to take care of themselves. People need community and if our government insists on keeping us isolated, they ain't gonna have many people left.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "I believe the government should play a key role to ensure that its citizen are well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6769eEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "i am of the opinion that government should at least provide the for individual citizens with necessities of life make it their responsibility if not all th",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "i also believe so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "i also believe so",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "Hi how are you doing today, what do you think about my point of view?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "Hi how are you doing today, what do you think about my point of view?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66eddEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "I agree with you. the government should cover necessities without question, really",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "I agree with you. the government should cover necessities without question, really",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "It should ensure that everybody can be able to afford the basic needs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "It should ensure that everybody can be able to afford the basic needs",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "I agree for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "I agree for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "at least the basic necessities of life it is obvious that cannot provide orr themselves",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "at least the basic necessities of life it is obvious that cannot provide orr themselves",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "Your point of view is great.I totally support it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "Your point of view is great.I totally support it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "I think it should at least provide essentials to those in need But there must be a check and balance to ensure that only those who are in need get the support from the government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "I think it should at least provide essentials to those in need But there must be a check and balance to ensure that only those who are in need get the support from the government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66eddEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "I think a lot of people are overwhelmed with everything that's going on - a good reset would be helpful, so to speak. like universal basic income would be cool people know their own financial situation better than anyone else",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "I think a lot of people are overwhelmed with everything that's going on - a good reset would be helpful, so to speak. like universal basic income would be cool people know their own financial situation better than anyone else",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "Yeah especially considering that most people cannot be able to  succeed due to limited resources",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "Yeah especially considering that most people cannot be able to  succeed due to limited resources",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5d612EBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "It should be our government's responsibility to provide all the essentials to those in need.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66eddEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "hi! I believe that this is a true statement; the government should take greater responsibility in taking care of its citizens. Centralize the resources and redistribute them as needed, so that everyone can have a better life",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "The government should ensure that each person regardless of their wealth status can be able to afford basic needs in life especially the vulnerable",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6769eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "i also believe many cannot provide for themselves so the government should step up and take the responsibility and provide for the citizens that are lacking behimd",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "they should step up and provide",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "they should step up and provide",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66eddEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "agreed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "agreed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "Hi I hope you are doing well this evening what things that you think our government provide to those in need?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "Hi I hope you are doing well this evening what things that you think our government provide to those in need?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "Yeah I totally agree with your point of view",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "Yeah I totally agree with your point of view",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66eddEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "it would just be a hell of a lot better wouldn't it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "it would just be a hell of a lot better wouldn't it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "There should be minimal cases of people lacking basic needs such as food shelter health care and education too Yeah it would be better even crime rate would drop to some extent and the society would be much better There is alot of resources at the  governments disposal which can be used to help its citizen have a decent live",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "There should be minimal cases of people lacking basic needs such as food shelter health care and education too Yeah it would be better even crime rate would drop to some extent and the society would be much better There is alot of resources at the  governments disposal which can be used to help its citizen have a decent live",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "at least basic necessities",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "at least basic necessities",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "That is what I was thinking baout as well but they msut ensure only those in need would get the help",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "That is what I was thinking baout as well but they msut ensure only those in need would get the help",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "good water food good road stable electricity yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "good water food good road stable electricity yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "that is great thin",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "that is great thin",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "those that s",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "those that s",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66eddEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "hola! I very much believe that the government should be helping out all of us instead of letting the rich keep everything to themselves. people would actually share more if they had it to share.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6769eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "the government should really man up the responsibilities and provide for people of the country and ensure fair distribustion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "It is the government's responsibility to ensure its citizen can achieve basic needs.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5d612EBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "It should be the top priority to provide those in need. The government must ensure that only deserving people would get this help",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "hey",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "hey",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "Hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "Hi how are you doing today, do you agree with my thoughts?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "Hi how are you doing today, do you agree with my thoughts?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "what is your take",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "what is your take",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "I totally agree with your post",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "I totally agree with your post",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66eddEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "I don't disagree that the government should ensure that people should providethe necessities to those in need",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "I don't disagree that the government should ensure that people should providethe necessities to those in need",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "same here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "same here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "I think transparency must be ensured in providing any sort of much needed help to thos ein need",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "I think transparency must be ensured in providing any sort of much needed help to thos ein need",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66eddEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "be provided* the necessities they need",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "be provided* the necessities they need",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "That's right I agree with you as well we both have similar thoughts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "That's right I agree with you as well we both have similar thoughts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "I believe that there is alot resources at the government's disposal which can be used to better the lives of its citizen",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "I believe that there is alot resources at the government's disposal which can be used to better the lives of its citizen",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "i agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "i agree with you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "Can you imagine not being able to afford basic needs such as food",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "Can you imagine not being able to afford basic needs such as food",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66eddEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "i don't agree with means testing tho, it's really just a waste. it'd be cheaper for the gov't to just provide what people asked for",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "i don't agree with means testing tho, it's really just a waste. it'd be cheaper for the gov't to just provide what people asked for",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "it is very sad",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "it is very sad",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "it really is",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "it really is",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "that's a valid point for sure But still they should ensure transparency in distribution",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "that's a valid point for sure But still they should ensure transparency in distribution",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6769eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "averagely the citizen should have food",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "67e1eEBZ7W",
+          "text": "averagely the citizen should have food",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66eddEBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "agreed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5d612EBZ7W",
+          "recipient": "5d612EBZ7W",
+          "text": "agreed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5d612EBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "of the good to those in need",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66eddEBZ7W",
+          "recipient": "66eddEBZ7W",
+          "text": "of the good to those in need",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "yeah thats true and basic education too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6769eEBZ7W",
+          "recipient": "6769eEBZ7W",
+          "text": "yeah thats true and basic education too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "the government should provide basic needs of the people",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "They should provide the people with all the necessities of the life. They also ensure the transparency in distributing the goods to those in dire need",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "My opinion hasn't changed; I still believe the government should ensure that everyone is provided for, per their own unique sets of needs and circumstances.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "The government should ensure that they take in to consideration the wellbeing of its Citizens especially the vulnerab",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "The government should ensure that they take in to consideration the wellbeing of its Citizens especially the vulnerable .",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "['public', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "37",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "non-binary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "widowed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "60",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "40",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "['public', 'private']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d612EBZ7W",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "37",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "non-binary",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "widowed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66eddEBZ7W",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "45",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e1eEBZ7W",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "60",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6769eEBZ7W",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JSWWWG03AAYP6EC2X7QFT30Q",
+      "fileName": "20250428_010433_The_government_should_take_more_responsibility_to_ensure_that_everyone_is_provided_for,_rather_than_leaving_it_to_individuals_01JSWWWG03AAYP6EC2X7QFT30Q.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5d740FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "I don't like the phrasing \"everyone is provided for\" but in general I agree that the government should be doing more to help people. Education, healthcare, food stamps, etc. should all be improved. It's better for all of us to have a healthier, happier, smarter society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5ea19FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "I don't think that government programs should enable bad actors... but bare bones survival should be a thing. No food scarcity or insecurity and a place to live at bare minimum. If we can fund wars, we can fund a basic standard of living.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6712aFT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Having others work to pay for those that want the gov't to subsidize their behavior only encourages negative behavior.  Then those that are collecting benefits many times do not want to better themselves.  It is supposed to be a hand up not a hand out.  But nowadays it seems to h",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67ed4FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "I agree with the statement. The government should take more reponsibiity to ensure that everyone is provided for because not everyone starts from the same place. Equal opportunity requires support systems like healthcare, education, and housinf that only the government can fairly",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "it looks like your tweet got cut off at the end. would you like to finish it?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "it looks like your tweet got cut off at the end. would you like to finish it?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ed4FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Hi",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Hi",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Sounds like we are on a similar grain of thinking.  Just different ways of getting there.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Sounds like we are on a similar grain of thinking.  Just different ways of getting there.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "Hi! I'm glad we see eye to eye on this. I don't think that having extreme poverty or food insecurity/homlessness is good for a society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67ed4FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "Hi! I'm glad we see eye to eye on this. I don't think that having extreme poverty or food insecurity/homlessness is good for a society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Can I ask if you have ever been on any welfare programs or know someone who has?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Can I ask if you have ever been on any welfare programs or know someone who has?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Lol yes I hit the 280 mark.",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Lol yes I hit the 280 mark.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "It's an incredibly complicated difficult process that doesn't pay much at all",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "It's an incredibly complicated difficult process that doesn't pay much at all",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ed4FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Hi! I'm glad to see eye to eye on this!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Hi! I'm glad to see eye to eye on this!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "I have not been on them but have had family who have.  Yes it is and can be difficult to get.  Sometimes not worth the effort.  Depends on your personal situation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "I have not been on them but have had family who have.  Yes it is and can be difficult to get.  Sometimes not worth the effort.  Depends on your personal situation.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "And so much government money is spent fraudulently, it should go back to the basics.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67ed4FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "And so much government money is spent fraudulently, it should go back to the basics.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67ed4FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "I completely agree-extreme poverty, food insecurity, and homeless weaken the fabric of society and harm everyone in the long run. That is very true.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "I completely agree-extreme poverty, food insecurity, and homeless weaken the fabric of society and harm everyone in the long run. That is very true.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "while I agree that some people take advantage, the vast majority need those benefits to survive and has every intention of not needing them forever",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "while I agree that some people take advantage, the vast majority need those benefits to survive and has every intention of not needing them forever",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "True.  For some though once they get on do not want to get off.   But most or",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "True.  For some though once they get on do not want to get off.   But most or",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5d740FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "I don't like the phrasing \"everyone is provided for\" but I do think the government should do more to make people's lives better. Healthcare, education, affordable housing, food stamps, etc. It's better for everyone if we have a safer, healthier, happier society.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6712aFT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "It should be a short time assistance for the gov't to \"take care of\" people.  Not a long term or life long thing for taxpayers to keep paying someone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67ed4FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "I agree wit the statement. The government should take more responsibility to ensure that everyone is provide for because not everyone starts from the same place. Equal opportunity requires support systems like healthcare, education, and housing that only the government can give.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "I think having at least the basics for everyone is good for society. Nutritious food, a safe place to sleep, healthcare and work/education. If anyone wants to achieve more then that, then we can have that be up to the individuals. I think that is the point of governem",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Ha, not much to talk about. I totally agree with you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Ha, not much to talk about. I totally agree with you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ed4FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Hi! Please what's your take on my view concerning his issue?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Hi! Please what's your take on my view concerning his issue?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "LOL! To be honest I don't see how anyone could be against this...",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "LOL! To be honest I don't see how anyone could be against this...",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "I don't like the wording because it does kind of sound like the government is supposed to do ALL the providing, which is unrealistic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "I don't like the wording because it does kind of sound like the government is supposed to do ALL the providing, which is unrealistic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "Hi there - I think we are on a bit of different views - and that is ok.  It makes us find common ground.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ed4FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "Hi there - I think we are on a bit of different views - and that is ok.  It makes us find common ground.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "That makes a lot of sense! I think if the basic needs are available to everyone, people can move onward and upward from there.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "That makes a lot of sense! I think if the basic needs are available to everyone, people can move onward and upward from there.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "absolutely agree did you change your tweet this round or is it the same as what you said in the first round?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "absolutely agree did you change your tweet this round or is it the same as what you said in the first round?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67ed4FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Absolutely, I appreciate the respectful dialogue. Different views help us learn from each other and maybe even discover solutions that work for more people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Absolutely, I appreciate the respectful dialogue. Different views help us learn from each other and maybe even discover solutions that work for more people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "I changed it up a little bit but the messaging is the same. How about you?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "I changed it up a little bit but the messaging is the same. How about you?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Mine's the same or as close as I could remember person I talked was concerned about people milking the system",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Mine's the same or as close as I could remember person I talked was concerned about people milking the system",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "That is for sure.  I lean more towards being self sufficiency but also know that not everyone all the time can be that way because - LIFE .  It comes at us sometimes too quickly.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67ed4FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "That is for sure.  I lean more towards being self sufficiency but also know that not everyone all the time can be that way because - LIFE .  It comes at us sometimes too quickly.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6712aFT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Giving people too many benefits can deter people from wanting to better themselves if they stay on benefits for too long of a period of time.  Short term benefits are better in the long run",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67ed4FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "I believe the government should take a larger role in ensuring basic needs are met. Leaving it solely to individuals can lead to inequality and missed opportunities for many. What are your thoughts on balancing individual responsibility and government support?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5ea19FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Obviously we don't want people to abuse or milk the system... but the basic needs should be available to everyone. Nutritious food. A safe place to sleep. Healthcare and access to education and work opportunities. If we can fund wars we can fund this!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5d740FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "The government should do more to make people's lives better - healthcare, education, food stamps, etc. It's better for everyone if we have a safer, healthier, happier society. I don't like the phrasing \"provided for\" though. Obvs individuals are still responsible too.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "I agree with you. Government should ensure basic needs; anything beyond that is up to individuals.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed4FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "I agree with you. Government should ensure basic needs; anything beyond that is up to individuals.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "I don't disagree about shorter term benefits... or at least having benefits case reviewed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "I don't disagree about shorter term benefits... or at least having benefits case reviewed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Very true to a certain extent.  Abuse of the system is bad on all accounts.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Very true to a certain extent.  Abuse of the system is bad on all accounts.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "And there are people who milk the system which is a problem.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "And there are people who milk the system which is a problem.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ed4FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "That's though way to put it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "That's though way to put it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "I'd add that raising the minimum wage to a livable amount is essential too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed4FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "I'd add that raising the minimum wage to a livable amount is essential too",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "The longer people stay on them the higher likelihood for abuse - not to mention mismanagement on the other end as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "The longer people stay on them the higher likelihood for abuse - not to mention mismanagement on the other end as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "But I think having access to nutritious food and a safe place to sleep is the bare minimum..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "But I think having access to nutritious food and a safe place to sleep is the bare minimum..",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Absolutely.  Especially for children who no fault of their own are in the situation they are in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Absolutely.  Especially for children who no fault of their own are in the situation they are in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ed4FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Very true. I think when the government guarantees essentials like food, shelter, and healthcare, it creates a stable foundation, then individuals can truly thrive and pursue their own goals. What do you think should count as \"basis needs\"?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Very true. I think when the government guarantees essentials like food, shelter, and healthcare, it creates a stable foundation, then individuals can truly thrive and pursue their own goals. What do you think should count as \"basis needs\"?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5ea19FT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Yep! I went to a food bank with a friend in Berlin. She didn't get a check from the government. She had to pick up her food and it was very healthy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6712aFT30Q",
+          "recipient": "6712aFT30Q",
+          "text": "Yep! I went to a food bank with a friend in Berlin. She didn't get a check from the government. She had to pick up her food and it was very healthy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5d740FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "exactly. like you said - basic needs are food, shelter, healthcare education otherwise what's the point of government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67ed4FT30Q",
+          "recipient": "67ed4FT30Q",
+          "text": "exactly. like you said - basic needs are food, shelter, healthcare education otherwise what's the point of government",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6712aFT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Oh my - that is better than we have here. Better food choices are always better.  Especially all the junk we eat.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5ea19FT30Q",
+          "recipient": "5ea19FT30Q",
+          "text": "Oh my - that is better than we have here. Better food choices are always better.  Especially all the junk we eat.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67ed4FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Sometimes I wonder too!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5d740FT30Q",
+          "recipient": "5d740FT30Q",
+          "text": "Sometimes I wonder too!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "The government should do more to make people's lives better - healthcare, education, housing, livable wage, etc. It's better for everyone if we have a safer, happier, healthier society. I don't like the phrasing \"everyone is provided for\" though. Government should ensure the basics but beyond that is up to the individual.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "I think we were on the same page that we want people to have benefits, but not to abuse them. I agree with the statement that the government should be more involved with making sure people have food and a safe place to sleep- and not just blindly cut checks.",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "It was an enlightening conversation we have all just had.  It was good to have a civil discourse with others.  Mostly, we were on similar wavelengths in out views.  We just have different ways of getting there.  It was good.",
+          "sliderValue": 2,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "I believe the government should take a a larger role in ensuring basis needs are met. Leaving it solely to individuals can lead to inequality and",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "maintenance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "51",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5d740FT30Q",
+          "recipient": "",
+          "text": "restaurant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "56",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6712aFT30Q",
+          "recipient": "",
+          "text": "maintenance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "51",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "100k-150k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "independent",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5ea19FT30Q",
+          "recipient": "",
+          "text": "arts",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "32",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67ed4FT30Q",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

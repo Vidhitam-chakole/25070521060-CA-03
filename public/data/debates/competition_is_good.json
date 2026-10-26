@@ -1,0 +1,5837 @@
+{
+  "_id": "competition_is_good",
+  "topicId": "competition_is_good",
+  "topic": "Competition is good",
+  "category": "General Discussions",
+  "topicType": "breadth",
+  "conversationCount": 3,
+  "totalTurns": 638,
+  "initialOpinions": [
+    {
+      "workerId": "5db0eG55HY",
+      "text": "I think it can be good and bad",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "67e6dG55HY",
+      "text": "certainly agree",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66338G55HY",
+      "text": "Competition is good because it allows incentives to be at peak performance during a competition.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66515G55HY",
+      "text": "I feel like it depends on the situation. There are some situations where competition is good because it pushes people to try really hard and do their best, or provide really good service and stuff, but sometimes competition just puts unneeded pressure on people and makes things that should be fun/fulfilling by themself feel like they don't have value unless you're \"the best\" (like art and stuff). It can turn something that once felt nice into something that feels miserable for no reason. I also think it might add to greed and stuff.",
+      "sliderValue": 2,
+      "stance": "Oppose"
+    },
+    {
+      "workerId": "661437JZEE",
+      "text": "Competition gives people drive to do better and deliver higher standards",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "663147JZEE",
+      "text": "Competition is good. I believe it brings out the best in people and pushes you to do things you may not have otherwise thought you were able to do",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "669ae7JZEE",
+      "text": "I definitely think competition is good. It builds you up and make you wanna do better.",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67f1f7JZEE",
+      "text": "Probably Agree, this is because, Competition enables someone to know their abilities, competion helps to get the best service, product or goods. Competitio",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    }
+  ],
+  "sampleExcerpts": [
+    "Without competition, a person does not have the motivation to strive for their personal best. Competition promotes the desire to achieve.",
+    "I think whether competition is good or not depends on the context/situation. Sometimes it encourages people to do really well, but sometimes it just puts pressure and stress on people, and there are circumstances where that's harmful. I guess it depends. Overall, I don't love it.",
+    "I believe competition is good. If you have a healthy competition especially at work, it can help in elevating you in areas you are lagging behind.",
+    "I believe competition is good. It can help lead to growth esp if you push your own limits",
+    "Competition helps to get the best service, product, or goods. Competition ensures quality is kept.",
+    "I believe Competition is good has scientific facts stating why it is good. It builds character and helps you to want to do better. knowing how to lose is something you need in life. You can't always win in life so competiotions are a great way to help with t"
+  ],
+  "tags": [
+    "general discussions",
+    "competition",
+    "good"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:05.757Z",
+  "conversations": [
+    {
+      "sessionId": "01JSFK50M2M6PV1PVN4PZG55HY",
+      "fileName": "20250422_205627_Competition_is_good_01JSFK50M2M6PV1PVN4PZG55HY.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66338G55HY",
+          "recipient": "67e6dG55HY",
+          "text": "Without competition, a person does not have the motivation to strive for their personal best. Competition promotes the desire to achieve.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66515G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "I think whether competition is good or not depends on the context/situation. Sometimes it encourages people to do really well, but sometimes it just puts pressure and stress on people, and there are circumstances where that's harmful. I guess it depends. Overall, I don't love it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e6dG55HY",
+          "recipient": "66338G55HY",
+          "text": "I believe competition is good. If you have a healthy competition especially at work, it can help in elevating you in areas you are lagging behind.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5db0eG55HY",
+          "recipient": "66515G55HY",
+          "text": "I think that it can be good.  It is healthy for people to compete.  However competition can have negative effects too.  For people that do not thrive well in a competative environment.  Either way you have to make this decision based on what you think is healthiest for you or you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e6dG55HY",
+          "recipient": "66338G55HY",
+          "text": "We both agree. I personally love competition, what about you? Are you with me?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "We both agree. I personally love competition, what about you? Are you with me?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66515G55HY",
+          "text": "I think we see it the same way.  It is good and bad",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "I think we see it the same way.  It is good and bad",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "I think we seem to have similar feelings on it. I think sometimes it can really mess with some people, and can make stuff that otherwise would be fun/healthy into unhealthy things (like people who compete at hobbies where it's not necessary)",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "I think we seem to have similar feelings on it. I think sometimes it can really mess with some people, and can make stuff that otherwise would be fun/healthy into unhealthy things (like people who compete at hobbies where it's not necessary)",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66515G55HY",
+          "text": "I think growing up it was normal for me.  I was involved in sports and it was natural to compete.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "I think growing up it was normal for me.  I was involved in sports and it was natural to compete.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "it just makes things so much more miserable in situations like that. Sometimes it helps people try harder and do better where they wouldn't, though, or it can lead to people trying to provide better services/whatever in professional settings, so sometimes it's good",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "it just makes things so much more miserable in situations like that. Sometimes it helps people try harder and do better where they wouldn't, though, or it can lead to people trying to provide better services/whatever in professional settings, so sometimes it's good",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66515G55HY",
+          "text": "However I did not have parent that were like winning is the only thing or else you are just a loser",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "However I did not have parent that were like winning is the only thing or else you are just a loser",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "ah, that's interesting. I never got into sports, but I did art stuff, and people do a lot of comparing, so it feels like there's competition where there doesn't need to be. makde it more miserable :/ That's good! i think it's probably better to have enjoyment of stuff like that for its own sake",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "ah, that's interesting. I never got into sports, but I did art stuff, and people do a lot of comparing, so it feels like there's competition where there doesn't need to be. makde it more miserable :/ That's good! i think it's probably better to have enjoyment of stuff like that for its own sake",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66515G55HY",
+          "text": "I guess art can be very competative if you are referring to getting your own shows or galleries or even becoimng known",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "I guess art can be very competative if you are referring to getting your own shows or galleries or even becoimng known",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Yeah, or people sort of put others' art down if it's not as \"good\" as somebody else's, even when the person just makes art for fun. It turns the hobby into something unhappy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Yeah, or people sort of put others' art down if it's not as \"good\" as somebody else's, even when the person just makes art for fun. It turns the hobby into something unhappy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66515G55HY",
+          "text": "sports can done just for fun too. art and music as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "sports can done just for fun too. art and music as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I am here. I had a tech issue with sending my response. I agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e6dG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I am here. I had a tech issue with sending my response. I agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66338G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "I think competition is great. It allows a person to strive for their personal best. Without competition, we might all be a bit slack on achieving our goals.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e6dG55HY",
+          "recipient": "66515G55HY",
+          "text": "Competition breeds excellence",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66515G55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I think competition can be good or bad depending on the situation. In some circumstances, it makes people try harder and do a better job, but sometimes it just puts harmful pressure on people where it's not needed, and stresses people out for no reason.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5db0eG55HY",
+          "recipient": "66338G55HY",
+          "text": "I think competition is good and bad.  It can be healthy and also be unhealthy.  I guess it is the situation or the spirit of the competition.  It is also how much stress is put on the competition.  by internal or external factors.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "67e6dG55HY",
+          "text": "Do you think it always breeds excellence? Like in every circumstance, with every person?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e6dG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "Do you think it always breeds excellence? Like in every circumstance, with every person?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e6dG55HY",
+          "recipient": "66515G55HY",
+          "text": "I agree with you, it can go both ways. Most of the time it tends to be good but it has some cons as well but I feel the pros are more than cons",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "I agree with you, it can go both ways. Most of the time it tends to be good but it has some cons as well but I feel the pros are more than cons",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "I agree their can be stress factors that make competition not work the effort.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "I agree their can be stress factors that make competition not work the effort.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66338G55HY",
+          "text": "I like that the competition does set goals .  I worry that people that are not good at something will get hurt by this competition",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "I like that the competition does set goals .  I worry that people that are not good at something will get hurt by this competition",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "It does depend on the subject of the competition. Yes, I agree that some people can be harmed. Competitions are not for everyone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "It does depend on the subject of the competition. Yes, I agree that some people can be harmed. Competitions are not for everyone.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66338G55HY",
+          "text": "There is the saying that if you don 't win anything   what is the point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "There is the saying that if you don 't win anything   what is the point",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Smiles. I like that statement.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Smiles. I like that statement.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I feel like it mostly puts people under stress, and while some people perform well under stress, I think a lot of people don't, and constantly being in a state of stress makes people burn out over time, so idk. I feel like in some ways it can be harmful It can also maybe push people towards acting unethically, maybe even. Like if there's constant competition, and you gotta \"win\" all the time, there are bound to be people who \"cheat.\" not sure, though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e6dG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I feel like it mostly puts people under stress, and while some people perform well under stress, I think a lot of people don't, and constantly being in a state of stress makes people burn out over time, so idk. I feel like in some ways it can be harmful It can also maybe push people towards acting unethically, maybe even. Like if there's constant competition, and you gotta \"win\" all the time, there are bound to be people who \"cheat.\" not sure, though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66338G55HY",
+          "text": "Like why are we racing cars if there is no winner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "Like why are we racing cars if there is no winner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "But, I am also thinking of a more Zen approach where competition is not good for your inner peace.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "But, I am also thinking of a more Zen approach where competition is not good for your inner peace.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66338G55HY",
+          "text": "I worry about people that are not athletic or nerdy.  People get hurt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "I worry about people that are not athletic or nerdy.  People get hurt.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Competing in the workplace is truly awful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Competing in the workplace is truly awful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66338G55HY",
+          "text": "I was talking to artist  and he said they can be cutthroat I think competition can be healthy and necessary all in all  time isup",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "I was talking to artist  and he said they can be cutthroat I think competition can be healthy and necessary all in all  time isup",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "5db0eG55HY",
+          "text": "I myself do not like timed competitions. I am smart but there is something about beating the clock that hurts me.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "I myself do not like timed competitions. I am smart but there is something about beating the clock that hurts me.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "66338G55HY",
+          "text": "or soon to be",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "or soon to be",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e6dG55HY",
+          "recipient": "66515G55HY",
+          "text": "I feel if you approach it from a point of I need to be better than the other person it can be harmful. But if you take it as a learning point on what you are not doing well it can be beneficial.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "I feel if you approach it from a point of I need to be better than the other person it can be harmful. But if you take it as a learning point on what you are not doing well it can be beneficial.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e6dG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Competition can go both ways, good or bad.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66338G55HY",
+          "recipient": "66515G55HY",
+          "text": "Competition can be both good or bad. It depends on the type of competition.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66515G55HY",
+          "recipient": "66338G55HY",
+          "text": "I think, overall, competition is only really \"good\" in certain circumstances. Whether it's good depends on the situation. In some circumstances, it pushes people to try harder and do better, but in others, it just puts pressure on people where it's probably not needed.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5db0eG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I like competition and I think it can ge healthy.  However I worry about how much emphasis or the spirit in which the competition is portrayed.  I believe competition does promote people to do their best.  I do not like the idea of there having to be a loser though.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I agree There is healthy and unhealthy aspects to it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e6dG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I agree There is healthy and unhealthy aspects to it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "66338G55HY",
+          "text": "I think we probably have somewhat similar feelings. When do you think competition is good?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "I think we probably have somewhat similar feelings. When do you think competition is good?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "66515G55HY",
+          "text": "I agree that putting pressure where it is not needed totally overrides the benefits of a competion; I think athletic competition is good. I am not so sure about competition for young children. I think kids should enjoy their activities and not be pressured to win.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "I agree that putting pressure where it is not needed totally overrides the benefits of a competion; I think athletic competition is good. I am not so sure about competition for young children. I think kids should enjoy their activities and not be pressured to win.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e6dG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "If a company focuses on comparing people against each other it can breed even hatred.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "If a company focuses on comparing people against each other it can breed even hatred.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "The nature of all sports is a competition. in most things we will look for a winner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e6dG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "The nature of all sports is a competition. in most things we will look for a winner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e6dG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Yes, and it's about time people focus on making the kind of competition they want healthy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Yes, and it's about time people focus on making the kind of competition they want healthy",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "even the oscars or the Olympics",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "66338G55HY",
+          "text": "That's interesting. Another person I talked to had a similar feeling about athletic competition. I think sometimes that's not bad! But sometimes I feel like making things about competition takes away from the enjoyment of engaging in the activity for its own sake, like it makes it less fun because it's about proving you're \"good enough\" or something :(",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "That's interesting. Another person I talked to had a similar feeling about athletic competition. I think sometimes that's not bad! But sometimes I feel like making things about competition takes away from the enjoyment of engaging in the activity for its own sake, like it makes it less fun because it's about proving you're \"good enough\" or something :(",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e6dG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "even the oscars or the Olympics",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "66515G55HY",
+          "text": "Competition can be damaging for adults too. It really depends on personality and having a competitive gene.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "Competition can be damaging for adults too. It really depends on personality and having a competitive gene.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e6dG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Yes look for a winner but not at an expense of ruining someone else mental helath.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Yes look for a winner but not at an expense of ruining someone else mental helath.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "66338G55HY",
+          "text": "yeah. i think maybe we just have \"too much\" competition in too many areas of life, like sometimes it's nice for things to not feel so stressful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "yeah. i think maybe we just have \"too much\" competition in too many areas of life, like sometimes it's nice for things to not feel so stressful",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "66515G55HY",
+          "text": "Absolutely - competition can remove joy from an activity. It does for me.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "Absolutely - competition can remove joy from an activity. It does for me.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5db0eG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I think that is a natural part of life.  I think it is unrealistic to live a life with out competition",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e6dG55HY",
+          "recipient": "67e6dG55HY",
+          "text": "I think that is a natural part of life.  I think it is unrealistic to live a life with out competition",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "66338G55HY",
+          "text": "me, too. I hate the feeling that I'm being compared to others when I just want to have fun with whatever the activity is, even if I suck lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "me, too. I hate the feeling that I'm being compared to others when I just want to have fun with whatever the activity is, even if I suck lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66338G55HY",
+          "recipient": "66515G55HY",
+          "text": "In the workplace, I find it daunting. I worked in a competitive company for a while and it was so stressful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66515G55HY",
+          "recipient": "66515G55HY",
+          "text": "In the workplace, I find it daunting. I worked in a competitive company for a while and it was so stressful.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66515G55HY",
+          "recipient": "66338G55HY",
+          "text": "Heck yeah. massive burn out over time :/",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66338G55HY",
+          "recipient": "66338G55HY",
+          "text": "Heck yeah. massive burn out over time :/",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e6dG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Then the work should be \"healthy competition.\" Not just any other competition.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5db0eG55HY",
+          "recipient": "5db0eG55HY",
+          "text": "Then the work should be \"healthy competition.\" Not just any other competition.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "I think it is good.  I think it is part of life and it gives you something to strive for.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "Competition is only good in certain circumstances, and with certain kinds of people. Some things should not be made competitions, and some people aren't built for constantly being put under that kind of pressure. Some people are made for that, though -- and it helps them push themselves to try harder and do better.",
+          "sliderValue": 2,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "I believe life should be as stress free as possible. Competition produces stress to win, to achieve, to surpass others. Competition in general is not healthy for many.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "I believe competition is good. However, we should focus on healthy competition. We don't want to have competition especially at work place wh",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "68",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "moderate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5db0eG55HY",
+          "recipient": "",
+          "text": "insurance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66515G55HY",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "68",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "professional",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66338G55HY",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "31",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "less-25k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e6dG55HY",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JSQWFXDCJ0WEE0W42AC7JZEE",
+      "fileName": "20250426_022502_Competition_is_good_01JSQWFXDCJ0WEE0W42AC7JZEE.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "663147JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I believe competition is good. It can help lead to growth esp if you push your own limits",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67f1f7JZEE",
+          "recipient": "663147JZEE",
+          "text": "Competition helps to get the best service, product, or goods. Competition ensures quality is kept.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "669ae7JZEE",
+          "recipient": "661437JZEE",
+          "text": "I believe Competition is good has scientific facts stating why it is good. It builds character and helps you to want to do better. knowing how to lose is something you need in life. You can't always win in life so competiotions are a great way to help with t",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "661437JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I believe that competition is absolutely good. Not only does it encourage growth in all aspects, but it also encourages people to be the best that can be and strengths their mental. Whether it's competition in a sport, work place, or just among friends, it can always",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "661437JZEE",
+          "text": "I definitely agree with your prospectives I believe it does encourage growth",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "I definitely agree with your prospectives I believe it does encourage growth",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "663147JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "Hello. I def agree w your perspective from an economic standpoint",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f1f7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "Hello. I def agree w your perspective from an economic standpoint",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I completely agree with what you said, it builds character and also can boost motivation for some people as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "669ae7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I completely agree with what you said, it builds character and also can boost motivation for some people as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "661437JZEE",
+          "text": "Yes definitely can build character Competition is a way to show what you have worked hard to achieve",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "Yes definitely can build character Competition is a way to show what you have worked hard to achieve",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I think it's important in both aspects, whether you win or lose in competition. Losing can teach someone also how to build character and encourage them to want to be better. Of course everyone wants to win all the time, but sometimes it's necessary to lose so that you can grow and figure out what's best to do to get ahead",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "669ae7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I think it's important in both aspects, whether you win or lose in competition. Losing can teach someone also how to build character and encourage them to want to be better. Of course everyone wants to win all the time, but sometimes it's necessary to lose so that you can grow and figure out what's best to do to get ahead",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f1f7JZEE",
+          "recipient": "663147JZEE",
+          "text": "I agree with your perspective that competition leads to growth, because one can exploit their abilities.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "663147JZEE",
+          "recipient": "663147JZEE",
+          "text": "I agree with your perspective that competition leads to growth, because one can exploit their abilities.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "661437JZEE",
+          "text": "I 100% agree with that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "I 100% agree with that.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "Definitely! Some people don't want to work hard and just win but I think competition shows exactly that, that when you put in hard work, you can win",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "669ae7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "Definitely! Some people don't want to work hard and just win but I think competition shows exactly that, that when you put in hard work, you can win",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "661437JZEE",
+          "text": "especially when it comes to children have them to be in competitions can help them to grow as well as build up courage and self confidence. very true!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "especially when it comes to children have them to be in competitions can help them to grow as well as build up courage and self confidence. very true!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "663147JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I think there can be some downsides to competition. But def more pros than cons",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67f1f7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I think there can be some downsides to competition. But def more pros than cons",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67f1f7JZEE",
+          "recipient": "663147JZEE",
+          "text": "In terms of ability as you have highlighted, competition should be encouraged",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "663147JZEE",
+          "recipient": "663147JZEE",
+          "text": "In terms of ability as you have highlighted, competition should be encouraged",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "663147JZEE",
+          "recipient": "661437JZEE",
+          "text": "I believe competition is good. In an individual sense, I think it can serve as motivation to push your limits",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67f1f7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "Generally, competition should be encouraged in all sectors of life. The pros outweigh the cons.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "669ae7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I believe competition is good because it can build character and encourage you to want to do better. It also teaches you how to lose. Which is good for the real world. Doing competitions helps you to learn how to work harder for what you want.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "661437JZEE",
+          "recipient": "663147JZEE",
+          "text": "Competition, whether you win or lose, encourages growth. You can learn how to improve and build resilience while also learning where your strengths and weaknesses are. I think it's also important for children to learn and experience competition while they are young and can be tau",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "663147JZEE",
+          "text": "I definitely agree with out *you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I definitely agree the pro outweigh the cons I feel you will always be competing in life so competitions will help with that. knowing how to lose is a life lesson that competitions can teach",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "663147JZEE",
+          "recipient": "663147JZEE",
+          "text": "I definitely agree with out *you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f1f7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I definitely agree the pro outweigh the cons I feel you will always be competing in life so competitions will help with that. knowing how to lose is a life lesson that competitions can teach",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "663147JZEE",
+          "recipient": "661437JZEE",
+          "text": "Hello, well said! Resilience is a good trait to be taught esp for kids",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "Hello, well said! Resilience is a good trait to be taught esp for kids",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "663147JZEE",
+          "text": "I think competition can also be an important lesson in raising a child because it teaches them how to bounce back and keep trying and never give up.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "663147JZEE",
+          "recipient": "663147JZEE",
+          "text": "I think competition can also be an important lesson in raising a child because it teaches them how to bounce back and keep trying and never give up.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "663147JZEE",
+          "recipient": "661437JZEE",
+          "text": "Absolutely",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "Absolutely",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f1f7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "Sure, Competition is one internal motivation that can exploit ones abilities, innovations, or service. We naturally compete with others even in silent.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "669ae7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "Sure, Competition is one internal motivation that can exploit ones abilities, innovations, or service. We naturally compete with others even in silent.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "Also sportsmanship when you win learning how to win without using your ego That is true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f1f7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "Also sportsmanship when you win learning how to win without using your ego That is true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "663147JZEE",
+          "text": "When winning, kids can then understand and see that hard work pay off. I think it not only is good for them, as a child to see and learn, but it's something that then carries into adulthood. We all have met or know an adult or two that is just bratty and a sore loser. That's definitely an adult that was given a trophy for losing too never had to work hard or get motivated",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "663147JZEE",
+          "recipient": "663147JZEE",
+          "text": "When winning, kids can then understand and see that hard work pay off. I think it not only is good for them, as a child to see and learn, but it's something that then carries into adulthood. We all have met or know an adult or two that is just bratty and a sore loser. That's definitely an adult that was given a trophy for losing too never had to work hard or get motivated",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f1f7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "All sectors of life competition should be encouraged.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "669ae7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "All sectors of life competition should be encouraged.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "Yes true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67f1f7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "Yes true",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67f1f7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I agree with you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "669ae7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I agree with you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "663147JZEE",
+          "recipient": "661437JZEE",
+          "text": "Haha. Yes. Chats ending soon, was nice to talk!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "Haha. Yes. Chats ending soon, was nice to talk!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "661437JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I believe competition is good, not just as a teaching tool for children but for adults as well. As adults, competing encourages you to stay driven and shows you what areas you can grow in. I am a big believer that we can all learn and grow no matter what age we are",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "663147JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I believe that competition is good. It can serve as motivation to really power and push through. You can end up really growing and maybe even surprise yourself.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67f1f7JZEE",
+          "recipient": "661437JZEE",
+          "text": "Competition should be embraced in an economy, academics, professions, leadership, and business.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "669ae7JZEE",
+          "recipient": "663147JZEE",
+          "text": "I believe competition is 100% good. It builds character and help you know how to compete in life. You will learn how to lose and how to win without your ego. You will be always competing in life so competitions will help you with that as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "663147JZEE",
+          "text": "Yes you are right competition definitely builds confidence I feel competitions can help bring out the best in you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "663147JZEE",
+          "recipient": "663147JZEE",
+          "text": "Yes you are right competition definitely builds confidence I feel competitions can help bring out the best in you",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I absolutely agree with you. I think this new \"idea\" and thing that is happening with children nowadays with \"no losers\" is so unbelievably harmful to these children and will carry into their adulthood.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1f7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "I absolutely agree with you. I think this new \"idea\" and thing that is happening with children nowadays with \"no losers\" is so unbelievably harmful to these children and will carry into their adulthood.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f1f7JZEE",
+          "recipient": "661437JZEE",
+          "text": "I agree with you, competition pushes individuals to become better if not the best versions of themselves.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "I agree with you, competition pushes individuals to become better if not the best versions of themselves.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "663147JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "Agree. You definitely can learn something both by winning or by losing. Is say being humble is also a good trait bc sometimes in life, things wont work out. And so is confidence obviously",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "669ae7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "Agree. You definitely can learn something both by winning or by losing. Is say being humble is also a good trait bc sometimes in life, things wont work out. And so is confidence obviously",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "The fact that now they promote \"Everyone gets a trophy, even the losers\" doesn't allow children to process emotions (AKA the emotions of losing), doesn't give them any reason to strive for better, shows them that minimum effort is always okay and your best is not necessary. We need competition to better ourseklves and for some reason people have gone soft",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1f7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "The fact that now they promote \"Everyone gets a trophy, even the losers\" doesn't allow children to process emotions (AKA the emotions of losing), doesn't give them any reason to strive for better, shows them that minimum effort is always okay and your best is not necessary. We need competition to better ourseklves and for some reason people have gone soft",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "663147JZEE",
+          "text": "it many have some negatives like wanting to always win and when you lose feeling bad when you don't. The good definitely outweighs the bad knowing how to lose you have to know how to do that if you want to get through life because you will not always win in life. You are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "663147JZEE",
+          "recipient": "663147JZEE",
+          "text": "it many have some negatives like wanting to always win and when you lose feeling bad when you don't. The good definitely outweighs the bad knowing how to lose you have to know how to do that if you want to get through life because you will not always win in life. You are right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f1f7JZEE",
+          "recipient": "661437JZEE",
+          "text": "For children, I think it should be regulated to mitigate bullying, ensure equity for the children when they are interacting, so that they feel equal.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "For children, I think it should be regulated to mitigate bullying, ensure equity for the children when they are interacting, so that they feel equal.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "661437JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "Also, let's just be real. Competition is also what weeds out the lazy people from those who work hard. Some people just feel like they are deserving and should \"win\" by barely having to lift a finger and that is just not how life works I do get what you're saying because nowadays bullying is way worse",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67f1f7JZEE",
+          "recipient": "67f1f7JZEE",
+          "text": "Also, let's just be real. Competition is also what weeds out the lazy people from those who work hard. Some people just feel like they are deserving and should \"win\" by barely having to lift a finger and that is just not how life works I do get what you're saying because nowadays bullying is way worse",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "663147JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I def think theres more pros for competition than cons. And it may not be close?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "669ae7JZEE",
+          "recipient": "669ae7JZEE",
+          "text": "I def think theres more pros for competition than cons. And it may not be close?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "669ae7JZEE",
+          "recipient": "663147JZEE",
+          "text": "right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "663147JZEE",
+          "recipient": "663147JZEE",
+          "text": "right",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67f1f7JZEE",
+          "recipient": "661437JZEE",
+          "text": "For exposing the lazy ones I agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "661437JZEE",
+          "recipient": "661437JZEE",
+          "text": "For exposing the lazy ones I agree.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "So I definitely still agree that competition is good. You can look at it from various perspectives and it is more likely to be good than not.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "Competition is a necessity to build character and encourage growth. Whether winning or losing, it teaches people to stay motivated and look withing themselves on what can be improved.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "Competition in all sectors of life is healthy and has more benefits compared to the disadvantages. I support competition in all sectors",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "Yes Competition is good because it helps build up your confidence. You will need to compete most of your life and know how to lose. So competing definitely has more pros than cons. I believe competitions and a way for you to gain and also no how to want to do better so you can win. Same with life.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "media",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "663147JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "150k-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "661437JZEE",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "high-school",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "669ae7JZEE",
+          "recipient": "",
+          "text": "health-care",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "25",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67f1f7JZEE",
+          "recipient": "",
+          "text": "media",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JSQWJVNFYKCMEEVWK1Q7YGGN",
+      "fileName": "20250426_025316_Competition_is_good_01JSQWJVNFYKCMEEVWK1Q7YGGN.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67e727YGGN",
+          "recipient": "666767YGGN",
+          "text": "I think healthy competion is good, it healps people to be focus and discover their potential",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "664cd7YGGN",
+          "recipient": "670947YGGN",
+          "text": "I think competition is rather healthy and helps eep us on our toes after all 'survival of the fittest'. But I also believe it can cross a threshold and become unhealthy.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "670947YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "I think competition is good in the right time and correct situations and places for example in sports and even learning or certain hobbies i feel like competition is a good thing pushing people to be a better version of themselves!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "666767YGGN",
+          "recipient": "67e727YGGN",
+          "text": "Completion is a good thing because it encourages people to try their best and give their all to accomplish a goal. Competition gives people a healthy outlet to try their skills against others that share their same goal or passion. It also creates strong relationships teammates.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "666767YGGN",
+          "recipient": "67e727YGGN",
+          "text": "I totally agree with you that competition is a good thing.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e727YGGN",
+          "recipient": "67e727YGGN",
+          "text": "I totally agree with you that competition is a good thing.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "670947YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "yes i totally agree with you on the threshold aspect that is true!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "664cd7YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "yes i totally agree with you on the threshold aspect that is true!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e727YGGN",
+          "recipient": "666767YGGN",
+          "text": "I also agree with your statement, I apologize about the typos on my statement earlier.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "666767YGGN",
+          "recipient": "666767YGGN",
+          "text": "I also agree with your statement, I apologize about the typos on my statement earlier.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "666767YGGN",
+          "recipient": "67e727YGGN",
+          "text": "Especially healthy competition that encourages everyone to do their best and doesn't focus on \"losers\". Oh no worries, I see that I made many typos!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e727YGGN",
+          "recipient": "67e727YGGN",
+          "text": "Especially healthy competition that encourages everyone to do their best and doesn't focus on \"losers\". Oh no worries, I see that I made many typos!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "664cd7YGGN",
+          "recipient": "670947YGGN",
+          "text": "I would have to also agree with you, it most certainly helps us become better versions of ourselves. Also on the flip side, potentioally our worse versions too if we dont help control it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "670947YGGN",
+          "recipient": "670947YGGN",
+          "text": "I would have to also agree with you, it most certainly helps us become better versions of ourselves. Also on the flip side, potentioally our worse versions too if we dont help control it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67e727YGGN",
+          "recipient": "666767YGGN",
+          "text": "Do you like healthy competition? Personally, I love challenging people and I love when people challenge me back",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "666767YGGN",
+          "recipient": "666767YGGN",
+          "text": "Do you like healthy competition? Personally, I love challenging people and I love when people challenge me back",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "666767YGGN",
+          "recipient": "67e727YGGN",
+          "text": "Anyhow, competition! I think there are positives to competition, especially in team sports. I enjoy when someone wants to have a good natured competition where we can try out our skills and still enjoy ourselves. I also think that there is a positive aspect to losing a competition, because it gives me more drive todo even better the next time!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67e727YGGN",
+          "recipient": "67e727YGGN",
+          "text": "Anyhow, competition! I think there are positives to competition, especially in team sports. I enjoy when someone wants to have a good natured competition where we can try out our skills and still enjoy ourselves. I also think that there is a positive aspect to losing a competition, because it gives me more drive todo even better the next time!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "670947YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "yup that is a good way to look at it and i understand what you mean as it can be beneficial but also our worst enemy as they say the only person that holds you back is the person in the mirror!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "664cd7YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "yup that is a good way to look at it and i understand what you mean as it can be beneficial but also our worst enemy as they say the only person that holds you back is the person in the mirror!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "664cd7YGGN",
+          "recipient": "670947YGGN",
+          "text": "Ive seen some people become real ugly. I feel hockey is the best sport for legally being able to output the competition agression lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "670947YGGN",
+          "recipient": "670947YGGN",
+          "text": "Ive seen some people become real ugly. I feel hockey is the best sport for legally being able to output the competition agression lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "670947YGGN",
+          "recipient": "666767YGGN",
+          "text": "I feel like competition is a really good thing as for sports learning and even hobbies or other interest pushing yourself to become a better version of yourself is always a good thing, of course it does have its pros and cons!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "664cd7YGGN",
+          "recipient": "67e727YGGN",
+          "text": "Competition is great, it help us to survive, to become helpful to others also, and also can humble us if we allow it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "666767YGGN",
+          "recipient": "670947YGGN",
+          "text": "Competition is a good thing and can motivate someone to do their best. I think that healthy competition can have many positive aspects. It gives people an avenue to test their skills and put their all into a goal they care about.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67e727YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "Healthy competition is good because it pushes people and businesses to grow and stay focused. If you are competing with someone you will give it your all and thus many people or bus",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "666767YGGN",
+          "recipient": "670947YGGN",
+          "text": "Hi, I agree that competition is great for sports or even hobbies! It allows people to learn how to work as a team while improving their skills.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "670947YGGN",
+          "recipient": "670947YGGN",
+          "text": "Hi, I agree that competition is great for sports or even hobbies! It allows people to learn how to work as a team while improving their skills.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e727YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "Hello, I'm sorry my statement is incomplete, I meant to say that many people and businesses will reach their potential.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "664cd7YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "Hello, I'm sorry my statement is incomplete, I meant to say that many people and businesses will reach their potential.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "670947YGGN",
+          "recipient": "666767YGGN",
+          "text": "I like your statement also and totally agree with it how there can be many positive aspects! and yes a team effort is really good too!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "666767YGGN",
+          "recipient": "666767YGGN",
+          "text": "I like your statement also and totally agree with it how there can be many positive aspects! and yes a team effort is really good too!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "664cd7YGGN",
+          "recipient": "67e727YGGN",
+          "text": "I agree. I also feel we have to be aware of the other side and how it can take a turn for the worse as well.  People can allow it to ruin them and turn violent as well. It is okay! I agree, I jut really hate when it turns to greed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67e727YGGN",
+          "recipient": "67e727YGGN",
+          "text": "I agree. I also feel we have to be aware of the other side and how it can take a turn for the worse as well.  People can allow it to ruin them and turn violent as well. It is okay! I agree, I jut really hate when it turns to greed",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "666767YGGN",
+          "recipient": "670947YGGN",
+          "text": "I like that you said it can push someone to be a better version of themselves. That is so true and probably the most positive aspect of competition. We can always improve and learn new things when we interact with others who also love the same thing!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "670947YGGN",
+          "recipient": "670947YGGN",
+          "text": "I like that you said it can push someone to be a better version of themselves. That is so true and probably the most positive aspect of competition. We can always improve and learn new things when we interact with others who also love the same thing!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67e727YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "I think if the competion is healthy people should not worry about being ruined, but at some point I agree with you, people should not only focus on the competition and forget their main goals.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "664cd7YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "I think if the competion is healthy people should not worry about being ruined, but at some point I agree with you, people should not only focus on the competition and forget their main goals.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "670947YGGN",
+          "recipient": "666767YGGN",
+          "text": "Oh yea i like the way you worded it to especially with people that love to do the same it makes the experienc",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "666767YGGN",
+          "recipient": "666767YGGN",
+          "text": "Oh yea i like the way you worded it to especially with people that love to do the same it makes the experienc",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "670947YGGN",
+          "recipient": "67e727YGGN",
+          "text": "I feel like competition is a good thing and can push people to be a better version of themselves whether that be in sports school or even hobbies! Of course there are pros and cons but i feel like its mainly a beneficial thing!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "666767YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "Competition is good because it motivates us to do our best towards a goal. It also gives us a chance to test and improve our skills in a subject that we are passionate about. Team sports are a great example of competition where we test our skills and build strong relationships.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "664cd7YGGN",
+          "recipient": "666767YGGN",
+          "text": "Comptition is good as long as we keep it controlled and not become ugly such as greed, violence, etc. I think it is healthy to be the best of us",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67e727YGGN",
+          "recipient": "670947YGGN",
+          "text": "I think healthy competition is good, it helps businesses to be innovative and encourages hard work. It builds discipline.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "666767YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "Hi, I agree that competition is good as long as it is healthy competition. Building strong relationships and learning to work together are an important part of competition. I have seen that at times people can show the worst of themselves during competition, but that isn't the ideal experience we want competitors to have. I think that the more passionate someone is about a subject or game, the more likely they are to put their best self forward in a competition.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "664cd7YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "Hi, I agree that competition is good as long as it is healthy competition. Building strong relationships and learning to work together are an important part of competition. I have seen that at times people can show the worst of themselves during competition, but that isn't the ideal experience we want competitors to have. I think that the more passionate someone is about a subject or game, the more likely they are to put their best self forward in a competition.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e727YGGN",
+          "recipient": "670947YGGN",
+          "text": "Hello, I totally agree with you, people have to be innovative in order to remain at the top.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "670947YGGN",
+          "recipient": "670947YGGN",
+          "text": "Hello, I totally agree with you, people have to be innovative in order to remain at the top.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "670947YGGN",
+          "recipient": "67e727YGGN",
+          "text": "yes i agree with you having a healthy competitive mindset is the right way to do it!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e727YGGN",
+          "recipient": "67e727YGGN",
+          "text": "yes i agree with you having a healthy competitive mindset is the right way to do it!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e727YGGN",
+          "recipient": "670947YGGN",
+          "text": "Yes, but as long as the competition remain healthy and people don't cross the line, I think that the cons can be minimised",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "670947YGGN",
+          "recipient": "670947YGGN",
+          "text": "Yes, but as long as the competition remain healthy and people don't cross the line, I think that the cons can be minimised",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "670947YGGN",
+          "recipient": "67e727YGGN",
+          "text": "yea same thing here an equal playing field in all aspects of wanting to be competitive is the right thing and way to go about it!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67e727YGGN",
+          "recipient": "67e727YGGN",
+          "text": "yea same thing here an equal playing field in all aspects of wanting to be competitive is the right thing and way to go about it!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "664cd7YGGN",
+          "recipient": "666767YGGN",
+          "text": "I agree. I thik it does help us become better people for the most part",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "666767YGGN",
+          "recipient": "666767YGGN",
+          "text": "I agree. I thik it does help us become better people for the most part",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "666767YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "We can learn so much from other people when we are competing to improve ourselves and our skills!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "664cd7YGGN",
+          "recipient": "664cd7YGGN",
+          "text": "We can learn so much from other people when we are competing to improve ourselves and our skills!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "664cd7YGGN",
+          "recipient": "666767YGGN",
+          "text": "I agree though my passion i have to keep in check because ill become a bit too emotional and kind of get so into it its like unsta",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "666767YGGN",
+          "recipient": "666767YGGN",
+          "text": "I agree though my passion i have to keep in check because ill become a bit too emotional and kind of get so into it its like unsta",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67e727YGGN",
+          "recipient": "670947YGGN",
+          "text": "I agree, I hope we all compete in a healthy manner and reach our potential",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "670947YGGN",
+          "recipient": "670947YGGN",
+          "text": "I agree, I hope we all compete in a healthy manner and reach our potential",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "I totally agree competition has its pros and cons but it is mainly a positive thing done in the right way whether that be in sports school or even just hobbies!",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "Competition is good as it can help us to put our all into our goals! It gives us a chance to test and improve our skills about the things we are passionate about. We can also learn from each other during a competition, which can make us a better version of ourselves.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "There is always good and bad, pros and cons, to everything in life I feel. Some weighs heavier on one side than the other on most things, but I feel that 'competition is good' does way heavier toward the good side. For the most part it is very healthy and helps us become better people as a whole and survive",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "I agree with this statement because healthy competition will push individuals and businesses to discover their potential.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "cleaning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "maintenance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "42",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "non-profit",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "34",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "ancient-book",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "666767YGGN",
+          "recipient": "",
+          "text": "cleaning",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "24",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "['hispanic']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "other-christian",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "dont-know",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "670947YGGN",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "36",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "associate",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "['public']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "664cd7YGGN",
+          "recipient": "",
+          "text": "maintenance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "some-college",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "42",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "non-profit",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67e727YGGN",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}

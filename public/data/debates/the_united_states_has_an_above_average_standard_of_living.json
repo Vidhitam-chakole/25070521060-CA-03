@@ -1,0 +1,3684 @@
+{
+  "_id": "the_united_states_has_an_above_average_standard_of_living",
+  "topicId": "the_united_states_has_an_above_average_standard_of_living",
+  "topic": "The United States has an above-average standard of living",
+  "category": "General Discussions",
+  "topicType": "breadth",
+  "conversationCount": 2,
+  "totalTurns": 399,
+  "initialOpinions": [
+    {
+      "workerId": "64d52N4PA7",
+      "text": "I agree that the United States has an above-average standard of living.  We don't have first world problems for nothing.  Of course we work for what we have so we should have an above average standard.",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    },
+    {
+      "workerId": "65958N4PA7",
+      "text": "The United States standard of living is above average standard of living compared to other countries. Because of this, cost of living is high.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "61113N4PA7",
+      "text": "I think the US is above average in our standard of living but I would say that the cost of living makes the above average standard of living harder to achieve. There are other first world countries that have cheaper costs of living and free healthcare, two things that differ from the US.",
+      "sliderValue": 4,
+      "stance": "Support"
+    },
+    {
+      "workerId": "67dc9N4PA7",
+      "text": "USA is developed country with well established social amenities than than many other countries. This. contributes to a high standard. of living with access to quality health, education and se u",
+      "sliderValue": 6,
+      "stance": "Support"
+    },
+    {
+      "workerId": "66c4fM7VT2",
+      "text": "I think that nowadays we have access online to make extra cash and work from home and this helps increase the standard of living. America has alot of opportunities that are unique as well.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "5f0a6M7VT2",
+      "text": "I think the United States has an above-average standard of living in comparison to most countries around the world. For example, I think China has less freedom because they might not be a democracy. Besides this, some countries are poor compared to the United States.",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "6830bM7VT2",
+      "text": "i do believe the united states has an above average standard of living, i base my opinion on that fact that our infrastructure is topnotch not forgetting availability of employment",
+      "sliderValue": 5,
+      "stance": "Support"
+    },
+    {
+      "workerId": "68324M7VT2",
+      "text": "I agree with the statement that the United States has an above-average standard of living. This is evident through its high GDP per capita, advanced healthcare and education systems, and access to modern infrastructure and technology. However, income inequality and disparities in access to res",
+      "sliderValue": 3,
+      "stance": "Neutral"
+    }
+  ],
+  "sampleExcerpts": [
+    "The US has an above average standard of living compared to less economically developed countries but when we look at other first world countries our standard of living is just slightly above average.",
+    "I of course believe the United States has an above-average standard of living.  We are not being bombed daily, we have enough food and then some, and we have cars and such to get around but we work for it.",
+    "The majority of homes in the US has A/C, running water, fridges, and other amenities. It's actually uncommon to see homes with these features.",
+    "I believe the United States has an above-average standard of living compared to most countries. For example, some countries are poorer than the U.S. Besides this, China has less freedom than the U.S. because of its undemocratic leadership.",
+    "I believe the United States does have an above-average standard of living due to its strong economy, technological advancements, and access to healthcare and education. However, growing inequality and lack of universal access to these benefits show that not everyone experiences t",
+    "the united states has an above average standards of living which ,i base my agument in the fact that we have a nearly zero unemployment,our infrastructure is topnotch not forgetting the educati"
+  ],
+  "tags": [
+    "general discussions",
+    "united",
+    "states",
+    "above",
+    "average",
+    "standard",
+    "living"
+  ],
+  "source": "debatellm/DEBATE (Hugging Face)",
+  "license": "DEBATE Dataset Research-Only License (v1.0)",
+  "createdAt": "2026-10-26T19:51:06.367Z",
+  "conversations": [
+    {
+      "sessionId": "01JT27WM3ZJ6HYA5MR9CHN4PA7",
+      "fileName": "20250430_025248_The_United_States_has_an_above-average_standard_of_living_01JT27WM3ZJ6HYA5MR9CHN4PA7.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "61113N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "The US has an above average standard of living compared to less economically developed countries but when we look at other first world countries our standard of living is just slightly above average.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "64d52N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "I of course believe the United States has an above-average standard of living.  We are not being bombed daily, we have enough food and then some, and we have cars and such to get around but we work for it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "65958N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "The majority of homes in the US has A/C, running water, fridges, and other amenities. It's actually uncommon to see homes with these features.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "67dc9N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "USA has above average standards. of living because of:\nWell established social amenities. This guarantee. that US citizen have access to quality education, health and security is gua",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "64d52N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "Agreed but we work for it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65958N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "Agreed but we work for it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "Hi! I agree that we have a lot of programs that are better than other countries but I also think that these programs are expensive to take part in!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67dc9N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "Hi! I agree that we have a lot of programs that are better than other countries but I also think that these programs are expensive to take part in!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65958N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "yes we do it's actually unacceptable to live with those features",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "yes we do it's actually unacceptable to live with those features",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67dc9N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "It has excellent access to social amenities. services are well accessed. there is access to good health care and security",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61113N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "It has excellent access to social amenities. services are well accessed. there is access to good health care and security",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "64d52N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "I do have to admit some of our issues could be considered first world problems but I'm good with that. We have time to worry about things like our mental health and if we are boys or girls",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "65958N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "I do have to admit some of our issues could be considered first world problems but I'm good with that. We have time to worry about things like our mental health and if we are boys or girls",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "Yes but those programs are not worth as much when the majority of the population can't take part in them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67dc9N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "Yes but those programs are not worth as much when the majority of the population can't take part in them",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "67dc9N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "Again there are many social empowerment program to help the less fortunate unlike in other nation where many are struggling",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "61113N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "Again there are many social empowerment program to help the less fortunate unlike in other nation where many are struggling",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "65958N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "yeah it is first world problems!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "yeah it is first world problems!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "yes but just because others are worse doesn't mean we have above average I think the US has good programs so they are slightly above average but there are better first world countries that have better programs and free healthcare and free higher education things we do not have here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "67dc9N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "yes but just because others are worse doesn't mean we have above average I think the US has good programs so they are slightly above average but there are better first world countries that have better programs and free healthcare and free higher education things we do not have here",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "61113N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "The US has good programs in place that help increase their standard of living and there are countries that have less programs and lower standards of living but there are also other first world developed countries that have much better, and cheaper programs in place.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "64d52N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "I do believe the United States has an above-average standard of living but we have worked hard to get here.  If the rest of the world wants to have the same standards they should do the work to get here and not complain about it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "65958N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "The US has a high standard of living that other countries. US citizens have requirements when living in homes such having work electricity and other things that are considered a neccecisty.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "67dc9N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "USA has a better living standard. due to well established laws, easy access to social amenities  and guaranteed  government aid for the less fortunate. there are many social help group to address in",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "Hi! I think the US has good programs but I think other countries do some things better!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65958N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "Hi! I think the US has good programs but I think other countries do some things better!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65958N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "yeah that's true we do have good programs in place. because the US has the funds for it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61113N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "yeah that's true we do have good programs in place. because the US has the funds for it",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64d52N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "as i said to the last person we have first world problems no doubt but I don't see an issue with that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67dc9N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "as i said to the last person we have first world problems no doubt but I don't see an issue with that",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67dc9N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "USA government care for it citizen, thus offering better services Yeah I full agree with the statement. By all standards  USA is better off",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "USA government care for it citizen, thus offering better services Yeah I full agree with the statement. By all standards  USA is better off",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "We have good higher education but other first world countries like Norway and Sweden have that for free the same with cost of living a lot of Europe has a lower cost of living and more days off which I feel increases their standard of living making the us a little lower",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65958N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "We have good higher education but other first world countries like Norway and Sweden have that for free the same with cost of living a lot of Europe has a lower cost of living and more days off which I feel increases their standard of living making the us a little lower",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64d52N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "I agree to a point.  there is some corruption but it balances out",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67dc9N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "I agree to a point.  there is some corruption but it balances out",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "65958N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "that's true we are on the same level of those countries just less safe over here lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "61113N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "that's true we are on the same level of those countries just less safe over here lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67dc9N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "Of course there is no perfect system, we are still improving",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "Of course there is no perfect system, we are still improving",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "lmao that's true I think compared to Africa and a lot of Asia we are definitely higher though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "65958N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "lmao that's true I think compared to Africa and a lot of Asia we are definitely higher though",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "64d52N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "I laugh about saying first world problems since we aren't being bombed all the time and such we have time to worry about our mental health and whether we are boys or girls agreed we are constantly improving",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "67dc9N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "I laugh about saying first world problems since we aren't being bombed all the time and such we have time to worry about our mental health and whether we are boys or girls agreed we are constantly improving",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "67dc9N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "Proper usage of resources ensure that they meet the set target",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "Proper usage of resources ensure that they meet the set target",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "61113N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "I agree that the US has a better standard of living than some countries but I also feel that there are a lot of countries that do things and programs better than us. Because of that I feel the US is closer to just average than solidly above average.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "64d52N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "I totally believe the United States has an above-average standard of living.  Since we are not starving or being bombed we get to focus on things like our \"feelings\", our \"gender\" and all other sorts of things that the rest of the world take for granted.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "65958N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "The United States has a high standard of living that  is way above average than other countries. People come here to seek a better life due to the the US standards.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "67dc9N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "USA has well established system that not only protect its citizen but also I prove their lives. For instance quality health care, security and employment.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "Hi! I agree with that to an extent I think we have a lot of freedoms that a lot of first world countries do but I think our social programs are worse!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "Hi! I agree with that to an extent I think we have a lot of freedoms that a lot of first world countries do but I think our social programs are worse!",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "64d52N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "Good point I hadn't thought of it that way.  We are kinda of lazy about some things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61113N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "Good point I hadn't thought of it that way.  We are kinda of lazy about some things.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65958N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "I agree. Healthcare and employemenmt is a standard of living",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67dc9N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "I agree. Healthcare and employemenmt is a standard of living",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "Yeah like we have great higher education but for example Norway and Sweden offer those programs for free and similarly a lot of Europe has free health care. we have good programs but they are expensive to access making it impossible for some to have a good standard of living",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "Yeah like we have great higher education but for example Norway and Sweden offer those programs for free and similarly a lot of Europe has free health care. we have good programs but they are expensive to access making it impossible for some to have a good standard of living",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "64d52N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "I've heard that argument before about our social programs are worse.  usually free healthcare is brought up but look at our population compared to other countries with free healthcare.  it's easy to give free stuff to a few people versus the numbers we have.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61113N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "I've heard that argument before about our social programs are worse.  usually free healthcare is brought up but look at our population compared to other countries with free healthcare.  it's easy to give free stuff to a few people versus the numbers we have.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "I definitely agree though we have a lot of privilege being here to begin with though! But on the other side we also have more revenue from exports and taxes we could implement it if given the time and resources",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "I definitely agree though we have a lot of privilege being here to begin with though! But on the other side we also have more revenue from exports and taxes we could implement it if given the time and resources",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "67dc9N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "Yes I fully agree with you. Our health system is the best. look at our education system, fantastic.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "65958N4PA7",
+          "recipient": "65958N4PA7",
+          "text": "Yes I fully agree with you. Our health system is the best. look at our education system, fantastic.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "65958N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "our education isn't the best, but better than other countries lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "64d52N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "free stuff and higher taxes or pay for things and less tax ...i go less tax",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "61113N4PA7",
+          "recipient": "61113N4PA7",
+          "text": "free stuff and higher taxes or pay for things and less tax ...i go less tax",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "61113N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "no other country spends the same % on the military you could half that budget and get so far and the military would still be fine",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "64d52N4PA7",
+          "recipient": "64d52N4PA7",
+          "text": "no other country spends the same % on the military you could half that budget and get so far and the military would still be fine",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "67dc9N4PA7",
+          "recipient": "67dc9N4PA7",
+          "text": "our education isn't the best, but better than other countries lol",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "I still agree that the United States has an above-average standard of living and I am proud for it.  I've worked to get where I am and intend to stay there or even get better.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "I think the US needs to better its access to programs for me to think that their standard of living is above average. Having access and privilege afforded in this country is a good thing but it isn't useful when only some can access it. I think we are definitely better than other countries but we still have a long way to go to catch up to other first would countries.",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "I agree because we have other countries that have lower standards living. So we do have higher standards",
+          "sliderValue": 3,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "We have the best education, health, security, and political system. This ensure that the welfare of America is well taken care. This ensure that each citen has a chance to make a meaningful  living.",
+          "sliderValue": 6,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "21",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "['home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "21",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "over-200k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "61113N4PA7",
+          "recipient": "",
+          "text": "finance",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "49",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "75k-100k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "['out-of-school']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "rural",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "no-religion",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "64d52N4PA7",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "28",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "living-partner",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "65958N4PA7",
+          "recipient": "",
+          "text": "manufacturing",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "33",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "male",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "50k-75k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "['home']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "67dc9N4PA7",
+          "recipient": "",
+          "text": "sales",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    },
+    {
+      "sessionId": "01JWP2P17S34DDZ4MGDEBM7VT2",
+      "fileName": "20250601_161506_The_United_States_has_an_above-average_standard_of_living_01JWP2P17S34DDZ4MGDEBM7VT2.csv",
+      "turns": [
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "68324M7VT2",
+          "text": "I believe the United States has an above-average standard of living compared to most countries. For example, some countries are poorer than the U.S. Besides this, China has less freedom than the U.S. because of its undemocratic leadership.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "68324M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "I believe the United States does have an above-average standard of living due to its strong economy, technological advancements, and access to healthcare and education. However, growing inequality and lack of universal access to these benefits show that not everyone experiences t",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "6830bM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "the united states has an above average standards of living which ,i base my agument in the fact that we have a nearly zero unemployment,our infrastructure is topnotch not forgetting the educati",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "tweet",
+          "speaker": "66c4fM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I think that the US has alot of unique opportunities. There are alot of manufacturing business that I am not a big fan of unless they are eco friendly types. However, there are alot of small niche shops all over that are good for employment. Online opportunities as well and onlin",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "68324M7VT2",
+          "text": "I agree with you.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "68324M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "hello",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "68324M7VT2",
+          "recipient": "68324M7VT2",
+          "text": "I agree with you. Hi I think though that some countries have higher standards than the U.S. For instance, I heard of Canada having a better leader than the U.S. Besides this, Donald Trump kind of ruins things in a way because he isn't maintaining the high standards of the U.S.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "68324M7VT2",
+          "text": "Hi I think though that some countries have higher standards than the U.S. For instance, I heard of Canada having a better leader than the U.S. Besides this, Donald Trump kind of ruins things in a way because he isn't maintaining the high standards of the U.S.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66c4fM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I agree unemployment is low and we have good education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6830bM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I agree unemployment is low and we have good education.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6830bM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "am glad that we are on the same page, we can also consider the social welfare to its citizens, though not perfect but i believe we are on the right track",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66c4fM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "am glad that we are on the same page, we can also consider the social welfare to its citizens, though not perfect but i believe we are on the right track",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "68324M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "i agree too as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "i agree too as well",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "68324M7VT2",
+          "text": "Also, some countries seem to be more peaceful such as maybe Sweden or another country I heard of which I can't remember which one it was. But some countries which don't live up to the standards of the U.S in a few ways I think include Asia, Iraq and Iran.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "66c4fM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "Yes I agree. Its not all perfect yet but I think we are moving in a positive direction.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "6830bM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "Yes I agree. Its not all perfect yet but I think we are moving in a positive direction.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "68324M7VT2",
+          "recipient": "68324M7VT2",
+          "text": "Also, some countries seem to be more peaceful such as maybe Sweden or another country I heard of which I can't remember which one it was. But some countries which don't live up to the standards of the U.S in a few ways I think include Asia, Iraq and Iran.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "68324M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "I agree with you—while the U.S. does have a high standard of living overall, leadership plays a big role in maintaining it. Policies under Trump often created division and overlooked key issues like healthcare and equality, which can impact how that standard is ex",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "I agree with you—while the U.S. does have a high standard of living overall, leadership plays a big role in maintaining it. Policies under Trump often created division and overlooked key issues like healthcare and equality, which can impact how that standard is ex",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_sent",
+          "speaker": "6830bM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "another indication can be on our agriculture,the farmers are doing quite a lot ,food shortage is a thing of the",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "message_received",
+          "speaker": "66c4fM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "another indication can be on our agriculture,the farmers are doing quite a lot ,food shortage is a thing of the",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I think the United States has an above-average standard of living compared to most countries. For example, China's leadership is undemocratic while other countries are poorer than the U.S.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "68324M7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "I believe the U.S. does have an above-average standard of living overall, especially when looking at its economy, healthcare access, and technology. However, this high standard isn't equally shared—income inequality and systemic issues prevent many from experiencing its full bene",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "6830bM7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "the united state standards of living is above average in fact its high, i base my argument on the fact that unemployment is near zero, also the infrastructure is quite good.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "tweet",
+          "speaker": "66c4fM7VT2",
+          "recipient": "68324M7VT2",
+          "text": "I do believe the US has an above average standard of living. We have low unemployment, lots of unique job opportunities. It seems there are more people moving out of poverty level especially with online opp",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I think unemployment is pretty good but I feel like many people still don't have jobs because of the high poverty rate. Plus, Iraq and Iran seem to be behind the times due to the fact of their strangely traditional ways. This seems to make them have lower standards of living than they would if they lived in a more modern, intelligent way.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6830bM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I think unemployment is pretty good but I feel like many people still don't have jobs because of the high poverty rate. Plus, Iraq and Iran seem to be behind the times due to the fact of their strangely traditional ways. This seems to make them have lower standards of living than they would if they lived in a more modern, intelligent way.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "68324M7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "Absolutely! While I agree that the U.S. has an above-average standard of living, I think it's important to look at why that's true. For example, the country's economic output and access to innovation are huge contributors. What factors do you think play the biggest role in supporting that standard?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66c4fM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "Absolutely! While I agree that the U.S. has an above-average standard of living, I think it's important to look at why that's true. For example, the country's economic output and access to innovation are huge contributors. What factors do you think play the biggest role in supporting that standard?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "6830bM7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "it might be true but just as you made comparison with china kindly do the same when it comes to unemployment you will get your anser",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "it might be true but just as you made comparison with china kindly do the same when it comes to unemployment you will get your anser",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I don't get it. The leadership in the U.S. which is Trump is low. This makes everyone's lives more difficult because he's ruining the reputation of the U.S. and lowering the quality of their lives.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "6830bM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I don't get it. The leadership in the U.S. which is Trump is low. This makes everyone's lives more difficult because he's ruining the reputation of the U.S. and lowering the quality of their lives.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "66c4fM7VT2",
+          "recipient": "68324M7VT2",
+          "text": "I think with online job and business opportunities this has helped increase the standard of living.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "68324M7VT2",
+          "recipient": "68324M7VT2",
+          "text": "I think with online job and business opportunities this has helped increase the standard of living.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_sent",
+          "speaker": "68324M7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "I’d say access to advanced healthcare and education also support the U.S. standard of living, even though they’re not equally accessible to everyone. Do you think those inequalities significantly lower the overall quality of life?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 2,
+          "eventType": "message_received",
+          "speaker": "66c4fM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "I’d say access to advanced healthcare and education also support the U.S. standard of living, even though they’re not equally accessible to everyone. Do you think those inequalities significantly lower the overall quality of life?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "66c4fM7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "I think the US does have an above average standard of living.  We have a low unemployment rate. We also have access to healthcare as well.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "I believe the United States has an above-average standard of living compared to most countries. For example, China's leadership is possibly a dictatorship at least in comparison the United States. Besides this, other countries are much poorer than the United States.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "6830bM7VT2",
+          "recipient": "68324M7VT2",
+          "text": "i believe the united states has  above standards of living as the unemployment rate is nearly zero, but citizens can nearly get by",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "tweet",
+          "speaker": "68324M7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "I believe the U.S. has an above-average standard of living overall, thanks to its strong economy, healthcare technology, and educational institutions. However, deep inequality and high living costs mean that not everyone benefits equally from these advantages.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66c4fM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "I agree with you. I think that we might also be the best at being accepting of different types of people and inspiring people to live better lives such as the American dream.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "I think that we might also be the best at being accepting of different types of people and inspiring people to live better lives such as the American dream.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "68324M7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "That’s true—access to resources like healthcare and education really depends on income and location in the U.S. Even though the economy is strong, many Americans still struggle with basic needs like housing and medical bills.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6830bM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "That’s true—access to resources like healthcare and education really depends on income and location in the U.S. Even though the economy is strong, many Americans still struggle with basic needs like housing and medical bills.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66c4fM7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "Yes I agree. I like what you said about accepting different people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "Yes I agree. I like what you said about accepting different people.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "6830bM7VT2",
+          "recipient": "68324M7VT2",
+          "text": "i second you on the matter on healthcare and education not forgetting infrastructure we have made a tremendous  milestone on the above very true currently being able to afford a home is really strainous we are surely living in a tough economic time for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "68324M7VT2",
+          "recipient": "68324M7VT2",
+          "text": "i second you on the matter on healthcare and education not forgetting infrastructure we have made a tremendous  milestone on the above very true currently being able to afford a home is really strainous we are surely living in a tough economic time for sure",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "Thank you. For instance, we're improving on gender equality, racism, etc.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66c4fM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "Thank you. For instance, we're improving on gender equality, racism, etc.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66c4fM7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "We also have alot of online opportunities for business and ways to increases your income.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "We also have alot of online opportunities for business and ways to increases your income.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "Exactly! We're very progressive and we aim to improve ourselves. This makes other countries want to do the same thing. They see the benefits of it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66c4fM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "Exactly! We're very progressive and we aim to improve ourselves. This makes other countries want to do the same thing. They see the benefits of it.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "66c4fM7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "Yes we have come along way in gender equality and racism. We have much more work to do in this area but if you watch commercials, it seems many include different races more and more now than before.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "5f0a6M7VT2",
+          "text": "Yes we have come along way in gender equality and racism. We have much more work to do in this area but if you watch commercials, it seems many include different races more and more now than before.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "68324M7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "Do you think the U.S. could still be considered “above average” if so many people live paycheck to paycheck?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "6830bM7VT2",
+          "recipient": "6830bM7VT2",
+          "text": "Do you think the U.S. could still be considered “above average” if so many people live paycheck to paycheck?",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_sent",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "That's exactly what I mean. Many countries are behind in the areas we're progressing in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 3,
+          "eventType": "message_received",
+          "speaker": "66c4fM7VT2",
+          "recipient": "66c4fM7VT2",
+          "text": "That's exactly what I mean. Many countries are behind in the areas we're progressing in.",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "I believe the U.S. has an above-average standard of living compared to most countries.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "i neither agree nor disagree am tone in between the two",
+          "sliderValue": 4,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "It really got me thinking and I feel proud of where America is and how far its come. Everyone I spoke to in this study seemed positive. I really enjoyed my conversation with the last participant. It was easy to discuss points of view with them.",
+          "sliderValue": 6,
+          "validity": "INVALID"
+        },
+        {
+          "round": 1,
+          "eventType": "Post Opinion",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "I agree that the United States has an above-average standard of living because it offers advanced healthcare, strong economic opportunities, and access to modern technology. However, this standard is unevenly experienced due to significant income inequality and disparities in access to essential services.",
+          "sliderValue": 5,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "44",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "Prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "Prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "51",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "['university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "44",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "Prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "Prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "['prefer not to answer']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "5f0a6M7VT2",
+          "recipient": "",
+          "text": "prefer not to answer",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "51",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "strong-democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "very-liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "never-married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "inspired",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "66c4fM7VT2",
+          "recipient": "",
+          "text": "other",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "master-doctoral",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "['black']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "democrat",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "['university']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "urban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "yes",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "roman-catholic",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "construction",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "68324M7VT2",
+          "recipient": "",
+          "text": "liberal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "23",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "female",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "United States of America",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "bachelor",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "['white']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "25k-50k",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "strong-republican",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "very-conservative",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "married",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "['no-children']",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "literal",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "suburban",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "no",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "protestant",
+          "sliderValue": null,
+          "validity": "VALID"
+        },
+        {
+          "round": 1,
+          "eventType": "exit_survey",
+          "speaker": "6830bM7VT2",
+          "recipient": "",
+          "text": "engineering",
+          "sliderValue": null,
+          "validity": "VALID"
+        }
+      ]
+    }
+  ]
+}
