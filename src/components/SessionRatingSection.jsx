@@ -11,7 +11,7 @@ const RATING_LABELS = {
   2: '2 Stars — Fair Research',
   3: '3 Stars — Good Learning',
   4: '4 Stars — Great Insights',
-  5: '5 Stars — Exceptional Session! ★',
+  5: '5 Stars — Exceptional Session!',
 };
 
 export function SessionRatingSection({
@@ -225,7 +225,7 @@ export function SessionRatingSection({
                   gap: '6px',
                 }}
               >
-                <span>📜 VIEW PROFILE HISTORY</span>
+                <span>VIEW PROFILE HISTORY</span>
                 <ExternalLink size={12} />
               </button>
 
@@ -294,7 +294,7 @@ export function SessionRatingSection({
                   boxShadow: '1.5px 1.5px 0px #1E4D3B',
                 }}
               >
-                {source === 'random' ? '🎲 Random Topic' : '🔍 Manually Searched'}
+                {source === 'random' ? 'Random Topic' : 'Manually Searched'}
               </span>
             </div>
 
@@ -434,7 +434,7 @@ export function SessionRatingSection({
                   marginBottom: '12px',
                 }}
               >
-                ⚠️ {errorMsg}
+                {errorMsg}
               </div>
             )}
 

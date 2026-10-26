@@ -460,7 +460,7 @@ export function UserProfileModal({ onPracticeTopic }) {
                         marginTop: '2px',
                       }}
                     >
-                      🔍 Keyword Searched
+                      Keyword Searched
                     </div>
                   </div>
 
@@ -501,7 +501,7 @@ export function UserProfileModal({ onPracticeTopic }) {
                         marginTop: '2px',
                       }}
                     >
-                      🎲 Reel & Generator
+                      Reel & Generator
                     </div>
                   </div>
                 </div>
@@ -590,8 +590,8 @@ export function UserProfileModal({ onPracticeTopic }) {
                       </span>
                       {[
                         { id: 'all', label: 'All' },
-                        { id: 'manual', label: '🔍 Manual' },
-                        { id: 'random', label: '🎲 Random' },
+                        { id: 'manual', label: 'Manual' },
+                        { id: 'random', label: 'Random' },
                       ].map((s) => (
                         <button
                           key={s.id}
@@ -761,7 +761,7 @@ export function UserProfileModal({ onPracticeTopic }) {
                                   color: item.source === 'random' ? '#5B21B6' : '#92400E',
                                 }}
                               >
-                                {item.source === 'random' ? '🎲 Randomly Generated' : '🔍 Manually Searched'}
+                                {item.source === 'random' ? 'Randomly Generated' : 'Manually Searched'}
                               </span>
 
                               {/* Category Badge */}

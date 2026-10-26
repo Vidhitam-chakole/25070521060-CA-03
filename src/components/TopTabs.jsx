@@ -17,8 +17,8 @@ export function TopTabs({ activeTab, onChangeTab }) {
       style={{
         display: 'flex',
         justifyContent: 'center',
-        paddingTop: '20px',
-        paddingBottom: '16px',
+        paddingTop: '8px',
+        paddingBottom: '14px',
         width: '100%',
       }}
     >

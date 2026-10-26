@@ -9,7 +9,7 @@ export function PlayerHud({ onReplayIntro }) {
   if (!currentUser) return null;
 
   const displayName = currentUser.nickname || currentUser.username || (isGuest ? 'Guest' : 'User');
-  const initial = displayName.charAt(0).toUpperCase();
+  const initial = displayName.trim().charAt(0).toUpperCase() || 'U';
 
   const handleOpenProfile = () => {
     sound.playPillClick();
@@ -29,96 +29,26 @@ export function PlayerHud({ onReplayIntro }) {
         justifyContent: 'space-between',
         flexWrap: 'wrap',
         gap: '12px',
-        padding: '8px 18px',
-        margin: '0 auto 14px auto',
+        padding: '6px 20px',
+        margin: '0 auto 10px auto',
         maxWidth: '1200px',
         width: 'calc(100% - 32px)',
-        backgroundColor: '#FFFFFF',
-        border: '2px solid #1E4D3B',
-        boxShadow: '3px 3px 0px rgba(30, 77, 59, 0.15)',
+        backgroundColor: 'transparent',
+        border: 'none',
+        boxShadow: 'none',
       }}
     >
-      {/* Left: User greeting and nickname / profile button */}
+      {/* Top Left: History Tab Button */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-        <div
-          onClick={handleOpenProfile}
-          title="Open User Profile & History"
-          style={{
-            width: '32px',
-            height: '32px',
-            backgroundColor: '#1E4D3B',
-            color: '#F9F6EC',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontFamily: "'Pixelify Sans', monospace",
-            fontSize: '16px',
-            fontWeight: 'bold',
-            border: '2px solid #133327',
-            cursor: 'pointer',
-            boxShadow: '1.5px 1.5px 0px rgba(30, 77, 59, 0.2)',
-            transition: 'transform 0.1s ease',
-          }}
-        >
-          {initial}
-        </div>
-
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-          <span
-            style={{
-              fontFamily: "'Pixelify Sans', monospace",
-              fontSize: '15px',
-              color: '#55655D',
-            }}
-          >
-            Welcome,
-          </span>
-          <span
-            onClick={handleOpenProfile}
-            title="Click to view Profile & Research History"
-            style={{
-              fontFamily: "'Pixelify Sans', monospace",
-              fontSize: '16px',
-              fontWeight: '700',
-              color: '#1E4D3B',
-              cursor: 'pointer',
-              borderBottom: '1px dashed #1E4D3B',
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '4px',
-            }}
-          >
-            {displayName}
-            <span style={{ fontSize: '11px', opacity: 0.6 }}>👤</span>
-          </span>
-          {isGuest && (
-            <span
-              style={{
-                fontFamily: "'Pixelify Sans', monospace",
-                fontSize: '11px',
-                color: '#854D0E',
-                backgroundColor: '#FEF9C3',
-                padding: '1px 6px',
-                border: '1px solid #E4D89A',
-              }}
-            >
-              Guest
-            </span>
-          )}
-        </div>
-      </div>
-
-      {/* Right Controls: Research History, Video Intro & Sign Out */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
-        {/* Profile History Button */}
         <button
           type="button"
           onClick={handleOpenProfile}
+          title="Open Research & Practice History"
           style={{
-            padding: '6px 12px',
+            padding: '7px 14px',
             backgroundColor: '#1E4D3B',
             color: '#F9F6EC',
-            border: '1.5px solid #0E3B33',
+            border: '2px solid #0E3B33',
             boxShadow: '2px 2px 0px #0E3B33',
             fontFamily: "'Pixelify Sans', monospace",
             fontSize: '13px',
@@ -126,13 +56,12 @@ export function PlayerHud({ onReplayIntro }) {
             cursor: 'pointer',
             display: 'inline-flex',
             alignItems: 'center',
-            gap: '6px',
-            transition: 'transform 0.1s',
+            gap: '8px',
+            transition: 'background-color 0.1s ease',
           }}
           onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#29614C')}
           onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#1E4D3B')}
         >
-          <span>📜</span>
           <span>History</span>
           <span
             style={{
@@ -140,7 +69,7 @@ export function PlayerHud({ onReplayIntro }) {
               color: '#FFFFFF',
               fontSize: '11px',
               fontWeight: 700,
-              padding: '0px 5px',
+              padding: '1px 6px',
               borderRadius: '0px',
               border: '1px solid #FFFFFF',
             }}
@@ -148,7 +77,10 @@ export function PlayerHud({ onReplayIntro }) {
             {historyList.length}
           </span>
         </button>
+      </div>
 
+      {/* Top Right Controls: Watch Intro, Sign Out & Profile Initial Icon */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
         {onReplayIntro && (
           <button
             type="button"
@@ -169,7 +101,6 @@ export function PlayerHud({ onReplayIntro }) {
             onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#EFE9DA')}
             onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#FAF8F0')}
           >
-            <span>▶</span>
             <span>Watch Intro</span>
           </button>
         )}
@@ -201,6 +132,39 @@ export function PlayerHud({ onReplayIntro }) {
         >
           <span>Sign Out</span>
         </button>
+
+        {/* Small Profile Icon with Initial of Nickname */}
+        <div
+          onClick={handleOpenProfile}
+          title={`Profile: ${displayName} (Click to open profile)`}
+          style={{
+            width: '28px',
+            height: '28px',
+            backgroundColor: '#1E4D3B',
+            color: '#F9F6EC',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontFamily: "'Pixelify Sans', monospace",
+            fontSize: '15px',
+            fontWeight: 'bold',
+            border: '2px solid #0E3B33',
+            boxShadow: '1.5px 1.5px 0px #0E3B33',
+            cursor: 'pointer',
+            userSelect: 'none',
+            transition: 'transform 0.1s ease, background-color 0.1s ease',
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.backgroundColor = '#29614C';
+            e.currentTarget.style.transform = 'scale(1.05)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.backgroundColor = '#1E4D3B';
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
+        >
+          {initial}
+        </div>
       </div>
     </div>
   );

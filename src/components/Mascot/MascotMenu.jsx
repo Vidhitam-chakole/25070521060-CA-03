@@ -124,7 +124,7 @@ export function MascotMenu({
         icon: <RotateCw size={14} color="#1E4D3B" />,
         action: () => {
           onTriggerSpin();
-          say('Spinning topic reel! 🎰');
+          say('Spinning topic reel!');
         },
       },
       {
@@ -255,7 +255,7 @@ export function MascotMenu({
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <span style={{ fontSize: '18px' }}>🌱</span>
+          <span style={{ fontSize: '14px', color: '#1E4D3B' }}>★</span>
           <span
             style={{
               fontFamily: "'Press Start 2P', monospace",
@@ -450,7 +450,7 @@ export function MascotMenu({
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 {isAsleep ? <Sun size={15} color="#E8A857" /> : <Moon size={15} color="#7E22CE" />}
                 <span style={{ fontWeight: 700, color: isAsleep ? '#7E22CE' : '#1E4D3B' }}>
-                  {isAsleep ? 'Wake Up Vidhitam ☀️' : 'Put Vidhitam to Sleep 🌙'}
+                  {isAsleep ? 'Wake Up Vidhitam' : 'Put Vidhitam to Sleep'}
                 </span>
               </div>
               <span

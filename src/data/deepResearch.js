@@ -1,7 +1,7 @@
 // src/data/deepResearch.js
 
 export const RESEARCH_CATEGORIES = [
-  { id: 'random', label: 'Random', icon: '🎯', color: '#1E4D3B' },
+  { id: 'random', label: 'Random', icon: 'Target', color: '#1E4D3B' },
   { id: 'psychology', label: 'Psychology', icon: 'Brain', color: '#EC4899' },
   { id: 'game-theory', label: 'Game Theory', icon: 'Crown', color: '#8B5CF6' },
   { id: 'evolution-eng', label: 'Evolution Engineering', icon: 'Dna', color: '#10B981' },

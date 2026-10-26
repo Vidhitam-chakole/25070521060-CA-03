@@ -1,20 +1,20 @@
 // src/data/randomTopics.js
 
 export const RANDOM_CATEGORIES = [
-  { id: 'random', label: 'Random', icon: '🎲' },
-  { id: 'persuasive', label: 'Persuasive & Debate', icon: '🔥' },
-  { id: 'explain', label: 'Explain to a Kid', icon: '🎈' },
-  { id: 'society', label: 'Society & Culture', icon: '🌍' },
-  { id: 'tech', label: 'Tech & Modern Life', icon: '⚡' },
-  { id: 'finance', label: 'Money & Careers', icon: '💡' },
-  { id: 'absurd', label: 'Fun & Absurd', icon: '✨' },
+  { id: 'random', label: 'All Topics' },
+  { id: 'persuasive', label: 'Persuasive & Debate' },
+  { id: 'explain', label: 'Explain to a Kid' },
+  { id: 'society', label: 'Society & Culture' },
+  { id: 'tech', label: 'Tech & Modern Life' },
+  { id: 'finance', label: 'Money & Careers' },
+  { id: 'absurd', label: 'Fun & Absurd' },
 ];
 
 export const RANDOM_DIFFICULTIES = [
-  { id: 'random', label: 'Random', icon: '🎯' },
-  { id: 'quick', label: 'Quick Fire (1 min)', icon: '⚡' },
-  { id: 'nuanced', label: 'Nuanced Thought', icon: '🧠' },
-  { id: 'tough', label: 'Tough Defense', icon: '🛡️' },
+  { id: 'random', label: 'All Difficulties' },
+  { id: 'quick', label: 'Quick Fire (1 min)' },
+  { id: 'nuanced', label: 'Nuanced Thought' },
+  { id: 'tough', label: 'Tough Defense' },
 ];
 
 export const RANDOM_TOPICS = [

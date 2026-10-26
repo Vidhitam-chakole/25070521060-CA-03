@@ -234,7 +234,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
               fontSize: '20px',
             }}
           >
-            ✨💖
+            ★
           </motion.div>
         ))}
 

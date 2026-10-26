@@ -1,7 +1,7 @@
 // src/data/vocab.js
 
 export const VOCAB_DIFFICULTIES = [
-  { id: 'random', label: 'Random', icon: '🎲', color: '#9333EA' },
+  { id: 'random', label: 'Random', icon: '●', color: '#9333EA' },
   { id: 'easy', label: 'Easy', icon: '●', color: '#22C55E' },
   { id: 'medium', label: 'Medium', icon: '●', color: '#EAB308' },
   { id: 'hard', label: 'Hard', icon: '●', color: '#EF4444' },

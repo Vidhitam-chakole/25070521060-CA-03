@@ -72,14 +72,14 @@ export function MascotProvider({ children }) {
     setIsAsleep(true);
     setMood('sleepy');
     sound.playMascotSleep();
-    say('Zzz... Going to take a nap. Click me to wake me up! 🌙', { autoDismiss: 3200 });
+    say('Zzz... Going to take a nap. Click me to wake me up!', { autoDismiss: 3200 });
   }, [say]);
 
   const wakeUp = useCallback(() => {
     setIsAsleep(false);
     setMood('happy');
     sound.playMascotWake();
-    say("Yaaawn! Good morning! Let's practice speaking! ☀️", { autoDismiss: 3200 });
+    say("Yaaawn! Good morning! Let's practice speaking!", { autoDismiss: 3200 });
   }, [say]);
 
   const toggleSleep = useCallback(() => {
@@ -96,9 +96,9 @@ export function MascotProvider({ children }) {
       localStorage.setItem('speechpact_mascot_stay_put', next ? 'true' : 'false');
       sound.playButtonClick();
       if (next) {
-        say('Staying put right here! 📌', { autoDismiss: 2500 });
+        say('Staying put right here!', { autoDismiss: 2500 });
       } else {
-        say('Slow floating resumed! 🚀', { autoDismiss: 2500 });
+        say('Slow floating resumed!', { autoDismiss: 2500 });
       }
       return next;
     });

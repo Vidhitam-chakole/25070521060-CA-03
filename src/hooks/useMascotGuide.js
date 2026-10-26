@@ -65,7 +65,7 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
       hasGreetedRef.current = true;
       setTimeout(() => {
         setMood('happy');
-        say(`Welcome, ${nickname}! 🦜 Let's crush today's speech practice!`, { autoDismiss: 4500 });
+        say(`Welcome, ${nickname}! Let's crush today's speech practice!`, { autoDismiss: 4500 });
       }, 1200);
     }
   }, [nickname, isVisible, isAsleep, say, setMood]);
@@ -102,7 +102,7 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
 
     if (isTimerRunning && timeLeft === 10) {
       setMood('happy');
-      say(`10 seconds left, ${nickname}! Wrap up with a strong conclusion! 🌟`, { autoDismiss: 4000 });
+      say(`10 seconds left, ${nickname}! Wrap up with a strong conclusion!`, { autoDismiss: 4000 });
     }
 
     if (timeLeft === 0) {

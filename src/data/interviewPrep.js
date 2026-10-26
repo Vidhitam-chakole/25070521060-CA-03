@@ -3,7 +3,7 @@
 export const FRAMEWORKS = [
   {
     id: 'star',
-    label: '★ STAR ★',
+    label: 'STAR',
     subtitle: 'Behavioral & Experience Stories',
     iconType: 'star',
     desc: 'The gold standard for answering behavioral questions with high-impact, narrative clarity.',

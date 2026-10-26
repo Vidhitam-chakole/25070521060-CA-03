@@ -186,7 +186,7 @@ export function FrameworkAccordion() {
                         color: '#4C6A5D',
                       }}
                     >
-                      💡 {fw.proTip}
+                      Pro Tip: {fw.proTip}
                     </div>
                   </div>
                 </motion.div>

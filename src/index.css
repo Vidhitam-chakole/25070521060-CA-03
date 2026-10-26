@@ -256,8 +256,8 @@ a {
   justify-content: center;
   position: relative;
   width: 100%;
-  max-width: 620px;
-  gap: 14px;
+  max-width: 630px;
+  gap: 0px;
 }
 
 @media (max-width: 860px) {
@@ -273,7 +273,7 @@ a {
   }
 
   .reel-lever-wrapper {
-    gap: 8px;
+    gap: 0px;
     padding: 0 4px;
   }
 }
@@ -284,6 +284,6 @@ a {
   }
   
   .reel-lever-wrapper {
-    gap: 6px;
+    gap: 0px;
   }
 }

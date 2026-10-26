@@ -380,29 +380,42 @@ function AppContent() {
                     id="topic-reel-container"
                     className="reel-lever-wrapper"
                   >
-                    <div style={{ flex: 1, minWidth: 0 }}>
-                      <TopicReel
-                        mode={activeTab}
-                        currentTopic={currentTopic}
-                        prevTopic={prevTopic}
-                        nextTopic={nextTopic}
-                        isSpinning={isSpinning}
-                      />
-                    </div>
-
                     <div
-                      ref={(el) => registerTarget('lever', el)}
                       style={{
                         display: 'flex',
                         alignItems: 'center',
-                        flexShrink: 0,
+                        justifyContent: 'center',
+                        width: '100%',
+                        maxWidth: '570px',
+                        position: 'relative',
                       }}
                     >
-                      <Lever
-                        onPull={handleSpin}
-                        isSpinning={isSpinning}
-                        showAnnotation={true}
-                      />
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <TopicReel
+                          mode={activeTab}
+                          currentTopic={currentTopic}
+                          prevTopic={prevTopic}
+                          nextTopic={nextTopic}
+                          isSpinning={isSpinning}
+                        />
+                      </div>
+
+                      <div
+                        ref={(el) => registerTarget('lever', el)}
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          flexShrink: 0,
+                          marginLeft: '-8px',
+                          zIndex: 5,
+                        }}
+                      >
+                        <Lever
+                          onPull={handleSpin}
+                          isSpinning={isSpinning}
+                          showAnnotation={true}
+                        />
+                      </div>
                     </div>
                   </div>
 

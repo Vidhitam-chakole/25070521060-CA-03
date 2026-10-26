@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   ChevronDown,
   Check,
-  Dices,
   Target,
   MessageSquare,
   Briefcase,
@@ -21,13 +20,6 @@ import { INTERVIEW_FILTERS } from '../data/interviewPrep';
 import { VOCAB_DIFFICULTIES } from '../data/vocab';
 import { RESEARCH_CATEGORIES } from '../data/deepResearch';
 import { sound } from '../utils/audio';
-
-const LANGUAGES = [
-  { id: 'en-us', code: 'US', label: 'English (US)' },
-  { id: 'en-gb', code: 'UK', label: 'English (UK)' },
-  { id: 'en-ca', code: 'CA', label: 'English (Canada)' },
-  { id: 'en-au', code: 'AU', label: 'English (Australia)' },
-];
 
 function PillButton({ children, onClick, isOpen, minWidth = 'auto' }) {
   return (
@@ -76,7 +68,7 @@ function PillButton({ children, onClick, isOpen, minWidth = 'auto' }) {
   );
 }
 
-function DropdownMenu({ items, selectedId, onSelect, onClose }) {
+function DropdownMenu({ items, selectedId, onSelect, onClose, headerTitle }) {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -105,12 +97,28 @@ function DropdownMenu({ items, selectedId, onSelect, onClose }) {
         border: '2px solid #1E4D3B',
         borderRadius: '0px',
         boxShadow: '4px 4px 0px #1E4D3B',
-        padding: '4px',
-        minWidth: '190px',
+        padding: '6px 4px 4px 4px',
+        minWidth: '200px',
         maxHeight: '260px',
         overflowY: 'auto',
       }}
     >
+      {headerTitle && (
+        <div
+          style={{
+            padding: '3px 8px 6px 8px',
+            fontSize: '9px',
+            fontFamily: "'Press Start 2P', monospace",
+            color: '#557667',
+            letterSpacing: '0.04em',
+            borderBottom: '1px solid #ECE7D9',
+            marginBottom: '4px',
+            textTransform: 'uppercase',
+          }}
+        >
+          {headerTitle}
+        </div>
+      )}
       {items.map((item) => {
         const isSelected = item.id === selectedId;
         return (
@@ -146,11 +154,7 @@ function DropdownMenu({ items, selectedId, onSelect, onClose }) {
             }}
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              {item.renderIcon ? (
-                item.renderIcon()
-              ) : item.icon ? (
-                <span style={{ fontSize: '14px' }}>{item.icon}</span>
-              ) : null}
+              {item.renderIcon ? item.renderIcon() : null}
               <span>{item.label}</span>
             </div>
             {isSelected && <Check size={14} color="#1E4D3B" strokeWidth={2.5} />}
@@ -197,7 +201,6 @@ export function FilterPills({
   };
 
   if (mode === 'random-topics') {
-    const currentLang = LANGUAGES.find((l) => l.id === (filters.lang || 'en-us')) || LANGUAGES[0];
     const currentCat = RANDOM_CATEGORIES.find((c) => c.id === (filters.category || 'random')) || RANDOM_CATEGORIES[0];
     const currentDiff = RANDOM_DIFFICULTIES.find((d) => d.id === (filters.difficulty || 'random')) || RANDOM_DIFFICULTIES[0];
 
@@ -212,42 +215,18 @@ export function FilterPills({
           marginBottom: '16px',
         }}
       >
-        {/* Language Pill */}
-        <div style={{ position: 'relative' }}>
-          <PillButton onClick={() => toggle('lang')} isOpen={openDropdown === 'lang'}>
-            <span
-              style={{
-                fontFamily: "'Press Start 2P', monospace",
-                fontSize: '9px',
-                color: '#2A6B52',
-                fontWeight: 700,
-              }}
-            >
-              {currentLang.code}
-            </span>
-            <span>EN</span>
-          </PillButton>
-          <AnimatePresence>
-            {openDropdown === 'lang' && (
-              <DropdownMenu
-                items={LANGUAGES}
-                selectedId={currentLang.id}
-                onSelect={(id) => onChangeFilter('lang', id)}
-                onClose={close}
-              />
-            )}
-          </AnimatePresence>
-        </div>
-
         {/* Category Pill */}
         <div style={{ position: 'relative' }}>
           <PillButton onClick={() => toggle('cat')} isOpen={openDropdown === 'cat'}>
-            <Dices size={14} color="#8B5CF6" />
-            <span>{currentCat.label}</span>
+            <span style={{ fontSize: '9px', fontFamily: "'Press Start 2P', monospace", color: '#557667', letterSpacing: '0.04em' }}>
+              CATEGORY:
+            </span>
+            <span style={{ fontWeight: 700, color: '#1E4D3B' }}>{currentCat.label}</span>
           </PillButton>
           <AnimatePresence>
             {openDropdown === 'cat' && (
               <DropdownMenu
+                headerTitle="SELECT CATEGORY"
                 items={RANDOM_CATEGORIES}
                 selectedId={currentCat.id}
                 onSelect={(id) => onChangeFilter('category', id)}
@@ -260,12 +239,15 @@ export function FilterPills({
         {/* Difficulty Pill */}
         <div style={{ position: 'relative' }}>
           <PillButton onClick={() => toggle('diff')} isOpen={openDropdown === 'diff'}>
-            <Target size={14} color="#EF4444" />
-            <span>{currentDiff.label}</span>
+            <span style={{ fontSize: '9px', fontFamily: "'Press Start 2P', monospace", color: '#557667', letterSpacing: '0.04em' }}>
+              DIFFICULTY:
+            </span>
+            <span style={{ fontWeight: 700, color: '#1E4D3B' }}>{currentDiff.label}</span>
           </PillButton>
           <AnimatePresence>
             {openDropdown === 'diff' && (
               <DropdownMenu
+                headerTitle="SELECT DIFFICULTY"
                 items={RANDOM_DIFFICULTIES}
                 selectedId={currentDiff.id}
                 onSelect={(id) => onChangeFilter('difficulty', id)}
@@ -303,17 +285,23 @@ export function FilterPills({
       >
         <div style={{ position: 'relative' }}>
           <PillButton onClick={() => toggle('interview')} isOpen={openDropdown === 'interview'}>
-            {currentTrack.id === 'behavioral' ? (
-              <MessageSquare size={14} color="#8B5CF6" />
-            ) : (
-              <Briefcase size={14} color="#EF4444" />
-            )}
-            <span>{currentTrack.label}</span>
+            <span style={{ fontSize: '9px', fontFamily: "'Press Start 2P', monospace", color: '#557667', letterSpacing: '0.04em' }}>
+              TRACK:
+            </span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              {currentTrack.id === 'behavioral' ? (
+                <MessageSquare size={14} color="#8B5CF6" />
+              ) : (
+                <Briefcase size={14} color="#EF4444" />
+              )}
+              <span style={{ fontWeight: 700, color: '#1E4D3B' }}>{currentTrack.label}</span>
+            </div>
           </PillButton>
 
           <AnimatePresence>
             {openDropdown === 'interview' && (
               <DropdownMenu
+                headerTitle="SELECT INTERVIEW TRACK"
                 items={interviewItems}
                 selectedId={currentTrack.id}
                 onSelect={(id) => onChangeFilter('interviewTrack', id)}
@@ -327,18 +315,14 @@ export function FilterPills({
   }
 
   if (mode === 'learn-vocab') {
-    const currentLang = LANGUAGES.find((l) => l.id === (filters.lang || 'en-us')) || LANGUAGES[0];
     const currentDiff = VOCAB_DIFFICULTIES.find((v) => v.id === (filters.vocabDifficulty || 'random')) || VOCAB_DIFFICULTIES[0];
 
     const vocabItems = VOCAB_DIFFICULTIES.map((v) => ({
       id: v.id,
-      label: v.label,
-      renderIcon: () =>
-        v.id === 'random' ? (
-          <Dices size={14} color={v.color} />
-        ) : (
-          <span style={{ color: v.color, fontSize: '13px', lineHeight: 1 }}>●</span>
-        ),
+      label: v.id === 'random' ? 'All Difficulties' : v.label,
+      renderIcon: () => (
+        <span style={{ color: v.color, fontSize: '13px', lineHeight: 1 }}>●</span>
+      ),
     }));
 
     return (
@@ -352,43 +336,19 @@ export function FilterPills({
         }}
       >
         <div style={{ position: 'relative' }}>
-          <PillButton onClick={() => toggle('lang')} isOpen={openDropdown === 'lang'}>
-            <span
-              style={{
-                fontFamily: "'Press Start 2P', monospace",
-                fontSize: '9px',
-                color: '#2A6B52',
-                fontWeight: 700,
-              }}
-            >
-              {currentLang.code}
-            </span>
-            <span>EN</span>
-          </PillButton>
-          <AnimatePresence>
-            {openDropdown === 'lang' && (
-              <DropdownMenu
-                items={LANGUAGES}
-                selectedId={currentLang.id}
-                onSelect={(id) => onChangeFilter('lang', id)}
-                onClose={close}
-              />
-            )}
-          </AnimatePresence>
-        </div>
-
-        <div style={{ position: 'relative' }}>
           <PillButton onClick={() => toggle('vocabDiff')} isOpen={openDropdown === 'vocabDiff'}>
-            {currentDiff.id === 'random' ? (
-              <Dices size={14} color={currentDiff.color} />
-            ) : (
-              <span style={{ color: currentDiff.color, fontSize: '13px' }}>●</span>
-            )}
-            <span>{currentDiff.label}</span>
+            <span style={{ fontSize: '9px', fontFamily: "'Press Start 2P', monospace", color: '#557667', letterSpacing: '0.04em' }}>
+              LEVEL:
+            </span>
+            <span style={{ color: currentDiff.color, fontSize: '13px' }}>●</span>
+            <span style={{ fontWeight: 700, color: '#1E4D3B' }}>
+              {currentDiff.id === 'random' ? 'All Difficulties' : currentDiff.label}
+            </span>
           </PillButton>
           <AnimatePresence>
             {openDropdown === 'vocabDiff' && (
               <DropdownMenu
+                headerTitle="SELECT VOCAB LEVEL"
                 items={vocabItems}
                 selectedId={currentDiff.id}
                 onSelect={(id) => onChangeFilter('vocabDifficulty', id)}
@@ -407,7 +367,7 @@ export function FilterPills({
 
     const researchItems = RESEARCH_CATEGORIES.map((r) => ({
       id: r.id,
-      label: r.label,
+      label: r.id === 'random' ? 'All Domains' : r.label,
       renderIcon: () => renderResearchIcon(r.icon, r.color),
     }));
 
@@ -422,12 +382,20 @@ export function FilterPills({
       >
         <div style={{ position: 'relative' }}>
           <PillButton onClick={() => toggle('researchCat')} isOpen={openDropdown === 'researchCat'}>
-            {renderResearchIcon(currentResCat.icon, currentResCat.color)}
-            <span>{currentResCat.label}</span>
+            <span style={{ fontSize: '9px', fontFamily: "'Press Start 2P', monospace", color: '#557667', letterSpacing: '0.04em' }}>
+              DOMAIN:
+            </span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              {renderResearchIcon(currentResCat.icon, currentResCat.color)}
+              <span style={{ fontWeight: 700, color: '#1E4D3B' }}>
+                {currentResCat.id === 'random' ? 'All Domains' : currentResCat.label}
+              </span>
+            </div>
           </PillButton>
           <AnimatePresence>
             {openDropdown === 'researchCat' && (
               <DropdownMenu
+                headerTitle="SELECT RESEARCH DOMAIN"
                 items={researchItems}
                 selectedId={currentResCat.id}
                 onSelect={(id) => onChangeFilter('researchCategory', id)}
