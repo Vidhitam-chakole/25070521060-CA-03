@@ -1,253 +1,326 @@
-/* ===================================================================
-   INTERSTELLAR MISSION COMMAND & GARGANTUA DEEP SPACE DESIGN SYSTEM
-   =================================================================== */
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap');
+/* src/index.css - Pixel Theme */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=VT323&display=swap');
 
 :root {
-    --bg-deep-space: #020206;
-    --bg-card: rgba(8, 12, 24, 0.75);
-    --bg-card-hover: rgba(14, 22, 44, 0.85);
-    --border-hud: rgba(255, 255, 255, 0.12);
-    --border-amber: rgba(245, 158, 11, 0.35);
-    --border-cyan: rgba(56, 189, 248, 0.35);
-
-    --gargantua-gold: #f59e0b;
-    --gargantua-amber: #d97706;
-    --gargantua-glow: rgba(245, 158, 11, 0.25);
-
-    --miller-cyan: #38bdf8;
-    --miller-blue: #0284c7;
-
-    --font-display: 'Orbitron', 'Cinzel', sans-serif;
-    --font-hud: 'Rajdhani', sans-serif;
-    --font-body: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Exact original color palette preserved untouched */
+  --bg-cream: #F9F6EC;
+  --primary-dark-green: #1E4D3B;
+  --title-green: #2A6B52;
+  --title-shadow: #A9C4B8;
+  --accent-orange: #E8A857;
+  --lavender: #B79AE6;
+  --pill-bg: #FCFBF7;
+  --pill-border: #D9D5C7;
+  --pill-hover: #F0ECE0;
+  --divider-color: #D9D5C7;
+  --text-muted: #7A8B83;
+  --text-faded: #A2B2A9;
+  
+  /* Pixel typography suite */
+  --font-display: 'Press Start 2P', monospace;
+  --font-steps: 'Pixelify Sans', 'Press Start 2P', monospace;
+  --font-serif: 'Pixelify Sans', monospace;
+  --font-sans: 'Pixelify Sans', monospace, sans-serif;
+  --font-pixel: 'Press Start 2P', monospace;
+  --font-pixel-body: 'Pixelify Sans', monospace;
+  --font-pixel-display: 'Press Start 2P', monospace;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
 
-html,
-body {
-    background-color: var(--bg-deep-space);
-    color: #f1f5f9;
-    font-family: var(--font-body);
-    min-height: 100vh;
-    overflow-x: hidden;
+/* Custom retro 8-bit pixel cursors */
+html, body {
+  background-color: var(--bg-cream);
+  background-image: 
+    linear-gradient(rgba(30, 77, 59, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 77, 59, 0.035) 1px, transparent 1px);
+  background-size: 8px 8px;
+  color: var(--primary-dark-green);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+  user-select: none;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' shape-rendering='crispEdges'%3E%3Cpath fill='%231E4D3B' d='M2 1h2v1H2V1zm2 1h2v1H4V2zm2 1h2v1H6V3zm2 1h2v1H8V4zm2 1h2v1h-2V5zm-8 0h2v1H2V5zm0 1h2v1H2V6zm0 1h2v1H2V7zm0 1h2v1H2V8zm0 1h2v1H2V9zm0 1h2v1H2v-1zm0 1h2v1H2v-1zm0 1h2v1H2v-1zm0 1h2v1H2v-1zm2-1h2v1H4v-1zm2-1h2v1H6v-1zm2 2h2v1H8v-1zm1 1h2v1H9v-1zm2 2h2v1h-2v-1zm2 2h2v1h-2v-1zm-3-1h2v1h-2v-1zm-1-2h2v1H9v-1z'/%3E%3Cpath fill='%23F9F6EC' d='M4 3h2v2H4V3zm2 2h2v2H6V5zm2 2h2v2H8V7zm-4-1h2v6H4V6zm2 4h2v2H6v-2zm4-1h2v2h-2V9zm1 3h2v2h-2v-2z'/%3E%3C/svg%3E"), auto;
 }
 
-/* Custom Scrollbar */
+button, a, [role="button"], input, select {
+  font-family: inherit;
+  border: none;
+  background: none;
+  touch-action: manipulation;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' shape-rendering='crispEdges'%3E%3Cpath fill='%231E4D3B' d='M7 1h3v1H7V1zm3 1h2v6h-2V2zM7 2h1v6H7V2zM5 8h2v1H5V8zm7 0h2v1h-2V8zM3 9h2v1H3V9zm11 0h2v1h-2V9zm-13 1h2v7H1v-7zm16 0h2v7h-2v-7zm-14 7h14v1H3v-1zm2 1h10v1H5v-1z'/%3E%3Cpath fill='%23E8A857' d='M8 2h2v6H8V2zm-3 7h2v1H5V9zm8 0h2v1h-2V9zM3 10h14v7H3v-7z'/%3E%3C/svg%3E"), pointer !important;
+  outline: none;
+}
+
+/* Touch-friendly horizontal scroll utility without scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Retro Pixel Scrollbar */
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+  width: 10px;
+  height: 10px;
 }
-
 ::-webkit-scrollbar-track {
-    background: #020206;
+  background: var(--bg-cream);
+  border: 1px solid var(--pill-border);
 }
-
 ::-webkit-scrollbar-thumb {
-    background: rgba(245, 158, 11, 0.3);
-    border-radius: 3px;
+  background: var(--primary-dark-green);
+  border: 2px solid var(--bg-cream);
+  border-radius: 0px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(245, 158, 11, 0.6);
+  background: var(--accent-orange);
 }
 
-/* Typography Utility Classes */
-.font-orbitron {
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 0.12em;
+/* Common Pixel Typography Classes */
+.font-steps {
+  font-family: var(--font-steps);
 }
 
-.font-cinzel {
-    font-family: 'Cinzel', serif;
-    letter-spacing: 0.15em;
+.font-serif {
+  font-family: var(--font-serif);
 }
 
-.font-hud {
-    font-family: 'Rajdhani', sans-serif;
-    letter-spacing: 0.08em;
+.font-display {
+  font-family: var(--font-display);
 }
 
-/* Glassmorphism Sci-Fi Panels */
-.hud-panel {
-    background: var(--bg-card);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid var(--border-hud);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.7);
-    position: relative;
+.font-sans {
+  font-family: var(--font-sans);
 }
 
-.hud-panel-amber {
-    background: rgba(18, 12, 6, 0.75);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid var(--border-amber);
-    box-shadow: 0 0 25px rgba(245, 158, 11, 0.12);
+.font-pixel {
+  font-family: var(--font-pixel);
 }
 
-.hud-panel-cyan {
-    background: rgba(6, 16, 26, 0.75);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid var(--border-cyan);
-    box-shadow: 0 0 25px rgba(56, 189, 248, 0.12);
+/* Crisp Pixel Shadows & Borders */
+.shadow-pixel {
+  box-shadow: 3px 3px 0px var(--primary-dark-green);
 }
 
-/* Futuristic Corner Cut Reticles */
-.hud-corners {
-    position: relative;
+.shadow-pixel-sm {
+  box-shadow: 2px 2px 0px var(--primary-dark-green);
 }
 
-.hud-corners::before {
-    content: '';
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    width: 10px;
-    height: 10px;
-    border-top: 2px solid var(--gargantua-gold);
-    border-left: 2px solid var(--gargantua-gold);
-    pointer-events: none;
+.shadow-pixel-lg {
+  box-shadow: 4px 4px 0px var(--primary-dark-green);
 }
 
-.hud-corners::after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    right: -1px;
-    width: 10px;
-    height: 10px;
-    border-bottom: 2px solid var(--gargantua-gold);
-    border-right: 2px solid var(--gargantua-gold);
-    pointer-events: none;
+.shadow-pixel-title {
+  text-shadow: 3px 3px 0px var(--title-shadow), 6px 6px 0px rgba(169, 196, 184, 0.4);
 }
 
-/* Glowing Neon Elements */
-.glow-text-amber {
-    text-shadow: 0 0 12px rgba(245, 158, 11, 0.6), 0 0 24px rgba(245, 158, 11, 0.3);
+.shadow-soft {
+  box-shadow: 3px 3px 0px var(--primary-dark-green);
 }
 
-.glow-text-cyan {
-    text-shadow: 0 0 12px rgba(56, 189, 248, 0.6), 0 0 24px rgba(56, 189, 248, 0.3);
+.shadow-pill {
+  box-shadow: 2px 2px 0px var(--primary-dark-green);
 }
 
-.glow-border-amber {
-    box-shadow: 0 0 15px rgba(245, 158, 11, 0.35);
+.shadow-cta {
+  box-shadow: 4px 4px 0px #0E3B33;
 }
 
-.glow-border-cyan {
-    box-shadow: 0 0 15px rgba(56, 189, 248, 0.35);
+/* Pixel Card & Button Utilities */
+.pixel-box {
+  background-color: var(--pill-bg);
+  border: 2px solid var(--primary-dark-green);
+  box-shadow: 3px 3px 0px var(--primary-dark-green);
+  border-radius: 0px;
 }
 
-/* Scanline Effect Overlay */
-.scanline-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(to bottom,
-            rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0) 50%,
-            rgba(0, 0, 0, 0.25) 50%,
-            rgba(0, 0, 0, 0.25));
-    background-size: 100% 4px;
-    pointer-events: none;
-    opacity: 0.45;
-    z-index: 10;
+.pixel-btn {
+  border: 2px solid var(--primary-dark-green);
+  box-shadow: 3px 3px 0px var(--primary-dark-green);
+  border-radius: 0px;
+  transition: transform 0.1s steps(2, start), box-shadow 0.1s steps(2, start);
+}
+.pixel-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px var(--primary-dark-green);
+}
+.pixel-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px var(--primary-dark-green);
 }
 
-/* Grid Background */
-.space-grid-bg {
-    background-image:
-        linear-gradient(rgba(245, 158, 11, 0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(245, 158, 11, 0.04) 1px, transparent 1px);
-    background-size: 40px 40px;
+/* Stepped Reel Blur Animation */
+@keyframes reelBlur {
+  0% {
+    transform: translateY(0);
+    filter: blur(0px);
+  }
+  25% {
+    transform: translateY(-8px);
+    filter: blur(2px);
+  }
+  50% {
+    transform: translateY(8px);
+    filter: blur(2px);
+  }
+  75% {
+    transform: translateY(-4px);
+    filter: blur(1px);
+  }
+  100% {
+    transform: translateY(0);
+    filter: blur(0px);
+  }
 }
 
-/* Animations */
-@keyframes spinSlow {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+.animate-reel-blur {
+  animation: reelBlur 1.8s steps(12, end);
 }
 
-@keyframes pulseGlow {
-
-    0%,
-    100% {
-        opacity: 0.4;
-    }
-
-    50% {
-        opacity: 0.9;
-    }
+/* Bamboo Copter Rotor 3D Propeller Spin Animation */
+@keyframes bambooPropellerSpin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
-@keyframes starTwinkle {
-
-    0%,
-    100% {
-        opacity: 0.2;
-        transform: scale(0.8);
-    }
-
-    50% {
-        opacity: 1;
-        transform: scale(1.2);
-    }
+.bamboo-propeller {
+  transform-origin: 48px 3px;
+  transform-style: preserve-3d;
+  animation: bambooPropellerSpin 0.12s linear infinite;
 }
 
-@keyframes warpSpeed {
-    0% {
-        transform: scale(1) translateZ(0);
-        opacity: 0.8;
-    }
-
-    100% {
-        transform: scale(15) translateZ(500px);
-        opacity: 0;
-    }
+/* Autonomous Mascot Gentle Bobbing */
+@keyframes mascotGentleBob {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-5px) rotate(1.5deg);
+  }
+  50% {
+    transform: translateY(-1px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(-1.5deg);
+  }
 }
 
-.animate-spin-slow {
-    animation: spinSlow 30s linear infinite;
+.mascot-flight-bob {
+  animation: mascotGentleBob 2.4s ease-in-out infinite;
 }
 
-.animate-pulse-glow {
-    animation: pulseGlow 3s ease-in-out infinite;
+/* Mobile & Desktop Responsive Layouts */
+.app-main-grid {
+  width: 100%;
+  max-width: 1180px;
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: clamp(24px, 4vw, 64px);
+  align-items: center;
 }
 
-/* Ticking time animation for Miller's planet */
-@keyframes timePulse {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-
-    50% {
-        transform: scale(1.05);
-        opacity: 0.85;
-        filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.7));
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
+.app-left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 0 12px clamp(12px, 3vw, 48px);
+  position: relative;
+  width: 100%;
 }
 
-.time-pulse {
-    animation: timePulse 1.25s infinite ease-in-out;
+.app-right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.reel-lever-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 630px;
+  gap: 0px;
+}
+
+@media (max-width: 860px) {
+  .app-main-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  
+  .app-left-col {
+    padding: 8px 12px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .reel-lever-wrapper {
+    gap: 0px;
+    padding: 0 4px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-main-grid {
+    gap: 20px;
+  }
+  
+  .reel-lever-wrapper {
+    padding: 0 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-left-col {
+    padding: 4px 6px;
+  }
+  
+  .reel-lever-wrapper {
+    gap: 0px;
+    width: 100%;
+  }
+
+  .pixel-box {
+    box-shadow: 2px 2px 0px var(--primary-dark-green);
+  }
+}
+
+@media (max-width: 360px) {
+  .app-main-grid {
+    gap: 16px;
+  }
+
+  .reel-lever-wrapper {
+    transform: scale(0.96);
+    transform-origin: center top;
+  }
 }

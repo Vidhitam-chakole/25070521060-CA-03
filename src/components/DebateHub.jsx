@@ -19,8 +19,8 @@ import { SessionRatingSection } from './SessionRatingSection';
 import { sound } from '../utils/audio';
 
 const SERVER_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
-const API_BASE = `${SERVER_BASE}/api/discussions`;
-const DIRECT_API_BASE = 'http://localhost:5000/api/discussions';
+const API_BASE = SERVER_BASE ? `${SERVER_BASE}/api/discussions` : '/api/discussions';
+const DIRECT_API_BASE = SERVER_BASE ? `${SERVER_BASE}/api/discussions` : 'http://localhost:5000/api/discussions';
 
 // Resilient fetch helper for debate topics
 const debateFetch = async (endpoint = '', options = {}) => {

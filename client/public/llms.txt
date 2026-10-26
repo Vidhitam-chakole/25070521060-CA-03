@@ -1,0 +1,27 @@
+# LearnWithFun (Explore & Learn)
+> Interactive impromptu speech training, behavioral interview preparation, vocabulary building, and deep research platform with retro pixel art aesthetics, a 3D lucky draw drum reel, and real-time audio analysis.
+
+- Website: https://exploreandlearn.vercel.app/
+- Repository: https://github.com/Vidhitam-chakole/25070521060-CA-03
+- Primary Audience: Students, job candidates, debaters, public speakers, and interviewees.
+
+## Overview
+LearnWithFun is an open-access web application designed to eliminate speech anxiety and sharpen quick thinking. Through interactive gamification, learners draw impromptu speaking prompts, behavioral interview questions, vocabulary words, and research challenges, and practice speaking against calibrated timers with microphone recording and audio feedback.
+
+## Key Modes & Features
+- **Random Topics (/ ?tab=random-topics)**: Draws impromptu speaking prompts spanning Philosophy, Tech, Society, and Everyday Situations. Practices the 1-minute impromptu speech technique.
+- **Interview Prep (/ ?tab=interview-prep)**: Structured prompt bank of Behavioral and Consulting Case questions. Integrated cheat-sheets for STAR (Situation, Task, Action, Result), PAR (Problem, Action, Result), and CAR frameworks.
+- **Learn Vocab (/ ?tab=learn-vocab)**: Flashcard-style vocabulary expansion with phonetics, parts of speech, and concise definitions meant to be woven into impromptu speeches.
+- **Deep Research (/ ?tab=deep-research)**: Structured 10-minute research sprints on complex topics across AI, Economics, Climate, and Geopolitics followed by oral presentations.
+- **Debate Archive (/ ?tab=debate-hub)**: Live topic archive where users propose debate motions, vote (agree/disagree), filter by category, and launch immediate practice sessions.
+- **Practice Timer (/ ?page=timer)**: Customizable countdown timer (30s, 60s, 120s, 5m, 10m) with browser microphone recording, live audio visualizer waveform, and self-evaluation scorecards.
+- **Vidhitam AI Mascot Guide**: Interactive autonomous pixel mascot flying with a bamboo copter propeller that tracks gestures, offers helpful tips, and features an instant-search navigation menu.
+
+## Structured Frameworks
+- **STAR Framework**: Situation (set context), Task (define challenge), Action (what you did), Result (quantifiable impact).
+- **PREP Framework**: Point (main thesis), Reason (underlying why), Example (concrete proof), Point (reinforce conclusion).
+- **CAR Framework**: Context, Action, Result.
+
+## Full Context & API
+- Comprehensive Documentation: https://exploreandlearn.vercel.app/llms-full.txt
+- Sitemap: https://exploreandlearn.vercel.app/sitemap.xml

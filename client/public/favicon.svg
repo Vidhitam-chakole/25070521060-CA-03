@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#F9F6EC"/>
+  <!-- Lavender lever knob -->
+  <circle cx="48" cy="22" r="10" fill="#B79AE6" stroke="#1E4D3B" stroke-width="2.5"/>
+  <line x1="48" y1="32" x2="48" y2="48" stroke="#1E4D3B" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="48" cy="48" r="4" fill="#1E4D3B"/>
+  <!-- Speech bubble / text icon -->
+  <path d="M16 20 C16 16, 36 16, 36 20 C36 26, 26 26, 22 30 L18 34 L18 30 C16 30, 16 24, 16 20 Z" fill="#1E4D3B"/>
+  <path d="M16 40 Q24 36 32 40 Q40 44 48 40" stroke="#E8A857" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>

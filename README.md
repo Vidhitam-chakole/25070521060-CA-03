@@ -399,29 +399,48 @@ Visit **`http://localhost:5173`** in your browser.
 
 ---
 
-## ☁️ Deployment Guide (Vercel + Cloud Backend)
+## ☁️ Deployment Guide (Render Backend + Vercel Frontend)
 
-### 1. Backend on Render / Railway
-1. Push your code to GitHub.
-2. Create a new **Web Service** on [Render](https://render.com/) or [Railway](https://railway.app/).
-3. Set **Root Directory** to `server`.
-4. Set **Build Command** to `npm install`.
-5. Set **Start Command** to `npm start`.
-6. Add Environment Variables:
-   - `MONGO_URI`: Your MongoDB Atlas URI (`mongodb+srv://<username>:<password>@cluster.mongodb.net/learnwithfun?retryWrites=true&w=majority`)
-   - `JWT_SECRET`: A secure random cryptographic secret string.
+### 1. Backend on Render (One-Click Blueprint or Manual Web Service)
+
+#### Option A: One-Click Blueprint (`render.yaml`)
+1. In the [Render Dashboard](https://dashboard.render.com/), click **New +** -> **Blueprint**.
+2. Connect this repository ([Vidhitam-chakole/25070521060-CA-03](https://github.com/Vidhitam-chakole/25070521060-CA-03)).
+3. Render reads [`render.yaml`](file:///c:/Users/Dell/OneDrive/Desktop/250780521060/render.yaml) automatically, provisioning the `server/` web service with the correct runtime, build, and health check routes (`/health`).
+4. Set the `MONGO_URI` (or `DATABASE_URL`) secret when prompted.
+
+#### Option B: Manual Web Service
+1. In [Render](https://render.com/), click **New +** -> **Web Service**.
+2. Connect your GitHub repository.
+3. Configure the following fields:
+   - **Name**: `speechpact-backend` (or your choice)
+   - **Root Directory**: `server`
+   - **Environment**: `Node`
+   - **Build Command**: `npm install`
+   - **Start Command**: `npm start`
+   - **Health Check Path**: `/health`
+4. Add Environment Variables:
+   - `MONGO_URI` or `DATABASE_URL`: Your MongoDB Atlas URI (`mongodb+srv://<username>:<password>@cluster.mongodb.net/learnwithfun?retryWrites=true&w=majority`)
+   - `JWT_SECRET`: A secure random cryptographic secret string (32+ characters).
    - `NODE_ENV`: `production`
    - `CORS_ORIGIN`: `https://exploreandlearn.vercel.app,http://localhost:5173`
-7. Copy your deployed service URL (e.g. `https://learnwithfun-backend.onrender.com`).
+5. Click **Deploy Web Service** and copy your live service URL (e.g. `https://speechpact-backend.onrender.com`).
+
+---
 
 ### 2. Frontend on Vercel
 1. Import the repository in [Vercel](https://vercel.com/).
 2. Framework Preset: **Vite**.
-3. Build Command: `npm run build`.
-4. Output Directory: `dist`.
-5. Add Environment Variable:
-   - `VITE_API_URL`: Your deployed backend URL from step 1 (e.g., `https://learnwithfun-backend.onrender.com`).
-6. Deploy! The included [`vercel.json`](file:///c:/Users/Dell/OneDrive/Desktop/250780521060/vercel.json) automatically handles single-page client routing.
+3. In **Build and Output Settings**:
+   - If Root Directory is left as repository root:
+     - Build Command: `npm run build` (or `vite build client`)
+     - Output Directory: `client/dist` (preconfigured in [`vercel.json`](file:///c:/Users/Dell/OneDrive/Desktop/250780521060/vercel.json))
+   - If Root Directory is set to `client`:
+     - Build Command: `npm run build`
+     - Output Directory: `dist`
+4. Add Environment Variable:
+   - `VITE_API_URL`: Your live Render backend URL from step 1 (e.g. `https://speechpact-backend.onrender.com`).
+5. Deploy! The included [`vercel.json`](file:///c:/Users/Dell/OneDrive/Desktop/250780521060/vercel.json) handles client-side routing rewrites for all single-page application routes.
 
 ---
 

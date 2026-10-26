@@ -7,12 +7,13 @@ const AuthContext = createContext(null);
 const STORAGE_KEY_USER = 'learnwithfun_auth_user';
 const STORAGE_KEY_TOKEN = 'learnwithfun_auth_token';
 
-// API base paths - uses VITE_API_URL if configured, else Vite dev proxy with localhost:5000 fallback
+// API base paths - uses VITE_API_URL if configured (Render / production),
+// or relative paths with localhost:5000 fallback in local development
 const SERVER_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
-const API_BASE = `${SERVER_BASE}/api/auth`;
-const DIRECT_API_BASE = 'http://localhost:5000/api/auth';
-const HISTORY_API_BASE = `${SERVER_BASE}/api/history`;
-const DIRECT_HISTORY_API_BASE = 'http://localhost:5000/api/history';
+const API_BASE = SERVER_BASE ? `${SERVER_BASE}/api/auth` : '/api/auth';
+const DIRECT_API_BASE = SERVER_BASE ? `${SERVER_BASE}/api/auth` : 'http://localhost:5000/api/auth';
+const HISTORY_API_BASE = SERVER_BASE ? `${SERVER_BASE}/api/history` : '/api/history';
+const DIRECT_HISTORY_API_BASE = SERVER_BASE ? `${SERVER_BASE}/api/history` : 'http://localhost:5000/api/history';
 
 export function AuthProvider({ children }) {
   const [currentUser, setCurrentUser] = useState(() => {

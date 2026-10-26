@@ -15,29 +15,57 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/learnwithfun';
+const MONGO_URI = process.env.DATABASE_URL || process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/learnwithfun';
 
-// Configure CORS origins
-const rawCorsOrigin = process.env.CORS_ORIGIN || 'https://exploreandlearn.vercel.app,http://localhost:5173,http://localhost:5000';
-const allowedOrigins = rawCorsOrigin
-  ? rawCorsOrigin.split(',').map((o) => o.trim())
-  : ['https://exploreandlearn.vercel.app', 'http://localhost:5173', 'http://localhost:5000'];
+// Configure CORS origins for Vercel frontend, preview branches, and local dev
+const rawCorsOrigin = process.env.CORS_ORIGIN || process.env.CLIENT_URL || process.env.FRONTEND_URL || '';
+const configuredOrigins = rawCorsOrigin
+  ? rawCorsOrigin.split(',').map((o) => o.trim().replace(/\/$/, ''))
+  : [];
+
+const defaultAllowedOrigins = [
+  'https://exploreandlearn.vercel.app',
+  'http://localhost:5173',
+  'http://127.0.0.1:5173',
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
+  'http://localhost:5000',
+  'http://127.0.0.1:5000',
+];
+
+const allowedOrigins = [...new Set([...configuredOrigins, ...defaultAllowedOrigins])];
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps, curl, server-to-server)
+    if (!origin) return callback(null, true);
+
+    const normalizedOrigin = origin.replace(/\/$/, '');
+
+    // Allow wildcard, explicit allowed origins, local dev, or any Vercel deployment URL
+    const isAllowed =
+      allowedOrigins.includes('*') ||
+      allowedOrigins.includes(normalizedOrigin) ||
+      process.env.NODE_ENV !== 'production' ||
+      /^https:\/\/[\w-]+(\.[\w-]+)*\.vercel\.app$/.test(normalizedOrigin) ||
+      /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(normalizedOrigin);
+
+    if (isAllowed) {
+      return callback(null, true);
+    }
+
+    console.warn(`[CORS] Request rejected for origin: ${origin}`);
+    return callback(new Error('Blocked by CORS policy'));
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
+  optionsSuccessStatus: 200,
+};
 
 // Middleware
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      // Allow requests with no origin (like mobile apps, curl, server-to-server)
-      if (!origin) return callback(null, true);
-      // If wildcard or dev or origin in list, allow
-      if (!allowedOrigins || allowedOrigins.includes('*') || allowedOrigins.includes(origin) || process.env.NODE_ENV !== 'production') {
-        return callback(null, true);
-      }
-      return callback(new Error('Blocked by CORS policy'));
-    },
-    credentials: true,
-  })
-);
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));
 app.use(express.json());
 
 // Request logging in dev
@@ -77,8 +105,8 @@ async function startServer() {
     console.log('✅ Connected successfully to MongoDB (database: learnwithfun)!');
     console.log('📊 Storing and verifying credentials in MongoDB Compass.');
 
-    const server = app.listen(PORT, () => {
-      console.log(`🚀 LearnWithFun Node.js server running on http://localhost:${PORT}`);
+    const server = app.listen(PORT, '0.0.0.0', () => {
+      console.log(`🚀 LearnWithFun Node.js server running on port ${PORT} (http://0.0.0.0:${PORT})`);
     });
     server.on('error', (err) => {
       if (err.code === 'EADDRINUSE') {
@@ -89,10 +117,10 @@ async function startServer() {
     });
   } catch (err) {
     console.error('❌ MongoDB Connection Error:', err.message);
-    console.error('⚠️ Make sure your local MongoDB server / MongoDB Compass service is running.');
+    console.error('⚠️ Make sure your local MongoDB server / MongoDB Compass service is running, or set MONGO_URI.');
     
-    const server = app.listen(PORT, () => {
-      console.log(`⚠️ Server running with degraded database state on http://localhost:${PORT}`);
+    const server = app.listen(PORT, '0.0.0.0', () => {
+      console.log(`⚠️ Server running with degraded database state on port ${PORT} (http://0.0.0.0:${PORT})`);
     });
     server.on('error', (err) => {
       if (err.code === 'EADDRINUSE') {

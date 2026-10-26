@@ -1,18 +1,23 @@
 {
-  "name": "250780521060",
+  "name": "speechpact-fullstack",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
-    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"node server/server.js\" \"vite\"",
-    "dev:all": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"node server/server.js\" \"vite\"",
-    "dev:client": "vite",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"node server/server.js\" \"vite client\"",
+    "dev:all": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"node server/server.js\" \"vite client\"",
+    "dev:client": "vite client",
     "dev:server": "node server/server.js",
     "server": "node server/server.js",
     "start": "node server/server.js",
-    "build": "vite build",
+    "build": "vite build client",
+    "build:client": "vite build client",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview client"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
