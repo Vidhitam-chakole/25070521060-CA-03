@@ -13,10 +13,10 @@ const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/learnwithfun';
 
 // Configure CORS origins
-const rawCorsOrigin = process.env.CORS_ORIGIN;
+const rawCorsOrigin = process.env.CORS_ORIGIN || 'https://exploreandlearn.vercel.app,http://localhost:5173,http://localhost:5000';
 const allowedOrigins = rawCorsOrigin
   ? rawCorsOrigin.split(',').map((o) => o.trim())
-  : null;
+  : ['https://exploreandlearn.vercel.app', 'http://localhost:5173', 'http://localhost:5000'];
 
 // Middleware
 app.use(

@@ -51,7 +51,7 @@ See [`server/.env.example`](file:///c:/Users/Dell/OneDrive/Desktop/250780521060/
 | `MONGO_URI` | Yes | `mongodb://127.0.0.1:27017/learnwithfun` | MongoDB connection URI. Use MongoDB Atlas connection string in production. |
 | `JWT_SECRET` | Yes | `learnwithfun_pixel_secret_key_2026` | Cryptographic secret for signing auth tokens. Set to a strong random key in production. |
 | `NODE_ENV` | No | `development` | Set to `production` when deploying to cloud environments. |
-| `CORS_ORIGIN` | No | `*` | Allowed origins (e.g. `https://your-frontend.vercel.app` or `*` for open access). |
+| `CORS_ORIGIN` | No | `*` | Allowed origins (e.g. `https://exploreandlearn.vercel.app,http://localhost:5173` or `*` for open access). |
 
 ### Frontend (`.env`)
 See [`.env.example`](file:///c:/Users/Dell/OneDrive/Desktop/250780521060/.env.example) for reference:
@@ -72,7 +72,7 @@ See [`.env.example`](file:///c:/Users/Dell/OneDrive/Desktop/250780521060/.env.ex
      - `MONGO_URI`: Your MongoDB Atlas URI (`mongodb+srv://...`)
      - `JWT_SECRET`: Random secure string
      - `NODE_ENV`: `production`
-     - `CORS_ORIGIN`: Your Vercel frontend domain or `*`
+     - `CORS_ORIGIN`: `https://exploreandlearn.vercel.app,http://localhost:5173` (or `*`)
    - Copy your backend URL (e.g., `https://learnwithfun-backend.onrender.com`).
 
 2. **Deploy Frontend (Vercel)**:
