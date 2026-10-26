@@ -4,8 +4,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Award, Activity, CheckCircle2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { sound } from '../utils/audio';
+import { useAuth } from '../context/AuthContext';
 
 export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) {
+  const { currentUser, isGuest } = useAuth();
+  const nickname = currentUser?.nickname || currentUser?.username || 'Speaker';
+
   if (!isOpen) return null;
 
   const topicText = topicData?.topic || 'Defend that cursive handwriting should be the only form of writing.';
@@ -125,6 +129,21 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
             >
               SPEECH ANALYSIS REPORT
             </h2>
+          </div>
+
+          <div
+            style={{
+              fontSize: '13px',
+              color: '#658274',
+              marginBottom: '6px',
+              fontFamily: "'Pixelify Sans', monospace",
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+            }}
+          >
+            <span>Speaker:</span>
+            <strong style={{ color: '#1E4D3B' }}>{nickname}</strong>
           </div>
 
           <div

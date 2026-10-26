@@ -1,10 +1,14 @@
 // src/App.jsx
-import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 
 import { MascotProvider, useMascot } from './context/MascotContext';
+import { AuthProvider, useAuth } from './context/AuthContext';
 import { Mascot } from './components/Mascot/Mascot';
 import { useMascotGuide } from './hooks/useMascotGuide';
 import { VideoIntro } from './components/VideoIntro';
+import { PixelAuthCard } from './components/PixelAuthCard';
+import { NicknamePromptModal } from './components/NicknamePromptModal';
+import { PlayerHud } from './components/PlayerHud';
 
 import { TopTabs } from './components/TopTabs';
 import { HeroTitle } from './components/HeroTitle';
@@ -240,6 +244,8 @@ function AppContent() {
     onOpenAnalysis: handleOpenAnalysis,
   });
 
+  const { isAuthenticated } = useAuth();
+
   return (
     <div
       style={{
@@ -254,135 +260,146 @@ function AppContent() {
         overflowX: 'hidden',
       }}
     >
-      {/* Video Intro Overlay on click */}
-      {showVideoIntro && (
+      {/* 1. Fullscreen Video Intro on initial visit or manual replay */}
+      {showVideoIntro ? (
         <VideoIntro onComplete={handleVideoIntroComplete} />
-      )}
-
-      {/* Persistent Mascot "Vidhitam" mounted once at app root */}
-      <Mascot
-        onTriggerSpin={handleSpin}
-        onNavigateTab={handleTabChange}
-        onStartTimer={handleStartTimer}
-        onOpenAnalysis={handleOpenAnalysis}
-      />
-
-
-
-      {/* Top Floating Pill Tabs */}
-      <header>
-        <TopTabs activeTab={activeTab} onChangeTab={handleTabChange} />
-      </header>
-
-      {/* RENDER TIMER PAGE OR MAIN DASHBOARD */}
-      {currentPage === 'timer' ? (
-        <TimerPage
-          topic={timerTopic}
-          mode={activeTab}
-          initialSeconds={timerInitialSeconds}
-          onBack={handleBackToMain}
-          onOpenAnalysis={handleOpenAnalysis}
-        />
+      ) : !isAuthenticated ? (
+        /* 2. Pixelated Sign In / Register Card before opening the website */
+        <PixelAuthCard onGuestAccess={() => {}} />
       ) : (
-        <main
-          style={{
-            flex: 1,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            padding: 'clamp(12px, 3vw, 24px) clamp(10px, 3vw, 20px) 48px clamp(10px, 3vw, 20px)',
-            width: '100%',
-          }}
-        >
-          <div className="app-main-grid">
-            {/* LEFT COLUMN: Hero Title Art, Steps / Accordion, Green CTA */}
-            <div className="app-left-col">
-              <HeroTitle mode={activeTab} />
-              <StepsList mode={activeTab} />
+        /* 3. Main Customized Website once signed in or guest access */
+        <>
+          {/* Modal to customize nickname if needed */}
+          <NicknamePromptModal />
 
-              {activeTab === 'interview-prep' ? (
-                <div style={{ marginTop: '20px', width: '100%' }}>
-                  <div ref={(el) => registerTarget('speechAnalysisBtn', el)}>
-                    <AnalysisButton onClick={() => handleOpenAnalysis()} />
+          {/* Persistent Mascot "Vidhitam" mounted once at app root */}
+          <Mascot
+            onTriggerSpin={handleSpin}
+            onNavigateTab={handleTabChange}
+            onStartTimer={handleStartTimer}
+            onOpenAnalysis={handleOpenAnalysis}
+          />
+
+          {/* Top Player HUD with Nickname & Mongo Status */}
+          <header style={{ paddingTop: '12px' }}>
+            <PlayerHud onReplayIntro={() => setShowVideoIntro(true)} />
+            <TopTabs activeTab={activeTab} onChangeTab={handleTabChange} />
+          </header>
+
+          {/* RENDER TIMER PAGE OR MAIN DASHBOARD */}
+          {currentPage === 'timer' ? (
+            <TimerPage
+              topic={timerTopic}
+              mode={activeTab}
+              initialSeconds={timerInitialSeconds}
+              onBack={handleBackToMain}
+              onOpenAnalysis={handleOpenAnalysis}
+            />
+          ) : (
+            <main
+              style={{
+                flex: 1,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                padding: 'clamp(12px, 3vw, 24px) clamp(10px, 3vw, 20px) 48px clamp(10px, 3vw, 20px)',
+                width: '100%',
+              }}
+            >
+              <div className="app-main-grid">
+                {/* LEFT COLUMN: Hero Title Art, Steps / Accordion, Green CTA */}
+                <div className="app-left-col">
+                  <HeroTitle mode={activeTab} />
+                  <StepsList mode={activeTab} />
+
+                  {activeTab === 'interview-prep' ? (
+                    <div style={{ marginTop: '20px', width: '100%' }}>
+                      <div ref={(el) => registerTarget('speechAnalysisBtn', el)}>
+                        <AnalysisButton onClick={() => handleOpenAnalysis()} />
+                      </div>
+                      <div ref={(el) => registerTarget('frameworksAccordion', el)}>
+                        <FrameworkAccordion />
+                      </div>
+                    </div>
+                  ) : (
+                    <div style={{ marginTop: '4px' }} ref={(el) => registerTarget('speechAnalysisBtn', el)}>
+                      <AnalysisButton onClick={() => handleOpenAnalysis()} />
+                    </div>
+                  )}
+                </div>
+
+                {/* RIGHT COLUMN: Filter Pills, Topic Reel, Lever, Buttons */}
+                <div className="app-right-col">
+                  <div ref={(el) => registerTarget('filterPills', el)}>
+                    <FilterPills
+                      mode={activeTab}
+                      filters={filters}
+                      onChangeFilter={handleFilterChange}
+                    />
                   </div>
-                  <div ref={(el) => registerTarget('frameworksAccordion', el)}>
-                    <FrameworkAccordion />
+
+                  <div
+                    id="topic-reel-container"
+                    className="reel-lever-wrapper"
+                  >
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <TopicReel
+                        mode={activeTab}
+                        currentTopic={currentTopic}
+                        prevTopic={prevTopic}
+                        nextTopic={nextTopic}
+                        isSpinning={isSpinning}
+                      />
+                    </div>
+
+                    <div
+                      ref={(el) => registerTarget('lever', el)}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        flexShrink: 0,
+                      }}
+                    >
+                      <Lever
+                        onPull={handleSpin}
+                        isSpinning={isSpinning}
+                        showAnnotation={true}
+                      />
+                    </div>
+                  </div>
+
+                  <div ref={(el) => registerTarget('startTimerBtn', el)}>
+                    <ActionButtons
+                      onSpin={handleSpin}
+                      onStartTimer={handleStartTimer}
+                      isSpinning={isSpinning}
+                    />
                   </div>
                 </div>
-              ) : (
-                <div style={{ marginTop: '4px' }} ref={(el) => registerTarget('speechAnalysisBtn', el)}>
-                  <AnalysisButton onClick={() => handleOpenAnalysis()} />
-                </div>
-              )}
-            </div>
-
-            {/* RIGHT COLUMN: Filter Pills, Topic Reel, Lever, Buttons */}
-            <div className="app-right-col">
-              <div ref={(el) => registerTarget('filterPills', el)}>
-                <FilterPills
-                  mode={activeTab}
-                  filters={filters}
-                  onChangeFilter={handleFilterChange}
-                />
               </div>
+            </main>
+          )}
 
-              <div
-                id="topic-reel-container"
-                className="reel-lever-wrapper"
-              >
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <TopicReel
-                    mode={activeTab}
-                    currentTopic={currentTopic}
-                    prevTopic={prevTopic}
-                    nextTopic={nextTopic}
-                    isSpinning={isSpinning}
-                  />
-                </div>
-
-                <div
-                  ref={(el) => registerTarget('lever', el)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <Lever
-                    onPull={handleSpin}
-                    isSpinning={isSpinning}
-                    showAnnotation={true}
-                  />
-                </div>
-              </div>
-
-              <div ref={(el) => registerTarget('startTimerBtn', el)}>
-                <ActionButtons
-                  onSpin={handleSpin}
-                  onStartTimer={handleStartTimer}
-                  isSpinning={isSpinning}
-                />
-              </div>
-            </div>
-          </div>
-        </main>
+          {/* Speech Analysis Modal */}
+          <SpeechAnalysisModal
+            isOpen={isAnalysisOpen}
+            onClose={() => setIsAnalysisOpen(false)}
+            topicData={analysisTarget}
+            onTryAgain={handleSpin}
+          />
+        </>
       )}
-
-      {/* Speech Analysis Modal */}
-      <SpeechAnalysisModal
-        isOpen={isAnalysisOpen}
-        onClose={() => setIsAnalysisOpen(false)}
-        topicData={analysisTarget}
-        onTryAgain={handleSpin}
-      />
     </div>
   );
 }
 
 export default function App() {
   return (
-    <MascotProvider>
-      <AppContent />
-    </MascotProvider>
+    <AuthProvider>
+      <MascotProvider>
+        <AppContent />
+      </MascotProvider>
+    </AuthProvider>
   );
 }
+

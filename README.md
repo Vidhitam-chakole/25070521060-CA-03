@@ -1,16 +1,45 @@
-# React + Vite
+# SpeechPact — Retro Pixel Practice & MongoDB Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+SpeechPact is an interactive speech practice application with a retro pixel arcade aesthetic, interview prep, vocabulary booster, research modes, and full **Node.js + MongoDB Compass** user authentication.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 1. MongoDB Compass & Local Server
+Ensure your local MongoDB instance is running (typically `mongodb://127.0.0.1:27017`).
+- Database: `speechpact`
+- Collection: `users`
+- Open **MongoDB Compass**, connect to `mongodb://127.0.0.1:27017`, and you will see the `speechpact` database with registered users.
 
-## React Compiler
+### 2. Run the Node.js Backend Server
+In the root directory or inside `server/`:
+```bash
+npm run server
+```
+Or inside `server/`:
+```bash
+cd server
+npm start
+```
+The server will run on `http://localhost:5000` with live MongoDB Compass connection status.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 3. Run the Frontend (Vite)
+In the root directory:
+```bash
+npm run dev
+```
+Open `http://localhost:5173` in your browser.
 
-## Expanding the Oxlint configuration
+## 🕹️ Flow & Features
+1. **Intro Video**: Fullscreen video intro plays on initial load (with manual replay button in HUD).
+2. **Pixelated Sign-In Card**:
+   - **Sign In**: Verifies credentials from the MongoDB database and confirms sign in.
+   - **Register**: Creates a new user record in MongoDB Compass.
+   - **Use without Signing**: One-click guest mode with instant full access.
+   - **Live MongoDB Ping**: Shows real-time connection status to MongoDB Compass.
+3. **Nickname & Website Customization**:
+   - Asks for the user's nickname/codename upon sign-in.
+   - **Player HUD**: Displays retro avatar, `PLAYER 1: [Nickname]`, and MongoDB status.
+   - **Hero Stage**: Customizes headers to `[NICKNAME]'S STAGE`.
+   - **Mascot Vidhitam**: Addresses the user by nickname during speech practice.
+   - **Speech Analysis**: Personalizes speaker performance reports for the user.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
