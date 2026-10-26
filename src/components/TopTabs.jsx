@@ -1,6 +1,7 @@
 // src/components/TopTabs.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
+import { sound } from '../utils/audio';
 
 export const TABS = [
   { id: 'random-topics', label: 'Random Topics' },
@@ -42,7 +43,10 @@ export function TopTabs({ activeTab, onChangeTab }) {
               key={tab.id}
               whileHover={{ y: -2, x: -1, boxShadow: '4px 4px 0px #1E4D3B' }}
               whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #1E4D3B' }}
-              onClick={() => onChangeTab(tab.id)}
+              onClick={() => {
+                sound.playTabSwitch();
+                onChangeTab(tab.id);
+              }}
               style={{
                 position: 'relative',
                 display: 'inline-flex',

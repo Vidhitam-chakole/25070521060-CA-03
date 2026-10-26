@@ -1,6 +1,7 @@
 // src/components/ActionButtons.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
+import { sound } from '../utils/audio';
 
 export function ActionButtons({ onSpin, onStartTimer, isSpinning }) {
   return (
@@ -19,7 +20,10 @@ export function ActionButtons({ onSpin, onStartTimer, isSpinning }) {
       <motion.button
         whileHover={!isSpinning ? { y: -2, x: -1, boxShadow: '5px 5px 0px #0E3B33' } : {}}
         whileTap={!isSpinning ? { y: 2, x: 2, boxShadow: '1px 1px 0px #0E3B33' } : {}}
-        onClick={onSpin}
+        onClick={() => {
+          sound.playButtonClick();
+          onSpin();
+        }}
         disabled={isSpinning}
         style={{
           backgroundColor: isSpinning ? '#859F94' : '#1E4D3B',
@@ -48,7 +52,10 @@ export function ActionButtons({ onSpin, onStartTimer, isSpinning }) {
           boxShadow: '4px 4px 0px #1E4D3B',
         }}
         whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #1E4D3B' }}
-        onClick={onStartTimer}
+        onClick={() => {
+          sound.playTimerStart();
+          onStartTimer();
+        }}
         style={{
           backgroundColor: 'transparent',
           color: '#1E4D3B',

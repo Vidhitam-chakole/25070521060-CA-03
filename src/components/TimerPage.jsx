@@ -151,6 +151,8 @@ export function TimerPage({
 
   const toggleTimer = () => {
     if (timeLeft === 0) {
+      sound.playTimerStart();
+      sound.playRecordStart();
       setTimeLeft(totalSeconds);
       setIsFinished(false);
       setIsRunning(true);
@@ -159,15 +161,20 @@ export function TimerPage({
     }
 
     if (!isRunning) {
+      sound.playTimerStart();
+      sound.playRecordStart();
       setIsRunning(true);
       startRecording();
     } else {
+      sound.playTimerPause();
+      sound.playRecordStop();
       setIsRunning(false);
       stopRecording();
     }
   };
 
   const resetTimer = () => {
+    sound.playTimerReset();
     setIsRunning(false);
     setIsFinished(false);
     setTimeLeft(totalSeconds);
@@ -177,6 +184,7 @@ export function TimerPage({
 
   const adjustTime = (delta) => {
     if (isRunning) return;
+    sound.playTimerTimeAdjust();
     const next = Math.max(30, totalSeconds + delta);
     setTotalSeconds(next);
     setTimeLeft(next);
@@ -219,7 +227,10 @@ export function TimerPage({
         }}
       >
         <button
-          onClick={onBack}
+          onClick={() => {
+            sound.playModalClose();
+            onBack();
+          }}
           style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -601,7 +612,10 @@ export function TimerPage({
             )}
 
             <button
-              onClick={() => onOpenAnalysis({ topic, mode, duration: totalSeconds - timeLeft || totalSeconds })}
+              onClick={() => {
+                sound.playAnalysisOpen();
+                onOpenAnalysis({ topic, mode, duration: totalSeconds - timeLeft || totalSeconds });
+              }}
               style={{
                 backgroundColor: '#1E4D3B',
                 backgroundImage: 'linear-gradient(180deg, #245743 0%, #1A4434 100%)',

@@ -1,5 +1,6 @@
 // src/context/MascotContext.jsx
 import React, { createContext, useContext, useState, useRef, useCallback, useEffect } from 'react';
+import { sound } from '../utils/audio';
 
 const MascotContext = createContext(null);
 
@@ -8,11 +9,13 @@ export function MascotProvider({ children }) {
     return localStorage.getItem('speechpact_mascot_hidden') !== 'true';
   });
   const [mood, setMood] = useState('idle'); // idle | happy | surprised | talking | sleepy | pointing
+  const [isAsleep, setIsAsleep] = useState(false);
+  const [stayPut, setStayPut] = useState(() => {
+    return localStorage.getItem('speechpact_mascot_stay_put') === 'true';
+  });
   const [bubble, setBubble] = useState(null); // { text, buttons, onNext, onSkip, progress, autoDismiss }
   const [position, setPosition] = useState(() => {
-    const w = typeof window !== 'undefined' ? window.innerWidth : 1024;
-    const h = typeof window !== 'undefined' ? window.innerHeight : 768;
-    return { x: Math.round((w - 96) / 2), y: Math.round((h - 92) / 2) };
+    return { x: 22, y: 180 };
   });
   const [facing, setFacing] = useState(1); // 1 = right, -1 = left
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,6 +67,43 @@ export function MascotProvider({ children }) {
     setBubble(null);
   }, []);
 
+  // Sleep and Wake controls
+  const putToSleep = useCallback(() => {
+    setIsAsleep(true);
+    setMood('sleepy');
+    sound.playMascotSleep();
+    say('Zzz... Going to take a nap. Click me to wake me up! 🌙', { autoDismiss: 3200 });
+  }, [say]);
+
+  const wakeUp = useCallback(() => {
+    setIsAsleep(false);
+    setMood('happy');
+    sound.playMascotWake();
+    say("Yaaawn! Good morning! Let's practice speaking! ☀️", { autoDismiss: 3200 });
+  }, [say]);
+
+  const toggleSleep = useCallback(() => {
+    if (isAsleep || mood === 'sleepy') {
+      wakeUp();
+    } else {
+      putToSleep();
+    }
+  }, [isAsleep, mood, putToSleep, wakeUp]);
+
+  const toggleStayPut = useCallback(() => {
+    setStayPut((prev) => {
+      const next = !prev;
+      localStorage.setItem('speechpact_mascot_stay_put', next ? 'true' : 'false');
+      sound.playButtonClick();
+      if (next) {
+        say('Staying put right here! 📌', { autoDismiss: 2500 });
+      } else {
+        say('Slow floating resumed! 🚀', { autoDismiss: 2500 });
+      }
+      return next;
+    });
+  }, [say]);
+
   // Set target highlight
   useEffect(() => {
     if (!currentTargetKey) {
@@ -89,6 +129,13 @@ export function MascotProvider({ children }) {
     hide,
     mood,
     setMood,
+    isAsleep,
+    putToSleep,
+    wakeUp,
+    toggleSleep,
+    stayPut,
+    setStayPut,
+    toggleStayPut,
     bubble,
     say,
     dismissBubble,

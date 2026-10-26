@@ -1,15 +1,20 @@
 // src/components/Mascot/Mascot.jsx
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, useAnimation, AnimatePresence } from 'framer-motion';
 import { useMascot } from '../../context/MascotContext';
 import { MascotBubble } from './MascotBubble';
 import { MascotMenu } from './MascotMenu';
+import { sound } from '../../utils/audio';
 
-export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
+export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnalysis }) {
   const {
     isVisible,
     mood,
     setMood,
+    isAsleep,
+    stayPut,
+    wakeUp,
+    toggleSleep,
     bubble,
     say,
     dismissBubble,
@@ -25,85 +30,47 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
   const [isBlinking, setIsBlinking] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [clickSparkles, setClickSparkles] = useState([]);
+  const [isStabilized, setIsStabilized] = useState(false);
+  const [stabilizedY, setStabilizedY] = useState(null);
+
   const mascotRef = useRef(null);
   const controls = useAnimation();
-  const isPausedRef = useRef(false);
-  const waypointIdxRef = useRef(0);
+  const proximityTimerRef = useRef(null);
 
-  // Compute docked position right on the left rim of Topic Reel (as shown in user's screenshot 1)
-  const getDockPosition = useCallback(() => {
-    const el = document.getElementById('topic-reel-container') || document.querySelector('.reel-lever-wrapper');
-    if (el) {
-      const rect = el.getBoundingClientRect();
-      const x = Math.max(12, Math.round(rect.left - 48));
-      const y = Math.max(60, Math.round(rect.top + 46));
-      return { x, y };
-    }
-    const w = typeof window !== 'undefined' ? window.innerWidth : 1024;
+  // Constrain position to the leftmost side
+  const [leftX, setLeftX] = useState(() => (typeof window !== 'undefined' && window.innerWidth < 640 ? 10 : 20));
+  const [verticalBounds, setVerticalBounds] = useState(() => {
+    const h = typeof window !== 'undefined' ? window.innerHeight : 768;
     return {
-      x: w > 860 ? Math.round(w * 0.44) : 20,
-      y: 260,
+      top: 105,
+      bottom: Math.max(260, h - 170),
     };
-  }, []);
+  });
 
-  // Position mascot initially beside the Topic Reel card
+  // Calculate screen bounds and ensure mascot stays on the most left side
   useEffect(() => {
-    const timer1 = setTimeout(() => {
-      const dock = getDockPosition();
-      setPosition(dock);
-      setFacing(1);
-    }, 40);
-
-    const timer2 = setTimeout(() => {
-      const dock = getDockPosition();
-      setPosition(dock);
-    }, 250);
-
-    return () => {
-      clearTimeout(timer1);
-      clearTimeout(timer2);
-    };
-  }, [getDockPosition, setFacing, setPosition]);
-
-  // Autonomous constant flying with Bamboo Copter without user interference
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (isDragging || isPausedRef.current) return;
-
+    const handleResize = () => {
       const w = window.innerWidth;
       const h = window.innerHeight;
-      const dock = getDockPosition();
-
-      // Autonomous flight waypoints across the screen
-      const waypoints = [
-        dock, // 1. Initial dock beside Topic Reel
-        { x: Math.max(24, Math.round(w * 0.1)), y: 155 }, // 2. Above Hero Title
-        { x: Math.max(30, Math.round(w * 0.28)), y: 68 },  // 3. Floating near top navigation
-        { x: Math.min(w - 110, Math.round(w * 0.85)), y: 240 }, // 4. Hovering near the Lever
-        { x: Math.max(40, Math.round(w * 0.52)), y: Math.min(h - 130, 460) }, // 5. Dipping near Action Buttons
-        { x: Math.round(w * 0.42), y: 120 }, // 6. Cruising across upper middle
-      ];
-
-      waypointIdxRef.current = (waypointIdxRef.current + 1) % waypoints.length;
-      const nextPoint = waypoints[waypointIdxRef.current];
-
-      setPosition((current) => {
-        if (nextPoint.x > current.x + 12) {
-          setFacing(1);
-        } else if (nextPoint.x < current.x - 12) {
-          setFacing(-1);
-        }
-        return nextPoint;
+      const targetLeft = w < 640 ? 10 : 20;
+      setLeftX(targetLeft);
+      setVerticalBounds({
+        top: 105,
+        bottom: Math.max(260, h - 170),
       });
-    }, 4800);
+      setFacing(1); // Always face toward screen content
+    };
 
-    return () => clearInterval(interval);
-  }, [getDockPosition, isDragging, setFacing, setPosition]);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [setFacing]);
 
-  // Eye tracking cursor
+  // Cursor Proximity & Eye Tracking
+  // When cursor gets close (< 145px), mascot automatically slows down & stabilizes so it's easy to click
   useEffect(() => {
     const handleMouseMove = (e) => {
-      if (mood === 'sleepy' || !mascotRef.current) return;
+      if (!mascotRef.current) return;
 
       const rect = mascotRef.current.getBoundingClientRect();
       const mascotCenterX = rect.left + rect.width / 2;
@@ -111,23 +78,42 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
 
       const deltaX = e.clientX - mascotCenterX;
       const deltaY = e.clientY - mascotCenterY;
-      const dist = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+      const dist = Math.hypot(deltaX, deltaY);
 
-      if (dist > 0) {
+      // Eye pupil tracking
+      if (!isAsleep && mood !== 'sleepy' && dist > 0) {
         const maxOffset = 3.5;
         const offsetX = (deltaX / dist) * Math.min(maxOffset, dist / 40);
         const offsetY = (deltaY / dist) * Math.min(maxOffset, dist / 40);
         setPupilOffset({ x: offsetX * facing, y: offsetY });
       }
+
+      // Proximity stabilization: if cursor is near (within 145px) or on leftmost column, stabilize
+      if (dist < 145 || (e.clientX < 130 && Math.abs(e.clientY - mascotCenterY) < 120)) {
+        clearTimeout(proximityTimerRef.current);
+        if (!isStabilized) {
+          setStabilizedY(Math.round(rect.top));
+          setIsStabilized(true);
+        }
+      } else if (isStabilized && !isMenuOpen) {
+        clearTimeout(proximityTimerRef.current);
+        proximityTimerRef.current = setTimeout(() => {
+          setIsStabilized(false);
+          setStabilizedY(null);
+        }, 320);
+      }
     };
 
     window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, [facing, mood]);
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      clearTimeout(proximityTimerRef.current);
+    };
+  }, [facing, isAsleep, isMenuOpen, isStabilized, mood]);
 
-  // Periodic Blink
+  // Periodic Blink (only when awake)
   useEffect(() => {
-    if (mood === 'sleepy' || mood === 'happy') return;
+    if (isAsleep || mood === 'sleepy' || mood === 'happy') return;
 
     const blinkInterval = setInterval(() => {
       setIsBlinking(true);
@@ -135,72 +121,91 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
     }, 3800);
 
     return () => clearInterval(blinkInterval);
-  }, [mood]);
+  }, [isAsleep, mood]);
 
-  // Mascot Click reaction: mid-air backflip & sparkles
+  // Mascot Click reaction: opens the rich menu
   const handleMascotClick = (e) => {
     e.stopPropagation();
     if (isDragging) return;
 
-    // Trigger hearts & sparkles
-    const newSparkle = { id: Date.now(), x: 20, y: -20 };
-    setClickSparkles((prev) => [...prev, newSparkle]);
-    setTimeout(() => {
-      setClickSparkles((prev) => prev.filter((s) => s.id !== newSparkle.id));
-    }, 1200);
+    sound.playPillClick();
 
-    // Mid-air flip animation
-    controls.start({
-      rotate: [0, -18, 360],
-      scale: [1, 1.15, 1],
-      transition: { duration: 0.65, ease: 'easeInOut' },
-    });
+    if (mascotRef.current) {
+      setStabilizedY(Math.round(mascotRef.current.getBoundingClientRect().top));
+    }
+    setIsStabilized(true);
 
-    const flightPhrases = [
-      'Wheee! 🚁 Flying high!',
-      'Ready to practice speaking?',
-      'Pull the lever for a fresh prompt!',
-      'You sound great today!',
-    ];
-    const phrase = flightPhrases[Math.floor(Math.random() * flightPhrases.length)];
-    setMood('happy');
-    say(phrase, { autoDismiss: 3200 });
+    // Open/toggle menu
+    setIsMenuOpen((prev) => !prev);
   };
 
   if (!isVisible) return null;
 
+  // Determine if vertical motion should freeze/stabilize
+  const isFrozen = isAsleep || stayPut || isStabilized || isMenuOpen;
+
   return (
     <>
-      {/* Mascot Container */}
+      {/* Mascot Container: Anchored on the leftmost side */}
       <motion.div
         ref={mascotRef}
         drag
-        dragMomentum={true}
+        dragMomentum={false}
         onDragStart={() => {
           setIsDragging(true);
-          isPausedRef.current = true;
           dismissBubble();
         }}
         onDragEnd={(e, info) => {
-          setTimeout(() => {
-            setIsDragging(false);
-            isPausedRef.current = false;
-          }, 2500);
+          setIsDragging(false);
           setPosition((prev) => ({
-            x: Math.max(20, Math.min(window.innerWidth - 120, prev.x + info.offset.x)),
-            y: Math.max(40, Math.min(window.innerHeight - 130, prev.y + info.offset.y)),
+            x: leftX,
+            y: Math.max(verticalBounds.top, Math.min(verticalBounds.bottom, prev.y + info.offset.y)),
           }));
         }}
-        animate={{
-          x: position.x,
-          y: position.y,
+        onMouseEnter={() => {
+          clearTimeout(proximityTimerRef.current);
+          if (mascotRef.current) {
+            setStabilizedY(Math.round(mascotRef.current.getBoundingClientRect().top));
+          }
+          setIsStabilized(true);
         }}
-        transition={{
-          type: 'spring',
-          stiffness: 42,
-          damping: 14,
-          mass: 1.1,
+        onMouseLeave={() => {
+          if (!isMenuOpen) {
+            proximityTimerRef.current = setTimeout(() => {
+              setIsStabilized(false);
+              setStabilizedY(null);
+            }, 320);
+          }
         }}
+        animate={
+          isDragging
+            ? undefined
+            : isFrozen
+            ? {
+                x: leftX,
+                y: stabilizedY || position.y || verticalBounds.top + 70,
+              }
+            : {
+                x: leftX,
+                y: [verticalBounds.top, verticalBounds.bottom, verticalBounds.top],
+              }
+        }
+        transition={
+          isFrozen
+            ? {
+                type: 'spring',
+                stiffness: 80,
+                damping: 18,
+              }
+            : {
+                x: { type: 'spring', stiffness: 50, damping: 15 },
+                y: {
+                  duration: 9.5,
+                  repeat: Infinity,
+                  ease: 'easeInOut',
+                },
+              }
+        }
         style={{
           position: 'fixed',
           top: 0,
@@ -208,7 +213,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
           width: '96px',
           height: '92px',
           zIndex: 1000,
-          cursor: isDragging ? 'grabbing' : 'grab',
+          cursor: isDragging ? 'grabbing' : 'pointer',
           userSelect: 'none',
           touchAction: 'none',
         }}
@@ -233,10 +238,19 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
           </motion.div>
         ))}
 
-        {/* Animated Mascot Body with continuous hover bobbing */}
+        {/* Animated Mascot Body */}
         <motion.div
-          animate={controls}
-          className="mascot-flight-bob"
+          animate={isAsleep ? { y: [0, -3, 0] } : controls}
+          transition={
+            isAsleep
+              ? {
+                  duration: 3.2,
+                  repeat: Infinity,
+                  ease: 'easeInOut',
+                }
+              : undefined
+          }
+          className={isAsleep || isFrozen ? undefined : 'mascot-flight-bob'}
           onClick={handleMascotClick}
           style={{
             width: '100%',
@@ -244,6 +258,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
             transformOrigin: 'bottom center',
             transform: `scaleX(${facing})`,
           }}
+          title={isAsleep ? 'Vidhitam is sleeping (Click to open menu & wake up)' : 'Click Vidhitam for menu, navigation & actions'}
         >
           <svg
             width="96"
@@ -253,14 +268,20 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
             xmlns="http://www.w3.org/2000/svg"
             style={{ overflow: 'visible', imageRendering: 'pixelated', shapeRendering: 'crispEdges' }}
           >
-            {/* BAMBOO COPTER (竹コプター): Head mount, shaft, center hub & rapid spinning 2-blade rotor */}
+            {/* BAMBOO COPTER (竹コプター): Head mount, shaft, center hub & 2-blade rotor */}
             <g id="bamboo-copter-assembly">
               {/* Head Base Suction Mount */}
               <ellipse cx="48" cy="16" rx="6" ry="2.5" fill="#C68A3B" stroke="#0E3B33" strokeWidth="1.5" />
               {/* Wooden Bamboo Shaft */}
               <rect x="46.5" y="3" width="3" height="13" fill="#E8A857" stroke="#0E3B33" strokeWidth="1.2" />
-              {/* Rapid Spinning Propeller Blades */}
-              <g className="bamboo-propeller" style={{ transformOrigin: '48px 3px' }}>
+              {/* Spinning Propeller Blades (stops spinning when sleeping) */}
+              <g
+                className="bamboo-propeller"
+                style={{
+                  transformOrigin: '48px 3px',
+                  animationPlayState: isAsleep || mood === 'sleepy' ? 'paused' : 'running',
+                }}
+              >
                 {/* Left Propeller Blade */}
                 <rect x="23" y="1" width="24" height="4" rx="2" fill="#E8A857" stroke="#0E3B33" strokeWidth="1.2" />
                 {/* Right Propeller Blade */}
@@ -318,12 +339,87 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
               fill="#F9F6EC"
             />
 
-            {/* CHEEKS: Two orange ellipses */}
-            <ellipse cx="27" cy="62" rx="6" ry="4" fill="#E3A857" opacity="0.6" />
-            <ellipse cx="69" cy="62" rx="6" ry="4" fill="#E3A857" opacity="0.6" />
+            {/* CHEEKS: Two orange/pink blush ellipses */}
+            <ellipse
+              cx="27"
+              cy="62"
+              rx="6"
+              ry="4"
+              fill={isAsleep || mood === 'sleepy' ? '#F472B6' : '#E3A857'}
+              opacity="0.65"
+            />
+            <ellipse
+              cx="69"
+              cy="62"
+              rx="6"
+              ry="4"
+              fill={isAsleep || mood === 'sleepy' ? '#F472B6' : '#E3A857'}
+              opacity="0.65"
+            />
 
-            {/* EYES & EXPRESSIONS */}
-            {mood === 'happy' ? (
+            {/* EYES & SLEEPING / AWAKE EXPRESSIONS */}
+            {isAsleep || mood === 'sleepy' ? (
+              // Asleep: Peaceful closed curved eyelids + cute nightcap + floating Zs
+              <g>
+                <path
+                  d="M31 52 Q 36.5 56 42 52"
+                  stroke="#0E3B33"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  fill="none"
+                />
+                <path
+                  d="M54 52 Q 59.5 56 65 52"
+                  stroke="#0E3B33"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  fill="none"
+                />
+                {/* Cute purple sleeping nightcap */}
+                <path
+                  d="M26 21 Q 14 12, 10 24 Q 18 26, 26 23 Z"
+                  fill="#8E6EC4"
+                  stroke="#0E3B33"
+                  strokeWidth="1.5"
+                />
+                <circle cx="9" cy="24" r="3.2" fill="#E8A857" stroke="#0E3B33" strokeWidth="1.2" />
+
+                {/* Animated floating Z letters */}
+                <text
+                  x="72"
+                  y="26"
+                  fill="#8E6EC4"
+                  fontSize="15"
+                  fontWeight="bold"
+                  fontFamily="'Press Start 2P', monospace"
+                  className="mascot-sleep-z1"
+                >
+                  z
+                </text>
+                <text
+                  x="82"
+                  y="14"
+                  fill="#B79AE6"
+                  fontSize="11"
+                  fontWeight="bold"
+                  fontFamily="'Press Start 2P', monospace"
+                  className="mascot-sleep-z2"
+                >
+                  z
+                </text>
+                <text
+                  x="64"
+                  y="10"
+                  fill="#7E22CE"
+                  fontSize="8"
+                  fontWeight="bold"
+                  fontFamily="'Press Start 2P', monospace"
+                  className="mascot-sleep-z3"
+                >
+                  z
+                </text>
+              </g>
+            ) : mood === 'happy' ? (
               // Happy: closed smiling arcs (^ ^)
               <g>
                 <path
@@ -348,42 +444,6 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
                   strokeLinecap="round"
                   fill="none"
                 />
-              </g>
-            ) : mood === 'sleepy' ? (
-              // Sleepy: half-closed eyelids + Z floating glyphs
-              <g>
-                <path
-                  d="M32 50 L 42 50"
-                  stroke="#0E3B33"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                />
-                <path
-                  d="M54 50 L 64 50"
-                  stroke="#0E3B33"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                />
-                <text
-                  x="70"
-                  y="28"
-                  fill="#8E6EC4"
-                  fontSize="14"
-                  fontWeight="bold"
-                  fontFamily="sans-serif"
-                >
-                  z
-                </text>
-                <text
-                  x="78"
-                  y="18"
-                  fill="#B79AE6"
-                  fontSize="11"
-                  fontWeight="bold"
-                  fontFamily="sans-serif"
-                >
-                  z
-                </text>
               </g>
             ) : isBlinking ? (
               // Blinking: closed lines
@@ -427,7 +487,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
             )}
 
             {/* Surprised Extra Graphics: Dot nose + 3 orange radiating lines + sparkle */}
-            {mood === 'surprised' && (
+            {mood === 'surprised' && !isAsleep && (
               <g>
                 <circle cx="48" cy="56" r="2" fill="#E3A857" />
                 <line x1="14" y1="24" x2="6" y2="18" stroke="#E3A857" strokeWidth="2" strokeLinecap="round" />
@@ -442,7 +502,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
             )}
 
             {/* Talking Mouth Animation */}
-            {mood === 'talking' && (
+            {mood === 'talking' && !isAsleep && (
               <ellipse
                 cx="48"
                 cy="64"
@@ -457,14 +517,17 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
           </svg>
         </motion.div>
 
-        {/* Name label below legs (never mirrored when mascot turns) */}
+        {/* Clean Name label below legs (clicking it also opens menu) */}
         <div
+          onClick={handleMascotClick}
+          title="Click to open menu"
           style={{
             position: 'absolute',
             bottom: '-18px',
             left: '50%',
             transform: 'translateX(-50%)',
-            pointerEvents: 'none',
+            pointerEvents: 'auto',
+            cursor: 'pointer',
             userSelect: 'none',
             whiteSpace: 'nowrap',
             textAlign: 'center',
@@ -500,7 +563,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
           )}
         </AnimatePresence>
 
-        {/* Help Menu Popover */}
+        {/* Comprehensive Mascot Menu Popover with Search & Options */}
         <AnimatePresence>
           {isMenuOpen && (
             <MascotMenu
@@ -508,19 +571,37 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer }) {
               onTriggerSpin={onTriggerSpin}
               onNavigateTab={onNavigateTab}
               onStartTimer={onStartTimer}
+              onOpenAnalysis={onOpenAnalysis}
             />
           )}
         </AnimatePresence>
       </motion.div>
 
-      {/* Global Mascot Styles for Sprout sway & mouth */}
+      {/* Global Mascot Styles for Propeller, Sleep Floating Zs, and bobbing */}
       <style>{`
-        @keyframes sproutSway {
-          0%, 100% { transform: rotate(-5deg); }
-          50% { transform: rotate(5deg); }
+        @keyframes zFloat1 {
+          0% { opacity: 0; transform: translate(0, 0) scale(0.7); }
+          50% { opacity: 0.95; }
+          100% { opacity: 0; transform: translate(12px, -24px) scale(1.15); }
         }
-        .mascot-sprout {
-          animation: sproutSway 2.2s ease-in-out infinite;
+        @keyframes zFloat2 {
+          0% { opacity: 0; transform: translate(0, 0) scale(0.65); }
+          50% { opacity: 0.9; }
+          100% { opacity: 0; transform: translate(18px, -30px) scale(1.25); }
+        }
+        @keyframes zFloat3 {
+          0% { opacity: 0; transform: translate(0, 0) scale(0.6); }
+          50% { opacity: 0.85; }
+          100% { opacity: 0; transform: translate(8px, -20px) scale(1.1); }
+        }
+        .mascot-sleep-z1 {
+          animation: zFloat1 2.2s ease-out infinite;
+        }
+        .mascot-sleep-z2 {
+          animation: zFloat2 2.2s ease-out infinite 0.75s;
+        }
+        .mascot-sleep-z3 {
+          animation: zFloat3 2.2s ease-out infinite 1.4s;
         }
         @keyframes mouthFlap {
           0%, 100% { transform: scaleY(0.7); }

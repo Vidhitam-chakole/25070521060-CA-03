@@ -1,13 +1,17 @@
 // src/components/AnalysisButton.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
+import { sound } from '../utils/audio';
 
 export function AnalysisButton({ onClick }) {
   return (
     <motion.button
       whileHover={{ y: -2, boxShadow: '5px 5px 0px #0E3B33' }}
       whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #0E3B33' }}
-      onClick={onClick}
+      onClick={(e) => {
+        sound.playAnalysisOpen();
+        onClick(e);
+      }}
       style={{
         display: 'inline-flex',
         alignItems: 'center',

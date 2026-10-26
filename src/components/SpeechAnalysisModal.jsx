@@ -3,6 +3,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Award, Activity, CheckCircle2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { sound } from '../utils/audio';
 
 export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) {
   if (!isOpen) return null;
@@ -42,7 +43,10 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
           zIndex: 100,
           padding: '16px',
         }}
-        onClick={onClose}
+        onClick={() => {
+          sound.playModalClose();
+          onClose();
+        }}
       >
         <motion.div
           initial={{ opacity: 0, scale: 0.94, y: 16 }}
@@ -66,7 +70,10 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
         >
           {/* Close Button */}
           <button
-            onClick={onClose}
+            onClick={() => {
+              sound.playModalClose();
+              onClose();
+            }}
             style={{
               position: 'absolute',
               top: '18px',
@@ -397,7 +404,10 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
             }}
           >
             <button
-              onClick={onClose}
+              onClick={() => {
+                sound.playModalClose();
+                onClose();
+              }}
               style={{
                 backgroundColor: 'transparent',
                 color: '#496B5B',
@@ -416,6 +426,7 @@ export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) 
 
             <button
               onClick={() => {
+                sound.playButtonClick();
                 handleConfetti();
                 onTryAgain();
                 onClose();

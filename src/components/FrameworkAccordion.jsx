@@ -4,11 +4,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, Star, Lightbulb } from 'lucide-react';
 import { FRAMEWORKS } from '../data/interviewPrep';
 import { FlowerDoodle } from './Doodles';
+import { sound } from '../utils/audio';
 
 export function FrameworkAccordion() {
   const [openId, setOpenId] = useState('star'); // Default open STAR
 
   const toggle = (id) => {
+    const isOpening = openId !== id;
+    sound.playAccordionToggle(isOpening);
     setOpenId((curr) => (curr === id ? null : id));
   };
 

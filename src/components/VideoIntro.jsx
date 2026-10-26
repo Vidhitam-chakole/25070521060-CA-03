@@ -1,7 +1,6 @@
 // src/components/VideoIntro.jsx
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FastForward } from 'lucide-react';
 
 export function VideoIntro({ onComplete }) {
   const [isZoomingOut, setIsZoomingOut] = useState(false);
@@ -15,7 +14,6 @@ export function VideoIntro({ onComplete }) {
         await videoRef.current.play();
       } catch {
         // If unmuted autoplay blocked by browser policy, try muted autoplay
-        // and unmute on first user click anywhere
         if (videoRef.current) {
           videoRef.current.muted = true;
           videoRef.current.play().catch(() => {});
@@ -24,8 +22,8 @@ export function VideoIntro({ onComplete }) {
     };
     playVideo();
 
-    // Any click anywhere on the page starts/resumes audio & playback directly
-    const handleGlobalClick = () => {
+    // User interaction unmutes if muted and resumes playback
+    const handleGlobalInteraction = () => {
       if (videoRef.current) {
         if (videoRef.current.muted) {
           videoRef.current.muted = false;
@@ -36,14 +34,14 @@ export function VideoIntro({ onComplete }) {
       }
     };
 
-    window.addEventListener('click', handleGlobalClick, { once: false });
-    window.addEventListener('keydown', handleGlobalClick, { once: false });
-    window.addEventListener('touchstart', handleGlobalClick, { once: false });
+    window.addEventListener('click', handleGlobalInteraction);
+    window.addEventListener('keydown', handleGlobalInteraction);
+    window.addEventListener('touchstart', handleGlobalInteraction);
 
     return () => {
-      window.removeEventListener('click', handleGlobalClick);
-      window.removeEventListener('keydown', handleGlobalClick);
-      window.removeEventListener('touchstart', handleGlobalClick);
+      window.removeEventListener('click', handleGlobalInteraction);
+      window.removeEventListener('keydown', handleGlobalInteraction);
+      window.removeEventListener('touchstart', handleGlobalInteraction);
     };
   }, []);
 
@@ -69,18 +67,17 @@ export function VideoIntro({ onComplete }) {
         style={{
           position: 'fixed',
           inset: 0,
+          width: '100vw',
+          height: '100vh',
           backgroundColor: '#000000',
           zIndex: 9999,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           overflow: 'hidden',
-          cursor: 'pointer',
         }}
-        onClick={handleFinish}
-        title="Click to skip into website"
       >
-        {/* Fullscreen Video directly playing with no play button UI */}
+        {/* Fullscreen Video directly playing with cover fit so NO black bars on sides */}
         <video
           ref={videoRef}
           src="/got_free_time_intro.mp4"
@@ -90,43 +87,11 @@ export function VideoIntro({ onComplete }) {
           style={{
             width: '100%',
             height: '100%',
-            objectFit: 'contain',
+            objectFit: 'cover',
             backgroundColor: '#000000',
+            display: 'block',
           }}
         />
-
-        {/* Skip Intro Button */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            handleFinish();
-          }}
-          style={{
-            position: 'absolute',
-            top: '24px',
-            right: '28px',
-            backgroundColor: '#F9F6EC',
-            color: '#1E4D3B',
-            border: '2px solid #1E4D3B',
-            borderRadius: '0px',
-            padding: '8px 14px',
-            fontSize: '9.5px',
-            fontFamily: "'Press Start 2P', monospace",
-            fontWeight: 400,
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '8px',
-            cursor: 'pointer',
-            boxShadow: '3px 3px 0px #1E4D3B',
-            zIndex: 10,
-            transition: 'transform 0.1s ease',
-          }}
-          onMouseEnter={(e) => (e.currentTarget.style.transform = 'translate(-1px, -1px)')}
-          onMouseLeave={(e) => (e.currentTarget.style.transform = 'none')}
-        >
-          <span>SKIP INTRO</span>
-          <FastForward size={13} />
-        </button>
       </motion.div>
     </AnimatePresence>
   );

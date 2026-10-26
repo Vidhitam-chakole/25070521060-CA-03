@@ -264,6 +264,7 @@ function AppContent() {
         onTriggerSpin={handleSpin}
         onNavigateTab={handleTabChange}
         onStartTimer={handleStartTimer}
+        onOpenAnalysis={handleOpenAnalysis}
       />
 
 

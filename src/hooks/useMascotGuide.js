@@ -8,6 +8,7 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
     isVisible,
     mood,
     setMood,
+    isAsleep,
     say,
     dismissBubble,
     setPosition,
@@ -55,10 +56,8 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
   }, [setCurrentTargetKey, setMood, setTourStep]);
 
   // Contextual hints when user is on a tab
-
-  // Contextual hints when user is on a tab
   useEffect(() => {
-    if (isTourActiveRef.current || !isVisible || currentPage === 'timer') return;
+    if (isTourActiveRef.current || !isVisible || currentPage === 'timer' || isAsleep || mood === 'sleepy') return;
 
     clearTimeout(hintTimeoutRef.current);
     hintTimeoutRef.current = setTimeout(() => {

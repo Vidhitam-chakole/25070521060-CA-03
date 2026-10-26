@@ -20,6 +20,7 @@ import { RANDOM_CATEGORIES, RANDOM_DIFFICULTIES } from '../data/randomTopics';
 import { INTERVIEW_FILTERS } from '../data/interviewPrep';
 import { VOCAB_DIFFICULTIES } from '../data/vocab';
 import { RESEARCH_CATEGORIES } from '../data/deepResearch';
+import { sound } from '../utils/audio';
 
 const LANGUAGES = [
   { id: 'en-us', code: 'US', label: 'English (US)' },
@@ -31,7 +32,10 @@ const LANGUAGES = [
 function PillButton({ children, onClick, isOpen, minWidth = 'auto' }) {
   return (
     <button
-      onClick={onClick}
+      onClick={(e) => {
+        sound.playPillClick();
+        onClick(e);
+      }}
       style={{
         display: 'inline-flex',
         alignItems: 'center',
@@ -113,6 +117,7 @@ function DropdownMenu({ items, selectedId, onSelect, onClose }) {
           <button
             key={item.id}
             onClick={() => {
+              sound.playDropdownSelect();
               onSelect(item.id);
               onClose();
             }}
