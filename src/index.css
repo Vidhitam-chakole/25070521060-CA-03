@@ -57,8 +57,18 @@ button, a, [role="button"], input, select {
   font-family: inherit;
   border: none;
   background: none;
+  touch-action: manipulation;
   cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' shape-rendering='crispEdges'%3E%3Cpath fill='%231E4D3B' d='M7 1h3v1H7V1zm3 1h2v6h-2V2zM7 2h1v6H7V2zM5 8h2v1H5V8zm7 0h2v1h-2V8zM3 9h2v1H3V9zm11 0h2v1h-2V9zm-13 1h2v7H1v-7zm16 0h2v7h-2v-7zm-14 7h14v1H3v-1zm2 1h10v1H5v-1z'/%3E%3Cpath fill='%23E8A857' d='M8 2h2v6H8V2zm-3 7h2v1H5V9zm8 0h2v1h-2V9zM3 10h14v7H3v-7z'/%3E%3C/svg%3E"), pointer !important;
   outline: none;
+}
+
+/* Touch-friendly horizontal scroll utility without scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 a {
@@ -263,7 +273,7 @@ a {
 @media (max-width: 860px) {
   .app-main-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 28px;
   }
   
   .app-left-col {
@@ -275,6 +285,17 @@ a {
   .reel-lever-wrapper {
     gap: 0px;
     padding: 0 4px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-main-grid {
+    gap: 20px;
+  }
+  
+  .reel-lever-wrapper {
+    padding: 0 2px;
   }
 }
 
@@ -285,5 +306,21 @@ a {
   
   .reel-lever-wrapper {
     gap: 0px;
+    width: 100%;
+  }
+
+  .pixel-box {
+    box-shadow: 2px 2px 0px var(--primary-dark-green);
+  }
+}
+
+@media (max-width: 360px) {
+  .app-main-grid {
+    gap: 16px;
+  }
+
+  .reel-lever-wrapper {
+    transform: scale(0.96);
+    transform-origin: center top;
   }
 }

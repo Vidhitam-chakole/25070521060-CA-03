@@ -1,5 +1,5 @@
 // src/components/UserProfileModal.jsx
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   X,
@@ -8,14 +8,10 @@ import {
   Star,
   Search,
   Calendar,
-  RotateCcw,
   Trash2,
   Edit2,
   Check,
-  Sparkles,
   Database,
-  ArrowRight,
-  Filter,
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { sound } from '../utils/audio';
@@ -252,12 +248,15 @@ export function UserProfileModal({ onPracticeTopic }) {
 
           {/* Sub Navigation Tabs inside Profile */}
           <div
+            className="no-scrollbar"
             style={{
               display: 'flex',
               gap: '6px',
-              padding: '12px 20px 0 20px',
+              padding: '12px clamp(10px, 3vw, 20px) 0 clamp(10px, 3vw, 20px)',
               backgroundColor: '#EDE8DB',
               borderBottom: '2px solid #1E4D3B',
+              overflowX: 'auto',
+              whiteSpace: 'nowrap',
             }}
           >
             <button

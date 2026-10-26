@@ -210,7 +210,18 @@ export function TimerPage({
     return `${mins}:${remainingSecs < 10 ? '0' : ''}${remainingSecs}`;
   };
 
-  const size = 300;
+  const [size, setSize] = useState(() =>
+    typeof window !== 'undefined' ? Math.min(300, Math.max(220, window.innerWidth - 64)) : 300
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSize(Math.min(300, Math.max(220, window.innerWidth - 64)));
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const strokeWidth = 12;
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
@@ -225,7 +236,7 @@ export function TimerPage({
         display: 'flex',
         flexDirection: 'column',
         position: 'relative',
-        padding: '24px 28px',
+        padding: 'clamp(14px, 3vw, 24px) clamp(10px, 3vw, 24px)',
         color: '#1E4D3B',
       }}
     >

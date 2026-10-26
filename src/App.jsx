@@ -1,16 +1,38 @@
-// src/App.jsx
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, useMemo, useCallback, lazy, Suspense } from 'react';
 
 import { MascotProvider, useMascot } from './context/MascotContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { Mascot } from './components/Mascot/Mascot';
 import { useMascotGuide } from './hooks/useMascotGuide';
-import { VideoIntro } from './components/VideoIntro';
-import { PixelAuthCard } from './components/PixelAuthCard';
-import { NicknamePromptModal } from './components/NicknamePromptModal';
-import { UserProfileModal } from './components/UserProfileModal';
-import { PlayerHud } from './components/PlayerHud';
 
+const VideoIntro = lazy(() => import('./components/VideoIntro').then((m) => ({ default: m.VideoIntro })));
+const PixelAuthCard = lazy(() => import('./components/PixelAuthCard').then((m) => ({ default: m.PixelAuthCard })));
+const NicknamePromptModal = lazy(() => import('./components/NicknamePromptModal').then((m) => ({ default: m.NicknamePromptModal })));
+const UserProfileModal = lazy(() => import('./components/UserProfileModal').then((m) => ({ default: m.UserProfileModal })));
+const TimerPage = lazy(() => import('./components/TimerPage').then((m) => ({ default: m.TimerPage })));
+const SpeechAnalysisModal = lazy(() => import('./components/SpeechAnalysisModal').then((m) => ({ default: m.SpeechAnalysisModal })));
+const DebateHub = lazy(() => import('./components/DebateHub').then((m) => ({ default: m.DebateHub })));
+
+function PixelLoader() {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '40px',
+        color: '#1E4D3B',
+        fontFamily: "'Press Start 2P', monospace",
+        fontSize: '11px',
+        letterSpacing: '0.04em',
+      }}
+    >
+      LOADING...
+    </div>
+  );
+}
+
+import { PlayerHud } from './components/PlayerHud';
 import { TopTabs } from './components/TopTabs';
 import { HeroTitle } from './components/HeroTitle';
 import { StepsList } from './components/StepsList';
@@ -20,9 +42,6 @@ import { FilterPills } from './components/FilterPills';
 import { TopicReel } from './components/TopicReel';
 import { Lever } from './components/Lever';
 import { ActionButtons } from './components/ActionButtons';
-import { TimerPage } from './components/TimerPage';
-import { SpeechAnalysisModal } from './components/SpeechAnalysisModal';
-import { DebateHub } from './components/DebateHub';
 
 import { RANDOM_TOPICS } from './data/randomTopics';
 import { BEHAVIORAL_QUESTIONS, CONSULTING_QUESTIONS } from './data/interviewPrep';
@@ -277,13 +296,14 @@ function AppContent() {
         overflowX: 'hidden',
       }}
     >
-      {/* 1. Fullscreen Video Intro on initial visit or manual replay */}
-      {showVideoIntro ? (
-        <VideoIntro onComplete={handleVideoIntroComplete} />
-      ) : !isAuthenticated ? (
-        /* 2. Pixelated Sign In / Register Card before opening the website */
-        <PixelAuthCard onGuestAccess={() => {}} />
-      ) : (
+      <Suspense fallback={<PixelLoader />}>
+        {/* 1. Fullscreen Video Intro on initial visit or manual replay */}
+        {showVideoIntro ? (
+          <VideoIntro onComplete={handleVideoIntroComplete} />
+        ) : !isAuthenticated ? (
+          /* 2. Pixelated Sign In / Register Card before opening the website */
+          <PixelAuthCard onGuestAccess={() => {}} />
+        ) : (
         /* 3. Main Customized Website once signed in or guest access */
         <>
           {/* Modal to customize nickname if needed */}
@@ -440,6 +460,7 @@ function AppContent() {
           />
         </>
       )}
+      </Suspense>
     </div>
   );
 }

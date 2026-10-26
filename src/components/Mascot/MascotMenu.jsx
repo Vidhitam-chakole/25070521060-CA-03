@@ -1,6 +1,6 @@
 // src/components/Mascot/MascotMenu.jsx
-import React, { useState, useMemo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState, useMemo, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import {
   X,
   Search,
@@ -15,7 +15,6 @@ import {
   Pin,
   PinOff,
   Award,
-  ChevronRight,
   ArrowRight,
 } from 'lucide-react';
 import { useMascot } from '../../context/MascotContext';
@@ -41,6 +40,13 @@ export function MascotMenu({
   } = useMascot();
 
   const [searchQuery, setSearchQuery] = useState('');
+  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth < 640);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 640);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Live Multi-Search indexing Navigation, Actions, Topics, Vocab, and Questions
   const searchResults = useMemo(() => {
@@ -216,34 +222,50 @@ export function MascotMenu({
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.92, x: -10 }}
-      animate={{ opacity: 1, scale: 1, x: 0 }}
-      exit={{ opacity: 0, scale: 0.92, x: -10 }}
-      transition={{ duration: 0.18, ease: 'easeOut' }}
-      style={{
-        position: 'absolute',
-        top: '-16px',
-        left: '106px',
-        width: '320px',
-        maxWidth: 'calc(100vw - 120px)',
-        maxHeight: '85vh',
-        backgroundColor: '#FCFBF7',
-        border: '2.5px solid #1E4D3B',
-        borderRadius: '0px',
-        boxShadow: '5px 5px 0px #1E4D3B',
-        padding: '14px',
-        color: '#1E4D3B',
-        fontFamily: "'Pixelify Sans', monospace",
-        zIndex: 1050,
-        pointerEvents: 'auto',
-        overflowY: 'auto',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '12px',
-      }}
-      onClick={(e) => e.stopPropagation()}
-    >
+    <>
+      {isMobile && (
+        <div
+          onClick={onClose}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            backgroundColor: 'rgba(14, 59, 51, 0.45)',
+            zIndex: 1040,
+            backdropFilter: 'blur(2px)',
+          }}
+        />
+      )}
+      <motion.div
+        initial={isMobile ? { opacity: 0, y: 30, scale: 0.96 } : { opacity: 0, scale: 0.92, x: -10 }}
+        animate={isMobile ? { opacity: 1, y: 0, scale: 1 } : { opacity: 1, scale: 1, x: 0 }}
+        exit={isMobile ? { opacity: 0, y: 30, scale: 0.96 } : { opacity: 0, scale: 0.92, x: -10 }}
+        transition={{ duration: 0.18, ease: 'easeOut' }}
+        style={{
+          position: isMobile ? 'fixed' : 'absolute',
+          top: isMobile ? 'auto' : '-16px',
+          bottom: isMobile ? '16px' : 'auto',
+          left: isMobile ? '12px' : '106px',
+          right: isMobile ? '12px' : 'auto',
+          width: isMobile ? 'auto' : '320px',
+          maxWidth: isMobile ? '440px' : 'calc(100vw - 120px)',
+          margin: isMobile ? '0 auto' : undefined,
+          maxHeight: isMobile ? '80vh' : '85vh',
+          backgroundColor: '#FCFBF7',
+          border: '2.5px solid #1E4D3B',
+          borderRadius: '0px',
+          boxShadow: isMobile ? '4px 6px 0px #1E4D3B' : '5px 5px 0px #1E4D3B',
+          padding: '14px',
+          color: '#1E4D3B',
+          fontFamily: "'Pixelify Sans', monospace",
+          zIndex: 1050,
+          pointerEvents: 'auto',
+          overflowY: 'auto',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '12px',
+        }}
+        onClick={(e) => e.stopPropagation()}
+      >
       {/* Header Bar */}
       <div
         style={{
@@ -618,6 +640,7 @@ export function MascotMenu({
         </div>
       )}
     </motion.div>
+    </>
   );
 }
 

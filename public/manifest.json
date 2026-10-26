@@ -1,0 +1,22 @@
+{
+  "name": "LearnWithFun — Practice, Learn & Ace Any Topic",
+  "short_name": "LearnWithFun",
+  "description": "Interactive speech practice and learning web app with 3D lucky draw cylinder, interview prep, vocabulary, and deep research.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9F6EC",
+  "theme_color": "#1E4D3B",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "productivity"
+  ]
+}

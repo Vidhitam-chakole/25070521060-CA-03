@@ -99,6 +99,7 @@ function DropdownMenu({ items, selectedId, onSelect, onClose, headerTitle }) {
         boxShadow: '4px 4px 0px #1E4D3B',
         padding: '6px 4px 4px 4px',
         minWidth: '200px',
+        maxWidth: 'calc(100vw - 28px)',
         maxHeight: '260px',
         overflowY: 'auto',
       }}

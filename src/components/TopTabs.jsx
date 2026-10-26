@@ -24,17 +24,18 @@ export function TopTabs({ activeTab, onChangeTab }) {
     >
       <nav
         aria-label="Mode tabs"
+        className="no-scrollbar"
         style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: '10px',
+          gap: 'clamp(6px, 1.5vw, 10px)',
           flexWrap: 'wrap',
-          maxWidth: '96vw',
+          maxWidth: '100%',
           border: 'none',
           backgroundColor: 'transparent',
           boxShadow: 'none',
-          padding: '0 8px',
+          padding: '0 clamp(6px, 2vw, 12px)',
         }}
       >
         {TABS.map((tab) => {
@@ -53,9 +54,9 @@ export function TopTabs({ activeTab, onChangeTab }) {
                 display: 'inline-flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                padding: '9px 14px',
+                padding: 'clamp(7px, 1.8vw, 9px) clamp(10px, 2.2vw, 14px)',
                 borderRadius: '0px',
-                fontSize: 'clamp(9px, 2vw, 11px)',
+                fontSize: 'clamp(8.5px, 2vw, 11px)',
                 fontFamily: "'Press Start 2P', monospace",
                 fontWeight: isActive ? 700 : 400,
                 color: isActive ? '#1E4D3B' : '#4E6A5E',

@@ -434,6 +434,7 @@ export function DebateHub({ onSelectTopicForPractice }) {
 
         {/* Minimal Category Chips */}
         <div
+          className="no-scrollbar"
           style={{
             display: 'flex',
             gap: '6px',
