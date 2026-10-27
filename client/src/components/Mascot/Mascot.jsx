@@ -6,15 +6,13 @@ import { MascotBubble } from './MascotBubble';
 import { MascotMenu } from './MascotMenu';
 import { sound } from '../../utils/audio';
 
-export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnalysis, onOpenPoster }) {
+export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnalysis }) {
   const {
     isVisible,
     mood,
     setMood,
     isAsleep,
     stayPut,
-    wakeUp,
-    toggleSleep,
     bubble,
     say,
     dismissBubble,
@@ -166,7 +164,6 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
         actions: [
           { label: '🎲 Roll Prompt', primary: true, onClick: onTriggerSpin },
           { label: '⏱️ 60s Practice', onClick: () => onStartTimer?.() },
-          { label: '📊 CEO Poster', onClick: () => onOpenPoster?.() },
           { label: '🔍 Search Menu', onClick: () => setIsMenuOpen(true) },
         ],
       },
@@ -175,7 +172,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
         actions: [
           { label: '🎲 Spin Topic', primary: true, onClick: onTriggerSpin },
           { label: '🎤 Analyze Speech', onClick: () => onOpenAnalysis?.() },
-          { label: '📊 CEO Poster', onClick: () => onOpenPoster?.() },
+          { label: '⏱️ 60s Practice', onClick: () => onStartTimer?.() },
         ],
       },
       {
@@ -183,7 +180,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
         actions: [
           { label: '⚖️ Debate Hub', primary: true, onClick: () => onNavigateTab?.('debate-hub') },
           { label: '💼 Interview Prep', onClick: () => onNavigateTab?.('interview-prep') },
-          { label: '📊 CEO Poster', onClick: () => onOpenPoster?.() },
+          { label: '🎲 Roll Topic', onClick: onTriggerSpin },
         ],
       },
       {
@@ -191,14 +188,14 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
         actions: [
           { label: '⏱️ Start Timer', primary: true, onClick: () => onStartTimer?.() },
           { label: '🎲 New Topic', onClick: onTriggerSpin },
-          { label: '📊 CEO Poster', onClick: () => onOpenPoster?.() },
+          { label: '🎤 Analyze Speech', onClick: () => onOpenAnalysis?.() },
         ],
       },
       {
-        text: "Preparing for Monday's executive presentation? Check out our Digital Poster!",
+        text: "Tip: Vary your vocal pitch and pacing to keep your audience engaged and captivated!",
         actions: [
-          { label: '📊 Open Digital Poster', primary: true, onClick: () => onOpenPoster?.() },
-          { label: '🎲 Practice Prompt', onClick: onTriggerSpin },
+          { label: '🎲 Roll Prompt', primary: true, onClick: onTriggerSpin },
+          { label: '⏱️ 60s Practice', onClick: () => onStartTimer?.() },
           { label: '🔍 Search Menu', onClick: () => setIsMenuOpen(true) },
         ],
       },
@@ -680,7 +677,6 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
               onNavigateTab={onNavigateTab}
               onStartTimer={onStartTimer}
               onOpenAnalysis={onOpenAnalysis}
-              onOpenPoster={onOpenPoster}
             />
           )}
         </AnimatePresence>

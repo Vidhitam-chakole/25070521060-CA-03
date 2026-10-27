@@ -13,7 +13,6 @@ export function useMascotGuide({
   onNavigateTab,
   onStartTimer,
   onOpenAnalysis,
-  onOpenPoster,
 }) {
   const { currentUser } = useAuth();
   const nickname = currentUser?.nickname || currentUser?.username || 'Speaker';
@@ -80,12 +79,12 @@ export function useMascotGuide({
           autoDismiss: 5000,
           actions: [
             { label: '🎲 Roll Topic', primary: true, onClick: onTriggerSpin },
-            { label: '📊 CEO Poster', onClick: onOpenPoster },
+            { label: '⏱️ 60s Practice', onClick: onStartTimer },
           ],
         });
       }, 1200);
     }
-  }, [nickname, isVisible, isAsleep, say, setMood, onTriggerSpin, onOpenPoster]);
+  }, [nickname, isVisible, isAsleep, say, setMood, onTriggerSpin, onStartTimer]);
 
   // Reactive Spin Cheering
   const prevSpinningRef = useRef(false);
@@ -145,14 +144,14 @@ export function useMascotGuide({
         say(`Explore 107 real multi-turn debate topics from Hugging Face research, ${nickname}!`, {
           autoDismiss: 7000,
           actions: [
-            { label: '📊 CEO Poster', primary: true, onClick: onOpenPoster },
+            { label: '🎲 Spin Topic', primary: true, onClick: onTriggerSpin },
           ],
         });
       }
     }, 9000);
 
     return () => clearTimeout(hintTimeoutRef.current);
-  }, [activeTab, currentPage, isVisible, say, setMood, nickname, onTriggerSpin, onStartTimer, onOpenPoster]);
+  }, [activeTab, currentPage, isVisible, say, setMood, nickname, onTriggerSpin, onStartTimer]);
 
   // Reactive Timer Guidance
   const prevTimerRunningRef = useRef(false);

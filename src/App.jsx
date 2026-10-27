@@ -12,7 +12,6 @@ const UserProfileModal = lazy(() => import('./components/UserProfileModal').then
 const TimerPage = lazy(() => import('./components/TimerPage').then((m) => ({ default: m.TimerPage })));
 const SpeechAnalysisModal = lazy(() => import('./components/SpeechAnalysisModal').then((m) => ({ default: m.SpeechAnalysisModal })));
 const DebateHub = lazy(() => import('./components/DebateHub').then((m) => ({ default: m.DebateHub })));
-const DigitalPosterModal = lazy(() => import('./components/DigitalPosterModal').then((m) => ({ default: m.DigitalPosterModal })));
 
 function PixelLoader() {
   return (
@@ -82,7 +81,6 @@ function AppContent() {
   const [isMuted, setIsMuted] = useState(false);
   const [isAnalysisOpen, setIsAnalysisOpen] = useState(false);
   const [analysisTarget, setAnalysisTarget] = useState(null);
-  const [isPosterOpen, setIsPosterOpen] = useState(false);
 
   const [isSpinning, setIsSpinning] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -281,7 +279,6 @@ function AppContent() {
     onNavigateTab: handleTabChange,
     onStartTimer: handleStartTimer,
     onOpenAnalysis: handleOpenAnalysis,
-    onOpenPoster: () => setIsPosterOpen(true),
   });
 
   const { isAuthenticated } = useAuth();
@@ -326,14 +323,12 @@ function AppContent() {
             onNavigateTab={handleTabChange}
             onStartTimer={handleStartTimer}
             onOpenAnalysis={handleOpenAnalysis}
-            onOpenPoster={() => setIsPosterOpen(true)}
           />
 
           {/* Top Player HUD with Nickname & Mongo Status */}
           <header style={{ paddingTop: '12px' }}>
             <PlayerHud
               onReplayIntro={() => setShowVideoIntro(true)}
-              onOpenPoster={() => setIsPosterOpen(true)}
             />
             <TopTabs activeTab={activeTab} onChangeTab={handleTabChange} />
           </header>
@@ -458,12 +453,6 @@ function AppContent() {
             onClose={() => setIsAnalysisOpen(false)}
             topicData={analysisTarget}
             onTryAgain={handleSpin}
-          />
-
-          {/* Digital Poster Modal (CEO Showcase) */}
-          <DigitalPosterModal
-            isOpen={isPosterOpen}
-            onClose={() => setIsPosterOpen(false)}
           />
         </>
       )}
