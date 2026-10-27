@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 import authRoutes from './routes/auth.js';
 import discussionRoutes from './routes/discussions.js';
 import historyRoutes from './routes/history.js';
+import { seedDebateTopicsIfEmpty } from './utils/autoSeed.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -104,6 +105,11 @@ async function startServer() {
     });
     console.log('✅ Connected successfully to MongoDB (database: learnwithfun)!');
     console.log('📊 Storing and verifying credentials in MongoDB Compass.');
+
+    // Auto-seed predefined debate dataset if collection is empty
+    seedDebateTopicsIfEmpty().catch((err) => {
+      console.warn('⚠️ Auto-seed check warning:', err.message);
+    });
 
     const server = app.listen(PORT, '0.0.0.0', () => {
       console.log(`🚀 LearnWithFun Node.js server running on port ${PORT} (http://0.0.0.0:${PORT})`);

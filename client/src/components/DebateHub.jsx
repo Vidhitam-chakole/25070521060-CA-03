@@ -17,18 +17,30 @@ import {
 } from 'lucide-react';
 import { SessionRatingSection } from './SessionRatingSection';
 import { sound } from '../utils/audio';
+import { DEBATE_TOPICS_FALLBACK } from '../data/debateTopicsFallback';
 
-const SERVER_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const RAW_ENV_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const SERVER_BASE =
+  RAW_ENV_URL ||
+  (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app')
+    ? 'https://exploreandlearn.onrender.com'
+    : '');
 const API_BASE = SERVER_BASE ? `${SERVER_BASE}/api/discussions` : '/api/discussions';
 const DIRECT_API_BASE = SERVER_BASE ? `${SERVER_BASE}/api/discussions` : 'http://localhost:5000/api/discussions';
 
-// Resilient fetch helper for debate topics
+// Resilient fetch helper for debate topics with timeout
 const debateFetch = async (endpoint = '', options = {}) => {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 8000);
+  const fetchOptions = { ...options, signal: controller.signal };
+
   try {
-    const res = await fetch(`${API_BASE}${endpoint}`, options);
+    const res = await fetch(`${API_BASE}${endpoint}`, fetchOptions);
+    clearTimeout(timeoutId);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
   } catch (primaryErr) {
+    clearTimeout(timeoutId);
     if (API_BASE !== DIRECT_API_BASE) {
       try {
         const directRes = await fetch(`${DIRECT_API_BASE}${endpoint}`, options);
@@ -94,20 +106,84 @@ export function DebateHub({ onSelectTopicForPractice }) {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  // Fetch Stats on mount
+  // Helper to filter and paginate predefined fallback topics
+  const getFallbackTopics = useCallback(() => {
+    let list = [...DEBATE_TOPICS_FALLBACK];
+
+    if (selectedCategory && selectedCategory !== 'All') {
+      list = list.filter((t) => t.category === selectedCategory);
+    }
+
+    if (debouncedQuery.trim()) {
+      const q = debouncedQuery.trim().toLowerCase();
+      list = list.filter(
+        (t) =>
+          t.topic?.toLowerCase().includes(q) ||
+          t.category?.toLowerCase().includes(q) ||
+          (t.tags && t.tags.some((tag) => tag.toLowerCase().includes(q))) ||
+          (t.sampleExcerpts && t.sampleExcerpts.some((ex) => ex.toLowerCase().includes(q))) ||
+          (t.initialOpinions && t.initialOpinions.some((op) => op.text?.toLowerCase().includes(q)))
+      );
+    }
+
+    if (selectedSort === 'turns') {
+      list.sort((a, b) => (b.totalTurns || 0) - (a.totalTurns || 0));
+    } else if (selectedSort === 'alpha') {
+      list.sort((a, b) => a.topic.localeCompare(b.topic));
+    } else {
+      // 'popular'
+      list.sort((a, b) => (b.totalTurns || 0) - (a.totalTurns || 0));
+    }
+
+    const total = list.length;
+    const totalPages = Math.max(1, Math.ceil(total / limit));
+    const safePage = Math.min(page, totalPages);
+    const startIndex = (safePage - 1) * limit;
+    const paginated = list.slice(startIndex, startIndex + limit);
+
+    return {
+      topics: paginated,
+      pagination: {
+        total,
+        page: safePage,
+        limit,
+        totalPages,
+        hasNext: safePage < totalPages,
+        hasPrev: safePage > 1,
+      },
+    };
+  }, [debouncedQuery, selectedCategory, selectedSort, page, limit]);
+
+  // Fetch Stats on mount with instant fallback
   useEffect(() => {
+    const fallbackTurns = DEBATE_TOPICS_FALLBACK.reduce((acc, t) => acc + (t.totalTurns || 0), 0);
+    const fallbackConversations = DEBATE_TOPICS_FALLBACK.reduce((acc, t) => acc + (t.conversationCount || 1), 0);
+
     debateFetch('/stats')
       .then((data) => {
-        if (data.success) {
+        if (data && data.success && data.stats && data.stats.totalTopics > 0) {
           setStats(data.stats);
+        } else {
+          setStats({
+            totalTopics: DEBATE_TOPICS_FALLBACK.length,
+            totalDebateTurns: fallbackTurns,
+            totalConversations: fallbackConversations,
+            source: 'debatellm/DEBATE',
+          });
         }
       })
       .catch((err) => {
-        console.warn('Could not load stats:', err.message);
+        console.warn('Could not load remote stats, using fallback stats:', err.message);
+        setStats({
+          totalTopics: DEBATE_TOPICS_FALLBACK.length,
+          totalDebateTurns: fallbackTurns,
+          totalConversations: fallbackConversations,
+          source: 'debatellm/DEBATE',
+        });
       });
   }, []);
 
-  // Fetch Topics from MongoDB
+  // Fetch Topics from MongoDB with seamless predefined fallback
   const fetchTopics = useCallback(async () => {
     setIsLoading(true);
     setError(null);
@@ -126,28 +202,40 @@ export function DebateHub({ onSelectTopicForPractice }) {
       }
 
       const data = await debateFetch(`?${params.toString()}`);
-      if (data.success) {
-        setTopics(data.topics || []);
-        setPagination(
-          data.pagination || {
-            total: 0,
-            page: 1,
-            limit: 6,
-            totalPages: 1,
-            hasNext: false,
-            hasPrev: false,
-          }
-        );
+      if (data && data.success && Array.isArray(data.topics)) {
+        if (data.topics.length === 0 && !debouncedQuery.trim() && selectedCategory === 'All') {
+          // MongoDB Atlas is connected but unseeded! Trigger background seed & serve predefined dataset
+          debateFetch('/seed').catch(() => {});
+          const fallbackData = getFallbackTopics();
+          setTopics(fallbackData.topics);
+          setPagination(fallbackData.pagination);
+        } else {
+          setTopics(data.topics);
+          setPagination(
+            data.pagination || {
+              total: data.topics.length,
+              page: 1,
+              limit: 6,
+              totalPages: 1,
+              hasNext: false,
+              hasPrev: false,
+            }
+          );
+        }
       } else {
-        throw new Error(data.message || 'Failed to fetch discussions');
+        throw new Error(data?.message || 'Failed to fetch discussions');
       }
     } catch (err) {
-      console.error('Error fetching debate topics:', err);
-      setError('Could not connect to MongoDB database (learnwithfun).');
+      console.warn('Debate topics live fetch error, rendering predefined dataset:', err.message);
+      // Trigger background seed in case server woke up
+      debateFetch('/seed').catch(() => {});
+      const fallbackData = getFallbackTopics();
+      setTopics(fallbackData.topics);
+      setPagination(fallbackData.pagination);
     } finally {
       setIsLoading(false);
     }
-  }, [debouncedQuery, selectedCategory, selectedSort, page, limit]);
+  }, [debouncedQuery, selectedCategory, selectedSort, page, limit, getFallbackTopics]);
 
   useEffect(() => {
     fetchTopics();
@@ -202,11 +290,16 @@ export function DebateHub({ onSelectTopicForPractice }) {
     }
     try {
       const data = await debateFetch('/random');
-      if (data.success && data.topic && onSelectTopicForPractice) {
+      if (data && data.success && data.topic && onSelectTopicForPractice) {
         onSelectTopicForPractice(data.topic.topic, 'random');
+        return;
       }
     } catch (err) {
-      console.error('Error picking random topic:', err);
+      console.warn('Error picking remote random topic, picking from predefined topics:', err.message);
+    }
+    if (DEBATE_TOPICS_FALLBACK.length > 0 && onSelectTopicForPractice) {
+      const randTopic = DEBATE_TOPICS_FALLBACK[Math.floor(Math.random() * DEBATE_TOPICS_FALLBACK.length)];
+      onSelectTopicForPractice(randTopic.topic, 'random');
     }
   };
 

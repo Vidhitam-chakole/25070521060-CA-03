@@ -1,0 +1,6843 @@
+// Predefined static fallback for the debatellm/DEBATE dataset (107 topics)
+// Ensures instant rendering on Vercel even when Render backend is sleeping or spinning up.
+
+export const DEBATE_TOPICS_FALLBACK = [
+  {
+    "topicId": "regular_fasting_will_improve_your_health",
+    "topic": "Regular fasting will improve your health",
+    "category": "Health & Wellness",
+    "topicType": "depth",
+    "conversationCount": 3,
+    "totalTurns": 675,
+    "initialOpinions": [
+      {
+        "workerId": "65bfa5XYRT",
+        "text": "I truly believe regular fasting does improve your health. There are many studies that prove intermittent fasting is great for you.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6414d5XYRT",
+        "text": "Your body will burn through more stored fat and convert it into energy while fasting. This will help improve your overall health and help you lose weight.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "63d565XYRT",
+        "text": "I don't think that fasting itself is particularly helpful to your health though it is used as a weight loss technique and is beneficial in that way.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "661ea5XYRT",
+        "text": "Depending on your age, regular fasting certainly can help your health. Eating later in the day can kickstart your metabolism and cause the body to burn more calories. Generally yes, regular fasting is a good approach to health.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "663e2P1FBD",
+        "text": "Fasting can improve health.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66d95P1FBD",
+        "text": "I dont think regular fasting improves your health. It seems like depriving your body of food for extended periods of time may be unhealthy. Our body regularly needs nutrients throughout the day to function.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe the statement to be generally true. Fasting can improve health, as causing the body to burn more calories before consuming food can kickstart one's metabolism daily. Getting in a regular schedule of fasting and maintaining it is the key",
+      "I think fasting is good for you as it will help your body burn off stored fat into energy. This will also improve your blood pressure and put you in overall better health. Again, it needs to be controlled as you do not want to hurt yourself by not eating.",
+      "I think regular fasting/intermittent fasting is great for your health, especially if you are somebody trying to actively lose weight. Fasting is also great if you are somebody, like myself, who struggles with insulin sensitivity.",
+      "I believe regular fasting can improve a persons health however, it depends on the health needs of the person. I cannot do regular fasting because my needs for nutrition on a specific schedule won't allow for it. I will have problems if I do.",
+      "Follow me to find out more about how regular fasting will improve your health! Practiced by many cultures and individuals for centuries and longer, there are many known health benefits, like an easy way to control your weight, and balance hormones!",
+      "I feel like fasting is unhealthy. Depriving your body of food for extended periods of time doesn't seem optimal. Our bodies need fuel in the form of food through out the day and not eating can lead the fatigue and lack of nutrients which ultimatley is detrimental"
+    ],
+    "tags": [
+      "health & wellness",
+      "regular",
+      "fasting",
+      "will",
+      "improve",
+      "health"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_united_states_is_being_governed_democratically_today",
+    "topic": "The United States is being governed democratically today",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 674,
+    "initialOpinions": [
+      {
+        "workerId": "596a4NBY3C",
+        "text": "The US is obviously being governed deomcratically today, just as it has been for over 200 years.  While politics has certainly become more polarized, and we've seen increasing abuse of power by radical activist judges in the judicial branch, the US remains the most successful democracy in the history of the world.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5b9ddNBY3C",
+        "text": "I do not believe the US is being governed democratically today. I believe that money and fiscal disparity has made the US into more of an oligarchy than it was ever meant to be, and the average person has little to no say in how the country is run.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66f02NBY3C",
+        "text": "I lean towards agree because it still face challenges  like political polarization and voting restriction in some state",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66834NBY3C",
+        "text": "The United States is being governed democratically still, despite the fear mongering in the media. There will always be things that Americans do not agree on and that is why we have our voices in a Democracy. I believe in the system of checks and balances that the foundin",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f20508RE",
+        "text": "I have selected lean agree because most of the people in the government are democrats.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "61592508RE",
+        "text": "In the blanket statement, yes because we vote in our leader, we have elections. To others (like me) we feel it is not being democratically held. So many things are going into our elections that we arent sure about. Like the influence of money, voter suppression and more.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "The US is being governed democratically today, just as it has been for over 200 years. Although we've seen increasing abuse of discretion by activist judges in the judicial branch, our leaders are still elected democratically, and we remain the most successul democracy in history",
+      "I do not believe the US is being run democratically today. I believe that money equals power in the US and the disparity in wealth between the average person and the people in power has made the average person have little to no say in how the country is run.",
+      "The United States is still being governed democratically, despite the fear mongering in the media. I believe in the system of checks and balances setup by our founding fathers, and if something is not legal I firmly believe justice will always play out in our current Democracy.",
+      "I do not believe that the united states is FULLY democratically governed. There are many reasons why I feel this way, but the main few would be voter suppression, the electoral sometimes makes us feel less democratic and money in politics.",
+      "yes it still exist but its  hanging on the thread considering money in politics and voter misinformation and suppression.",
+      "I think the united states is a good example of a democratic country because all the citizens vote for their leaders. We elect the leaders ourselves including the president."
+    ],
+    "tags": [
+      "society & politics",
+      "united",
+      "states",
+      "being",
+      "governed",
+      "democratically",
+      "today"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "belonging_to_a_wealthy_family_is_important_for_getting_ahead_in_life",
+    "topic": "Belonging to a wealthy family is important for getting ahead in life",
+    "category": "Economy & Finance",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 668,
+    "initialOpinions": [
+      {
+        "workerId": "66200X129T",
+        "text": "I feel that anyone can get ahead in life if they work hard enough. Sure, having a wealthy family can help give you a head start, but I don't believe that it's the only way to land a job that you love that earns you plenty of money.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67e20X129T",
+        "text": "It offers advantages in getting ahead in life, although it's not the only factor",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ef9X129T",
+        "text": "With a wealthy family, one has chance of getting the best education and also meeting well known people. It",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "673a1X129T",
+        "text": "I believe there is a good chance that you can get ahead in life if you come from a wealthy family.  It is possible that you won't have to deal with many of the financial struggles that most people have to deal with - I mean housing, food and me",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "649d8065Z6",
+        "text": "I would probably agree because money is so very important.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66cfd065Z6",
+        "text": "I think it helps to belong to a wealthy family but it isn't required. There are plenty examples of people who overcame poverty to leave a mark on the world.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "It is beneficial if it helps families to lead fulfilling lives and to explore their potential as human beings",
+      "I believe there is some truth to this statement.",
+      "While belonging to a wealthy family can certainly help a person to succeed, I don't believe that it is the only important factor. Hard work and perseverance can also help someone to work their way to the top, no matter how little wealth they start with.",
+      "If \"getting ahead\" means having nice material things then yeah, it helps to have a wealthy family. But only if they give you money as an adult!",
+      "I think its unfortunately true. I was born poor, and was luckily adopted. My story is not unique and many suffer without help from the rich. It is possible but unlikely to succeed without initial wealth of some degree..",
+      "Belonging to a wealthy family is a very important part of getting ahead in life. Money determines so much in our society and you can do almost anything if you have enough of it. You wouldn't even have to work as hard as others and could have the start to having a great life."
+    ],
+    "tags": [
+      "economy & finance",
+      "belonging",
+      "wealthy",
+      "family",
+      "important",
+      "getting",
+      "ahead",
+      "life"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "knowing_the_right_people_is_important_for_getting_ahead_in_life",
+    "topic": "Knowing the right people is important for getting ahead in life",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 655,
+    "initialOpinions": [
+      {
+        "workerId": "668bf7WQ9W",
+        "text": "knowing your right will help you navigate serious situations effectively and efficiently",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67ec47WQ9W",
+        "text": "Nowadays everything comes with good connection and networking. Thus good networking will make you succeed",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "62b9c7WQ9W",
+        "text": "Getting ahead is life is dependent on the individual an duo necessarily the right people. One can know important people and still choose not to work hard enough to achieve goals.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "668037WQ9W",
+        "text": "I agree with this statement. I have received employment from knowing managers and higher ups in the company along with my experience in said role/career.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67168B59MT",
+        "text": "It is mostly impossible to get ahead without the right connections. However some have gotten lucky before",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e6eB59MT",
+        "text": "I agree with the statement. Personally after my degree I need to know the right people to get a job where I did. I am a living testimony of that statement",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Knowing you right will help you navigate life struggles and difficult situations",
+      "The statement is not necessarily true, one has to be determined and work hard to succeed",
+      "I agree with this statement to a degree. I have received employment with a company by knowing managers and higher ups in said company. But I also was qualified for the role/position.",
+      "I believe it. It's nearly impossible to get ahead without knowing the right people. Especially now. There are so many people it's hard to shine above and get the fame usually needed to succeed.",
+      "Knowing the right people can change everything. Doors open, lessons are learned, and support is solid. You grow together, learn together and are better together. The right connections allow you so many opportunities.",
+      "Knowing the right people is important for getting ahead in life. Certain people can provide you with job opportunities or write recommendations for you. Knowing the right people is also important when you encounter set backs because they can help you until you get back on track."
+    ],
+    "tags": [
+      "general discussions",
+      "knowing",
+      "right",
+      "people",
+      "important",
+      "getting",
+      "ahead",
+      "life"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "competition_is_good",
+    "topic": "Competition is good",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 638,
+    "initialOpinions": [
+      {
+        "workerId": "5db0eG55HY",
+        "text": "I think it can be good and bad",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67e6dG55HY",
+        "text": "certainly agree",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66338G55HY",
+        "text": "Competition is good because it allows incentives to be at peak performance during a competition.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66515G55HY",
+        "text": "I feel like it depends on the situation. There are some situations where competition is good because it pushes people to try really hard and do their best, or provide really good service and stuff, but sometimes competition just puts unneeded pressure on people and makes things that should be fun/fulfilling by themself feel like they don't have value unless you're \"the best\" (like art and stuff). It can turn something that once felt nice into something that feels miserable for no reason. I also think it might add to greed and stuff.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "661437JZEE",
+        "text": "Competition gives people drive to do better and deliver higher standards",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "663147JZEE",
+        "text": "Competition is good. I believe it brings out the best in people and pushes you to do things you may not have otherwise thought you were able to do",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Without competition, a person does not have the motivation to strive for their personal best. Competition promotes the desire to achieve.",
+      "I think whether competition is good or not depends on the context/situation. Sometimes it encourages people to do really well, but sometimes it just puts pressure and stress on people, and there are circumstances where that's harmful. I guess it depends. Overall, I don't love it.",
+      "I believe competition is good. If you have a healthy competition especially at work, it can help in elevating you in areas you are lagging behind.",
+      "I believe competition is good. It can help lead to growth esp if you push your own limits",
+      "Competition helps to get the best service, product, or goods. Competition ensures quality is kept.",
+      "I believe Competition is good has scientific facts stating why it is good. It builds character and helps you to want to do better. knowing how to lose is something you need in life. You can't always win in life so competiotions are a great way to help with t"
+    ],
+    "tags": [
+      "general discussions",
+      "competition",
+      "good"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "everything_that_happens_can_eventually_be_explained_by_science",
+    "topic": "Everything that happens can eventually be explained by science",
+    "category": "Science & Technology",
+    "topicType": "depth",
+    "conversationCount": 3,
+    "totalTurns": 637,
+    "initialOpinions": [
+      {
+        "workerId": "5ba8eHHG9D",
+        "text": "I think the universe is too complex to be fully explainable by science eventually. I think it's a bit presumptuous and arrogant to think our finite brains can really fully explain an infinite universe. We can't even fully explain the world around us, let alone other worlds, solar systems, galaxies, and so on.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "60712HHG9D",
+        "text": "I disagree. I think there is a lot of stuff out there we don't know about. The brain isn't powerful enough to figure it out.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67bb6HHG9D",
+        "text": "I think I disagree with the believe that everything that happens can be explain by science because supernatural things happens that no one can explain.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67aa9HHG9D",
+        "text": "Due to gradually evolving our daily de",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d71QXESM",
+        "text": "AGREE",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67437QXESM",
+        "text": "I agree with this statement and the more we learn the more we understand",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I really don't think everything can be explained by science just because we, as fallible and limited humans with limited brains cannot conceivably comprehend an infinite universe and all its complexities. Answered questions just lead to more questions. Not that we shouldn't try.",
+      "I don't think everything can be explained by science. I think there is a lot of stuff out there that we don't know or that the brain can't figure out. Stuff like how the world got created I don't think can ever be figured out. They can think it was by the big bang but what caused",
+      "I believe there are somethings that can never be explained by science and an example is the creation of human and how life enters into a foetus",
+      "I think it's true that science can explain everything. Science has a good track record of explaining questions from the past.",
+      "Everything can be categorized into two groups, understood by science and not understood by science. Things that are not understood by science can have a model and theories built surrounding them to explain why they are the way they are until we understand more.",
+      "There has been many aspects that are explained by science within reasoning such as gravity, law of attraction, quantum physics, ect, therefor my belief is that this statement is fundamentally correct."
+    ],
+    "tags": [
+      "science & technology",
+      "everything",
+      "happens",
+      "eventually",
+      "explained",
+      "science"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_us_deficit_increased_after_president_obama_was_elected",
+    "topic": "The US deficit increased after President Obama was elected",
+    "category": "Society & Politics",
+    "topicType": "depth",
+    "conversationCount": 3,
+    "totalTurns": 636,
+    "initialOpinions": [
+      {
+        "workerId": "60ed850MCJ",
+        "text": "I would think that Obamacare subsidized healthcare to some extent which would increase government spending.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5ffb850MCJ",
+        "text": "I heard that the deficit decreased after his presidency. I don't have the numbers on hand but I do believe it went down.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "674fd50MCJ",
+        "text": "I read something that stated that the economy, including the deficit, did better under every Democratic president in the last like 40 years. So no, it did not increase after Obama was elected.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d6f50MCJ",
+        "text": "Yes the defic",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "57dd11ES18",
+        "text": "Obama was elected right after the financial crisis hit.  Unemployment went up and tax revenue went down.  Government bailed out a lot of industries like banks.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5fd801ES18",
+        "text": "I am not expert about that but he was a successful president. So, I disagree with that.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don't believe this is true. I've read something that the economy did better and deficit decreased with every Democratic President and the reverse is true for Republican Presidents over the past 40ish years.",
+      "The deficit spike post Obama era was complex mix. Post existing crisis plus stimulus-huge number",
+      "I would think that Obamacare subsidized peoples healthcare insurance which would have increased government spending more than some new taxes would have made up for it. In other words deficit spending increased in that area.",
+      "He came in it in the Great Recession, and had to implement stimulus plans so of course it increased. But, by the time he was out it had dropped.",
+      "Obama is very smart. He is Harvard alumni. So, I don't think that he did wrong and the deficit increased in his term.",
+      "In general, the deficit has increased with every US President since the budget was last balanced under Clinton in 2000.  Also, there was the US financial crisis in October of 2008.  It led to a lot of unemployment which resulted in a loss of tax revenue.  Spending went up bailout"
+    ],
+    "tags": [
+      "society & politics",
+      "deficit",
+      "increased",
+      "after",
+      "president",
+      "obama",
+      "was",
+      "elected"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "in_the_united_states_most_politicians_are_corrupt",
+    "topic": "In the United States, most politicians are corrupt",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 631,
+    "initialOpinions": [
+      {
+        "workerId": "57cebDHVTR",
+        "text": "I would say most politicians are corrupt but a lot are.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "62dc6DHVTR",
+        "text": "I feel like most politicians aren't corrupt in today's USA because it's too hard to get away with it. Today's technology leaves you liable to being exposed any second and like I find it hard that politicians will be reelected if they are infact corrupt.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67d07DHVTR",
+        "text": "NOT ALL US politician are corrupt. some are, but many genuinely serve. #politics",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67db4DHVTR",
+        "text": "I disagree with that, most politicians are corrupt, while there are cases of corruption",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66a07BENF6",
+        "text": "I feel most politicians are corrupt, there are many cases where politicians on both sides commit atrocities and for financial gain.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66a02BENF6",
+        "text": "I agree I think in one way or another most politicians are corrupt. Bribes and unethical and illegal lobbying is definitely apart of United States Politics.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Most politicians in the United States are not corrupt because they'll be easily exposed as being corrupt in today's day and age with social media. I also feel like politicians that are corrupt are rare as they need to climb the ladder to power without being exposed as being it.",
+      "i wouldn't say most politicians are corrupt but a lot are. An example would be all the insider trading that happens in Congress. Plus all the PAC money that a lot of them take.",
+      "not all us pilitician are corrupt. some are, but many genuinely serve. there are certainly cases of corruption but many officials",
+      "It's been proven time and time again that politicians on both sides are extremely corrupt. I feel that way because the United States as a super power has taken advantage of the natural resources of other countries while we have those resources available here.",
+      "I think most politicians are corrupt in the US because of the endorsements they get during campaigns. They have to pay for these favors in one way or another once they win and this is where corruption comes in. Also insider trading can be a form of corruption.",
+      "I don’t believe most U.S. politicians are corrupt, but the system they operate in is deeply flawed. Lobbying, campaign financing, and party politics often push even good people to make compromised choices."
+    ],
+    "tags": [
+      "general discussions",
+      "united",
+      "states",
+      "most",
+      "politicians",
+      "corrupt"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "spread_of_nuclear_weapons_poses_the_greatest_threat_to_the_world",
+    "topic": "Spread of nuclear weapons poses the greatest threat to the world",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 628,
+    "initialOpinions": [
+      {
+        "workerId": "65bfaRS4QZ",
+        "text": "I definitely agree that the spread of nuclear weapons poses a great threat to the world. Nobody should have the power to wipe out entire nations or large portions of the world. It's ridiculous.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67021RS4QZ",
+        "text": "I think there are other threats to consider such as the threat of endless war or the threat of endless corruption or the threat of endless inflation.  I'm not sure this is the GREATEST threat and I'm not sure how a person would measure what is the greatest versus the 2nd greatest or 3rd greatest.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67353RS4QZ",
+        "text": "I think the spread of nuclear weapons would be extremely dangerous. I don't think it is necessary for countries to have access to such a powerful weapon.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "669a9RS4QZ",
+        "text": "yes because Russia has nuclear weapons and they are at war right now with Ukraine and it could get very ugly. same way with israel",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "61115RQ3P2",
+        "text": "I think the spread of nuclear weapons does pose a threat because it raises the chances of conflict or misuse, eps",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e81RQ3P2",
+        "text": "The spread of nuclear weapons is one of the greatest threats to the world. More actors with nukes = sumore chances for accidents, miscalculations, or conflicts that could go global.nuclear weapons could end civilization in minutes, not decades. The speed and scale of destruction makes them uniquely dangero",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "yes because Russia has them and could use against Ukraine i think.",
+      "I do believe the spread of nuclear weapons is a great threat to the world. I do not believe anybody should have, or needs, that power.",
+      "I think the spread of nuclear weapons is extremely dangerous. It can result in a huge world war.",
+      "it increases the risk of devastating conflict,accidents or misuse",
+      "Once one country possesses nuclear weapons, other countries will race to create them too,, which can result in mutually assured destruction, such as was feared during the nuclear arms race in the past. Nobody can possess nuclear weapons or everyone will want to.",
+      "I think the spread of nuclear weapons is a threat to the global climate because it raises the chances of conflict or misuse, especially in unstable regions. With more countries gaining access, it just feels like the risk to global security slowly increases as well."
+    ],
+    "tags": [
+      "general discussions",
+      "spread",
+      "nuclear",
+      "weapons",
+      "poses",
+      "greatest",
+      "threat",
+      "world"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_is_a_characteristic_of_democracy_for_the_army_to_take_over_when_the_governmen",
+    "topic": "It is a characteristic of democracy for the army to take over when the government is incompetent",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 626,
+    "initialOpinions": [
+      {
+        "workerId": "633b8NN0T9",
+        "text": "It depends what the army deems incompetent. It depends on their intentions.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "646a7NN0T9",
+        "text": "I do not agree with the statement. It is not a characteristic of the government to take over.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5fb34NN0T9",
+        "text": "I dont agree. To me, the core characteristic of democracy is the will of the people. In a situation where the government is incompetent, it is the responsibility of the constituents being governed to take action, not the army.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "66807NN0T9",
+        "text": "It is not a characteristic of democracy for the army to take over when the government is incompetent.  Replacing the government should be handled by the people, in",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "673a4N189R",
+        "text": "I disagree with the statement. It is the opposite of democracy. People can vote to remove incompetent leaders",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6510eN189R",
+        "text": "I don't think it's a characteristic. On occasions it has happened. I see it more of a characteristic of an oppressive government, or a dictatorship.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "No, it is not a characteristic of democracy for a military coup to take over.  That defeats democracy",
+      "It depends on what the army deems incompetent, and what their intentions are. If their intentions are truly matching the values of democracy and their actions match their intentions, then perhaps it is a characteristic of democracy for the army to take over when the government ..",
+      "The army isn't intended to take over if a government is incompetent. The statement is a bit confusing though, are we talking about an army taking over it's own government? That is definitely not the intended use of military. Is it taking over another country, then possibly.",
+      "I disagree. In fact, it is the opposite of democracy. People can vote to remove bad leaders.",
+      "This is not true at all. Who would be in charge of the army now running the \"democracy?\" It sounds more like a dictatorship if the military is taking over. Instead, a democracy would replace incompetent politicians through elections.",
+      "Hello, I don't really see the army taking over in a democracy. My history is not very good, but I can't think of recent times where a democratic government has gotten so bad that the army had to take over. I see this more with bad 3rd world governments."
+    ],
+    "tags": [
+      "society & politics",
+      "characteristic",
+      "democracy",
+      "army",
+      "take",
+      "over",
+      "when",
+      "government",
+      "incompetent"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "suicide_can_be_justified",
+    "topic": "Suicide can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 624,
+    "initialOpinions": [
+      {
+        "workerId": "67e6eFHYRY",
+        "text": "very bad this idea",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5fa4cFHYRY",
+        "text": "Suicide can be justified; the caveat with this is, it's not really ... \"appropriate\" to label this act as \"suicide,\" when the person who undertook the action, hadn't, for frivolous / narcissistic / random reasons.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "662fbFHYRY",
+        "text": "There are certain illnesses that guarantee a low quality of life. Patients should not be forced to suffer because other people don't like the idea of suicide. Also this is an issue of individual autonomy.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "64135FHYRY",
+        "text": "I think suicide can be justified if they can't go on in life. Some people can't afford to live or eat if they lose their jobs that pays their bills.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5ebe1DFW9E",
+        "text": "People have multiple reasons as to why they want to commit suicide. It's sad but it is not our place to judge.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "596a4DFW9E",
+        "text": "Suicide can never be justified.  The taking of an innocent life is always wrong.  It would be different if it were someone guilty of a heinous crime, but not of the innocent.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "There are certain illnesses that make having a quality of life almost impossible. Patients should not have to suffer because of the views of other people who don't have this illness. Also individual autonomy is very important and should extend to all areas.",
+      "It's not as if I'm, exactly, *thrilled* to be a proponent of self-euthanizing.\n\n I don't take this course of action lightly.  I view this as being a Last Resort. The reality is, life is painful.  \n\nAnd, life is not fair.  Why prolong someone's pain, needlessly?",
+      "Yes, I do think suicide can be justified if people can't move on or forward on in life. If people lose their jobs they can't afford their bill or afford to live and they also might lose their house in a foreclosure process. It is devastating they mig",
+      "Suicide can never be justified.  Killing is alwyas wrong when we're considering killing the innocent (including the unborn).  Killing can only be justified if it's of the guilty of a heinous crime (capital punishment).",
+      "I feel that this statement is true. We don't what someone else may be going through or why they want to commit suicide so at the end of the day, it's not really no one's place to judge.",
+      "I do believe that suicide can be justified in certain situations. Many people who have a terminal illness don't want to have to suffer through what that illness brings and would rather die with dignity. They would rather go out on their own terms. I can't think of other situation"
+    ],
+    "tags": [
+      "ethics & law",
+      "suicide",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "tv_news_favors_the_governing_party_in_general",
+    "topic": "TV news favors the governing party in general",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 620,
+    "initialOpinions": [
+      {
+        "workerId": "64091WRSDT",
+        "text": "I disagree. The news is supposed to be an unbiased provider of relevant and factual happenings in the world and to say that they favor whatever political party is in power is completely false.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "676f6WRSDT",
+        "text": "TV news favors whoever the billionaires that own the media outlet want. The large media outlets are owned by like six people.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67f17WRSDT",
+        "text": "They do favour at some point because they would need some recognition.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e4fWRSDT",
+        "text": "in fear of power i support this",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f10AQ429",
+        "text": "yrs i agree with it",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66157AQ429",
+        "text": "I don't think this is necessarily the case",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "This is false! The media is supposed to be an unbiased source of relevant and factual happenings. To say that a favor whatever governing party is in Power is an outright lie.",
+      "many tv outlets especially state funded pr closely regulated ones tend to favour the rulling party to maintain access and funding and sometime to avoid political backclash",
+      "Yes it is true since many tv news gain recognition through governing parties",
+      "TV news doesn't necessarily favor the governing party...it depends on who they are",
+      "This statement is too general so I disagree with it.  Some TV news outlets favor the governing party and some oppose it.  It really just depends on which TV news outlet you are watching.  They are all biased one way or the other.",
+      "I believe this statement holds some truth. TV news often reflects the political leanings or pressures of the governing party, whether through editorial choices, framing, or access. Governments may have a subtle (or not-so-subtle) influence on the media landscape, especially in st"
+    ],
+    "tags": [
+      "general discussions",
+      "news",
+      "favors",
+      "governing",
+      "party",
+      "general"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "there_is_abundant_corruption_in_the_united_states",
+    "topic": "There is abundant corruption in the United States",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 616,
+    "initialOpinions": [
+      {
+        "workerId": "5a3bdHVN9H",
+        "text": "There definitely is abundant corruption. For example, politicians engage in insider trading. Many politicians have also been indicted for bribery.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e85HVN9H",
+        "text": "it is everywhere",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e71HVN9H",
+        "text": "Yes there is abundant corruption in the united states. the reason i believe that there is abundant corruption is that in most case to gain something you have give something in return. the varies in different settings",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d75HVN9H",
+        "text": "There is truly an abundant corruption in United States because they recently accused USA of funding terrorism in another country. That is only possible without the involvement of",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6.699",
+        "text": "of course there's corruption everywhere in this country",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66294.0",
+        "text": "There are definitely issues with speaking freely on some platforms. Politicians putting money in their pockets a lot of times instead of addressing real issues like infrastructures.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I feel that abundant corruption exists in the United States, and I am entirely sure about that. For example, there have been many reports of insider trading and bribery schemes with politicians. There is also a lot of corruption when it comes to owners of large companies.",
+      "i believe there is abundant corruption in the united states because in most situations on has to provide something in return for  something. this varies across different setting even in social settings. the sosciety is focused on what we give mothing is free",
+      "whu do you believe so i can see we agree on the issue",
+      "There's lots of corruption in this country. Anyone who doesn't believe this is probably delusional. Open your eyes and pay attention. It's right there, not even trying to hide in plain sight.",
+      "There is some level of corruption in every structure here n US. Especially in politics, where lobbyists just doing everything to push their agendas and how laws are enforced unevenly. Its ethically so wrong. We need accountability in many areas and less money politicans involved",
+      "Greedy corporations, politicians, government programs, and media act outside of the law, morals, ethics, and values. They will get what they want at any cost without regard fo"
+    ],
+    "tags": [
+      "general discussions",
+      "there",
+      "abundant",
+      "corruption",
+      "united",
+      "states"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "angels_are_real",
+    "topic": "Angels are real",
+    "category": "Philosophy & Beliefs",
+    "topicType": "depth",
+    "conversationCount": 3,
+    "totalTurns": 615,
+    "initialOpinions": [
+      {
+        "workerId": "663e9C7H91",
+        "text": "Angels are just something you can't see but feel. And it may not be an actual angel but it's like energy that is moving. Like spirits would be considered angels to me",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67a9fC7H91",
+        "text": "I believe that angels are real. Angels are mentioned in the bible",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5f596C7H91",
+        "text": "I don't think angels are real. In general, I don't think anything supernatural is real. I've never believed in any of that stuff.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "678f0C7H91",
+        "text": "I believe thgat angels are",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "669a9GVV0J",
+        "text": "hello all i do believe in angels... spirits and the like",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "62bdcGVV0J",
+        "text": "As I'm not a very religious person, I don't believes Angels are real. While I don't rule out the possibility completely, it is much more likely that Angels aren't real.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don't think anything supernatural, including angels, are real. I've never believed in any of that stuff. It all sounds fictional to me.",
+      "I would say that angels are real in a sense but I would likely view them as spirits or energy. Sometimes this energy will show in signs that only is noticeable by the individual receiving the sign. But in regards to literal angels with wings and a white dress.. I'm not so sure",
+      "Angels are frequently mentioned in the bible both in the new and old testament. Not just the bible, in the Quran. There are diverse proofs that angels are part of the Islamic belief. Many individuals have also had a personal encounter with the",
+      "There is no evidence, scientific or otherwise that Angels are real.  I do not see that fact that they exist in ancient books as true evidence.  Therefore, I do not believe in them.",
+      "I'm not a very religious person, so I don't believe that Angels are real. I'm not ruling out the possibility that angels could possibly be real, but I don't think it's very likely. Believing angels are real is more about just trust and faith in ones religion, which is fine.",
+      "I personally believe angels are real, i have a personal conviction, i am a Christian and believe in guidance angels, i feel it within my spirit and i really don't know how to explain it but if you know you know"
+    ],
+    "tags": [
+      "philosophy & beliefs",
+      "angels",
+      "real"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "international_affairs_is_the_most_important_problem_facing_the_us_today",
+    "topic": "International affairs is the most important problem facing the US today",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 614,
+    "initialOpinions": [
+      {
+        "workerId": "673b5C9VHB",
+        "text": "Yes, it is the most crucial issue today due to all the economic decisions that are being taken",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "62ef1C9VHB",
+        "text": "You can make the case that international affairs are the most important problem the US faces. A war threatens the futures of the nation and the planet",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66b3eC9VHB",
+        "text": "International affairs are a major concern right now, there are serious conflicts that the US can and should try to effect. However, our democracy is being threatened domestically right now, we have an economy that is perilously teetering on a potential recession, we have a lot of major issues at home as well.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6837dC9VHB",
+        "text": "It is among some of the problems facing the US but not the most important.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6459075DNC",
+        "text": "I think international affairs are the most important problem in American right now. We're looking at Russia possibly influencing our president",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6656275DNC",
+        "text": "I disagree. I think domestic affairs are more important. Our economy, civil unrest, crime, and education challenges are far bigger concerns.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "International affairs is the most important problem facing the U.S. today. Because, it is the most crucial issue today due to all the economic decisions that are being taken",
+      "A case can be made that international affairs are critical to the future. Without strong national security, the very existence of the country is in peril, and the best way to secure that is with a strong alliance system and some sort of world order",
+      "I  believe that there are other important issues facing the US, like the China trade war. Yes international affairs is a problem but not most important issue today.",
+      "Right now, international affairs are the most important problem in America right now. Our President seems to think that he should take his cues from Putin, and not from his own citizens. We have a big problem here!",
+      "We should always help out other countries when we can, but we need to focus on our own people too. This means we need to both stop intruding on other's affairs, and put that money towards our own people. You can't fill other's glasses if your own is half full.",
+      "The clumsy, sloppy handing of international affiars is the most important problem facing the US today. Diplomatic ineptitude is driving our adversaries and allies into the arms of China"
+    ],
+    "tags": [
+      "science & technology",
+      "international",
+      "affairs",
+      "most",
+      "important",
+      "problem",
+      "facing",
+      "today"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "news_organizations_are_doing_well_at_reporting_the_different_positions_on_politi",
+    "topic": "News organizations are doing well at reporting the different positions on political issues fairly",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 614,
+    "initialOpinions": [
+      {
+        "workerId": "67e28A71RG",
+        "text": "i dont agree with this",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6744fA71RG",
+        "text": "I personally believe that news media are generally biased on how they report the news. Certain organiuzations go one way versus the other.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "677f2A71RG",
+        "text": "I do not think that news organizations are doing well at reporting the different positions on political issues fairly.  I think the news organizations have thi",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67d4eA71RG",
+        "text": "I think they are not reporting the news fairly, biased on the ruling party. The unruling party suffers. But with social media its better",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6109aP5Y7D",
+        "text": "News organizations always have a bias, regardless of how neutral they intend to be. That's what keeps their consumers interested. The only true way to consume unbiased media is to look at many different sources.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67711P5Y7D",
+        "text": "i agree to this statement to a moderate extent. i believe some news organiza",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "News organizations have their own agendas to get you to believe what they want you to believe.  The do not report balanced information.",
+      "I really don't agree with this statement. I believe that certain news orgaizations are biased and will interpet and report the news to fit their agenda. Though it's not proven, comparing different major outlets will show the vast differences.",
+      "The mainstream media has shown a strong democrat inclination and think if they put their ideas in our faces long enough, we will begin to",
+      "I unfortunately feel that there's always going to be a bias in the media, even if they try to stay neutral. Opinionated news is what drives consumers to watch. The only true way to experience unbiased media is to consume information from different platforms.",
+      "i dont believe news organizations are doing well with regards to political issues. i believe there is a sense of bias to some certain extent. where not all parts of the",
+      "These news organizations are not doing to be honest. There reporting is mostly skewed to one side. This is done by misinformation or reporting only the bad side of the opposing poliical side and only good deeds on the supporting side."
+    ],
+    "tags": [
+      "science & technology",
+      "news",
+      "organizations",
+      "doing",
+      "well",
+      "reporting",
+      "different",
+      "positions",
+      "political",
+      "issues",
+      "fairly"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_position_of_the_planets_at_the_time_of_your_birth_can_influence_your_persona",
+    "topic": "The position of the planets at the time of your birth can influence your personality",
+    "category": "Science & Technology",
+    "topicType": "depth",
+    "conversationCount": 3,
+    "totalTurns": 614,
+    "initialOpinions": [
+      {
+        "workerId": "67d292QF5K",
+        "text": "I somewhat agree with the statement because I believe in astrology even if it lack scientific evidence. my personal experience conform with my believes.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66f412QF5K",
+        "text": "i disagree with this opinon because i believe it has absolutely noting to do with our personality. Theres no evidence for that",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67d6e2QF5K",
+        "text": "I agree with the statement. Astrologers believe that the position of the planet at the time of your birth can influence your personality either positively or negatively, with the impact caused by the planet during different seasons of the year like cosmic and",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "676062QF5K",
+        "text": "I think that the planets being lned up in a way is an inaccurate way of labeling someones perosonality.  Right now , astrology is a simple way of defining that belief. I do not think jupiter makes me a joyful per",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "56b439XKQW",
+        "text": "I don't think where the planets are has any effect whatsoever on people's personality.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "659da9XKQW",
+        "text": "I think its somewhat true and says in astrology .",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "The positioning of the planets plays a very big role in influencing one's personality. Astrologers believe that they can bring either good luck or bad luck, depending on the season which I believe is true since every planet carries diferent energies",
+      "the position of the planets at the time of my birth influences my personality because of my strong believe in astrology. Astrology is a tool I use in self reflection, its of cultural significance to me.",
+      "I disagree with this idea because theres no conclusive scientific evidence to support this. Astrology's proposed mechanisms were unproven, and genetics and encironment are more likely to shape personality. Personality is complex and multi-faceted , and can't be reduced to a singl",
+      "How do you feel about this?  I call utter Bullshit.",
+      "The position of planets has nothing to do with someone's personality. Part of someone's personality is innate and part of it is shaped by their environment. They don't know anything about planets and where they are. The notion that there is some supernatural force is ridiculous.",
+      "I somehow believe that. the position of the planet at the time of the birth can influence the personality of a person because in our religion, in India, people have done and made the chart from astrologer according to their time and day of birth.it seems pretty accurate sometimes"
+    ],
+    "tags": [
+      "science & technology",
+      "position",
+      "planets",
+      "time",
+      "birth",
+      "influence",
+      "personality"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "prostitution_can_be_justified",
+    "topic": "Prostitution can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 612,
+    "initialOpinions": [
+      {
+        "workerId": "67f1fATPKK",
+        "text": "I think prostitution can be justified because it involves two adults who have consented to exchange sex for money.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e1eATPKK",
+        "text": "Prostitution does not bring good moral values",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "677d2ATPKK",
+        "text": "i dont feeel is something that sould be justify",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67dc7ATPKK",
+        "text": "I believe prostitution can e justified.This is because some people get in prostitution because of circumstances but if  otherwise would not want to be in it.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5ec5a8BH15",
+        "text": "There are many stigmas and shame around sex work. But for many, this is their only source of income or avenue to getting a better life, especially in third world countries.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "666478BH15",
+        "text": "Prostitution can be justified by the way it lowers rape cases in countries where it is legal.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe that prostitution can be justified because it involves two individuals who consent to exchange money for sex. The only wrong thing about it is just the moral dilemma involved.",
+      "other argue that it can be a source of income for those in p",
+      "Prostitution can be justified.I highly believe this because most people in this sector are not here out of free will .It is because of life situations that they foun",
+      "Prostitution can be justified as it's sometimes the only source of income for many, especially in third world countries. Sex workers can feel like they have no other means of supporting themselves. It's still valid work despite the stgimas.",
+      "I don't see any reasons why Prostitution could be justified. I think it has many negative effects and should not be something sought after or normalized. The benefits would never outweigh the cons.",
+      "Although women can \"justify\" getting into prostitution, for example in order to earn quick money for whatever reason, I don't believe this is something that should be \"legalized\". Prostitution eventually ends to the degradation of oneself and you can't do it forever."
+    ],
+    "tags": [
+      "ethics & law",
+      "prostitution",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_united_states_has_the_best_quality_of_universities",
+    "topic": "The United States has the best quality of universities",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 612,
+    "initialOpinions": [
+      {
+        "workerId": "668ebJKSTB",
+        "text": "I think there are many countries with universities that rival the best of the US",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "663a6JKSTB",
+        "text": "The United States does not have the best quality of universities because professors are paid poorly and students are not incentivized to choose majors they actually care about because they are paying so much for their tuition.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5f467JKSTB",
+        "text": "I mean, there is a reason people from other countries come to harvard, yale etc. In terms of quality, absolutely yes, but not so much in terms of price. Even community is expensive.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "631b6JKSTB",
+        "text": "I agree United States has the best quality of universities",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5b9c2GBB26",
+        "text": "I am certain that other countries have better universities and a more well rounded curriculum. It would also be less expensive, I presume.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "60c38GBB26",
+        "text": "As someone from here, I feel like our general education system as a whole has really noticeably tanked, so I can imagine that would extend to our universities. I feel like, on top of that, there's a reason why so many people wind up going to university abroad after highschool.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "The universities in the US are not the best because students have poorly paid professors and they must choose majors they don't care about because the cost of tuition is high.",
+      "I don't believe the United States has the best quality of universities, I think the universities in the US are pretty useless and only are applicable to a select few jobs but are mostly a waste of money and time considering the free flow form of information we have now.",
+      "Pretty much yes, there is a reason other people from other countries come here. Yale, harvard, Brown, all top tier ivy league stuff. Will say the price here is insane though. Just local universities like community ones cost 8-20k a semester if not more.",
+      "I do not think this is true. I believe that the US is behind other countries when it comes to advancement.",
+      "I feel like it's gotta be a pretty crazily false statement. I mean, by any non-subjective measurements, and I haven't looked this up, I can assume out of all the tons of universities in the world, there's no way we'd be best. It's why people study abroad, right? It's better to...",
+      "The United States is the strongest and most successful country in the world.  It also is home to the best Universities there are.  If you want to receive a quality education and a highly recognized university, the best pace to do that is in the United States.  The education great"
+    ],
+    "tags": [
+      "general discussions",
+      "united",
+      "states",
+      "best",
+      "quality",
+      "universities"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "being_a_male_is_important_for_getting_ahead_in_life",
+    "topic": "Being a male is important for getting ahead in life",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 611,
+    "initialOpinions": [
+      {
+        "workerId": "67f2c6RFG9",
+        "text": "Because male serves as the leader in the family",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "676196RFG9",
+        "text": "I disagree. Being a man can make some things easier because of how society is set up, but it’s not the most important thing for success. Hard work, support, and opportunities matter more.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f096RFG9",
+        "text": "I disagree with the statement “Being a male is important for getting ahead in life.” While gender can influence peoples experience",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5f4e56RFG9",
+        "text": "I agree with the statement to an extent. While gender shouldn't determine success in many societies and industries being a male still come with unspoken advantage like being perceived as more authoritative ir being given",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "667e039ES8",
+        "text": "I don't believe that gender is the basis for success in life, so I disagree with this statement",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6438839ES8",
+        "text": "Not true",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don’t think being male should be important for getting ahead in life, but in many cases, it still is. Society often gives men unspoken advantages, especially in leadership roles. That doesn’t mean women can’t succeed—it just means they often have to fight harder for it.",
+      "I don’t believe being male is inherently important for getting ahead in life. While men have historically had advantages in many areas, success should not be tied to gender. Talent, effort, and opportunity should matter more. True progress means leveling the playing field for all",
+      "\"Being male can offer societal advantages in some contexts, but success isn’t limited by gender. Talent, effort, and opportunity matter most. True progress means recognizing privilege while empowering everyone to thrive. #Equality #MeritOverGender\"",
+      "I think that hard work and integrity and education all form the foundation of success and a good supportive home environment helps as well.",
+      "I don't think being male is inherently important for getting ahead, but I do think men often benefit from structural privilenges in the society.",
+      "I think this statement is false, I do tend to think that it may be easier to get ahead in life being a man but women are just as or if not more capable of leading and getting ahead in life.  Women have the ability  to"
+    ],
+    "tags": [
+      "general discussions",
+      "being",
+      "male",
+      "important",
+      "getting",
+      "ahead",
+      "life"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_can_be_justified_to_claim_government_benefits_to_which_you_are_not_entitled",
+    "topic": "It can be justified to claim government benefits to which you are not entitled",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 610,
+    "initialOpinions": [
+      {
+        "workerId": "67f31DRR8M",
+        "text": "it is not justified",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "663a8DRR8M",
+        "text": "I don't agree that one can justify claiming government benefits that they are not entitled to.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66df1DRR8M",
+        "text": "I disagree with the statement",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6692eDRR8M",
+        "text": "Well to state the obvious, it's absolutely illegal. I don't think there is any way it is ever justified to claim government benefits which you aren't entitled to. In fact, I find it disgusting and the amount of people that cheat the system are disgusting. They are the sames on driving BMWs. Mercedes, etc all with the credit score of 200",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5cbe0PKAGT",
+        "text": "I think it is not right to claim government benefits to which you are not entitled to because you are stealing from those who need them.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67d08PKAGT",
+        "text": "It can undermine the system meant to help those who need",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I completely disagree with this statement. It is atrocious that so many people do this. These are the same people driving expensive cars they can't afford while sitting there with a credit score of 200.",
+      "it is not justified claiming government benefits as not qualified because it won't let the benefits circulate accordingly",
+      "i would disagree with the statement it can be justified to claim govamet benefits",
+      "I think when you lie to get government benefits, you steal from someone who needs them.",
+      "It should be that anyone who is really in need of these benefits should access them irespective of their qualification status so long as they are citizens.",
+      "Integrity and fairness should guide these decision even when it is tempting to take advantage of the loophole"
+    ],
+    "tags": [
+      "science & technology",
+      "justified",
+      "claim",
+      "government",
+      "benefits",
+      "which",
+      "you",
+      "not",
+      "entitled"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "a_body_cleanse_in_which_you_consume_only_particular_kinds_of_nutrients_over_1_3_",
+    "topic": "A \"body cleanse,\" in which you consume only particular kinds of nutrients over 1-3 days, helps your body to eliminate toxins",
+    "category": "Health & Wellness",
+    "topicType": "depth",
+    "conversationCount": 3,
+    "totalTurns": 608,
+    "initialOpinions": [
+      {
+        "workerId": "668dc",
+        "text": "It is wired, I can't buy that.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "63618",
+        "text": "I've had friends who have tried something similar before and they swear it works amazingly.  I want to believe them, but I am still kind of skeptical.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5ce1f",
+        "text": "I think it could help a little but will not solve most problems people have. It's better to have a consistent routine of healthy practices.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "610e9",
+        "text": "A body cleanse would be terrible when you only use particular nutrients because you're missing out on other essential vitamins and nutrients and will go into deficits. It's always important to eat a balance diet.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5dec8D73NZ",
+        "text": "I really don't believe this is true.  I think it is a fad or a gimmick. I don't think you need to detoxify your body via the food you eat, and if you even could I don't think it could be done over 1-3 days.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5e638D73NZ",
+        "text": "I think it makes sense that targeted nutrients can help you detox. Your body is like a machine that can thrive in certain areas if",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think it will help some but not solve all your problems. It is better to maintain a consistent health routine.",
+      "Hi.  So, I have a few friends who have tried something similar and swear it worked great, meanwhile suggesting I do the same.  I want to believe them, but I am skeptical and haven't tried it still.",
+      "I feel like when you do body cleanses and only consume only particular kinds of nutrients over a short period of time even tho it is indeed a few days only you are depriving your body of other nutrients and benefits that it needs that the foods you are eating are void of like vit",
+      "I don't think this is a true statement. I don't believe that the body needs to be \"de-toxified,\" and even if it did I don't think it would be possible to do it over only 1-3 days. I think this is a fad and a gimmick.",
+      "Yes, I think having particular prescribed nutrients in our diet can help eliminate toxins from the body system. The body has a natural way of cleaning itself and I think most of that natural means relies on the foots we eat.",
+      "A detox diet can help eliminate sugars and other toxins which can reset your gut biome to a more healthy one."
+    ],
+    "tags": [
+      "health & wellness",
+      "body",
+      "cleanse",
+      "which",
+      "you",
+      "consume",
+      "only",
+      "particular",
+      "kinds",
+      "nutrients",
+      "over"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "incomes_should_be_made_more_equal",
+    "topic": "Incomes should be made more equal",
+    "category": "Economy & Finance",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 607,
+    "initialOpinions": [
+      {
+        "workerId": "661aeQC1MQ",
+        "text": "I do think that incomes should be made more equal. I think there should be sufficient pay for the tasks you are doing. Many individuals are underpaid for the tasks they do every day.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e9fQC1MQ",
+        "text": "i disagree with this statement because for a country to function there has to be a gap between incomes made",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67ee9QC1MQ",
+        "text": "it enhances democracy, it improves economic growth ,it encourages equal opportunity",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6644fQC1MQ",
+        "text": "I do not agree incomes should made more equal. This is because I worry about peoples motivation to continue to work hard in the job",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66045NZXD0",
+        "text": "People should make what they earn. Work hard and intelligently, make more money.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5cbcfNZXD0",
+        "text": "I'm sure most incomes are equal already. I mean I don't know anyone getting paid less than others on most jobs.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe income should be more equal. I believe that you should be paid a sufficient amount for the work you do, many individuals are underpaid for the work they do every day.",
+      "I believe incomes should be made more equal to ensure everyone has access to basic needs and opportunities. Extreme inequality can lead to social unrest and reduced economic mobility. Fairer income distribution helps create a more stable and just society.",
+      "I do not see the fairness in incomes being made more equal if there are people who work harder than others. That is not fair. Why should people make the same amount of money when their effort is different?",
+      "I feel like making incomes more equal will make for a happier and healthier society. There are so many people who go into important fields such as law or medicine just for a paycheck and I don't think that is a good reason at all.",
+      "I don't know why anyone would think incomes need to be equal for everyone. Some people work harder and smarter and they should be paid more. Someone else sleeps all day and barely works. C'mon give me a break it is kind of ridiculous to expect all people will be paid the same yea",
+      "Incomes are already mostly equal in this country. I feel that the jobs that aren't requires something that most people can't do and that's why there's a pay gap. Also, if 40% of all CEOs are women, then why don't they do more to equalize pay rates?"
+    ],
+    "tags": [
+      "economy & finance",
+      "incomes",
+      "should",
+      "made",
+      "more",
+      "equal"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "being_born_in_the_united_states_is_important_for_truly_being_americans",
+    "topic": "Being born in the United States is important for truly being Americans",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 604,
+    "initialOpinions": [
+      {
+        "workerId": "63e67ZPCYZ",
+        "text": "I believe birth right citizenship is a fundemental right to being an American, born in America.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6678aZPCYZ",
+        "text": "Americans come in all races and cultures. Freedom is what makes you Amercian.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67a8bZPCYZ",
+        "text": "That's what makes you American",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5d951ZPCYZ",
+        "text": "I slightly agree with statement since you are born in the country you are an American from the time your born. You don't know any other country or their ways, you are just American.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6724254WAG",
+        "text": "Being born here is not the only way to show your American",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "60e7654WAG",
+        "text": "It is not important because America is not an indigenous country.  It is a country created by immigrants, so it is not that meaningful to be born here unless you identify with the indigenous culture.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe it is a true statement as for someone to be a true, unarguable American, birthright citizenship is one of the best ways to do so, beyond legal immigration and processes.",
+      "I just want to say, to be American you can come from any background under the freedom of this country. There are great things from many walks of life in this country.",
+      "Since you are born as an American, you only know this way of life. You don't have any other interpretation of life. Also since you are born here you only exist as an American.",
+      "Being born in American is only one way of becoming a American",
+      "The United States is not an indigenous country.  It was created by Europeans.  Therefore, there is not much significance to having been born in the United States unless you identify with the indigenous people.",
+      "I agree that being born in the United States is important for truly being American. Birth in the US provides an immediate connection to the nature's culture, values, and identity from the start of life, creating a natural sense of belonging that can be harder to acheive otherwise"
+    ],
+    "tags": [
+      "general discussions",
+      "being",
+      "born",
+      "united",
+      "states",
+      "important",
+      "truly",
+      "americans"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "governments_taxing_the_rich_and_subsidizing_the_poor_is_a_characteristic_of_demo",
+    "topic": "Governments taxing the rich and subsidizing the poor is a characteristic of democracy",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 593,
+    "initialOpinions": [
+      {
+        "workerId": "67d06NNTB2",
+        "text": "I think there should be equality in earnings and way of life.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e08NNTB2",
+        "text": "Progressive taxation isn't a punishment!",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67cccNNTB2",
+        "text": "The rich have been exploiting loophole",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67c9fNNTB2",
+        "text": "Governments taxing the rich and subsidizing the poor is a characteristic of democracy because it will ensure a smaller gap between the rich and the poor. It will also ensure the rich doesn't atay",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5a65dYACJY",
+        "text": "I agree with the statement that governments taxing the rich and subsidizing the poor is a characteristic of democracy. I believe tax money helps the poor get a leg up. Ultimately, it helps to equalize society.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5daa2YACJY",
+        "text": "All individuals should be taxed the same. I do not see anything wrong with helping the poor temporarily, it should not be something they just live off of.",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Taxing the rich isn't a punishment, but to help build the country",
+      "Government should tax the rich more and subsidize the poor in order to promote equality in a a country. This improves equality and it is a sure way of showing democracy.",
+      "The rich have been exploiting loopholes in the taxation system to avoiding paying tax. It is time they pay up. It is the poor who made them rich by buying their products and services.",
+      "Taxes used for the poor and the disabled help equalize society and ensure everyone can feed themselves.",
+      "Taxing the rich as well as subsidizing the poor is a characteristic of a democratic government.",
+      "I think these are two different things. I do think the rich should be taxed just as much as everyone else. There should be no way to get out of paying your portion. I think that we should have funds to assist the poor, but only temporarily. It should be used as an assist,not life"
+    ],
+    "tags": [
+      "society & politics",
+      "governments",
+      "taxing",
+      "rich",
+      "subsidizing",
+      "poor",
+      "characteristic",
+      "democracy"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_united_states_has_the_highest_federal_income_tax_rate_of_any_western_country",
+    "topic": "The United States has the highest federal income tax rate of any Western country",
+    "category": "Society & Politics",
+    "topicType": "depth",
+    "conversationCount": 3,
+    "totalTurns": 593,
+    "initialOpinions": [
+      {
+        "workerId": "55bb9",
+        "text": "I don't actually know if this is true? But it sure wouldn't surprise me if it.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5d5ef",
+        "text": "Other countries have higher taxes I believe",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "673dd",
+        "text": "I don't think tat the US does have the highest federal income tax rate of any western country. I believe the rate in the USA is slightly higher than Canada but I'm pretty sure many European countries have higher rates than the USA.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67aba",
+        "text": "The US has a relatively high top federal income tax rate, but several Western countries have higher rates, such as France and some others in Europe. Also, the top rate applies only to very high earners.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67dbbZG1H2",
+        "text": "The US has very high federal taxes that are never put into good use.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67dc9ZG1H2",
+        "text": "I think the United States may have high federal income tax rate but it is not highest. There other countries that have higher tax rates, especially in Europe.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "This is a sad thing to think about, that we live in such a \" great\" place that charges us more then any other place? Is this true? Anyone have some hard facts to prove or disprove this? I want to know and I think we all do.",
+      "The statement is false While the US has a high top federal income tax rate, many Weestern countries, particularly in europe, have higher rates. Also, the top US rate applies only to the highest earners, not the general population.",
+      "I dont believe the Unites States has the highest tax rate in fact I dont thnk it is that bad. Possibly the UK has a higher tax rate. I am not 100% sure but definitely am aware some other countries do have higher taxes",
+      "I think US has one of the highest income tax rates.This is comparison to other developed Nations.",
+      "I believe this more likely to be true than false. I'm always hearing of people complaining about how much taxes they have to pay. I don't have any concrete proof that this statement is true but I feel there's a good possibility it is.",
+      "What is really saddening about the high taxes is that they they are never put into good use. It is time to see that money put into good use."
+    ],
+    "tags": [
+      "society & politics",
+      "united",
+      "states",
+      "highest",
+      "federal",
+      "income",
+      "tax",
+      "rate",
+      "western",
+      "country"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "a_democratic_system_where_citizens_not_elected_officials_vote_directly_on_major_",
+    "topic": "A democratic system where citizens, not elected officials, vote directly on major national issues to decide what becomes law is a good way of governing the US",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 592,
+    "initialOpinions": [
+      {
+        "workerId": "5f171GCVQ0",
+        "text": "It would be interesting to have a system this way. It could be a change for the better.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ad0GCVQ0",
+        "text": "It's a great idea, to an extent, putting power into the people's hands, but it could have some drawbacks.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67a7bGCVQ0",
+        "text": "I disagree with the statement. It is impractical to have citizens vote directly on every major national",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "66e8cGCVQ0",
+        "text": "i disagree most people dont know the context that w",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "639f6EBZSW",
+        "text": "To the officials is the best way to go not having citizens vote on major issues it would just be too chaotic",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66a31EBZSW",
+        "text": "good and very nice",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think it would be an interesting change if people had a say on what becomes a law.",
+      "I believe that certain things could be decided this way, but I also don't trust everyone, so I prefer having elected officials who represent my views.",
+      "i dont think democracy works in the united state the issues are too complex",
+      "I don't think citizens should go on major issues that's what we elect our senators and congressmen They are our Voice so elect them accordingly",
+      "I don’t think direct citizen voting on all major national issues is a good way to govern the U.S. Most policies are too complex for up/down votes, and the general public may not always have the time or expertise to fully understand them. That’s why we elect representatives.",
+      "Ensure citizen voices count, not the will of one person who turns their backs on their constituents for money. Everyone should have a true voice. Voting can be safe, secure, and fast - we have the technology, we should implement and use it!"
+    ],
+    "tags": [
+      "society & politics",
+      "democratic",
+      "system",
+      "where",
+      "citizens",
+      "not",
+      "elected",
+      "officials",
+      "vote",
+      "directly",
+      "major"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "having_casual_sex_can_be_justified",
+    "topic": "Having casual sex can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 592,
+    "initialOpinions": [
+      {
+        "workerId": "67c44STDJ8",
+        "text": "agree",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "662d7STDJ8",
+        "text": "It can be justified if one is single and not too religious. At the end of the day people are responsible for their own actions.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5a3bdSTDJ8",
+        "text": "Having casual sex can definitely be justified only if it involves consenting adults. As long as all people of age consent, then there is nothing morally wrong with it.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67cd7STDJ8",
+        "text": "It's not safe and not moral but i guess it can be justified",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "65481TEJNR",
+        "text": "I agree that casual sex can be justified",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67c87TEJNR",
+        "text": "I agree that having casual sex can be justified. As long as it involves consent and mutual respect between adults, individuals should have the freedom to make choices about their own bodies and relationships.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "It can be justified because people do not have to subscribe to the idea of marriage or any religious purpose in order to have casual sex.",
+      "I feel people are free to have casual sex with whoever they please if they are single and it is not part of their religion. I feel people are ultimately responsible for their own actions and I do not worry much about others sexual life. Although, casual sex can come with risks.",
+      "You are so right about that. Personal choices are no one else's business.",
+      "In our current day and age casual sex is necessary for release and pleasure. Gone are the days where you have to blindly follow religion or what your parents taught you. It is a good way to connect and feed good with others.",
+      "I mean sex is a human desire what is there to justify about it.",
+      "I believe casual sex can be justified. As long as it's between consenting adults and everyone’s honest about their intentions, there’s nothing wrong with it. People have different needs and values, and that should be respected."
+    ],
+    "tags": [
+      "ethics & law",
+      "having",
+      "casual",
+      "sex",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "sex_before_marriage_can_be_justified",
+    "topic": "Sex before marriage can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 592,
+    "initialOpinions": [
+      {
+        "workerId": "672feDYCQV",
+        "text": "I feel like there are plenty of people who don't adhere to religious customs and for them sex before marriage is fairly normalized. I respect people who want to wait, and feel they should pass along the same respect to people who don't want to wait until marriage.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "62fbdDYCQV",
+        "text": "It can be justified because human pair-bonding is literally human nature; marriage didn't always exist, and human sexual relationships predate it.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67dfcDYCQV",
+        "text": "Sex before marriage helps create a bond and makess the relationship strong.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "655f8DYCQV",
+        "text": "i agree that sex before marriage can be justified, it allows individuals to explore sexual compatibility and emotional connection. It can also promote open communication.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5cd081WXKK",
+        "text": "If you are with someone and you consent to this, then that is your choice. It only matter if both parties are consenting to the act and don't feel pressured.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "667411WXKK",
+        "text": "There is nothing wrong with sex before marriage. Sex is something that can meaningful and is a bond with another person. If you aren't compatible in that way, better to find out before marriage.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I strongly feel that sex before marriage is justifiable, especially for people outside of practicing religions. I fully respect those who choose to wait and feel they should show that same respect for people who choose not to.",
+      "It can be justified because humans need to reproduce. We have biological urges to do so, and this all pre-dates the institution that is marriage. Sexual desire is natural, but marriage in a lot of ways isn't.",
+      "i believe that sex before marriage can be justified. It allows partners to explore their compatibility and build intimacy. Which can strengthen their relationship.",
+      "You need to know if you are compatible with a person sexually before you agree to spend the rest of your life with them.",
+      "As long as both parties are consenting and don't feel pressured, then it doesn't matter what others think. It's a personal choice made by everyone and it doesn't necessarily need to be justified, at all.",
+      "Sex before marriage risks emotional consequences and lacks long-term commitment and security."
+    ],
+    "tags": [
+      "ethics & law",
+      "sex",
+      "before",
+      "marriage",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "we_depend_too_much_on_science_and_not_enough_on_faith",
+    "topic": "We depend too much on science and not enough on faith",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 592,
+    "initialOpinions": [
+      {
+        "workerId": "67edf2V5FS",
+        "text": "I definately agree. Science is accompanied by facts by faith is just trust that something will or will not happen. Which most people have a hard time getting behind",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ddb2V5FS",
+        "text": "I lean toward disagreeing. Science has greatly improved our quality of life, but I believe there is still room for faith in people's personal and moral lives. Both science and faith can coexist without one being neglected.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f152V5FS",
+        "text": "I agree to the statement we depend too much on science than faith because science can be explained though experiments which can be seen or through things that can be touched",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6647b2V5FS",
+        "text": "I do not agree with this. I think science is very reliable. I also think faith is important, but we definitely need to listen to science-based facts when making important decisions such as health related information.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "63b63B1431",
+        "text": "I've never given the topic much thought. I'd love to hear other opinions.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5e706B1431",
+        "text": "Science is more reliable than faith. Science is proven and factual. On the other hand, faith is just beliefs which may or may not be true and are not as reliable as science.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think science has brought amazing progress in health, technology, and daily life. While faith is important for personal values and hope, I don't believe society relies too much on science — both can guide us in different but complementary ways.",
+      "I honestly believe that this is a false statement. If anything we do not depend on science enough. We need to trust science when making important decisions (especially those that are health related such as vaccines). Faith is important but so is science and it cannot be ignored.",
+      "We depend on science  too much because it has proven through research and experiments. It explains its reasons by providing evidence which people nowadays want and believe in",
+      "Science has brought us along very far in the advancement of our civilization. Faith has had its place here as the gap filler for the unknown. Both have their places still in this world. To say we rely \"too\" much on science is debatable.",
+      "I believe that science does not always provide answers. Science does not explain how the world was created. It just gives educated guesses. Every living and non-living thing has a creator. We have to have faith in our creator just like we have faith in our breath of life.",
+      "I disagree with this statement. Although many people have a religous faith they identify with, the world as a whole also believes in god."
+    ],
+    "tags": [
+      "science & technology",
+      "depend",
+      "too",
+      "much",
+      "science",
+      "not",
+      "enough",
+      "faith"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_media_has_the_most_influence_on_american_policy_toward_other_countries_than_",
+    "topic": "The media has the most influence on American policy toward other countries than business corporations and ordinary Americans",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 590,
+    "initialOpinions": [
+      {
+        "workerId": "65ef1P85Z1",
+        "text": "The media is so untrustworthy these days.  Over the past few years, they have proven themselves to be frauds.  They no longer have any influence on American policy towards other countries.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "65623P85Z1",
+        "text": "I think the media has a lot of influence, especially by posting on social media sites like YouTube and X.  However, I still think that business corporations have more influence than anyone else.  Armed with huge amounts of money for advertising and expansion, companies like CocaCola and McDonalds have truly expanded their reach to every corner of the globe and therefore have the most influence on American policy.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "683a6P85Z1",
+        "text": "yeah i really agree because of our modern dayz",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "682f5P85Z1",
+        "text": "I agree that the media has the most influence on American policy toward other countries than business corporations and ordinary Americans. This is due to the propaganda spread through social media platforms.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66a27BPT0K",
+        "text": "I believe that it is at least partially true, but the influence on large corporations shouldn't be discounted.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6643bBPT0K",
+        "text": "The media is owned by corporations so this tracks well with the sphere of influence they have over policy.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think that business corporations, armed with huge marketing budgets and cheap products like Coke and Big Macs, have even more influence on American policy towards other countries.  While media conglomerates are very powerful, I don't think they quite match this power.",
+      "The media has very little influence these days on American policy towards other countries.  Over the past few years, they have proven themselves to be frauds.  They are bias in just about every stance they take, and you can't trust anything that they report.",
+      "i believe media has a strong influence on how Americans percieve foriegn issues.",
+      "It's hard for average everyday Americans to influence American policy.  It's much easier for the media to influence policy over the people that live and work here daily.  Lawmakers are more likely to listen to the media than the people that elect them.",
+      "I slightly agree that the media has the most influence on American policy toward other countries than businesses and ordinary people. The media heavily sways peoples' beliefs. Therefore, politicians need to align their policies their voters to get re-elected.",
+      "This statement is true because major media outlets are owned by a handful or power corporations."
+    ],
+    "tags": [
+      "society & politics",
+      "media",
+      "most",
+      "influence",
+      "american",
+      "policy",
+      "toward",
+      "other",
+      "countries",
+      "than",
+      "business"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "donald_j_trump_can_deal_effectively_with_global_climate_change",
+    "topic": "Donald J Trump can deal effectively with global climate change",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 582,
+    "initialOpinions": [
+      {
+        "workerId": "66ac190YF4",
+        "text": "This is very absolute",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66c3f90YF4",
+        "text": "Good point",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "64d9090YF4",
+        "text": "I agree strongly that Trump can deal very well withh global climate change",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66d7a90YF4",
+        "text": "Exactly",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "683cb4FZ34",
+        "text": "I don't believe Donald J. Trump can deal with global climate change. His administration rolled back key environmental protections and withdrew from the Paris Agreement, which undermines global efforts to address the crisis.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "682824FZ34",
+        "text": "He might not be able to do so effectively since he is allowing the continuation of production of fuel-based vehicles. I choose to leanly disagree since he means to also support the production of electric vehicles alongside with",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "As a Republican, I believe strongly with this statement",
+      "He is actually capable to handle situation",
+      "Trump's past actions suggest he does not prioritize climate change as a serious policy issue",
+      "While Trump promoted energy independence, his policies prioritized short term economic gains over long term climate sustainability. Ignoring consensus doesn't show effective leadership on global climate change.",
+      "I think he may not be able to fully combat the issue of climate change since he has the intention of allowing continued production of fuel-based vehicles. My wording suggest",
+      "Donald J. Trump has downplayed the effects of climate change and rolled back key environmental protections during His presidency."
+    ],
+    "tags": [
+      "general discussions",
+      "donald",
+      "trump",
+      "deal",
+      "effectively",
+      "global",
+      "climate",
+      "change"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "lack_of_democracy_is_responsible_for_muslim_nations_lack_of_prosperity",
+    "topic": "Lack of democracy is responsible for Muslim nations’ lack of prosperity",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 3,
+    "totalTurns": 546,
+    "initialOpinions": [
+      {
+        "workerId": "66afb4YD31",
+        "text": "Some Muslim nations are tremendously prosperous. The UAE, Iran, and Saudi Ariabia are pretty prosperous countries. It's not so much the lack of democracy as the lack of development... most Muslim nations are in Africa and Eastern Europe, and are relatively underdeveloped on the world stage.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "658ea4YD31",
+        "text": "I don't think democracy is related to Islamic countries economy in any way",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "664b74YD31",
+        "text": "A lack of democracy is responsible for Muslim nations' lack of prosperity. Without the freedom to voice your opinion and vote for a government that supports them, gaining traction in a state is hard. There needs to be a body working for the people and fighting against enemies.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e514YD31",
+        "text": "demacracy is due to gove",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "65f54TC05S",
+        "text": "lack of democracy is a big reason why many muslim countries struggle. without a democratic system there's more corruption and poor governance, preventing citizens from prospering. democracy gives people a voice to improve their country.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "62911TC05S",
+        "text": "I disagree",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "Muslim nations lack prosperity because they lack democracy. They need freedom from other countries as well as individual freedoms that can be protected by democracy.",
+      "Democracy is not a reliable precursor to prosperity. Greece, for example, is continually in dire economic straits despite being the literal birthplace of democracy. Muslim nations like UAE or Saudi Arabia are tremendously prosperous despite a \"lack of democracy.\" No democracy nee",
+      "Even though the government is responsible for the country's economy, I still can't find any reason why democracy would drag their economy down.",
+      "hi. i feel that lack of democracy is a big reason why many muslim countries struggle.. i think it leads to corruption and poor governance, and democracy gives people a voice and a chance to improve their country",
+      "Factors such as geographical location, climate, and religion are the real causes.",
+      "it's one thing to acknowledge that the state of affairs, of countries which happen to be of majority \"muslim\" following, or|and ME/NA, isn't great; it's another, to imply the reason for this is, strictly, because of Islam\n\nas i said already: this country isn't doing much better"
+    ],
+    "tags": [
+      "society & politics",
+      "lack",
+      "democracy",
+      "responsible",
+      "muslim",
+      "nations",
+      "prosperity"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "science_and_technology_are_making_our_lives_healthier_easier_and_more_comfortabl",
+    "topic": "Science and technology are making our lives healthier, easier, and more comfortable",
+    "category": "Health & Wellness",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 474,
+    "initialOpinions": [
+      {
+        "workerId": "607129DWCC",
+        "text": "Science and technology are making thinks better and helping us find what hurts us and how to live a good and healthy life.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "678fa9DWCC",
+        "text": "I agreed, science and technology are making our lives healthier, easier, and more comfortable,",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e2c9DWCC",
+        "text": "I believe science and tech makes life easier through solving problems that have bothered us for long. For instance, medical solutions, transportation, or even lifestyle solutions like furniture. I believe science is the solution we need for majority of our challenges.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6314b9DWCC",
+        "text": "I do agree that science and technology are making it easier.  Advances in these make lives easier and safer for everyone",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66f041NZFZ",
+        "text": "It helps us in many different ways.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "57bfc1NZFZ",
+        "text": "I completely agree that science and technology are making our lives better. Technology in the health industry has helped to extended lifespans and make us much healthier overall. Advancements such as air conditioning have also made our lives much more comfortable",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Science and technology help us see what's dangerous and keep us safe and healthy",
+      "In terms of medical, science as helped a lot, in terms of treatment, medication, surgery and living a healthy life",
+      "I believe it is true that science and technology are making our lives healthier, easier, and more comfortable.   Medical breakthroughs help cure diseases and extend life while technology such as smartphones and smart device simplify daily tasks.",
+      "I think that this is mostly true, we are healthier than we've ever been-- more people are surviving illnesses or disorders of the body than historically ever could. And we are interconnected with EVERYTHING, but that is also a problem wrt comfort. In that, we are TOO connected!",
+      "I believe this statement is completely true. Technology has especially helped in the healthcare industry which has led to longer lifespans. Other advancements such as air conditioning has led to being able to live a much more comfortable life",
+      "Hello. I think that  science and technology helps make our life easier for every one. We grown and learn every day. We need to evolve in our world, but for the best."
+    ],
+    "tags": [
+      "health & wellness",
+      "science",
+      "technology",
+      "making",
+      "our",
+      "lives",
+      "healthier",
+      "easier",
+      "more",
+      "comfortable"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "overall_increased_tariffs_on_imported_goods_from_foreign_countries_are_good_for_",
+    "topic": "Overall, increased tariffs on imported goods from foreign countries are good for the US",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 472,
+    "initialOpinions": [
+      {
+        "workerId": "66abd9CCE0",
+        "text": "I don't think it's good. I think it's a price increase for our products.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "55d359CCE0",
+        "text": "Short term it will result in raised prices, however in theory there should be long term benefits in terms of job creation.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "616569CCE0",
+        "text": "Honda a Japanese car company is biggest auto employer in Ohio. In the 1980's Japanese car makers were told if they want to sell here make it here. I realize that multiple factories around the World are building the same car for differerent markets.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "662939CCE0",
+        "text": "Yes and no. I think it does have good things and bad but it was suppose to be good over all.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "673abD1KSC",
+        "text": "it seems to be creating problems",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "653bcD1KSC",
+        "text": "I don't think we need more tariffs that we already have.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "Hi,\nI am a teacher from Ohio trying to make extra money doing surveys.",
+      "For me, it's fake. I think it actually makes the products we consume more expensive. What do you think?",
+      "I think in the short term prices for goods will inevitably rise, however, in theory it should result in the long term benefit of jobs being created.",
+      "The increase on tarrifs are not good for the U.S. It raises the prices on items as well as food products. The american people are already struggling as it is.",
+      "I mean, that's an outright lie. It may be good for some, but most consumers are getting absolutely screwed. A lot of people just don't really understand politics or what a lot of words mean. They just know they turn on the news and hear someone say something and they believe it.",
+      "I think its bad to increase by absurd amounts, it seems to be creating chaos for the sake of creating chaos, epscilally when it makes a truce with a country and chooses not to do it, what's the real reason for all madness, I dont think the public will get to know, it disappointin"
+    ],
+    "tags": [
+      "general discussions",
+      "overall",
+      "increased",
+      "tariffs",
+      "imported",
+      "goods",
+      "from",
+      "foreign",
+      "countries",
+      "good"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "having_children_is_a_duty_towards_society",
+    "topic": "Having children is a duty towards society",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 465,
+    "initialOpinions": [
+      {
+        "workerId": "639f6YNH1N",
+        "text": "You do not have the obligation To have children for society",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "66ecaYNH1N",
+        "text": "it is a part of keeps alive. but I dont think we need to force people as long as were sustaining it",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5c223YNH1N",
+        "text": "I don't think that having children is anyone's duty. I think that having children is a choice and some people prefer to not have children which is a benefit to society. Too many children cause a burden on society.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6713eYNH1N",
+        "text": "I believe it is our duty to make the best generation better than the one before. With that, comes strong willed parents dedicated and present.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5a8f1SEN00",
+        "text": "I think it's important or how can we continue the human race!",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6422fSEN00",
+        "text": "Its part of life and raising them right is the most important part.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Having children is a personal experience and has nothing to do with an obligation to society",
+      "Having children is a choice not a duty. No one should feel like they have to have children. There are plenty of people who want to have children and they don't feel like it's their duty to do so.",
+      "it is our duty to have children. howerver that doesnt mean we need to. as long as there are enough people who want kids then all is well",
+      "I don't feel that it is a duty towards society to have children. If a person doesn't want to have children, pushing them would lead to unhappy parents, with children that feel unloved and unhappy too.",
+      "I think we are having a population decline. The only way to address this would be for more people to have children. This is more about ensuring the human race and all of society continues into the future and thinking more of the future. The fears of overpopulation are unfounded",
+      "Its a duty to raise them right if you chose to have children"
+    ],
+    "tags": [
+      "general discussions",
+      "having",
+      "children",
+      "duty",
+      "towards",
+      "society"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "divorce_can_be_justified",
+    "topic": "Divorce can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 455,
+    "initialOpinions": [
+      {
+        "workerId": "67e8706XT2",
+        "text": "Divorce is a sensitive subject but sometimes it's what's best for everyone involved.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "665cb06XT2",
+        "text": "Divorce can be justified for many reasons. Staying in an unhappy marriage can cause a lot of problems. There's no point in spending life miserable just for the sake of marriage.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6287706XT2",
+        "text": "Divorce can certainly be justified because marriage is a free association to begin with. It is not coerced. So therefore, divorce is justifiable if people do not want to stay together.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6463606XT2",
+        "text": "Marriage is mutual and when it becomes one sided, the other party can called for divorce and in this case, it be justified",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "60712Y238K",
+        "text": "Sometimes people don't get along. It is best to split apart then.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5fb7dY238K",
+        "text": "Divorce can definitely be justified for many circumstances, including abuse, adultery, and other actions that completely betray your partner.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Divorce is justifiable because marriage is a free association between two peoples. Therefore, ending the association is justifiable if people do not wish to stay together.",
+      "This is certainly true. As much as divorce is frowned upon, it's certainly a better alternative to some other things.",
+      "Divorce can be justified for many reasons. Infidelity and abuse are big reasons that come to mind for me.",
+      "SOmetimes people need to split up if they can't get along",
+      "I think that this statement is truthful because marriage is supposed to be something that is conditional in my opinion. Marriage is not supposed to be something where two people are forced to be with each other no matter what.",
+      "Divorce can be justified for many reasons. First of all, if there is abuse in the realationship. Also, if one of the people commit adultery. They can also betray the partner in many ways"
+    ],
+    "tags": [
+      "ethics & law",
+      "divorce",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "because_of_science_and_technology_there_will_be_more_opportunities_for_the_next_",
+    "topic": "Because of science and technology, there will be more opportunities for the next generation",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 452,
+    "initialOpinions": [
+      {
+        "workerId": "67e15G8420",
+        "text": "I believe science and tech is the future so there'll be more opportunities for sure",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67decG8420",
+        "text": "Science and tech is definitely why we are here and why the future is bright",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67edbG8420",
+        "text": "this is because job opportunities will be creations  because of innovations achieved",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66353G8420",
+        "text": "I think science and technology has always opened up opportunities for future generations. Anytime there has been a new advent, it changed the way we do business, the way we live",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "59048S974C",
+        "text": "things get better and our lives get easier",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66294S974C",
+        "text": "I agree. Fields will expand.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Science and technology breeds novelty and innovatation. With innovation comes new discoveries and opportunities in every field. AI is a glaring example.",
+      "I'm confident there'll be a lot of opportunities with science and tech because science improves everyday. the world is constantly changing because of science.",
+      "Tech has brought us this far. Tech has been improving lives. Tech is the future",
+      "I think there will be new discoveries, so this will expand job opportunities",
+      "I agree with the statement. Advances in science and technology are continuously creating new industries, improving education, and solving complex global issues.",
+      "I think that things have gotten better and will continue to get better. we have more free time and more things to do wiht our time. we also have more bad choices like terrible foods and other"
+    ],
+    "tags": [
+      "science & technology",
+      "because",
+      "science",
+      "technology",
+      "there",
+      "will",
+      "more",
+      "opportunities",
+      "next",
+      "generation"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_government_should_take_more_responsibility_to_ensure_that_everyone_is_provid",
+    "topic": "The government should take more responsibility to ensure that everyone is provided for, rather than leaving it to individuals",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 449,
+    "initialOpinions": [
+      {
+        "workerId": "6769eEBZ7W",
+        "text": "i  believe that government should make provision for everyone",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66eddEBZ7W",
+        "text": "Absolutely yes, the government should take more responsibility to ensure that everyone is provided for, rather than leaving it to the individuals. However, it should be done on behalf of the people by the people -- with the people reallocating everything where it's actually needed. Meet the people where they're at and help them figure out the help they need. Universal Basic Income would be a great start.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e1eEBZ7W",
+        "text": "The government should be able to take care of its citizen, buy creating more opportunities for people to have a better life.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5d612EBZ7W",
+        "text": "That is the one thing  our government must do  for everyone especially those are in dire need of help. It should be first priority",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6712aFT30Q",
+        "text": "The more the gov't does for people the less responsible they are for themselves and become totally dependent on others.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5d740FT30Q",
+        "text": "I don't like the phrasing of \"providing for\" everyone, but I agree with the general principle that the government should do more to make people's lives better. Education, healthcare, food stamps, etc. should all be improved. It is better for everyone to have a healthier, happier, smarter society.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "This should be the top priority of our government to provide for those in need. This will ensure equality in our society.",
+      "Hello :) I firmly believe the government should ensure that everyone's provided for instead of leaving it up to the individual to take care of themselves. People need community and if our government insists on keeping us isolated, they ain't gonna have many people left.",
+      "I believe the government should play a key role to ensure that its citizen are well",
+      "I don't like the phrasing \"everyone is provided for\" but in general I agree that the government should be doing more to help people. Education, healthcare, food stamps, etc. should all be improved. It's better for all of us to have a healthier, happier, smarter society.",
+      "I don't think that government programs should enable bad actors... but bare bones survival should be a thing. No food scarcity or insecurity and a place to live at bare minimum. If we can fund wars, we can fund a basic standard of living.",
+      "Having others work to pay for those that want the gov't to subsidize their behavior only encourages negative behavior.  Then those that are collecting benefits many times do not want to better themselves.  It is supposed to be a hand up not a hand out.  But nowadays it seems to h"
+    ],
+    "tags": [
+      "society & politics",
+      "government",
+      "should",
+      "take",
+      "more",
+      "responsibility",
+      "ensure",
+      "everyone",
+      "provided",
+      "rather",
+      "than"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "there_is_a_high_risk_in_the_us_of_being_held_accountable_for_giving_or_receiving",
+    "topic": "There is a high risk in the US of being held accountable for giving or receiving a bribe, gift, or favour in return for public service",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 448,
+    "initialOpinions": [
+      {
+        "workerId": "671d3R53WF",
+        "text": "There is a risk but it is not neccisarily high- while wrong, it can be difficult to get caught",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "676d6R53WF",
+        "text": "I agree that their is a high risk when you acceept a bribe.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5e07aR53WF",
+        "text": "It doesn't appear to be the truth, that's for sure. It seems like people in public service are easily bribed and get away with it...look at our ruler for example.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5fdacR53WF",
+        "text": "I don't think this is the case because there is so much of this going on and the amount of people that will actually get in trouble seems so small. I would say there is a small risk, not a big risk.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67f052ZZPW",
+        "text": "Everything eventually comes to light in the US. There will be evidences against people who give or receive bribes in return for public service.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "680bf2ZZPW",
+        "text": "In the U.S., there are strong anti-corruption laws and regulations, such as the Foreign Corrupt Practices Act (FCPA) and various state and federal ethics laws, which aim to prevent bribery and ensure accountability. However, the effectiveness of enforcement and the complexity of these laws might lead to varying levels of risk depending on the context and individuals involved.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "There is definatly a risk of accepting a bribe.",
+      "I feel that this is not true. I look at our ruler and how the people are falling in line with him, that are in public service, and the judges in the courts, it just doesn't seem like anyone is being held accountable at all.",
+      "If you receive a gift or bribe in return for a public service, there is a chance you can get in trouble, if you are caught",
+      "\"I lean towards disagreeing. The US has strict anti-corruption laws & regulations, like FCPA, to hold individuals accountable for bribery & public service misconduct. Enforcement can be effective, but risks vary depending on context.\"",
+      "The risk of being caught is very high. The evidences shall come out one way or the other.",
+      "I sure wish I had a different topic to discuss on here.  I am not well versed in this topic at all but I see what they are getting at. I'm not sure how I feel about this \"suggestion\". I'm sure politicians are at the root of this."
+    ],
+    "tags": [
+      "general discussions",
+      "there",
+      "high",
+      "risk",
+      "being",
+      "held",
+      "accountable",
+      "giving",
+      "receiving",
+      "bribe",
+      "gift"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "rich_people_often_buy_elections",
+    "topic": "Rich people often buy elections",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 442,
+    "initialOpinions": [
+      {
+        "workerId": "5c500HT6PP",
+        "text": "Rich people will use their money and resources to protect themselves. One of which way is through elections.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5e6d9HT6PP",
+        "text": "I agree firmly that rich people buy elections. Having a lot of money in this world can give you so much power, you find a candidate that you love and you fund their way to a victory, it is something that I have looked into since I was younger. I have honestly thought it was a cool thing to do, that is the real power. Not the vote they tell you counts at the booth.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f25HT6PP",
+        "text": "i really agree that rich people often buy election by flooding candidates with donations and also controlling the media",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f30HT6PP",
+        "text": "I agree with the statement that rich people buy election.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5c2d1AXNXZ",
+        "text": "I think rich people do buy elections. they can pay for campaigns and have more influence in general.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "654cfAXNXZ",
+        "text": "I think it could be possible that this happens but I think truly the people that would have the power to steer an election are those in office with connections.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "Rich people want to stay rich and protect themselves. One way they do that is influencing elections, buying people, lobbying for their interests. They influence elections using their money to protect themselves.",
+      "As stated previously, I do believe that rich people buy elections and it is a smart thing to do. Having so much money can buy you a lot of power or get you in the room with people that have even more of it. don't see an issue with it and it makes a lot of sense, its a better way",
+      "rich people buy elections why do they spend all those millions of dollars and i know it not because of charity.",
+      "I feel as if this is a honest belief and that it is true because they can honestly afford them as well as because they enjoy staying up to date with the latest technology",
+      "I think that this is possible that rich people would try and buy the election. but I think ultimately it would be people in office or that have connections in place",
+      "I think it is probable that rich people often \"buy\" elections through making massive campaign donations."
+    ],
+    "tags": [
+      "society & politics",
+      "rich",
+      "people",
+      "often",
+      "buy",
+      "elections"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "elections_in_the_us_will_be_tampered_with_by_a_cyberattack_in_the_future",
+    "topic": "Elections in the US will be tampered with by a cyberattack in the future",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 440,
+    "initialOpinions": [
+      {
+        "workerId": "60fd60VRSJ",
+        "text": "I do not think so. I think the USA's cyber defense is too great to allow this to impact an election.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "667640VRSJ",
+        "text": "Elections in the U.S. will be tampered with a cyber attack in the future because more countries are investing in this type of espionage.  Unless, we put a focus on cyber defense, this will happen.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6266b0VRSJ",
+        "text": "Look at who we have in office, they will do anything to maintain the power. I think that people were brought in by the new president to get information on the people that could hurt us",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "683460VRSJ",
+        "text": "I probably agree that elections in the US will be tampered with a cyberattack in the future due to increasing cyber security challenges with the help of artificial a",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "655d431G0H",
+        "text": "I don't think it will be.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "65d5231G0H",
+        "text": "I believe that future elections have the potential to be tampered with a cyberattack in the future due to how much technology has been improving and elevating within the past couple of years, though I really have never thought about this topic before.",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Elections will be tampered with in the future as more countries are involving themselves with this type of espionage.  I believe this has already happened with Russia.",
+      "I believe with the help of artificial intelligence the elections in US will be tampered with cyber attack in the future. What do you think about the same?",
+      "This will not happen. The USA cyber defense is too great",
+      "I believe that this topic is a possibility due to the increase in technological advancements within the past decade alone. I have never thought about this topic in such great lengths, but I would not doubt its potential to occur.",
+      "I don't think it will necessarily be tampered because doing so does not change much inside the US anyway, I feel like the leader we follow does not make too much of a difference to me, not gonna lie.",
+      "I think elections in the US will be tampered with by a cyberattack in the future. It is not outside the realm of possibilities. We are already dealing with a lot of technological advancements and uncertainties when it comes to our digital world."
+    ],
+    "tags": [
+      "science & technology",
+      "elections",
+      "will",
+      "tampered",
+      "cyberattack",
+      "future"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "over_the_next_12_months_the_economic_situation_in_the_united_states_will_improve",
+    "topic": "Over the next 12 months, the economic situation in the United States will improve a lot",
+    "category": "Economy & Finance",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 434,
+    "initialOpinions": [
+      {
+        "workerId": "657b8QJ0RG",
+        "text": "I disagree that over the next 12 months the economic situation will improve alot in the United States. Inflation is terrible and people cant afford things with their income and cant afford rent.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "64226QJ0RG",
+        "text": "I think the US economy will improve  alot. I think inflation will go down and supply chain problems will come to and end. And I think the tarrif situation will help the US treasury, thus improving the economy.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "60a1dQJ0RG",
+        "text": "While some indicators look good, like inflation easing, I think there's too much uncertainty in policies to be too optimistic about the economy. Tariffs could potentially send things toward a recession if they go really wrong.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "65fcdQJ0RG",
+        "text": "I think that the economy will dip and that a market crash is coming. I am seeing people sell their homes to take advantage of the prices now before the economy gets worse. I believe with tariffs and increased costs of household goods people will cut back on spending, and there will be a lot of issues while companies and individuals try to get accustomed to peoples new spending habits.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5edb23J4C4",
+        "text": "I lean toward disagree because I think it will either stay same or slightly worsen.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "674c63J4C4",
+        "text": "Inflation has been constant.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think tariffs and other policies lead to too much uncertainty to say for sure that the US economy is going to improve. There's just as good of a chance of a recession.",
+      "Inflation is easing, and I think the FED will be lowering interest rates soon which will stimulate the economy.",
+      "Hi I believe that the market is more likely to crash and that the economy will dip so I disagree with this statement. I think that businesses are failing and that individuals are already being affected. We have conflicts in political houses, rising tariffs, and inflation.",
+      "I think I lean toward disagree because we are more likely to have greater inflation, or stay the same",
+      "I see no indication of an improvement. Cost of living continues to rise.",
+      "oooof. Now way the Trump administration is going to improve our economic situation. His game playing with tariffs is going to tank our relationship with trade partners and increase the strain on American consumers. We need more stability and not more upheaval and in our country."
+    ],
+    "tags": [
+      "economy & finance",
+      "over",
+      "next",
+      "months",
+      "economic",
+      "situation",
+      "united",
+      "states",
+      "will",
+      "improve",
+      "lot"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_is_a_characteristic_of_democracy_for_people_to_choose_their_leaders_in_free_e",
+    "topic": "It is a characteristic of democracy for people to choose their leaders in free elections",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 432,
+    "initialOpinions": [
+      {
+        "workerId": "610f3RJTDR",
+        "text": "I believe that to have a true democracy, people must choose their candidate in free elections",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "60121RJTDR",
+        "text": "People choosing their leaders in free elections is a basic part of what makes a democracy. If elections aren't free, then the people don't really have the power.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "62a0bRJTDR",
+        "text": "Democracy generally only allows the Polis to choose from a handful of individuals who have gathered power in distinct coalitions. Any outsider has no real outside chance with a few exceptions, the exceptions proving the rule.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "663a6RJTDR",
+        "text": "Democracy is a government system that is meant to allow people to be directly involved in their own governance and therefore it seems only natural that in a democratic republic (like most western nations have) the people being governed would choose their leaders in free elections. The big deal is what defines a \"free election\" here.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67eaa0X5SC",
+        "text": "I believe the entire point of democracy is to be able to chose your leader",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5edd70X5SC",
+        "text": "One of the basic foundations of a democracy is people having the ability to choose their own leaders and vote freely. If you don't have that, it is not a democracy anymore",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Voting in free elections lets people pick who leads them. This is a key part of democracy. It means the leaders are chosen by the people. #democracy #elections",
+      "Yes, I believe in a true democracy that people must elect their candidates in free elections.  This is would democracy is all about.",
+      "Considering the paucity of choices that people have, said choices being presented to them by large coalitions of power, I can't really say the people are freely choosing anything. They are given some choice, and generally that choice is further decided by who controls the media.",
+      "I want someone to represent what I want and need to happen, not what these rich politicians want.",
+      "It is the highest form of fundamental human rights to be able to select their leaders in a free election. This is what humanity and free choice should be about, we are a community of free people and we all deserve to have an opinion. Nothing should stand in the way of that",
+      "It is a characteristic of democracy for people to choose their leader  to ensure secure and transparent voting systems and implement robust mechanisms for dispute resolution and show resu"
+    ],
+    "tags": [
+      "society & politics",
+      "characteristic",
+      "democracy",
+      "people",
+      "choose",
+      "their",
+      "leaders",
+      "free",
+      "elections"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_united_states_involvement_in_the_global_economy_is_a_good_thing_because_it_p",
+    "topic": "The United States’ involvement in the global economy is a good thing because it provides the US with new markets and opportunities for growth",
+    "category": "Economy & Finance",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 432,
+    "initialOpinions": [
+      {
+        "workerId": "66219G3MHE",
+        "text": "We are the biggest economy in the world. We dictate everything.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67009G3MHE",
+        "text": "I don't know if this benefits the United States or the corporations. We've lost our entire manufacturing industry. And now we are forced to rely on factories and labor in other countries.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67255G3MHE",
+        "text": "The U.S. involvement in the global economy is good because it encourages innovation and the development of better products and services.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "663a3G3MHE",
+        "text": "I think it's a massive advantage to the US because it opens up new opportunities for growth. By trading and investing around the world, the US strengthens its economy, drives innova",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6685cNBYTB",
+        "text": "It helps to market US goods and services abroad and also increases investment within the US to sell to the US market.  With tariffs it brings in income to the US by encouraging manufacturing to be done here.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "589deNBYTB",
+        "text": "I mainly agree with this because there is a lot of new markets and opportunities offered, but I want to be careful that we don't exploit other countries in order to achieve that.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don't think that the United States has benefited much from this. Corporations have benefited, and mostly the executives. They have used to cheap labor from other countries to increase profits while providing us with cheaply made product. We've lost ourt ability to make things.",
+      "The United States of America is the largest economy in the world. California is actually 4th largest by itself it was its own country. That being said the United States of America needs to engage with as many other countries as p",
+      "It's a good thing. It gives businesses access to markets, boosts growth, and creates new jobs. Staying connected globally keeps the US strong, competitive, and better prepared for future challenges.",
+      "The US is a very innovative country so it definitely helps us to market our technology and solutions to the global market.",
+      "I think this is mainly true, especially when you consider the benefits for the US. If we consider other countries, I'm not so sure it is a good thing.",
+      "I think new markets and growth are mostly for the owners of the economy. We have to focus on good paying jobs with benefits, which happen at home. If the economy is good for the employers, then hopefully, it will bring the good paying jobs with benefits."
+    ],
+    "tags": [
+      "economy & finance",
+      "united",
+      "states",
+      "involvement",
+      "global",
+      "economy",
+      "good",
+      "thing",
+      "because",
+      "provides",
+      "new"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "avoiding_a_fare_on_public_transport_can_be_justified",
+    "topic": "Avoiding a fare on public transport can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 426,
+    "initialOpinions": [
+      {
+        "workerId": "5b909603VR",
+        "text": "Paying the fare is expected.  I cannot think of a reason that not paying is justified.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5efe4603VR",
+        "text": "For me, this depends on how expensive the fare is and how well-maintained the service is. For example, I absolutely agree with turnstile jumping on the New York MTA subway, as they charge ridiculous fees and don't do a good job with upkeep.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67695603VR",
+        "text": "I think if you ride knowing there is a fare, you should pay the fare. you cant justify stealing regardless of how you steal. it is wrong to justify anything that is theft",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66077603VR",
+        "text": "I think it is only fair that if all people are subject to the fee, everyone should have to pay. I believe some accommodations can be provided to individuals who demonstrate financial n, such as a discounted ride.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "662feZVT8J",
+        "text": "I think it's wrong - everyone has to pay or it's stealing,.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67ed9ZVT8J",
+        "text": "Avoiding a fare on public transport is not justified. The system relies on everyone paying their share to function. Fare evasion puts a heavier financial burden on other paying riders and can lead to service cuts.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "Avoiding the fare is fair if the cost of the ticket doesn't match the service/upkeep.",
+      "I don't think you can justify not paying a fare that you knew you would have to pay for public transportation. stealing is wrong and unless the actual company gives you a pass, pay for the fare.",
+      "I would think paying the fare is important as it is expected in order to use public transport.  The only justified reason would be if you need to get home and just got mugged or lost your wallet.  I can't think of any other reason.",
+      "From my perspective as a manager, I firmly believe that avoiding a fare on public transport is not justified. The system is a shared resource that we all depend on. It's a fundamental part of our city's infrastructure. When people don't pay, it undermines the system.",
+      "I just don't think people should try to cheat the system for any justification.  I know there may excuses some people could use but it wouldn't be right.  If many people did it, it would bankrupt the systems at some point.",
+      "I think that if someone felt unsafe, then that would justify not paying a fare. There have been instances of people being followed, threatened, or worse, and their only lifeline was to get on a bus or suway to safety. Those cases, I feel would be justified. I'm curious to know wh"
+    ],
+    "tags": [
+      "ethics & law",
+      "avoiding",
+      "fare",
+      "public",
+      "transport",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "i_m_worried_about_not_being_able_to_give_children_a_good_education",
+    "topic": "I’m worried about not being able to give children a good education",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 424,
+    "initialOpinions": [
+      {
+        "workerId": "582afTT3WF",
+        "text": "My children are grown, but my grandchildren are a concern.  So far they are doing well in pubic schools that their parents have researched.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "65c9cTT3WF",
+        "text": "I am far more worried about being able to stay housed and fed.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "676caTT3WF",
+        "text": "I am concerned about in school education, it's changed a lot over the years but I feel children could get a great education at some select schools, home schooled or tutored as well",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66bcfTT3WF",
+        "text": "I am worried about giving children a good education.  I believe that teachers are overwhelmed with so many issues in the classroom that the children may be found lacking. I am also worried about the use of technology all around",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "61592DAXR1",
+        "text": "I always worried about giving my son the best education he needed when he was younger. (He is 18 now) I always wondered if the school was good enough for him. If he was understanding what the teachers were teaching him, if he needed a tutor. I always wanted to make sure I was in the front lines of his learning to make sure he had all of the tools needed.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e03DAXR1",
+        "text": "With the attacks on the department of education, I am worried that children will be able to get a good education. Out children do not receive the best education as it is, we do not need to take more away from them.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I am confused a little, I have not received a response.",
+      "I think that people are scared that they will not be able to make it till next week. This causes people not to really care about education in the future.",
+      "What is happening in the classrooms is horrifying.  The teachers must fight poor attention spans and the use of technology.  Also, the attitudes of parents and children towards teachers is causing a disruption n the quality of learning.  The teachers are overwhelmed by the amount",
+      "I think with the attacks on the department of education children will no longer receive a good education.",
+      "When my son was younger I always worried about his education. I feel like every parent does, and wants the best for their child. I always wondered if the school was the best, if his teachers were explaining things so he understood, and I was ready with a tutor when needed.",
+      "It is quite normal to worry. But quqlity education is not always  expensive. SO I disagree. I can be very heavy on my responsibilities of"
+    ],
+    "tags": [
+      "general discussions",
+      "worried",
+      "about",
+      "not",
+      "being",
+      "able",
+      "give",
+      "children",
+      "good",
+      "education"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "government_ownership_of_business_should_be_increased",
+    "topic": "Government ownership of business should be increased",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 423,
+    "initialOpinions": [
+      {
+        "workerId": "5dd56HAPQ4",
+        "text": "I disagree that government ownership of business should be increased.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5c663HAPQ4",
+        "text": "I do not think government ownership of businesses is good. It causes more conflicts of interest. Remaining separate is important for independence.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "65fccHAPQ4",
+        "text": "I do not believe government ownership of business should be increased.   Freedom is fundamental under our constitution.   Small government is the least tyrannical.  THe people should own the most businesses.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67c9fHAPQ4",
+        "text": "The government should not not increase its ownership of business.\nThis will not go well with individuals.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "68491T0K2D",
+        "text": "I don’t think government ownership of business should be increased much. While some regulation and oversight are important, too much government control can reduce competition, stifle innovation and make industries less efficient. A mixed model with mostly private ownership and some strategic government involvement works better in most cases.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67360T0K2D",
+        "text": "I would have to disagree with this statement. If we allow our government to be increased within our local businesses, I feel that it could hurt our community.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I disagree with this because it will cause more conflicts of interest. Government is supposed to be about serving the public. If it becomes a business it will create additional issues. Not everything should be about making money. Governments need to focus on people before profit.",
+      "Freedom is a fundamental value under our constitution, and that freedom is best maintained without excessive government interference.  Government is for the purpose of supporting the people not controlling the people.  Small government is essential to prevent tyrran",
+      "it can reduce efficiency and could also lead to some interferences to busin",
+      "I think government ownership of business should only be increased in very specific sectors like healthcare or utilities. Too much government control can reduce innovation and efficiency. A mostly private market with strong regulation works better overall.",
+      "I do not agree with the government interfering in business ownership.",
+      "I believe that it is time to increase government ownership of businesses because sectors like educatiion and healthcare should never be about making more profits. In this case increased government control ensures fairness for all citizen"
+    ],
+    "tags": [
+      "society & politics",
+      "government",
+      "ownership",
+      "business",
+      "should",
+      "increased"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "being_lucky_is_important_for_getting_ahead_in_life",
+    "topic": "Being lucky is important for getting ahead in life",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 422,
+    "initialOpinions": [
+      {
+        "workerId": "654bc9BBSE",
+        "text": "i think being lucky is why a lot of people have gotten ahead in life",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "667329BBSE",
+        "text": "I really don't think getting ahead in like is being lucky, do you?",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67ab59BBSE",
+        "text": "i believe that in everything we do luck must always be on our side to get ahead",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ec89BBSE",
+        "text": "I agree that luck plays a big role in getting ahead in life because life is a matter of chances. Not everyone gets same opportunities in life",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f2fESMCJ",
+        "text": "I think bring lucky is important in life",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6732aESMCJ",
+        "text": "Being lucky is somewhat important for getting ahead in life for as long as there is hardwork and effort.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Most people who ate at the top are there because of luck",
+      "being lucky is an important aspect of living because it shoots one ahead of their peers",
+      "I believe that luck plays an important role in getting ahead in life. This is so because life is a matter of chances and not everyone has the same opportunities",
+      "When one is lucky , it means that they / he/ she can always get in opportunities without any struggle",
+      "I think being lucky is important for getting ahead in life.  Where you are born, the family you are born into will definitely have a influence on how successful you become. Also, the genetics that you inherit, if you are lucky you will end up intelligent and attractive.",
+      "I believe that luck plays a huge role in getting ahead in life. hardwork is also intergreted including tallent and focus."
+    ],
+    "tags": [
+      "general discussions",
+      "being",
+      "lucky",
+      "important",
+      "getting",
+      "ahead",
+      "life"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "global_climate_change_is_harming_people_around_the_world_now",
+    "topic": "Global climate change is harming people around the world now",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 422,
+    "initialOpinions": [
+      {
+        "workerId": "6636dBP7DJ",
+        "text": "i think harm is a strong word for now but \"will\" makes more sense",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "676d6BP7DJ",
+        "text": "I think climate change is real and its harmful, but I dont think its all mann made. I think that nature is also responsible.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5eeabBP7DJ",
+        "text": "I agree that global climate change is harming people because it is causing excessive heating which can destroy the habitats of animals and wildlife, which will directly affect humans who might depend on these. It can affect the atmosphere increasing pollution and air quality issues affecting our health.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6748fBP7DJ",
+        "text": "I believe global climate change is harming people across the globe for many reason. It harms people through increased health issues too extreme weather and pollution to name a few.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5edcfKX5SF",
+        "text": "On a global time scale, these weather changes are meaningless.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67eecKX5SF",
+        "text": "I believe global climate change is harming people now.  Weather patterns are creating severe storms that are causing property damage and hurting and killing people.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "imnot really sure how I am supposed to know but I would have guessed will harm as in soon or later not at this moment",
+      "I think that climate change is a thing, I dont know about its effects of harming people now. I also think that a large extent of climate change is due to natural factors in nature.",
+      "Global climate change hurts people through increased health issues from extreme weather and air pollution. It can disrupt food production leading to other multitudes of problems.",
+      "Nothing is constant. The global climate has always been changing.",
+      "Global climate change is harming people. Humans need to take more responsibility for the damage we have caused! There is no telling how the Earth will be 100 years from today.",
+      "Global warming is causing more severe storms all over the world.  Hurricanes are more frequent reaching land with higher wind speeds.  Tornados across the country and becoming more frequent and bigger in their velocity.  Temperatures are rising creating drought creating wild fire"
+    ],
+    "tags": [
+      "general discussions",
+      "global",
+      "climate",
+      "change",
+      "harming",
+      "people",
+      "around",
+      "world",
+      "now"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "we_should_restrict_and_control_entry_into_the_us_more_than_we_do_now",
+    "topic": "We should restrict and control entry into the US more than we do now",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 422,
+    "initialOpinions": [
+      {
+        "workerId": "5fd0dA1SZ3",
+        "text": "The United States has always been a melting pot of citizens. Entry should be strict, but fair.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67016A1SZ3",
+        "text": "i disagree. We should give entry to non-violent migrants who want to come here to make a better life for them and their family.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "677edA1SZ3",
+        "text": "There are unfortunately many people with malicious intent who have capitalized on our lax borders. In order to protect society, we need more stringent borders.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "63be7A1SZ3",
+        "text": "I agree. This is because when we allow just anyone into the country it might bring bigger implications on us later in the future. There are terrorists, murderers  on the run so we should be careful.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "68422DY57D",
+        "text": "for our safety this is important, we should get to control who enters or leaves our country",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67912DY57D",
+        "text": "I feel the policies in place now are enough. There are more important things our government should be worried about to help the American people.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "The United States has always been a melting pot of citizens. Entry should be strict, but fair.",
+      "I feel that we need to let non-violent migrants into the country. They add value to our work force, and America always thrives through diversity.",
+      "I believe that there are a lot of bad people out there. We are not perfect as a country that is the more reason why we should restrict entry into the country to avoid having bad people who will tarnish the image of the country.",
+      "We should not as Immigrants come to seek greener pastures and also help in filling wide gaps in some jobs, including hard labour",
+      "I feel that the current policies that are in place are enough. There are more important things the government should focus on to help the American people.",
+      "hey, i think it is important to control who enters our country and why. There exists a large number of people with bad will,you get to understand this when you let your guard down and things fall apart. So i honestly think it best to be careful and do things in a careful way"
+    ],
+    "tags": [
+      "general discussions",
+      "should",
+      "restrict",
+      "control",
+      "entry",
+      "into",
+      "more",
+      "than",
+      "now"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_united_states_involvement_in_the_global_economy_is_a_bad_thing_because_it_lo",
+    "topic": "The United States’ involvement in the global economy is a bad thing because it lowers wages and costs jobs in the US",
+    "category": "Economy & Finance",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 420,
+    "initialOpinions": [
+      {
+        "workerId": "661ef17W5S",
+        "text": "Being involved in the global economy is necessary for production of goods at a low cost. It is US imposed tariffs that are bad",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6700717W5S",
+        "text": "Involvement in the globla economy, if it involves American businesses moving their operations to other countries, will be a bad thing.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6729117W5S",
+        "text": "It may lower wages and costs jobs in the US, however, participating in the global economy broadens the market for US and the benefits outweighs the short term costs in the long run.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "629e117W5S",
+        "text": "I disagree.  I think it needs to be great, and not based on other countries.  We need what we dont produce.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5f5154M9QB",
+        "text": "The USA leads trade and the world could help each other",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "673284M9QB",
+        "text": "I would slightly agree that its a good the just a hairs length away from disagreeing with it.  It does benefit the U.S to have cheaper quality items but I cannot justifiy sweatshops.  But that is more of a complex discussion.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "It is a good thing the US is involved in the global economy. Trump's tariffs are what cause production cost increases and higher prices on goods.",
+      "US involvement in the global economy may be a bad thing in the short-run, however, participating in the global economy will eventually lead to a broader market which in turn will benefit the US in the long run.",
+      "If US businesses take their operations to other countries, it iwll cost jobs in the US. If companies want to stay in the US but want to compete, they will likely pay lower wages. So, I am not one to see much value in joining in globally in the economy or elsewhere.",
+      "I would agree slightly.  I wont complain over cheap low quality tat that I can buy online.  But I do undestand for people to get a cheap product someone somewhere is probably being exploited.",
+      "Involvement isn't the problem. Unfair practices and manufacturers leaving is.",
+      "I agree the involvement in the global economy has often meant outsourcing jobs to cheaper labor markets, hurting"
+    ],
+    "tags": [
+      "economy & finance",
+      "united",
+      "states",
+      "involvement",
+      "global",
+      "economy",
+      "bad",
+      "thing",
+      "because",
+      "lowers",
+      "wages"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "abortion_can_be_justified",
+    "topic": "Abortion can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 418,
+    "initialOpinions": [
+      {
+        "workerId": "62d38EKTYS",
+        "text": "i 100% agree that abortion can be justified",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e28EKTYS",
+        "text": "yes i beleive that some one should have the right to abortion",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "60cfdEKTYS",
+        "text": "abortion can be justified for a plethora of reasons. when a woman isn't ready to bare a child, when a woman is impregnated without her consent, when there is danger involved, etc.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "664cfEKTYS",
+        "text": "I definitely agree especially in cases of rape and incest. That’s a lot of trauma and heartache to make a person deal with if they’re not allowed to get an abortion. Some women think they have demons growing inside of them while pregnant and would try to harm the fetus.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6163dTG9XV",
+        "text": "Abortion is always justified.  The idea that human life is sacred is absurd.  If a fetus isn't wanted, for whatever reason, medical or financial, then let it be terminated.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "60e8aTG9XV",
+        "text": "I believe its a woman's right to do whatever she wants to her body, before a certain time then I think its wrong to have an abortion. there are a ton of reasons it could be justified such as rape, incest and age mainly.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I feel like it can be justified for many different reasons. In matters of rape it is definitely justified, but I also personally believe that any woman should have the right to choose whether the want to have a child or not.",
+      "This is true. Abortion can be justified. Abortion is justified in all safe practicing cases. Access to healthcare ensures that safe practices are carried out when abortion is needed.",
+      "my honest belief is that this is true because in cases like rape and incest, it gives the person an option out of an experience that they had no control over! Also, some women who do get pregnant because of incest and rape want to hurt the fetus because of that sometimes they do.",
+      "Human life isn't sacred.  Terminating a fetus is no big deal.  It's better to abort a fetus for medical or financial reasons than to force a mother to give birth.",
+      "I do feel that it can be justified but in certain situations, such as a woman being violently raped and does not want to carry a child by the awful, evil person. Also, if testing shows the child will be severely mentally incapacitated and have low to no quality.",
+      "I definitely believe Abortion can be justififed in the case of a rape, incest, or even a life or death situation where there is a high possibilty that the mother may not survive the pregnancy. Also, if physicians are certain that the baby my not be delivered alive."
+    ],
+    "tags": [
+      "ethics & law",
+      "abortion",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "aids_and_other_infectious_diseases_pose_the_greatest_threat_to_the_world",
+    "topic": "AIDS and other infectious diseases pose the greatest threat to the world",
+    "category": "Health & Wellness",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 418,
+    "initialOpinions": [
+      {
+        "workerId": "67933PRSMS",
+        "text": "Is a great threat indeed",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67e0bPRSMS",
+        "text": "I think AIDS and other infectious diseases does not pose a great threat considering the fact that more advanced technology has been deve",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f1cPRSMS",
+        "text": "I somewhat agree with the statement. AIDS and other infectious diseases continue to cause widespread suffering and death, especially in low-resource regions, and they can spread rapidly across borders. While other global threats exist, the immediate and ongoing impact of infectious diseases on public health and economies makes them a significant global concern.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ed4PRSMS",
+        "text": "I agree that AIDS and infectious disease are serious global threat. They spread rapidly. Strain healthcare systems, and can cause widespread loss of li",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67edfY3BP6",
+        "text": "I believe big pharma is possibly a greater threat than these diseases.  I honestly believe that a lot of diseases have a cure, but why would big pharma want a cure when they can continue to treat instead",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "65c0eY3BP6",
+        "text": "I don't hear much about AIDS these days.  Used to be a huge issue back in the 1980s and 90s but I do not feel it is as huge of a problem as it once was.  There are many other diseases of greater importance I feel.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "These are threats to the entire world, and prevention, I see to be the best option",
+      "i agree with the above statement, i see it as a threat because no one has yet gotten the cure for AIDS",
+      "holds weight, as they impact millions globally, e",
+      "AIDS is not a huge diseases like it once was, there are many more impactful problems facing the world in my opinion.",
+      "I disagree with this statement.  While I think it is a threat, I think big pharma is a greater threat.  They don't want to cure you.  They want a patient for life depending on medicine to manage symptoms instead of giving a cure.  We all know there's got to be cures to diseases",
+      "aid is a very deadly infection and it is dangerous to the world at large i will advise everyone be very careful"
+    ],
+    "tags": [
+      "health & wellness",
+      "aids",
+      "other",
+      "infectious",
+      "diseases",
+      "pose",
+      "greatest",
+      "threat",
+      "world"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "chinese_students_should_be_limited_from_studying_in_the_us",
+    "topic": "Chinese students should be limited from studying in the US",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 417,
+    "initialOpinions": [
+      {
+        "workerId": "67191R7PGR",
+        "text": "Yes, I do believe Chinese students should be allowed to study here",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67cb0R7PGR",
+        "text": "i disagree with the statement",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5ddd2R7PGR",
+        "text": "I don't see an issue with this. They should be allowed to study here as Americans can within their country.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67d79R7PGR",
+        "text": "some argue Chinese students should be limited in U.S universities. Others call i",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "683b4JEF8R",
+        "text": "Yes since we need to sort out our education sector",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "55d35JEF8R",
+        "text": "I don't think Chinese students should be limited because if they can make it into the colleges and are eligible to get in, they should be allowed to. I don't see how Chinese students being in U.S. education system harms anything. If anything, it says more about American education systems and our children here can't keep up.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "Some argue Chinese students should be limited in U.S. universities. Others call it unfair. What do you think?",
+      "i disagree with the statement thatchinese students should be limited from studying in the US BECAUSE INTERNATIONAL STUDENTS CONTRIBUTE TO cultural diversity and innovation",
+      "I feel this statement is false, as there is no reason Chinese students should be limited to studying within the USA. It doesn't make any sense at all!",
+      "It is my observation that Chinese students should not be limited from studying in the US since this opportunity allows diversity and tolerance to be realized. Globalization needs culture mix-up and recognition, which can only be realized if schools are open for outsiders.",
+      "I honestly don't see any reason why they should be limited because the schools are open to everyone. If American students aren't beating Chinese students in test scores to get into these schools, it says more about American education system instead.",
+      "What if these students are coming here to investigate us and learn of our ways, thereby China gaining advantage over our beautiful country. They should stay in their country"
+    ],
+    "tags": [
+      "general discussions",
+      "chinese",
+      "students",
+      "should",
+      "limited",
+      "from",
+      "studying"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "growing_gap_between_the_rich_and_poor_poses_the_greatest_threat_to_the_world",
+    "topic": "Growing gap between the rich and poor poses the greatest threat to the world",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 416,
+    "initialOpinions": [
+      {
+        "workerId": "67eedPZ6VP",
+        "text": "I agree that the growing gap between the rich and poor poses a significant threat. This disparity fuels social unrest, instability, and conflict, as large portions of the population feel marginalized and lack access to basic resources and opportunities. It also hinders economic growth, as inequality stifles demand and innovation.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67719PZ6VP",
+        "text": "The greatest threat to humanity is humanity, but the gap between wages is becoming increasingly unstable.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67dbbPZ6VP",
+        "text": "This will lead to increase in crime rates and trust in the government",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ddaPZ6VP",
+        "text": "This is because the poor people will not have a good living standards as compared to the rich  people.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67da1AMSYQ",
+        "text": "Agree",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "65a30AMSYQ",
+        "text": "I certainly agree that there is a big problem with the gap between the rich and the poor. But I don't know if it is the GREATEST threat",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "The widening gap fuels social unrest, economic instability, and conflict. When a large portion of the population lacks basic resources and opportunities, it creates resentment and desperation. This can lead to political instability, violence, and hinder overall progress.",
+      "This is true because the poor people will continue to work for the rich individual and later being paid little amount of money which can only be used to buy food",
+      "The gap between the rich and poor is a threat to humanity as the poor continue being poor and the rich getting richer. This lead to distrust between the two groups and hence increased crime rate.",
+      "I think that the growing gap between the rich and poor does not pose the greatest threat to the world. I think that other things like wars and discrimination pose a much greater threat to the world.",
+      "This gap causes instability, distrust and conflicts among individuals.",
+      "Emotional differences prove this statement. With the rich continuing to benefit, the poor will have fluctuating emotions, a lot of risk ahead"
+    ],
+    "tags": [
+      "general discussions",
+      "growing",
+      "gap",
+      "between",
+      "rich",
+      "poor",
+      "poses",
+      "greatest",
+      "threat",
+      "world"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_is_important_for_people_to_know_about_science_in_their_daily_life",
+    "topic": "It is important for people to know about science in their daily life",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 416,
+    "initialOpinions": [
+      {
+        "workerId": "67d466PGP0",
+        "text": "Science brings a lot of problem solving.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e4c6PGP0",
+        "text": "yes it is important for people to know about science. science will always be a part of us",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "678c86PGP0",
+        "text": "I do believe science is everything. It dictates how we live.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "673646PGP0",
+        "text": "i think its important to know about science in our daily life",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "677454AMMM",
+        "text": "I like Easter",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "566a14AMMM",
+        "text": "I agree. Science is done through comprehensive research. As a result, people need to know about things are done and how their life may be affected by it.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "yes it is important to know about science, on my side or belief, i believe science is everything. scientist are using technologies involving science  on our dairy basis, nothing can bit science",
+      "I do believe science makes us understand our lives and our health issues, to some extent it helps us to save money. I would describe science as everything on this world. S",
+      "I feel tat it would be sad for us to ignore science. it is wat we are made of and so it is important for people to know about in in their daily lives. ignoring science is like nelecting yourself",
+      "It's imperative that science is discuss in someone daily life. Science, is done through research and data. Imagine if we had to listen or take someone opinion who have no factual basis or research done. It could be very dangerous, if that were to occur.",
+      "Strongly agree!\nScience helps daily decisions-health, Tech, Climate. Vital for cutting through misinformation",
+      "I don't really care about science all that much to be honest. It's not that I hate it but I think it's just very boring. There's nothing that I really care to learn about it. I feel like there are other interesting things in the world to talk about than science."
+    ],
+    "tags": [
+      "science & technology",
+      "important",
+      "people",
+      "know",
+      "about",
+      "science",
+      "their",
+      "daily",
+      "life"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_united_states_is_a_place_where_a_young_person_could_lead_a_good_life",
+    "topic": "The United States is a place where a young person could lead a good life",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 416,
+    "initialOpinions": [
+      {
+        "workerId": "676f33VQP9",
+        "text": "I think it is possible depending on your individual circumstances and priorities.  I think the color of your skin, your sexual preferences, your politics and religious choices factor into as well as far as being accepted.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "615373VQP9",
+        "text": "I think it depends on what metric young people are using. If they are looking at everyone else to determine what a good life is or looking at social media - they will not think they have a good life. If they create their own metric, I think they can have a good life.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66e0f3VQP9",
+        "text": "Nope because of the way everything is going up they will not be able to actually live! and dont get me started on rent prices. its ridiculous",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6766c3VQP9",
+        "text": "i disagree",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67efeQH9V4",
+        "text": "The united states is a place where a young person could lead a good life.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5c377QH9V4",
+        "text": "I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think it is possible depending on your individual circumstanced and priorities.  I also think it depends on your gender, race, religious choices and sexual preferences.",
+      "I think anyone can live a good life. I think they need to decide what they need to live a good life and meet those needs. I think expectations need to be realistic for this to happen.",
+      "A young person should not seek the US for a good life.",
+      "I believe that The United States is a country where youths could lead a good life.",
+      "Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",
+      "i think US CAN BE  a place where a young person can"
+    ],
+    "tags": [
+      "general discussions",
+      "united",
+      "states",
+      "place",
+      "where",
+      "young",
+      "person",
+      "could",
+      "lead",
+      "good",
+      "life"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "violence_against_other_people_can_be_justified_in_some_cases",
+    "topic": "Violence against other people can be justified in some cases",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 416,
+    "initialOpinions": [
+      {
+        "workerId": "63d15HDVG7",
+        "text": "I don't believe violence against another person can ever be justified or acceptable. Sometimes violence can be a necessary response in self defense.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "644a7HDVG7",
+        "text": "I think that in a few very rare cases violence against another person is justified. For example, if someone was trying to grab your baby, shoving them really hard or even biting them to get them to release the baby could be justified. I do think in most cases it isn't though.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67203HDVG7",
+        "text": "Violence against other people can be justified in some cases. If someone is going to inflict violence upon you, you are allowed to defend yourself. If someone is trying to harm someone close to you like a family member, it is your right to put a stop to it even if violence is necessary. Someone breaking into your house, robbing you, carjacking..etc. Violence to stop violence is okay.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67eaeHDVG7",
+        "text": "I agree that violence can be justified in some cases, such as self defense or protecting others from harm. In those situations, using may be the only way to prevent f",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67edfE2H5H",
+        "text": "I believe in certain circumstances maybe violence against other could be justified, but it has to be something pretty bad",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e54E2H5H",
+        "text": "If the people violence is going to be used against are in imminent threat of killing or severely harming other people it can be justified. If a person for example is going to start a mass shooting, then violence can be justified against that person so lives can be saved.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Simply yes. If someone is trying to break into my home, attack me, rob me or hurt me or a loved one in any way, I have the right to defend myself. If violence is necessary to do that, I am doing it.",
+      "I think that violence against a human can only be justified in a few rare cases. Like if someone is directly harming a loved one and needs to be stopped. Or if someone is trying to kill you, you could shove them or bite them. But in most cases, no one should use violence.",
+      "I believe violence can sometimes be justified, especially in cases of self defense or preventing immediate harm. Although violence is sometimes unnecessary.",
+      "If someone is about to hurt or kill other people, violence is justified to stop that person and thereby save lives of others. Like in school shootings and so forth. But I feel that there should be immediate threat to justify the violence. Otherwise lesser measures suffice.",
+      "Violence against other people can only be justifiable when it's about self protection from harm inflicted by the other party.",
+      "In some cases, I can see violence against other could be justified.  I think it would be in very rare case, but I definitely can see this as something I would agree with.  Some very terrible crimes against humanity could make me feel this way where I"
+    ],
+    "tags": [
+      "science & technology",
+      "violence",
+      "against",
+      "other",
+      "people",
+      "justified",
+      "some",
+      "cases"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "in_the_long_run_hard_work_usually_brings_a_better_life",
+    "topic": "In the long run, hard work usually brings a better life",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 412,
+    "initialOpinions": [
+      {
+        "workerId": "67ddbSCPDV",
+        "text": "yes",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6776fSCPDV",
+        "text": "Absolutely agree with this!",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d49SCPDV",
+        "text": "it is true hardwork always pay",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ee5SCPDV",
+        "text": "I agree. In the long run, hardwork pays, It builds discipline and resilience necessary for success.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67522CHG49",
+        "text": "I think I agree with this statement.  If you don't work hard at what you do in life, you are unlikely to succeed in your work career, family life, or in social relationships.  Just taking it easy through life only works if you are born with a lot of advantages.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66fc2CHG49",
+        "text": "In a vacuum, this statement is true. However, in the messy \"grey area\" that we live in called reality, I think it really depends. Some people definitely get ahead and succeed in life through their hard work, whereas others can put in the same amount of work and through no fault of their own, don't succeed because of the fact that they may not have had as many advaantages.",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Yes! I believe that hard work yields many benefits.",
+      "i alway know with hard work one always get what he or she want",
+      "i believe it for a long time of hardwork it will be better",
+      "In a vacuum, I think this statement is true. However, the world we live in is very messy and there are a lot of people who are simply born with more advantages than other people, outweighing the hard work they put in.",
+      "To feel like you have succeeded in life, you have to put effort into your work, family, and social relationships.",
+      "This hard work thing we lean about can actually cause putting more effort towards things that do not guarantee us success. Life does not always happen as we want it."
+    ],
+    "tags": [
+      "general discussions",
+      "long",
+      "run",
+      "hard",
+      "work",
+      "usually",
+      "brings",
+      "better",
+      "life"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_north_american_free_trade_agreement_nafta_has_been_good_for_the_us",
+    "topic": "The North American Free Trade Agreement (NAFTA) has been good for the US",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 410,
+    "initialOpinions": [
+      {
+        "workerId": "671723PM0Q",
+        "text": "I HAVE NO OPINION FOR THIS BECAUSE I HAVEN'T HEARD ABOUT IT BEFORE",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67ed83PM0Q",
+        "text": "I think it's true",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5cbe03PM0Q",
+        "text": "NAFTA increased trade between America and other countries. NAFTA created opportunities for many businesses.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d833PM0Q",
+        "text": "It helped boost trade and lower prices for consumers but this is a black and white situation because it led to losses of jobs in certain sectors",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "61732D32XH",
+        "text": "I think it has begun to be bad for the US as too many companies are overseas now.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6740aD32XH",
+        "text": "I do not have knowledge about this topic so have no real opinion.  My gut says it has some advantages and some disadvantages.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think its true that the North American Free Trade agreement has been good for US",
+      "NAFTA has been good for the U.S because it created jobs and exposure for many businesses. In addition, Americans got to explore foreign goods because of NAFTA.",
+      "SINCE I KNOW LITTLE ABOUT THIS TOPIC, I AM BASING THIS OFF OF WHAT IT COULD BE INSTEAD OF FACT AND OPINION. TRUMP HAS STOPPED THE FREE TRADE BY HAVING ISSUES WITH ALL OF OUR COUNTRIES THAT WE TRADE WITH.",
+      "I do not know enough about the north american free trade agreement to have much of an opinion about it.  I try to ignore most international relation conversations",
+      "I think at the start of the agreement it was good for the country. However, as more companies found loopholes and such it has become bad. The US does not make money from this any longer and it is costing the country now. I think this benefits Mexico and Canada at our expense.",
+      "NAFTA was great for the US as it allowed for the free and non-tariffed trade of goods between the US, Mexico, and Canada. Increasing our own supply of resources and foreign products for US citizens to enjoy."
+    ],
+    "tags": [
+      "society & politics",
+      "north",
+      "american",
+      "free",
+      "trade",
+      "agreement",
+      "nafta",
+      "been",
+      "good"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "immigrants_have_positive_impacts_on_the_development_of_the_us",
+    "topic": "Immigrants have positive impacts on the development of the US",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 407,
+    "initialOpinions": [
+      {
+        "workerId": "661416ZAV5",
+        "text": "I agree, Immigrants do have a positive impacts on the development of the U.S.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "651b26ZAV5",
+        "text": "I somewhat agree with this statement assuming that the immigrants are educated and hard-working.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6765e6ZAV5",
+        "text": "Immigrants help improve labor shortages and boost the economy. They also contribute to cultural diversity which is what makes America great.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6810e6ZAV5",
+        "text": "Agree. At the most basic level, socio-economic and cultural diversity is good for growth and opportunity.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5dd38X3SWX",
+        "text": "yes they have a big positive impact",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66426X3SWX",
+        "text": "they bring workers and I believe everybody is equal. we should think a person is illegal.",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Immigrants create socio-economic diversity, bring cultural elements that drive commerce to areas, and enable diverse work",
+      "If the immigrants are educated and hard-working, they will most likely benefit the U.S. society. However, if they are just coming to the U.S. for getting benefits like free cash or housing without actual contribution, they are",
+      "I think immigrants greatly contribute to the development of the United States. They fill labor shortages and often do jobs many others would not. They contribute to the economy, to",
+      "I do think that immigration has a big positive impact in the U.S., especially in the economical scheme of things",
+      "I think that immigrants definitely have a positive impact. They do all of the hard labor jobs that non-immigrants don't want to do. They are happy to sweat themselves off in a field picking tomatoes for a small amount of money so it's hard for me to view them in a negative light.",
+      "I do believe the immigrants have a positive impact on the development of the U.S. because they bring different parts of the world with them and can us view the world with more empathy."
+    ],
+    "tags": [
+      "society & politics",
+      "immigrants",
+      "have",
+      "positive",
+      "impacts",
+      "development"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "public_debt_is_the_most_important_issue_for_the_government_to_address_first",
+    "topic": "Public debt is the most important issue for the government to address first",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 407,
+    "initialOpinions": [
+      {
+        "workerId": "67aa4Z1G92",
+        "text": "I don't think public debt is the government's responsibility. Additionally, there are far greater issues to be addressed before this one.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "666fbZ1G92",
+        "text": "While not the most important issue for the government I do feel it needs to be addressed and is one of the more important things that need to be resolved.  Currently the US is in debt the most it's ever been and the amount of revenue it takes it is less than what it spends meaning the debt amount will continue to grow.  At some point it will cause something to break and the economy will suffer",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e07Z1G92",
+        "text": "I agree with the statement that public debt is the most important issue for the government to address first",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d48Z1G92",
+        "text": "i disagree  because there far more important issues like health and safety of the public . debt is important but not most important",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "66c33HXJKV",
+        "text": "i agree it slows economic growth",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66b62HXJKV",
+        "text": "Public debt is an issue that is taking over America, and the government should be addressing this before anything else. Our people need relief somehow, some way. Many Americans have had no choice but to go into debt and should not be penalized!",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "While not the most important concern, I do believe public debt owed by the US government needs to be addressed.  Currently the US has a higher debt owed than any other time in history and it currently spends more than the revenue it brings in.  At some point that will be bad",
+      "Addressing public debt is important in order to boost investors trust.",
+      "Hi! I disagree with the statement that public debt is the most important issue for the government to address first. I think that there are other issues that are far more urgent than this one. What do you think?",
+      "yes it is important to deal with it if its too high so that the government wont struggle to make interest payments",
+      "Public debt is a HUGE issue in America right now, despite anyone's background or demographical nature, and the government needs to tend to it immediately. A lot of Americans have had no choice but to charge things to pay later, especially since COVID. In this case, we need to act",
+      "I believe public debt is the most important issue for the government to address first because it is a debt that will hurt our on investments in the future. Rising debt will hurt our economic opportunities. It will"
+    ],
+    "tags": [
+      "society & politics",
+      "public",
+      "debt",
+      "most",
+      "important",
+      "issue",
+      "government",
+      "address",
+      "first"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "i_have_a_lot_of_confidence_in_donald_j_trump_to_do_the_right_thing_regarding_wor",
+    "topic": "I have a lot of confidence in Donald J Trump to do the right thing regarding world affairs",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 406,
+    "initialOpinions": [
+      {
+        "workerId": "643ad2X362",
+        "text": "I have absolutely no confidence in Donald Trump to do the right thing regarding world affairs or anything else that a logical, educated or sane human would do. He is an embarrassment to the nation. I hope those who helped him get elected are happy.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67f302X362",
+        "text": "I disagree because  the tariffs imposed are causing a fall in economic",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66bf42X362",
+        "text": "After seeing how he has treated Ukraine how can anyone trust him.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "671042X362",
+        "text": "I could never have confidence in anyone that went bankrupt six times to have the intelligence to do the right thing when it comes to world affairs. In fact I have a high level of confidence that Trump will continue to do the wrong thing regarding world affairs because that seems to be his modus operendi",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66fdd5ZB1N",
+        "text": "I dont have confidence in any politicians to do the right thing in general, doesn't matter what color they represent.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5ebb95ZB1N",
+        "text": "I don't think Trump's views align with mine very much. He's too hawkish, and believes in countries I don't really support. His demeanor is also offputting to many other Western countries, which poses issues for America.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don't like how he is treating Ukraine.  I don't like what he has allowed Elon Musk to do.  I don't think he cares about people or the world.  I don't trust him.",
+      "Yes, he is working  to see the end of Ukraine war.",
+      "I would have no confidence at all that a person who went bankrupt six times would have the intelligence to do the right thing regarding world affairs. In fact I have high confidence he will continue to do the wrong thing as that seems to be his modus operandi. #notwinning",
+      "I don't have faith in any politicians to do the right thing, it's only a coincidence that sometimes the right thing is also the self serving thing. Doesn't matter what color they rep, I wouldn't trust a one.",
+      "I wouldn't say I have a lot of confidence. I have some confidence because he's done a few things right. I think that deep down he wants to protect the country. I just don't know if the people around him will be righteous or if he'll do things peacefully.",
+      "I don't have confidence in Trump, mainly because he's too hawkish and pro-war. His policies hurt many countries, and harm alliances the US already has. All of this creates headaches for federal employees and American embassies. I think he is more likely to cause war than end it."
+    ],
+    "tags": [
+      "science & technology",
+      "have",
+      "lot",
+      "confidence",
+      "donald",
+      "trump",
+      "right",
+      "thing",
+      "regarding",
+      "world",
+      "affairs"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "living_in_a_country_that_is_governed_democratically_is_important",
+    "topic": "Living in a country that is governed democratically is important",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 406,
+    "initialOpinions": [
+      {
+        "workerId": "6683f7BPEY",
+        "text": "yes living in a country governed democratically is important",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6786d7BPEY",
+        "text": "I think it's the most liberty-focused way to govern.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f1a7BPEY",
+        "text": "Living in a country that is governed democratically is important because it ensures that people have",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e997BPEY",
+        "text": "I agree with this statement. \"Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters\"",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "60ddfTPWWR",
+        "text": "This is very important, and I feel like is pretty self explanatory. A country is only as strong as it's people, and it's important to listen to the people that live there and let them have a say",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66b05TPWWR",
+        "text": "I believe that living in a country that is governed democratically, at least partially, is extremely important. I believe that people have more faith in the government to execute their wishes if they at least some way to participate in government. Without democracy, the mass population may become disheartened and potentially increase the likelihood in revolt or revolution, especially if they're contributing things like tax dollars to the government.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",
+      "The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",
+      "Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",
+      "I believe this is extremely important. Mostly because I think it stabilizes the country to some extent. People are more bought into the country and government if they think that they have some voice in it. Not just contributing to the government in tax dollars, but their voice.",
+      "I belive that living in a democratically governed nation is important. Democracy isn't just about voting but about being accountable and about transparency in govenrment and leading the nation to the best outcome for all in freedom through debate and not decree.",
+      "It's self explanatory, but of course living in a democratically governed country is important. It's important to listen to everyone that lives in that country and that they have a say since it directly effects them"
+    ],
+    "tags": [
+      "society & politics",
+      "living",
+      "country",
+      "governed",
+      "democratically",
+      "important"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "having_a_strong_leader_who_does_not_have_to_bother_with_parliament_and_elections",
+    "topic": "Having a strong leader who does not have to bother with parliament and elections is a good way of governing this country",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 405,
+    "initialOpinions": [
+      {
+        "workerId": "682397G2SP",
+        "text": "I don't think this is a good idea, what they are describing is a king for life",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67f1c7G2SP",
+        "text": "we the people hold the power",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6737e7G2SP",
+        "text": "i think i disagree with this particular statement",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66fdb7G2SP",
+        "text": "I do not agree with this statement because it is a matter of efficiency rather than using the political members that society has elected. A Democracy includes members of parliament and is not totalartian.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6681339WBB",
+        "text": "This is definitely a bad idea because a strong leader should still go through certain checks and balances, hand in hand with a parliament. Otherwise, absolutely power corrupts absolutely and a leader with no limits may simply become a tyrant. It has happened time and time again throughout history.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "63e5639WBB",
+        "text": "Having a leader who doesn't respect parliament or elections puts the people of the country at will of the leader, often in dangerously.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don't want a leader who is not held accountable.  We need for parliament to hold them accountable.  We also need voters to hold leaders accountable and vote them out when they are not doing the right thing to help the citizens of a country.  We do not want a King for life",
+      "I do not believe that having a strong leader without involving parliament is better for governing a country. This is because members of a parliament create a democracy and only have one person is a dictatorship. It is fair for there to be a parliament to assist with decisions",
+      "i strongly disagree with this particular statement because a good and capable leader also needs extra hands to be effective so if this particular leader does not lead even the help of",
+      "Having a strong leader who does not have to bother with parliament and elections is not a good way of governing this country. For one, absolutely power corrupts absolutely and the leader may easily become a tyrant with no checks and balances. Two, representation is important too.",
+      "A leader who disregards parliament and elections is likely to do away with the rights of the people.",
+      "I don't agree. Democracy accountability and the will of the people are all compromised"
+    ],
+    "tags": [
+      "society & politics",
+      "having",
+      "strong",
+      "leader",
+      "who",
+      "does",
+      "not",
+      "have",
+      "bother",
+      "parliament",
+      "elections"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_world_is_better_off_because_of_science_and_technology",
+    "topic": "The world is better off because of science and technology",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 404,
+    "initialOpinions": [
+      {
+        "workerId": "659da0XPDN",
+        "text": "I totally agree ,science and technology is number one in advancement.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "663eb0XPDN",
+        "text": "I definitely believe that the world is better off because of science and technology. Example 1: Soap. Soap has helped the human race so much because of it's antibacterial qualities.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "60fcd0XPDN",
+        "text": "I can see the angle on that. Technology is innovative and there's always a new discovery in science. The world can always benefit from technology and science.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67e710XPDN",
+        "text": "I agree the world is better off because of science and technology, through this lots of invention has come into existence and has really helped us be who we are today in the world in term of advancement and innovation all round the world",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "65600WBHBX",
+        "text": "I feel the world is clearly better in so many ways as far as convenience, health care, etc due to advances in science and technology.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5f357WBHBX",
+        "text": "the innovation that has taken place due to science and technology is incredible. So many things have evolved and been supported.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe the world is better of because of science and technology for many reasons. First, the hospital system has just gotten better and better. Infant mortality is bounds better than it was 100 years ago. The introduction of soap and antibacterial practices has saved countless",
+      "scientific knowledge allow us to develop new technologies ,solve problems and make informed decisions.New scientific knowledge leads to new advancements,",
+      "I feel as the world is better off with science and technology because of the innovative developments that have been discovered in both areas. I also feel that the world benefits as a whole from science and technology. Without it, the world would definitely be  less interesting",
+      "I feel that we are much better off in so many ways due to science and technology. People are healthier and live longer and have much more access to information than people did even 40 years ago. It has its down sides but is by and large a benefit to society.",
+      "its more faster and educative to the the people",
+      "The world is better off with science and technology. We've saved lives, connected across continents, and made life easier."
+    ],
+    "tags": [
+      "science & technology",
+      "world",
+      "better",
+      "off",
+      "because",
+      "science",
+      "technology"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "global_climate_change_will_harm_most_people_at_some_point_in_their_lifetime",
+    "topic": "Global climate change will harm most people at some point in their lifetime",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 403,
+    "initialOpinions": [
+      {
+        "workerId": "67b8119V4N",
+        "text": "Global climate change is likel to have significant impact on human health",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67a8d19V4N",
+        "text": "I totally agree with this statement. These threats intensify over time",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6595b19V4N",
+        "text": "As climate change worsens, weather becomes more extreme. With natural disasters becoming more and more common as a result of global climate change, most people will inevitably feel the repercussions in their life.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6562419V4N",
+        "text": "I somewhat disagree, I think global climate change can and will be prevented. On the other hand, it is our responsibility to better it",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "68360HXMJC",
+        "text": "Yeah sure, that true and it will cause sickness among us.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67758HXMJC",
+        "text": "I believe its true. The weather is getting more extreme everywhere. Heat waves, floods, and fires are becoming more common.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think global climate change could affect many people but I also know that if taken care of by us, this scenario will not happen.",
+      "Rising temperatures, extreme weather events can lead to increased morality and economic disruption",
+      "I agree that Global climate change will harm most people at some point in their lifetime. These impacts are expected to affect people globally",
+      "It's true. The effect will be enormous ranging from global warming, drought, deseases, etc.",
+      "Yes, I believe its true. Climate change is already causing heatwaves, flooding, and wildfires. These issues will affect more people over time, either directly or through food, water, or health problems.",
+      "So I believe it does climate change cause harm to us people because the rising sea levels from melting ice cause help flood our homes making it difficult for our people to live. I also think it hurts our air quality with pollution make us cough smoke"
+    ],
+    "tags": [
+      "general discussions",
+      "global",
+      "climate",
+      "change",
+      "will",
+      "harm",
+      "most",
+      "people",
+      "some",
+      "point",
+      "their"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "i_m_worried_about_a_civil_war_in_the_united_states",
+    "topic": "I’m worried about a civil war in the United States",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 402,
+    "initialOpinions": [
+      {
+        "workerId": "67a981V16A",
+        "text": "I don't really think this will happen",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "561481V16A",
+        "text": "I am not too worried about a civil war in the US. Things aren't that bad yet and people have their own worries and their own families and lives.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "645e41V16A",
+        "text": "I worried to lose my loved ones, displace my properties and basically put the children in danger.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "615211V16A",
+        "text": "I'm honestly really worried about a civil war rn, with the trump administration in office it feels like every day is an episode in some dystopian movie. People are getting angry and countries are clashing it's hard not to think a war of some sort is coming.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "666769RD9Q",
+        "text": "agree",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5f3569RD9Q",
+        "text": "i think that it will happen. i think the country is very clearly dividing every day because of the government",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Hi there. I don't think this is very likely. I don't think it's impossible, given the dire straits our society is in during this late stage of capitalism and things like the CEO of the health insurance company, but it just doesn't seem super likely to me.",
+      "I don't think we have to worry about this. People are too busy with their own lives and their own problems to actually start a civil war. There is no tgrassroots supp-ort for this and it would take ALOT for any support to ateriali9ze",
+      "I think it's very possible we could be heading towards a civil war, with the state of the United States right now and our current president's administration it kind of feels like everything is falling apart around us.",
+      "I'm worried about a civil war in the United States because everyone is so divided because of political extremism.",
+      "I fear division escalating in U.S., but I don not imagine all out civil war. Polarization and discontent within the society are worrying. The localized conflicts may occur, as long as the tensions continue to increase.",
+      "I'm worried about a civil war in the United States. So many people are divided on simple matters in the country instead of thinking about the greater good of everyone. I feel like the tension in the United States is not good for anyone and we need a better leader before a war."
+    ],
+    "tags": [
+      "general discussions",
+      "worried",
+      "about",
+      "civil",
+      "war",
+      "united",
+      "states"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "homosexual_couples_are_as_good_parents_as_other_couples",
+    "topic": "Homosexual couples are as good parents as other couples",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 400,
+    "initialOpinions": [
+      {
+        "workerId": "6791a28F88",
+        "text": "Yes, Homosexual couples can be good parents just like the rest of the parents. Parenting is not based on gender.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "680bf28F88",
+        "text": "I Probably Agree. Research suggests that parental love, support, and stability are key factors in a child's development, regardless of the parents' sexual orientation. Studies have shown that children raised by same-sex couples can thrive emotionally, socially, and academically, similar to those raised by opposite-sex couples.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6316c28F88",
+        "text": "I agree that homosexual couples can be just as good at raising children as any other type of parent. Sexual orientation has no bearing on being able to love and provide for children.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67a5128F88",
+        "text": "I think a homosexual couple would be just as good as every other parent.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5cb60SPQS2",
+        "text": "Homosexual couples are just as good as heterosexual couples when it comes to raising kids. They are just as loving and caring as heterosexual couples.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6740dSPQS2",
+        "text": "In some ways, maybe better! People come with all their baggage and sexual orientation doesn't stop that. I say maybe better because they might in fact be more reflective and push against unthought out practices that can be damaging.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "\"I believe it's true. Parenting quality depends on love, support & stability, not sexual orientation. Research shows children of same-sex couples thrive emotionally & academically, similar to opposite-sex couples.",
+      "I completely agree with this statement. I feel this way because I truly can't think of a reason why it would be different than any other couple raising a child.",
+      "Same sex couples can be just as effective and loving parents a",
+      "Homosexual people are just like anyone else. Homosexual couples aren't any different from heterosexual couples. They can offer the same level of love and support to their kids as heterosexual couples. They can also provide a healthy environment similar to any heterosexual couple.",
+      "People come with their own baggage regardless of sexual orientation. Bad parents in all shapes and sizes : ) Homosexual couples might in fact have an advantage. They might question and critically think about societal norms based on experience. This could help weed out some stuff.",
+      "Personally in my point of view , I don't support. I believe children should have the opportunity to experience the diversities of this life. Being brought up from such family tends to orient children in m"
+    ],
+    "tags": [
+      "general discussions",
+      "homosexual",
+      "couples",
+      "good",
+      "parents",
+      "other"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "people_who_don_t_work_turn_lazy",
+    "topic": "People who don’t work turn lazy",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 400,
+    "initialOpinions": [
+      {
+        "workerId": "67356MFSZG",
+        "text": "This statement is too broad - there are a variety of reasons someone might not work. Moms often stay home to run the household and raise children, I would not qualify or classify them as lazy.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67b9dMFSZG",
+        "text": "I agree because the devil makes work for idle hands...and people. Everyone should do some time of work if they are able, even if it is just voluntary.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66cdcMFSZG",
+        "text": "People who don't work turn lazy because lose track of the responsibilities, and stress that comes with work. They forget what it means to have a constant routine, and have to do tasks everyday. These people lose motivation, and begin to not do anything.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ddcMFSZG",
+        "text": "I lean against people who don't work turn lazy because laziness is about motivation not just em",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "603e2S5TNV",
+        "text": "I think people need structure it may not be work but they need a purpose or they willl be lazy",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f03S5TNV",
+        "text": "People who don't work actually turn lazy",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "Anyone who is physically able should do some sort of work, even if it just voluntary. Idle body, idle mind.",
+      "I believe that people who don't work turn lazy because they lose track of what it means to truly work. They forget the responsibilities, and stress that come with it. They often lose motivation, and forget that people must work in order to get money, and be successful. These peop",
+      "The idea/statement that people who don't work turn lazy entirely too broad. There are numerous reasons someone might not work and often those don't equate to laziness. Moms often stay home due to child care costs or to run a home/raise children, I would not qualify them as lazy.",
+      "I firmly believe that people who don't work turn lazy",
+      "I think people need a purpose in life They cannot drift without a purpose. So it isnt work but not having something does make people lazy",
+      "I believe that people who don't work don't always turn out lazy. For example, somebody going from working to stay at home and raise a family. Raising a family takes a lot of energy and time. Someone who is successfully raising children and a family are most likely super busy."
+    ],
+    "tags": [
+      "general discussions",
+      "people",
+      "who",
+      "don",
+      "work",
+      "turn",
+      "lazy"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_us_benefits_a_lot_from_the_world_health_organization",
+    "topic": "The US benefits a lot from the World Health Organization",
+    "category": "Health & Wellness",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 400,
+    "initialOpinions": [
+      {
+        "workerId": "676caDETKY",
+        "text": "I don't hear anything about the U.S. getting benefits from WHO but I hear about us helping other countries all the time",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6781eDETKY",
+        "text": "The US Benefits a lot from the World Health Organization. It provides financial relief as well as beneficial information regarding health resources.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "660b4DETKY",
+        "text": "I think our benefits from WHO in the US are limited but sure they help. It's mainly for response actions against health emergencies and I think poorer nations benefit far more.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67df9DETKY",
+        "text": "The U.S benefits a lot from the World Health Organization since it has a great financial stability and always willing to help nee",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5b523G5DEA",
+        "text": "The US of course benefits from the World Health organization. We need leading experts on medical topics to be able to have a platform to express new findings and research on health-related topics for the safety of the public.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66478G5DEA",
+        "text": "Yes the U.S benefit from the world health",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don't know much about W.H.O. but I never hear of the US benefiting from their Aid; I do in turn hear a lot about the U.S. helping other foreign countries constantly",
+      "I think the benefits from WHO in the US are limited. I'm honestly not even sure how they helped in Coivd except for sharing information since we had our own response. I think poor nations benefit more than we do in this.",
+      "TheW.H.O depends on US to support country with disease outbreaks with no",
+      "The US, like every other country, benefits from the spreading of research and facts by leading experts in the medical field. A platform to facilitate this is essential to public welfare.",
+      "yes the U.S benefits from the world health\nThat provides with global health care data",
+      "I think the US absolutely benefits from the WHO, particularly during the Covid pandemic. Other diseases were also kept at bay preventing outbreaks on American soil, so while we may not have seen direct influence, sometimes what you don't see is just as important as what you do."
+    ],
+    "tags": [
+      "health & wellness",
+      "benefits",
+      "lot",
+      "from",
+      "world",
+      "health",
+      "organization"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "donald_j_trump_can_deal_effectively_with_china",
+    "topic": "Donald J Trump can deal effectively with China",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 399,
+    "initialOpinions": [
+      {
+        "workerId": "6400d3RVJG",
+        "text": "I think that he. Lol",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f143RVJG",
+        "text": "He feels he can effectively deal with china, then we should support his decision",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "648363RVJG",
+        "text": "Donald Trump unfortunately cannot put a complete sentence together.  He's been dubbed TACO because he makes threats and then backs down.  He has no respect in the rest of the world.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5fb5e3RVJG",
+        "text": "I doubt it, Donald Trump strong arming tactics will not work against China. His confrontational approach has led to strained relations.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6105074CMH",
+        "text": "I think that Donald Trump has the confidence and intelligence to effectively deal with China.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66e9b74CMH",
+        "text": "compared to China, I think America is a more powerful country so our president has enough power to deal effectively with China",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think that Donald Trump could effectively deal with China",
+      "If he feels he can effectively he can deal with china, im sure he has a plan to do so, weather our thoughts may be different, we should at least support his efforts.  Too many times people argue weather those in his position are able to produce results, before there is a chance..",
+      "I disagree that Donald Trump can effectively deal with China. He uses strong arming tactics that will only work with weaker countries. His strong arming tactics",
+      "I believe that Donald J. Trump has the confidence and intelligence to deal effectively with China. He has dealt with many other countries before and I believe that he has the ability to come to an agreement with China that would benefit both parties.",
+      "China should look out because president Trump has enough power, resource and standing to deal with them effectively especially in the economic market. In my opinion th",
+      "I don't believe that trump can deal effectively with China. I say this because the high percentage of tarrifs he has on the"
+    ],
+    "tags": [
+      "society & politics",
+      "donald",
+      "trump",
+      "deal",
+      "effectively",
+      "china"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_united_states_has_an_above_average_standard_of_living",
+    "topic": "The United States has an above-average standard of living",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 399,
+    "initialOpinions": [
+      {
+        "workerId": "64d52N4PA7",
+        "text": "I agree that the United States has an above-average standard of living.  We don't have first world problems for nothing.  Of course we work for what we have so we should have an above average standard.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "65958N4PA7",
+        "text": "The United States standard of living is above average standard of living compared to other countries. Because of this, cost of living is high.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "61113N4PA7",
+        "text": "I think the US is above average in our standard of living but I would say that the cost of living makes the above average standard of living harder to achieve. There are other first world countries that have cheaper costs of living and free healthcare, two things that differ from the US.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67dc9N4PA7",
+        "text": "USA is developed country with well established social amenities than than many other countries. This. contributes to a high standard. of living with access to quality health, education and se u",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66c4fM7VT2",
+        "text": "I think that nowadays we have access online to make extra cash and work from home and this helps increase the standard of living. America has alot of opportunities that are unique as well.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5f0a6M7VT2",
+        "text": "I think the United States has an above-average standard of living in comparison to most countries around the world. For example, I think China has less freedom because they might not be a democracy. Besides this, some countries are poor compared to the United States.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "The US has an above average standard of living compared to less economically developed countries but when we look at other first world countries our standard of living is just slightly above average.",
+      "I of course believe the United States has an above-average standard of living.  We are not being bombed daily, we have enough food and then some, and we have cars and such to get around but we work for it.",
+      "The majority of homes in the US has A/C, running water, fridges, and other amenities. It's actually uncommon to see homes with these features.",
+      "I believe the United States has an above-average standard of living compared to most countries. For example, some countries are poorer than the U.S. Besides this, China has less freedom than the U.S. because of its undemocratic leadership.",
+      "I believe the United States does have an above-average standard of living due to its strong economy, technological advancements, and access to healthcare and education. However, growing inequality and lack of universal access to these benefits show that not everyone experiences t",
+      "the united states has an above average standards of living which ,i base my agument in the fact that we have a nearly zero unemployment,our infrastructure is topnotch not forgetting the educati"
+    ],
+    "tags": [
+      "general discussions",
+      "united",
+      "states",
+      "above",
+      "average",
+      "standard",
+      "living"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "journalists_provide_fair_coverage_of_elections_in_the_us",
+    "topic": "Journalists provide fair coverage of elections in the US",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 398,
+    "initialOpinions": [
+      {
+        "workerId": "683cd57C3Y",
+        "text": "I Probably agree because the elections results have never been disputed before. They have always been fair in my opinion.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "683ae57C3Y",
+        "text": "i feel like they  provide a fair coverage as for the follow up i have done makes me tend to trust them",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "681b657C3Y",
+        "text": "I believe most journalists try their ultimate best to be accurate and fair when doing coverage about U.S elections. mistakes do happens but then, bias isn't always intentional.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e9757C3Y",
+        "text": "I believe according to my view that some of the information given or covered and prodcusted by the media is biased",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "60c14HRW35",
+        "text": "I think journalists do the best they can to provide the most accurate coverage",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f13HRW35",
+        "text": "I believe journalists in US do their best to cover elections fairly. The system relies on accountability. Also mistakes may happen but they do try.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "fair coverage doesn't mean every side gets airtime, but rather it means reporting facts truthfully of which I believe most journalists do that.",
+      "I certainly believe that Israelis provide fair coverage of elections in the US. However some journalists really do not have the same values as others and they could be presenting different information simply because they are in the ground to witness what exactly happens there.",
+      "According to my believe, providing a fair coverage in the U.S. election by the journalist is minimal. Most of the journalist nowadays are very biased, they favor",
+      "I agree with that, there may be some biased journalist but overall the ones with integrity stand out.  I think that Trump is a special case in that he is so unlike a typical candidate but journalists have to try to be objective despite that.",
+      "I don't think journalists provide 100% fair coverage, but do believe they try to the best of their ability to provide accurate information on the subject.",
+      "I believe fairness in their work and its not about perfection but effort. Many journalists try to be fair and they fact check multiple sources to ensure no details are e"
+    ],
+    "tags": [
+      "science & technology",
+      "journalists",
+      "provide",
+      "fair",
+      "coverage",
+      "elections"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "death_penalty_can_be_justified",
+    "topic": "Death penalty can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 396,
+    "initialOpinions": [
+      {
+        "workerId": "67f03B77TS",
+        "text": "I certainly believe death penalty cannot be justified.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67818B77TS",
+        "text": "The death penalty can be justified because there are simply some crimes that are so atrociously awful that the person is so mentally ill that there isn't a point in them living anymore. Instead of wasting money in keeping them in prison for life it is better to execute the death penalty.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6642aB77TS",
+        "text": "I personally don't believe the death penalty is justified, but the reasons would stem from deeper problems with the punitive nature of how the US handles its prison system. I believe more problems need to be solved and that the logical conclusion after those problems are solved is that the death penalty simply wouldn't be necessary.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "655f8B77TS",
+        "text": "The death penalty can be justified  as a form of ultimate justice for heinous crimes, providing a sense of closure for the victims  families. it serves as a deterrent.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "669c16C8GQ",
+        "text": "I believe the punishment should be proportionate to the severity of the crime.  So it depends on the circumstances.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6400e6C8GQ",
+        "text": "If a person murders another person without a good reason, they have taken their lives. Therefore this person doesn't deserve life.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "The death penalty is justified because why would you let someone live who has committed a crime has horrible as the murdering or rap of innocent people, for example? They deserve not to live themselves for taking others' lives. No need to keep them alive in prison forever.",
+      "I honestly think there is no better reason to justify people being killed for their crime",
+      "I believe the US's form of justice is focused vastly more on punishment, rather than rehabilitation or restoration. I also believe that if even a single innocent person is put to death, the entire idea of a death penalty is a failure.",
+      "If someone commits premeditated murder, they have deliberately taken another person's life.  They should then forfeit their life.  If there are extenuating circumstances, then that is another matter.",
+      "I think it can be justified in based on how violent the crime was committed. There have been times people have been wrongly accused and the death sentence was their punishment which I think is wrong.",
+      "The death penalty can be justified dependent on the nature of the crime and how violent and thought out it was. I think some perpetrators cannot be rehabilitated and are likely to commit again if released."
+    ],
+    "tags": [
+      "ethics & law",
+      "death",
+      "penalty",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "having_experts_not_government_and_elected_officials_make_decisions_according_to_",
+    "topic": "Having experts, not government and elected officials, make decisions according to what they think is best for the US",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 392,
+    "initialOpinions": [
+      {
+        "workerId": "67cb377QN4",
+        "text": "The idea that \"experts, not government and elected officials, should make decisions according to what they think is best for the U.S.\" reflects a technocratic viewpoint. Technocracy is a system of governance where decision-makers are selected based on their expertise in a given area, particularly scientific or technical knowledge, rather than through democratic elections.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67d5877QN4",
+        "text": "I believe that this is right but also that there are a lot more to be done that could make it all go wrong in so many ways, so it comes down to what we really want for ourselves.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66fff77QN4",
+        "text": "Experts opinions should be taken into account on decisons",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6760f77QN4",
+        "text": "I think experts should play a major role i",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "614d49RDP4",
+        "text": "I think expert opinion would be a good option",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "675a59RDP4",
+        "text": "I think it might be better, but I am undecided... it depends, are they elected? Are they just going to get bought out like elected officials too? I guess I would need more details to really make an informed decision on this.",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "While this approach can lead to more informed and technically sound decisions, it raises concerns about democratic legitimacy, accountability, and representation. In a democracy, elected officials are accountable to the public, whereas experts may not be, even if they're highly k",
+      "while experts bring valuable knowlegde, they should not be the ones who sole makes deciscions",
+      "Experts will always get the job done in so many ways that an average person would not so I believe we all have a long way to go regarding that.",
+      "I think an expert oppionion would take personal opkions out of the equation,. I do think they should have government input on the matter but they final choice would probably be best",
+      "I am unconvinced it would change anything, it really depends on how it comes to be. If the people elect them, they are just as susceptible to corruption like normal elected officials. I think there is probably better ways to change things.",
+      "I think it's true because the government are not experts they are only politicians sitting around and doing things for there own gain, they don't care about the public, only money, but experts do care about the public, politicians are only in it  for the money"
+    ],
+    "tags": [
+      "society & politics",
+      "having",
+      "experts",
+      "not",
+      "government",
+      "elected",
+      "officials",
+      "make",
+      "decisions",
+      "according",
+      "what"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "homosexuality_can_be_justified",
+    "topic": "Homosexuality can be justified",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 391,
+    "initialOpinions": [
+      {
+        "workerId": "670c0EQ26X",
+        "text": "Hey, I know it can be justified",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67db4EQ26X",
+        "text": "It is natural. Even in animals.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67eb7EQ26X",
+        "text": "I've never seen a sunrise ask if it's allowed to be beautiful. I've never seen two people who loved each other kindly, quietly ask the world for approval",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67c4bEQ26X",
+        "text": "I believe an individuals sexual preference, is their right. Especially amngst consenting adults.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "65f1bREP3W",
+        "text": "i dont agree",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66dccREP3W",
+        "text": "I think homosexuality can be justified because you cannot control who you love and why",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I knoq homosexuality can be justified because back in the day during the Roman era homosexuality was very rampant. I myself am a straight Christian man. But i still recognize it as legitimate even though its not for me.",
+      "I believe homosexuality can be justified. This is because, just like heterosexuallity is natural, so is homosexuality. Animals  also experience this so it is not man made. It is something that happens normally.",
+      "To demand justification for someone's love is to forget how messy and miraculous it is any of us to love at all. Homosexuality is not a debate to win but a life to live. With truth, with tenderness",
+      "I think that in this day and age it can be justified. It is important to love who you love and feel comfortable in your sexuality, but it is something that is not in the Bible. This is one thing that makes me more indecisive on the topic. I believe in my faith.",
+      "It can be justified as people are attracted to who they are attracted to. Whether it is male to male or female to female. In the end it is just who you love and who you want to build a life with. I have no issues with that as long as we are all treated equally.",
+      "I think homosexuality can be justified because you cannot control who you love, or why you love them, and if you try to force yourself to be straight, you'll be miserable and that's also not being true to yourself. The way that I"
+    ],
+    "tags": [
+      "ethics & law",
+      "homosexuality",
+      "justified"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_is_a_characteristic_of_democracy_for_the_state_to_make_people_s_incomes_equal",
+    "topic": "It is a characteristic of democracy for the state to make people's incomes equal",
+    "category": "Economy & Finance",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 390,
+    "initialOpinions": [
+      {
+        "workerId": "64402KVWSA",
+        "text": "The state can not take care of everyone. Skillful workers deserve a higher pay.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5fb39KVWSA",
+        "text": "I believe that equal human rights is a characteristic of a democracy but not equal income.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67f24KVWSA",
+        "text": "i think a state can contribute but its an individuals role to teir own income",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "64041KVWSA",
+        "text": "While not as a rule, income equality is a outcome of a properly functioning democratic government. Something we don't have here.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ccaQM649",
+        "text": "I disagree with the statement. Democracy is about ensuring equal rights, freedoms, and opportunities—not enforcing equal incomes. While some democratic states may implement policies to reduce extreme inequality, income equality is not a defining characteristic of democracy itself.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5e3adQM649",
+        "text": "I don't believe this is true. In my experience, income inequality is incredibly common in most democracies and the state doesn't seem that interested in doing much about it.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe that most likely, a properly functioning democratic government would lean towards income being more equally distributed. Unfortunately, we here in the states know what a dysfunctional \"democracy\" looks like instead.",
+      "democracies ought to be based on equality and fairness to bridge large income gaps which can undermine these values",
+      "I don't think it's wrong to believe that making people income equal is democratic. I just don't believe that income should be inherently equal. I believe income should be merit based.",
+      "I don’t believe it’s a core characteristic of democracy for the state to make people’s incomes equal. Democracy is more about equal rights, voice, and opportunity-not necessarily equal pay. Income equality efforts can support fairness, but full equality isn’t the goal.",
+      "I don't agree with this statement. Democracies often have a lot of income inequality, and oftentimes they don't seem that interested in changing it.",
+      "I don’t believe it’s a characteristic of democracy for the state to make people’s incomes equal. Democracies aim to protect freedoms, rights, and equal opportunity—not enforce equal outcomes. Income equality is more of a goal in socialist systems, not democratic ones."
+    ],
+    "tags": [
+      "economy & finance",
+      "characteristic",
+      "democracy",
+      "state",
+      "make",
+      "people",
+      "incomes",
+      "equal"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "donald_j_trump_can_do_the_right_thing_regarding_world_affairs",
+    "topic": "Donald J Trump can do the right thing regarding world affairs",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 388,
+    "initialOpinions": [
+      {
+        "workerId": "5e099H23KR",
+        "text": "Trump cannot do the right thing regarding world affairs. Look at what he had done to the reputation and lives of US citizens. If he treats a country like this, how could he do the right thing with the rest of the world?",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "668e8H23KR",
+        "text": "I believe yes, because he has done it before, so he can do it again, regardless of the world affairs",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f00H23KR",
+        "text": "It is true that Donald trump can do the right thing regarding world affairs. I am in support of him because he can make right choices in international relations with countries like",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6657fH23KR",
+        "text": "I think that trump can do some things right regarding world affairs. but not all 0f it because he needs to think about things when d",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "666f8J7DWW",
+        "text": "He can do the right thing, he showed us that during the first term, but this one he is actively choosing not to.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66f0bJ7DWW",
+        "text": "I don't think Donald Trump has the temperament to handle world affairs. He lets ego and the desire to be heard overshadow decorum and he has a strong desire to be right rather than compromise or look at situations from different angles. I",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think Donald Trump cannot make these choices by himself",
+      "I believe that he can do more regardless of world affairs. so i will say yes.",
+      "I think that Trump does not have the capacity to do the right thing regarding world affairs. Look at the amount of topics that had surged throughout his 100 days of his second presidency. Can we trust this guy to be proper with the rest of the world? Can we even trust anybody????",
+      "I agree, because it acts according to a plan that is consistent with its political and strategic objectives, so i think it has done well",
+      "I mean I feel like Donald Trump has shown he is able to do the correct thing regarding world affairs like he showed us during his first 4 years in office, but its like he has absolutely lost his mind and is honestly causing more  issues than he is fixing at this point.",
+      "Donald Trump lacks the ability to put aside his ego and opinions to cooperate on world affairs. He speaks with what appears to be little thought and rarely seems to listen, consider, or compromise views for the greater good. A good global leader pursues the best outcome for all."
+    ],
+    "tags": [
+      "science & technology",
+      "donald",
+      "trump",
+      "right",
+      "thing",
+      "regarding",
+      "world",
+      "affairs"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_is_a_characteristic_of_democracy_for_women_to_have_the_same_rights_as_men",
+    "topic": "It is a characteristic of democracy for women to have the same rights as men",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 388,
+    "initialOpinions": [
+      {
+        "workerId": "66a06EJEDX",
+        "text": "I agree",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e14EJEDX",
+        "text": "I agree with the statement. Women have as much rights as men in a democracy as it is a government for all the people and is centered on equality.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67210EJEDX",
+        "text": "I believe that it is a characteristic of democracy for women to have the same rights as men. Nothing about democracy says it isn't. While we have had to push for these changes and the growth, we are slowly getting closer to equality and changing the minds of old men stuck in their ways.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d58EJEDX",
+        "text": "Agree. It is a characteristic of democracy for women to have the same right as men. Because the difference between genders should not make a huge difference whatsoever.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67e55VTS0B",
+        "text": "I believe all adults who have not done something to lose their rights, should be able to exercise the same rights.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "63469VTS0B",
+        "text": "Equality is a democratic principal. Woman have legal protection to ensure they have the same rights as men.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "It is a characteristics of democracy for women to have the same rights as men because there should not be disparity just because of their gender differences. EVeryone should be treated equal regardless their gender differences",
+      "I think that it is a characteristic of democracy for women to have the same rights as men. While these rights for women havent come as easy, they are slowly but surely moving forward. We continue to have to change the minds of old men who are stuck in their ways and change what e",
+      "I think democracy is a form of government that should allow women to enjoy rights as much as men. Equality should be among the main pillars of its foundation.",
+      "Women should probably have the same rights as men.",
+      "It is absolutely truth that women should have the same rights as men. We are both human it shouldn't matter our gender.",
+      "Assuming that and adult in a democracy has not done anything that is an assault on the people or the state, then each should be afforded the same rights as the others, whether male, female or whatever other social, political, religious, or other division we might imagine."
+    ],
+    "tags": [
+      "ethics & law",
+      "characteristic",
+      "democracy",
+      "women",
+      "have",
+      "same",
+      "rights",
+      "men"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "news_organizations_are_doing_good_at_reporting_on_the_most_important_news_events",
+    "topic": "News organizations are doing good at reporting on the most important news events",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 388,
+    "initialOpinions": [
+      {
+        "workerId": "59dc4P0M0T",
+        "text": "There are definitely biased news networks, so I can't say that news organizations as a whole are doing good at reporting important news events. No matter which you think is right, the other disagrees, so one of them is misrepresenting the truth.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5c747P0M0T",
+        "text": "I feel that news organizations are doing a good job reporting current and important news topics. I feel like we are getting the best of newsworthy events.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "680ecP0M0T",
+        "text": "I think that many news organizations aren't doing enough to report the truth. They're wanting to stay in the president's good graces.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67e04P0M0T",
+        "text": "this is because there is rise i",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "559c3DDGRV",
+        "text": "Generally I think they do report the news well, although it depends on the news source. I think Fox and the right wing ecosphere have created an alternate reality, but other networks cover politics, the economy, science, wars, and so on in a pretty good way. There's only so much you can cover unless you spend a lot of time.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6841dDDGRV",
+        "text": "many of them, prioritize sensational issues rather than critical issues.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I feel like we're living in an alternate reality. News organizations aren't doing so good on reporting on the most important events. Instead, they're reporting on whatever the White House wants them to say, so they stay in the president's good graces.",
+      "I don't really have any complaints about the news and reports that I am seeing. I think we are seeing the most topical subjects being covered in a pretty thorough way each day. I don't believe that we are missing out on the big events of the day.",
+      "I don't think that news networks as a whole are doing a good job at reporting most of the important news events.  There are definitely networks that twist or misrepresent the truth or even outright lie.  It's not a partisan thought, but a matter of both not being able to be right",
+      "I agree because most of my time I use the news from the orgaizations to see the current events",
+      "I do not think News orgs are doing good at reporting the correct news.",
+      "I think responsible news outlets employ legitimate journalists who try to report give a comprehensive overview of important events going on, and I think they do it pretty well. I think there's some corporate and wealth bias to it but they generally inform the public well."
+    ],
+    "tags": [
+      "general discussions",
+      "news",
+      "organizations",
+      "doing",
+      "good",
+      "reporting",
+      "most",
+      "important",
+      "events"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_fact_that_some_people_work_harder_than_the_others_is_the_most_important_reas",
+    "topic": "The fact that some people work harder than the others is the most important reason for the gap between the rich and the poor in the United States",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 388,
+    "initialOpinions": [
+      {
+        "workerId": "671720F1GX",
+        "text": "The term the rich takes from the poor is self explanatory.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "671130F1GX",
+        "text": "I think there can be several reasons for the gap between rich and poor like family background, connections, etc. But I do believe working harder than someone else can set you apart.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5aa800F1GX",
+        "text": "There are some people who go to one job every day where they earn one income. While there are others who have businesses and investments that help them earn wealth. It is a choice to work harder.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d770F1GX",
+        "text": "The fact that some people work harder than others doesn't mean that is why we have a gap between the rich and poor in the US. Although hard work pays, some people may be working hard but no returns. However, no hard work could mean no money.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5f62c7YAFB",
+        "text": "individual person  hardwork and success can influence",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "685777YAFB",
+        "text": "It is true that hard work pays, but it's also good acknowledge individual effort",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think that there can be several factors causing a gap between rich and poor like family status, connections, etc. But working harder has to be one of the top reasons.",
+      "Some people similar work harder than others. People who work only one job as their sole source of income versus those who own businesses and investments is the most important reason why there is a gap between the rich and poor.",
+      "I think the difference in hardwork is not necessary the reason why we have a gap between the rich and poor in the USA. But I also think if you won't work hard you are like to get nothing in this country. However, hardwork can help to close the gap",
+      "The gap between rich and poor in the U.S. is shaped more by systemic issues: unequal education, access to healthcare, racial disparities, and inherited wealth. Effort helps, but it’s not an equal playing field. #WealthGap #EconomicReality",
+      "You can't deny that some people put in more hours, take on more responsibility and always seek to improve their skil",
+      "This statement is a fallacy. Income inequality is NOT due to the amount of hard work a person does, it can be attributed to a variety of factors, one of the being family origin, how wealthy your family is. Poor people work hard too."
+    ],
+    "tags": [
+      "general discussions",
+      "fact",
+      "some",
+      "people",
+      "work",
+      "harder",
+      "than",
+      "others",
+      "most",
+      "important",
+      "reason"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_is_important_to_give_bribes_in_order_to_get_ahead_in_life",
+    "topic": "It is important to give bribes in order to get ahead in life",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 384,
+    "initialOpinions": [
+      {
+        "workerId": "67e1bYFPXK",
+        "text": "Noo never...where is our morals?",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "677f0YFPXK",
+        "text": "I grew up in a family where we work hard in everything and we don't do and allow bribery. ALthough in some people and most cases it works well with them, but it is in our life's principle and values not do do such thing.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67caaYFPXK",
+        "text": "I disagree with the statement that it is important to give bribes in order to get ahead in life. Relying on bribery undermines fairness, encourages corruption, and creates an unequal society where merit and hard work are devalued. Success achieved through integrity is more sustainable and beneficial for both individuals and society as a whole.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67e6fYFPXK",
+        "text": "i desagree with the statement on giving  bribe in order to get ahead in life since it encourages corruption",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66f47X2X00",
+        "text": "Anyone who does this is sociopathic and puts their own well-being above others. You might get ahead, but at what cost? Eventually it is likely to catch up to you and either you will reap what you sow or you will realize your life is truly empty.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "684b2X2X00",
+        "text": "I disagree with the statement.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe the statement is false. Getting ahead through bribery may offer short-term gains, but it damages trust, promotes inequality, and weakens institutions. True success should come from effort, integrity, and skill—not from cutting corners or exploiting corrupt systems.",
+      "it is not  good to give bribe in order to get a he",
+      "As much as possible, I would not do bribery in any situations especially if you just want to get ahead in life. I wont be proud of myself Bribery id like a cheating game.",
+      "It is false that you have to give bribes in order to get ahead in life. This is not a path to true happiness, but to stepping on others to get ahead. There's no reason one should be manipulative and false to get ahead, that is icky behavior.",
+      "i do not see this as ethical because it goes against the law, it so bad it does include fairness and transparency in merit based systems. and it is harmful to the society.",
+      "I call it giving to seek favor not bribe, its only wrong if whats the bribee is going to do is morally wrong. I dont see anything wrong with offering something for something in return lol. sometimes outof goodwill"
+    ],
+    "tags": [
+      "general discussions",
+      "important",
+      "give",
+      "bribes",
+      "order",
+      "get",
+      "ahead",
+      "life"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "work_is_a_duty_towards_society",
+    "topic": "Work is a duty towards society",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 382,
+    "initialOpinions": [
+      {
+        "workerId": "5f4dc8M9WC",
+        "text": "Work is a duty to society in my opinion because that is how a society functions. We need people to do jobs to keep everything running smoothly.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ed78M9WC",
+        "text": "Everyone has a role in the society and work is the best definition of it",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f298M9WC",
+        "text": "when people contribute through tei",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d1d8M9WC",
+        "text": "Work involves service delivery, one should focus on the quality nof service delivered that can bring change to a society, hence, i strongly believe that work is a duty towards society",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e1fC9NJV",
+        "text": "Work is how we all contribute our set skills and knowledge to society",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66b53C9NJV",
+        "text": "I think that everyone should take pride in their work. No one should not work if their is no reason to not. I think its embarrasing when someone is just living off their parents. It hurts all when people take food stamps and try to mooch money off others.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think that work is a duty to society because we all need to carry out tasks and finish work in order for society to work well. When someone doesn't work, it puts more stress on others in society to pick up slack.",
+      "I support the statement as jobs has positive benefit to community.",
+      "Work embodies our commitment towards supporting others in society.",
+      "In order for society to function, we need to have people who are willing to share and contribute with one another. The mindset around work isn't that its a burden on us, but a necessity to help maintain the community and help those around us so we can all thrive and work together",
+      "Work is how we make society better buy our input. Without our contributions society would not be as progressive as it is",
+      "I think that everyone should work if they are able to. Its not fair to others too mooch of society and require food stamps. But freedom should come first and if someone chooses not to gain the benefits that is up to them. I think their is much more to gain."
+    ],
+    "tags": [
+      "general discussions",
+      "work",
+      "duty",
+      "towards",
+      "society"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "international_organizations_should_prioritize_improving_people_s_lives_even_if_t",
+    "topic": "International organizations should prioritize improving people’s lives, even if this may imply that decisions are not made democratically",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 381,
+    "initialOpinions": [
+      {
+        "workerId": "60d506XC6J",
+        "text": "I think it is important to prioritize improving people",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "65f076XC6J",
+        "text": "I feel like international organizations, since they are generally huge, should be making people's lives better. They have the resources and reach. I feel like most organizations are not as democratic as they may seem from the outside, already.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "664fc6XC6J",
+        "text": "It needs to be made democratically.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "60fa26XC6J",
+        "text": "it should priotrize improving peoples lives including healthcare well bei",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "580d56C010",
+        "text": "I agree. Sometimes decisions need to be made without input from everyone.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66d876C010",
+        "text": "I can partially agree with the statement. The first part is acceptable, since prioritizing improving people's lives is an acceptable goal. The second part of the statement complicates things because generally non-democratic decision making doesn't imply adherence to well-being.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think it is important to prioritize improving people's lives. That should be a big goal whether or not others agree.",
+      "Since international organizations typically have many resources and a large reach, I feel that it is their duty to improve people's lives. I feel like most large organizations probably aren't democratic, already.",
+      "Decisions need to be made as a group, not individually.\nThe democratic way.",
+      "Hi there, I will share my initial reaction, and perhaps you can help me understand if my take is valid. My thought is that the first part is fine, but the second part, about potentially ignoring the democratic process in decision making, is troubling.",
+      "I think when an organization does not do thin democratically then how would the improvement take place and will it include all people or some people is my concern",
+      "It is my belief that not everyone needs to be contacted and asked questions for the purposes of making the world better. Yes, even if it's not done democratically. It's simply impossible to poll everyone for every single positive action."
+    ],
+    "tags": [
+      "society & politics",
+      "international",
+      "organizations",
+      "should",
+      "prioritize",
+      "improving",
+      "people",
+      "lives",
+      "even",
+      "may",
+      "imply"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "donald_j_trump_can_deal_effectively_with_the_threat_of_terrorism",
+    "topic": "Donald J Trump can deal effectively with the threat of terrorism",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 380,
+    "initialOpinions": [
+      {
+        "workerId": "6115557CWC",
+        "text": "I don't believe Donald Trump can effectively deal with anything. He's made numerous businesses go bankrupt. He's a conman and an idiot.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5d1e257CWC",
+        "text": "I think Donald Trump is willing to do whatever it takes to deal with terrorism, and is willing to do anything for it.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67dfd57CWC",
+        "text": "I think President Trump can effectively deal with terrorism by deporting people associated with gangs. Also, terrorism can be combatted by jailing gang m",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6619657CWC",
+        "text": "I think he is assertive and protective of America and will do everything in his power to ensure our safety. However, he's not always diplomatic and that can be problematic. Sometimes, he says things without thinking and that can have negative consequences. When it comes to dealing with the threat of terrorism, the words our leader uses to speak about the issue matter. It is my hope he will use rest",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5bc0a6BR51",
+        "text": "HIs approach is more rhetoric and about immigration policies. This doesn't really count toward couinterterrorism",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5d6546BR51",
+        "text": "I disagree. Trump knows nothing about terrorist organizations and homeland security and how to effectively mitigate their threat.  He acts on impulse and has no general knowledge of anything relevant.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think it's possible that he can deal with this effectively. However, I also worry that his lack of diplomacy could be an issue.",
+      "I don't believe Trump can effectively deal with anything. He's made numerous businesses go bankrupt. He's a conman and an idiot.",
+      "With Donald Trump's re-election, we've seen him sign many new legislations, executive orders, and have tried to do a few questionable things. I think he would whatever he feels is necessary to deal with the threat of terrorism.",
+      "I don't think he dealt effectively with terrorist threats. His focus was more on words and immigration.",
+      "Trump has done what no other president has been able to do, promote peace in America and with foreign nations. He is actively mediating several conflicts internally and externally.",
+      "Donald J. Trump can't deal effectively with any issue affecting anyone, let alone the threat of terrorism. He has no knowledge of anything relevant, he bases all his decisions on his personal opinions and no facts. He operates impulsively and is a danger to other people."
+    ],
+    "tags": [
+      "general discussions",
+      "donald",
+      "trump",
+      "deal",
+      "effectively",
+      "threat",
+      "terrorism"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "economic_problem_is_the_most_important_problem_facing_the_us_today",
+    "topic": "Economic problem is the most important problem facing the US today",
+    "category": "Economy & Finance",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 380,
+    "initialOpinions": [
+      {
+        "workerId": "5f545N6X3M",
+        "text": "I do think it is important but not most important",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6838eN6X3M",
+        "text": "problems such as in",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e41N6X3M",
+        "text": "I agree economic problem is the most important problem facing the US today  such as rising binflation, income inequality and sluggish i",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "682f6N6X3M",
+        "text": "I agree that the economic problem is the most important issue facing the U.S. today. Economic insecurity touches nearly every aspect of daily life from housing and healt",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66db9ECMZ4",
+        "text": "I feel that economic issues are extremely important and something that needs everyones attention, im personally more focused on the social issues facing our country today.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "66246ECMZ4",
+        "text": "The most important problem is the erosion of the nation by third world gangs and the huge crime.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think it is extremely important but I think family values, rebuilding the families, marriage, and raising children is more imortant. I think if we fix that the economic problems will lesson. I think two parent families that have time for their kids will solve many problems. Jus",
+      "the US economy is facing challengenges such as inflation, debt and inequality impacting millions  daily",
+      "Economic problem is arguably most important issue to US today by rising inflation, increasing national debts, sluggish wage growth that affect financial wellbeing of citizens. inflation reduces purchasing power",
+      "I think economic issues are important, but they aren’t the only major challenges the U.S. faces today. Problems like climate change, political division, and public health crises are just as urgent, and focusing only on the economy risks ignoring them",
+      "I think that the crime epidemic is even more important the the high inflation.",
+      "Our spending problem is the root of all of ours issues. Every single issue that plagues us can be solved with well intentioned spending. Whatever you point to, education, inequality, corruption in government, all of it can be solved with well"
+    ],
+    "tags": [
+      "economy & finance",
+      "economic",
+      "problem",
+      "most",
+      "important",
+      "facing",
+      "today"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "religious_and_ethnic_hatred_poses_the_greatest_threat_to_the_world",
+    "topic": "Religious and ethnic hatred poses the greatest threat to the world",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 378,
+    "initialOpinions": [
+      {
+        "workerId": "5d697FQRED",
+        "text": "It create separation among people",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5a907FQRED",
+        "text": "Conflicts over religious and ethnic topics become heated, which could lead to nuclear war. This threatens not only the groups involved, but the entire world.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e6eFQRED",
+        "text": "I agree because once there is religious and ethic hatred, people fail to notice the important t connections they can have with others. This leads to much serious issues later",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e94FQRED",
+        "text": "I probably agree that religious and ethnic hatred poses a significant threat because it fuels conflict, discrimination, and violence, often rooted in deeply ingrained biases and historical grievances. While other threats exist, this form of hatred can be particularly destructive due to its capacity to divide communities and incite w",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66293452WV",
+        "text": "I think people judge to much. I don't think is fair at the end of day.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67746452WV",
+        "text": "I do agree with this statement. In the most hostile regions of the world, much of the violence and hatred is driven by ethnic and religious bias.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe the increasing ethnic and religious tensions around the globe are endangering everyone. Not only can these conflicts become heated, but they can also lead to nuclear attacks, risking the safety of the planet for generations to come.",
+      "I believe this is not a fallacy. It is obvious that such hatred makes it challenging for people to relate without issues. As long as people hate each other on such grounds, you can be sure that there will be a trickle effect and people will never coexist with others without issue",
+      "Religious and ethnic hatred is a profound danger, igniting conflicts and immense suffering worldwide through division and dehumanization. Addressing this deep-seated prejudice is crucial for global peace and security. #ReligiousEthnicHatred #GlobalThreat,",
+      "I think it is. People are to quick to judge people on so many levels when they need to learn they are not perfect themselves.",
+      "Historically, almost all ugly wars have been started or fueled by religion and/or ethnicity.",
+      "People should not be offended or intimidated by other people's backgrounds or beliefs. The world is huge and is not based on one group on people. It is a boiling pot of cultures."
+    ],
+    "tags": [
+      "general discussions",
+      "religious",
+      "ethnic",
+      "hatred",
+      "poses",
+      "greatest",
+      "threat",
+      "world"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_is_an_essential_characteristic_of_democracy_for_religious_authorities_to_inte",
+    "topic": "It is an essential characteristic of democracy for religious authorities to interpret the laws",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 370,
+    "initialOpinions": [
+      {
+        "workerId": "6119dFVDWY",
+        "text": "religion and law should be separate",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "68423FVDWY",
+        "text": "Probably i agree with the statement because it is crucial for the religious people and leaders.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67da0FVDWY",
+        "text": "allowing religion to interpret law undermines the work of the state",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6840fFVDWY",
+        "text": "As an expert, I disagree with the statement. A core principle of democracy is the separation of religion and state, ensuring that laws are applied uniformly and interpreted by independent, secular judicial bodies. Involving religious aut",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66f5dG4JAY",
+        "text": "I see no need for religion enter into this.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "66e9bG4JAY",
+        "text": "I disagree because democracy relies on institutions to interpret laws not religious authorities to ensure fairness and  equality for everyone.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "As an expert, I disagree with the statement. A core principle of democracy is the separation of religion and state, ensuring that laws are applied uniformly and interpreted by independent, secular judicial bodies. Involving religious authorities in legal interpretation risks",
+      "It is not essential for religious authorities to interpret the laws since that is not their jobs. It is up to lawyers, judges, police, lawmakers, etc to interpret laws. Religious authorities may offer guidance and interpretation of laws to their community/church, but not others",
+      "Democracy limits religious freedoms as the law may favour the dominant",
+      "I don't believe this is true. I think the people or voters are the essential element in democracy. I think it is the Greek word \"Demos\" for people on which democracy is derived",
+      "I disagree, democracy thrives when laws remain secular not relig",
+      "To allow religious figures to shape legal decisions risks undermining pluralism and those of different faiths. Therefore religious interpretation of law would contradict the core of democratic principle of separation between church and state thet"
+    ],
+    "tags": [
+      "society & politics",
+      "essential",
+      "characteristic",
+      "democracy",
+      "religious",
+      "authorities",
+      "interpret",
+      "laws"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "pollution_and_environmental_problems_pose_the_greatest_threat_to_the_world",
+    "topic": "Pollution and environmental problems pose the greatest threat to the world",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 370,
+    "initialOpinions": [
+      {
+        "workerId": "67cb8HETEP",
+        "text": "They cause death to see creatures. They cause melting of glaciers resulting to tsunamis",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67d36HETEP",
+        "text": "Pollution and environmental problems pose the greatest threat to the world. The human race is the greatest contributor to pollution and needs to find a way to prevent this. If not th",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67ec8HETEP",
+        "text": "Pollution and environmental problems pose the greatest threat to the world because",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ed4HETEP",
+        "text": "I agree with the stament that pollution and environmental problems pose the greatest threat to the world. Climate change, biodiversity loss, and air and water polution are already causing widespread",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66a5046AHF",
+        "text": "I do believe pollution poses a threat due to certain cancers being environmental.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66a7d46AHF",
+        "text": "While I do agree that pollution and environmental problems pose a threat to the world, I think there are other issues as well. I think certain political leaders who seek substantial power also pose a threat to peace in society.",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I agree that pollution and environmental problems are the greatest threat to the world. They harm health, damage ecosystems, and accelerate climate change.",
+      "Pollution and environmental problems pose the greatest threat to the world. people needs to be deliberate about preventing this. If not, the world as is is doomed!",
+      "Because they impact on our health and the ecosystem",
+      "While I do think pollution and environmental problems pose a threat to the world, I think there are other issues that pose threats that we cannot avoid. This includes things like certain political leaders who are hungry for power and speak in a way that inspires violence",
+      "Hi I truely believe pollution and environmental problems pose a threat due to health problems and the cause being environmental.",
+      "I believe this is true. By melting the polar ice, we are causing more extreme and dangerous weather patterns the world over. Further, contaminants and pollutants are contaminating our clean water supplies, without which life on earth cannot thrive. Famine and disease will follow."
+    ],
+    "tags": [
+      "general discussions",
+      "pollution",
+      "environmental",
+      "problems",
+      "pose",
+      "greatest",
+      "threat",
+      "world"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_united_states_is_prepared_to_handle_a_major_cyberattack_on_its_computer_syst",
+    "topic": "The United States is prepared to handle a major cyberattack on its computer systems",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 2,
+    "totalTurns": 369,
+    "initialOpinions": [
+      {
+        "workerId": "67368R69Q4",
+        "text": "I disagree with the statement. While the US has made strides in cybersecurity, the interconnectedness and complexity of its systems leave it vulnerable. A major, coordinated attack could still have devastating consequences.\"",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "64d53R69Q4",
+        "text": "Considering that we hear about yet another attack that resulting in the personal information of thousands of people being impacted, I dont know if we are prepared for something on tht large of a scale.  There are those who still think COVID isnt real.. how can we convince people that something like this has happened/",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67f04R69Q4",
+        "text": "I agree because United States has experts in Cyber-security. Further, i believe the U.S has invested in cyber-security.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ebeR69Q4",
+        "text": "While the US has strong cyber defenses in government ,military, critical infrastructure lags.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66ad7Z76K3",
+        "text": "I dont believe that the united states is prepared to handle a cyber attack because of the way we have handled many other cyber attacks in the past",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67f01Z76K3",
+        "text": "I believe that United States is ready and prepared to fight cyberattack on computers.",
+        "sliderValue": 5,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I personally do not know whether or not we are prepared.  Everyday we seem to hear something new about a new information leak and the hundreds of thoursands of people whose info has been downloaded or captured by hackers.  Is anyone really prepared for something like this?",
+      "The US top cyber talent and agencies, but our critical infrastructure remains vulnerable.",
+      "towards disagreeing. While US cybersecurity efforts are significant, the scale & sophistication of potential attacks, coupled with infrastructure vulnerabilities, make complete preparedness unlikely. A major event could still be very damaging. #Cybersecurity #USPreparedness\"",
+      "The US government is being handicapped by DOGE in it's cybersecurity initiatives.  With so many hiring programs frozen, workers being let go, and networks/databases being exposed to the open internet via Starlink, we're lucky that more hasn't gone wrong already.",
+      "Cyberattack is a major problem in the United States, and I believe that the United States is prepared to handle cyberattack.",
+      "I dont believe the United states is prepared to handle a major cyber attack because in the past many cyber attacks or information health and money sources have been tampered with and there is so much information getting into the wrong hands today"
+    ],
+    "tags": [
+      "general discussions",
+      "united",
+      "states",
+      "prepared",
+      "handle",
+      "major",
+      "cyberattack",
+      "its",
+      "computer",
+      "systems"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_lack_of_employment_opportunities_is_the_most_important_issue_for_the_governm",
+    "topic": "The lack of employment opportunities is the most important issue for the government to address first",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 253,
+    "initialOpinions": [
+      {
+        "workerId": "6361aSJ3W3",
+        "text": "AGREE",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "657b1SJ3W3",
+        "text": "Lack of employment opportunities is the most important issue for the government to address first because employment drives the economy.  Without jobs US citizens won't be able to survive.  They won't be able to make purchases which stimulates the economy.  It has a trickle down effect.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "56b43SJ3W3",
+        "text": "I think this is one of the most important issues. Unemployment affects all aspects of the economy which affects most people's daily lives. There needs to be more opportunities available.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "66d25SJ3W3",
+        "text": "I agree with the statement because a lack of employment opportunities can lead to poverty, increased crime rates and social unrest. when people have j",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I agree with the statement because a lack of employment oportutities can lead to poverty, increased crime rates and social unrest",
+      "This statement is most certainly true.  Without jobs US citizens will not be able to survive.  They will not be able to afford the necessities and certainly not be able to make purchases which stimulates the economy.  There is a trickle down effect so we must start with the lack",
+      "I tend to agree with this statement. Employment is a big factor in how well the economy is doing. A good economy is beneficial for everyone in their daily lives."
+    ],
+    "tags": [
+      "society & politics",
+      "lack",
+      "employment",
+      "opportunities",
+      "most",
+      "important",
+      "issue",
+      "government",
+      "address",
+      "first"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "you_are_satisfied_with_how_the_political_system_is_functioning_in_the_us_these_d",
+    "topic": "You are satisfied with how the political system is functioning in the US these days",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 228,
+    "initialOpinions": [
+      {
+        "workerId": "65406G9A6A",
+        "text": "It can be better. Especially financial wise.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "558aaG9A6A",
+        "text": "The political system has become too divisive. Each side—right and left—have become too radicalized, seeing the other side as the enemy. The political system should be about compromise, about coming TOGETHER as Americans, not Right Vs Left.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67f09G9A6A",
+        "text": "I agree. The current political system is delivering, despite challenges, which are usually almost obvious. In general, Trump's government is working and looks more promising than ever.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6738bG9A6A",
+        "text": "I think the U.S. political system has been corrupted beyond measure, as it seems Trump is determined to become a monarch, is an oligarch, and actually admires dictators and facists like Putin and Hitler. He is friends with a war criminal, values grotesque displays of wealth, cares nothing for his constituents, especially the common man",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I really not that satisfied i believe we can be in a better place than where we are now",
+      "I don't like how politics has become Right Vs. Left. It's too divisive rather than being about our common identity as Americans, working together for the good of our country.",
+      "The U.S. political system has been corrupted beyond measure. I am not even really sure how we can salvage it at this point, but don't want people to get so disgruntled that they give up hope. I feel that there are still good people out there, but it's very grim."
+    ],
+    "tags": [
+      "general discussions",
+      "you",
+      "satisfied",
+      "how",
+      "political",
+      "system",
+      "functioning",
+      "these",
+      "days"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "being_tough_with_china_on_economic_trade_issues_is_the_most_important_thing_for_",
+    "topic": "Being tough with China on economic trade issues is the most important thing for the US to do",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 224,
+    "initialOpinions": [
+      {
+        "workerId": "6740eYMQM2",
+        "text": "I don't agree as I don't think it matters. It's all a political show",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66219YMQM2",
+        "text": "Time to bring jobs back to the USA.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f24YMQM2",
+        "text": "Yes, it will help gain an advantageous position in the global perspective.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67f04YMQM2",
+        "text": "unf",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don't believe being tough with China is the most important thing for the U.S. to do as I don't think it matters. I believe it's all a political show and whether the people suffer or not the politicians don't care as they are just doing what the people above them tell them to do",
+      "being tough with china on economic/trade issues is the most important thing for the S.S. to do.",
+      "Our own politicians sold us out in the 1990's. NAFTA gutted our manufacturing and killed middle America. Time to bring jobs home to the USA."
+    ],
+    "tags": [
+      "society & politics",
+      "being",
+      "tough",
+      "china",
+      "economic",
+      "trade",
+      "issues",
+      "most",
+      "important",
+      "thing"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "one_of_the_bad_effects_of_science_is_that_it_breaks_down_people_s_ideas_of_right",
+    "topic": "One of the bad effects of science is that it breaks down people’s ideas of right and wrong",
+    "category": "Science & Technology",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 216,
+    "initialOpinions": [
+      {
+        "workerId": "660deXQ695",
+        "text": "Because some people are forgetful and may not remember completely the truth about what it is they're talking about. Or they just don't agree with the information being shown",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "6855fXQ695",
+        "text": "It often provides new tools for understanding.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "66297XQ695",
+        "text": "I completely disagree, in fact it threatens the establishments that have self-appointed their positions to tell everyone else what is \"right and wrong\". The same could be claimed about warfare, politics, industry, even religion.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66413XQ695",
+        "text": "I think for science it's more so about discovering new things so that people can understand the world more through new information. Do",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe the same thing that I said before, people who want to vilify science are the very ones who think it’s their job to tell everyone else what right and wrong is. It’s not their job, nor is it anyone else’s.",
+      "People are going to believe what they want to believe, even if the facts are in front of their face. Also, not everyone trusts science, and often times there's an agenda behind the information being shown to us by these 'scientists'.",
+      "I don't think science breaks down ideas of right and wrong, it challenges us to think logic."
+    ],
+    "tags": [
+      "science & technology",
+      "one",
+      "bad",
+      "effects",
+      "science",
+      "breaks",
+      "down",
+      "people",
+      "ideas",
+      "right",
+      "wrong"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_business_corporations_have_the_most_influence_on_american_policy_toward_othe",
+    "topic": "The business corporations have the most influence on American policy toward other countries than the media and ordinary Americans",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 216,
+    "initialOpinions": [
+      {
+        "workerId": "66a02PQBNR",
+        "text": "American media has the most influence over ordinary Americans, not corporations. The media inflates whatever fits the narrative of the day.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "671b2PQBNR",
+        "text": "I think politicians have slightly more influence over American policy than corporations, but it is close. Politicians influence business and corporations influence politicians. Both are very powerful.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "6151ePQBNR",
+        "text": "The question is not comprehensible.  If  you wish to use the comparative \"than\" you cannot use \"most\".  You must says \"....more influence than the media...etc.\"  If you're saying \"the most influence', then \"than\" means nothing.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "66e35PQBNR",
+        "text": "corporation buy position so they have a lot of say as to what goes on in other countries",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think politicians have slightly more influence than corporations. Corporations definitely have a lot of power. I just think politicians have slightly more.",
+      "The media influences the ordinary American more than corporations. The media inflates the narrative for whatever they want to showcase. Corporations just fall in line with whatever way the majority is going. They can't lose money on taking risks.",
+      "I feel that this is a true statement, because corporation spend a lot of money to lobby policies and poiti"
+    ],
+    "tags": [
+      "society & politics",
+      "business",
+      "corporations",
+      "have",
+      "most",
+      "influence",
+      "american",
+      "policy",
+      "toward",
+      "other",
+      "countries"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "the_quality_of_the_united_states_healthcare_system_is_above_average",
+    "topic": "The quality of the United States' healthcare system is above average",
+    "category": "Health & Wellness",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 214,
+    "initialOpinions": [
+      {
+        "workerId": "610223SYRD",
+        "text": "I disagree with this statement. While there is certainly great innovation and oppurtunity and amazing doctors in the US, patient's ability to access this care is grosslyh subpar and the cost barrier is immense.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "5865b3SYRD",
+        "text": "I guess... I would say it's way WAY too expensive. The rest of the world has much more affordable healthcare compared to us.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "65c3b3SYRD",
+        "text": "Disagree. In my area, you have to travel at least a hundred miles to see a specialist.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "5e42f3SYRD",
+        "text": "i dont think its that great when we pay so much more than other countrys",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I disagree with this statement. The US healthcare system is grossly broken. While we have expectional clinical trials, medical care, and doctors, the patient experiece is profoundly negative due to the wait times, cost barrier, and access barriers in this country.",
+      "I think that US healthcare may... MAY be a tad above average, but the biggest issue is that healthcare in the US is super super expensive compared to nearly every other country in the world. We are where all the healthcare manufacturers and big pharma make most of their cash.",
+      "I dont think its that great. we pay tons more than other countrys. We are getting ripped off. We dont even get the best care unless we have tons of money. I think we can improve but we go"
+    ],
+    "tags": [
+      "health & wellness",
+      "quality",
+      "united",
+      "states",
+      "healthcare",
+      "system",
+      "above",
+      "average"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "people_obeying_their_rulers_is_a_characteristic_of_democracy",
+    "topic": "People obeying their rulers is a characteristic of democracy",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 212,
+    "initialOpinions": [
+      {
+        "workerId": "67e9eN046Q",
+        "text": "I agree with the topic",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e7aN046Q",
+        "text": "a ruler was voted for and for that reason we should obey his or her law",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "65c25N046Q",
+        "text": "People 'obeying' their rulers is not a democracy.  A democracy doesn't have a ruler - it has a leader.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f2bN046Q",
+        "text": "Democracy entails freedom of speach and listening to leaders",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I agree people should obey the rulers in democracy",
+      "People 'obeying' their rulers is not a characteristic of a democracy.  A democracy has a leader - not a ruler.  The people have to be able to oppose what them - we don;t all agree on things.  The opposition helps build a stronger democracy.",
+      "its true that people obeying their ruler is characteristic of democracy because he was voted for"
+    ],
+    "tags": [
+      "general discussions",
+      "people",
+      "obeying",
+      "their",
+      "rulers",
+      "characteristic",
+      "democracy"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "ordinary_americans_have_the_most_influence_on_american_policy_toward_other_count",
+    "topic": "Ordinary Americans have the most influence on American policy toward other countries than the media and business corporations",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 210,
+    "initialOpinions": [
+      {
+        "workerId": "66bd4T9SFC",
+        "text": "Because media and business play a great part in influencing policies.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67f02T9SFC",
+        "text": "The ordinary American have influence becuse they are the law makers. the policy must be favourable to all.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67e29T9SFC",
+        "text": "I think I agree with the given topic for the fact that the ordinary Americans  mostlty",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67edaT9SFC",
+        "text": "That is about the most ridiculous thing I have ever heard. Corporations own the government and media! What",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "The statement is not true since media play a very great role in influencing most things",
+      "If you believe this then you are past the point of help. Corporations own the government and media. Those who can't se it are blinded",
+      "Ordinary Americans have most influence on policy towards other countries , this policy must first be okay for natives before others"
+    ],
+    "tags": [
+      "society & politics",
+      "ordinary",
+      "americans",
+      "have",
+      "most",
+      "influence",
+      "american",
+      "policy",
+      "toward",
+      "other",
+      "countries"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "news_organizations_are_doing_good_at_reporting_news_about_government_leaders_and",
+    "topic": "News organizations are doing good at reporting news about government leaders and officials",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 206,
+    "initialOpinions": [
+      {
+        "workerId": "665e2HTN5C",
+        "text": "I think generally, the news covers a broad overview of what is going on with our govt officials. I'm sure it is difficult to report every thing but for the most part I feel as though I am well informed.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5c0dbHTN5C",
+        "text": "No they are not. After the lies they covered up about Biden, i would never believe cnn, msnbc, adc, nbd, cbs, NYtimes. Its funny how they have all said something about Trump and his competence. But yet never mentioned anything about what was painfully obvious about Biden",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "655f9HTN5C",
+        "text": "News organizations need to be honest about their reporting. News organizations should not be cherry-picking. News organizations need to hold leaders accountable.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "56e5eHTN5C",
+        "text": "Mainstream news does not do a good job of this. They are very biased and would prefer to promote division and fear. The big news organizations are owned by billionaires who benefit from this. It is not a trustworthy process.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I don't trust major news organizations. They are owned by billionaires who serve their own self-interest. They stroke division and are full of biases.",
+      "Hi. News organizations need to do a lot of work. News organizations need to ask a lot of questions to the government leaders.",
+      "News coverage for the most part is informative from news organizations. I think they have a lot to digest and to get it all out there quickly is probably a challenge! With the amount of news channels out there, I think that they mostly do a good job and there is a lot of informat"
+    ],
+    "tags": [
+      "society & politics",
+      "news",
+      "organizations",
+      "doing",
+      "good",
+      "reporting",
+      "about",
+      "government",
+      "leaders",
+      "officials"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "work_should_always_come_first_even_if_it_means_less_spare_time",
+    "topic": "Work should always come first, even if it means less spare time",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 201,
+    "initialOpinions": [
+      {
+        "workerId": "670fbW03QK",
+        "text": "Work provides financial stability and career growth, making it essential to prioritize over personal time.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67d8dW03QK",
+        "text": "Committing fully to work can lead to greater achievements and personal fulfillment.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "663bdW03QK",
+        "text": "Work should always come first ... nah. Work is important but it is not everything there is to life. All work and no play make for a bad day. If you run out of money you can always make more.",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67852W03QK",
+        "text": "You wont have a life if you put work first always",
+        "sliderValue": 2,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "Prioritizing work ensures financial stability and career progress, essential for long-term security.",
+      "Work comes first even if less spare time ... no.",
+      "Committing to work demonstrates responsibility, discipline, and dedication to achieving goals."
+    ],
+    "tags": [
+      "general discussions",
+      "work",
+      "should",
+      "always",
+      "come",
+      "first",
+      "even",
+      "means",
+      "less",
+      "spare",
+      "time"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "donald_j_trump_can_make_good_decisions_about_the_use_of_military_force",
+    "topic": "Donald J Trump can make good decisions about the use of military force",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 200,
+    "initialOpinions": [
+      {
+        "workerId": "67ed1FMXJT",
+        "text": "Yes I think he is a good leader.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "5ef24FMXJT",
+        "text": "I believe Trump can make good decisions about the use of military force. He was already President before and nothing in this domain has went wrong. I believe he is equipped with relevant knowledge and sound decision making in order to make smart decisions in this case.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "63df0FMXJT",
+        "text": "Trump cannot make good decisions about the use of military force because he has bad judgment and also doesn't listen to experienced advisors on the matter. I do not have faith in his decision-making and judgment.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "67688FMXJT",
+        "text": "Trump definitely would make good decisions about the military because he is a good man and has good plans for the country",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I believe the statement is true simply because he has been President before and has not been known to mess anything up in this area.",
+      "I do not believe Trump can make good decision at all, much less about the use of the military. He should consult on such usage thoroughly with his expert advisors. Only the people he enlisted to help him also don't make good decisions and are not experienced on the topic.",
+      "Donald J. Trump has shown he can make strong decisions about military force—he prioritized U.S. interests, avoided dragging us into new wars, and wasn't afraid to act decisively when needed. His America First approach put national security and strength first."
+    ],
+    "tags": [
+      "general discussions",
+      "donald",
+      "trump",
+      "make",
+      "good",
+      "decisions",
+      "about",
+      "use",
+      "military",
+      "force"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "china_has_done_a_good_job_in_dealing_with_the_coronavirus_outbreak",
+    "topic": "China has done a good job in dealing with the coronavirus outbreak",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 198,
+    "initialOpinions": [
+      {
+        "workerId": "6643dQQ5NK",
+        "text": "I somewhat agree. Of course, I believe the Coronavirus could have been dealt better worldwide, but I'm glad that China did not hide the virus from the world.",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "61033QQ5NK",
+        "text": "I have a hard time having a strong opinion on this topic. Obviously the COVID outbreak was horrendous, and it escalated into a global pandemic that potentially could have been curbed with a better response from the Chinese government. That being said, the ability that we have to travel via plane etc. would make it hard to curb a pandemic of this magnitude so I don't know that other countries would have had a very different initial response.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "68156QQ5NK",
+        "text": "Nobody seems to have clear information on what happened in the Wuhan Lab or how the outbreak in the public sector was dealt with.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      },
+      {
+        "workerId": "67350QQ5NK",
+        "text": "I beleive China did a really bad job getting vaccines ready for people, enforcing mask policies, and sharing information about the coronavirus outbreak to help other countries with the virus. They did a poor job sharing research with other scientists to improve the vaccines.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      }
+    ],
+    "sampleExcerpts": [
+      "I find it hard to have a strong opinion on this because I don't have the most specific knowledge on the subject and given the global connectivity of the world, it would be hard to curb a virus as strong as COVID, but that being said, it feels like there had to be some negligence",
+      "I disagree. I feel this way because I think they may have known more about the virus than they led on in the beginning and tried to cover up some of their knowledge about the coronavirus.",
+      "I think China did an okay job dealing with the covid outbreak. I think the world could have done better at handling covid but doing a swift response where the world worked together to share data and make policies. But I think it was good China did not attempt to hide the outbreak"
+    ],
+    "tags": [
+      "society & politics",
+      "china",
+      "done",
+      "good",
+      "job",
+      "dealing",
+      "coronavirus",
+      "outbreak"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "donald_j_trump_can_make_good_decisions_about_international_trade",
+    "topic": "Donald J Trump can make good decisions about international trade",
+    "category": "Society & Politics",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 198,
+    "initialOpinions": [
+      {
+        "workerId": "62f6eK6DSH",
+        "text": "Donald Trump is the most incompetent president we've ever had. America is facing even harder times than usual with the tariff mess he's caused. He cannot make rational decisions.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "6633aK6DSH",
+        "text": "Trump has never made a good decision in his life much less about international trade. He fails at every deal. He is not a leader, he is a scam artist.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "662bfK6DSH",
+        "text": "I guess the best outcome would be to bring jobs back to the US, but in the meantime it's hurting other countries and, more importantly, the people of this country. We will pay higher prices for goods, as well as taxes.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "66badK6DSH",
+        "text": "I agree with the statement. He's capable of managing business affairs as proven by his history. Despite failures or successes, he seems as capable as most businessmen and politicians.",
+        "sliderValue": 4,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "Donald Trump cannot make rational decisions about anything. That extends to good international trade decisions for America.",
+      "It seems Donald Trump is capable of making good decisions about international trade. Based on recent events, the moves he has made seem to be working.",
+      "Donald Trump isn't trying to make deals for the country, he is trying to make deals for himself. He has proven that he is not a good leader domestically or internationally. I have zero confidence that he can make any international trade deals, much less good ones."
+    ],
+    "tags": [
+      "society & politics",
+      "donald",
+      "trump",
+      "make",
+      "good",
+      "decisions",
+      "about",
+      "international",
+      "trade"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "civil_rights_protecting_people_s_liberty_from_state_oppression_is_a_characterist",
+    "topic": "Civil rights protecting people’s liberty from state oppression is a characteristic of democracy",
+    "category": "Ethics & Law",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 188,
+    "initialOpinions": [
+      {
+        "workerId": "6835dRSG2Z",
+        "text": "it is true",
+        "sliderValue": 4,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67643RSG2Z",
+        "text": "Protecting people's liberty from oppression is a key characteristic of democracy. Once you start having state sponsored fascism the people aren't free ot do what they want.",
+        "sliderValue": 6,
+        "stance": "Support"
+      },
+      {
+        "workerId": "678c3RSG2Z",
+        "text": "Protecting other people's right is not only a moral thing to do, but also a characteristic of democracy. The art of being able to protect one's ppeople",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "67ddfRSG2Z",
+        "text": "The rights of the people should be protected at all costs. It doesn't matter if the oppressor is the state; the rights of the people must be upheld. That is why democracy is important and should be protected.",
+        "sliderValue": 6,
+        "stance": "Support"
+      }
+    ],
+    "sampleExcerpts": [
+      "I agree, it is an important characteristic. People's liberties are important in a democratic society.",
+      "There are certain rights that are exclusive only to citizens of a state.  Citizens should be able to make informed decisions on their own, and not impose on them.",
+      "Civil rights that protect individuals from state oppression are essential to democracy. Without them, majority rule can become tyranny. Democracy isn't just vot"
+    ],
+    "tags": [
+      "ethics & law",
+      "civil",
+      "rights",
+      "protecting",
+      "people",
+      "liberty",
+      "from",
+      "state",
+      "oppression",
+      "characteristic",
+      "democracy"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  },
+  {
+    "topicId": "it_is_a_child_s_duty_to_take_care_of_ill_parents",
+    "topic": "It is a child's duty to take care of ill parents",
+    "category": "General Discussions",
+    "topicType": "breadth",
+    "conversationCount": 1,
+    "totalTurns": 184,
+    "initialOpinions": [
+      {
+        "workerId": "5e8aaEG5V8",
+        "text": "Yes, if the parent was caring, then the child should reciprocate.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "55cf5EG5V8",
+        "text": "For the most part, people should take care of their parents when the parents are sick. I could see where there might be exceptions. It was a pretty general statement.",
+        "sliderValue": 5,
+        "stance": "Support"
+      },
+      {
+        "workerId": "65fc5EG5V8",
+        "text": "I'm not sure how old the child is in this scenario, but it's a lot to obligate a child to take care of their parents. Parentified children often encounter a lot of issues. They are often made to miss out on their own lives or even childhoods. Its unfair.",
+        "sliderValue": 1,
+        "stance": "Oppose"
+      },
+      {
+        "workerId": "68463EG5V8",
+        "text": "I agree with the statement  that it is a child duty to take care of ill parents.",
+        "sliderValue": 3,
+        "stance": "Neutral"
+      }
+    ],
+    "sampleExcerpts": [
+      "I think that if a parent was good to a child, then the child has a duty to care for the parent once they are sick and in need.",
+      "Yes, children should care for ill parents out of love, respect, and gratitude.",
+      "I thought that generally people should take care of their sick parents. I thought there could be exceptions. Normally people want to take care of their parents because they love them. The statement is so general though, I don't even know what \"taking care of\" covers exactly."
+    ],
+    "tags": [
+      "general discussions",
+      "child",
+      "duty",
+      "take",
+      "care",
+      "ill",
+      "parents"
+    ],
+    "source": "debatellm/DEBATE (Hugging Face)",
+    "license": "DEBATE Dataset Research-Only License (v1.0)"
+  }
+];

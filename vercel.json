@@ -5,6 +5,10 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/api/(.*)",
+      "destination": "https://exploreandlearn.onrender.com/api/$1"
+    },
+    {
       "source": "/data/(.*)",
       "destination": "/data/$1"
     },

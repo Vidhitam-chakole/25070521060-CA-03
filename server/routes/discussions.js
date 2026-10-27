@@ -1,6 +1,7 @@
 // server/routes/discussions.js
 import express from 'express';
 import DiscussionTopic from '../models/DiscussionTopic.js';
+import { seedDebateTopicsIfEmpty } from '../utils/autoSeed.js';
 
 const router = express.Router();
 
@@ -85,7 +86,7 @@ router.get('/', async (req, res) => {
       createdAt: 1,
     };
 
-    const [total, topics] = await Promise.all([
+    let [total, topics] = await Promise.all([
       DiscussionTopic.countDocuments(query),
       DiscussionTopic.find(query, projection)
         .sort(sortOptions)
@@ -93,6 +94,23 @@ router.get('/', async (req, res) => {
         .limit(limitNum)
         .lean(),
     ]);
+
+    // Self-healing: If database is completely empty, trigger auto-seed and reload
+    if (total === 0 && (!q || !q.trim()) && (!category || category === 'All')) {
+      const globalCount = await DiscussionTopic.countDocuments();
+      if (globalCount === 0) {
+        console.log('🌱 DiscussionTopic collection is empty. Auto-seeding predefined topics...');
+        await seedDebateTopicsIfEmpty();
+        [total, topics] = await Promise.all([
+          DiscussionTopic.countDocuments(query),
+          DiscussionTopic.find(query, projection)
+            .sort(sortOptions)
+            .skip(skip)
+            .limit(limitNum)
+            .lean(),
+        ]);
+      }
+    }
 
     const totalPages = Math.ceil(total / limitNum) || 1;
 
@@ -167,7 +185,7 @@ router.get('/categories', async (req, res) => {
  */
 router.get('/stats', async (req, res) => {
   try {
-    const [totalTopics, totalDepth, totalBreadth, totals] = await Promise.all([
+    let [totalTopics, totalDepth, totalBreadth, totals] = await Promise.all([
       DiscussionTopic.countDocuments(),
       DiscussionTopic.countDocuments({ topicType: 'depth' }),
       DiscussionTopic.countDocuments({ topicType: 'breadth' }),
@@ -181,6 +199,25 @@ router.get('/stats', async (req, res) => {
         },
       ]),
     ]);
+
+    if (totalTopics === 0) {
+      console.log('🌱 DiscussionTopic is empty on /stats. Auto-seeding...');
+      await seedDebateTopicsIfEmpty();
+      [totalTopics, totalDepth, totalBreadth, totals] = await Promise.all([
+        DiscussionTopic.countDocuments(),
+        DiscussionTopic.countDocuments({ topicType: 'depth' }),
+        DiscussionTopic.countDocuments({ topicType: 'breadth' }),
+        DiscussionTopic.aggregate([
+          {
+            $group: {
+              _id: null,
+              totalTurns: { $sum: '$totalTurns' },
+              totalConversations: { $sum: '$conversationCount' },
+            },
+          },
+        ]),
+      ]);
+    }
 
     const agg = totals[0] || { totalTurns: 0, totalConversations: 0 };
 
@@ -209,14 +246,40 @@ router.get('/stats', async (req, res) => {
 });
 
 /**
+ * GET /api/discussions/seed
+ * POST /api/discussions/seed
+ * Manually trigger or verify database seeding
+ */
+router.all('/seed', async (req, res) => {
+  try {
+    const force = req.query.force === 'true' || req.body?.force === true;
+    const result = await seedDebateTopicsIfEmpty(force);
+    res.json({
+      success: true,
+      ...result,
+    });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: 'Failed to seed debate topics',
+      error: err.message,
+    });
+  }
+});
+
+/**
  * GET /api/discussions/random
  * Get a random discussion topic for practice or surprise
  */
 router.get('/random', async (req, res) => {
   try {
-    const count = await DiscussionTopic.countDocuments();
+    let count = await DiscussionTopic.countDocuments();
     if (count === 0) {
-      return res.status(404).json({ success: false, message: 'No topics found in database' });
+      await seedDebateTopicsIfEmpty();
+      count = await DiscussionTopic.countDocuments();
+      if (count === 0) {
+        return res.status(404).json({ success: false, message: 'No topics found in database' });
+      }
     }
 
     const randomIdx = Math.floor(Math.random() * count);
