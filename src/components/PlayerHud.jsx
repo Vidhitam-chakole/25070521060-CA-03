@@ -3,15 +3,14 @@ import React from 'react';
 import { useAuth } from '../context/AuthContext';
 import { sound } from '../utils/audio';
 
-export function PlayerHud({ onReplayIntro }) {
+export function PlayerHud({ onReplayIntro, onOpenPoster }) {
   const { currentUser, isGuest, logout, openProfile, historyList } = useAuth();
+  const [isMuted, setIsMuted] = React.useState(() => sound.isMuted?.() || false);
 
   if (!currentUser) return null;
 
   const displayName = currentUser.nickname || currentUser.username || (isGuest ? 'Guest' : 'User');
   const initial = displayName.trim().charAt(0).toUpperCase() || 'U';
-
-  const [isMuted, setIsMuted] = React.useState(() => sound.isMuted?.() || false);
 
   const handleOpenProfile = () => {
     sound.playPillClick();
@@ -48,8 +47,8 @@ export function PlayerHud({ onReplayIntro }) {
         boxShadow: 'none',
       }}
     >
-      {/* Top Left: History Tab Button */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+      {/* Top Left: History & Digital Poster Button */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
         <button
           type="button"
           onClick={handleOpenProfile}
@@ -87,6 +86,37 @@ export function PlayerHud({ onReplayIntro }) {
             {historyList.length}
           </span>
         </button>
+
+        {onOpenPoster && (
+          <button
+            type="button"
+            onClick={() => {
+              sound.playPillClick();
+              onOpenPoster();
+            }}
+            title="Open Executive Digital Poster for CEO Presentation"
+            style={{
+              padding: '7px 13px',
+              backgroundColor: '#EDE8DB',
+              color: '#1E4D3B',
+              border: '2px solid #1E4D3B',
+              boxShadow: '2px 2px 0px #1E4D3B',
+              fontFamily: "'Pixelify Sans', monospace",
+              fontSize: '13px',
+              fontWeight: 700,
+              cursor: 'pointer',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              transition: 'background-color 0.1s ease',
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#F7F4EB')}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#EDE8DB')}
+          >
+            <span style={{ color: '#E8A857' }}>★</span>
+            <span>Digital Poster</span>
+          </button>
+        )}
       </div>
 
       {/* Top Right Controls: Watch Intro, Sign Out & Profile Initial Icon */}

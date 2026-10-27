@@ -6,7 +6,7 @@ import { MascotBubble } from './MascotBubble';
 import { MascotMenu } from './MascotMenu';
 import { sound } from '../../utils/audio';
 
-export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnalysis }) {
+export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnalysis, onOpenPoster }) {
   const {
     isVisible,
     mood,
@@ -127,18 +127,97 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
   }, [isAsleep, mood]);
 
   // Mascot Click reaction: opens the rich menu
+  const pokeCountRef = useRef(0);
+
+  // Mascot Click reaction: interactive poke with speaking advice and action pills
   const handleMascotClick = (e) => {
     e.stopPropagation();
     if (isDragging) return;
 
-    sound.playPillClick();
+    pokeCountRef.current = (pokeCountRef.current + 1);
+
+    try {
+      sound.playSnapChime?.();
+    } catch {
+      sound.playPillClick?.();
+    }
 
     if (mascotRef.current) {
       setStabilizedY(Math.round(mascotRef.current.getBoundingClientRect().top));
     }
     setIsStabilized(true);
 
-    // Open/toggle menu
+    // Cute animated mood reaction
+    setMood('happy');
+    setTimeout(() => {
+      if (!isAsleep) setMood('idle');
+    }, 2200);
+
+    // Spawn visual sparkles
+    const newSparkle = { id: Date.now() + Math.random(), x: (Math.random() - 0.5) * 40, y: -20 - Math.random() * 20 };
+    setClickSparkles((prev) => [...prev.slice(-4), newSparkle]);
+    setTimeout(() => {
+      setClickSparkles((prev) => prev.filter((s) => s.id !== newSparkle.id));
+    }, 900);
+
+    const INTERACTIVE_LINES = [
+      {
+        text: "Boop! 🦜 Need a speech boost, or want to roll a lucky topic?",
+        actions: [
+          { label: '🎲 Roll Prompt', primary: true, onClick: onTriggerSpin },
+          { label: '⏱️ 60s Practice', onClick: () => onStartTimer?.() },
+          { label: '📊 CEO Poster', onClick: () => onOpenPoster?.() },
+          { label: '🔍 Search Menu', onClick: () => setIsMenuOpen(true) },
+        ],
+      },
+      {
+        text: "Pro-tip: Pause right before your key point — strategic silence commands the room!",
+        actions: [
+          { label: '🎲 Spin Topic', primary: true, onClick: onTriggerSpin },
+          { label: '🎤 Analyze Speech', onClick: () => onOpenAnalysis?.() },
+          { label: '📊 CEO Poster', onClick: () => onOpenPoster?.() },
+        ],
+      },
+      {
+        text: "107 debate topics & hundreds of interview prompts ready. What shall we tackle?",
+        actions: [
+          { label: '⚖️ Debate Hub', primary: true, onClick: () => onNavigateTab?.('debate-hub') },
+          { label: '💼 Interview Prep', onClick: () => onNavigateTab?.('interview-prep') },
+          { label: '📊 CEO Poster', onClick: () => onOpenPoster?.() },
+        ],
+      },
+      {
+        text: "Standing tall & taking a deep breath boosts vocal projection by 40%! Ready?",
+        actions: [
+          { label: '⏱️ Start Timer', primary: true, onClick: () => onStartTimer?.() },
+          { label: '🎲 New Topic', onClick: onTriggerSpin },
+          { label: '📊 CEO Poster', onClick: () => onOpenPoster?.() },
+        ],
+      },
+      {
+        text: "Preparing for Monday's executive presentation? Check out our Digital Poster!",
+        actions: [
+          { label: '📊 Open Digital Poster', primary: true, onClick: () => onOpenPoster?.() },
+          { label: '🎲 Practice Prompt', onClick: onTriggerSpin },
+          { label: '🔍 Search Menu', onClick: () => setIsMenuOpen(true) },
+        ],
+      },
+    ];
+
+    const chosen = INTERACTIVE_LINES[(pokeCountRef.current - 1) % INTERACTIVE_LINES.length];
+    say(chosen.text, {
+      autoDismiss: 9000,
+      actions: chosen.actions,
+    });
+  };
+
+  const handleOpenMenuDirectly = (e) => {
+    e.stopPropagation();
+    sound.playPillClick();
+    if (mascotRef.current) {
+      setStabilizedY(Math.round(mascotRef.current.getBoundingClientRect().top));
+    }
+    setIsStabilized(true);
     setIsMenuOpen((prev) => !prev);
   };
 
@@ -545,9 +624,9 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
           </svg>
         </motion.div>
 
-        {/* Clean Name label below legs (clicking it also opens menu) */}
+        {/* Clean Name label below legs (clicking it opens menu) */}
         <div
-          onClick={handleMascotClick}
+          onClick={handleOpenMenuDirectly}
           title="Click to open menu"
           style={{
             position: 'absolute',
@@ -601,6 +680,7 @@ export function Mascot({ onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnaly
               onNavigateTab={onNavigateTab}
               onStartTimer={onStartTimer}
               onOpenAnalysis={onOpenAnalysis}
+              onOpenPoster={onOpenPoster}
             />
           )}
         </AnimatePresence>

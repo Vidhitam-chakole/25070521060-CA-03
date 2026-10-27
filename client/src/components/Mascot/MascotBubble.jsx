@@ -158,6 +158,54 @@ export function MascotBubble({ bubble, facing, positionX, onClose }) {
         {isTyping && <span style={{ opacity: 0.7 }}>█</span>}
       </p>
 
+      {/* Interactive Action Pills */}
+      {bubble?.actions && bubble.actions.length > 0 && (
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: '6px',
+            marginTop: '10px',
+            paddingTop: '8px',
+            borderTop: '1px solid #E2DCCF',
+          }}
+        >
+          {bubble.actions.map((act, idx) => (
+            <button
+              key={idx}
+              type="button"
+              onClick={() => {
+                sound.playPillClick?.();
+                act.onClick?.();
+                if (act.dismiss !== false) {
+                  onClose();
+                }
+              }}
+              style={{
+                padding: '4px 8px',
+                backgroundColor: act.primary ? '#1E4D3B' : '#FFFFFF',
+                color: act.primary ? '#FFFFFF' : '#1E4D3B',
+                border: '1.5px solid #1E4D3B',
+                fontSize: '11px',
+                fontFamily: "'Pixelify Sans', monospace",
+                fontWeight: 700,
+                cursor: 'pointer',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '4px',
+                boxShadow: act.primary ? '2px 2px 0px #0E3B33' : '1px 1px 0px #1E4D3B',
+                transition: 'transform 0.08s ease',
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.transform = 'translate(-1px, -1px)')}
+              onMouseLeave={(e) => (e.currentTarget.style.transform = 'translate(0, 0)')}
+            >
+              {act.icon}
+              <span>{act.label}</span>
+            </button>
+          ))}
+        </div>
+      )}
+
       {/* Buttons (Next, Skip) if provided */}
       {bubble?.buttons && bubble.buttons.length > 0 && (
         <div

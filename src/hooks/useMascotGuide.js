@@ -3,7 +3,18 @@ import { useMascot } from '../context/MascotContext';
 import { useAuth } from '../context/AuthContext';
 import confetti from 'canvas-confetti';
 
-export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunning, onTriggerSpin, onNavigateTab, onStartTimer, onOpenAnalysis }) {
+export function useMascotGuide({
+  activeTab,
+  currentPage,
+  timeLeft,
+  isTimerRunning,
+  isSpinning,
+  onTriggerSpin,
+  onNavigateTab,
+  onStartTimer,
+  onOpenAnalysis,
+  onOpenPoster,
+}) {
   const { currentUser } = useAuth();
   const nickname = currentUser?.nickname || currentUser?.username || 'Speaker';
 
@@ -65,10 +76,28 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
       hasGreetedRef.current = true;
       setTimeout(() => {
         setMood('happy');
-        say(`Welcome, ${nickname}! Let's crush today's speech practice!`, { autoDismiss: 4500 });
+        say(`Welcome, ${nickname}! Let's crush today's speech practice!`, {
+          autoDismiss: 5000,
+          actions: [
+            { label: '🎲 Roll Topic', primary: true, onClick: onTriggerSpin },
+            { label: '📊 CEO Poster', onClick: onOpenPoster },
+          ],
+        });
       }, 1200);
     }
-  }, [nickname, isVisible, isAsleep, say, setMood]);
+  }, [nickname, isVisible, isAsleep, say, setMood, onTriggerSpin, onOpenPoster]);
+
+  // Reactive Spin Cheering
+  const prevSpinningRef = useRef(false);
+  useEffect(() => {
+    if (isSpinning && !prevSpinningRef.current && isVisible && !isAsleep) {
+      setMood('happy');
+      say("Rolling the lucky reel! Let's see what topic fate gives you! 🎰", {
+        autoDismiss: 3200,
+      });
+    }
+    prevSpinningRef.current = isSpinning;
+  }, [isSpinning, isVisible, isAsleep, say, setMood]);
 
   // Contextual hints when user is on a tab
   useEffect(() => {
@@ -78,25 +107,63 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
     hintTimeoutRef.current = setTimeout(() => {
       if (activeTab === 'random-topics') {
         setMood('happy');
-        say(`Stuck on what to say, ${nickname}? Try pulling the lever to spin a new prompt!`, { autoDismiss: 5000 });
+        say(`Stuck on what to say, ${nickname}? Try pulling the lever to spin a new prompt!`, {
+          autoDismiss: 7000,
+          actions: [
+            { label: '🎲 Spin Reel', primary: true, onClick: onTriggerSpin },
+            { label: '⏱️ 60s Timer', onClick: onStartTimer },
+          ],
+        });
       } else if (activeTab === 'interview-prep') {
         setMood('pointing');
         say(`Pro-tip for ${nickname}: Use the STAR framework (Situation, Task, Action, Result) for behavioral questions!`, {
-          autoDismiss: 6000,
+          autoDismiss: 7000,
+          actions: [
+            { label: '🎲 Roll Question', primary: true, onClick: onTriggerSpin },
+            { label: '⏱️ Practice', onClick: onStartTimer },
+          ],
         });
       } else if (activeTab === 'learn-vocab') {
         setMood('talking');
-        say(`Challenge for ${nickname}: Try using this word in your opening sentence within 30 seconds!`, { autoDismiss: 6000 });
+        say(`Challenge for ${nickname}: Try using this word in your opening sentence within 30 seconds!`, {
+          autoDismiss: 7000,
+          actions: [
+            { label: '⏱️ Start 30s', primary: true, onClick: onStartTimer },
+            { label: '🎲 Next Word', onClick: onTriggerSpin },
+          ],
+        });
       } else if (activeTab === 'deep-research') {
         setMood('talking');
-        say(`Take 10 minutes to formulate your thesis before recording your speech, ${nickname}.`, { autoDismiss: 6000 });
+        say(`Take 10 minutes to formulate your thesis before recording your speech, ${nickname}.`, {
+          autoDismiss: 7000,
+          actions: [
+            { label: '⏱️ 10m Timer', primary: true, onClick: onStartTimer },
+          ],
+        });
+      } else if (activeTab === 'debate-hub') {
+        setMood('happy');
+        say(`Explore 107 real multi-turn debate topics from Hugging Face research, ${nickname}!`, {
+          autoDismiss: 7000,
+          actions: [
+            { label: '📊 CEO Poster', primary: true, onClick: onOpenPoster },
+          ],
+        });
       }
     }, 9000);
 
     return () => clearTimeout(hintTimeoutRef.current);
-  }, [activeTab, currentPage, isVisible, say, setMood, nickname]);
+  }, [activeTab, currentPage, isVisible, say, setMood, nickname, onTriggerSpin, onStartTimer, onOpenPoster]);
 
-  // Timer Page Guidance
+  // Reactive Timer Guidance
+  const prevTimerRunningRef = useRef(false);
+  useEffect(() => {
+    if (currentPage === 'timer' && isTimerRunning && !prevTimerRunningRef.current && isVisible) {
+      setMood('happy');
+      say("Timer is ticking! Breathe, project your voice, and stay clear! 🎤", { autoDismiss: 4000 });
+    }
+    prevTimerRunningRef.current = isTimerRunning;
+  }, [currentPage, isTimerRunning, isVisible, say, setMood]);
+
   useEffect(() => {
     if (currentPage !== 'timer' || !isVisible) return;
 
@@ -107,8 +174,12 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
 
     if (timeLeft === 0) {
       setMood('happy');
-      say(`Time's up, ${nickname}! Great job on your speech!`, {
-        autoDismiss: 5000,
+      say(`Time's up, ${nickname}! Great job! Review your delivery in Speech Analysis! 🏆`, {
+        autoDismiss: 7000,
+        actions: [
+          { label: '🎤 Speech Analysis', primary: true, onClick: () => onOpenAnalysis?.() },
+          { label: '🎲 Next Topic', onClick: onTriggerSpin },
+        ],
       });
       try {
         confetti({
@@ -121,7 +192,7 @@ export function useMascotGuide({ activeTab, currentPage, timeLeft, isTimerRunnin
         // ignore
       }
     }
-  }, [currentPage, isTimerRunning, timeLeft, isVisible, say, setMood, nickname]);
+  }, [currentPage, isTimerRunning, timeLeft, isVisible, say, setMood, nickname, onOpenAnalysis, onTriggerSpin]);
 
   return {
     startTour,

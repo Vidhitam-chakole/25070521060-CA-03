@@ -29,6 +29,7 @@ export function MascotMenu({
   onNavigateTab,
   onStartTimer,
   onOpenAnalysis,
+  onOpenPoster,
 }) {
   const {
     say,
@@ -123,6 +124,17 @@ export function MascotMenu({
         },
       },
       {
+        id: 'act-poster',
+        type: 'Action',
+        title: 'Digital Poster (CEO Showcase)',
+        desc: 'Executive project poster & capstone metrics',
+        icon: <Award size={14} color="#E8A857" />,
+        action: () => {
+          onOpenPoster?.();
+          say('Opening Executive Digital Poster!');
+        },
+      },
+      {
         id: 'act-spin',
         type: 'Action',
         title: 'Spin Random Topic',
@@ -213,7 +225,7 @@ export function MascotMenu({
     });
 
     return results.slice(0, 10);
-  }, [searchQuery, isAsleep, stayPut, onNavigateTab, onStartTimer, onTriggerSpin, onOpenAnalysis, toggleSleep, toggleStayPut, say]);
+  }, [searchQuery, isAsleep, stayPut, onNavigateTab, onStartTimer, onTriggerSpin, onOpenAnalysis, onOpenPoster, toggleSleep, toggleStayPut, say]);
 
   const handleItemClick = (item) => {
     sound.playButtonClick();
