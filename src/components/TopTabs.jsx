@@ -1,5 +1,5 @@
 // src/components/TopTabs.jsx
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { sound } from '../utils/audio';
 
@@ -12,40 +12,45 @@ export const TABS = [
 ];
 
 export function TopTabs({ activeTab, onChangeTab }) {
-  const activeTabRef = useRef(null);
-  const navRef = useRef(null);
-
-  // Smoothly auto-scroll the active tab into view on mobile screens
-  useEffect(() => {
-    if (activeTabRef.current && navRef.current) {
-      activeTabRef.current.scrollIntoView({
-        behavior: 'smooth',
-        block: 'nearest',
-        inline: 'center',
-      });
-    }
-  }, [activeTab]);
-
   return (
-    <div className="mobile-horizontal-nav-wrapper">
+    <div
+      className="top-tabs-wrapper"
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        paddingTop: '8px',
+        paddingBottom: '14px',
+        width: '100%',
+      }}
+    >
       <nav
-        ref={navRef}
         aria-label="Mode tabs"
-        className="mobile-horizontal-nav-bar no-scrollbar"
+        className="top-tabs-nav no-scrollbar"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: 'clamp(6px, 1.5vw, 10px)',
+          flexWrap: 'wrap',
+          maxWidth: '100%',
+          border: 'none',
+          backgroundColor: 'transparent',
+          boxShadow: 'none',
+          padding: '0 clamp(6px, 2vw, 12px)',
+        }}
       >
         {TABS.map((tab) => {
           const isActive = activeTab === tab.id;
           return (
             <motion.button
               key={tab.id}
-              ref={isActive ? activeTabRef : null}
               whileHover={{ y: -2, x: -1, boxShadow: '4px 4px 0px #1E4D3B' }}
               whileTap={{ y: 2, x: 2, boxShadow: '1px 1px 0px #1E4D3B' }}
               onClick={() => {
                 sound.playTabSwitch();
                 onChangeTab(tab.id);
               }}
-              className={`nav-tab-button ${isActive ? 'active' : ''}`}
+              className="top-tab-btn"
               style={{
                 position: 'relative',
                 display: 'inline-flex',
@@ -64,7 +69,6 @@ export function TopTabs({ activeTab, onChangeTab }) {
                 transition: 'background-color 0.15s ease, color 0.15s ease',
                 whiteSpace: 'nowrap',
                 letterSpacing: '0.02em',
-                flexShrink: 0,
               }}
             >
               <span
@@ -101,4 +105,3 @@ export function TopTabs({ activeTab, onChangeTab }) {
     </div>
   );
 }
-

@@ -117,93 +117,7 @@ a { text-decoration: none; color: inherit; }
 }
 .mascot-flight-bob { animation: mascotGentleBob 2.4s ease-in-out infinite; }
 
-/* Responsive Player HUD */
-.player-hud-container {
-  display: flex;
-  align-items: center;
-  justifyContent: space-between;
-  flex-wrap: wrap;
-  gap: 8px;
-  padding: 4px clamp(10px, 3vw, 20px);
-  margin: 0 auto 8px auto;
-  max-width: 1200px;
-  width: 100%;
-}
-
-@media (max-width: 640px) {
-  .player-hud-container {
-    padding: 4px 8px;
-    gap: 4px;
-  }
-  .hud-btn-label {
-    display: none;
-  }
-  .hud-demo-badge {
-    display: none;
-  }
-  .hud-action-btn {
-    padding: 5px 8px !important;
-  }
-}
-
-/* Strictly Horizontal Mobile Navigation Bar */
-.mobile-horizontal-nav-wrapper {
-  display: flex;
-  justifyContent: center;
-  padding-top: 8px;
-  padding-bottom: 14px;
-  width: 100%;
-  position: relative;
-}
-
-.mobile-horizontal-nav-bar {
-  display: flex;
-  align-items: center;
-  justifyContent: center;
-  gap: clamp(6px, 1.5vw, 10px);
-  flex-wrap: wrap;
-  max-width: 100%;
-  padding: 0 clamp(6px, 2vw, 12px);
-}
-
-@media (max-width: 768px) {
-  .mobile-horizontal-nav-wrapper {
-    justify-content: flex-start;
-    padding: 4px 0 10px 0;
-    width: 100%;
-    overflow: hidden;
-    /* Soft edge fades indicating horizontal scrolling capability */
-    mask-image: linear-gradient(to right, transparent, black 14px, black calc(100% - 14px), transparent);
-    -webkit-mask-image: linear-gradient(to right, transparent, black 14px, black calc(100% - 14px), transparent);
-  }
-
-  .mobile-horizontal-nav-bar {
-    justify-content: flex-start !important;
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    gap: 8px;
-    padding: 4px 16px 8px 16px;
-    width: 100%;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .mobile-horizontal-nav-bar::-webkit-scrollbar {
-    display: none;
-  }
-
-  .nav-tab-button {
-    flex-shrink: 0 !important;
-    scroll-snap-align: center;
-    padding: 8px 12px !important;
-    font-size: 9.5px !important;
-  }
-}
-
-/* Responsive Grid Layout */
+/* Responsive Grid Layout - Exact Original Laptop Dimensions */
 .app-main-grid {
   width: 100%;
   max-width: 1180px;
@@ -239,25 +153,45 @@ a { text-decoration: none; color: inherit; }
 }
 
 @media (max-width: 860px) {
-  .app-main-grid { grid-template-columns: 1fr; gap: 20px; }
+  .app-main-grid { grid-template-columns: 1fr; gap: 24px; }
   .app-left-col { padding: 8px 12px; align-items: center; text-align: center; }
   .reel-lever-wrapper { padding: 0 4px; max-width: 100%; }
 }
+
+/* Mobile-only: Strictly horizontal navigation bar */
+@media (max-width: 768px) {
+  .top-tabs-wrapper {
+    justify-content: flex-start !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .top-tabs-nav {
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding: 0 16px 6px 16px !important;
+    gap: 8px !important;
+    width: auto !important;
+    min-width: 100% !important;
+  }
+  .top-tabs-nav::-webkit-scrollbar {
+    display: none;
+  }
+  .top-tab-btn {
+    flex-shrink: 0 !important;
+    scroll-snap-align: start;
+  }
+}
+
 @media (max-width: 480px) {
   .app-left-col { padding: 4px 6px; }
   .pixel-box { box-shadow: 2px 2px 0px var(--primary-dark-green); }
-  .reel-lever-wrapper {
-    transform: scale(0.92);
-    transform-origin: center center;
-    margin: -8px 0;
-  }
-}
-@media (max-width: 380px) {
-  .reel-lever-wrapper {
-    transform: scale(0.85);
-    transform-origin: center center;
-    margin: -16px 0;
-  }
 }
 
 @media print {
