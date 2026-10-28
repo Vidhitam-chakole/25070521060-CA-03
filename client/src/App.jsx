@@ -36,7 +36,6 @@ import { PlayerHud } from './components/PlayerHud';
 import { TopTabs } from './components/TopTabs';
 import { HeroTitle } from './components/HeroTitle';
 import { StepsList } from './components/StepsList';
-import { AnalysisButton } from './components/AnalysisButton';
 import { FrameworkAccordion } from './components/FrameworkAccordion';
 import { FilterPills } from './components/FilterPills';
 import { TopicReel } from './components/TopicReel';
@@ -78,7 +77,6 @@ function AppContent() {
     researchCategory: 'random',
   });
 
-  const [isMuted, setIsMuted] = useState(false);
   const [isAnalysisOpen, setIsAnalysisOpen] = useState(false);
   const [analysisTarget, setAnalysisTarget] = useState(null);
 
@@ -256,11 +254,6 @@ function AppContent() {
     };
     setAnalysisTarget(target);
     setIsAnalysisOpen(true);
-  };
-
-  const handleToggleMute = () => {
-    const muted = sound.toggleMute();
-    setIsMuted(muted);
   };
 
   const handleVideoIntroComplete = () => {

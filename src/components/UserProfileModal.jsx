@@ -6,7 +6,6 @@ import {
   User,
   History,
   Star,
-  Search,
   Calendar,
   Trash2,
   Edit2,

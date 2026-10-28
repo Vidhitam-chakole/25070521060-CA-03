@@ -762,7 +762,7 @@ export const sound = new Proxy(soundInstance, {
       const val = Reflect.get(target, prop, receiver);
       return typeof val === 'function' ? val.bind(target) : val;
     }
-    return (...args) => {
+    return () => {
       console.warn(`[audio] sound.${String(prop)} is not implemented; safely falling back.`);
       try {
         if (target.playButtonClick) target.playButtonClick();

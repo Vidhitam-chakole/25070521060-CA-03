@@ -7,7 +7,7 @@ import { sound } from '../utils/audio';
 import { useAuth } from '../context/AuthContext';
 
 export function SpeechAnalysisModal({ isOpen, onClose, topicData, onTryAgain }) {
-  const { currentUser, isGuest } = useAuth();
+  const { currentUser } = useAuth();
   const nickname = currentUser?.nickname || currentUser?.username || 'Speaker';
 
   if (!isOpen) return null;

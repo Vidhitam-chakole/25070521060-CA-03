@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { sound } from '../utils/audio';
 
-export const TABS = [
+const TABS = [
   { id: 'random-topics', label: 'Random Topics' },
   { id: 'interview-prep', label: 'Interview Prep' },
   { id: 'learn-vocab', label: 'Learn Vocab' },

@@ -1,7 +1,7 @@
 // src/components/SessionRatingSection.jsx
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Star, CheckCircle2, MessageSquare, BookOpen, Sparkles, ExternalLink } from 'lucide-react';
+import { Star, CheckCircle2, MessageSquare, Sparkles, ExternalLink } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useAuth } from '../context/AuthContext';
 import { sound } from '../utils/audio';
@@ -25,14 +25,13 @@ export function SessionRatingSection({
   onSaved,
   onViewHistory,
 }) {
-  const { addHistoryEntry, openProfile, isAuthenticated, isGuest } = useAuth();
+  const { addHistoryEntry, openProfile, isGuest } = useAuth();
 
   const [rating, setRating] = useState(5);
   const [hoverRating, setHoverRating] = useState(0);
   const [feedback, setFeedback] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
-  const [savedEntry, setSavedEntry] = useState(null);
   const [errorMsg, setErrorMsg] = useState('');
 
   const currentDisplayRating = hoverRating || rating;
@@ -73,7 +72,6 @@ export function SessionRatingSection({
       const result = await addHistoryEntry(payload);
       if (result.success) {
         setIsSaved(true);
-        setSavedEntry(result.entry);
 
         if (rating >= 4) {
           try {

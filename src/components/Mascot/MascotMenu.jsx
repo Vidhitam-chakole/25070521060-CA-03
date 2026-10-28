@@ -32,7 +32,6 @@ export function MascotMenu({
 }) {
   const {
     say,
-    setMood,
     isAsleep,
     toggleSleep,
     stayPut,

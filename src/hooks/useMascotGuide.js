@@ -10,7 +10,6 @@ export function useMascotGuide({
   isTimerRunning,
   isSpinning,
   onTriggerSpin,
-  onNavigateTab,
   onStartTimer,
   onOpenAnalysis,
 }) {
@@ -23,18 +22,13 @@ export function useMascotGuide({
     setMood,
     isAsleep,
     say,
-    dismissBubble,
     setPosition,
     setFacing,
-    setIsMenuOpen,
-    tourStep,
     setTourStep,
     setCurrentTargetKey,
     getTargetRect,
   } = useMascot();
 
-  const lastActivityRef = useRef(Date.now());
-  const idleTimerRef = useRef(null);
   const hintTimeoutRef = useRef(null);
   const isTourActiveRef = useRef(false);
 
@@ -151,7 +145,7 @@ export function useMascotGuide({
     }, 9000);
 
     return () => clearTimeout(hintTimeoutRef.current);
-  }, [activeTab, currentPage, isVisible, say, setMood, nickname, onTriggerSpin, onStartTimer]);
+  }, [activeTab, currentPage, isVisible, isAsleep, mood, say, setMood, nickname, onTriggerSpin, onStartTimer]);
 
   // Reactive Timer Guidance
   const prevTimerRunningRef = useRef(false);
